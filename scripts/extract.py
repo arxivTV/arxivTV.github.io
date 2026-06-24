@@ -217,8 +217,12 @@ def extract_html(id,html_url):
                 src = '/'.join(src.split('/')[1:])
             if '.' not in src:
                 continue
-            figures.append(html_url + '/' + src)
+            fig_url = html_url + '/' + src
+            if requests.get(fig_url).status_code == 200:
+                figures.append(fig_url)
 
+    if len(figures) == 0:
+        return None
     if len(figures) > 10:
         figures = figures[:10]
     
@@ -256,21 +260,19 @@ def check_has_html(url):
 def main(id):
     tex_url = 'https://arxiv.org/src/{}'.format(id)
     abs_url = 'https://arxiv.org/abs/{}'.format(id)
-    print(id,abs_url)
     html_url = get_html_url(abs_url)
 
     if html_url is not None:
-        print('extracting html metadata')
+        print(id,'extracting html metadata')
         return extract_html(id,html_url)
     
     with tempfile.TemporaryDirectory() as tmpdir:
         filename = tex_url.split("/")[-1]
         archive_path = os.path.join(tmpdir, filename)
 
-        print("Downloading archive...")
+        print(id,"Downloading archive...")
         download_file(tex_url, archive_path)
 
-        print("Extracting archive...")
         result = extract_archive(archive_path, tmpdir)
         if result is False:
             return None
