@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Papers Viewer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0px;
+            
+        }
+        #papers-container {
+            display: flex;
+            flex-direction: row;
+            height: 100vh;          /* full viewport height */
+            overflow-x: auto;       /* enable horizontal scroll */
+            overflow-y: hidden;     /* disable vertical scroll */
+            scroll-snap-type: x mandatory;  /* optional but nice */
+        }
+
+        .paper {
+            will-change: transform;
+            flex: 0 0 50vw;      /* your new width */
+            height: 100vh;
+            box-sizing: border-box;
+            overflow-y: auto;    /* vertical scrolling inside paper */
+            overflow-x: hidden;
+        }
+
+        /* Sticky header section */
+        .paper-header {
+            position: sticky;
+            top: 0;
+            padding:10px;
+            background: white;
+            padding-bottom: 10px;
+            z-index: 10;
+            border-bottom: 1px solid #ddd;
+            height: 110px;
+        }
+        .title {
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .authors {
+            color: #555;
+            margin: 5px 0;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            max-width: 500px;
+        }
+        .keywords {
+            font-style: italic;
+            margin: 5px 0;
+        }
+        .figures {
+            margin-top: 10px;
+            width: 100%;
+        }
+        .qr{
+            display: inline-block;
+        }
+        .paper-header div{
+            width: calc(100% - 110px);
+            left: 110px;
+            position: relative;
+            top: -100px;
+        }
+    </style>
+</head>
+<body>
+
+<div id="papers-container"></div>
+
+<script>
+function startAutoScroll(paper, totalDurationSeconds = 20) {
+    let lastTimestamp = null;
+
+    function animate(timestamp) {
+        const maxScroll = paper.scrollHeight - paper.clientHeight;
+        const baseSpeed = maxScroll / totalDurationSeconds;
+
+        if (lastTimestamp === null) lastTimestamp = timestamp;
+        const elapsed = (timestamp - lastTimestamp) / 1000;
+        lastTimestamp = timestamp;
+
+        paper.scrollTop = Math.min(paper.scrollTop + elapsed * baseSpeed * speedfactor, maxScroll);
+
+        if ((maxScroll - paper.scrollTop < 1) && (paper.getAttribute('to_remove') == "true")) {
+            paper.remove();
+            check_populate();
+            return;
+        }
+        
+        window.requestAnimationFrame(animate);
+    }
+    window.requestAnimationFrame(animate);
+}
+
+function check_populate(){
+    let papers = document.querySelectorAll(".paper");
+
+    if (papers.length == 0){
+        paper_index += 2;
+        loadPapers("articles.json");
+    }
+}
+
+async function loadPapers(folderPath) {
+    folderPath = folderPath + "?v=" + Math.floor(Math.random() * 100000);
+    const container = document.getElementById("papers-container");
+
+    // Load index file
+    const indexResponse = await fetch(folderPath);
+    const files = await indexResponse.json();
+
+    if (paper_index >= Object.keys(files).length){
+        location.reload();
+    }
+
+    if (paper_index < 0){
+        paper_index = Object.keys(files).length + paper_index;
+    }
+
+    let _i = -1;
+    for (const [id, data] of Object.entries(files)) {
+        _i += 1;
+        if (_i < paper_index){
+            continue;
+        }
+        if (_i > paper_index + 1){
+            break;
+        }
+
+        const paperDiv = document.createElement("div");
+        paperDiv.className = "paper";
+        paperDiv.setAttribute('to_remove',true);
+
+        // Title
+        const title = document.createElement("div");
+        title.className = "title";
+        title.textContent = `${id}: ${data.title}`;
+
+        //QR code
+        const qr = document.createElement("img");
+        qr.src = "https://api.qrserver.com/v1/create-qr-code/?size=100x100&data=http://arxiv.org/pdf/" + id;
+        qr.className = "qr";
+
+        // Authors
+        const authors = document.createElement("div");
+        authors.className = "authors";
+        authors.textContent = data.authors.join(", ");
+
+        // Keywords
+        const keywords = document.createElement("div");
+        keywords.className = "keywords";
+        keywords.textContent = data.keywords;
+
+        // Figures
+        const figures = document.createElement("div");
+        figures.className = "figures";
+
+        const ul = document.createElement("ul");
+        data.figures.forEach(fig => {
+            const ext = fig.split('.').pop().toLowerCase();
+
+            const img = document.createElement("img");
+            img.className = 'figures';
+            img.src = fig;
+
+            figures.appendChild(img);
+        });
+        figures.appendChild(ul);
+
+        const header = document.createElement("div");
+        header.className = "paper-header";
+
+        team = ["Boin T.","Di Matteo P.","Haywood M.","Boldrini P.","Parul A.","Quintana A.","Casamiquela L.","Katz D.","Laporte C.","Hoyer N.","Wempe E.",
+                "T. Boin","P. Di Matteo","M. Haywood","P. Boldrini","A. Parul","A. Quintana","L. Casamiquela","D. Katz","C. Laporte","N. Hoyer","E. Wempe"
+        ];
+
+        if (team.some(v => authors.textContent.includes(v))) {
+            header.style.background = 'gold';
+        }
+
+        header.appendChild(qr);
+        header.appendChild(title);
+        header.appendChild(authors);
+        header.appendChild(keywords);
+
+        paperDiv.appendChild(header);
+        paperDiv.appendChild(figures);
+
+        container.appendChild(paperDiv);
+
+        let images = paperDiv.querySelectorAll("img");
+        let loaded = 0;
+
+        if (images.length === 0) {
+            startAutoScroll(paperDiv, 10);
+        }
+        else{
+            paperDiv.querySelectorAll("img").forEach(img => {
+                img.addEventListener("load", () => {
+                    loaded++;
+                    if (loaded === images.length) {
+                        startAutoScroll(paperDiv, 60);
+                    }
+                });
+            });
+        }
+    }
+    return animationFrames;
+}
+
+var paper_index = 0;
+speedfactor = 1;
+loadPapers("articles.json");
+
+document.addEventListener('keydown', logAnyKey);
+document.addEventListener('keyup', logAnyKeyUp);
+
+function logAnyKeyUp(e) {
+    if (e.code == "ArrowDown" || e.code == "ArrowUp" || e.code == "Space"){
+        speedfactor = 1;
+    }
+}
+
+function logAnyKey(e) { 
+    var change_paper = false;
+    if (e.code == "ArrowLeft"){
+        change_paper = true;
+        paper_index -= 2;
+    }
+    else if (e.code == "ArrowRight"){
+        change_paper = true;
+        paper_index += 2;
+    }
+    else if (e.code == "ArrowDown"){
+        speedfactor = 10;
+    }
+    else if (e.code == "ArrowUp"){
+        speedfactor = -10;
+    }
+    else if (e.code == "Space"){
+        speedfactor = 0;
+    }
+    else{
+        return;
+    }
+
+    if (change_paper){
+        document.querySelectorAll(".paper").forEach(el => {
+            el.setAttribute('to_remove',false);
+            el.remove();
+        });
+
+        loadPapers("articles.json");
+    }
+}
+
+</script>
+
+</body>
+</html>
