@@ -232,7 +232,7 @@ speedfactor = 1;
 
 var url = new URL(location.toString());
 var c = url.searchParams.get("cat");
-if (c == ""){
+if (c == null){
     c = "astro-ph.GA";
 }
 const articles_url = "articles_" + c + ".json";
