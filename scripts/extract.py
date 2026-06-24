@@ -171,7 +171,7 @@ def extract_arxiv_metadata(url):
     }
 
 def get_new_arxiv_links(arxiv_cat):
-    rss_url = "https://rss.arxiv.org/rss/" + arxiv_cat
+    rss_url = "https://rss.arxiv.org/rss/astro-ph." + arxiv_cat
     print(rss_url)
     response = requests.get(rss_url)
     response.raise_for_status()
@@ -310,9 +310,7 @@ def main(id):
 
         return metadata | keywords | figures
 
-arxiv_cats = [
-    'astro-ph.GA','astro-ph.EP'
-]
+arxiv_cats = ['GA','EP','CO','HE', 'IM', 'SR']
 
 if os.path.exists('build/figures'):
     shutil.rmtree('build/figures')
@@ -327,7 +325,7 @@ for arxiv_cat in arxiv_cats:
         if res is not None:
             global_metadata[id] = res
 
-    json_file = 'build/articles_{}.json'.format(arxiv_cat)
+    json_file = 'build/articles_astro-ph.{}.json'.format(arxiv_cat)
 
     with open(json_file, 'w') as fp:
         json.dump(global_metadata, fp, indent=4)

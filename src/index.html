@@ -232,11 +232,10 @@ speedfactor = 1;
 
 var url = new URL(location.toString());
 var c = url.searchParams.get("cat");
-console.log(c);
 if (c == null){
-    c = "astro-ph.GA";
+    c = "GA";
 }
-const articles_url = "articles_" + c + ".json";
+const articles_url = "articles_astro-ph." + c + ".json";
 
 loadPapers(articles_url);
 
