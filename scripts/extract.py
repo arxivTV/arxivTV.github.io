@@ -35,13 +35,13 @@ def convert_pdf_figures_to_png(figure_paths, root_dir, article_id, output_base="
             pix.save(dst_path)
             doc.close()
 
-            updated_paths.append(dst_path.replace("\\", "/"))
+            updated_paths.append(dst_path.replace('build/','').replace("\\", "/"))
         elif ext == ".png" or ext == ".jpg":
             filename = os.path.basename(fig)
             dst_path = os.path.join(output_dir, filename)
             shutil.copy2(src_path, dst_path)
 
-            updated_paths.append(dst_path.replace("\\", "/"))
+            updated_paths.append(dst_path.replace('build/','').replace("\\", "/"))
 
     return {'figures':updated_paths}
 
