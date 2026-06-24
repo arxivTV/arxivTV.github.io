@@ -141,7 +141,7 @@ async function loadPapers(folderPath) {
         // Title
         const title = document.createElement("div");
         title.className = "title";
-        title.textContent = `${id}: ${data.title}`;
+        title.innerHTML = `<a href="https://arxiv.org/abs/${id}">${id}</a>: ${data.title}`;
 
         //QR code
         const qr = document.createElement("img");
@@ -225,7 +225,6 @@ async function loadPapers(folderPath) {
             });
         }
     }
-    return animationFrames;
 }
 
 var paper_index = 0;
