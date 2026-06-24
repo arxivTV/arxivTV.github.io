@@ -263,7 +263,7 @@ def main(id):
     html_url = get_html_url(abs_url)
 
     if html_url is not None:
-        print(id,'extracting html metadata')
+        print(id,'Extracting html metadata')
         return extract_html(id,html_url)
     
     with tempfile.TemporaryDirectory() as tmpdir:
