@@ -8,6 +8,9 @@ def convert_pdf_figures_to_png(figure_paths, root_dir, article_id, output_base="
     article_id = article_id.replace('.','_')
 
     output_dir = os.path.join(output_base, article_id)
+    if os.path.exists(output_dir):
+        return {'figures':[]}
+    
     os.makedirs(output_dir)
 
     updated_paths = []
@@ -20,12 +23,9 @@ def convert_pdf_figures_to_png(figure_paths, root_dir, article_id, output_base="
 
         ext = os.path.splitext(fig)[-1].lower()
 
-        #print(fig,ext)
-
-        # If it's a PDF → convert
         if ext == ".pdf":
             doc = fitz.open(src_path)
-            page = doc.load_page(0)  # first page only
+            page = doc.load_page(0)
 
             pix = page.get_pixmap(dpi=dpi)
 
@@ -305,12 +305,14 @@ def main(id):
             root_dir=tmpdir,
             article_id=id
         )
+        if len(figures['figures']) == 0:
+            return None
 
         metadata = extract_arxiv_metadata(abs_url)
 
         return metadata | keywords | figures
 
-arxiv_cats = ['GA','EP','CO','HE', 'IM', 'SR']
+arxiv_cats = ['GA','EP','CO','HE','IM','SR']
 
 if os.path.exists('build/figures'):
     shutil.rmtree('build/figures')
