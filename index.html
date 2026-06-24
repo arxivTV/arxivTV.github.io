@@ -176,9 +176,22 @@ async function loadPapers(folderPath) {
         const header = document.createElement("div");
         header.className = "paper-header";
 
-        team = ["Boin T.","Di Matteo P.","Haywood M.","Boldrini P.","Parul A.","Quintana A.","Casamiquela L.","Katz D.","Laporte C.","Hoyer N.","Wempe E.",
-                "T. Boin","P. Di Matteo","M. Haywood","P. Boldrini","A. Parul","A. Quintana","L. Casamiquela","D. Katz","C. Laporte","N. Hoyer","E. Wempe"
+        var team = ["Tristan Boin","Paola Di Matteo","Misha Haywood","Pierre Boldrini","Alexis Quintana",
+                "Laia Casamiquela","David Katz","Chervin Laporte","Nils Hoyer","Ewoud Wempe","Anna Parul","Hanna Parul"
         ];
+
+        team = team.flatMap(fullName => {
+            const [firstName, ...lastNamesParts] = fullName.trim().split(/\s+/);
+            const lastNames = lastNamesParts.join(" ");
+            const initial = firstName[0];
+
+            return [
+                fullName,
+                `${lastNames} ${firstName}`,
+                `${initial}. ${lastNames}`,
+                `${lastNames} ${initial}.`
+            ];
+        });
 
         if (team.some(v => authors.textContent.includes(v))) {
             header.style.background = 'gold';
