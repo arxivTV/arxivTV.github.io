@@ -167,7 +167,7 @@ async function loadPapers(folderPath) {
 
             const img = document.createElement("img");
             img.className = 'figures';
-            img.src = 'https://arxivtv.github.io/' + fig;
+            img.src = fig;
 
             figures.appendChild(img);
         });
@@ -229,7 +229,15 @@ async function loadPapers(folderPath) {
 
 var paper_index = 0;
 speedfactor = 1;
-loadPapers("https://arxivtv.github.io/articles.json");
+
+var url = new URL(location.toString());
+var c = url.searchParams.get("cat");
+if (c == ""){
+    c = "astro-ph.GA";
+}
+const articles_url = "articles_" + c + ".json";
+
+loadPapers(articles_url);
 
 document.addEventListener('keydown', logAnyKey);
 document.addEventListener('keyup', logAnyKeyUp);
@@ -269,7 +277,7 @@ function logAnyKey(e) {
             el.remove();
         });
 
-        loadPapers("https://arxivtv.github.io/articles.json");
+        loadPapers(articles_url);
     }
 }
 

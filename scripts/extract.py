@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 import fitz
 import xml.etree.ElementTree as ET
 
-def convert_pdf_figures_to_png(figure_paths, root_dir, article_id, output_base="figures", dpi=200):
+def convert_pdf_figures_to_png(figure_paths, root_dir, article_id, output_base="build/figures", dpi=200):
     article_id = article_id.replace('.','_')
 
     output_dir = os.path.join(output_base, article_id)
@@ -170,7 +170,9 @@ def extract_arxiv_metadata(url):
         "authors": authors
     }
 
-def get_new_arxiv_links(rss_url="https://rss.arxiv.org/rss/astro-ph.GA"):
+def get_new_arxiv_links(arxiv_cat):
+    rss_url = "https://rss.arxiv.org/rss/" + arxiv_cat
+    print(rss_url)
     response = requests.get(rss_url)
     response.raise_for_status()
 
@@ -308,24 +310,26 @@ def main(id):
 
         return metadata | keywords | figures
 
-global_metadata = {}
+arxiv_cats = [
+    'astro-ph.GA','astro-ph.EP'
+]
 
-ids = get_new_arxiv_links()
+if os.path.exists('build/figures'):
+    shutil.rmtree('build/figures')
 
-#ids = ["2603.16852","2302.02890","2409.15279"]
-#ids = ["2603.17429"]
-#ids = ['2407.09799']
-#ids = ['2603.16994']
+for arxiv_cat in arxiv_cats:
+    global_metadata = {}
 
-if os.path.exists('figures'):
-    shutil.rmtree('figures')
+    ids = get_new_arxiv_links(arxiv_cat)
 
-for id in ids:
-    res = main(id)
-    if res is not None:
-        global_metadata[id] = res
+    for id in ids:
+        res = main(id)
+        if res is not None:
+            global_metadata[id] = res
 
-json_file = 'articles.json'
+    json_file = 'build/articles_{}.json'.format(arxiv_cat)
 
-with open(json_file, 'w') as fp:
-    json.dump(global_metadata, fp, indent=4)
+    with open(json_file, 'w') as fp:
+        json.dump(global_metadata, fp, indent=4)
+
+shutil.copyfile('src/index.html','build/index.html')
