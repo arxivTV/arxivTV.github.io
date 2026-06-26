@@ -75,10 +75,30 @@
 <div id="papers-container"></div>
 
 <script>
+function finishPaper(paper) {
+    if (!paper || paper.dataset.finished === "true") {
+        return;
+    }
+
+    paper.dataset.finished = "true";
+
+    if (paper._autoAdvanceTimeout) {
+        clearTimeout(paper._autoAdvanceTimeout);
+        paper._autoAdvanceTimeout = null;
+    }
+
+    paper.remove();
+    check_populate();
+}
+
 function startAutoScroll(paper, totalDurationSeconds = 20) {
     let lastTimestamp = null;
 
     function animate(timestamp) {
+        if (paper.dataset.finished === "true") {
+            return;
+        }
+
         const maxScroll = paper.scrollHeight - paper.clientHeight;
         const baseSpeed = maxScroll / totalDurationSeconds;
 
@@ -89,8 +109,7 @@ function startAutoScroll(paper, totalDurationSeconds = 20) {
         paper.scrollTop = Math.min(paper.scrollTop + elapsed * baseSpeed * speedfactor, maxScroll);
 
         if ((maxScroll - paper.scrollTop < 1) && (paper.getAttribute('to_remove') == "true")) {
-            paper.remove();
-            check_populate();
+            finishPaper(paper);
             return;
         }
         
@@ -168,6 +187,11 @@ async function loadPapers(folderPath) {
 
             const img = document.createElement("img");
             img.className = 'figures';
+
+            if (fig.includes('http') == false){
+                fig = folder + fig
+            }
+
             img.src = fig;
 
             figures.appendChild(img);
@@ -208,6 +232,10 @@ async function loadPapers(folderPath) {
 
         container.appendChild(paperDiv);
 
+        paperDiv._autoAdvanceTimeout = window.setTimeout(() => {
+            finishPaper(paperDiv);
+        }, 60000);
+
         let images = paperDiv.querySelectorAll("img");
         let loaded = 0;
 
@@ -217,6 +245,10 @@ async function loadPapers(folderPath) {
         else{
             paperDiv.querySelectorAll("img").forEach(img => {
                 img.addEventListener("load", () => {
+                    if (paperDiv.dataset.finished === "true") {
+                        return;
+                    }
+
                     loaded++;
                     if (loaded === images.length) {
                         startAutoScroll(paperDiv, 60);
@@ -235,7 +267,11 @@ var c = url.searchParams.get("cat");
 if (c == null){
     c = "GA";
 }
-const articles_url = "articles_astro-ph." + c + ".json";
+
+var folder = ""
+folder = "../build/"
+
+const articles_url = folder + "articles_astro-ph." + c + ".json";
 
 loadPapers(articles_url);
 
