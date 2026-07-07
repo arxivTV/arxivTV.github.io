@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>arXiv TV</title>
+    <script src="../confetti.min.js"></script>
     <link rel="icon" type="image/png" sizes="32x32" href="https://arxiv.org/static/browse/0.3.4/images/icons/favicon-32x32.png">
     <style>
         body {
@@ -13,31 +14,31 @@
         #papers-container {
             display: flex;
             flex-direction: row;
-            height: 100vh;          /* full viewport height */
-            overflow-x: auto;       /* enable horizontal scroll */
-            overflow-y: hidden;     /* disable vertical scroll */
-            scroll-snap-type: x mandatory;  /* optional but nice */
+            height: 100vh;
+            overflow-x: auto;
+            overflow-y: hidden;
+            scroll-snap-type: x mandatory;
         }
 
         .paper {
             will-change: transform;
-            flex: 0 0 50vw;      /* your new width */
+            flex: 0 0 50vw;
             height: 100vh;
             box-sizing: border-box;
-            overflow-y: auto;    /* vertical scrolling inside paper */
+            overflow-y: auto;
             overflow-x: hidden;
         }
 
-        /* Sticky header section */
         .paper-header {
+            display: flex;
+            flex-direction: row;
             position: sticky;
             top: 0;
             padding:10px;
             background: white;
-            padding-bottom: 10px;
             z-index: 10;
             border-bottom: 1px solid #ddd;
-            height: 110px;
+            min-height: 110px;
         }
         .title {
             font-size: 20px;
@@ -46,10 +47,8 @@
         .authors {
             color: #555;
             margin: 5px 0;
-            white-space: nowrap;
             overflow: hidden;
             text-overflow: ellipsis;
-            max-width: 500px;
         }
         .keywords {
             font-style: italic;
@@ -59,16 +58,33 @@
             margin-top: 10px;
             width: 100%;
             cursor:none;
-            background-size: contain;
+            background-size: 100%;
         }
         .qr{
             display: inline-block;
+            height: 100px;
+            flex: 0 0 100px;
         }
-        .paper-header div{
-            width: calc(100% - 110px);
-            left: 110px;
-            position: relative;
-            top: -100px;
+        .header_infos{
+            flex: 0 0 calc(100% - 120px);
+            margin-left: 10px;
+        }
+        canvas{
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            z-index: 50;
+        }
+        .team{
+            background-color: gold;
+            animation: hue 6s infinite;
+        }
+        @keyframes hue{
+            from{filter: hue-rotate(0deg);}
+            to{filter: hue-rotate(360deg);}
         }
     </style>
 </head>
@@ -114,6 +130,11 @@ function startAutoScroll(paper, totalDurationSeconds = 20) {
         }
         paper.scrollTop = Math.min(paper.scrollTop + delta_scroll, maxScroll);
 
+        var canvas = paper.querySelectorAll('canvas');
+        if (canvas.length > 0){
+            canvas[0].style.top = paper.scrollTop + "px";
+        }
+
         if ((maxScroll - paper.scrollTop < 1) && (paper.getAttribute('to_remove') == "true") && (elapsed > 10)){
             finishPaper(paper);
             return;
@@ -127,7 +148,7 @@ function startAutoScroll(paper, totalDurationSeconds = 20) {
 function check_populate(){
     let papers = document.querySelectorAll(".paper");
 
-    if (papers.length == 1){
+    if (papers.length == nb_papers_shown-1){
         loadPaper(articles_url);
         paper_index += 1;
     }
@@ -137,7 +158,6 @@ async function loadPaper(folderPath) {
     folderPath = folderPath + "?v=" + Math.floor(Math.random() * 100000);
     const container = document.getElementById("papers-container");
 
-    // Load index file
     const indexResponse = await fetch(folderPath);
     const files = await indexResponse.json();
 
@@ -155,12 +175,13 @@ async function loadPaper(folderPath) {
         if (_i < paper_index){
             continue;
         }
-        if (_i > paper_index + 1){
+        if (_i > paper_index + (nb_papers_shown-1)){
             break;
         }
 
         const paperDiv = document.createElement("div");
         paperDiv.className = "paper";
+        paperDiv.style.flex = "0 0 " + 100/nb_papers_shown + "vw";
         paperDiv.setAttribute('to_remove',true);
 
         // Title
@@ -190,27 +211,43 @@ async function loadPaper(folderPath) {
         const ul = document.createElement("ul");
         data.figures.forEach(fig => {
             const ext = fig.split('.').pop().toLowerCase();
+
             if (fig.includes('http') == false){
                 fig = folder + fig
             }
 
             const img = document.createElement("img");
             img.src = fig;
-            
-            imgDiv = document.createElement("div");
-            imgDiv.className = "figures";
-            imgDiv.style.backgroundImage = "url(" + fig  + ")";
-            imgDiv.style.height = img.height + "px";
+            img.className = "figures";
 
-            figures.appendChild(imgDiv);
+            img.onload = function(){
+                const imgRatio = img.naturalWidth/img.naturalHeight;
+                img.style.height = img.width/imgRatio + "px";
+                img.src = "";
+                img.style.backgroundImage = "url(" + fig + ")";
+            };
+
+            figures.appendChild(img);
         });
         figures.appendChild(ul);
 
         const header = document.createElement("div");
         header.className = "paper-header";
 
-        var team = ["Tristan Boin","Paola Di Matteo","Misha Haywood","Pierre Boldrini","Alexis Quintana",
-                "Laia Casamiquela","David Katz","Chervin Laporte","Nils Hoyer","Ewoud Wempe","Anna Parul","Hanna Parul"
+        var team = [
+            "Tristan Boin",
+            "Paola Di Matteo",
+            "Misha Haywood",
+            "Pierre Boldrini",
+            "Alexis Quintana",
+            "Laia Casamiquela",
+            "David Katz",
+            "Chervin Laporte",
+            "Nils Hoyer",
+            "Ewoud Wempe",
+            "Anna Parul",
+            "Hanna Parul",
+            "Mdad Mezcua"
         ];
 
         team = team.flatMap(fullName => {
@@ -227,13 +264,26 @@ async function loadPaper(folderPath) {
         });
 
         if (team.some(v => authors.textContent.includes(v))) {
-            header.style.background = 'gold';
+            header.className += " team";
+            var canvas = document.createElement("canvas");
+            canvas.width = document.body.scrollWidth/2;
+            canvas.height = document.body.scrollHeight;
+            var confettiSettings = { target: canvas };
+            var confetti = new ConfettiGenerator(confettiSettings);
+            confetti.render();
+            paperDiv.appendChild(canvas);
         }
 
         header.appendChild(qr);
-        header.appendChild(title);
-        header.appendChild(authors);
-        header.appendChild(keywords);
+
+        var header_infos = document.createElement("div");
+        header_infos.className = "header_infos";
+
+        header_infos.appendChild(title);
+        header_infos.appendChild(authors);
+        header_infos.appendChild(keywords);
+        
+        header.appendChild(header_infos);
 
         paperDiv.appendChild(header);
         paperDiv.appendChild(figures);
@@ -248,7 +298,7 @@ async function loadPaper(folderPath) {
         let loaded = 0;
 
         if (images.length === 0) {
-            startAutoScroll(paperDiv, 10);
+            finishPaper(paperDiv);
         }
         else{
             paperDiv.querySelectorAll("img").forEach(img => {
@@ -278,9 +328,13 @@ var c = url.searchParams.get("cat");
 if (c == null){
     c = "GA";
 }
+var nb_papers_shown = url.searchParams.get("n");
+if (nb_papers_shown == null){
+    nb_papers_shown = 2;
+}
 
 var folder = ""
-folder = "../build/"
+//folder = "../build/";
 
 const articles_url = folder + "articles_astro-ph." + c + ".json";
 
@@ -327,20 +381,6 @@ function logAnyKey(e) {
         paper_index += 1;
     }
 }
-
-var hide_cursor = window.setTimeout(function(){
-    document.body.style.cursor = "none";
-},1000);
-
-document.addEventListener("mousemove", (e) =>{
-    document.body.style.cursor = "default";
-    window.clearTimeout(hide_cursor);
-    hide_cursor = window.setTimeout(function(){
-        document.body.style.cursor = "none";
-        //console.log("hide");
-
-    },1000);
-});
 
 </script>
 

@@ -316,6 +316,9 @@ def main(id):
 
 arxiv_cats = ['GA','EP','CO','HE','IM','SR']
 
+if not os.path.exists('build'):
+    os.mkdir('build')
+
 if os.path.exists('build/figures'):
     shutil.rmtree('build/figures')
 
