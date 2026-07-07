@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>arXiv TV</title>
-    <link rel="icon" type="image/png" sizes="32x32" href="http://arxiv.org/static/browse/0.3.4/images/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://arxiv.org/static/browse/0.3.4/images/icons/favicon-32x32.png">
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -106,9 +106,13 @@ function startAutoScroll(paper, totalDurationSeconds = 20) {
         const elapsed = (timestamp - lastTimestamp) / 1000;
         lastTimestamp = timestamp;
 
-        paper.scrollTop = Math.min(paper.scrollTop + elapsed * baseSpeed * speedfactor, maxScroll);
+        var delta_scroll = elapsed * baseSpeed * speedfactor;
+        if (delta_scroll < 0.25){
+            delta_scroll = 0.25;
+        }
+        paper.scrollTop = Math.min(paper.scrollTop + delta_scroll, maxScroll);
 
-        if ((maxScroll - paper.scrollTop < 1) && (paper.getAttribute('to_remove') == "true")) {
+        if ((maxScroll - paper.scrollTop < 1) && (paper.getAttribute('to_remove') == "true") && (elapsed > 10)){
             finishPaper(paper);
             return;
         }
@@ -121,13 +125,13 @@ function startAutoScroll(paper, totalDurationSeconds = 20) {
 function check_populate(){
     let papers = document.querySelectorAll(".paper");
 
-    if (papers.length == 0){
-        paper_index += 2;
-        loadPapers(articles_url);
+    if (papers.length == 1){
+        loadPaper(articles_url);
+        paper_index += 1;
     }
 }
 
-async function loadPapers(folderPath) {
+async function loadPaper(folderPath) {
     folderPath = folderPath + "?v=" + Math.floor(Math.random() * 100000);
     const container = document.getElementById("papers-container");
 
@@ -241,6 +245,7 @@ async function loadPapers(folderPath) {
 
         if (images.length === 0) {
             startAutoScroll(paperDiv, 10);
+            console.log([id,"startAutoScroll no image"]);
         }
         else{
             paperDiv.querySelectorAll("img").forEach(img => {
@@ -252,9 +257,14 @@ async function loadPapers(folderPath) {
                     loaded++;
                     if (loaded === images.length) {
                         startAutoScroll(paperDiv, 60);
+                        console.log([id,"startAutoScroll all images loaded"]);
                     }
                 });
             });
+            paperDiv._autoScrollTimeout = window.setTimeout(() => {
+                startAutoScroll(paperDiv, 60);
+                console.log([id,"startAutoScroll after 5s"]);
+            }, 5000);
         }
     }
 }
@@ -273,7 +283,7 @@ var folder = ""
 
 const articles_url = folder + "articles_astro-ph." + c + ".json";
 
-loadPapers(articles_url);
+loadPaper(articles_url);
 
 document.addEventListener('keydown', logAnyKey);
 document.addEventListener('keyup', logAnyKeyUp);
@@ -292,7 +302,6 @@ function logAnyKey(e) {
     }
     else if (e.code == "ArrowRight"){
         change_paper = true;
-        paper_index += 2;
     }
     else if (e.code == "ArrowDown"){
         speedfactor = 10;
@@ -313,7 +322,8 @@ function logAnyKey(e) {
             el.remove();
         });
 
-        loadPapers(articles_url);
+        loadPaper(articles_url);
+        paper_index += 1;
     }
 }
 
