@@ -58,6 +58,8 @@
         .figures {
             margin-top: 10px;
             width: 100%;
+            cursor:none;
+            background-size: contain;
         }
         .qr{
             display: inline-block;
@@ -188,17 +190,19 @@ async function loadPaper(folderPath) {
         const ul = document.createElement("ul");
         data.figures.forEach(fig => {
             const ext = fig.split('.').pop().toLowerCase();
-
-            const img = document.createElement("img");
-            img.className = 'figures';
-
             if (fig.includes('http') == false){
                 fig = folder + fig
             }
 
+            const img = document.createElement("img");
             img.src = fig;
+            
+            imgDiv = document.createElement("div");
+            imgDiv.className = "figures";
+            imgDiv.style.backgroundImage = "url(" + fig  + ")";
+            imgDiv.style.height = img.height + "px";
 
-            figures.appendChild(img);
+            figures.appendChild(imgDiv);
         });
         figures.appendChild(ul);
 
@@ -245,7 +249,6 @@ async function loadPaper(folderPath) {
 
         if (images.length === 0) {
             startAutoScroll(paperDiv, 10);
-            console.log([id,"startAutoScroll no image"]);
         }
         else{
             paperDiv.querySelectorAll("img").forEach(img => {
@@ -257,13 +260,11 @@ async function loadPaper(folderPath) {
                     loaded++;
                     if (loaded === images.length) {
                         startAutoScroll(paperDiv, 60);
-                        console.log([id,"startAutoScroll all images loaded"]);
                     }
                 });
             });
             paperDiv._autoScrollTimeout = window.setTimeout(() => {
                 startAutoScroll(paperDiv, 60);
-                console.log([id,"startAutoScroll after 5s"]);
             }, 5000);
         }
     }
@@ -279,7 +280,7 @@ if (c == null){
 }
 
 var folder = ""
-//folder = "../build/"
+folder = "../build/"
 
 const articles_url = folder + "articles_astro-ph." + c + ".json";
 
@@ -326,6 +327,20 @@ function logAnyKey(e) {
         paper_index += 1;
     }
 }
+
+var hide_cursor = window.setTimeout(function(){
+    document.body.style.cursor = "none";
+},1000);
+
+document.addEventListener("mousemove", (e) =>{
+    document.body.style.cursor = "default";
+    window.clearTimeout(hide_cursor);
+    hide_cursor = window.setTimeout(function(){
+        document.body.style.cursor = "none";
+        //console.log("hide");
+
+    },1000);
+});
 
 </script>
 
