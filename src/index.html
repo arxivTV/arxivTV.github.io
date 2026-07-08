@@ -125,7 +125,7 @@ function startAutoScroll(paper, totalDurationSeconds = 20) {
         lastTimestamp = timestamp;
 
         var delta_scroll = elapsed * baseSpeed * speedfactor;
-        if (delta_scroll < 0.25){
+        if (delta_scroll < 0.25 && delta_scroll > 0){
             delta_scroll = 0.25;
         }
         paper.scrollTop = Math.min(paper.scrollTop + delta_scroll, maxScroll);
