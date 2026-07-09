@@ -3,6 +3,7 @@ name: Daily Python job
 on:
   schedule:
     - cron: "0 6 * * *"
+      timezone: "Europe/Paris"
   workflow_dispatch:
 
 permissions:
