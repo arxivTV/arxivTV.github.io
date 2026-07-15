@@ -47,9 +47,11 @@ def convert_pdf_figures_to_png(figure_paths, root_dir, article_id, output_base="
 
 def download_file(url, dest_path):
     response = requests.get(url)
-    response.raise_for_status()
+    if response.status_code != 200:
+        return False
     with open(dest_path, 'wb') as f:
         f.write(response.content)
+    return True
 
 def extract_archive(archive_path, extract_to):
     try:
@@ -271,7 +273,8 @@ def main(id):
         archive_path = os.path.join(tmpdir, filename)
 
         print(id,"Downloading archive...")
-        download_file(tex_url, archive_path)
+        if download_file(tex_url, archive_path) == False:
+            return None
 
         result = extract_archive(archive_path, tmpdir)
         if result is False:
