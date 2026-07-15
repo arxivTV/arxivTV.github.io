@@ -94,7 +94,7 @@
 <div id="papers-container"></div>
 
 <script>
-function finishPaper(paper) {
+function finishPaper(paper,prepend) {
     if (!paper || paper.dataset.finished === "true") {
         return;
     }
@@ -106,11 +106,12 @@ function finishPaper(paper) {
         paper._autoAdvanceTimeout = null;
     }
 
+    console.log("remove paper " + paper.getAttribute("id"));
     paper.remove();
-    check_populate();
+    check_populate(prepend);
 }
 
-function startAutoScroll(paper, totalDurationSeconds = 20) {
+function startAutoScroll(paper, speed=3) {
     let lastTimestamp = null;
 
     function animate(timestamp) {
@@ -119,24 +120,15 @@ function startAutoScroll(paper, totalDurationSeconds = 20) {
         }
 
         const maxScroll = paper.scrollHeight - paper.clientHeight;
-        const baseSpeed = maxScroll / totalDurationSeconds;
-
-        if (lastTimestamp === null) lastTimestamp = timestamp;
-        const elapsed = (timestamp - lastTimestamp) / 1000;
-        lastTimestamp = timestamp;
-
-        var delta_scroll = elapsed * baseSpeed * speedfactor;
-        if (delta_scroll < 0.25 && delta_scroll > 0){
-            delta_scroll = 0.25;
-        }
-        paper.scrollTop = Math.min(paper.scrollTop + delta_scroll, maxScroll);
+        
+        paper.scrollTop = Math.min(paper.scrollTop + speed*speedfactor, maxScroll);
 
         var canvas = paper.querySelectorAll('canvas');
         if (canvas.length > 0){
             canvas[0].style.top = paper.scrollTop + "px";
         }
 
-        if ((maxScroll - paper.scrollTop < 1) && (paper.getAttribute('to_remove') == "true") && (elapsed > 10)){
+        if ((maxScroll - paper.scrollTop < 1) && (paper.getAttribute('to_remove') == "true") && (timestamp/1000 > minDurationSeconds)){
             finishPaper(paper);
             return;
         }
@@ -146,182 +138,191 @@ function startAutoScroll(paper, totalDurationSeconds = 20) {
     window.requestAnimationFrame(animate);
 }
 
-function check_populate(){
+function check_populate(prepend){
     let papers = document.querySelectorAll(".paper");
 
     if (papers.length == nb_papers_shown-1){
-        loadPaper(articles_url);
-        paper_index += 1;
+        loadPaper(articles_url,prepend);
     }
 }
 
-async function loadPaper(folderPath) {
-    folderPath = folderPath + "?v=" + Math.floor(Math.random() * 100000);
-    const container = document.getElementById("papers-container");
+async function loadPaper(folderPath,prepend=false) {
+    paper_index += 1;
+    console.log("Loading paper " + paper_index);
 
-    const indexResponse = await fetch(folderPath);
-    const files = await indexResponse.json();
+    const container = document.getElementById("papers-container");
 
     if (paper_index >= Object.keys(files).length){
         location.reload();
+        return
     }
 
     if (paper_index < 0){
         paper_index = Object.keys(files).length + paper_index;
     }
 
-    let _i = -1;
-    for (const [id, data] of Object.entries(files)) {
-        _i += 1;
-        if (_i < paper_index){
-            continue;
+    const id = Object.keys(files)[paper_index];
+    const data = files[Object.keys(files)[paper_index]];
+
+    const paperDiv = document.createElement("div");
+    paperDiv.className = "paper";
+    paperDiv.style.flex = "0 0 " + 100/nb_papers_shown + "vw";
+    paperDiv.setAttribute('to_remove',true);
+    paperDiv.setAttribute("id",paper_index);
+
+    // Title
+    const title = document.createElement("div");
+    title.className = "title";
+    title.innerHTML = `(${paper_index+1}/${Object.keys(files).length}) <a href="https://arxiv.org/abs/${id}">${id}</a>: ${data.title}`;
+
+    //QR code
+    const qr = document.createElement("img");
+    qr.src = "https://api.qrserver.com/v1/create-qr-code/?size=100x100&data=http://arxiv.org/pdf/" + id;
+    qr.className = "qr";
+
+    // Authors
+    const authors = document.createElement("div");
+    authors.className = "authors";
+    authors.textContent = data.authors.join(", ");
+
+    // Keywords
+    const keywords = document.createElement("div");
+    keywords.className = "keywords";
+    keywords.textContent = data.keywords;
+
+    // Figures
+    const figures = document.createElement("div");
+    figures.className = "figures";
+
+    const ul = document.createElement("ul");
+    data.figures.forEach(fig => {
+        const ext = fig.split('.').pop().toLowerCase();
+
+        if (fig.includes('http') == false){
+            fig = folder + fig
         }
-        if (_i > paper_index + (nb_papers_shown-1)){
-            break;
-        }
 
-        const paperDiv = document.createElement("div");
-        paperDiv.className = "paper";
-        paperDiv.style.flex = "0 0 " + 100/nb_papers_shown + "vw";
-        paperDiv.setAttribute('to_remove',true);
+        const img = document.createElement("img");
+        img.src = fig;
+        img.className = "figures";
 
-        // Title
-        const title = document.createElement("div");
-        title.className = "title";
-        title.innerHTML = `<a href="https://arxiv.org/abs/${id}">${id}</a>: ${data.title}`;
+        img.onload = function(){
+            const imgRatio = img.naturalWidth/img.naturalHeight;
+            img.style.height = img.width/imgRatio + "px";
+            img.src = "";
+            img.style.backgroundImage = "url(" + fig + ")";
+        };
 
-        //QR code
-        const qr = document.createElement("img");
-        qr.src = "https://api.qrserver.com/v1/create-qr-code/?size=100x100&data=http://arxiv.org/pdf/" + id;
-        qr.className = "qr";
+        figures.appendChild(img);
+    });
+    figures.appendChild(ul);
 
-        // Authors
-        const authors = document.createElement("div");
-        authors.className = "authors";
-        authors.textContent = data.authors.join(", ");
+    const header = document.createElement("div");
+    header.className = "paper-header";
 
-        // Keywords
-        const keywords = document.createElement("div");
-        keywords.className = "keywords";
-        keywords.textContent = data.keywords;
+    var team = [
+        "Tristan Boin",
+        "Paola Di Matteo",
+        "Misha Haywood",
+        "Pierre Boldrini",
+        "Alexis Quintana",
+        "Laia Casamiquela",
+        "David Katz",
+        "Chervin Laporte",
+        "Nils Hoyer",
+        "Ewoud Wempe",
+        "Anna Parul",
+        "Hanna Parul"
+    ];
 
-        // Figures
-        const figures = document.createElement("div");
-        figures.className = "figures";
+    team = team.flatMap(fullName => {
+        const [firstName, ...lastNamesParts] = fullName.trim().split(/\s+/);
+        const lastNames = lastNamesParts.join(" ");
+        const initial = firstName[0];
 
-        const ul = document.createElement("ul");
-        data.figures.forEach(fig => {
-            const ext = fig.split('.').pop().toLowerCase();
-
-            if (fig.includes('http') == false){
-                fig = folder + fig
-            }
-
-            const img = document.createElement("img");
-            img.src = fig;
-            img.className = "figures";
-
-            img.onload = function(){
-                const imgRatio = img.naturalWidth/img.naturalHeight;
-                img.style.height = img.width/imgRatio + "px";
-                img.src = "";
-                img.style.backgroundImage = "url(" + fig + ")";
-            };
-
-            figures.appendChild(img);
-        });
-        figures.appendChild(ul);
-
-        const header = document.createElement("div");
-        header.className = "paper-header";
-
-        var team = [
-            "Tristan Boin",
-            "Paola Di Matteo",
-            "Misha Haywood",
-            "Pierre Boldrini",
-            "Alexis Quintana",
-            "Laia Casamiquela",
-            "David Katz",
-            "Chervin Laporte",
-            "Nils Hoyer",
-            "Ewoud Wempe",
-            "Anna Parul",
-            "Hanna Parul"
+        return [
+            fullName,
+            `${lastNames} ${firstName}`,
+            `${initial}. ${lastNames}`,
+            `${lastNames} ${initial}.`
         ];
+    });
 
-        team = team.flatMap(fullName => {
-            const [firstName, ...lastNamesParts] = fullName.trim().split(/\s+/);
-            const lastNames = lastNamesParts.join(" ");
-            const initial = firstName[0];
+    if (team.some(v => authors.textContent.includes(v))) {
+        header.className += " team";
+        var canvas = document.createElement("canvas");
+        canvas.width = document.body.scrollWidth/2;
+        canvas.height = document.body.scrollHeight;
+        var confettiSettings = { target: canvas };
+        var confetti = new ConfettiGenerator(confettiSettings);
+        confetti.render();
+        paperDiv.appendChild(canvas);
+    }
 
-            return [
-                fullName,
-                `${lastNames} ${firstName}`,
-                `${initial}. ${lastNames}`,
-                `${lastNames} ${initial}.`
-            ];
-        });
+    header.appendChild(qr);
 
-        if (team.some(v => authors.textContent.includes(v))) {
-            header.className += " team";
-            var canvas = document.createElement("canvas");
-            canvas.width = document.body.scrollWidth/2;
-            canvas.height = document.body.scrollHeight;
-            var confettiSettings = { target: canvas };
-            var confetti = new ConfettiGenerator(confettiSettings);
-            confetti.render();
-            paperDiv.appendChild(canvas);
-        }
+    var header_infos = document.createElement("div");
+    header_infos.className = "header_infos";
 
-        header.appendChild(qr);
+    header_infos.appendChild(title);
+    header_infos.appendChild(authors);
+    header_infos.appendChild(keywords);
+    
+    header.appendChild(header_infos);
 
-        var header_infos = document.createElement("div");
-        header_infos.className = "header_infos";
+    paperDiv.appendChild(header);
+    paperDiv.appendChild(figures);
 
-        header_infos.appendChild(title);
-        header_infos.appendChild(authors);
-        header_infos.appendChild(keywords);
-        
-        header.appendChild(header_infos);
-
-        paperDiv.appendChild(header);
-        paperDiv.appendChild(figures);
-
+    if (prepend == false){
         container.appendChild(paperDiv);
+    }
+    else{
+        container.prepend(paperDiv);
+    }
 
-        paperDiv._autoAdvanceTimeout = window.setTimeout(() => {
-            finishPaper(paperDiv);
-        }, 60000);
+    paperDiv._autoAdvanceTimeout = window.setTimeout(() => {
+        finishPaper(paperDiv);
+    }, 60000);
 
-        let images = paperDiv.querySelectorAll("img");
-        let loaded = 0;
+    let images = paperDiv.querySelectorAll("img");
+    let loaded = 0;
 
-        if (images.length === 0) {
-            finishPaper(paperDiv);
-        }
-        else{
-            paperDiv.querySelectorAll("img").forEach(img => {
-                img.addEventListener("load", () => {
-                    if (paperDiv.dataset.finished === "true") {
-                        return;
-                    }
+    if (images.length === 0) {
+        finishPaper(paperDiv);
+    }
+    else{
+        paperDiv.querySelectorAll("img").forEach(img => {
+            img.addEventListener("load", () => {
+                if (paperDiv.dataset.finished === "true") {
+                    return;
+                }
 
-                    loaded++;
-                    if (loaded === images.length) {
-                        startAutoScroll(paperDiv, 60);
-                    }
-                });
+                loaded++;
+                if (loaded === images.length) {
+                    startAutoScroll(paperDiv, speed);
+                }
             });
-            paperDiv._autoScrollTimeout = window.setTimeout(() => {
-                startAutoScroll(paperDiv, 60);
-            }, 5000);
-        }
+        });
+        paperDiv._autoScrollTimeout = window.setTimeout(() => {
+            startAutoScroll(paperDiv, speed);
+        }, 5000);
     }
 }
 
-var paper_index = 0;
-speedfactor = 1;
+async function load_files(){
+    folderPath = articles_url + "?v=" + Math.floor(Math.random() * 100000);
+
+    const indexResponse = await fetch(folderPath);
+    files = await indexResponse.json();
+
+    loadPaper(articles_url);
+    loadPaper(articles_url);
+}
+
+const speed = 3;
+var speedfactor = 1;
+
+const minDurationSeconds = 10;
 
 var url = new URL(location.toString());
 var c = url.searchParams.get("cat");
@@ -338,7 +339,9 @@ var folder = ""
 
 const articles_url = folder + "articles_astro-ph." + c + ".json";
 
-loadPaper(articles_url);
+paper_index = -1;
+var files = [];
+load_files();
 
 document.addEventListener('keydown', logAnyKey);
 document.addEventListener('keyup', logAnyKeyUp);
@@ -352,11 +355,14 @@ function logAnyKeyUp(e) {
 function logAnyKey(e) { 
     var change_paper = false;
     if (e.code == "ArrowLeft"){
-        change_paper = true;
-        paper_index -= 2;
+        const paper = Array.from(document.querySelectorAll(".paper")).pop();
+        paper_index -= 3;
+        finishPaper(paper,true);
+        paper_index += 1;
     }
     else if (e.code == "ArrowRight"){
-        change_paper = true;
+        const paper = Array.from(document.querySelectorAll(".paper")).shift();
+        finishPaper(paper);
     }
     else if (e.code == "ArrowDown"){
         speedfactor = 10;
@@ -369,16 +375,6 @@ function logAnyKey(e) {
     }
     else{
         return;
-    }
-
-    if (change_paper){
-        document.querySelectorAll(".paper").forEach(el => {
-            el.setAttribute('to_remove',false);
-            el.remove();
-        });
-
-        loadPaper(articles_url);
-        paper_index += 1;
     }
 }
 
