@@ -112,7 +112,7 @@ function finishPaper(paper,prepend) {
 }
 
 function startAutoScroll(paper, speed=3) {
-    let lastTimestamp = null;
+    let startT = Date.now();
 
     function animate(timestamp) {
         if (paper.dataset.finished === "true") {
@@ -127,8 +127,8 @@ function startAutoScroll(paper, speed=3) {
         if (canvas.length > 0){
             canvas[0].style.top = paper.scrollTop + "px";
         }
-
-        if ((maxScroll - paper.scrollTop < 1) && (paper.getAttribute('to_remove') == "true") && (timestamp/1000 > minDurationSeconds)){
+        const deltaT = Date.now() - startT;
+        if ((maxScroll - paper.scrollTop < 1) && (paper.getAttribute('to_remove') == "true") && (deltaT/1000 > minDurationSeconds)){
             finishPaper(paper);
             return;
         }
@@ -319,10 +319,10 @@ async function load_files(){
     loadPaper(articles_url);
 }
 
-const speed = 3;
+const speed = 2;
 var speedfactor = 1;
 
-const minDurationSeconds = 10;
+const minDurationSeconds = 15;
 
 var url = new URL(location.toString());
 var c = url.searchParams.get("cat");
