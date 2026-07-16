@@ -6,6 +6,9 @@
     <script src="https://cdn.jsdelivr.net/npm/confetti-js@0.0.18/dist/index.min.js"></script>
     <link rel="icon" type="image/png" sizes="32x32" href="https://arxiv.org/static/browse/0.3.4/images/icons/favicon-32x32.png">
     <style>
+        html{
+            --paper_width: 50vw;
+        }
         body {
             font-family: Arial, sans-serif;
             margin: 0px;
@@ -21,12 +24,15 @@
         }
 
         .paper {
+            margin-left: 0px;
             will-change: transform;
-            flex: 0 0 50vw;
+            flex: 0 0 var(--paper_width);
             height: 100vh;
             box-sizing: border-box;
             overflow-y: auto;
             overflow-x: hidden;
+            transform-origin: top right;
+            background-color: white;
         }
 
         .paper-header {
@@ -87,6 +93,16 @@
             from{filter: hue-rotate(0deg);}
             to{filter: hue-rotate(360deg);}
         }
+        .removing{
+            animation: remove 1s ease-in-out;
+        }
+        @keyframes remove{
+            from{margin-left: 0px;opacity:1;}
+            to{margin-left: calc(var(--paper_width) * (-1));opacity:0;}
+        }
+        .adding{
+            animation: remove 1s ease-in-out reverse;
+        }
     </style>
 </head>
 <body>
@@ -106,8 +122,11 @@ function finishPaper(paper,prepend) {
         paper._autoAdvanceTimeout = null;
     }
 
-    console.log("remove paper " + paper.getAttribute("id"));
-    paper.remove();
+    paper.className += " removing";
+    paper._removeTimeOut = window.setTimeout(() => {
+        console.log("remove paper " + paper.getAttribute("id") + ", paper_index " + paper_index);
+        paper.remove();
+    }, 925);
     check_populate(prepend);
 }
 
@@ -129,7 +148,7 @@ function startAutoScroll(paper, speed=3) {
         }
         const deltaT = Date.now() - startT;
         if ((maxScroll - paper.scrollTop < 1) && (paper.getAttribute('to_remove') == "true") && (deltaT/1000 > minDurationSeconds)){
-            finishPaper(paper);
+            finishPaper(paper,false);
             return;
         }
         
@@ -139,9 +158,14 @@ function startAutoScroll(paper, speed=3) {
 }
 
 function check_populate(prepend){
-    let papers = document.querySelectorAll(".paper");
+    var nb_papers = 0;
+    document.querySelectorAll(".paper").forEach((paper) =>{
+        if (paper.className.includes("removing") == false){
+            nb_papers += 1;
+        }
+    });
 
-    if (papers.length == nb_papers_shown-1){
+    if (nb_papers <= nb_papers_shown){
         loadPaper(articles_url,prepend);
     }
 }
@@ -167,8 +191,15 @@ async function loadPaper(folderPath,prepend=false) {
     const paperDiv = document.createElement("div");
     paperDiv.className = "paper";
     paperDiv.style.flex = "0 0 " + 100/nb_papers_shown + "vw";
+    paperDiv.style.zIndex = -paper_index;
     paperDiv.setAttribute('to_remove',true);
     paperDiv.setAttribute("id",paper_index);
+    if (prepend){
+        paperDiv.className += " adding";
+        paperDiv._addingTimeout = window.setTimeout(() => {
+            paperDiv.className = "paper";
+        },1000);
+    }
 
     // Title
     const title = document.createElement("div");
@@ -309,14 +340,15 @@ async function loadPaper(folderPath,prepend=false) {
     }
 }
 
-async function load_files(){
+async function load_files(n){
     folderPath = articles_url + "?v=" + Math.floor(Math.random() * 100000);
 
     const indexResponse = await fetch(folderPath);
     files = await indexResponse.json();
 
-    loadPaper(articles_url);
-    loadPaper(articles_url);
+    for (var i=0;i<n;i++){
+        loadPaper(articles_url);
+    }
 }
 
 const speed = 2;
@@ -333,15 +365,19 @@ var nb_papers_shown = url.searchParams.get("n");
 if (nb_papers_shown == null){
     nb_papers_shown = 2;
 }
+else{
+    nb_papers_shown = parseInt(nb_papers_shown);
+}
+document.documentElement.style.cssText = "--paper_width: " + 100/nb_papers_shown + "vw";
 
 var folder = ""
-//folder = "../build/";
+folder = "../build/";
 
 const articles_url = folder + "articles_astro-ph." + c + ".json";
 
 paper_index = -1;
 var files = [];
-load_files();
+load_files(nb_papers_shown);
 
 document.addEventListener('keydown', logAnyKey);
 document.addEventListener('keyup', logAnyKeyUp);
@@ -352,17 +388,48 @@ function logAnyKeyUp(e) {
     }
 }
 
+function getLowestPaper(){
+    var min_id = Infinity;
+    var min_paper = undefined;
+    document.querySelectorAll(".paper").forEach((paper) => {
+        var id = parseInt(paper.getAttribute("id"));
+        if (id < min_id){
+            min_id = id;
+            min_paper = paper;
+        }
+    });
+    return min_paper;
+}
+
+function getHighestPaper(){
+    var max_id = -Infinity;
+    var max_paper = undefined;
+    document.querySelectorAll(".paper").forEach((paper) => {
+        var id = parseInt(paper.getAttribute("id"));
+        if (id > max_id){
+            max_id = id;
+            max_paper = paper;
+        }
+    });
+    return max_paper;
+}
+
 function logAnyKey(e) { 
     var change_paper = false;
     if (e.code == "ArrowLeft"){
-        const paper = Array.from(document.querySelectorAll(".paper")).pop();
-        paper_index -= 3;
-        finishPaper(paper,true);
-        paper_index += 1;
+        if (paper_index > 1){
+            const HighestPaper = getHighestPaper();
+            const LowestPaper = getLowestPaper();
+            paper_index = parseInt(LowestPaper.getAttribute("id"))-2;
+            finishPaper(HighestPaper,true);
+            paper_index += 1;
+        }
     }
     else if (e.code == "ArrowRight"){
-        const paper = Array.from(document.querySelectorAll(".paper")).shift();
-        finishPaper(paper);
+        const HighestPaper = getHighestPaper();
+        const LowestPaper = getLowestPaper();
+        paper_index = parseInt(HighestPaper.getAttribute("id"));
+        finishPaper(LowestPaper);
     }
     else if (e.code == "ArrowDown"){
         speedfactor = 10;
