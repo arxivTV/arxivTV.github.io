@@ -64,6 +64,7 @@
             margin-top: 10px;
             width: 100%;
             cursor:none;
+            pointer-events: none;
             background-size: 100%;
         }
         .qr{
@@ -94,14 +95,14 @@
             to{filter: hue-rotate(360deg);}
         }
         .removing{
-            animation: remove 1s ease-in-out;
+            animation: remove .5s ease-in-out;
         }
         @keyframes remove{
             from{margin-left: 0px;opacity:1;}
             to{margin-left: calc(var(--paper_width) * (-1));opacity:0;}
         }
         .adding{
-            animation: remove 1s ease-in-out reverse;
+            animation: remove .5s ease-in-out reverse;
         }
     </style>
 </head>
@@ -126,7 +127,7 @@ function finishPaper(paper,prepend) {
     paper._removeTimeOut = window.setTimeout(() => {
         console.log("remove paper " + paper.getAttribute("id") + ", paper_index " + paper_index);
         paper.remove();
-    }, 925);
+    }, 425);
     check_populate(prepend);
 }
 
@@ -157,13 +158,18 @@ function startAutoScroll(paper, speed=3) {
     window.requestAnimationFrame(animate);
 }
 
-function check_populate(prepend){
+function get_nb_papers_moving(moving){
     var nb_papers = 0;
     document.querySelectorAll(".paper").forEach((paper) =>{
-        if (paper.className.includes("removing") == false){
+        if (paper.className.includes("removing") == moving){
             nb_papers += 1;
         }
     });
+    return nb_papers;
+}
+
+function check_populate(prepend){
+    var nb_papers = get_nb_papers_moving(false);
 
     if (nb_papers <= nb_papers_shown){
         loadPaper(articles_url,prepend);
@@ -191,7 +197,7 @@ async function loadPaper(folderPath,prepend=false) {
     const paperDiv = document.createElement("div");
     paperDiv.className = "paper";
     paperDiv.style.flex = "0 0 " + 100/nb_papers_shown + "vw";
-    paperDiv.style.zIndex = -paper_index;
+    paperDiv.style.zIndex = 10000-paper_index;
     paperDiv.setAttribute('to_remove',true);
     paperDiv.setAttribute("id",paper_index);
     if (prepend){
@@ -371,7 +377,7 @@ else{
 document.documentElement.style.cssText = "--paper_width: " + 100/nb_papers_shown + "vw";
 
 var folder = ""
-//folder = "../build/";
+folder = "../build/";
 
 const articles_url = folder + "articles_astro-ph." + c + ".json";
 
@@ -416,8 +422,9 @@ function getHighestPaper(){
 
 function logAnyKey(e) { 
     var change_paper = false;
+    var nb_papers = get_nb_papers_moving(true);
     if (e.code == "ArrowLeft"){
-        if (paper_index > 1){
+        if ((paper_index > 1) && (nb_papers == 0)){
             const HighestPaper = getHighestPaper();
             const LowestPaper = getLowestPaper();
             paper_index = parseInt(LowestPaper.getAttribute("id"))-2;
@@ -426,10 +433,12 @@ function logAnyKey(e) {
         }
     }
     else if (e.code == "ArrowRight"){
-        const HighestPaper = getHighestPaper();
-        const LowestPaper = getLowestPaper();
-        paper_index = parseInt(HighestPaper.getAttribute("id"));
-        finishPaper(LowestPaper);
+        if (nb_papers == 0){
+            const HighestPaper = getHighestPaper();
+            const LowestPaper = getLowestPaper();
+            paper_index = parseInt(HighestPaper.getAttribute("id"));
+            finishPaper(LowestPaper);
+        }
     }
     else if (e.code == "ArrowDown"){
         speedfactor = 10;
