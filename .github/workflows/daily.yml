@@ -2,8 +2,7 @@ name: Daily Python job
 
 on:
   schedule:
-    - cron: "0 2 * * 1-5"
-      timezone: "Europe/Paris"
+    - cron: "0 7 * * 1-5"
   workflow_dispatch:
 
 permissions:
