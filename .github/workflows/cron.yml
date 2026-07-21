@@ -1,8 +1,7 @@
 name: Daily job
 
 on:
-  schedule:
-    - cron: "*/15 * * * *"
+ #moved the scheduling to cron-job.org because github's scheduling sucks
   workflow_dispatch:
 
 permissions:
