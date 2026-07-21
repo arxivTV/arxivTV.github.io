@@ -1,8 +1,7 @@
-name: Daily Python job
+name: Daily job
 
 on:
-  schedule:
-    - cron: "0 7 * * 1-5"
+ #moved the scheduling to cron-job.org because github's scheduling sucks
   workflow_dispatch:
 
 permissions:
