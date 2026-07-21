@@ -357,6 +357,9 @@ async function load_files(n){
     }
 }
 
+const d = new Date();
+let day = d.getDay()
+
 const speed = 2;
 var speedfactor = 1;
 
@@ -383,7 +386,16 @@ const articles_url = folder + "articles_astro-ph." + c + ".json";
 
 paper_index = -1;
 var files = [];
-load_files(nb_papers_shown);
+if (day > 4){
+    const div = document.getElementById("papers-container");
+    div.innerHTML = "<h1>No papers on the weekend !</h1>";
+    window.setTimeout(function(){
+        location.reload();
+    },600_000);
+}
+else{
+    load_files(nb_papers_shown);
+}
 
 document.addEventListener('keydown', logAnyKey);
 document.addEventListener('keyup', logAnyKeyUp);
