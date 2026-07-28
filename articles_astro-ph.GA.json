@@ -1,640 +1,781 @@
 {
-    "2607.21696": {
-        "title": "Different paths, same appearance: an intermediate-age red nugget at z~0.13",
+    "2607.22812": {
+        "title": "Speeding up Gravitational Lens Mass Models with Machine Learning: Applications in X-ray Astronomy",
         "authors": [
-            "F. La Barbera",
-            "F. Buitrago",
-            "I. Ferreras",
-            "C. Tortora"
-        ],
-        "keywords": "galaxies: stellar content \u2013 galaxies: fundamental parameters \u2013 galaxies: formation \u2013 galaxies: elliptical and lenticular, cD\n",
-        "figures": [
-            "https://arxiv.org/html/2607.21696v1/x1.png",
-            "https://arxiv.org/html/2607.21696v1/x2.png",
-            "https://arxiv.org/html/2607.21696v1/x3.png",
-            "https://arxiv.org/html/2607.21696v1/x4.png",
-            "https://arxiv.org/html/2607.21696v1/x5.png",
-            "https://arxiv.org/html/2607.21696v1/x6.png",
-            "https://arxiv.org/html/2607.21696v1/x7.png",
-            "https://arxiv.org/html/2607.21696v1/x8.png",
-            "https://arxiv.org/html/2607.21696v1/x9.png",
-            "https://arxiv.org/html/2607.21696v1/x10.png"
-        ]
-    },
-    "2607.21709": {
-        "title": "The AGORA High-resolution Galaxy Simulations Comparison Project. IX - Part 1: Effects of a Major Galaxy Merger on Star Formation of a Milky Way-mass Galaxy Progenitor",
-        "authors": [
-            "Thinh Huu Nguyen",
-            "Kirk S. S. Barrow",
-            "Minyong Jung",
-            "Ram\u00f3n Rodr\u00edguez-Cardoso",
-            "Santi Roca-F\u00e0brega",
-            "Ji-hoon Kim",
-            "Joel R. Primack",
-            "Kentaro Nagamine",
-            "Renyue Cen",
-            "Daniel Ceverino",
-            "Weiguang Cui",
-            "Anna Genina",
-            "Hyeonyong Kim",
-            "Yuri Oku",
-            "Johnny W. Powell",
-            "Yves Revaz",
-            "Pablo Granizo",
-            "Alessandro Lupi",
-            "Ikkoh Shimizu",
-            "H\u00e9ctor Vel\u00e1zquez",
-            "Tom Abel",
-            "Oscar Agertz",
-            "Avishai Dekel",
-            "Boon Kiat Oh",
-            "Thomas R. Quinn",
-            "AGORA Collaboration"
+            "Alex Ostridge",
+            "Rafael Mart\u00ednez-Galarza",
+            "J\u00falia M. Sisk-Reyn\u00e9s",
+            "Daniel A. Schwartz",
+            "Anna Barnacka"
         ],
         "keywords": "",
         "figures": [
-            "https://arxiv.org/html/2607.21709v1/MergerTreeMainHalo_ProgBranch-0_ver2013_ver4.png",
-            "https://arxiv.org/html/2607.21709v1/distance_vs_time_ProgBranch-0_ver2013_ver4.png",
-            "https://arxiv.org/html/2607.21709v1/All_Properties_Evolution_ProgBranch-0_ver2013_ver11.png",
-            "https://arxiv.org/html/2607.21709v1/GasPhasePlots_ProgBranch-0_ver2013_PartApaper_ver4.png",
-            "https://arxiv.org/html/2607.21709v1/GasDensityDistancePlots_ProgBranch-0_ver2013_PartApaper_ver3.png",
-            "https://arxiv.org/html/2607.21709v1/Trace_Gas_Particles_that_Turns_Into_Starburst_Stars_CombinedAllCodes_ProgBranch-0_ver2013_fromSecondaryHalo_ver4.png",
-            "https://arxiv.org/html/2607.21709v1/infalling_gasmass_and_momentum_maxdist_stage_ver7.png",
-            "https://arxiv.org/html/2607.21709v1/GasMass_StellarMass_SFR_PreMerger_ProgBranch-0_ver2013_PartApaper_ver2.png",
-            "https://arxiv.org/html/2607.21709v1/BurstFraction_and_BaselinesSFR_ProgBranch-0_ver2013_ver7.png",
-            "https://arxiv.org/html/2607.21709v1/BurstFraction_Correlation_withPreMergerProperties_ProgBranch-0_ver2013_PartApaper_ver2.png"
+            "https://arxiv.org/html/2607.22812v1/Images/PositionsOf3Images.png",
+            "https://arxiv.org/html/2607.22812v1/Images/NewlyGriddedCaustics.png",
+            "https://arxiv.org/html/2607.22812v1/Images/ErrorEstimationEllipticityAngle.png",
+            "https://arxiv.org/html/2607.22812v1/Images/SourcePositionsM25E025MassPredError.png",
+            "https://arxiv.org/html/2607.22812v1/Images/SourcePositionsM55E055MassPredError.png",
+            "https://arxiv.org/html/2607.22812v1/Images/ViolinPlotMassPred.png",
+            "https://arxiv.org/html/2607.22812v1/Images/ViolinPlotEllipPred.png"
         ]
     },
-    "2607.21710": {
-        "title": "The AGORA High-resolution Galaxy Simulations Comparison Project. IX - Part 2: Effects of a Major Galaxy Merger on the Stellar Morphology of a Milky Way-mass Galaxy Progenitor",
+    "2607.22814": {
+        "title": "Charting the Galactic Underworld I: Comprehensive simulations of the kinematics, rates, and demographics of Milky Way black holes",
         "authors": [
-            "Thinh Huu Nguyen",
-            "Kirk S. S. Barrow",
-            "Minyong Jung",
-            "Ram\u00f3n Rodr\u00edguez-Cardoso",
-            "Santi Roca-F\u00e0brega",
-            "Ji-hoon Kim",
-            "Joel R. Primack",
-            "Kentaro Nagamine",
-            "Renyue Cen",
-            "Daniel Ceverino",
-            "Weiguang Cui",
-            "Anna Genina",
-            "Hyeonyong Kim",
-            "Yuri Oku",
-            "Johnny W. Powell",
-            "Yves Revaz",
-            "Pablo Granizo",
-            "Alessandro Lupi",
-            "Ikkoh Shimizu",
-            "H\u00e9ctor Vel\u00e1zquez",
-            "Tom Abel",
-            "Oscar Agertz",
-            "Avishai Dekel",
-            "Boon Kiat Oh",
-            "Thomas R. Quinn",
-            "AGORA Collaboration"
-        ],
-        "keywords": "",
-        "figures": [
-            "https://arxiv.org/html/2607.21710v1/Gas_Project_MergerSequence_AllCodes_ver2013_ver5.png",
-            "https://arxiv.org/html/2607.21710v1/mass_radialdistribution_CombinedFirstMerger_ProgBranch-0_ver2013_logscale_ver2.png",
-            "https://arxiv.org/html/2607.21710v1/HalfMassRadiusRatio_vs_burstFraction_ver5.png",
-            "https://arxiv.org/html/2607.21710v1/circularity_distribution_ProgBranch-0_ver2013_Abadi2003method_ver2.png",
-            "https://arxiv.org/html/2607.21710v1/Disk_Decomposition_Fraction_ver2013_ver3.png",
-            "https://arxiv.org/html/2607.21710v1/circularity_vs_distance_ProgBranch-0_ver2013_Abadi2003method_ver2.png",
-            "https://arxiv.org/html/2607.21710v1/angular_momentum_direction_change_ver2013_ver7.png",
-            "https://arxiv.org/html/2607.21710v1/Compare_with_Covington2008_SAM_ver3.png",
-            "https://arxiv.org/html/2607.21710v1/decomposition_GEAR_fluctuation.png",
-            "https://arxiv.org/html/2607.21710v1/decomposition_combined_GEAR_snap452_0_Kannan2015method.png"
-        ]
-    },
-    "2607.21717": {
-        "title": "Megaparsec-Scale Neutral Hydrogen Flows in the Neighborhood of Hickson Compact Group 100",
-        "authors": [
-            "Qingzheng Yu",
-            "Taotao Fang",
-            "Enrico M. Di Teodoro",
-            "Cheng Cheng",
-            "Cong Kevin Xu"
-        ],
-        "keywords": "",
-        "figures": [
-            "https://arxiv.org/html/2607.21717v1/x1.png",
-            "https://arxiv.org/html/2607.21717v1/x2.png",
-            "https://arxiv.org/html/2607.21717v1/x3.png",
-            "https://arxiv.org/html/2607.21717v1/x4.png",
-            "https://arxiv.org/html/2607.21717v1/x5.png",
-            "https://arxiv.org/html/2607.21717v1/x6.png",
-            "https://arxiv.org/html/2607.21717v1/x7.png",
-            "https://arxiv.org/html/2607.21717v1/x8.png",
-            "https://arxiv.org/html/2607.21717v1/x9.png",
-            "https://arxiv.org/html/2607.21717v1/x10.png"
-        ]
-    },
-    "2607.21719": {
-        "title": "Outflows in super-Eddington quasars drive clumpy circumgalactic medium and extended H$\u03b1$ nebulae at $z \\gtrsim 6$",
-        "authors": [
-            "Lucas Tortora",
-            "Tiago Costa",
-            "Debora Sijacki",
-            "Jake S. Bennett"
-        ],
-        "keywords": "",
-        "figures": [
-            "https://arxiv.org/html/2607.21719v1/figures/super_plot.png",
-            "https://arxiv.org/html/2607.21719v1/figures/hydrogen_column_density.png",
-            "https://arxiv.org/html/2607.21719v1/figures/obscuration_detail.png",
-            "https://arxiv.org/html/2607.21719v1/figures/outflows_mass_redshift.png",
-            "https://arxiv.org/html/2607.21719v1/figures/outflows_z6-radius.png",
-            "https://arxiv.org/html/2607.21719v1/figures/outflows_redshift.png",
-            "https://arxiv.org/html/2607.21719v1/figures/pressure_ratio-200kpc.png",
-            "https://arxiv.org/html/2607.21719v1/figures/HI_UVB_init.png",
-            "https://arxiv.org/html/2607.21719v1/figures/Delta_fcov_DLA_Delta_BH_cum_50kpc.png",
-            "https://arxiv.org/html/2607.21719v1/figures/Ekin_Efb_time_hull.png"
-        ]
-    },
-    "2607.21739": {
-        "title": "SED Fitting of the Globular Clusters in Abell 2744 at z=0.3",
-        "authors": [
-            "Jinoo Kim",
-            "William E. Harris"
-        ],
-        "keywords": "",
-        "figures": [
-            "https://arxiv.org/html/2607.21739v1/Abell2744_direction_and_scale_ver3.png",
-            "https://arxiv.org/html/2607.21739v1/sed_variations_vertical_transparent.png",
-            "https://arxiv.org/html/2607.21739v1/CMD_115_200_150_all_absolute.png",
-            "https://arxiv.org/html/2607.21739v1/CMD_277_356_150_all_absolute.png",
-            "https://arxiv.org/html/2607.21739v1/SED_bad_fit.png",
-            "https://arxiv.org/html/2607.21739v1/CMD_115_200_150.png",
-            "https://arxiv.org/html/2607.21739v1/Best_fit_samples_3by3.png",
-            "https://arxiv.org/html/2607.21739v1/age_mh_frequency_heatmap_age_upto10.png",
-            "https://arxiv.org/html/2607.21739v1/MC_mh_distribution.png",
-            "https://arxiv.org/html/2607.21739v1/MC_age_distribution.png"
-        ]
-    },
-    "2607.21749": {
-        "title": "Where Do Quasars Live? DESI DR1 Constraints from PAC Measurements",
-        "authors": [
-            "Shanquan Gui",
-            "Kun Xu",
-            "Donghai Zhao"
-        ],
-        "keywords": "",
-        "figures": [
-            "https://arxiv.org/html/2607.21749v1/x1.png",
-            "https://arxiv.org/html/2607.21749v1/x2.png",
-            "https://arxiv.org/html/2607.21749v1/x3.png",
-            "https://arxiv.org/html/2607.21749v1/x4.png",
-            "https://arxiv.org/html/2607.21749v1/x5.png",
-            "https://arxiv.org/html/2607.21749v1/x6.png",
-            "https://arxiv.org/html/2607.21749v1/x7.png",
-            "https://arxiv.org/html/2607.21749v1/x8.png",
-            "https://arxiv.org/html/2607.21749v1/x9.png",
-            "https://arxiv.org/html/2607.21749v1/x10.png"
-        ]
-    },
-    "2607.21816": {
-        "title": "Emissivity line ratios for [Mn III] and spectral diagnostics of H II regions",
-        "authors": [
-            "Zher Samak",
-            "Sultana N. Nahar",
-            "Anil K. Pradhan"
-        ],
-        "keywords": "",
-        "figures": [
-            "https://arxiv.org/html/2607.21816v1/Figures/Fig1z.png",
-            "https://arxiv.org/html/2607.21816v1/Figures/Fig2samak.png"
-        ]
-    },
-    "2607.21818": {
-        "title": "From relics to stripped systems: the environmental origin of compact galaxies",
-        "authors": [
-            "Guangwen Chen",
-            "J. Alfonso L. Aguerri",
-            "Carlos del Burgo",
-            "Stefano Zarattini"
-        ],
-        "keywords": "",
-        "figures": [
-            "https://arxiv.org/html/2607.21818v1/logre_logmas.png",
-            "https://arxiv.org/html/2607.21818v1/x1.png",
-            "https://arxiv.org/html/2607.21818v1/x2.png",
-            "https://arxiv.org/html/2607.21818v1/x3.png",
-            "https://arxiv.org/html/2607.21818v1/x4.png",
-            "https://arxiv.org/html/2607.21818v1/x5.png",
-            "https://arxiv.org/html/2607.21818v1/x6.png",
-            "https://arxiv.org/html/2607.21818v1/x7.png"
-        ]
-    },
-    "2607.21841": {
-        "title": "A Multiwavelength Inventory for the Local Group L-band Survey I: Atlas and Radial Profiles of Local Group Galaxies",
-        "authors": [
-            "Cosima Eibensteiner",
-            "Adam K. Leroy",
-            "Jiayi Sun",
-            "Erik Roslowsky",
-            "Eric W. Koch",
-            "Nickolas Pingel",
-            "Chang-Goo Kim",
-            "Laura B. Chomiuk",
-            "Ryan Chown",
-            "Alberto D. Bolatto",
-            "Michael P. Busch",
+            "Tom Wagg",
+            "Katelyn Breivik",
+            "Adrian M. Price-Whelan",
+            "Mathieu Renzo",
             "Julianne J. Dalcanton",
-            "Amanda A. Kepley",
-            "Christina W. Lindberg",
-            "Eve C. Ostriker",
-            "J\u00fcrgen Ott",
-            "Sumit K. Sarbadhicary",
-            "Adam Smercina",
-            "Sne\u017eana Stanimirovi\u0107",
-            "Elizabeth Tarantino",
-            "Vicente Villanueva",
-            "Tobin M. Wainer",
-            "Fabian Walter",
-            "Thomas G. Williams"
+            "Natasha S. Abrams"
         ],
         "keywords": "",
         "figures": [
-            "https://arxiv.org/html/2607.21841v1/x1.png",
-            "https://arxiv.org/html/2607.21841v1/x2.png",
-            "https://arxiv.org/html/2607.21841v1/x3.png",
-            "https://arxiv.org/html/2607.21841v1/x4.png",
-            "https://arxiv.org/html/2607.21841v1/x5.png",
-            "https://arxiv.org/html/2607.21841v1/x6.png",
-            "https://arxiv.org/html/2607.21841v1/x7.png",
-            "https://arxiv.org/html/2607.21841v1/x8.png",
-            "https://arxiv.org/html/2607.21841v1/x9.png",
-            "https://arxiv.org/html/2607.21841v1/x10.png"
+            "https://arxiv.org/html/2607.22814v1/x1.png",
+            "https://arxiv.org/html/2607.22814v1/x2.png",
+            "https://arxiv.org/html/2607.22814v1/x3.png",
+            "https://arxiv.org/html/2607.22814v1/x4.png",
+            "https://arxiv.org/html/2607.22814v1/x5.png",
+            "https://arxiv.org/html/2607.22814v1/x6.png",
+            "https://arxiv.org/html/2607.22814v1/x7.png",
+            "https://arxiv.org/html/2607.22814v1/x8.png",
+            "https://arxiv.org/html/2607.22814v1/x9.png",
+            "https://arxiv.org/html/2607.22814v1/x10.png"
         ]
     },
-    "2607.21869": {
-        "title": "Stacked Reverberation Mapping of High Redshift Quasars in DESI. I. Feasibility Analysis",
+    "2607.22834": {
+        "title": "Reionization driven by the few: the ionizing budget of galaxies at z=5-10 from JWST/NIRSpec",
         "authors": [
-            "Rahma Alfarsy",
-            "R.E.A. Canning",
-            "Eva-Maria Mueller",
-            "Jessica Aguilar",
-            "Steven Ahlen",
-            "David Alexander",
-            "Davide Bianchi",
-            "David Brooks",
-            "Peter Clark",
-            "Todd Claybaugh",
-            "Andrei Cuceu",
-            "Tamara Davis",
-            "Axel de la Macorra",
-            "Saisrinivas Dhavala",
-            "Victoria A. Fawcett",
-            "Benjamin Floyd",
-            "Andreu Font-Ribera",
-            "Jaime Forero-Romero",
-            "Enrique Gazta\u00f1aga",
-            "Wei-Jian Guo",
-            "Gaston Gutierrez",
-            "Klaus Honscheid",
-            "Richard Joyce",
-            "Stephanie Juneau",
-            "David Kirkby",
-            "Theodore Kisner",
-            "Anthony Kremin",
-            "Claire Lamman",
-            "Martin Landriau",
-            "Laurent Le Guillou",
-            "Paul Martini",
-            "Hugh McDougall",
-            "Aaron Meisner",
-            "Ramon Miquel",
-            "John Moustakas",
-            "Seshadri Nadathur",
-            "Nathalie Palanque-Delabrouille",
-            "Zhiwei Pan",
-            "Swayamtrupta Panda",
-            "Ignasi P\u00e9rez-R\u00e0fols",
-            "Francisco Prada",
-            "Ragadeepika Pucha",
-            "Graziano Rossi",
-            "Eusebio Sanchez",
-            "David Schlegel",
-            "Michael Schubnell",
-            "Tom Shanks",
-            "Ma\u0142gorzata Siudek",
-            "David Sprayberry",
-            "Gregory Tarl\u00e9",
-            "Benjamin Alan Weaver",
-            "Hu Zou"
+            "Emma Giovinazzo",
+            "Pascal A. Oesch",
+            "Anne Verhamme",
+            "Romain A. Meyer",
+            "Callum Witten",
+            "John Chisholm",
+            "Rui Marques-Chaves",
+            "Charlotte Simmonds"
         ],
         "keywords": "",
         "figures": [
-            "https://arxiv.org/html/2607.21869v1/x1.png",
-            "https://arxiv.org/html/2607.21869v1/Figures/sky_coverage.png",
-            "https://arxiv.org/html/2607.21869v1/x2.png",
-            "https://arxiv.org/html/2607.21869v1/x3.png",
-            "https://arxiv.org/html/2607.21869v1/x4.png",
-            "https://arxiv.org/html/2607.21869v1/x5.png",
-            "https://arxiv.org/html/2607.21869v1/x6.png",
-            "https://arxiv.org/html/2607.21869v1/x7.png",
-            "https://arxiv.org/html/2607.21869v1/x8.png",
-            "https://arxiv.org/html/2607.21869v1/x9.png"
+            "https://arxiv.org/html/2607.22834v1/x1.png",
+            "https://arxiv.org/html/2607.22834v1/x2.png",
+            "https://arxiv.org/html/2607.22834v1/x3.png",
+            "https://arxiv.org/html/2607.22834v1/x4.png",
+            "https://arxiv.org/html/2607.22834v1/x5.png",
+            "https://arxiv.org/html/2607.22834v1/x6.png",
+            "https://arxiv.org/html/2607.22834v1/x7.png",
+            "https://arxiv.org/html/2607.22834v1/x8.png",
+            "https://arxiv.org/html/2607.22834v1/x9.png",
+            "https://arxiv.org/html/2607.22834v1/x10.png"
         ]
     },
-    "2607.21934": {
-        "title": "Long Tidal Tails of NGC 5024 Hidden in LMS-1 and NGC 5053 Tidal Streams",
+    "2607.22835": {
+        "title": "Unsupervised selection and characterisation of Little Red Dots in JWST surveys with manifold learning",
         "authors": [
-            "Xianhao Ye",
-            "Yong Yang",
-            "Jingkun Zhao",
-            "Hao Tian",
-            "Yuqin Chen",
-            "Gang Zhao"
+            "Michele Ginolfi",
+            "Filippo Mannucci",
+            "Alessandro Marconi",
+            "Francesco D'Eugenio",
+            "Giacomo Venturi",
+            "Francesco Belfiore",
+            "Giovanni Cresci",
+            "Caterina Bracci",
+            "Stefano Carniani",
+            "Alessandra Cozzi",
+            "Roberto Maiolino",
+            "Guido Risaliti"
         ],
         "keywords": "",
         "figures": [
-            "https://arxiv.org/html/2607.21934v1/output0.png",
-            "https://arxiv.org/html/2607.21934v1/output1.png",
-            "https://arxiv.org/html/2607.21934v1/output2.png",
-            "https://arxiv.org/html/2607.21934v1/output3.png",
-            "https://arxiv.org/html/2607.21934v1/output4.png",
-            "https://arxiv.org/html/2607.21934v1/output5.png"
+            "https://arxiv.org/html/2607.22835v1/images/fig_manifold_overview.png",
+            "https://arxiv.org/html/2607.22835v1/images/fig_regions.png",
+            "https://arxiv.org/html/2607.22835v1/images/fig_tradeoff.png",
+            "https://arxiv.org/html/2607.22835v1/images/fig_candidates.png",
+            "https://arxiv.org/html/2607.22835v1/images/fig_avgsed.png",
+            "https://arxiv.org/html/2607.22835v1/images/fig_brown_dwarfs.png",
+            "https://arxiv.org/html/2607.22835v1/images/fig_two_populations.png",
+            "https://arxiv.org/html/2607.22835v1/images/fig_newbroadline.png",
+            "https://arxiv.org/html/2607.22835v1/images/fig_highz_outlier.png",
+            "https://arxiv.org/html/2607.22835v1/images/fig_ablation.png"
         ]
     },
-    "2607.21937": {
-        "title": "The disrupted chemical enrichment history of the Milky Way driven by gas accretion",
+    "2607.22838": {
+        "title": "The role of filaments in the large-scale conformity signal",
         "authors": [
-            "Jianhui Lian",
-            "Qinhao Shao",
-            "Min Du",
-            "Hanyuan Zhang",
-            "Xinxin Duan",
-            "Xin Wang",
-            "Zheng Zheng"
+            "Daniela Palma",
+            "Ivan Lacerna",
+            "Noelia P\u00e9rez",
+            "Luis Pereyra",
+            "Antonio D. Montero-Dorta",
+            "Constanza A. Soto-Su\u00e1rez",
+            "Laerte Sodr\u00e9 Jr.",
+            "M. Celeste Artale",
+            "Amrutha Belwadi",
+            "Facundo Rodriguez",
+            "Nelvy Choque-Challapa"
         ],
         "keywords": "",
         "figures": [
-            "https://arxiv.org/html/2607.21937v1/age-mgh-r-gce.png",
-            "https://arxiv.org/html/2607.21937v1/feh-mgfe-age-260106.png",
-            "https://arxiv.org/html/2607.21937v1/mass-metallicity-mw-260106.png",
-            "https://arxiv.org/html/2607.21937v1/age-feh-prof-br-example.png",
-            "https://arxiv.org/html/2607.21937v1/tng-gas-map-574286.png"
+            "https://arxiv.org/html/2607.22838v1/hist_both_models_without_nodes_hr.png",
+            "https://arxiv.org/html/2607.22838v1/hist_both_models_Q_SF_without_nodes_hr.png",
+            "https://arxiv.org/html/2607.22838v1/hist_both_models_without_nodes_hr.png",
+            "https://arxiv.org/html/2607.22838v1/hist_both_models_Q_SF_without_nodes_hr.png",
+            "https://arxiv.org/html/2607.22838v1/conformity_AllEnv_both_models_without_OE_tng10_bins.png",
+            "https://arxiv.org/html/2607.22838v1/long_vs_short_filaments_SAG.png",
+            "https://arxiv.org/html/2607.22838v1/high_vs_low_density_filaments_SAG.png",
+            "https://arxiv.org/html/2607.22838v1/Mgas_by_environment_ref.png",
+            "https://arxiv.org/html/2607.22838v1/sSFR_by_environment_ref.png",
+            "https://arxiv.org/html/2607.22838v1/M200_by_environment_ref.png"
         ]
     },
-    "2607.22213": {
-        "title": "When Two Worlds Collide: How Collisions Between Silicate and Carbonaceous Nanograins can Drive Complex Chemistry",
+    "2607.22966": {
+        "title": "A quasar hatching from a buried red phase at z = 3.7",
         "authors": [
-            "Alexandros Kyriazis",
-            "Albert Rimola",
-            "Stefan T. Bromley"
+            "Zheng Ma",
+            "Yongda Zhu",
+            "Zhiyuan Ji",
+            "Eiichi Egami",
+            "Marcia J. Rieke",
+            "Xiaohui Fan",
+            "Jianwei Lyu",
+            "George H. Rieke",
+            "Fengwu Sun",
+            "Yang Sun",
+            "George D. Becker",
+            "Andrew J. Bunker",
+            "Francesco D'Eugenio",
+            "Xiangyu Jin",
+            "Ignas Juod\u017ebalis",
+            "Weizhe Liu",
+            "Roberto Maiolino",
+            "Pierluigi Rinaldi",
+            "Feige Wang",
+            "Christopher N. A. Willmer",
+            "Yunjing Wu",
+            "Jinyi Yang",
+            "Junyu Zhang",
+            "Peixin Zhu"
+        ],
+        "keywords": "\\uat{Quasars",
+        "figures": [
+            "figures/2607_22966/chandra_alma_vla_panels.png",
+            "figures/2607_22966/spectrum.png",
+            "figures/2607_22966/emission_line_fits.png",
+            "figures/2607_22966/mgii_nad_lya_kinematics.png",
+            "figures/2607_22966/mbh_mstar_redshift_evolution.png",
+            "figures/2607_22966/hatchling_model.png",
+            "figures/2607_22966/dust_deredden.png",
+            "figures/2607_22966/cross_reddening.png",
+            "figures/2607_22966/extinction_curves.png",
+            "figures/2607_22966/mbb_fit.png"
+        ]
+    },
+    "2607.23020": {
+        "title": "PhotoIFU: NIRCam as a Photometric Integral Field Unit for Mapping Feedback in Galaxies",
+        "authors": [
+            "Yongda Zhu",
+            "Marcia J. Rieke",
+            "Courtney Carreira",
+            "Yang Sun",
+            "Zhiyuan Ji",
+            "Jianwei Lyu",
+            "Christina C. Williams",
+            "Stacey Alberts",
+            "Feng Yuan",
+            "Yuxuan Zou",
+            "Yurina Nakazato",
+            "Andrew J. Bunker",
+            "Sandro Tacchella",
+            "Fengwu Sun",
+            "George H. Rieke",
+            "Eiichi Egami",
+            "Jacopo Chevallard",
+            "Kevin Hainline",
+            "Zheng Ma",
+            "Pablo G. P\u00e9rez-Gonz\u00e1lez",
+            "Pierluigi Rinaldi",
+            "Bruno Rodr\u00edguez Del Pino",
+            "Tristen Shields",
+            "Meredith Stone",
+            "Christopher N. A. Willmer",
+            "Zihao Wu",
+            "Minghao Yue",
+            "Junyu Zhang"
         ],
         "keywords": "",
         "figures": [
-            "https://arxiv.org/html/2607.22213v1/graphs/structures.png",
-            "https://arxiv.org/html/2607.22213v1/x1.png",
-            "https://arxiv.org/html/2607.22213v1/graphs/kinetic_energy_profile.png",
-            "https://arxiv.org/html/2607.22213v1/graphs/screenshots_collisions.png",
-            "https://arxiv.org/html/2607.22213v1/graphs/largest_fragment.png",
-            "https://arxiv.org/html/2607.22213v1/graphs/number_of_fragments_plot.png",
-            "https://arxiv.org/html/2607.22213v1/graphs/bonds_mixed_analysis.png",
-            "https://arxiv.org/html/2607.22213v1/graphs/partial_distribution.png",
-            "https://arxiv.org/html/2607.22213v1/graphs/mlip_dft_comparison.png",
-            "https://arxiv.org/html/2607.22213v1/graphs/Force_Distance_with_zoomed_inset.png"
+            "https://arxiv.org/html/2607.23020v1/x1.png",
+            "https://arxiv.org/html/2607.23020v1/x2.png",
+            "https://arxiv.org/html/2607.23020v1/fig3_gmm_pca.png",
+            "https://arxiv.org/html/2607.23020v1/x3.png",
+            "https://arxiv.org/html/2607.23020v1/x4.png",
+            "https://arxiv.org/html/2607.23020v1/x5.png",
+            "https://arxiv.org/html/2607.23020v1/x6.png",
+            "https://arxiv.org/html/2607.23020v1/206183.f210m.multipanel.sersicps.png",
+            "https://arxiv.org/html/2607.23020v1/206183.f210m.multipanel.bulgedisk.png",
+            "https://arxiv.org/html/2607.23020v1/x7.png"
         ]
     },
-    "2607.22533": {
-        "title": "LBT-MODS spectroscopy of young stellar objects in the distant metal-poor star forming region Sh2-284: Stellar and accretion properties",
+    "2607.23062": {
+        "title": "HETDEX: Star Formation Stochasticity Diagram of Lyman Alpha Emitting Galaxies at Cosmic Noon Confirms Three Archetypes",
         "authors": [
-            "Katia Biazzo",
-            "Juan Manuel Alcal\u00e1",
-            "Felice Cusano",
-            "Mario Guarcello",
-            "Diego Paris",
-            "Ester Marini",
-            "Roberta Carini",
-            "Teresa Giannini",
-            "Brunella Nisini",
-            "Simone Antoniucci",
-            "Guido De Marchi",
-            "Maria Gabriela Navarro Ovando"
+            "Nicole Firestone",
+            "Eric Gawiser",
+            "Kartheik G. Iyer",
+            "Charlotte Olsen",
+            "Antara Basu-Zych",
+            "Adam Broussard",
+            "Peter Kurczynski",
+            "Kyoung-Soo Lee",
+            "Erin Mentuch Cooper",
+            "Robin Ciardullo",
+            "Daniel J. Farrow",
+            "Steven L. Finkelstein",
+            "Caryl Gronwall",
+            "Ho Seong Hwang",
+            "Byeongha Moon",
+            "Shun Saito",
+            "Donald P. Schneider"
         ],
         "keywords": "",
         "figures": [
-            "https://arxiv.org/html/2607.22533v1/x1.png",
-            "https://arxiv.org/html/2607.22533v1/x2.png",
-            "https://arxiv.org/html/2607.22533v1/x3.png",
-            "https://arxiv.org/html/2607.22533v1/x4.png",
-            "https://arxiv.org/html/2607.22533v1/x5.png",
-            "https://arxiv.org/html/2607.22533v1/x6.png",
-            "https://arxiv.org/html/2607.22533v1/x7.png",
-            "https://arxiv.org/html/2607.22533v1/x8.png",
-            "https://arxiv.org/html/2607.22533v1/x9.png",
-            "https://arxiv.org/html/2607.22533v1/x10.png"
+            "https://arxiv.org/html/2607.23062v1/HETDEX-sfr_mstar_allregime_sfh.png",
+            "https://arxiv.org/html/2607.23062v1/SFR_Mstar_SFR_Avg_newnew.png",
+            "https://arxiv.org/html/2607.23062v1/SFstocasticity_both_wpoints_sfh.png",
+            "https://arxiv.org/html/2607.23062v1/SFstocasticity_gaussian_components_sfh_combined.png"
         ]
     },
-    "2607.21702": {
-        "title": "An Introduction to Bayesian and Frequentist Simulation-Based Inference with Machine Learning",
+    "2607.23267": {
+        "title": "X-ray disc reverberation modelling of the X-ray/UV/optical spectral/timing properties of Fairall 9",
         "authors": [
-            "Maximilian Dax",
-            "Theo Heimel",
-            "Gilles Louppe"
+            "M. Polioudakis",
+            "M. Papoutsis",
+            "I. E. Papadakis",
+            "C. panagiotou",
+            "E. Kammoun",
+            "M. Dovciak"
         ],
         "keywords": "",
         "figures": [
-            "figures/2607_21702/fig1_joint.png",
-            "figures/2607_21702/fig2_slices.png",
-            "figures/2607_21702/frequentist_likelihood.png",
-            "figures/2607_21702/frequentist_log_likelihood.png",
-            "figures/2607_21702/nuisance_likelihood.png",
-            "figures/2607_21702/nuisance_marg_prof.png",
-            "figures/2607_21702/04_kl_comparison.png",
-            "figures/2607_21702/02_unconditional.png",
-            "figures/2607_21702/fig6_nested_vs_joint.png",
-            "figures/2607_21702/fig3_flows_comparison.png"
+            "https://arxiv.org/html/2607.23267v1/x1.png",
+            "https://arxiv.org/html/2607.23267v1/x2.png",
+            "https://arxiv.org/html/2607.23267v1/x3.png",
+            "https://arxiv.org/html/2607.23267v1/x4.png",
+            "https://arxiv.org/html/2607.23267v1/x5.png",
+            "https://arxiv.org/html/2607.23267v1/x6.png",
+            "https://arxiv.org/html/2607.23267v1/x7.png",
+            "https://arxiv.org/html/2607.23267v1/x8.png"
         ]
     },
-    "2607.21747": {
-        "title": "On the astrophysical origin of cosmic rays: Constraining the Ultra-High-Energy Cosmic Ray Horizon through Nearby Galaxy Distributions",
+    "2607.23274": {
+        "title": "The ALMA-QUARKS Survey: Properties of Hot Molecular Fragments in the Massive Protocluster IRAS 17233-3606",
         "authors": [
-            "F. D\u00e1vila-Kurb\u00e1n",
-            "F. Duplancic",
-            "D. Garcia Lambas"
+            "Li Chen",
+            "Sheng-Li Qin",
+            "Dongting Yang",
+            "Wenyu Jiao",
+            "Tie Liu",
+            "Paul F. Goldsmith",
+            "Zhenying Zhang",
+            "Chuanshou Li",
+            "Fengwei Xu",
+            "Sami Dib",
+            "Shivani Gupta",
+            "Xindi Tang",
+            "Yaping Peng",
+            "Mengyao Tang",
+            "Mika Juvela",
+            "Di Li",
+            "Aiyuan Yang",
+            "Meizhu Liu",
+            "Lingmin Zhen",
+            "James O. Chibueze",
+            "L. Viktor T\u00f3th",
+            "Ariful Hoque",
+            "Amelia M. Stutz",
+            "Leonardo Bronfman",
+            "Swagat R. Das",
+            "Pablo Garc\u00eda",
+            "Kee-Tae Kim",
+            "Chang Won Lee",
+            "Jihye Hwang",
+            "Jiahang Zou",
+            "Yongqi Guo",
+            "Zhiping Kou"
         ],
         "keywords": "",
         "figures": [
-            "https://arxiv.org/html/2607.21747v1/plots/cz_vs_MB.png",
-            "https://arxiv.org/html/2607.21747v1/plots/auger_glade_2x2_skymap.png",
-            "https://arxiv.org/html/2607.21747v1/plots/plot1_GLADE_paper1.png",
-            "https://arxiv.org/html/2607.21747v1/plots/plot2_skymap_density_cz_B.png",
-            "https://arxiv.org/html/2607.21747v1/plots/plot2_gal_flux_correlation_B.png",
-            "https://arxiv.org/html/2607.21747v1/plots/plot4_skymap_galaxies_DeflMap_UF23_R5.png",
-            "https://arxiv.org/html/2607.21747v1/plots/plot4_gal_flux_corrs_weights_UF23_R5.png",
-            "https://arxiv.org/html/2607.21747v1/plots/appxA_a.png",
-            "https://arxiv.org/html/2607.21747v1/plots/appxA_b.png",
-            "https://arxiv.org/html/2607.21747v1/plots/combined_3row_JF12_KST24_UF23_R5.png"
+            "https://arxiv.org/html/2607.23274v1/x1.png",
+            "https://arxiv.org/html/2607.23274v1/x2.png",
+            "https://arxiv.org/html/2607.23274v1/x3.png",
+            "https://arxiv.org/html/2607.23274v1/x4.png",
+            "https://arxiv.org/html/2607.23274v1/x5.png",
+            "https://arxiv.org/html/2607.23274v1/x6.png",
+            "https://arxiv.org/html/2607.23274v1/x7.png",
+            "https://arxiv.org/html/2607.23274v1/x8.png"
         ]
     },
-    "2607.21834": {
-        "title": "The diffraction-lensing interpretation of GW231123 with astrophysical priors",
+    "2607.23612": {
+        "title": "Disc Candidates in IC 2395: A WISE Survey of the Kinematically Confirmed Membership",
         "authors": [
-            "Mark Ho-Yeuk Cheung",
-            "Digvijay Wadekar",
-            "Matias Zaldarriaga",
-            "Tejaswi Venumadhav",
-            "Javier Roulet",
-            "Ajit Kumar Mehta"
+            "Daniel Rose"
         ],
         "keywords": "",
         "figures": [
-            "https://arxiv.org/html/2607.21834v1/x7.png",
-            "https://arxiv.org/html/2607.21834v1/x8.png",
-            "https://arxiv.org/html/2607.21834v1/x9.png",
-            "https://arxiv.org/html/2607.21834v1/x10.png",
-            "https://arxiv.org/html/2607.21834v1/x11.png",
-            "https://arxiv.org/html/2607.21834v1/x12.png",
-            "https://arxiv.org/html/2607.21834v1/x13.png",
-            "https://arxiv.org/html/2607.21834v1/x14.png",
-            "https://arxiv.org/html/2607.21834v1/x15.png",
-            "https://arxiv.org/html/2607.21834v1/x16.png"
+            "https://arxiv.org/html/2607.23612v1/x1.png",
+            "https://arxiv.org/html/2607.23612v1/x2.png",
+            "https://arxiv.org/html/2607.23612v1/x3.png",
+            "https://arxiv.org/html/2607.23612v1/x4.png",
+            "https://arxiv.org/html/2607.23612v1/x5.png",
+            "https://arxiv.org/html/2607.23612v1/x6.png",
+            "https://arxiv.org/html/2607.23612v1/x7.png"
         ]
     },
-    "2607.21845": {
-        "title": "Rate of caustic crossing microlensing events in stellar binary lenses with significant orbital motion",
+    "2607.23775": {
+        "title": "Spatial Correlations of PAH, UV, H$\u03b1$ Emission and IMF - PAH Variations in the Star-Forming Complexes of NGC 628",
         "authors": [
-            "Arjun Murlidhar",
-            "B. Scott Gaudi",
-            "Todd. A. Thompson"
+            "S Amrutha",
+            "Dimitra Rigopoulou",
+            "Mousumi Das",
+            "Jyoti Yadav"
         ],
         "keywords": "",
         "figures": [
-            "https://arxiv.org/html/2607.21845v1/caustic_structures.png",
-            "https://arxiv.org/html/2607.21845v1/static_crs.png",
-            "https://arxiv.org/html/2607.21845v1/Cross_section_vs_s_rot.png",
-            "https://arxiv.org/html/2607.21845v1/fractional_en.png",
-            "https://arxiv.org/html/2607.21845v1/Cross_section_vs_s_rot.png",
-            "https://arxiv.org/html/2607.21845v1/fractional_en.png",
-            "https://arxiv.org/html/2607.21845v1/M_vs_s_Dl.png",
-            "https://arxiv.org/html/2607.21845v1/M_vs_s_tote.png",
-            "https://arxiv.org/html/2607.21845v1/M_vs_s_Dl.png",
-            "https://arxiv.org/html/2607.21845v1/M_vs_s_tote.png"
+            "figures/2607_23775/multiwavelength_NGC628.png",
+            "figures/2607_23775/boxplot770.png",
+            "figures/2607_23775/boxplot1130.png",
+            "figures/2607_23775/correlations.png",
+            "figures/2607_23775/correlations_21.png",
+            "figures/2607_23775/arm_interarm_spurs.jpg",
+            "figures/2607_23775/NUV_Halpha_fuv.PNG",
+            "figures/2607_23775/regions_kde.png",
+            "figures/2607_23775/emission_kde.png",
+            "figures/2607_23775/NUV_kde.png"
         ]
     },
-    "2607.21852": {
-        "title": "A GRMHD-Calibrated Semi-Analytical Model for Hot Sub-Keplerian Accretion Flows in Kerr Spacetime",
+    "2607.23829": {
+        "title": "Neighbors, Not Kin: Kinematic evidence for tidal tails from NGC 7492 along the Sagittarius stream",
         "authors": [
-            "Nabin Bhushal",
-            "Manil Khatiwada",
-            "Yogesh Maharjan",
-            "David Garofalo",
-            "Chandra B. Singh"
+            "Camila Navarrete",
+            "\u00c1lvaro Rojas-Arriagada",
+            "Andr\u00e9s E. Piatti",
+            "Julio A. Carballo-Bello",
+            "Luca Sbordone",
+            "Richa Kundu",
+            "Vasily Belokurov",
+            "Sergey E. Koposov",
+            "Eduardo Vitral",
+            "Pierre Boldrini",
+            "Pedro A. Palicio"
+        ],
+        "keywords": "stars: kinematics and dynamics - Galaxy: halo - globular clusters: individual: NGC 7492 - Galaxy: structure",
+        "figures": [
+            "https://arxiv.org/html/2607.23829v1/x1.png",
+            "https://arxiv.org/html/2607.23829v1/x2.png",
+            "https://arxiv.org/html/2607.23829v1/x3.png",
+            "https://arxiv.org/html/2607.23829v1/x4.png",
+            "https://arxiv.org/html/2607.23829v1/x5.png",
+            "https://arxiv.org/html/2607.23829v1/x6.png",
+            "https://arxiv.org/html/2607.23829v1/x7.png",
+            "https://arxiv.org/html/2607.23829v1/x8.png",
+            "https://arxiv.org/html/2607.23829v1/x9.png",
+            "https://arxiv.org/html/2607.23829v1/x10.png"
+        ]
+    },
+    "2607.23919": {
+        "title": "The effect of triaxial galaxy shapes on the dynamics of triple supermassive black holes in a cosmological context",
+        "authors": [
+            "Navonil Saha",
+            "Margarita Sobolenko",
+            "Peter Berczik",
+            "Andreas Just",
+            "Fazeel Mahmood Khan"
         ],
         "keywords": "",
         "figures": [
-            "https://arxiv.org/html/2607.21852v1/transition_functions_comparison.png",
-            "https://arxiv.org/html/2607.21852v1/transition_final.png",
-            "https://arxiv.org/html/2607.21852v1/flow_dynamics_comparison.png",
-            "https://arxiv.org/html/2607.21852v1/JHEP_subKeplerian_spin_0.0.png",
-            "https://arxiv.org/html/2607.21852v1/JHEP_subKeplerian_spin_0.9.png",
-            "https://arxiv.org/html/2607.21852v1/JHEP_velocity_spin_0.9.png",
-            "https://arxiv.org/html/2607.21852v1/JHEP_velocity_spin_0.5.png",
-            "https://arxiv.org/html/2607.21852v1/JHEP_velocity_spin_0.0.png",
-            "https://arxiv.org/html/2607.21852v1/JHEP_velocity_spin_-0.5.png",
-            "https://arxiv.org/html/2607.21852v1/JHEP_velocity_spin_-0.9.png"
+            "https://arxiv.org/html/2607.23919v1/Figures/BH_plots_with_ecc_compact.png",
+            "https://arxiv.org/html/2607.23919v1/Figures/triaxiality_1_5kpc_compact.png",
+            "https://arxiv.org/html/2607.23919v1/Figures/smbh_orbits.png",
+            "https://arxiv.org/html/2607.23919v1/Figures/density_profiles_t_merge.png",
+            "https://arxiv.org/html/2607.23919v1/Figures/triaxiality_0.1kpc_compact.png"
         ]
     },
-    "2607.21956": {
-        "title": "The Distinctive Evolution and Spectral Energy Distribution of Binary Massive Black Hole Accretion",
+    "2607.24071": {
+        "title": "Evidence for Azimuthally Anisotropic MgII Absorption around DESI Luminous Red Galaxies",
         "authors": [
-            "Yue Xu",
-            "Fu-Guo Xie",
-            "Ya-Ping Li",
-            "Yinhao Wu",
-            "Luis C. Ho"
+            "Xuanyi Wu",
+            "Cheng Li"
         ],
         "keywords": "",
         "figures": [
-            "https://arxiv.org/html/2607.21956v1/figs/bbh-accretion-schem-gap.png",
-            "https://arxiv.org/html/2607.21956v1/figs/bbh-accretion-schem-CBD.png",
-            "https://arxiv.org/html/2607.21956v1/x1.png",
-            "https://arxiv.org/html/2607.21956v1/x2.png",
-            "https://arxiv.org/html/2607.21956v1/x3.png",
-            "https://arxiv.org/html/2607.21956v1/x4.png",
-            "https://arxiv.org/html/2607.21956v1/x5.png",
-            "https://arxiv.org/html/2607.21956v1/x6.png",
-            "https://arxiv.org/html/2607.21956v1/x7.png",
-            "https://arxiv.org/html/2607.21956v1/x8.png"
+            "https://arxiv.org/html/2607.24071v1/x1.png",
+            "https://arxiv.org/html/2607.24071v1/x2.png",
+            "https://arxiv.org/html/2607.24071v1/x3.png",
+            "https://arxiv.org/html/2607.24071v1/x4.png"
         ]
     },
-    "2607.21966": {
-        "title": "Radio Core Size of Low-luminosity Active Galactic Nuclei under the MAD-jet model",
+    "2607.24262": {
+        "title": "Effects of temperature-dependent optical properties on the determination of interstellar dust masses",
         "authors": [
-            "Yue Xu",
-            "Fu-Guo Xie"
+            "Lapo Fanciullo",
+            "Jonathan P. Marshall",
+            "Francisca Kemper",
+            "Peter Scicluna",
+            "Sundar Srinivasan"
         ],
         "keywords": "",
         "figures": [
-            "https://arxiv.org/html/2607.21966v1/x1.png",
-            "https://arxiv.org/html/2607.21966v1/x2.png",
-            "https://arxiv.org/html/2607.21966v1/x3.png",
-            "https://arxiv.org/html/2607.21966v1/x4.png",
-            "https://arxiv.org/html/2607.21966v1/x5.png",
-            "https://arxiv.org/html/2607.21966v1/x6.png",
-            "https://arxiv.org/html/2607.21966v1/x7.png",
-            "https://arxiv.org/html/2607.21966v1/x8.png",
-            "https://arxiv.org/html/2607.21966v1/x9.png",
-            "https://arxiv.org/html/2607.21966v1/x10.png"
+            "https://arxiv.org/html/2607.24262v1/Figures/opac-vs-T+bands_v05.png",
+            "https://arxiv.org/html/2607.24262v1/Figures/gammaeffect_on_shape_1in10_v04.png",
+            "https://arxiv.org/html/2607.24262v1/Figures/allfitres-fixbeta_slope7.5_z0.0.png",
+            "https://arxiv.org/html/2607.24262v1/Figures/allfitres-freebeta_slope7.5_z0.0.png",
+            "https://arxiv.org/html/2607.24262v1/Figures/fit-wlrange-effect_freebeta_Tmin20.0_slope0.0_z0.0_v07.png",
+            "https://arxiv.org/html/2607.24262v1/Figures/allfitres-freebeta_slope7.5_z0.0_shortwl.png",
+            "https://arxiv.org/html/2607.24262v1/Figures/allfitres-freebeta_slope7.5_z0.0_longwl.png",
+            "https://arxiv.org/html/2607.24262v1/Figures/Mfit-vs-z_Tmin40.0_slope7.5_v02.png",
+            "https://arxiv.org/html/2607.24262v1/Figures/Mfit-and-T-vs-z_evolution_predicted.png",
+            "https://arxiv.org/html/2607.24262v1/Figures/BE-vs-T_lin-quad-interp-results.png"
         ]
     },
-    "2607.22309": {
-        "title": "Ensemble Kinematic Ages for 1.5 Million LAMOST Stars",
+    "2607.24333": {
+        "title": "Radio Jet Properties of the Flaring Gamma-Ray Blazar PKS 0346-27",
         "authors": [
-            "Yuxi Lu",
-            "Marc H. Pinsonneault"
+            "M\u00e1t\u00e9 Krezinger",
+            "S\u00e1ndor Frey",
+            "Krisztina \u00c9. Gab\u00e1nyi"
         ],
         "keywords": "",
         "figures": [
-            "https://arxiv.org/html/2607.22309v1/Figures/corr_age.png",
-            "https://arxiv.org/html/2607.22309v1/Figures/avr_high_low.png",
-            "https://arxiv.org/html/2607.22309v1/Figures/Infer_age_example_diff_feh.png",
-            "https://arxiv.org/html/2607.22309v1/Figures/Infer_age_example_diff_alpha.png",
-            "https://arxiv.org/html/2607.22309v1/Figures/Infer_age_example.png",
-            "https://arxiv.org/html/2607.22309v1/Figures/mad_kinage.png",
-            "https://arxiv.org/html/2607.22309v1/Figures/absdiff_age.png",
-            "https://arxiv.org/html/2607.22309v1/Figures/Age_show_v1.png",
-            "https://arxiv.org/html/2607.22309v1/Figures/oldage.png",
-            "https://arxiv.org/html/2607.22309v1/Figures/Nwe_age_xiang.png"
+            "https://arxiv.org/html/2607.24333v1/J0348-2749-X.png",
+            "https://arxiv.org/html/2607.24333v1/J0348-2749_tb.png",
+            "https://arxiv.org/html/2607.24333v1/J0348-2749_fler_lightcurve_X.png",
+            "https://arxiv.org/html/2607.24333v1/J0348-2749_proper_motion_r.png",
+            "https://arxiv.org/html/2607.24333v1/J0348-2749_proper_motion_theta.png"
         ]
     },
-    "2607.22499": {
-        "title": "Payne4GAIN: NLTE Corrections for Red Giants in Milky Way Mapper using H-Band Neural Network Emulators",
+    "2607.24418": {
+        "title": "A Split-Flux Method for Dust-Gas Two-Fluid Simulations from Strong to Weak Coupling",
         "authors": [
-            "Pierre Thibodeaux",
-            "Alexander P. Ji",
-            "Nicholas Storm",
-            "Maria Bergemann",
-            "Rana Ezzeddine",
-            "Yuan-sen Ting",
+            "Kazunari Iwasaki"
+        ],
+        "keywords": "\\uat",
+        "figures": [
+            "https://arxiv.org/html/2607.24418v1/x1.png",
+            "https://arxiv.org/html/2607.24418v1/x2.png",
+            "https://arxiv.org/html/2607.24418v1/x3.png",
+            "https://arxiv.org/html/2607.24418v1/x4.png",
+            "https://arxiv.org/html/2607.24418v1/x5.png",
+            "https://arxiv.org/html/2607.24418v1/x6.png",
+            "https://arxiv.org/html/2607.24418v1/x7.png",
+            "https://arxiv.org/html/2607.24418v1/x8.png",
+            "https://arxiv.org/html/2607.24418v1/x9.png",
+            "https://arxiv.org/html/2607.24418v1/x10.png"
+        ]
+    },
+    "2607.24461": {
+        "title": "Cosmic ray heating of cold streams: Implications for the gas supply and growth of massive galaxies",
+        "authors": [
+            "Ellis R. Owen",
+            "Nicolas Ledos",
+            "Evangelia Ntormousi",
+            "Shinsuke Takasao",
+            "Kentaro Nagamine",
+            "Sebastiano Cantalupo"
+        ],
+        "keywords": "",
+        "figures": [
+            "https://arxiv.org/html/2607.24461v1/figures/sketch_cr_cgm_v2.jpg",
+            "https://arxiv.org/html/2607.24461v1/figures/fig2_times_map_CR_10MeV.jpg",
+            "https://arxiv.org/html/2607.24461v1/x1.png",
+            "https://arxiv.org/html/2607.24461v1/x2.png",
+            "https://arxiv.org/html/2607.24461v1/figures/cr_delta_grid_map.png",
+            "https://arxiv.org/html/2607.24461v1/figures/cr_delta_grid_map_mix.png",
+            "https://arxiv.org/html/2607.24461v1/x4.png",
+            "https://arxiv.org/html/2607.24461v1/figures/fig_stream_prof.jpg",
+            "https://arxiv.org/html/2607.24461v1/x5.png",
+            "https://arxiv.org/html/2607.24461v1/figures/figD1_times_map_CR.jpg"
+        ]
+    },
+    "2607.24517": {
+        "title": "Time-Domain Dust Astrophysics. I. Polarization Flares, Polarization-Angle Reverberation, and Fossil Imprints in Supernova-Illuminated Clouds",
+        "authors": [
+            "Thiem Hoang"
+        ],
+        "keywords": "",
+        "figures": [
+            "https://arxiv.org/html/2607.24517v1/fig1.png"
+        ]
+    },
+    "2607.24580": {
+        "title": "Constraining young massive cluster properties with radio-continuum observations: The Arches cluster",
+        "authors": [
+            "M. Cano-Gonz\u00e1lez",
+            "R. Sch\u00f6del",
+            "A. Alberdi",
+            "F. Najarro",
+            "J. Mold\u00f3n",
+            "M. P\u00e9rez-Torres",
+            "F. Nogueras-Lara"
+        ],
+        "keywords": "Stars: massive --\n                Galaxy: centre --\n                Open clusters and associations --\n                Radio continuum: stars",
+        "figures": [
+            "figures/2607_24580/WRcounts_Z_models.png",
+            "figures/2607_24580/CWB_dist_truncatedGamma_alpha0.19_theta0.29.png",
+            "figures/2607_24580/CWB_counts_models_Z.png",
+            "figures/2607_24580/flowchart_png.png",
+            "figures/2607_24580/all_models_Zsol_flat_smooth.png",
+            "figures/2607_24580/all_models_Z02_flat_smooth.png",
+            "figures/2607_24580/all_models_Zsol_pH19_smooth.png",
+            "figures/2607_24580/all_models_Z02_pH19_smooth.png",
+            "figures/2607_24580/recage_vs_trueage_bothZ.png",
+            "figures/2607_24580/Ages_comparison_all.png"
+        ]
+    },
+    "2607.24614": {
+        "title": "Stellar Dynamics and Evolution of the Intermediate-Age Open Clusters NGC 2266 and NGC 2324",
+        "authors": [
+            "Cyrus Raj",
+            "D. Bisht",
+            "Ashish Raj"
+        ],
+        "keywords": "",
+        "figures": [
+            "https://arxiv.org/html/2607.24614v1/n2266.png",
+            "https://arxiv.org/html/2607.24614v1/n2324.png",
+            "https://arxiv.org/html/2607.24614v1/2266gpmerr.png",
+            "https://arxiv.org/html/2607.24614v1/2266gerr.png",
+            "https://arxiv.org/html/2607.24614v1/2266jerr.png",
+            "https://arxiv.org/html/2607.24614v1/2324gpmerr.png",
+            "https://arxiv.org/html/2607.24614v1/2324gerr.png",
+            "https://arxiv.org/html/2607.24614v1/2324jerr.png",
+            "https://arxiv.org/html/2607.24614v1/2266vector.png",
+            "https://arxiv.org/html/2607.24614v1/2324vector.png"
+        ]
+    },
+    "2607.24656": {
+        "title": "Laboratory spectroscopy, theoretical characterization, and astronomical search for syn-propenethial (CH2CHCHS)",
+        "authors": [
+            "Germ\u00e1n Molpeceres",
+            "Carlos Cabezas",
+            "Marcelino Ag\u00fandez",
+            "Mar\u00eda Mallo",
+            "Yasuki Endo",
+            "Lucie Kolesnikov\u00e1",
+            "Gisela Esplugues",
+            "Jos\u00e9 Cernicharo"
+        ],
+        "keywords": "",
+        "figures": [
+            "figures/2607_24656/cis-trans.png",
+            "figures/2607_24656/cis_isomer_ftmw.png",
+            "figures/2607_24656/Spectrum-mmw-corr.png",
+            "figures/2607_24656/cis.png",
+            "figures/2607_24656/pes_square_new.png",
+            "figures/2607_24656/led.png",
+            "figures/2607_24656/k_tau.png",
+            "figures/2607_24656/equilibrium.png",
+            "figures/2607_24656/selected_abundances.png"
+        ]
+    },
+    "2607.24664": {
+        "title": "Too many quiescent late-type galaxies or a matter of misclassification?",
+        "authors": [
+            "J. L. Tous",
+            "S. I. Raimundo",
+            "H. Dom\u00ednguez S\u00e1nchez"
+        ],
+        "keywords": "",
+        "figures": [
+            "https://arxiv.org/html/2607.24664v1/x1.png",
+            "https://arxiv.org/html/2607.24664v1/x2.png",
+            "https://arxiv.org/html/2607.24664v1/x3.png"
+        ]
+    },
+    "2607.24675": {
+        "title": "When galaxies cross cold fronts: wind tunnel simulations of ram pressure stripping",
+        "authors": [
+            "Elvis A. Mello-Terencio",
+            "Rubens E. G. Machado",
+            "Richards P. Albuquerque"
+        ],
+        "keywords": "",
+        "figures": [
+            "https://arxiv.org/html/2607.24675v1/x1.png",
+            "https://arxiv.org/html/2607.24675v1/x2.png",
+            "https://arxiv.org/html/2607.24675v1/x3.png",
+            "https://arxiv.org/html/2607.24675v1/x4.png",
+            "https://arxiv.org/html/2607.24675v1/x5.png",
+            "https://arxiv.org/html/2607.24675v1/x6.png",
+            "https://arxiv.org/html/2607.24675v1/x7.png",
+            "https://arxiv.org/html/2607.24675v1/x8.png",
+            "https://arxiv.org/html/2607.24675v1/x9.png",
+            "https://arxiv.org/html/2607.24675v1/x10.png"
+        ]
+    },
+    "2607.22822": {
+        "title": "BOSS-CLAM: Utilizing a Constrained Linear Absorption Model to Infer Stellar Parameters from BOSS Spectra",
+        "authors": [
+            "Ilija Medan",
             "Andrew R. Casey",
-            "Emily Griffith",
-            "Jos\u00e9 Fern\u00e1ndez-Trincado",
-            "Guilherme Limberg",
-            "Szabolcs M\u00e9sz\u00e1ros",
-            "Amaya Sinha",
-            "Danny Horta",
-            "Andrew K. Saydjari",
-            "Joel Brownstein"
+            "Alexander P. Ji",
+            "Jonah M. Otto",
+            "Kayvon Sharifi",
+            "Zachary Way",
+            "Madeleine McKenzie",
+            "Natalie R. Myers",
+            "Keivan G. Stassun",
+            "Peter J. Smith",
+            "Andrew Tkachenko",
+            "Vedant Chandra",
+            "Michael R. Blanton",
+            "Peter M. Frinchaboy",
+            "Guy S. Stringfellow",
+            "Sean Morrison"
         ],
         "keywords": "",
         "figures": [
-            "https://arxiv.org/html/2607.22499v1/x1.png",
-            "https://arxiv.org/html/2607.22499v1/x2.png",
-            "https://arxiv.org/html/2607.22499v1/x3.png",
-            "https://arxiv.org/html/2607.22499v1/x4.png",
-            "https://arxiv.org/html/2607.22499v1/x5.png",
-            "https://arxiv.org/html/2607.22499v1/x6.png",
-            "https://arxiv.org/html/2607.22499v1/x7.png",
-            "https://arxiv.org/html/2607.22499v1/x8.png",
-            "https://arxiv.org/html/2607.22499v1/x9.png",
-            "https://arxiv.org/html/2607.22499v1/x10.png"
+            "https://arxiv.org/html/2607.22822v1/plots/bossnet_clam_compare.png",
+            "https://arxiv.org/html/2607.22822v1/plots/training_set_plots_nominal.png",
+            "https://arxiv.org/html/2607.22822v1/plots/training_set_plots_minesweeper.png",
+            "https://arxiv.org/html/2607.22822v1/plots/training_set_plots_wide_binary.png",
+            "https://arxiv.org/html/2607.22822v1/plots/clam_compare_results.png",
+            "https://arxiv.org/html/2607.22822v1/plots/example_spectrum_fits_w_deriv_0.png",
+            "https://arxiv.org/html/2607.22822v1/plots/example_spectrum_fits_zoom_0.png",
+            "https://arxiv.org/html/2607.22822v1/plots/example_spectrum_fits_w_deriv_1.png",
+            "https://arxiv.org/html/2607.22822v1/plots/example_spectrum_fits_zoom_1.png",
+            "https://arxiv.org/html/2607.22822v1/plots/example_spectrum_fits_w_deriv_2.png"
+        ]
+    },
+    "2607.22839": {
+        "title": "The JDISC Survey: Inner Disk Chemistry of Class I/FS Disks and Tentative Evidence for Early Pebble Drift",
+        "authors": [
+            "Ke Zhang",
+            "Andrea Banzatti",
+            "Colette Salyk",
+            "Abygail Waggoner",
+            "Klaus Pontoppidan",
+            "Mar\u00eda Jos\u00e9 Colmenares",
+            "Ilaria Pascucci",
+            "Lucas A. Cieza",
+            "Miguel Vioque",
+            "Paola Pinilla",
+            "Geoffrey A. Blake",
+            "Joan Najita",
+            "Joe Williams",
+            "Sebastiaan Krijt",
+            "Till Kaeufer",
+            "Jane Huang",
+            "Feng Long",
+            "Chengyan Xie",
+            "Minjae Kim",
+            "Eshan Raul",
+            "Dary A. Ru\u00edz-Rodr\u00edguez",
+            "Nicole Arulanantham",
+            "Beno\u00eet Tabone",
+            "Mayank Narang",
+            "Karina Mauco"
+        ],
+        "keywords": "",
+        "figures": [
+            "https://arxiv.org/html/2607.22839v1/x1.png",
+            "https://arxiv.org/html/2607.22839v1/figure2.png",
+            "https://arxiv.org/html/2607.22839v1/x2.png",
+            "https://arxiv.org/html/2607.22839v1/x3.png",
+            "https://arxiv.org/html/2607.22839v1/x4.png",
+            "https://arxiv.org/html/2607.22839v1/x5.png",
+            "https://arxiv.org/html/2607.22839v1/x6.png",
+            "https://arxiv.org/html/2607.22839v1/x7.png",
+            "https://arxiv.org/html/2607.22839v1/x8.png",
+            "https://arxiv.org/html/2607.22839v1/x9.png"
+        ]
+    },
+    "2607.23339": {
+        "title": "Interpreting the stacked kinetic SZ effect I: velocity reconstruction and non-linear velocity effects",
+        "authors": [
+            "Lurdes Ondaro-Mallea",
+            "Raul E. Angulo",
+            "Boryana Hadzhiyska",
+            "Joop Schaye"
+        ],
+        "keywords": "",
+        "figures": [
+            "https://arxiv.org/html/2607.23339v1/figures_hbt/kSZ_terms_total_log_desi_dr2_lrg_pi_until_10_sub200000_CAP.png",
+            "https://arxiv.org/html/2607.23339v1/figures_hbt/halo_diagram.png",
+            "https://arxiv.org/html/2607.23339v1/figures_hbt/corrcoef_maps_lin_desi_dr2_lrg_sub200000_all_host_los_ordered_smoothing10.0.png",
+            "https://arxiv.org/html/2607.23339v1/figures_hbt/kSZ_terms_cen_sat_log_desi_dr2_lrg_pi_until_10_sub200000_CAP.png",
+            "https://arxiv.org/html/2607.23339v1/figures_hbt/kSZ_baryons_non_linear_terms_log_desi_dr2_lrg_pi_until_10_sub200000_CAP.png",
+            "https://arxiv.org/html/2607.23339v1/figures_hbt/kSZ_compare_hvel_vrec_CAP_beam.png",
+            "https://arxiv.org/html/2607.23339v1/figures_hbt/kSZ_vrecz_vs_smoothing_CAP_beam.png",
+            "https://arxiv.org/html/2607.23339v1/figures_hbt/kSZ_compare_stacking_velocities_log_desi_dr2_lrg_pi_until_10_sub200000_CAP_beam_allgal_nohvelgas.png"
+        ]
+    },
+    "2607.23849": {
+        "title": "A Century of Novae in the Large Magellanic Cloud",
+        "authors": [
+            "Allen W. Shafter"
+        ],
+        "keywords": "\\uat",
+        "figures": [
+            "https://arxiv.org/html/2607.23849v1/x1.png",
+            "https://arxiv.org/html/2607.23849v1/f2.png",
+            "https://arxiv.org/html/2607.23849v1/x2.png",
+            "https://arxiv.org/html/2607.23849v1/x3.png",
+            "https://arxiv.org/html/2607.23849v1/f5.png",
+            "https://arxiv.org/html/2607.23849v1/x4.png",
+            "https://arxiv.org/html/2607.23849v1/x5.png",
+            "https://arxiv.org/html/2607.23849v1/x6.png",
+            "https://arxiv.org/html/2607.23849v1/x7.png",
+            "https://arxiv.org/html/2607.23849v1/x8.png"
+        ]
+    },
+    "2607.24201": {
+        "title": "Probing an Intermediate-Mass Black Hole Companion of Sagittarius A* with Pulsar Timing",
+        "authors": [
+            "Zexin Hu",
+            "Lijing Shao"
+        ],
+        "keywords": "",
+        "figures": [
+            "https://arxiv.org/html/2607.24201v1/x1.png",
+            "https://arxiv.org/html/2607.24201v1/x2.png",
+            "https://arxiv.org/html/2607.24201v1/x3.png",
+            "https://arxiv.org/html/2607.24201v1/x4.png",
+            "https://arxiv.org/html/2607.24201v1/x5.png",
+            "https://arxiv.org/html/2607.24201v1/x6.png",
+            "https://arxiv.org/html/2607.24201v1/x7.png",
+            "https://arxiv.org/html/2607.24201v1/x8.png",
+            "https://arxiv.org/html/2607.24201v1/x9.png",
+            "https://arxiv.org/html/2607.24201v1/x10.png"
+        ]
+    },
+    "2607.24289": {
+        "title": "Local luminosity functions of galaxies at (sub)millimeter wavelengths from Planck surveys",
+        "authors": [
+            "Matteo Bonato",
+            "Gianfranco De Zotti"
+        ],
+        "keywords": "galaxies: luminosity function, mass function \u2013 galaxies: photometry \u2013 galaxies:\nstarburst \u2013 submillimeter: galaxies",
+        "figures": [
+            "https://arxiv.org/html/2607.24289v1/LF_KDE_857GHz_Final.png",
+            "https://arxiv.org/html/2607.24289v1/LIR_plot.png",
+            "https://arxiv.org/html/2607.24289v1/LF_KDE_545GHz_Final.png",
+            "https://arxiv.org/html/2607.24289v1/LF_KDE_353GHz_Final.png",
+            "https://arxiv.org/html/2607.24289v1/dmf_plot.png",
+            "https://arxiv.org/html/2607.24289v1/LF_KDE_217GHz_Final.png"
+        ]
+    },
+    "2607.24412": {
+        "title": "Constraining the $z \\approx 1$ neutral hydrogen (HI) distribution",
+        "authors": [
+            "Minal Chhabra",
+            "Raghunath Ghara",
+            "Somnath Bharadwaj"
+        ],
+        "keywords": "",
+        "figures": [
+            "https://arxiv.org/html/2607.24412v1/x1.png",
+            "https://arxiv.org/html/2607.24412v1/x2.png",
+            "https://arxiv.org/html/2607.24412v1/x3.png"
         ]
     }
 }
