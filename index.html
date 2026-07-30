@@ -285,15 +285,32 @@ async function loadPaper(folderPath,prepend=false) {
         ];
     });
 
-    if (team.some(v => authors.textContent.includes(v))) {
-        header.className += " team";
-        var canvas = document.createElement("canvas");
-        canvas.width = document.body.scrollWidth/2;
-        canvas.height = document.body.scrollHeight;
-        var confettiSettings = { target: canvas };
-        var confetti = new ConfettiGenerator(confettiSettings);
-        confetti.render();
-        paperDiv.appendChild(canvas);
+    var confetti_spawned = false;
+
+    for (member in team){
+        if (authors.textContent.includes(team[member])){
+            if (confetti_spawned == false){
+                header.className += " team";
+                var canvas = document.createElement("canvas");
+                canvas.width = document.body.scrollWidth/2;
+                canvas.height = document.body.scrollHeight;
+                var confettiSettings = { target: canvas };
+                var confetti = new ConfettiGenerator(confettiSettings);
+                confetti.render();
+                paperDiv.appendChild(canvas);
+                title.innerHTML += " (with ";
+                confetti_spawned = true;
+            }
+            title.innerHTML += team[member] + ", ";
+        }
+    }
+    
+    if (confetti_spawned){
+        title.innerHTML = title.innerHTML.substring(0,title.innerHTML.length - 2) + ")";
+    }
+
+    if (authors.textContent.split(',').length > 10){
+        authors.textContent = authors.textContent.split(',').slice(0,10).join(', ') + " et al.";
     }
 
     header.appendChild(qr);
