@@ -1,360 +1,355 @@
 {
-    "2608.00164": {
-        "title": "Evidence for a thermal pressure deficit in galaxy groups from the tSZ effect and weak lensing",
+    "2608.02755": {
+        "title": "Weak-lensing Shear-Selected Galaxy Clusters from the Hyper Suprime-Cam Subaru Strategic Program: III. A precision cosmological sample enabled by optical confirmation",
         "authors": [
-            "Jared Siegel",
-            "Alexandra Amon",
-            "Jenny E. Greene",
-            "Ian G. McCarthy",
-            "Eliot Quataert",
-            "William Coulton"
+            "I-Non Chiu",
+            "Kai-Feng Chen",
+            "Masamune Oguri",
+            "Satoshi Miyazaki",
+            "Surhud More",
+            "Atsushi J. Nishizawa",
+            "Nobuhiro Okabe",
+            "Ken Osato",
+            "Naomi Ota",
+            "Tomomi Sunayama",
+            "Sut-Ieng Tam",
+            "Keiichi Umetsu"
+        ],
+        "keywords": "cosmology: cosmological parameters \u2013 cosmology: large-scale structure of the universe \u2013 galaxies: clusters: general \u2013 gravitational lensing: weak",
+        "figures": [
+            "figures/2608_02755/rs_4.png",
+            "figures/2608_02755/post_rs_zfp3d0_tau_p0d4.png",
+            "figures/2608_02755/residual_rs_zfp3d0_tau_p0d4.png",
+            "figures/2608_02755/phz_verification.png",
+            "figures/2608_02755/schematic.png",
+            "figures/2608_02755/0_image.png",
+            "figures/2608_02755/12_image.png",
+            "figures/2608_02755/sample.png",
+            "figures/2608_02755/cluster_redshift_bias_add1.png",
+            "figures/2608_02755/z_ph_sp.png"
+        ]
+    },
+    "2608.03235": {
+        "title": "The One-Loop Power Spectrum of Fast Radio Burst Dispersion Measures",
+        "authors": [
+            "Haruki Ebina",
+            "Martin White"
         ],
         "keywords": "",
         "figures": [
-            "https://arxiv.org/html/2608.00164v1/x1.png",
-            "https://arxiv.org/html/2608.00164v1/x2.png",
-            "https://arxiv.org/html/2608.00164v1/x3.png",
-            "https://arxiv.org/html/2608.00164v1/x4.png",
-            "https://arxiv.org/html/2608.00164v1/x5.png",
-            "https://arxiv.org/html/2608.00164v1/x6.png",
-            "https://arxiv.org/html/2608.00164v1/x7.png",
-            "https://arxiv.org/html/2608.00164v1/x8.png"
+            "figures/2608_03235/frb_redshift_distribution_desi_overlay.png",
+            "figures/2608_03235/snr_pgg_pee_bgs_lrg_dz0p3.png",
+            "figures/2608_03235/pee_peh_decomp_linear_vs_rest_frac_bgs_lrg.png",
+            "figures/2608_03235/plot_corr.png",
+            "figures/2608_03235/bestfit_merged_bgs_lrg_Neepos_rerun.png",
+            "figures/2608_03235/residuals_merged_bgs_lrg_Neepos_rerun_allvariants_lines.png",
+            "figures/2608_03235/triangle_z0.20_bgs_m1250_Neepos_merged2_am.png",
+            "figures/2608_03235/posteriors1d_z0.50_lrg_Neepos_2rows_am.png",
+            "figures/2608_03235/rsd_ee_multipoles_allvariants.png"
         ]
     },
-    "2608.00331": {
-        "title": "Spin-1 Ultralight Dark Matter under Cosmological Scrutiny: Mass Constraints from CMB and Distance Probes",
+    "2608.03400": {
+        "title": "Bridging perturbation theory and simulations: initial conditions and fast integrators for cosmological simulations",
         "authors": [
-            "Guadalupe Ahumada Acu\u00f1a",
-            "Tomas Ferreira Chase",
-            "Diana L\u00f3pez Nacir",
-            "Rafael C. Nunes"
+            "Oliver Hahn"
         ],
         "keywords": "",
         "figures": [
-            "https://arxiv.org/html/2608.00331v1/x1.png",
-            "https://arxiv.org/html/2608.00331v1/x2.png",
-            "https://arxiv.org/html/2608.00331v1/x3.png",
-            "https://arxiv.org/html/2608.00331v1/x4.png",
-            "https://arxiv.org/html/2608.00331v1/x5.png",
-            "https://arxiv.org/html/2608.00331v1/x6.png",
-            "https://arxiv.org/html/2608.00331v1/x7.png"
+            "https://arxiv.org/html/2608.03400v1/GRF_cube.png",
+            "https://arxiv.org/html/2608.03400v1/x1.png",
+            "https://arxiv.org/html/2608.03400v1/x2.png",
+            "https://arxiv.org/html/2608.03400v1/x3.png",
+            "https://arxiv.org/html/2608.03400v1/x4.png",
+            "https://arxiv.org/html/2608.03400v1/x5.png"
         ]
     },
-    "2608.00806": {
-        "title": "Constraints on the logarithmic luminosity-distance relation from Pantheon+ and DES-SN5YR Type Ia supernova data with progenitor age-bias correction",
+    "2608.03415": {
+        "title": "Tomographer: End-to-end Redshift Distribution Estimation for Source Catalogs and Intensity Maps",
         "authors": [
-            "Hoang Ky Nguyen"
+            "Yi-Kuan Chiang",
+            "Yu Voon Ng",
+            "Yu-Ren Lin",
+            "Manuchehr Taghizadeh-Popp",
+            "Brice M\u00e9nard"
         ],
         "keywords": "",
         "figures": [
-            "https://arxiv.org/html/2608.00806v1/Direct-fit.v3.jpg",
-            "https://arxiv.org/html/2608.00806v1/wCDM_ODE_w_contour.RawMergedData.jpg",
-            "https://arxiv.org/html/2608.00806v1/wCDM_ODE_w_contour.AgeCorrectedMergedData.jpg",
-            "https://arxiv.org/html/2608.00806v1/K-bucket.v6.jpg"
+            "https://arxiv.org/html/2608.03415v1/x1.png",
+            "https://arxiv.org/html/2608.03415v1/x2.png",
+            "https://arxiv.org/html/2608.03415v1/x3.png",
+            "https://arxiv.org/html/2608.03415v1/activation_maps.jpg",
+            "https://arxiv.org/html/2608.03415v1/x4.png",
+            "https://arxiv.org/html/2608.03415v1/x5.png",
+            "https://arxiv.org/html/2608.03415v1/x6.png",
+            "https://arxiv.org/html/2608.03415v1/x7.png",
+            "https://arxiv.org/html/2608.03415v1/x8.png",
+            "https://arxiv.org/html/2608.03415v1/x9.png"
         ]
     },
-    "2608.00904": {
-        "title": "Sensitive 3mm Imaging of Discrete Sources in the Fields of X-ray-Selected Galaxy Clusters",
+    "2608.03441": {
+        "title": "SCRIPT in the Cosmic Dawn: Distinguishing Redshift-Evolving Galaxy Populations with 21-cm Fluctuations",
         "authors": [
-            "Simon R Dicker",
-            "Mark Devlin",
-            "Luca Di Mascolo",
-            "Saianeesh Haridas",
-            "Matt Hilton",
-            "Joshiwa van Marrewijk",
-            "Brian S. Mason",
-            "Emily Moravec",
-            "Tony Mroczkowski",
-            "John Orlowski-Scherer",
-            "Charles Romero",
-            "Craig Sarazin"
+            "Janakee Raste",
+            "Tirthankar Roy Choudhury"
         ],
         "keywords": "",
         "figures": [
-            "https://arxiv.org/html/2608.00904v1/x1.png",
-            "https://arxiv.org/html/2608.00904v1/x2.png",
-            "https://arxiv.org/html/2608.00904v1/SNR_histogram_eFEDS.png",
-            "https://arxiv.org/html/2608.00904v1/eFEDS_ACT_src_locations.png",
-            "https://arxiv.org/html/2608.00904v1/Source_1_maps_M2-SJ0832.1_+_0419.png",
-            "https://arxiv.org/html/2608.00904v1/SED_Source_1_snr_all_src_M2-SJ0832.1_+_0419.png",
-            "https://arxiv.org/html/2608.00904v1/flux_w_radius2_w_err.png",
-            "https://arxiv.org/html/2608.00904v1/Fractional_change_in_y0.png",
-            "https://arxiv.org/html/2608.00904v1/fig4set-M2-SJ0832.1+0419.png",
-            "https://arxiv.org/html/2608.00904v1/fig4set-M2-SJ0839.0+0210.png"
+            "https://arxiv.org/html/2608.03441v1/uvlfs.png",
+            "https://arxiv.org/html/2608.03441v1/dTb_PS_fx_fL_beta0.5_5_16_alpha=01.5.png",
+            "https://arxiv.org/html/2608.03441v1/dTb_comp_mod5_4_16.png",
+            "https://arxiv.org/html/2608.03441v1/PS_dTb_comp_mod5_4_k=0.05_16.png",
+            "https://arxiv.org/html/2608.03441v1/dTb_PS_res_M_6_8_fL=0001.00_fx=0010.00_alpha=01.5.png"
         ]
     },
-    "2608.00923": {
-        "title": "Measurement of the Hubble constant with high-energy neutrinos",
+    "2608.03470": {
+        "title": "Modified Cosmological Expansion and the JWST CMB Optical Depth Tension in Self Interaction Gravity",
         "authors": [
-            "Gonzalo Herrera",
-            "Nicholas Kamp",
-            "Carlos A. Arg\u00fcelles"
+            "Subhadeep Mukherjee",
+            "Shashank Shekhar Pandey",
+            "A. S. Majumdar"
         ],
         "keywords": "",
         "figures": [
-            "https://arxiv.org/html/2608.00923v1/x1.png",
-            "https://arxiv.org/html/2608.00923v1/x2.png",
-            "https://arxiv.org/html/2608.00923v1/x3.png",
-            "https://arxiv.org/html/2608.00923v1/x4.png",
-            "https://arxiv.org/html/2608.00923v1/x5.png",
-            "https://arxiv.org/html/2608.00923v1/x6.png",
-            "https://arxiv.org/html/2608.00923v1/x7.png",
-            "https://arxiv.org/html/2608.00923v1/x8.png"
+            "figures/2608_03470/tau_contour_zgtau.png",
+            "figures/2608_03470/zrei_contour_zgtau.png",
+            "figures/2608_03470/tau_contour_Ab.png",
+            "figures/2608_03470/zrei_contour_Ab.png",
+            "figures/2608_03470/corner_plot_sigravity.png",
+            "figures/2608_03470/depletion_fn_with_ci.png",
+            "figures/2608_03470/optical_depth_and_neutral_fraction_1.png"
         ]
     },
-    "2608.01215": {
-        "title": "Do we really need alternatives to the $\u03c9_0\u03c9_a$CDM parameterization after the DESI DR2?",
+    "2608.03530": {
+        "title": "Cosmic Velocity Flows: from Theory to Observations",
         "authors": [
-            "Youri Carloni",
-            "Orlando Luongo",
-            "Marek Biesiada"
+            "Saee Dhawalikar"
         ],
         "keywords": "",
         "figures": [
-            "https://arxiv.org/html/2608.01215v1/x1.png",
-            "https://arxiv.org/html/2608.01215v1/x2.png",
-            "https://arxiv.org/html/2608.01215v1/x3.png",
-            "https://arxiv.org/html/2608.01215v1/x4.png",
-            "https://arxiv.org/html/2608.01215v1/x5.png",
-            "https://arxiv.org/html/2608.01215v1/x6.png",
-            "https://arxiv.org/html/2608.01215v1/x7.png"
+            "https://arxiv.org/html/2608.03530v1/Images/Chapter01/DESI_butterfly.jpg",
+            "https://arxiv.org/html/2608.03530v1/Images/Chapter01/Millenium.jpg",
+            "https://arxiv.org/html/2608.03530v1/x1.png",
+            "https://arxiv.org/html/2608.03530v1/x2.png",
+            "https://arxiv.org/html/2608.03530v1/x3.png",
+            "https://arxiv.org/html/2608.03530v1/x4.png",
+            "https://arxiv.org/html/2608.03530v1/x5.png",
+            "https://arxiv.org/html/2608.03530v1/x6.png",
+            "https://arxiv.org/html/2608.03530v1/x7.png",
+            "https://arxiv.org/html/2608.03530v1/x8.png"
         ]
     },
-    "2608.01844": {
-        "title": "Revisiting Metastable Dark Energy in Light of DESI DR2 BAO and DESI DR1 Full-Shape Measurements",
+    "2608.03725": {
+        "title": "How Dilatation Invariance Suppresses Loop Corrections to Curvature Perturbations on CMB Scales",
         "authors": [
-            "Purba Mukherjee",
-            "Arman Shafieloo",
-            "Varun Sahni"
+            "Danilo Artigas",
+            "Shi Pi",
+            "Takahiro Tanaka",
+            "Yuko Urakawa"
         ],
         "keywords": "",
         "figures": [
-            "https://arxiv.org/html/2608.01844v1/x1.png",
-            "https://arxiv.org/html/2608.01844v1/x2.png",
-            "https://arxiv.org/html/2608.01844v1/x3.png",
-            "https://arxiv.org/html/2608.01844v1/x4.png",
-            "https://arxiv.org/html/2608.01844v1/x5.png",
-            "https://arxiv.org/html/2608.01844v1/x6.png",
-            "https://arxiv.org/html/2608.01844v1/x7.png",
-            "https://arxiv.org/html/2608.01844v1/x8.png",
-            "https://arxiv.org/html/2608.01844v1/x9.png",
-            "https://arxiv.org/html/2608.01844v1/x10.png"
+            "https://arxiv.org/html/2608.03725v1/x1.png",
+            "https://arxiv.org/html/2608.03725v1/x2.png",
+            "https://arxiv.org/html/2608.03725v1/x3.png",
+            "https://arxiv.org/html/2608.03725v1/x4.png",
+            "https://arxiv.org/html/2608.03725v1/x5.png",
+            "https://arxiv.org/html/2608.03725v1/x6.png",
+            "https://arxiv.org/html/2608.03725v1/x7.png",
+            "https://arxiv.org/html/2608.03725v1/x8.png"
         ]
     },
-    "2608.01919": {
-        "title": "Boosting the optical depth to Thomson scattering with primordial black hole evaporation at high redshift",
+    "2608.03739": {
+        "title": "Integrated cosmological memory: A dark-siren method to probe dark energy",
         "authors": [
-            "Isaac Sierra",
-            "Gabriel P. Lynch",
-            "Lloyd Knox",
-            "Vivian Poulin",
-            "Lennart Balkenhol",
-            "Ali Rida Khalife"
+            "Indranil Chakraborty",
+            "Sayantan Ghosh",
+            "Susmita Jana",
+            "Archana Pai",
+            "S. Shankaranarayanan"
         ],
         "keywords": "",
         "figures": [
-            "https://arxiv.org/html/2608.01919v1/fig1_ionfrac_7_16.png",
-            "https://arxiv.org/html/2608.01919v1/six_panel_plot_7_15_26.png",
-            "https://arxiv.org/html/2608.01919v1/fig2_7_31.png",
-            "https://arxiv.org/html/2608.01919v1/Om3_Om_7_14.png",
-            "https://arxiv.org/html/2608.01919v1/Weiner_plot_7_16.png",
-            "https://arxiv.org/html/2608.01919v1/x1.png",
-            "https://arxiv.org/html/2608.01919v1/exoclass_scaled_6_17.png"
+            "https://arxiv.org/html/2608.03739v1/x1.png",
+            "https://arxiv.org/html/2608.03739v1/paper-figures/ratio-d-B-inset-original-upto20Gpc.png",
+            "https://arxiv.org/html/2608.03739v1/paper-figures/distance_10Gpc/dL_vs_B_distance_10000_network_L1_CE_H1_CE_V1_ET.png",
+            "https://arxiv.org/html/2608.03739v1/paper-figures/distance_10Gpc/q_vs_B_distance_10000_network_L1_CE_H1_CE_V1_ET.png",
+            "https://arxiv.org/html/2608.03739v1/paper-figures/distance_10Gpc/Mc_vs_B_distance_10000_network_L1_CE_H1_CE_V1_ET.png",
+            "https://arxiv.org/html/2608.03739v1/paper-figures/B_vs_SNR_all_distances.png",
+            "https://arxiv.org/html/2608.03739v1/paper-figures/distance_5Gpc/dL_vs_B_distance_5000_network_L1_CE_H1_CE_V1_ET.png",
+            "https://arxiv.org/html/2608.03739v1/paper-figures/distance_8Gpc/dL_vs_B_distance_8000_network_L1_CE_H1_CE_V1_ET.png",
+            "https://arxiv.org/html/2608.03739v1/paper-figures/distance_10Gpc/dL_vs_B_distance_10000_network_L1_CE_H1_CE_V1_ET.png",
+            "https://arxiv.org/html/2608.03739v1/paper-figures/distance_5Gpc/q_vs_B_distance_5000_network_L1_CE_H1_CE_V1_ET.png"
         ]
     },
-    "2608.02175": {
-        "title": "Testing Scale-Dependent Suppression of Structure Growth in the Linear Regime",
+    "2608.03876": {
+        "title": "Fisher Forecasting for the DESC with $\\texttt{Augur}$",
         "authors": [
-            "Fernanda Oliveira",
-            "Miguel A. Sabogal",
-            "Felipe Avila",
-            "Rafael C. Nunes",
-            "Armando Bernui"
+            "Paul Rogozenski",
+            "Sankarshana Srinivasan",
+            "Javier S\u00e1nchez",
+            "Nora Elisa Chisari",
+            "Arthur Loureiro",
+            "Marc Paterno",
+            "Rebekah Polen",
+            "Heather Prince",
+            "Biancamaria Sersante",
+            "An\u017ee Slosar",
+            "Sandro Vitenti",
+            "Carlos Garc\u00eda-Garc\u00eda",
+            "Eric Gawiser",
+            "Christos Georgiou",
+            "C. Danielle Leonard",
+            "Ayan Mitra",
+            "Jeremy Neveu",
+            "LSST Dark Energy Science Collaboration"
         ],
         "keywords": "",
         "figures": [
-            "https://arxiv.org/html/2608.02175v1/x1.png",
-            "https://arxiv.org/html/2608.02175v1/x2.png"
+            "https://arxiv.org/html/2608.03876v1/x1.png",
+            "https://arxiv.org/html/2608.03876v1/x2.png",
+            "https://arxiv.org/html/2608.03876v1/x1.png",
+            "https://arxiv.org/html/2608.03876v1/x2.png",
+            "https://arxiv.org/html/2608.03876v1/x3.png",
+            "https://arxiv.org/html/2608.03876v1/x4.png",
+            "https://arxiv.org/html/2608.03876v1/x5.png",
+            "https://arxiv.org/html/2608.03876v1/x6.png",
+            "https://arxiv.org/html/2608.03876v1/x5.png",
+            "https://arxiv.org/html/2608.03876v1/x6.png"
         ]
     },
-    "2608.02202": {
-        "title": "A refined method for measuring cosmological distances using variability and proper motions in AGN with VLBI-detected counter-jets",
+    "2608.04005": {
+        "title": "Cosmology in the Einstein Telescope era: comparing traditional and simulation-based methods for population inference",
         "authors": [
-            "Jeffrey A. Hodgson",
-            "Anthony Carr",
-            "David Parkinson",
-            "Matteo Statti",
-            "Jaehyeon Myeong",
-            "Benjamin L'Huillier",
-            "Arman Shafieloo",
-            "Ioannis Liodakis",
-            "Se Heon Oh"
-        ],
-        "keywords": "Cosmology: distance scale \u2013 Galaxies: active \u2013 Galaxies: jets \u2013 Galaxies: individual (3C 84)",
-        "figures": [
-            "https://arxiv.org/html/2608.02202v1/x1.png",
-            "https://arxiv.org/html/2608.02202v1/x2.png"
-        ]
-    },
-    "2608.02458": {
-        "title": "Isotropic universes with a preferred direction",
-        "authors": [
-            "Jose Beltr\u00e1n Jim\u00e9nez",
-            "Shinji Tsujikawa"
+            "Giovanni Antinozzi",
+            "Guillermo Franco Abell\u00e1n",
+            "Davide Sciotti",
+            "Matteo Martinelli"
         ],
         "keywords": "",
         "figures": [
-            "https://arxiv.org/html/2608.02458v1/x1.png"
+            "https://arxiv.org/html/2608.04005v1/x1.png",
+            "https://arxiv.org/html/2608.04005v1/x2.png",
+            "https://arxiv.org/html/2608.04005v1/x3.png",
+            "https://arxiv.org/html/2608.04005v1/x4.png",
+            "https://arxiv.org/html/2608.04005v1/x5.png",
+            "https://arxiv.org/html/2608.04005v1/x6.png",
+            "https://arxiv.org/html/2608.04005v1/x7.png",
+            "https://arxiv.org/html/2608.04005v1/x8.png",
+            "https://arxiv.org/html/2608.04005v1/x9.png",
+            "https://arxiv.org/html/2608.04005v1/x10.png"
         ]
     },
-    "2608.02498": {
-        "title": "Axion Inflation: Perturbative control in the strong backreaction regime",
+    "2607.26138": {
+        "title": "A multi-axion model of inflation and dark matter",
         "authors": [
-            "Valerie Domcke",
-            "Alexandros Papageorgiou",
-            "Marco Peloso",
-            "Stefan Sandner"
+            "Marcos A.G. Garcia",
+            "Hansel Gordillo-Ruiz",
+            "Raul Henriquez-Ortiz",
+            "Saul Ramos-Sanchez"
         ],
         "keywords": "",
         "figures": [
-            "https://arxiv.org/html/2608.02498v1/x1.png",
-            "https://arxiv.org/html/2608.02498v1/x2.png",
-            "https://arxiv.org/html/2608.02498v1/x3.png",
-            "https://arxiv.org/html/2608.02498v1/x4.png",
-            "https://arxiv.org/html/2608.02498v1/x5.png",
-            "https://arxiv.org/html/2608.02498v1/x6.png",
-            "https://arxiv.org/html/2608.02498v1/x7.png",
-            "https://arxiv.org/html/2608.02498v1/x8.png",
-            "https://arxiv.org/html/2608.02498v1/x9.png",
-            "https://arxiv.org/html/2608.02498v1/x10.png"
+            "https://arxiv.org/html/2607.26138v1/x1.png",
+            "https://arxiv.org/html/2607.26138v1/x2.png",
+            "https://arxiv.org/html/2607.26138v1/x1.png",
+            "https://arxiv.org/html/2607.26138v1/x2.png",
+            "https://arxiv.org/html/2607.26138v1/x3.png",
+            "https://arxiv.org/html/2607.26138v1/x4.png",
+            "https://arxiv.org/html/2607.26138v1/x3.png",
+            "https://arxiv.org/html/2607.26138v1/x4.png",
+            "https://arxiv.org/html/2607.26138v1/x5.png",
+            "https://arxiv.org/html/2607.26138v1/x6.png"
         ]
     },
-    "2608.02506": {
-        "title": "Effective reheating in Gauss--Bonnet inflation with $\u03bc(\u03d5,X)$ coupling",
+    "2608.02729": {
+        "title": "Abundant production of scalars and axions from phase transition bubble expansion",
         "authors": [
-            "Ali Seidabadi",
-            "Sara Saghafi",
-            "Kourosh Nozari"
+            "Isabel Garcia Garcia",
+            "Gaurang Ramakant Kane",
+            "John March-Russell",
+            "Andrea Paolini"
         ],
         "keywords": "",
         "figures": [
-            "https://arxiv.org/html/2608.02506v1/x1.png",
-            "https://arxiv.org/html/2608.02506v1/x2.png",
-            "https://arxiv.org/html/2608.02506v1/x3.png",
-            "https://arxiv.org/html/2608.02506v1/x4.png",
-            "https://arxiv.org/html/2608.02506v1/x5.png",
-            "https://arxiv.org/html/2608.02506v1/x6.png",
-            "https://arxiv.org/html/2608.02506v1/x7.png",
-            "https://arxiv.org/html/2608.02506v1/x8.png",
-            "https://arxiv.org/html/2608.02506v1/x9.png",
-            "https://arxiv.org/html/2608.02506v1/x10.png"
+            "https://arxiv.org/html/2608.02729v1/x1.png",
+            "https://arxiv.org/html/2608.02729v1/x2.png",
+            "https://arxiv.org/html/2608.02729v1/x3.png",
+            "https://arxiv.org/html/2608.02729v1/x4.png",
+            "https://arxiv.org/html/2608.02729v1/x5.png",
+            "https://arxiv.org/html/2608.02729v1/x6.png",
+            "https://arxiv.org/html/2608.02729v1/x5.png",
+            "https://arxiv.org/html/2608.02729v1/x6.png",
+            "https://arxiv.org/html/2608.02729v1/x7.png",
+            "https://arxiv.org/html/2608.02729v1/x8.png"
         ]
     },
-    "2608.00158": {
-        "title": "Extra-dimensional Origins of Chemical Potentials at the Cosmological Collider",
+    "2608.02742": {
+        "title": "Determination of the Angular Momentum of Radiated Gravitons, Scalars, and Dark Photons from Binary Orbits",
         "authors": [
-            "Raman Sundrum",
-            "Zhaohui Xu"
+            "Arpan Hait",
+            "Subhendra Mohanty"
         ],
         "keywords": "",
         "figures": [
-            "https://arxiv.org/html/2608.00158v1/x1.png",
-            "https://arxiv.org/html/2608.00158v1/x2.png",
-            "https://arxiv.org/html/2608.00158v1/x3.png",
-            "https://arxiv.org/html/2608.00158v1/x4.png",
-            "https://arxiv.org/html/2608.00158v1/x5.png",
-            "https://arxiv.org/html/2608.00158v1/x6.png",
-            "https://arxiv.org/html/2608.00158v1/x7.png"
+            "https://arxiv.org/html/2608.02742v1/x1.png",
+            "https://arxiv.org/html/2608.02742v1/x2.png",
+            "https://arxiv.org/html/2608.02742v1/x3.png",
+            "https://arxiv.org/html/2608.02742v1/x4.png",
+            "https://arxiv.org/html/2608.02742v1/x5.png",
+            "https://arxiv.org/html/2608.02742v1/x6.png",
+            "https://arxiv.org/html/2608.02742v1/x7.png",
+            "https://arxiv.org/html/2608.02742v1/x8.png",
+            "https://arxiv.org/html/2608.02742v1/x9.png",
+            "https://arxiv.org/html/2608.02742v1/x10.png"
         ]
     },
-    "2608.00161": {
-        "title": "Ubiquitous Corotation of Dark Matter Halos: Implications for Direct Detection",
+    "2608.02747": {
+        "title": "A \"Neutrino Fog\" For Gravitational Waves: The Stochastic Gravitational Wave Background from Supernova Neutrino Memory",
         "authors": [
-            "Dylan Folsom",
-            "Carlos Blanco",
-            "Mariangela Lisanti",
-            "Mark Vogelsberger"
+            "Alex Rojewski",
+            "Cecilia Lunardini"
         ],
         "keywords": "",
         "figures": [
-            "https://arxiv.org/html/2608.00161v1/figures/geo_fv.png",
-            "https://arxiv.org/html/2608.00161v1/figures/eta_resid-and-sigma_si.png",
-            "https://arxiv.org/html/2608.00161v1/figures/daily-mod.png",
-            "https://arxiv.org/html/2608.00161v1/figures/angle.png",
-            "https://arxiv.org/html/2608.00161v1/figures/eta-vphi-correlation.png",
-            "https://arxiv.org/html/2608.00161v1/figures/eta_grid.png",
-            "https://arxiv.org/html/2608.00161v1/figures/frms.png"
+            "https://arxiv.org/html/2608.02747v1/memplusfit.png",
+            "https://arxiv.org/html/2608.02747v1/memcrossfit.png",
+            "https://arxiv.org/html/2608.02747v1/matterfits.png",
+            "https://arxiv.org/html/2608.02747v1/memoryfitcurves.png",
+            "https://arxiv.org/html/2608.02747v1/matterfitcurves.png",
+            "https://arxiv.org/html/2608.02747v1/WithBGssgwb.png",
+            "https://arxiv.org/html/2608.02747v1/memoryfitcurvesY.png",
+            "https://arxiv.org/html/2608.02747v1/memoryfitcurvesZ.png",
+            "https://arxiv.org/html/2608.02747v1/angavgsgwb.png"
         ]
     },
-    "2608.00297": {
-        "title": "How greedy is the Universe? An entropy ledger and a causal envelope for early black hole growth",
+    "2608.03019": {
+        "title": "Minimal Scale-Invariant Dark Matter",
         "authors": [
-            "Fernando Izaurieta",
-            "Cristian Quinzacara",
-            "Omar Valdivia"
+            "Alexander Belyaev",
+            "Roman Pasechnik",
+            "Rishav Roshan",
+            "Alfonso Zerwekh"
         ],
         "keywords": "",
         "figures": [
-            "https://arxiv.org/html/2608.00297v1/x1.png",
-            "https://arxiv.org/html/2608.00297v1/x2.png",
-            "https://arxiv.org/html/2608.00297v1/x3.png"
+            "https://arxiv.org/html/2608.03019v1/x1.png",
+            "https://arxiv.org/html/2608.03019v1/x2.png",
+            "https://arxiv.org/html/2608.03019v1/x3.png",
+            "https://arxiv.org/html/2608.03019v1/x4.png"
         ]
     },
-    "2608.00472": {
-        "title": "Kinetic backreaction cannot suppress axion quantum pressure",
+    "2608.03981": {
+        "title": "A Tale of Two Couplings: Bayesian Selection in the Interacting Dark Sector",
         "authors": [
-            "Kaleb Anderson",
-            "Savvas M. Koushiappas"
+            "Miguel Barroso Varela",
+            "\u00c1lvaro de la Cruz-Dombriz"
         ],
         "keywords": "",
         "figures": [
-            "https://arxiv.org/html/2608.00472v1/x1.png"
-        ]
-    },
-    "2608.00498": {
-        "title": "Nelson-Barr Inflation",
-        "authors": [
-            "Fuminobu Takahashi"
-        ],
-        "keywords": "",
-        "figures": [
-            "https://arxiv.org/html/2608.00498v1/x1.png"
-        ]
-    },
-    "2608.01634": {
-        "title": "Parameter Estimation Horizon of Core-Collapse Supernovae with a Network of Gravitational-Wave Detectors",
-        "authors": [
-            "Almat Akhmetali",
-            "Y. Sultan Abylkairov",
-            "Solange Nunes",
-            "Jos\u00e9 Antonio Font",
-            "Michele Zanolin",
-            "Ernazar Abdikamalov"
-        ],
-        "keywords": "",
-        "figures": [
-            "https://arxiv.org/html/2608.01634v1/x1.png",
-            "https://arxiv.org/html/2608.01634v1/x2.png",
-            "https://arxiv.org/html/2608.01634v1/figures/skymap.png",
-            "https://arxiv.org/html/2608.01634v1/x3.png",
-            "https://arxiv.org/html/2608.01634v1/x4.png"
-        ]
-    },
-    "2608.01762": {
-        "title": "Primordial Correlators from a Kaluza-Klein Graviton Continuum",
-        "authors": [
-            "Shuntaro Aoki"
-        ],
-        "keywords": "",
-        "figures": [
-            "https://arxiv.org/html/2608.01762v1/x1.png",
-            "https://arxiv.org/html/2608.01762v1/x2.png",
-            "https://arxiv.org/html/2608.01762v1/x3.png",
-            "https://arxiv.org/html/2608.01762v1/x4.png",
-            "https://arxiv.org/html/2608.01762v1/x5.png",
-            "https://arxiv.org/html/2608.01762v1/x6.png",
-            "https://arxiv.org/html/2608.01762v1/x7.png",
-            "https://arxiv.org/html/2608.01762v1/x8.png"
+            "https://arxiv.org/html/2608.03981v1/Plots/Background_Dynamics_Theory_Limits.png",
+            "https://arxiv.org/html/2608.03981v1/Plots/Relative_Density_Contrast_Theories.png",
+            "https://arxiv.org/html/2608.03981v1/Plots/conformal_comparison_corner_plot.png",
+            "https://arxiv.org/html/2608.03981v1/Plots/disformal_comparison_corner_plot.png"
         ]
     }
 }
