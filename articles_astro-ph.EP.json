@@ -1,199 +1,325 @@
 {
-    "2608.02757": {
-        "title": "Rings in the Sky: Orbital Data Centres and Potential Impacts to Astronomy and the Sky",
+    "2608.04086": {
+        "title": "Self-consistent 1D modelling of Jupiter's upper atmosphere as an exoplanet analogue",
         "authors": [
-            "Aaron C. Boley",
-            "Samantha M. Lawler",
-            "Hanno Rein"
+            "Nils-Martin Robeling",
+            "Sudeshna Boro Saikia",
+            "Gwena\u00eblle Van Looveren",
+            "Ivan Stankovi\u0107",
+            "Simon Schleich",
+            "Colin P. Johnstone",
+            "Manuel G\u00fcdel",
+            "Kristina Kislyakova"
         ],
         "keywords": "",
         "figures": [
-            "https://arxiv.org/html/2608.02757v1/sunrise_Earth_map.png",
-            "https://arxiv.org/html/2608.02757v1/sx_Earth_map_ring.png",
-            "https://arxiv.org/html/2608.02757v1/stamp_Earth_map_ring_102.png",
-            "https://arxiv.org/html/2608.02757v1/sunrise_Earth_map_relax.png",
-            "https://arxiv.org/html/2608.02757v1/sx_Earth_map_ring_relax.png",
-            "https://arxiv.org/html/2608.02757v1/stamp_Earth_map_ring_relaxed_102.png",
-            "https://arxiv.org/html/2608.02757v1/sunrise_ODC_ds_30_6pm.png",
-            "https://arxiv.org/html/2608.02757v1/sx_ODC_ds_30_6pm_ring.png",
-            "https://arxiv.org/html/2608.02757v1/stmp_ODC_ds_30_6pm_102_ring.png",
-            "https://arxiv.org/html/2608.02757v1/sunrise_ODC_ds_30_7pm.png"
+            "https://arxiv.org/html/2608.04086v1/x1.png",
+            "https://arxiv.org/html/2608.04086v1/x2.png",
+            "https://arxiv.org/html/2608.04086v1/x3.png",
+            "https://arxiv.org/html/2608.04086v1/x4.png",
+            "https://arxiv.org/html/2608.04086v1/x5.png",
+            "https://arxiv.org/html/2608.04086v1/x6.png",
+            "https://arxiv.org/html/2608.04086v1/x7.png",
+            "https://arxiv.org/html/2608.04086v1/x8.png",
+            "https://arxiv.org/html/2608.04086v1/x9.png",
+            "https://arxiv.org/html/2608.04086v1/x10.png"
         ]
     },
-    "2608.02945": {
-        "title": "Kick Velocities and Mass Function of Free-Floating Planets from Dynamical Ejection in Hierarchical Three-Body Systems",
+    "2608.04110": {
+        "title": "A new window in time: a mid-infrared slit spectroscopy mode for precision time-series astronomy with JWST/MIRI",
         "authors": [
-            "Hugh Kramer",
-            "Stefano Profumo"
+            "Achrene Dyrek",
+            "Taylor J. Bell",
+            "Pierre-Olivier Lagage",
+            "Sarah Kendrew",
+            "Gareb Fernandez-Rodriguez",
+            "Thomas Greene",
+            "Giuseppe Morello",
+            "Michiel Min",
+            "Mael Voyer",
+            "Hannu Parviainen"
         ],
         "keywords": "",
         "figures": [
-            "https://arxiv.org/html/2608.02945v1/plots/Figure_1.png",
-            "https://arxiv.org/html/2608.02945v1/plots/Figure_2.png",
-            "https://arxiv.org/html/2608.02945v1/plots/Figure_3.png",
-            "https://arxiv.org/html/2608.02945v1/plots/Figure_4.png",
-            "https://arxiv.org/html/2608.02945v1/plots/Figure_5.png",
-            "https://arxiv.org/html/2608.02945v1/plots/Figure_6.png",
-            "https://arxiv.org/html/2608.02945v1/plots/Figure_7.png",
-            "https://arxiv.org/html/2608.02945v1/x1.png",
-            "https://arxiv.org/html/2608.02945v1/x2.png"
+            "https://arxiv.org/html/2608.04110v1/Figures/focal_plane_miri.png",
+            "https://arxiv.org/html/2608.04110v1/Figures/slit_s5_white.png",
+            "https://arxiv.org/html/2608.04110v1/Figures/slit_spectra_comparison.png",
+            "https://arxiv.org/html/2608.04110v1/Figures/slit_slitless_joint_spectra.png",
+            "https://arxiv.org/html/2608.04110v1/Figures/GS_x_y_pos.png",
+            "https://arxiv.org/html/2608.04110v1/Figures/image_slit_stpsf.png",
+            "https://arxiv.org/html/2608.04110v1/Figures/background_flux_wave.png",
+            "https://arxiv.org/html/2608.04110v1/Figures/covariance_matrix.png",
+            "https://arxiv.org/html/2608.04110v1/Figures/covariance_matrix_slitless.png"
         ]
     },
-    "2608.03094": {
-        "title": "HIP 61637 b: a TESS Brown Dwarf in a Near-circular Orbit around a Massive A-type Star",
+    "2608.04194": {
+        "title": "JWST Transmission Spectroscopy of TOI-3235 b: Challenges in Constraining Giant Planet Atmospheres Around M Dwarfs Amid Stellar Contamination",
         "authors": [
-            "Nino Ephremidze",
-            "David W. Latham",
-            "Perry Berlind",
-            "Allyson Bieryla",
-            "Michael L. Calkins",
-            "Gilbert A. Esquerdo",
-            "Samuel N. Quinn",
-            "Joseph E. Rodriguez",
-            "Noah Vowell",
-            "Jack Schulte",
-            "Hugh P. Osborn"
-        ],
-        "keywords": "Brown dwarfs (185); Spectroscopy (1558); Radial Velocity (1332); Transit Photometry (1709); Stellar Ages (1581);",
-        "figures": [
-            "figures/2608_03094/TOI-5401_transits.png",
-            "figures/2608_03094/TOI-5401_rv.png",
-            "figures/2608_03094/TOI-5401_sed.png",
-            "figures/2608_03094/imaging_Ciardi.png",
-            "figures/2608_03094/ev_track_timestamps_2.86.png",
-            "figures/2608_03094/50_pc_neighborhood.png",
-            "figures/2608_03094/jackson_tau_circ.png",
-            "figures/2608_03094/raw_1.png",
-            "figures/2608_03094/raw_2.png",
-            "figures/2608_03094/raw_3.png"
-        ]
-    },
-    "2608.03336": {
-        "title": "Long-lived thermal dynamo generation on differentiated, impact-disrupted planetesimals",
-        "authors": [
-            "Hannah R. Sanderson",
-            "James F. J. Bryson",
-            "Claire I. O. Nichols"
+            "Zoe Ko",
+            "N\u00e9stor Espinoza",
+            "Andr\u00e9s Jord\u00e1n",
+            "Daniel Bayliss",
+            "Edward M. Bryant",
+            "Martin Schlecker",
+            "Melissa J. Hobson",
+            "Rafael Brahm",
+            "Remo Burn",
+            "Thomas Henning"
         ],
         "keywords": "",
         "figures": [
-            "https://arxiv.org/html/2608.03336v1/x1.png",
-            "https://arxiv.org/html/2608.03336v1/x2.png",
-            "https://arxiv.org/html/2608.03336v1/x3.png",
-            "https://arxiv.org/html/2608.03336v1/x4.png",
-            "https://arxiv.org/html/2608.03336v1/x5.png",
-            "https://arxiv.org/html/2608.03336v1/x6.png",
-            "https://arxiv.org/html/2608.03336v1/x7.png"
+            "https://arxiv.org/html/2608.04194v1/whitelight_fit.png",
+            "https://arxiv.org/html/2608.04194v1/wl_dep_fit.png",
+            "https://arxiv.org/html/2608.04194v1/all_retrievals.png",
+            "https://arxiv.org/html/2608.04194v1/all_trace.png",
+            "https://arxiv.org/html/2608.04194v1/stellar_params.png",
+            "https://arxiv.org/html/2608.04194v1/metallicity_co.png",
+            "https://arxiv.org/html/2608.04194v1/co2_co_vulcan.png",
+            "https://arxiv.org/html/2608.04194v1/emission_example_spectra_metallicity.png",
+            "https://arxiv.org/html/2608.04194v1/emission_metallicity_heatmaps.png",
+            "https://arxiv.org/html/2608.04194v1/vulcan_eq.png"
         ]
     },
-    "2608.03406": {
-        "title": "Phase-curve approach to study atmospheric flows in hot Jupiters",
+    "2608.04226": {
+        "title": "Joint dynamical-geophysical evidence for a limit cycle in the Galilean moons",
         "authors": [
-            "D. Shulyak",
-            "W. Dietrich",
-            "V. Parmentier",
-            "D. Cont",
-            "L.-M. Lara",
-            "L. Gkouvelis",
-            "M. R. Swain",
-            "M. Rengel"
+            "Amirhossein Bagheri",
+            "Steven Vance",
+            "Jim Fuller",
+            "Brianna Fernandez",
+            "Mohit Melwani-Daswani",
+            "Hauke Hussmann",
+            "Gregor Steinbruegge",
+            "Francis Nimmo"
         ],
         "keywords": "",
         "figures": [
-            "https://arxiv.org/html/2608.03406v1/x1.png",
-            "https://arxiv.org/html/2608.03406v1/x2.png",
-            "https://arxiv.org/html/2608.03406v1/x3.jpg",
-            "https://arxiv.org/html/2608.03406v1/x4.jpg",
-            "https://arxiv.org/html/2608.03406v1/x5.jpg",
-            "https://arxiv.org/html/2608.03406v1/x6.jpg",
-            "https://arxiv.org/html/2608.03406v1/x7.jpg",
-            "https://arxiv.org/html/2608.03406v1/x8.jpg",
-            "https://arxiv.org/html/2608.03406v1/x9.png",
-            "https://arxiv.org/html/2608.03406v1/x10.png"
+            "https://arxiv.org/html/2608.04226v1/fig1_observables_four_panel_vertical_insets.png",
+            "https://arxiv.org/html/2608.04226v1/fig2_interior_evolution_three_panel.png",
+            "https://arxiv.org/html/2608.04226v1/ensemble_observable_selection_three_panel.png",
+            "https://arxiv.org/html/2608.04226v1/figure4_future_observables_predictions.png",
+            "https://arxiv.org/html/2608.04226v1/io_europa_energy_balance_full_history.png",
+            "https://arxiv.org/html/2608.04226v1/CM_Fe-S_liquid_phase_diagram_journal_style_notitle.png",
+            "https://arxiv.org/html/2608.04226v1/latent_heat_ablation_combined_io_europa.png"
         ]
     },
-    "2608.03435": {
-        "title": "A study on the contribution of the interplanetary medium in radio occultation experiments",
+    "2608.04231": {
+        "title": "Generating eccentricity from envelope stripping in the Radius Valley",
         "authors": [
-            "Keshav Aggarwal",
-            "R. K. Choudhary",
-            "Abhirup Datta",
-            "Soumyaneal Banerjee",
-            "R. Manikantan",
-            "Anshuman Sharma",
-            "Takeshi Imamura"
+            "Brad M. S. Hansen"
         ],
         "keywords": "",
         "figures": [
-            "https://arxiv.org/html/2608.03435v1/x1.png",
-            "https://arxiv.org/html/2608.03435v1/x2.png",
-            "https://arxiv.org/html/2608.03435v1/x3.png",
-            "https://arxiv.org/html/2608.03435v1/x4.png",
-            "https://arxiv.org/html/2608.03435v1/x5.png",
-            "https://arxiv.org/html/2608.03435v1/x6.png",
-            "https://arxiv.org/html/2608.03435v1/x7.png",
-            "https://arxiv.org/html/2608.03435v1/x8.png",
-            "https://arxiv.org/html/2608.03435v1/x9.png",
-            "https://arxiv.org/html/2608.03435v1/x10.png"
+            "https://arxiv.org/html/2608.04231v1/f1.png",
+            "https://arxiv.org/html/2608.04231v1/f2.png",
+            "https://arxiv.org/html/2608.04231v1/f3.png",
+            "https://arxiv.org/html/2608.04231v1/f4.png",
+            "https://arxiv.org/html/2608.04231v1/f5.png"
         ]
     },
-    "2608.03849": {
-        "title": "Formation of nitriles and isonitriles by the heavy-ion irradiation of propionitrile in N2-rich astrophysical ices",
+    "2608.04250": {
+        "title": "Searching for Habitable Exoplanets with Relative Astrometry (SHERA). I. The Case for Searching for Planets in Binary Star Systems",
         "authors": [
-            "Ana L.F. de Barros",
-            "David Dubois",
-            "Sreeja Raghunandanan",
-            "Thibault Nguyen Trung",
-            "Tarek Sbera",
-            "Hermann Rothard",
-            "Alicja Domaracka"
+            "Jessie L. Christiansen",
+            "Eric E. Mamajek",
+            "Gautam Vasisht",
+            "Catherine A. Clark",
+            "William Roberson",
+            "Eric L. Nielsen",
+            "Kaitlin M. Kratter",
+            "Juliette Becker",
+            "Eduardo Bendek",
+            "Ruslan Belikov",
+            "Alex Davis",
+            "Louis Desdoigts",
+            "Alyssa Jankowski",
+            "Michael R. Meyer",
+            "Benjamin J. S. Pope",
+            "Armen Tokadjian",
+            "Peter Tuthill"
         ],
         "keywords": "",
         "figures": [
-            "https://arxiv.org/html/2608.03849v1/x1.png",
-            "https://arxiv.org/html/2608.03849v1/x2.png",
-            "https://arxiv.org/html/2608.03849v1/x3.png",
-            "https://arxiv.org/html/2608.03849v1/x4.png",
-            "https://arxiv.org/html/2608.03849v1/x5.png",
-            "https://arxiv.org/html/2608.03849v1/PCNchemicalfinal.png"
+            "https://arxiv.org/html/2608.04250v1/Figures/RV_astrometry.png",
+            "https://arxiv.org/html/2608.04250v1/Figures/distlum_SHERA.png",
+            "https://arxiv.org/html/2608.04250v1/Figures/updated_alphaCen_trajectory.png",
+            "https://arxiv.org/html/2608.04250v1/Figures/Shera-pupil-psf-2.png",
+            "https://arxiv.org/html/2608.04250v1/Figures/binary_orbit_cartoon_4.png",
+            "https://arxiv.org/html/2608.04250v1/Figures/tongue_plot_draft1.png",
+            "https://arxiv.org/html/2608.04250v1/Figures/planet_detection_and_characterization_pipeline.png",
+            "https://arxiv.org/html/2608.04250v1/Figures/hwo_yield_improvement_armen.png"
         ]
     },
-    "2608.03857": {
-        "title": "A broad exploration of climate and observability of close-in rocky exoplanets: applications to Ross 128 b",
+    "2608.04272": {
+        "title": "Callisto from JWST: CO2-rich terrain on the leading hemisphere and global patterns of H2O ice",
         "authors": [
-            "Houelle Mathilde",
-            "Bolmont Emeline",
-            "Lovis Christophe",
-            "Turbet Martin",
-            "Chaverot Guillaume",
-            "Mechineau Alexandre",
-            "Leconte J\u00e9r\u00e9my"
-        ],
-        "keywords": "planets and satellites: terrestrial planets --\n          planets and satellites: atmospheres --\n          techniques: high angular resolution --\n          techniques: spectroscopic",
-        "figures": [
-            "figures/2608_03857/contrast_vs_sep.png",
-            "figures/2608_03857/phases.png",
-            "figures/2608_03857/angles.png",
-            "figures/2608_03857/maps_T_winds.png",
-            "figures/2608_03857/maps_water.png",
-            "figures/2608_03857/maps_T_olr_clouds_alb.png",
-            "figures/2608_03857/water_evolution.png",
-            "figures/2608_03857/psurf_collapse.png",
-            "figures/2608_03857/tsurf_summary.png",
-            "figures/2608_03857/spectra.png"
-        ]
-    },
-    "2608.03980": {
-        "title": "Helium-poor winds do not require helium-poor planets",
-        "authors": [
-            "Leonardos Gkouvelis",
-            "Francisco J. Pozuelos"
+            "Maria Camarca",
+            "Katherine de Kleer",
+            "Richard J. Cartwright",
+            "Geronimo L. Villanueva",
+            "Bryan J. Holler",
+            "Zachariah Milby",
+            "Kevin P. Hand",
+            "Lorenz Roth"
         ],
         "keywords": "",
         "figures": [
-            "https://arxiv.org/html/2608.03980v1/x1.png",
-            "https://arxiv.org/html/2608.03980v1/x2.png",
-            "https://arxiv.org/html/2608.03980v1/x3.png"
+            "figures/2608_04272/diagram.png",
+            "figures/2608_04272/2026-fresnel-cleaned-revised.png",
+            "figures/2608_04272/2026-fresnel-comparison.png",
+            "figures/2608_04272/2026-co2.png",
+            "figures/2608_04272/co2-gas-valhalla.png",
+            "figures/2608_04272/2026-456-both-cleaned.png",
+            "figures/2608_04272/volatile-correlation-cleaned.png",
+            "figures/2608_04272/2026-valhala-lofn-trailing.png",
+            "figures/2608_04272/2026-comparison-gas.png"
+        ]
+    },
+    "2608.04512": {
+        "title": "A Formation-Stage Bottleneck for Exomoons around Close-in Rocky Planets",
+        "authors": [
+            "Rongxi Bi",
+            "Hongping Deng",
+            "Christian Reinhardt",
+            "Shangfei Liu",
+            "Yun Liu"
+        ],
+        "keywords": "",
+        "figures": [
+            "https://arxiv.org/html/2608.04512v1/x1.png",
+            "https://arxiv.org/html/2608.04512v1/x2.png",
+            "https://arxiv.org/html/2608.04512v1/x3.png",
+            "https://arxiv.org/html/2608.04512v1/x4.png",
+            "https://arxiv.org/html/2608.04512v1/x5.png",
+            "https://arxiv.org/html/2608.04512v1/x6.png",
+            "https://arxiv.org/html/2608.04512v1/x7.png"
+        ]
+    },
+    "2608.04596": {
+        "title": "Sun-Facing Diffractive Sail H-Reversal Trajectory: Theoretical Feasibility, Design Strategies, and Applications",
+        "authors": [
+            "Jinkai Zhang",
+            "Shuyue Fu",
+            "Di Wu",
+            "Lin Cheng",
+            "Shengping Gong"
+        ],
+        "keywords": "",
+        "figures": [
+            "figures/2608_04596/coordinate.png",
+            "figures/2608_04596/DS_Rtype_model.png",
+            "figures/2608_04596/DS_Ttype_model.png",
+            "figures/2608_04596/Force_Model_Radial.png",
+            "figures/2608_04596/Force_Model_Transverse.png",
+            "figures/2608_04596/Force_Model_Total.png",
+            "figures/2608_04596/physical_space.png",
+            "figures/2608_04596/vw_space.png",
+            "figures/2608_04596/feasibility_analysis1.png",
+            "figures/2608_04596/feasibility_analysis2.png"
+        ]
+    },
+    "2608.04803": {
+        "title": "Spatial distribution of water ice in the protoplanetary silhouette disk d216-0939",
+        "authors": [
+            "J. S. Martin",
+            "S. Wolf",
+            "A. Potapov",
+            "H. Linz",
+            "Th. Henning",
+            "H. Terada",
+            "M. B. Michaelis"
+        ],
+        "keywords": "",
+        "figures": [
+            "https://arxiv.org/html/2608.04803v1/x1.png",
+            "https://arxiv.org/html/2608.04803v1/x2.png",
+            "https://arxiv.org/html/2608.04803v1/x3.png",
+            "https://arxiv.org/html/2608.04803v1/figures/L1_25M1_0e-04h17_5R_out400beta1_250i77_5amax1_0e-06_temp_3_1um.png",
+            "https://arxiv.org/html/2608.04803v1/x4.png",
+            "https://arxiv.org/html/2608.04803v1/x5.png",
+            "https://arxiv.org/html/2608.04803v1/x6.png",
+            "https://arxiv.org/html/2608.04803v1/x7.png",
+            "https://arxiv.org/html/2608.04803v1/x8.png"
+        ]
+    },
+    "2608.04837": {
+        "title": "Circular polarization as a probe of cloud properties and asymmetries in giant exoplanet atmospheres",
+        "authors": [
+            "M. B. Michaelis",
+            "S. Wolf"
+        ],
+        "keywords": "",
+        "figures": [
+            "https://arxiv.org/html/2608.04837v1/x1.png",
+            "https://arxiv.org/html/2608.04837v1/x2.png",
+            "https://arxiv.org/html/2608.04837v1/x3.png",
+            "https://arxiv.org/html/2608.04837v1/x4.png",
+            "https://arxiv.org/html/2608.04837v1/x5.png",
+            "https://arxiv.org/html/2608.04837v1/x6.png",
+            "https://arxiv.org/html/2608.04837v1/x7.png",
+            "https://arxiv.org/html/2608.04837v1/x8.png",
+            "https://arxiv.org/html/2608.04837v1/x9.png",
+            "https://arxiv.org/html/2608.04837v1/x10.png"
+        ]
+    },
+    "2608.04062": {
+        "title": "Charged Clouds of Ionized Gas Emerge from Tribocharging Grains",
+        "authors": [
+            "Patrick Hock",
+            "Jens Teiser",
+            "Gerhard Wurm"
+        ],
+        "keywords": "",
+        "figures": [
+            "figures/2608_04062/Aufbau.PNG",
+            "figures/2608_04062/schematischAufbau.png",
+            "figures/2608_04062/BatterienGerade.PNG",
+            "figures/2608_04062/fig2opitmiert.PNG",
+            "figures/2608_04062/chargeclouds.png",
+            "figures/2608_04062/Extrapolation2.png"
+        ]
+    },
+    "2608.04064": {
+        "title": "The Astronomy of Halakhic Nightfall: Calculating Ts'eit HaKokhavim and Motsa'ei Shabbat",
+        "authors": [
+            "Aster G. Taylor"
+        ],
+        "keywords": "",
+        "figures": [
+            "https://arxiv.org/html/2608.04064v1/x1.png",
+            "https://arxiv.org/html/2608.04064v1/x2.png",
+            "https://arxiv.org/html/2608.04064v1/x3.png",
+            "https://arxiv.org/html/2608.04064v1/x4.png"
+        ]
+    },
+    "2608.04109": {
+        "title": "Breaking the brightness barrier: JWST/NIRCam DHS spectroscopy for high-precision time-series observations",
+        "authors": [
+            "Achrene Dyrek",
+            "John Stansberry",
+            "Louis E. Bergeron",
+            "Everett Schlawin",
+            "Nestor Espinoza",
+            "Brian Brooks",
+            "Mario Gennaro",
+            "Martha L. Boyer",
+            "Russell Ryan",
+            "Bryan Hilbert",
+            "Munazza K. Alam",
+            "Aarynn L. Carter",
+            "Norbert Pirzkal",
+            "Julien H. Girard",
+            "Anton M. Koekemoer"
+        ],
+        "keywords": "",
+        "figures": [
+            "https://arxiv.org/html/2608.04109v1/Figures/optical_path_dhs.png",
+            "https://arxiv.org/html/2608.04109v1/Figures/dhs_mirror_and_spectra.png",
+            "https://arxiv.org/html/2608.04109v1/Figures/multistripe+full.png",
+            "https://arxiv.org/html/2608.04109v1/Figures/2D_detector_plot.png",
+            "https://arxiv.org/html/2608.04109v1/Figures/1D_F322W2_F150W2_det2.png",
+            "https://arxiv.org/html/2608.04109v1/Figures/1D_F444W_F150W2_det2.jpg",
+            "https://arxiv.org/html/2608.04109v1/Figures/DHS_white_NRCA3_sub7.png"
         ]
     }
 }
