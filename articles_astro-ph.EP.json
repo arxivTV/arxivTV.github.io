@@ -1,280 +1,340 @@
 {
-    "2609.00147": {
-        "title": "The Venus Benchmark: Resolving Degeneracies in Terrestrial Exoplanet Spectra with DAVINCI",
+    "2609.03006": {
+        "title": "Radial velocity detection of the TRAPPIST-1 planetary system with SPIRou and NIRPS",
         "authors": [
-            "Stephen R. Kane",
-            "David S. Alexander",
-            "Shahid Aslam",
-            "Giada N. Arney",
-            "James B. Garvin",
-            "Stephanie A. Getty",
-            "Amy E. Hofmann",
-            "Noam R. Izenberg",
-            "Natasha M. Johnson",
-            "Erika Kohler",
-            "Emma L. Miles"
-        ],
-        "keywords": "",
-        "figures": [
-            "https://arxiv.org/html/2609.00147v1/fig_venatm.png",
-            "https://arxiv.org/html/2609.00147v1/fig_venprec.png",
-            "https://arxiv.org/html/2609.00147v1/fig_ventran.png",
-            "https://arxiv.org/html/2609.00147v1/fig_venimp.png"
-        ]
-    },
-    "2609.00149": {
-        "title": "Self-induced edge rings in protoplanetary disks",
-        "authors": [
-            "Massimiliano Bolchini",
-            "Haochang Jiang",
-            "Jiaqing Bi"
-        ],
-        "keywords": "",
-        "figures": [
-            "https://arxiv.org/html/2609.00149v1/T_mid_grain_pop.png",
-            "https://arxiv.org/html/2609.00149v1/Workflow.png",
-            "https://arxiv.org/html/2609.00149v1/Benchmark_0106.png",
-            "https://arxiv.org/html/2609.00149v1/Higher_St_model.png",
-            "https://arxiv.org/html/2609.00149v1/delta_t.png",
-            "https://arxiv.org/html/2609.00149v1/Sigma_comparison_deltatdeltar.png",
-            "https://arxiv.org/html/2609.00149v1/table.png",
-            "https://arxiv.org/html/2609.00149v1/Adding_extended.png",
-            "https://arxiv.org/html/2609.00149v1/Images_both_vertical.png",
-            "https://arxiv.org/html/2609.00149v1/SI.png"
-        ]
-    },
-    "2609.00263": {
-        "title": "A JWST transiting survey of FGK stellar limb darkening: empirical evidence for quadratic laws and atmospheric model comparisons",
-        "authors": [
-            "David K. Sing",
-            "Joshua D. Lothringer",
-            "Jeff A. Valenti",
-            "Natalie H. Allen",
-            "Katherine A. Bennett",
-            "Carlos Gasc\u00f3n",
-            "Mei Ting Mak",
-            "Patrick McCreery",
-            "Sagnick Mukherjee",
-            "Lakeisha M. Ramos Rosado",
-            "Stephen P. Schmidt",
-            "Kevin B. Stevenson",
-            "Daniel P. Thorngren",
-            "Le-Chris Wang"
-        ],
-        "keywords": "",
-        "figures": [
-            "https://arxiv.org/html/2609.00263v1/mu_eff_stellar_params.png",
-            "https://arxiv.org/html/2609.00263v1/Limb_Darkening_phoenix_offset_vs_mumin_raw_and_offset_chi2.png",
-            "https://arxiv.org/html/2609.00263v1/Limb_Darkening_mps1_offset_vs_mumin_raw_and_offset_chi2.png",
-            "https://arxiv.org/html/2609.00263v1/Limb_Darkening_stagger_offset_vs_mumin_raw_and_offset_chi2.png"
-        ]
-    },
-    "2609.00281": {
-        "title": "Three-dimensional circumplanetary flows in a PDS 70c-inspired system: hydrodynamic simulations with FARGO3D and analysis with FARGOpy",
-        "authors": [
-            "Alejandro Murillo-Gonzalez",
-            "Jorge I. Zuluaga",
-            "Matias Montesinos"
-        ],
-        "keywords": "",
-        "figures": [
-            "https://arxiv.org/html/2609.00281v1/figures/stream_yz.png",
-            "https://arxiv.org/html/2609.00281v1/figures/3d_isodens_png.png",
-            "https://arxiv.org/html/2609.00281v1/figures/compress_zones.png",
-            "https://arxiv.org/html/2609.00281v1/figures/curvrot.png",
-            "https://arxiv.org/html/2609.00281v1/figures/rotmap.png"
-        ]
-    },
-    "2609.00428": {
-        "title": "Accelerating Chemical Kinetics for Exoplanet Atmospheres using Neural Networks",
-        "authors": [
-            "Isaac Malsky",
-            "Xi Zhang",
-            "Tiffany Kataria",
-            "Matthew Graham",
-            "Ziyu Huang",
-            "Boris Bonev",
-            "Shang-Min Tsai",
-            "Elspeth K.H. Lee"
-        ],
-        "keywords": "",
-        "figures": [
-            "https://arxiv.org/html/2609.00428v1/Fig1.png",
-            "https://arxiv.org/html/2609.00428v1/Fig2.png",
-            "https://arxiv.org/html/2609.00428v1/Fig4.png",
-            "https://arxiv.org/html/2609.00428v1/Fig5.png",
-            "https://arxiv.org/html/2609.00428v1/compare.png",
-            "https://arxiv.org/html/2609.00428v1/error.png"
-        ]
-    },
-    "2609.00458": {
-        "title": "An Upper Limit on Turbulent Viscosity in the Circumjovian Nebula",
-        "authors": [
-            "Konstantin Batygin",
-            "Fred C. Adams"
-        ],
-        "keywords": "",
-        "figures": [
-            "https://arxiv.org/html/2609.00458v1/Fig_CPD.png",
-            "https://arxiv.org/html/2609.00458v1/Fig_alpha.png"
-        ]
-    },
-    "2609.00538": {
-        "title": "Doubling Sunlight for a Human Mars Base With Orbiting Solar Reflectors",
-        "authors": [
-            "Ari Essunfeld",
-            "Yuji Takubo",
-            "Adrian Dumitrescu",
-            "Alexandre Kling",
-            "Fabrizio Pisani",
-            "Casey Handmer",
-            "Edwin S. Kite"
-        ],
-        "keywords": "",
-        "figures": [
-            "https://arxiv.org/html/2609.00538v1/img/conops_v5.png",
-            "https://arxiv.org/html/2609.00538v1/img/figD_get_oriented_v4.png",
-            "https://arxiv.org/html/2609.00538v1/img/figG_mission_triptych_honest_outerleg_K12_logviridis_2d.png",
-            "https://arxiv.org/html/2609.00538v1/img/fig_ltan_feasibility_polar_v2.png",
-            "https://arxiv.org/html/2609.00538v1/img/figA_typical_orbit.png",
-            "https://arxiv.org/html/2609.00538v1/img/figB_delivery.png",
-            "https://arxiv.org/html/2609.00538v1/img/20260629_ltan_energy_fourpanel_TNR.png",
-            "https://arxiv.org/html/2609.00538v1/img/scaling-up-v2.png",
-            "https://arxiv.org/html/2609.00538v1/img/figR_marsyear_insolation_composite_surface_flux_600layer.png",
-            "https://arxiv.org/html/2609.00538v1/img/fig_surface_temperature_annual_extremes_composite_600layer.png"
-        ]
-    },
-    "2609.01013": {
-        "title": "Exoplanets in star clusters",
-        "authors": [
-            "T. Broza",
-            "E. Paunzen"
-        ],
-        "keywords": "",
-        "figures": [
-            "https://arxiv.org/html/2609.01013v1/skyview_clusters3.png"
-        ]
-    },
-    "2609.01169": {
-        "title": "Optical Colors as Compressed Spectral Information for Trans-Neptunian Objects",
-        "authors": [
-            "Hsing-Wen Lin",
-            "Larissa Markwardt",
-            "Kevin Napier",
-            "Fred Adams",
-            "Renu Malhotra",
-            "David Gerdes"
-        ],
-        "keywords": "",
-        "figures": [
-            "https://arxiv.org/html/2609.01169v1/loocv_confusion_matrix_precision_4class_comparison.png",
-            "https://arxiv.org/html/2609.01169v1/bernardinelli_gmm_kde_kl_heatmap.png"
-        ]
-    },
-    "2609.01377": {
-        "title": "Transiting Planetary Systems with Distant Giant Companions Remain Moderately Coplanar",
-        "authors": [
-            "Guang-Yao Xiao",
-            "Huan-Yu Teng",
-            "Xiumin Huang",
-            "Fabo Feng",
-            "Dong Lai",
-            "Fei Dai",
-            "Yu-Juan Liu"
-        ],
-        "keywords": "",
-        "figures": [
-            "https://arxiv.org/html/2609.01377v1/all_targets.png",
-            "https://arxiv.org/html/2609.01377v1/main_results_dinc.png",
-            "https://arxiv.org/html/2609.01377v1/combined_sigma_mapping.png"
-        ]
-    },
-    "2609.01577": {
-        "title": "Beyond Five Scale Heights: Composition- and Cloud-dependent Ariel Tier-2 Requirements for sub-Neptunes",
-        "authors": [
-            "Vigneshwaran Krishnamurthy",
+            "Alexandrine L'Heureux",
+            "Ren\u00e9 Doyon",
+            "Charles Cadieux",
+            "Pascal Petit",
+            "Olivia Lim",
+            "\u00c9tienne Artigau",
+            "Neil J. Cook",
+            "Eric Agol",
+            "Xavier Bonfils",
+            "Julien Morin",
+            "Stefano Bellotti",
+            "Claire Moutou",
+            "Leslie Moranta",
+            "Jean-Fran\u00e7ois Donati",
+            "Luc Arnold",
+            "Xavier Delfosse",
+            "Guillaume H\u00e9brard",
+            "Romain Allart",
+            "Fran\u00e7ois Bouchy",
+            "Lucile Mignon",
+            "Izan de Castro Le\u00e3o",
+            "Dany Mounzer",
+            "Khaled Al Moulla",
+            "Fr\u00e9d\u00e9rique Baron",
+            "Bj\u00f6rn Benneke",
+            "Mathis Bouffard",
+            "Casey Brinkman",
+            "Bruno L. Canto Martins",
+            "Andres Carmona",
+            "Ryan Cloutier",
+            "Marion Cointepas",
             "Nicolas B. Cowan",
-            "Misato Fukagawa",
-            "Teruyuki Hirano"
+            "Eduardo Cristo",
+            "Roseane de Lima Gomes",
+            "Jose Renan De Medeiros",
+            "Xavier Dumusque",
+            "Dasaev O. Fontinele",
+            "Thierry Forveille",
+            "Yolanda G. C. Frensch",
+            "Jonathan Gagn\u00e9",
+            "Jonay I. Gonz\u00e1lez Hern\u00e1ndez",
+            "Nicole Gromek",
+            "Melissa J. Hobson",
+            "Vigneshwaran Krishnamurthy",
+            "Pierrot Lamontagne",
+            "Lison Malo",
+            "Eder Martioli",
+            "Yuri S. Messias",
+            "Louise D. Nielsen",
+            "Ares Osborn",
+            "L\u00e9na Parc",
+            "Caroline Piaulet-Ghorayeb",
+            "Nuno C. Santos",
+            "Bennett Neil Skinner",
+            "Avidaan Srivastava",
+            "Atanas K. Stefanov",
+            "Alejandro Su\u00e1rez Mascare\u00f1o",
+            "Gregg Wade",
+            "Joost P. Wardenier",
+            "Drew Weisserman"
         ],
-        "keywords": "",
+        "keywords": "planetary systems --\n             techniques: radial velocities --\n             planets and satellites: terrestrial planets --\n             stars: low-mass --\n             infrared: planetary systems --\n             stars: individual: TRAPPIST-1",
         "figures": [
-            "https://arxiv.org/html/2609.01577v1/ariel_helium_kempton_population_context.png",
-            "https://arxiv.org/html/2609.01577v1/ariel_0p1mbar_exact_n90_heatmap_improved.png"
+            "figures/2609_03006/photometry_timeseries_periodograms_sameyaxis.png",
+            "figures/2609_03006/rv_fit_combined_spirou_nirps_nightbin_2SHO.png",
+            "figures/2609_03006/moy2_crop.png",
+            "figures/2609_03006/systematics_model_normalSHO.png",
+            "figures/2609_03006/rv_marginalized_posteriors_ind_planets_spirou_nirps_dynamic_nightbin_2SHO.png",
+            "figures/2609_03006/ratio_demonstration_with_datapoints.png",
+            "figures/2609_03006/rv_fit_combined_spirou_nirps_phase_folded_TRAPPIST-1b_nightbin_2SHO.png",
+            "figures/2609_03006/delta_lnZ_spirou_nirps_nightbin_2SHO_v2.png",
+            "figures/2609_03006/detection_sensitivity_nirps_2SHO.png",
+            "figures/2609_03006/persistence_over2h_orders.png"
         ]
     },
-    "2609.01599": {
-        "title": "Constraining the Planetary Obliquity Distribution of Warm Jupiters",
+    "2609.03029": {
+        "title": "JWST MIRI reveals a potential atmosphere on the ultra-hot rocky planet TOI-431b",
         "authors": [
-            "Caleb Lammers",
-            "Joshua N. Winn"
+            "Cole Smith",
+            "Brandon Park Coy",
+            "Megan Weiner Mansfield",
+            "Rafael Luque",
+            "Anjali A. A. Piette",
+            "Qiao Xue",
+            "Michael Zhang",
+            "Jacob L. Bean",
+            "Madison Brady",
+            "Peter Gao",
+            "Jegug Ih",
+            "Eliza M.-R. Kempton",
+            "Edwin Kite",
+            "Daniel Koll",
+            "Jaume Orell",
+            "Enric Palle"
         ],
         "keywords": "",
         "figures": [
-            "https://arxiv.org/html/2609.01599v1/antisym_signal.png",
-            "https://arxiv.org/html/2609.01599v1/light_curves.png",
-            "https://arxiv.org/html/2609.01599v1/oblateness_constraints.png",
-            "https://arxiv.org/html/2609.01599v1/hierarchical_CDF.png",
-            "https://arxiv.org/html/2609.01599v1/hierarchical_CDF_forecast.png"
+            "https://arxiv.org/html/2609.03029v1/TOI431b_ALL_LC_SPARTA_5_28.png",
+            "https://arxiv.org/html/2609.03029v1/Albedo_vs_f_TOI431b_SPARTA_NEW.png",
+            "https://arxiv.org/html/2609.03029v1/FULL_SPECTRA_PLOT_SPARTA_5_28.png",
+            "https://arxiv.org/html/2609.03029v1/Population_Plot_NEW.png",
+            "https://arxiv.org/html/2609.03029v1/Example_Sim_Obs.png",
+            "https://arxiv.org/html/2609.03029v1/TOI431_phased_transits.png"
         ]
     },
-    "2609.00136": {
-        "title": "Conspicuous Gas, Cryptic Dust: Spectroscopy and Chromaticity of Complex Periodic Variables",
+    "2609.03031": {
+        "title": "New and Updated Rossiter-McLaughlin Measurements for Three Hot Jupiter-Hosting M Dwarfs",
         "authors": [
-            "Luke G. Bouma",
-            "Facundo Perez Paolino",
-            "Lynne A. Hillenbrand",
-            "Juliana Garcia-Mejia",
-            "Allyson Bieryla",
-            "Patrick Tamburo",
-            "David Charbonneau",
-            "John H. Livingston",
-            "Keisuke Isogai",
-            "Norio Narita",
-            "Akihiko Fukui",
-            "Enric Palle",
-            "Felipe Murgas",
-            "Adolfo S. Carvalho",
-            "Howard Isaacson",
-            "Jessica J. Spake",
-            "Luisa M. Rebull",
-            "Moira M. Jardine",
-            "David R. Ciardi",
-            "Jeff A. Valenti"
+            "Drew Weisserman",
+            "Ryan Cloutier",
+            "Alexandra Rochon",
+            "Ze'ev Vladimir",
+            "Bertram Bitsch",
+            "Ritvik Basant",
+            "Jacob L. Bean",
+            "Tanya Das",
+            "Emily Deibert",
+            "Thomas M. Evans-Soma",
+            "Michael Line",
+            "Ralph Pudritz",
+            "Andreas Seifahrt",
+            "Evgenya L. Shkolnik",
+            "Luis Welbanks"
         ],
         "keywords": "",
         "figures": [
-            "https://arxiv.org/html/2609.00136v1/f1.png",
-            "https://arxiv.org/html/2609.00136v1/f2.png",
-            "https://arxiv.org/html/2609.00136v1/f3.png",
-            "https://arxiv.org/html/2609.00136v1/f6.png",
-            "https://arxiv.org/html/2609.00136v1/f7.png",
-            "https://arxiv.org/html/2609.00136v1/f8.png",
-            "https://arxiv.org/html/2609.00136v1/f10.png",
-            "https://arxiv.org/html/2609.00136v1/f11.png",
-            "https://arxiv.org/html/2609.00136v1/f12.png",
-            "https://arxiv.org/html/2609.00136v1/f14.png"
+            "https://arxiv.org/html/2609.03031v1/figures/TOI5205-RMplot.png",
+            "https://arxiv.org/html/2609.03031v1/figures/TIC46432937-RMplot.png",
+            "https://arxiv.org/html/2609.03031v1/figures/TOI3714-RMplot.png",
+            "https://arxiv.org/html/2609.03031v1/figures/oblplot.png",
+            "https://arxiv.org/html/2609.03031v1/figures/sensitivity-curves.png",
+            "https://arxiv.org/html/2609.03031v1/figures/mutual_inc.png",
+            "https://arxiv.org/html/2609.03031v1/figures/cumulative-lambdas.png"
         ]
     },
-    "2609.01585": {
-        "title": "Families of relative periodic orbits in the planar three-body problem via consecutive alignments",
+    "2609.03060": {
+        "title": "Low-energy ring particle accretion as the origin of Pan's equatorial ridge",
         "authors": [
-            "Joan Gimeno",
-            "Marc Jorba-Cusc\u00f3",
-            "Bego\u00f1a Nicol\u00e1s"
+            "Marco Baj",
+            "Iosto Fodde",
+            "Lucia Francesca Civati",
+            "Fabio Ferrari"
         ],
         "keywords": "",
         "figures": [
-            "https://arxiv.org/html/2609.01585v1/x1.png",
-            "https://arxiv.org/html/2609.01585v1/x2.png",
-            "https://arxiv.org/html/2609.01585v1/x3.png",
-            "https://arxiv.org/html/2609.01585v1/x4.png",
-            "https://arxiv.org/html/2609.01585v1/x5.png",
-            "https://arxiv.org/html/2609.01585v1/x6.png",
-            "https://arxiv.org/html/2609.01585v1/x7.png",
-            "https://arxiv.org/html/2609.01585v1/x8.png",
-            "https://arxiv.org/html/2609.01585v1/x9.png",
-            "https://arxiv.org/html/2609.01585v1/x10.png"
+            "https://arxiv.org/html/2609.03060v1/Images/Pan_cassini_image.jpeg",
+            "https://arxiv.org/html/2609.03060v1/Equat_profile.png",
+            "https://arxiv.org/html/2609.03060v1/Accelerations_comparison.png",
+            "https://arxiv.org/html/2609.03060v1/Zvs_comparison.png",
+            "https://arxiv.org/html/2609.03060v1/Longitude_distribution.png",
+            "https://arxiv.org/html/2609.03060v1/3D_overall.png",
+            "https://arxiv.org/html/2609.03060v1/3D_top.png",
+            "https://arxiv.org/html/2609.03060v1/3D_side.png",
+            "https://arxiv.org/html/2609.03060v1/3D_overall.png",
+            "https://arxiv.org/html/2609.03060v1/3D_top.png"
+        ]
+    },
+    "2609.03144": {
+        "title": "Evolutionary pathways toward survival of a thick CO2- or SO2-rich atmosphere on the lava world TOI-561 b",
+        "authors": [
+            "Emma Postolec",
+            "Tim Lichtenberg",
+            "Johanna K. Teske",
+            "Harrison Nicholls",
+            "Mara Attia",
+            "Anjali Piette",
+            "Lisa Dang",
+            "Nicole L. Wallack",
+            "Mykhaylo Plotnykov",
+            "Alex McGinty",
+            "Samuel Boucher",
+            "Bo Peng",
+            "Diana Valencia"
+        ],
+        "keywords": "",
+        "figures": [
+            "https://arxiv.org/html/2609.03144v1/fig1_visualize_constrain.png"
+        ]
+    },
+    "2609.03564": {
+        "title": "Dynamically favorable hosts for submoons around Jupiter and Saturn",
+        "authors": [
+            "Ryan Dahoumane",
+            "Val\u00e9ry Lainey",
+            "Kevin Bailli\u00e9"
+        ],
+        "keywords": "",
+        "figures": [
+            "https://arxiv.org/html/2609.03564v1/survie_vrai_sat_2.png"
+        ]
+    },
+    "2609.03568": {
+        "title": "Effect of stellar spot-only spectral lines in high-resolution transit spectroscopy",
+        "authors": [
+            "W. Dethier",
+            "E. Cristo",
+            "O. D. S. Demangeon",
+            "J. P. Lucero",
+            "N. C. Santos",
+            "B. Tessore"
+        ],
+        "keywords": "",
+        "figures": [
+            "https://arxiv.org/html/2609.03568v1/jupiter_abs_spec_2D_Rspot1_25_P5_newLD.png",
+            "https://arxiv.org/html/2609.03568v1/Earth_abs_spec_2D_Rspot1_25_P5_newLD.png",
+            "https://arxiv.org/html/2609.03568v1/Earth_abs_spec_2D_Rspot1_25_P25_newLD.png",
+            "https://arxiv.org/html/2609.03568v1/spot_motion.png",
+            "https://arxiv.org/html/2609.03568v1/jupiter_abs_spec_2D_Rspot1_25_l0_P5_newLD.png",
+            "https://arxiv.org/html/2609.03568v1/jupiter_abs_spec_2D_Rspot1_25_l_30_P5_newLD.png",
+            "https://arxiv.org/html/2609.03568v1/Earth_abs_spec_2D_Rspot1_25_l0_P5_newLD.png",
+            "https://arxiv.org/html/2609.03568v1/Earth_abs_spec_2D_Rspot1_25_l_30_P5_newLD.png"
+        ]
+    },
+    "2609.03575": {
+        "title": "Trans-Neptunian Object dynamics even better explained by a stellar flyby after 4.5 Gyr of evolution",
+        "authors": [
+            "Susanne Pfalzner",
+            "Frank W. Wagner",
+            "Marco Bischoff"
+        ],
+        "keywords": "",
+        "figures": [
+            "https://arxiv.org/html/2609.03575v1/particle_losses.png",
+            "https://arxiv.org/html/2609.03575v1/particle_count.png",
+            "https://arxiv.org/html/2609.03575v1/ecc_peri_zoom_flyby.png",
+            "https://arxiv.org/html/2609.03575v1/ecc_peri_zoom_10Myr.png",
+            "https://arxiv.org/html/2609.03575v1/ecc_peri_zoom_100Myr.png",
+            "https://arxiv.org/html/2609.03575v1/ecc_peri_zoom_0.5Gyr.png",
+            "https://arxiv.org/html/2609.03575v1/ecc_peri_zoom_1Gyr.png",
+            "https://arxiv.org/html/2609.03575v1/ecc_peri_zoom_4.5Gyr.png",
+            "https://arxiv.org/html/2609.03575v1/incl_peri_zoom_flyby.png",
+            "https://arxiv.org/html/2609.03575v1/incl_peri_zoom_10Myr.png"
+        ]
+    },
+    "2609.03759": {
+        "title": "Disk survey in the Serpens star-forming region: Environmental effects in nearby star-forming regions",
+        "authors": [
+            "Simin Tong",
+            "Nienke van der Marel",
+            "Jonathan P. Williams",
+            "Alexa R. Anderson"
+        ],
+        "keywords": "",
+        "figures": [
+            "https://arxiv.org/html/2609.03759v1/gallery_main.png",
+            "https://arxiv.org/html/2609.03759v1/2TD.png",
+            "https://arxiv.org/html/2609.03759v1/12CO_outflows_flipud.png",
+            "https://arxiv.org/html/2609.03759v1/gallery_new_dt_2p5arcsec.png",
+            "https://arxiv.org/html/2609.03759v1/gallery_new_id_2p5arcsec.png",
+            "https://arxiv.org/html/2609.03759v1/TD_candidates7.png",
+            "https://arxiv.org/html/2609.03759v1/cornerplot_J18273856-0402288_final.png",
+            "https://arxiv.org/html/2609.03759v1/cornerplot_J1829553100493932_final.png"
+        ]
+    },
+    "2609.03885": {
+        "title": "Properties of Seasonal Ice at Sisyphi Cavi and Implications for Current Modification of Martian Gullies",
+        "authors": [
+            "Apolline Leclef",
+            "Mathieu Vincendon",
+            "Cateline Lantz",
+            "Fran\u00e7ois Andrieu",
+            "Marie Ausseresse",
+            "John Carter",
+            "Susan J. Conway",
+            "Marion Mass\u00e9",
+            "Kelly Pasquon",
+            "Fr\u00e9d\u00e9ric Schmidt"
+        ],
+        "keywords": "",
+        "figures": [
+            "https://arxiv.org/html/2609.03885v1/Fig_1_finalee.png",
+            "https://arxiv.org/html/2609.03885v1/Fig_schema.png",
+            "https://arxiv.org/html/2609.03885v1/Fig_2_new.png",
+            "https://arxiv.org/html/2609.03885v1/Fig_4_fin.png",
+            "https://arxiv.org/html/2609.03885v1/Fig_5_fin_4.png",
+            "https://arxiv.org/html/2609.03885v1/Fig_John_Fusio_tiff+spectra_paysage.png",
+            "https://arxiv.org/html/2609.03885v1/Fig_7_fin_6_diff.png",
+            "https://arxiv.org/html/2609.03885v1/Fig_8_finale.png",
+            "https://arxiv.org/html/2609.03885v1/Fig_comp_Andrieu_Beer-Lambert.png",
+            "https://arxiv.org/html/2609.03885v1/Fig_9_finale.png"
+        ]
+    },
+    "2609.03975": {
+        "title": "Detection of hydrocarbons in Titan using high-resolution cross-correlation spectroscopy",
+        "authors": [
+            "Maria Coelho",
+            "Rafael Rian\u00e7o-Silva",
+            "Diogo Gon\u00e7alves",
+            "Pedro Machado",
+            "Zita Martins"
+        ],
+        "keywords": "",
+        "figures": [
+            "https://arxiv.org/html/2609.03975v1/Images/TITAN_TEMPLATE_LINES_CH4_combined.png",
+            "https://arxiv.org/html/2609.03975v1/Images/Propene_baseline_fitting.png",
+            "https://arxiv.org/html/2609.03975v1/Images/BOOTSTRAP_CCF_NEW_indirect_CH4_replot.png",
+            "https://arxiv.org/html/2609.03975v1/Images/BOOTSTRAP_CCF_indirect_Methane_280K_replot.png",
+            "https://arxiv.org/html/2609.03975v1/Images/BOOTSTRAP_CCF_indirect_Methane_150K_replot.png",
+            "https://arxiv.org/html/2609.03975v1/Images/BOOTSTRAP_CCF_NEW_indirect_CH4_replot.png",
+            "https://arxiv.org/html/2609.03975v1/Images/BOOTSTRAP_CCF_indirect_Methane_280K_replot.png",
+            "https://arxiv.org/html/2609.03975v1/Images/BOOTSTRAP_CCF_indirect_Methane_150K_replot.png",
+            "https://arxiv.org/html/2609.03975v1/Images/BOOTSTRAP_CCF_NEW_indirect_C2H2_replot.png",
+            "https://arxiv.org/html/2609.03975v1/Images/BOOTSTRAP_CCF_indirect_Acetylene_280K_replot.png"
+        ]
+    },
+    "2609.03119": {
+        "title": "Infrared-excess sources in VVV: candidate debris discs, SED characterization, and variability analysis",
+        "authors": [
+            "P. Esteves",
+            "R. K. Saito",
+            "C. Chavero",
+            "V. Fermiano",
+            "D. Minniti",
+            "B. W. Borges",
+            "C. C\u00e1ceres",
+            "Z. Guo",
+            "V. D. Ivanov",
+            "R. G. Kurtev",
+            "D. Quispe",
+            "R. M. Torres"
+        ],
+        "keywords": "",
+        "figures": [
+            "https://arxiv.org/html/2609.03119v1/fig01.png",
+            "https://arxiv.org/html/2609.03119v1/fig02.png",
+            "https://arxiv.org/html/2609.03119v1/fig03.jpg",
+            "https://arxiv.org/html/2609.03119v1/fig04.png",
+            "https://arxiv.org/html/2609.03119v1/fig05a.png",
+            "https://arxiv.org/html/2609.03119v1/fig05b.png",
+            "https://arxiv.org/html/2609.03119v1/fig05c.png",
+            "https://arxiv.org/html/2609.03119v1/fig05d.png",
+            "https://arxiv.org/html/2609.03119v1/fig05e.png",
+            "https://arxiv.org/html/2609.03119v1/fig06.png"
         ]
     }
 }
