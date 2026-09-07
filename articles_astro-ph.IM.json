@@ -1,385 +1,377 @@
 {
-    "2609.02922": {
-        "title": "The influence of standard relativistic effects on Gaia-like astrometric catalogs",
+    "2609.04305": {
+        "title": "TNFlow: Amortized Posterior Inference for Trans-Neptunian Object Surface Composition",
         "authors": [
-            "Gabriel Rodr\u00edguez-Moris",
-            "Sergei A. Klioner"
-        ],
-        "keywords": "astrometry /\n            relativistic processes /\n            gravitation / methods: numerical / methods: analytical",
-        "figures": [
-            "figures/2609_02922/orcid.png",
-            "figures/2609_02922/SunGLD.PNG",
-            "figures/2609_02922/JupiterGLD.PNG",
-            "figures/2609_02922/AGISoutline.png",
-            "figures/2609_02922/RAhistogram.PNG",
-            "figures/2609_02922/DEChistogram.PNG",
-            "figures/2609_02922/varpihistogram.PNG",
-            "figures/2609_02922/muRAhistogram.PNG",
-            "figures/2609_02922/muDEChistogram.PNG",
-            "figures/2609_02922/RAerr_map_Jup.png"
-        ]
-    },
-    "2609.03027": {
-        "title": "A fast, wide-field, and real-time imaging prototype for large aperture arrays",
-        "authors": [
-            "Nithyanandan Thyagarajan",
-            "Jishnu Thekkeppattu",
-            "David Humphrey"
+            "Agastya Gaur",
+            "Cristina M. Dalle Ore",
+            "Alessandra Ricca"
         ],
         "keywords": "",
         "figures": [
-            "https://arxiv.org/html/2609.03027v1/figures/AMD-Alveo-V80-Open.jpg",
-            "https://arxiv.org/html/2609.03027v1/figures/AMD-Alveo-V80-Diagram.jpg",
-            "https://arxiv.org/html/2609.03027v1/figures/antenna_layout.png",
-            "https://arxiv.org/html/2609.03027v1/ska-low-layout.png",
-            "https://arxiv.org/html/2609.03027v1/figures/Map00.png",
-            "https://arxiv.org/html/2609.03027v1/figures/Map04.png",
-            "https://arxiv.org/html/2609.03027v1/figures/Map08.png",
-            "https://arxiv.org/html/2609.03027v1/figures/Map12.png",
-            "https://arxiv.org/html/2609.03027v1/epic_fpga_v80_64x64_512x512_footprint.png"
+            "https://arxiv.org/html/2609.04305v1/figures/pit_histograms.png",
+            "https://arxiv.org/html/2609.04305v1/figures/jwst_exemplars.png",
+            "https://arxiv.org/html/2609.04305v1/figures/pit_trace_histograms.png"
         ]
     },
-    "2609.03103": {
-        "title": "Optimizing Field Geometry for Modular Micropore-Optics Soft X-ray Time-Domain Surveys",
+    "2609.04311": {
+        "title": "Development of quantum technologies for optical/infrared interferometry",
         "authors": [
-            "Nicholas E. White",
-            "Massimiliano Galeazzi",
-            "Russell Roberts",
-            "Kip D. Kuntz"
+            "John D. Monnier"
         ],
         "keywords": "",
         "figures": [
-            "https://arxiv.org/html/2609.03103v1/psf2.png",
-            "https://arxiv.org/html/2609.03103v1/Aeff_nFacets_Combined.png",
-            "https://arxiv.org/html/2609.03103v1/Aeff_Map.png",
-            "https://arxiv.org/html/2609.03103v1/fig_effarea_vs_energy.png",
-            "https://arxiv.org/html/2609.03103v1/Vignetting_OO_NumericalModel2.png",
-            "https://arxiv.org/html/2609.03103v1/fig_modular_vs_monolithic2.png",
-            "https://arxiv.org/html/2609.03103v1/fig_hexagonal_unit.png",
-            "https://arxiv.org/html/2609.03103v1/TriPetal_TotalAeff.png",
-            "https://arxiv.org/html/2609.03103v1/fig_seven_hexagons.png",
-            "https://arxiv.org/html/2609.03103v1/fig_lsst_block.png"
+            "https://arxiv.org/html/2609.04311v1/FIGURES/Stas2026_Fig1a_Interferometer_Architectures.png",
+            "https://arxiv.org/html/2609.04311v1/FIGURES/Brown2023_Fig2_Experimental_Setup.png",
+            "https://arxiv.org/html/2609.04311v1/FIGURES/Stas2026_Fig4b_Remote_Phase_Sensing_Circuit.png",
+            "https://arxiv.org/html/2609.04311v1/FIGURES/Wang2026_Memory_Assisted_Interferometer.png"
         ]
     },
-    "2609.03159": {
-        "title": "The Accretion Explorer Interferometer (AEI) Phase I NASA Innovative Advanced Concepts Final Report",
+    "2609.04312": {
+        "title": "ALPACA I: Controlling source and PSF systematics in JWST time-delay cosmography with differentiable lens modeling",
         "authors": [
-            "Kimberly A. Weaver",
-            "Jenna M. Cann",
-            "Kenneth Carpenter",
-            "Maurice Leutenegger",
-            "Takashi Okajima",
-            "Scott Rohrbach",
-            "Liz Matson",
-            "Craig Stevens",
-            "George Bussey",
-            "Jean-Etienne Dongmo",
-            "David Kim",
-            "Jess Lewis",
-            "Khashayar Parsay",
-            "Sharon Peabody",
-            "Alison Rao",
-            "Sara Riall",
-            "Marta Shelton",
-            "Kan Yang",
-            "Isabella Carlton",
-            "Webster Cash",
-            "Kaylee DeGennaro",
-            "Emma Kleiner",
-            "John Krizmanic",
-            "Erini Lambrides",
-            "Miranda McCarthy",
-            "Jeffrey McKaig",
-            "Atul Mohan",
-            "Teresa Monsue",
-            "Ryan Pfeifle",
-            "Mainak Singha",
-            "Melville Ulmer",
-            "Laura D. Vega",
-            "Kelly E. Whalen"
+            "Hrvoje Krizic",
+            "Martin Millon",
+            "Aymeric Galan",
+            "Sydney Erickson",
+            "Phil Marshall"
         ],
         "keywords": "",
         "figures": [
-            "https://arxiv.org/html/2609.03159v1/niac_cover_art-v2.png",
-            "https://arxiv.org/html/2609.03159v1/deep_field.png",
-            "https://arxiv.org/html/2609.03159v1/array4.png",
-            "https://arxiv.org/html/2609.03159v1/alignment.png",
-            "https://arxiv.org/html/2609.03159v1/array4.png",
-            "https://arxiv.org/html/2609.03159v1/alignment.png",
-            "https://arxiv.org/html/2609.03159v1/fringes.png",
-            "https://arxiv.org/html/2609.03159v1/MAXIM.png",
-            "https://arxiv.org/html/2609.03159v1/eso2208-eht-mwe.png",
-            "https://arxiv.org/html/2609.03159v1/050-black_hole_3J_Inset_6000x4000.jpg"
+            "https://arxiv.org/html/2609.04312v1/alpaca_flowchart.png",
+            "https://arxiv.org/html/2609.04312v1/distorted_vs_truth_gallery.png",
+            "https://arxiv.org/html/2609.04312v1/CorrField_data_model_source.png",
+            "https://arxiv.org/html/2609.04312v1/symmetry_vs_psf_recovery.png",
+            "https://arxiv.org/html/2609.04312v1/rungc_residuals+source.png",
+            "https://arxiv.org/html/2609.04312v1/PSF_covariance_Ddt_gamma.png",
+            "https://arxiv.org/html/2609.04312v1/shapelets_vs_corrfield.png",
+            "https://arxiv.org/html/2609.04312v1/corrfield_gallery_lenses1-5.png",
+            "https://arxiv.org/html/2609.04312v1/corrfield_gallery_lenses6-10.png"
         ]
     },
-    "2609.03371": {
-        "title": "3.5-meter Segmented-Mirror Robotic Space Telescope Mission White Paper IV. Key Scientific Mission: Solar-System Small Bodies and Planetary Defense",
+    "2609.04472": {
+        "title": "Identifying Casual SETI Transmissions and Ultra-Faint RFI with Cumulant Imaging",
         "authors": [
-            "Juhan Kim",
-            "Yong-Woo Kang",
-            "Sang Hyun Lee",
-            "Jeong-Yeol Han",
-            "Sungwook E. Hong",
-            "Bongkon Moon",
-            "Donguk Song",
-            "Juhyung Kang",
-            "Myeong-Gu Park",
-            "Sang Chul Kim",
-            "Chung-Uk Lee",
-            "Sangmo Tony Sohn",
-            "Arman Shafieloo",
-            "David Parkinson",
-            "Hong Soo Park",
-            "Dohyeong Kim",
-            "Chan Park",
-            "Jungjoo Sohn",
-            "Young-Beom Jeon",
-            "Jong-Hak Woo",
-            "Hyung Mok Lee",
-            "Hong Bae Ann",
-            "Myungkook James Jee",
-            "Mansoo Choi",
-            "Changbom Park"
+            "Miguel F. Morales"
         ],
         "keywords": "",
         "figures": [
-            "https://arxiv.org/html/2609.03371v1/vol4_neo_h_diameter.png",
-            "https://arxiv.org/html/2609.03371v1/vol4_neo_thermal_windows.png",
-            "https://arxiv.org/html/2609.03371v1/vol4_neo_astrometry.png",
-            "https://arxiv.org/html/2609.03371v1/vol4_l2_observability.png",
-            "https://arxiv.org/html/2609.03371v1/vol4_neo_single_visit_reach_heliocentric.png",
-            "https://arxiv.org/html/2609.03371v1/vol4_neo_force_hierarchy.png",
-            "https://arxiv.org/html/2609.03371v1/vol4_neo_orbit_validation_10cases.png",
-            "https://arxiv.org/html/2609.03371v1/vol4_halley_codes_longterm_validation.png",
-            "https://arxiv.org/html/2609.03371v1/vol4_ds9_codes_openorb_flow.png",
-            "https://arxiv.org/html/2609.03371v1/vol4_ogfinder_ds9_neo_runtime.png"
+            "https://arxiv.org/html/2609.04472v1/figures/Images_horizontal_export.png",
+            "https://arxiv.org/html/2609.04472v1/CumulantTable.png"
         ]
     },
-    "2609.03373": {
-        "title": "3.5-meter Segmented-Mirror Robotic Space Telescope Mission White Paper V. Key Scientific Mission: Compact-Object Time-Domain Science",
+    "2609.04728": {
+        "title": "Validating the SCALES DRP: A Performance Study of the Medium-Resolution IFS Mode",
         "authors": [
-            "Juhan Kim",
-            "Yong-Woo Kang",
-            "Sang Hyun Lee",
-            "Jeong-Yeol Han",
-            "Sungwook E. Hong",
-            "Bongkon Moon",
-            "Donguk Song",
-            "Juhyung Kang",
-            "Myeong-Gu Park",
-            "Sang Chul Kim",
-            "Chung-Uk Lee",
-            "Sangmo Tony Sohn",
-            "Arman Shafieloo",
-            "David Parkinson",
-            "Hong Soo Park",
-            "Dohyeong Kim",
-            "Chan Park",
-            "Jungjoo Sohn",
-            "Young-Beom Jeon",
-            "Jong-Hak Woo",
-            "Hyung Mok Lee",
-            "Hong Bae Ann",
-            "Myungkook James Jee",
-            "Mansoo Choi",
-            "Changbom Park"
+            "Athira Unni",
+            "Steph Sallum",
+            "Max Brodheim",
+            "Rosalie McGurk",
+            "Andy Skemer",
+            "Matthew Brown",
+            "Peyton Benac",
+            "Michael P. Fitzgerald",
+            "Deno Stelter",
+            "Dusty Reichwein",
+            "Aaron Hunter",
+            "William T. S. Deich",
+            "Isabel Kain",
+            "Mackenzie Lach"
         ],
         "keywords": "",
         "figures": [
-            "https://arxiv.org/html/2609.03373v1/vol5_gw170817_xshooter.png",
-            "https://arxiv.org/html/2609.03373v1/vol5_dwarf_nova_typical_disk_outburst.jpg",
-            "https://arxiv.org/html/2609.03373v1/vol5_ugem_lamost_spectrum.jpeg",
-            "https://arxiv.org/html/2609.03373v1/vol5_ugem_wht_hbeta_double_peak.png",
-            "https://arxiv.org/html/2609.03373v1/vol5_compact_etc_reference_cases.png",
-            "https://arxiv.org/html/2609.03373v1/vol5_compact_scene_recovery.png",
-            "https://arxiv.org/html/2609.03373v1/vol5_appendix_X_five_year_timeline.png"
+            "https://arxiv.org/html/2609.04728v1/figure/flowchart_science.png",
+            "https://arxiv.org/html/2609.04728v1/figure/k_trace_1.png",
+            "https://arxiv.org/html/2609.04728v1/figure/k_spectra.png",
+            "https://arxiv.org/html/2609.04728v1/figure/k_cube_spectra.png"
         ]
     },
-    "2609.03417": {
-        "title": "Reconstruction of Shower-like Events in NEON Using Likelihood and Graph Neural Network Methods",
+    "2609.05205": {
+        "title": "Laboratory characterization of Hierarchical Fringe Tracking",
         "authors": [
-            "Sujie Lin",
-            "Weiqin Huang",
-            "Yihan Liu",
-            "Chengyu Shao",
-            "Lili Yang",
-            "Huiming Zhang"
+            "Roxanne Ligi",
+            "St\u00e9phane Lagarde",
+            "Romain Petrov",
+            "Sylvie Robbe-Dubois",
+            "Julien Dejonghe",
+            "Fatm\u00e9 Allouche",
+            "Teng Xu",
+            "Wei Wei",
+            "Massinissa Hadjara",
+            "Abdelkarim Boskri"
         ],
         "keywords": "",
         "figures": [
-            "https://arxiv.org/html/2609.03417v1/picture/Fig1.png",
-            "https://arxiv.org/html/2609.03417v1/picture/ERef_Calibration_Dashboard_v01.png",
-            "https://arxiv.org/html/2609.03417v1/picture/block.png",
-            "https://arxiv.org/html/2609.03417v1/picture/flow1.png",
-            "https://arxiv.org/html/2609.03417v1/picture/flow2.png",
-            "https://arxiv.org/html/2609.03417v1/picture/losscurve1.png",
-            "https://arxiv.org/html/2609.03417v1/picture/Angular_Resolution1.png",
-            "https://arxiv.org/html/2609.03417v1/picture/GNN_angular_resolution2.png",
-            "https://arxiv.org/html/2609.03417v1/picture/Summary_Bias.png",
-            "https://arxiv.org/html/2609.03417v1/picture/Energy_Resolution_Bias.png"
+            "https://arxiv.org/html/2609.05205v1/ABCD_vs_HFT.001.jpeg",
+            "https://arxiv.org/html/2609.05205v1/test_bench.001.jpeg",
+            "https://arxiv.org/html/2609.05205v1/Schema_chip_P2.001.jpeg",
+            "https://arxiv.org/html/2609.05205v1/Schema_chip_2.png",
+            "https://arxiv.org/html/2609.05205v1/step_320cube5_chip12.png",
+            "https://arxiv.org/html/2609.05205v1/step_320cube7_chip12.png",
+            "https://arxiv.org/html/2609.05205v1/Theoretical_intensities.png",
+            "https://arxiv.org/html/2609.05205v1/step_320chip12_zoom_avectheorie.png",
+            "https://arxiv.org/html/2609.05205v1/step_320chip10_zoom_avectheorie_prspie.png"
         ]
     },
-    "2609.03779": {
-        "title": "Morphology of Radio Sources in Representation Space",
+    "2609.05208": {
+        "title": "Active focal plane phase mask coronagraphy with a discrete pixelated device: I. Study of the theoretical performance trade space",
         "authors": [
-            "Nicolas Baron Perez",
-            "Marcus Br\u00fcggen",
-            "Luisa Lucie-Smith"
+            "Liurong Lin",
+            "Axel Potier",
+            "Ruben Tandon",
+            "Lucas Marquis",
+            "Jonas G. K\u00fchn"
         ],
         "keywords": "",
         "figures": [
-            "https://arxiv.org/html/2609.03779v1/figures/paper-class_confidence_examples-DR2_DR3.png",
-            "https://arxiv.org/html/2609.03779v1/figures/paper-umap_confidence_intervals-DR2_DR3.png",
-            "https://arxiv.org/html/2609.03779v1/figures/paper-new_class_examples.png",
-            "https://arxiv.org/html/2609.03779v1/figures/paper-umap_densities_additional_classes.png"
+            "https://arxiv.org/html/2609.05208v1/coro_scheme_full.png",
+            "https://arxiv.org/html/2609.05208v1/masks_spatial_sam_4rows.png",
+            "https://arxiv.org/html/2609.05208v1/zoomed_center_phasemask_plot_wl.png",
+            "https://arxiv.org/html/2609.05208v1/zoomed_center_phasemask_plot_cal.png",
+            "https://arxiv.org/html/2609.05208v1/Figure/throughput_all_masks_from_existing_txt_None_1_1.png",
+            "https://arxiv.org/html/2609.05208v1/phase_masks_greyscale_2bit_all_masks_zoom50.png",
+            "https://arxiv.org/html/2609.05208v1/contrast_vc4_vc8_fqpm_fpm10_centers_with_mask_insets.png",
+            "https://arxiv.org/html/2609.05208v1/lyot_plane_appendix_paper.png"
         ]
     },
-    "2609.03866": {
-        "title": "nufftcf: Fast Auto- and Cross-Correlation Function Estimation for Irregularly-Sampled Time Series via the Non-Uniform FFT",
+    "2609.05240": {
+        "title": "What is new in NuRadioMC: Multilayer Analytic Raytracer",
         "authors": [
-            "Jean-Eric Campagne"
+            "Hannes Warnhofer",
+            "Sjoerd Bouma",
+            "Vital De Henau",
+            "Bryan Hendricks",
+            "Jakob Henrichs",
+            "Nils Heyer",
+            "Enrique Huesca Santiago",
+            "Annanay Jaitly",
+            "Philipp Laub",
+            "Anna Nelles",
+            "Martin Ravn",
+            "Felix Schl\u00fcter",
+            "Zeynep Su Selcuk",
+            "Karen Terveer",
+            "Christian Glaser",
+            "Christoph Welling",
+            "Philipp Windischhofer"
         ],
         "keywords": "",
         "figures": [
-            "https://arxiv.org/html/2609.03866v1/synthetic_series.png"
+            "https://arxiv.org/html/2609.05240v1/plots/examplerays_new2.png",
+            "https://arxiv.org/html/2609.05240v1/plots/refrativeindexdatasummit.png",
+            "https://arxiv.org/html/2609.05240v1/plots/3layemodel_new3.png",
+            "https://arxiv.org/html/2609.05240v1/plots/refrativeindexdatasummit.png",
+            "https://arxiv.org/html/2609.05240v1/plots/3layemodel_new3.png",
+            "https://arxiv.org/html/2609.05240v1/plots/niceplot_new.png",
+            "https://arxiv.org/html/2609.05240v1/plots/comparison_traveltime_newnew.png",
+            "https://arxiv.org/html/2609.05240v1/plots/comparison_angle_newnew.png",
+            "https://arxiv.org/html/2609.05240v1/plots/comparison_traveltime_newnew.png",
+            "https://arxiv.org/html/2609.05240v1/plots/comparison_angle_newnew.png"
         ]
     },
-    "2609.03025": {
-        "title": "DANSur_HM: Modularly incorporating higher modes in a deep learning based gravitational-wave surrogate",
+    "2609.04510": {
+        "title": "Implementation of frequency-correlated noise in CMB component separation: Method, Validation, and Early Applications",
         "authors": [
-            "Osvaldo Gramaxo Freitas",
-            "Anastasios Theodoropoulos",
-            "Nino Villanueva",
-            "Jos\u00e9 A. Font",
-            "Antonio Onofre",
-            "Alejandro Torres-Forn\u00e9",
-            "Jos\u00e9 D. Martin-Guerrero"
+            "L. Zapelli",
+            "M. Bersanelli",
+            "L. P. L. Colombo",
+            "A. Mennella",
+            "L. G. Bachar",
+            "E. Battistelli",
+            "I. Bekkaoui",
+            "L. A. Bianchi",
+            "A. Coppolecchia",
+            "B. Costanza",
+            "P. De Bernardis",
+            "G. De Gasperis",
+            "S. Ferazzoli",
+            "M. Galloway",
+            "M. Gervasi",
+            "N. Mir\u00f3n-Granese",
+            "J-Ch. Hamilton",
+            "T. Laclav\u00e8re",
+            "J. G. S. Lunde",
+            "S. Masi",
+            "Y. Moulane",
+            "S. Paradiso",
+            "I. D. Queirolo",
+            "M. Regnier",
+            "G. E. Romero",
+            "C. G. Sc\u00f3ccola"
         ],
         "keywords": "",
         "figures": [
-            "https://arxiv.org/html/2609.03025v1/sxs_mm_vs_chi1_chi2_loaded.png"
+            "https://arxiv.org/html/2609.04510v1/1_full_matrix.png",
+            "https://arxiv.org/html/2609.04510v1/2_ncvm_example+.png",
+            "https://arxiv.org/html/2609.04510v1/3_phase_I_chains_gelman_4++.png",
+            "https://arxiv.org/html/2609.04510v1/4_run2++.png",
+            "https://arxiv.org/html/2609.04510v1/5_MLE_all++.png",
+            "https://arxiv.org/html/2609.04510v1/5-5_joint+.png",
+            "https://arxiv.org/html/2609.04510v1/5-5_joint2+.png",
+            "https://arxiv.org/html/2609.04510v1/7_band_partitioning.png",
+            "https://arxiv.org/html/2609.04510v1/patches.png",
+            "https://arxiv.org/html/2609.04510v1/QUBIC_7b_joint++.png"
         ]
     },
-    "2609.03056": {
-        "title": "Single-pulse reanalysis of the 2024 Vela glitch and new observations of PSR~J0437$-$4715 and PSR~J1644$-$4559",
+    "2609.04562": {
+        "title": "A Cross-Laboratory Comparison Study of Titan Haze Analogs: Surface Energy II",
         "authors": [
-            "Carlos O. Lousto",
-            "Ruby Shrestha",
-            "Ezequiel Zubieta",
-            "Susana B. Araujo Furlan",
-            "Guillermo Gancio",
-            "Federico Garc\u00eda",
-            "Santiago del Palacio",
-            "Ryan Missel",
-            "Linwei Wang"
+            "Eric C. Austin",
+            "Xinting Yu",
+            "Chao He",
+            "Cara Pesciotta",
+            "Ella Sciamma-O'Brien",
+            "Joshua A. Sebree",
+            "Jose Raul Montes-Bojorquez",
+            "Adis Husi\u0107",
+            "Erik White",
+            "Christopher R. Bond",
+            "Sarah H\u00f6rst",
+            "Farid Salama",
+            "Patricia McGuiggan"
         ],
         "keywords": "",
         "figures": [
-            "https://arxiv.org/html/2609.03056v1/filtering_process_img.png",
-            "https://arxiv.org/html/2609.03056v1/J04_filtering_process_threshold.png",
-            "https://arxiv.org/html/2609.03056v1/J16_new_1388phase.png",
-            "https://arxiv.org/html/2609.03056v1/J04_281phase_ordered_by_peak_loc.png",
-            "https://arxiv.org/html/2609.03056v1/J08_April_545phase.png",
-            "https://arxiv.org/html/2609.03056v1/J08_May_545phase.png"
+            "https://arxiv.org/html/2609.04562v1/figures/experimentalSetupDiagrams/setup_UNI_260505.png",
+            "https://arxiv.org/html/2609.04562v1/figures/experimentalSetupDiagrams/setup_JHU_260501.png",
+            "https://arxiv.org/html/2609.04562v1/figures/experimentalSetupDiagrams/setup_ARC_260501.png",
+            "https://arxiv.org/html/2609.04562v1/figures/experimentalSetupDiagrams/setup_UNI_260505.png",
+            "https://arxiv.org/html/2609.04562v1/figures/experimentalSetupDiagrams/setup_JHU_260501.png",
+            "https://arxiv.org/html/2609.04562v1/figures/experimentalSetupDiagrams/setup_ARC_260501.png",
+            "https://arxiv.org/html/2609.04562v1/figures/Picture1.png",
+            "https://arxiv.org/html/2609.04562v1/figures/NASA_10_diiodo_glass_revised.png",
+            "https://arxiv.org/html/2609.04562v1/figures/NASA_10_water_glass_revised.png",
+            "https://arxiv.org/html/2609.04562v1/figures/NASA_10_diiodo_glass_revised.png"
         ]
     },
-    "2609.03329": {
-        "title": "Introducing SINFONIA: Symplectic, slimplectic and Magnusian (Neural) Flows for Orbital Numerical Integration and Acceleration",
+    "2609.04597": {
+        "title": "Retrieving Ocean Glint Reflectance Signatures from Directly Imaged Earth-like Exoplanets",
         "authors": [
-            "Lidia J. Gomes Da Silva"
+            "Eleanor Cornish",
+            "Tyler D. Robinson"
         ],
         "keywords": "",
         "figures": [
-            "https://arxiv.org/html/2609.03329v1/phase_error.png"
+            "https://arxiv.org/html/2609.04597v1/glint_phase_compare_75cloud.png",
+            "https://arxiv.org/html/2609.04597v1/Ryan_robinson_plot.png",
+            "https://arxiv.org/html/2609.04597v1/with_without_glint_comparison.png",
+            "https://arxiv.org/html/2609.04597v1/snrplot.png",
+            "https://arxiv.org/html/2609.04597v1/120_glint_comparison.png",
+            "https://arxiv.org/html/2609.04597v1/earth_glint_al135_snr10_wgl_corner_copy.png"
         ]
     },
-    "2609.03452": {
-        "title": "Gamma-Ray Bursts and Optical Brightness: Insights from Swift Satellite",
+    "2609.04829": {
+        "title": "A guide to choosing data compression methods for cosmological inference",
         "authors": [
-            "Istvan I. Racz",
-            "Yasmin Nehme",
-            "Lajos G. Balazs"
+            "Susan Pyne",
+            "Benjamin Joachimi",
+            "Calum Gordon",
+            "Kiyam Lin"
         ],
         "keywords": "",
         "figures": [
-            "https://arxiv.org/html/2609.03452v1/ring_aitoff_noring.png",
-            "https://arxiv.org/html/2609.03452v1/wall2.png",
-            "https://arxiv.org/html/2609.03452v1/figs/KMplot.png"
+            "https://arxiv.org/html/2609.04829v1/chain_consumer_ps_fisher_info_3.png",
+            "https://arxiv.org/html/2609.04829v1/logdet_vs_chsq_color.png",
+            "https://arxiv.org/html/2609.04829v1/logdet_vs_dsq_color.png",
+            "https://arxiv.org/html/2609.04829v1/chain_consumer_ps_CCA_3.png",
+            "https://arxiv.org/html/2609.04829v1/chain_consumer_ps_mutual_info_33.png",
+            "https://arxiv.org/html/2609.04829v1/chain_consumer_ps_variance_min_3.png"
         ]
     },
-    "2609.03568": {
-        "title": "Effect of stellar spot-only spectral lines in high-resolution transit spectroscopy",
+    "2609.04973": {
+        "title": "Updated in-flight calibration of the Hayabusa2/NIRS3 spectrometer: new global near-infrared photometric properties of asteroid (162173) Ryugu",
         "authors": [
-            "W. Dethier",
-            "E. Cristo",
-            "O. D. S. Demangeon",
-            "J. P. Lucero",
-            "N. C. Santos",
-            "B. Tessore"
+            "Antonin Wargnier",
+            "Eri Tatsumi",
+            "Koki Yumoto",
+            "Mayumi Ichikawa",
+            "Shin-ya Murakami",
+            "Yuichiro Nagai",
+            "Kazuhiro Honda",
+            "Yasuhiro Yokota",
+            "Toru Kouyama",
+            "Takahiro Iwata",
+            "Moe Matsuoka",
+            "Satoshi Tanaka",
+            "Kohei Kitazato"
         ],
         "keywords": "",
         "figures": [
-            "https://arxiv.org/html/2609.03568v1/jupiter_abs_spec_2D_Rspot1_25_P5_newLD.png",
-            "https://arxiv.org/html/2609.03568v1/Earth_abs_spec_2D_Rspot1_25_P5_newLD.png",
-            "https://arxiv.org/html/2609.03568v1/Earth_abs_spec_2D_Rspot1_25_P25_newLD.png",
-            "https://arxiv.org/html/2609.03568v1/spot_motion.png",
-            "https://arxiv.org/html/2609.03568v1/jupiter_abs_spec_2D_Rspot1_25_l0_P5_newLD.png",
-            "https://arxiv.org/html/2609.03568v1/jupiter_abs_spec_2D_Rspot1_25_l_30_P5_newLD.png",
-            "https://arxiv.org/html/2609.03568v1/Earth_abs_spec_2D_Rspot1_25_l0_P5_newLD.png",
-            "https://arxiv.org/html/2609.03568v1/Earth_abs_spec_2D_Rspot1_25_l_30_P5_newLD.png"
+            "https://arxiv.org/html/2609.04973v1/moon_nirs3_footprint_merged.png",
+            "https://arxiv.org/html/2609.04973v1/ONC_NIRS3_comp.png",
+            "https://arxiv.org/html/2609.04973v1/ONC_NIRS3_moon_comp.png",
+            "https://arxiv.org/html/2609.04973v1/resolved_phase_curve_corr_v05.png",
+            "https://arxiv.org/html/2609.04973v1/Hapke_goodnessplot_v05.png",
+            "https://arxiv.org/html/2609.04973v1/refl_slope_map.png",
+            "https://arxiv.org/html/2609.04973v1/REDDENING_maps.png",
+            "https://arxiv.org/html/2609.04973v1/ill_conditions_NIRS3_binned_v05.png",
+            "https://arxiv.org/html/2609.04973v1/footprint_count_map.png",
+            "https://arxiv.org/html/2609.04973v1/PHASE_minmax_maps.png"
         ]
     },
-    "2609.03975": {
-        "title": "Detection of hydrocarbons in Titan using high-resolution cross-correlation spectroscopy",
+    "2609.05105": {
+        "title": "Modelling Palomar Transients: Constraints from Reflection Geometry and Orbital Altitude",
         "authors": [
-            "Maria Coelho",
-            "Rafael Rian\u00e7o-Silva",
-            "Diogo Gon\u00e7alves",
-            "Pedro Machado",
-            "Zita Martins"
+            "Beatriz Villarroel",
+            "Alina Streblyanska",
+            "Hichem Guergouri",
+            "Brian Doherty",
+            "Matthew Shultz",
+            "Stephen Bruehl"
         ],
         "keywords": "",
         "figures": [
-            "https://arxiv.org/html/2609.03975v1/Images/TITAN_TEMPLATE_LINES_CH4_combined.png",
-            "https://arxiv.org/html/2609.03975v1/Images/Propene_baseline_fitting.png",
-            "https://arxiv.org/html/2609.03975v1/Images/BOOTSTRAP_CCF_NEW_indirect_CH4_replot.png",
-            "https://arxiv.org/html/2609.03975v1/Images/BOOTSTRAP_CCF_indirect_Methane_280K_replot.png",
-            "https://arxiv.org/html/2609.03975v1/Images/BOOTSTRAP_CCF_indirect_Methane_150K_replot.png",
-            "https://arxiv.org/html/2609.03975v1/Images/BOOTSTRAP_CCF_NEW_indirect_CH4_replot.png",
-            "https://arxiv.org/html/2609.03975v1/Images/BOOTSTRAP_CCF_indirect_Methane_280K_replot.png",
-            "https://arxiv.org/html/2609.03975v1/Images/BOOTSTRAP_CCF_indirect_Methane_150K_replot.png",
-            "https://arxiv.org/html/2609.03975v1/Images/BOOTSTRAP_CCF_NEW_indirect_C2H2_replot.png",
-            "https://arxiv.org/html/2609.03975v1/Images/BOOTSTRAP_CCF_indirect_Acetylene_280K_replot.png"
+            "https://arxiv.org/html/2609.05105v1/Figure_90-2.png",
+            "https://arxiv.org/html/2609.05105v1/declination_excess_no_lines.png",
+            "https://arxiv.org/html/2609.05105v1/reflectivity_20k_fig4.png",
+            "https://arxiv.org/html/2609.05105v1/reflectivity_35p786k_GSO_fig4.png",
+            "https://arxiv.org/html/2609.05105v1/specular_size_band_vs_magnitude.png",
+            "https://arxiv.org/html/2609.05105v1/FDD.png",
+            "https://arxiv.org/html/2609.05105v1/SpinVFlash.png"
         ]
     },
-    "2609.04077": {
-        "title": "Absolute Motion of the Infrared Counterpart to Sagittarius A* in the Gaia Celestial Reference Frame 3 and Limits on an Intermediate-mass Black Hole Companion",
+    "2609.05265": {
+        "title": "Enabling Metallicity Measurements of Microlensing Lenses through Multi-band Lens Photometry",
         "authors": [
-            "Rebecca A. Lewis-Merrill",
-            "Tuan Do",
-            "Matthew W. Hosek Jr.",
-            "Gregory David Martinez",
-            "Shoko Sakai",
-            "Kelly Kosmo O'Neil",
-            "Grant Weldon",
-            "Abhimat Gautam",
-            "Zo\u00eb Haggard",
-            "Andrea M. Ghez",
-            "Jessica R. Lu",
-            "Keith Matthews"
+            "Jiyuan Zhang",
+            "Gregory Green",
+            "Weicheng Zang",
+            "Hongjing Yang",
+            "Shude Mao"
         ],
         "keywords": "",
         "figures": [
-            "https://arxiv.org/html/2609.04077v1/annotated_reference_stars_t2012.562.png",
-            "https://arxiv.org/html/2609.04077v1/ErrVsEpoch_linear.png",
-            "https://arxiv.org/html/2609.04077v1/hst_gaia_projected_max_err_and_limits.png",
-            "https://arxiv.org/html/2609.04077v1/time_averaged_trans_err_per_subset.png",
-            "https://arxiv.org/html/2609.04077v1/secondary_ref_stars_PM_diffs_mas.png",
-            "https://arxiv.org/html/2609.04077v1/secondary_ref_stars_pos_diffs_mas.png",
-            "https://arxiv.org/html/2609.04077v1/sgra_ir_vs_sgra_radio.png",
-            "https://arxiv.org/html/2609.04077v1/SgrA-IR_preferred_fit_contours_vs_radio_Xu2022.png",
-            "https://arxiv.org/html/2609.04077v1/imbh_bounds_comparison_to_this_work.png",
-            "https://arxiv.org/html/2609.04077v1/reduced_chi_squared_good_stars.png"
+            "https://arxiv.org/html/2609.05265v1/fig4_color_color_no_MF213_constrain.png"
+        ]
+    },
+    "2609.05375": {
+        "title": "Fast Bayesian Inference for Long-Duration Gravitational-Wave Signals in 3G detectors",
+        "authors": [
+            "Anand S. Sengupta"
+        ],
+        "keywords": "",
+        "figures": [
+            "https://arxiv.org/html/2609.05375v1/fig2_v20p7_50seed_pooled.png"
+        ]
+    },
+    "2609.05412": {
+        "title": "Tracing the Cosmic Origins: Machine Learning Reconstruction of the Primordial Density Field from EoR Observations",
+        "authors": [
+            "Anchal Saxena",
+            "P. Daniel Meerburg",
+            "Guochao Sun",
+            "Tzu-Ching Chang",
+            "Llu\u00eds Mas-Ribas"
+        ],
+        "keywords": "",
+        "figures": [
+            "https://arxiv.org/html/2609.05412v1/sample.png",
+            "https://arxiv.org/html/2609.05412v1/u_net_arch.png",
+            "https://arxiv.org/html/2609.05412v1/ska_antenna_uv_coverage.png",
+            "https://arxiv.org/html/2609.05412v1/sbi_setup_reconstruction.png",
+            "https://arxiv.org/html/2609.05412v1/summary_plot_neutral.png",
+            "https://arxiv.org/html/2609.05412v1/summary_plot_ionised.png",
+            "https://arxiv.org/html/2609.05412v1/param_infer_noiseless.png",
+            "https://arxiv.org/html/2609.05412v1/param_infer_noisy.png"
         ]
     }
 }
