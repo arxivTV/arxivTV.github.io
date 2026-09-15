@@ -1,230 +1,519 @@
 {
-    "2609.12034": {
-        "title": "An unresolved extreme warm infrared excess toward a nearby low-mass star",
+    "2609.13384": {
+        "title": "Classical Cases of Non-solar Mixing Length in Low Mass Stars",
         "authors": [
-            "Sahin Torlakcik"
+            "Rebecca Woody",
+            "Charlie Conroy",
+            "Phillip A. Cargile",
+            "Aaron Dotter"
         ],
         "keywords": "",
         "figures": [
-            "https://arxiv.org/html/2609.12034v1/fig2_w3_association.png"
+            "figures/2609_13384/irad_age_prescription_fractional_twopanel.png",
+            "figures/2609_13384/data_and_model_grid_coverage.png",
+            "figures/2609_13384/demonstrate_amlt_effect.png",
+            "figures/2609_13384/emulator_vs_grid_hrd.png",
+            "figures/2609_13384/deb_solaramlt_chi2_hist.png",
+            "figures/2609_13384/deb_kiel_and_age_feh.png",
+            "figures/2609_13384/deb_amlt_vs_ro.png",
+            "figures/2609_13384/deb_kiel_amlt.png",
+            "figures/2609_13384/deb_amlt_vs_stellarpars.png",
+            "figures/2609_13384/deb_total_residuals_summary.png"
         ]
     },
-    "2609.12215": {
-        "title": "Plasma Heating and Energization in Hot-Onset Flare Precursor Events",
+    "2609.13433": {
+        "title": "Sinking Silicates I: Characterizing the benchmark system containing the T0 brown dwarf CWISE J210640.16+250729.0 using JWST",
         "authors": [
-            "H. Da",
-            "J. F. Drake",
-            "M. Swisdak"
+            "Austin Rothermich",
+            "Jacqueline K. Faherty",
+            "Ben Burningham",
+            "Catherine Manea",
+            "Emily Calamari",
+            "Genaro Su\u00e1rez",
+            "Daniella C. Bardalez Gagliuffi",
+            "John M. Brewer",
+            "Kelle L. Cruz",
+            "Josefine Gaarn",
+            "Jonathan Gagn\u00e9",
+            "Eileen C. Gonzales",
+            "Marina E. Gemma",
+            "Vikt\u00f3ria Kecskem\u00e9thy",
+            "Mark S. Marley",
+            "Caprice L. Phillips",
+            "Channon Visscher",
+            "Johanna M. Vos",
+            "Niall Whiteford"
         ],
         "keywords": "",
         "figures": [
-            "https://arxiv.org/html/2609.12215v1/profile.png",
-            "https://arxiv.org/html/2609.12215v1/te_ti_2cols_tight2.png",
-            "https://arxiv.org/html/2609.12215v1/HeatingPower2.png",
-            "https://arxiv.org/html/2609.12215v1/emission_stack.png",
-            "https://arxiv.org/html/2609.12215v1/combined_vertical.png"
+            "https://arxiv.org/html/2609.13433v1/CW2106_BD24_CMD.jpeg",
+            "https://arxiv.org/html/2609.13433v1/fire_spec_labeled.jpeg",
+            "https://arxiv.org/html/2609.13433v1/BD24_spec_plotsLabeledALT.jpeg",
+            "https://arxiv.org/html/2609.13433v1/BD24_Abundances_brewer.jpeg",
+            "https://arxiv.org/html/2609.13433v1/CW2106_bandbyband.jpeg",
+            "https://arxiv.org/html/2609.13433v1/SED_labeled.jpeg",
+            "https://arxiv.org/html/2609.13433v1/Mass_v_Rad.jpeg",
+            "https://arxiv.org/html/2609.13433v1/Spectral_analysis_full.jpeg",
+            "https://arxiv.org/html/2609.13433v1/SpT_indicesV2.jpeg",
+            "https://arxiv.org/html/2609.13433v1/Model_fits_ColorFinal.jpeg"
         ]
     },
-    "2609.12461": {
-        "title": "Superoutbursts and Superhumps of Cataclysmic Variables observed with TESS",
+    "2609.13455": {
+        "title": "SDSS-IV MaStar: Determination of Stellar Parameters Using Bayesian Averaging",
         "authors": [
-            "Qi-Bin Sun",
-            "Sheng-Bang Qian",
-            "Li-Ying Zhu",
-            "Qin-Mei Li",
-            "Wen-Ping Liao",
-            "Fu-Xing Li",
-            "Wen-Xu Lin",
-            "Min-Yu Li",
-            "Ping Li",
-            "Fang-Zhou Yan",
-            "Zi-Mo Li",
-            "Tao Wang",
-            "Mao-Han Zhang"
+            "Yan-Ping Chen",
+            "Renbin Yan",
+            "Szabolcs M\u00e9sz\u00e1ros",
+            "Claudia Maraston",
+            "Daniel Thomas",
+            "Daniel Lazarz",
+            "Guy S. Stringfellow",
+            "Lewis Hill",
+            "Julie Imig",
+            "Joseph D. Gelfand",
+            "Jon A. Holtzman",
+            "Matthew Bershady",
+            "Dmitry Bizyaev",
+            "Niv Drory",
+            "Keivan G. Stassun"
         ],
         "keywords": "",
         "figures": [
-            "https://arxiv.org/html/2609.12461v1/fig/BEOct.png",
-            "https://arxiv.org/html/2609.12461v1/fig/ASASSN-14eq.png",
-            "https://arxiv.org/html/2609.12461v1/fig/GXCas.png",
-            "https://arxiv.org/html/2609.12461v1/fig/FOAnd.png",
-            "https://arxiv.org/html/2609.12461v1/fig/WXHyi.png",
-            "https://arxiv.org/html/2609.12461v1/fig/EC05200-5205.png",
-            "https://arxiv.org/html/2609.12461v1/fig/BEOct.png",
-            "https://arxiv.org/html/2609.12461v1/fig/ASASSN-14eq.png",
-            "https://arxiv.org/html/2609.12461v1/fig/GXCas.png",
-            "https://arxiv.org/html/2609.12461v1/fig/FOAnd.png"
+            "https://arxiv.org/html/2609.13455v1/synspace_bosz_fehlogg-eps-converted-to.png",
+            "https://arxiv.org/html/2609.13455v1/synspace_bosz_fehteff-eps-converted-to.png",
+            "https://arxiv.org/html/2609.13455v1/mastar_v311_v177_gaiaCMD-eps-converted-to.png",
+            "https://arxiv.org/html/2609.13455v1/teff-logg_bosz_fake_0.png",
+            "https://arxiv.org/html/2609.13455v1/teff-logg_bosz_fake_2.png",
+            "https://arxiv.org/html/2609.13455v1/Fig6.png",
+            "https://arxiv.org/html/2609.13455v1/chi_hist_bosz_warmcool_20230404-eps-converted-to.png",
+            "https://arxiv.org/html/2609.13455v1/chi_hist_bosz_marcscool_20231206-eps-converted-to.png",
+            "https://arxiv.org/html/2609.13455v1/marcs_bosz_com-eps-converted-to.png",
+            "https://arxiv.org/html/2609.13455v1/marcs_bosz_com_teff_gdbosz-eps-converted-to.png"
         ]
     },
-    "2609.12467": {
-        "title": "Magnetic Fields and Asymmetric Accretion in the Class 0 Protostellar System L1527 IRS",
+    "2609.13689": {
+        "title": "Multi-Instrument Analysis of NOAA AR 12781: Coupling Surface Evolution of the AR with Its In-Situ Solar Wind Signatures",
         "authors": [
-            "Hanju Nam",
-            "Woojin Kwon",
-            "Youngwoo Choi",
-            "Ian W. Stephens",
-            "Leslie W. Looney"
+            "Dharanesh Palaniappan",
+            "Khagendra Katuwal"
         ],
         "keywords": "",
         "figures": [
-            "https://arxiv.org/html/2609.12467v1/Figure1.png",
-            "https://arxiv.org/html/2609.12467v1/Figure2.png",
-            "https://arxiv.org/html/2609.12467v1/Figure3.png",
-            "https://arxiv.org/html/2609.12467v1/Figure4.png",
-            "https://arxiv.org/html/2609.12467v1/Figure5.png",
-            "https://arxiv.org/html/2609.12467v1/Figure6.png",
-            "https://arxiv.org/html/2609.12467v1/Figure7.png",
-            "https://arxiv.org/html/2609.12467v1/Figure8.png",
-            "https://arxiv.org/html/2609.12467v1/Figure9.png",
-            "https://arxiv.org/html/2609.12467v1/Figure10.png"
+            "https://arxiv.org/html/2609.13689v1/figures/fig01_ar12781_aia_hmi.jpg",
+            "https://arxiv.org/html/2609.13689v1/figures/fig02_unsigned_flux.png",
+            "https://arxiv.org/html/2609.13689v1/figures/fig03_aia_intensity.png",
+            "https://arxiv.org/html/2609.13689v1/figures/fig04_signed_flux.png",
+            "https://arxiv.org/html/2609.13689v1/figures/fig05_omni_parameters.png"
         ]
     },
-    "2609.12644": {
-        "title": "Large-Scale Latitude-time Relationships Between the Green-Line Corona and Sunspot Activity During Solar Cycles 18-24",
+    "2609.13955": {
+        "title": "Investigating Variability in Long-lived Protoplanetary Disks (>10 Myr) using NEOWISE",
         "authors": [
-            "Jouni J. Takalo"
+            "Gregory Mathews Ben",
+            "Jessy Jose",
+            "Jes\u00fas Hern\u00e1ndez"
         ],
         "keywords": "",
         "figures": [
-            "https://arxiv.org/html/2609.12644v1/Figure_1.png",
-            "https://arxiv.org/html/2609.12644v1/Figure_2.png",
-            "https://arxiv.org/html/2609.12644v1/Figure_3.png",
-            "https://arxiv.org/html/2609.12644v1/Figure_4.png",
-            "https://arxiv.org/html/2609.12644v1/Figure_5.png"
+            "https://arxiv.org/html/2609.13955v1/JvsAge.png"
         ]
     },
-    "2609.12699": {
-        "title": "Plasmoid-Trapped Condensation Associated with a Transient Thermal-Instability-Like Process in Chromospheric Magnetic Reconnection",
+    "2609.14143": {
+        "title": "Reconstruction of pretelescopic and early telescopic solar activity cycles from auroral records",
         "authors": [
-            "Abdullah Zafar",
-            "Lei Ni",
-            "Samrat Sen",
-            "Yuhao Chen",
-            "Mohamed Sedik",
-            "Mehdi Yousefzadeh",
-            "Jun Lin"
+            "Kristof Petrovay",
+            "Laura G. Magyar",
+            "Hisashi Hayakawa"
         ],
         "keywords": "",
         "figures": [
-            "https://arxiv.org/html/2609.12699v1/fig1a.jpg",
-            "https://arxiv.org/html/2609.12699v1/fig1b.jpg",
-            "https://arxiv.org/html/2609.12699v1/fig2a.jpg",
-            "https://arxiv.org/html/2609.12699v1/fig2b.jpg",
-            "https://arxiv.org/html/2609.12699v1/fig2c.jpg",
-            "https://arxiv.org/html/2609.12699v1/fig2d.jpg",
-            "https://arxiv.org/html/2609.12699v1/fig2e.jpg",
-            "https://arxiv.org/html/2609.12699v1/fig2f.jpg",
-            "https://arxiv.org/html/2609.12699v1/fig3a.jpg",
-            "https://arxiv.org/html/2609.12699v1/fig3b.jpg"
+            "https://arxiv.org/html/2609.14143v1/hitratemap.png",
+            "https://arxiv.org/html/2609.14143v1/aurorae_nokorean_butter25yr.png",
+            "https://arxiv.org/html/2609.14143v1/auroralcycles.png",
+            "https://arxiv.org/html/2609.14143v1/auroraprobs.png",
+            "https://arxiv.org/html/2609.14143v1/Femp.png"
         ]
     },
-    "2609.12981": {
-        "title": "Late-Time Evolution of the Massive Stellar Merger M101 OT2015-1",
+    "2609.14321": {
+        "title": "Supersonic flows observed by THEMIS related to a coronal bright point and filament",
         "authors": [
-            "Marco A. G\u00f3mez-Mu\u00f1oz",
-            "Nadejda Blagorodnova",
-            "Tomasz Kami\u0144ski",
-            "Gerard Garcia-Moreno",
-            "Maxime Wavasseur",
-            "Hugo Tranin",
-            "Grace Katusiime",
-            "Jacob E. Jencson",
-            "Mansi M. Kasliwal"
+            "Garima Karki",
+            "Brigitte Schmieder",
+            "Ramesh Chandra",
+            "Pooja Devi",
+            "Pascal Demoulin",
+            "Stefaan Poedts"
         ],
         "keywords": "",
         "figures": [
-            "https://arxiv.org/html/2609.12981v1/figure2.png"
+            "https://arxiv.org/html/2609.14321v1/Figure1.png",
+            "https://arxiv.org/html/2609.14321v1/Figure2.png",
+            "https://arxiv.org/html/2609.14321v1/Figure3.png",
+            "https://arxiv.org/html/2609.14321v1/Figure4.png",
+            "https://arxiv.org/html/2609.14321v1/Figure6.png",
+            "https://arxiv.org/html/2609.14321v1/Figure7.png"
         ]
     },
-    "2609.11967": {
-        "title": "The Role of the Core in Setting Massive Neutron-Star Radii",
+    "2609.14364": {
+        "title": "Thermodynamic exchange and mode stability in strongly nonadiabatic radial pulsations",
         "authors": [
-            "R.V. Lobato",
-            "J.E. Horvath",
-            "M. Malheiro"
+            "Jan Zalewski"
         ],
         "keywords": "",
         "figures": [
-            "https://arxiv.org/html/2609.11967v1/fig-posterior-mmax.png"
+            "https://arxiv.org/html/2609.14364v1/fig1.png",
+            "https://arxiv.org/html/2609.14364v1/fig2.png",
+            "https://arxiv.org/html/2609.14364v1/fig3.png",
+            "https://arxiv.org/html/2609.14364v1/fig4.png",
+            "https://arxiv.org/html/2609.14364v1/fig5.png",
+            "https://arxiv.org/html/2609.14364v1/fig6.png",
+            "https://arxiv.org/html/2609.14364v1/fig7.png",
+            "https://arxiv.org/html/2609.14364v1/fig8.png"
         ]
     },
-    "2609.12494": {
-        "title": "Terminal instability of the Solar System triggered by stochastic solar mass loss",
+    "2609.14365": {
+        "title": "Presence of Solar Neutral Atom Corona and Coronal Heating",
         "authors": [
-            "Konstantin Batygin",
-            "Jim Fuller",
-            "Fred C. Adams"
+            "Z.Q. Qu",
+            "R.Y. Zhou",
+            "H. Su",
+            "Y. Liang",
+            "L. Chang",
+            "X.M. Cheng"
         ],
         "keywords": "",
         "figures": [
-            "https://arxiv.org/html/2609.12494v1/fig1_period_ratio_col.png",
-            "https://arxiv.org/html/2609.12494v1/fig3_instabilities_4panel.png"
+            "https://arxiv.org/html/2609.14365v1/Sample-S108.png",
+            "https://arxiv.org/html/2609.14365v1/E-Slit44.png",
+            "https://arxiv.org/html/2609.14365v1/E-Slit629.png",
+            "https://arxiv.org/html/2609.14365v1/Average.png",
+            "https://arxiv.org/html/2609.14365v1/Slit44profile.png",
+            "https://arxiv.org/html/2609.14365v1/Slit629Profile.png",
+            "https://arxiv.org/html/2609.14365v1/I_FeI5269.png",
+            "https://arxiv.org/html/2609.14365v1/I_FeI5341.png",
+            "https://arxiv.org/html/2609.14365v1/I_FeII5317.png",
+            "https://arxiv.org/html/2609.14365v1/line_FeI5269.png"
         ]
     },
-    "2609.12726": {
-        "title": "Experimental Ni II Oscillator Strengths for Transitions from $3d^84d$ to $3d^84p$ Levels Measured Using High-resolution Fourier Transform Spectroscopy",
+    "2609.14518": {
+        "title": "Stripped helium stars in UV",
         "authors": [
-            "Ruijie Chen",
-            "Christian P. Clear",
-            "Gillian Nave",
-            "Juliet C. Pickering"
+            "L.R. Yungelson",
+            "A.G. Kuranov",
+            "A.V. Mishakina"
         ],
         "keywords": "",
         "figures": [
-            "https://arxiv.org/html/2609.12726v1/Figure1.png"
+            "https://arxiv.org/html/2609.14518v1/yungelsonfig_1.png",
+            "https://arxiv.org/html/2609.14518v1/yungelsonfig_3.png",
+            "https://arxiv.org/html/2609.14518v1/yungelsonfig_4.png"
         ]
     },
-    "2609.12907": {
-        "title": "The influence of free-free absorption on the radio spectrum of Particle-Accelerating Colliding-Wind Binaries",
+    "2609.15210": {
+        "title": "Riemann Map Operator for Solar Front Diagnostics",
         "authors": [
-            "Micha\u00ebl De Becker",
-            "Agustina Belen Blanco",
-            "Mathilde Tasseroul",
-            "Anandmayee Tej",
-            "Anindya Saha",
-            "Paula Benaglia",
-            "Santiago del Palacio"
+            "Olena Podladchikova"
         ],
         "keywords": "",
         "figures": [
-            "https://arxiv.org/html/2609.12907v1/FFA-i-f.png",
-            "https://arxiv.org/html/2609.12907v1/SEDfFFA.png",
-            "https://arxiv.org/html/2609.12907v1/WR147.png"
+            "https://arxiv.org/html/2609.15210v1/obs_solar_opening.png",
+            "https://arxiv.org/html/2609.15210v1/obs_E05_aperture.png",
+            "https://arxiv.org/html/2609.15210v1/obs_E11_two_crests_radio.png",
+            "https://arxiv.org/html/2609.15210v1/obs_E02_two_branches.png"
         ]
     },
-    "2609.12943": {
-        "title": "XMST: An Extended Minimum Spanning Tree Framework with Objective Fracture-Scale Selection",
+    "2609.15280": {
+        "title": "A Self-consistent Model for the Generation of Coronal Condensations: The Effects of Turbulent Wave Dissipation",
         "authors": [
-            "Mark Gallaway"
+            "M. McMurdo",
+            "V. Jercic",
+            "T. Van Doorsselaere",
+            "C. Froment"
         ],
         "keywords": "",
         "figures": [
-            "https://arxiv.org/html/2609.12943v1/Flow.png",
-            "https://arxiv.org/html/2609.12943v1/Plot1.png",
-            "https://arxiv.org/html/2609.12943v1/Plot2.png",
-            "https://arxiv.org/html/2609.12943v1/Plot3.png",
-            "https://arxiv.org/html/2609.12943v1/Plot4.png"
+            "https://arxiv.org/html/2609.15280v1/Chosen_field_lines.png",
+            "https://arxiv.org/html/2609.15280v1/no_heating/Te_no_heating_plot.png",
+            "https://arxiv.org/html/2609.15280v1/bQ_only/bQ_only.png",
+            "https://arxiv.org/html/2609.15280v1/bQ_lQ/bQ_lQ.png",
+            "https://arxiv.org/html/2609.15280v1/Kink_homog/updated_e_kbQ_lperp1_standard_domain.png",
+            "https://arxiv.org/html/2609.15280v1/AW_homog/AW_Lperp1.png",
+            "https://arxiv.org/html/2609.15280v1/AW_0p1Lperp/AW_Lperp0p1.png",
+            "https://arxiv.org/html/2609.15280v1/AW_0p1Lperp/clipped_QAW_seed_m4p5.png",
+            "https://arxiv.org/html/2609.15280v1/dbl_Kink_0p1Lperp/updated_e_dbl_Kink_0p1Lperp2.png",
+            "https://arxiv.org/html/2609.15280v1/dbl_Kink_0p1Lperp/density_seed_m4.png"
         ]
     },
-    "2609.12989": {
-        "title": "Magnetized interstellar molecular clouds - III. Filament Collisions and Core Formation: Insights into Substructures and Evolution",
+    "2609.15331": {
+        "title": "SPAMMS: 3D spectroscopic modelling of stellar surfaces. II. Implementation of Kurucz and TLUSTY model atmospheres",
         "authors": [
-            "Pak Shing Li",
-            "Christopher F. McKee",
-            "Richard I. Klein"
+            "D. Gal\u00e1n-Di\u00e9guez",
+            "M. Abdul-Masih",
+            "C. Allende Prieto",
+            "S.R. Berlanas",
+            "A. Herrero",
+            "H. Sana"
         ],
         "keywords": "",
         "figures": [
-            "https://arxiv.org/html/2609.12989v1/filament_cloud.png",
-            "https://arxiv.org/html/2609.12989v1/map+skeletons.png",
-            "https://arxiv.org/html/2609.12989v1/profiles.png",
-            "https://arxiv.org/html/2609.12989v1/fwhm_wch.png",
-            "https://arxiv.org/html/2609.12989v1/hist_28as.png",
-            "https://arxiv.org/html/2609.12989v1/hist_221as.png",
-            "https://arxiv.org/html/2609.12989v1/filament_Bfield.png",
-            "https://arxiv.org/html/2609.12989v1/A2.png",
-            "https://arxiv.org/html/2609.12989v1/BVstreamlines.png",
-            "https://arxiv.org/html/2609.12989v1/filament_merge.png"
+            "https://arxiv.org/html/2609.15331v1/spherical_K.png",
+            "https://arxiv.org/html/2609.15331v1/spherical_T.png",
+            "https://arxiv.org/html/2609.15331v1/rotatingBstar_Teff.png",
+            "https://arxiv.org/html/2609.15331v1/rotatingBstar_rot.png",
+            "https://arxiv.org/html/2609.15331v1/algol_modelling.png",
+            "https://arxiv.org/html/2609.15331v1/grids.png",
+            "https://arxiv.org/html/2609.15331v1/mu_analysis.png",
+            "https://arxiv.org/html/2609.15331v1/rotatingBstar_loggeff.png"
+        ]
+    },
+    "2609.15652": {
+        "title": "Stellar activity in a post-merger Giant star",
+        "authors": [
+            "Hans Moritz GGunther",
+            "C. Melis",
+            "K. J. Shen",
+            "Eric G. Blackman",
+            "K. Hoadley",
+            "P. C. Schneider"
+        ],
+        "keywords": "",
+        "figures": [
+            "https://arxiv.org/html/2609.15652v1/galex.png",
+            "https://arxiv.org/html/2609.15652v1/lc_tess.png",
+            "https://arxiv.org/html/2609.15652v1/CMD.png"
+        ]
+    },
+    "2609.15804": {
+        "title": "Multi-chromatic observations of classical Cepheids using the CHARA Array interferometer: Surface brightness-colour relation, projection factor, and limb-darkening",
+        "authors": [
+            "M. C. Bailleul",
+            "N. Nardetto",
+            "D. Mourard",
+            "A. M\u00e9rand",
+            "P. Kervella",
+            "A. Gallenne",
+            "G. Bras",
+            "J. Monnier",
+            "K. Sivkova",
+            "B. Apostolova",
+            "L. Breuval",
+            "W. Kiviaho",
+            "W. Gieren",
+            "V. Hocd\u00e9",
+            "R. S. Rathour",
+            "G. Pietrzy\u0144ski",
+            "P. B\u00e9rio",
+            "F. Morand",
+            "D. Salabert",
+            "J. Jones",
+            "C. Lanthermann",
+            "N. Ebrahimkutty",
+            "J. Jon\u00e0k",
+            "H. Nowacki",
+            "R. V. Iba\u00f1ez Bustos",
+            "M. Vrard",
+            "S. Kraus",
+            "N. Anugu",
+            "M. Gutierrez",
+            "N. Ibrahim",
+            "T. Gardner"
+        ],
+        "keywords": "",
+        "figures": [
+            "https://arxiv.org/html/2609.15804v1/Figures/pmoired/squared_root_law/diameter_comparison_HD213306.png",
+            "https://arxiv.org/html/2609.15804v1/Figures/pmoired/squared_root_law/diameter_comparison_HD52973.png",
+            "https://arxiv.org/html/2609.15804v1/Figures/pmoired/squared_root_law/diameter_comparison_HD187929.png",
+            "https://arxiv.org/html/2609.15804v1/Figures/pmoired/squared_root_law/diameter_comparison_HD213306.png",
+            "https://arxiv.org/html/2609.15804v1/Figures/pmoired/squared_root_law/diameter_comparison_HD52973.png",
+            "https://arxiv.org/html/2609.15804v1/Figures/pmoired/squared_root_law/diameter_comparison_HD187929.png",
+            "https://arxiv.org/html/2609.15804v1/Figures/sbcr/SBCR_final_plot_phase_mean.png",
+            "https://arxiv.org/html/2609.15804v1/Figures/p_factor/alpha_p0_HD213306.png",
+            "https://arxiv.org/html/2609.15804v1/Figures/p_factor/BW_fit_delta_cep_NN_bootstrap_d2_phase_mean.png",
+            "https://arxiv.org/html/2609.15804v1/Figures/V2_fit/poly/HD213306/2025-08-20_best_fit_logV_new.png"
+        ]
+    },
+    "2609.15905": {
+        "title": "The JWST Proto-PAH Project: Detection of the methyl radical CH$_{3}$ in the highly evolved C-rich object SMP LMC 011",
+        "authors": [
+            "Jialu Li",
+            "D. A. Garc\u00eda-Hern\u00e1ndez",
+            "A. Manchado",
+            "Debayan Das",
+            "J. Cami",
+            "Els Peeters",
+            "G. C. Sloan",
+            "B. Aringer",
+            "J. Bernard-Salas",
+            "C. Bhatt",
+            "Nicholas Clark",
+            "Harriet L. Dinerstein",
+            "M. A. G\u00f3mez-Mu\u00f1oz",
+            "Kathleen E. Kraemer",
+            "M. Matsuura",
+            "R. Sahai",
+            "N. C. Sterling",
+            "Kevin Volk",
+            "G. M. Wahlgren",
+            "A. A. Zijlstra"
+        ],
+        "keywords": "",
+        "figures": [
+            "https://arxiv.org/html/2609.15905v1/LMC011_CH3_model_new_resolution_FeII.png",
+            "https://arxiv.org/html/2609.15905v1/NT_contours_feature_delta_3x2_square_v3.png"
+        ]
+    },
+    "2609.13252": {
+        "title": "Opacity predictions in plasmas under stellar conditions using deep learning",
+        "authors": [
+            "Djamel Benredjem",
+            "Jean-Christophe Pain"
+        ],
+        "keywords": "",
+        "figures": [
+            "https://arxiv.org/html/2609.13252v1/Rosseland-Fe-Iliade.png",
+            "https://arxiv.org/html/2609.13252v1/Rosseland-Ni-Iliade.png",
+            "https://arxiv.org/html/2609.13252v1/Planck-Fe-Iliade.png",
+            "https://arxiv.org/html/2609.13252v1/Planck-Ni-Iliade.png",
+            "https://arxiv.org/html/2609.13252v1/OPA_Fe_low_2.png",
+            "https://arxiv.org/html/2609.13252v1/OPA_Fe_high_2.png",
+            "https://arxiv.org/html/2609.13252v1/OPA_Ni_low_2.png",
+            "https://arxiv.org/html/2609.13252v1/OPA_Ni_high_2.png",
+            "https://arxiv.org/html/2609.13252v1/OPA_Fe_60_324_2.png",
+            "https://arxiv.org/html/2609.13252v1/OPA_Ni_44_900_2.png"
+        ]
+    },
+    "2609.13373": {
+        "title": "Chemo-dynamical Analysis of a CNO-Enhanced Ultra Metal-poor Star ($\\rm[Fe/H] < -4$): Insights into Early Enrichment by Faint Population III Supernova",
+        "authors": [
+            "Guilherme Limberg",
+            "Vinicius M. Placco",
+            "Alexander P. Ji",
+            "Yupeng Yao",
+            "Friedrich Anders",
+            "Wendy Q. Sun",
+            "Anna de Graaff",
+            "Rohan P. Naidu",
+            "Harley Katz",
+            "Pierre N. Thibodeaux",
+            "Anirudh Chiti",
+            "Mohammad K. Mardini",
+            "Anna Frebel"
+        ],
+        "keywords": "",
+        "figures": [
+            "https://arxiv.org/html/2609.13373v1/cno_ump_gaiaxp_orbs.png",
+            "https://arxiv.org/html/2609.13373v1/ump_cno_gaiaxp_kindyn.png"
+        ]
+    },
+    "2609.14342": {
+        "title": "Decoding RR Lyrae light curves with deep learning for accurate absolute magnitude estimation",
+        "authors": [
+            "Shunxuan He",
+            "Huiwen Wu",
+            "Yang Huang",
+            "Deyi Zhang",
+            "Guirong Xue",
+            "Jifeng Liu",
+            "Xiaodian Chen",
+            "Xinyu Qi",
+            "Xiaoyu Tang"
+        ],
+        "keywords": "",
+        "figures": [
+            "https://arxiv.org/html/2609.14342v1/GA.png",
+            "https://arxiv.org/html/2609.14342v1/fig1.png",
+            "https://arxiv.org/html/2609.14342v1/fig2.png",
+            "https://arxiv.org/html/2609.14342v1/fig3.png",
+            "https://arxiv.org/html/2609.14342v1/fig4.png",
+            "https://arxiv.org/html/2609.14342v1/fig5.png",
+            "https://arxiv.org/html/2609.14342v1/pic/bilstm.png",
+            "https://arxiv.org/html/2609.14342v1/pic/rrc_mse_loss.png",
+            "https://arxiv.org/html/2609.14342v1/pic/rrc_rmse_loss.png",
+            "https://arxiv.org/html/2609.14342v1/pic/rrc_kfold_train_mse_loss.png"
+        ]
+    },
+    "2609.14901": {
+        "title": "Tracing Stellar Populations through the Mg-Al Anti-Correlation in Gaia-ESO Globular Clusters",
+        "authors": [
+            "H. Sinclair-Wentworth",
+            "C. C. Worley",
+            "P. Jofre",
+            "J. Schiappacasse-Ulloa",
+            "L. Magrini"
+        ],
+        "keywords": "",
+        "figures": [
+            "https://arxiv.org/html/2609.14901v1/Figures/Mg_Al_per_cluster_2026_snr_lightdark.png",
+            "https://arxiv.org/html/2609.14901v1/Figures/mgal_refs_2026_snr_cut_DR17.png",
+            "https://arxiv.org/html/2609.14901v1/Figures/GMM_mgal_2026_snr.png",
+            "https://arxiv.org/html/2609.14901v1/Figures/Mg_Al_split_2comp_2026_snr.png",
+            "https://arxiv.org/html/2609.14901v1/Figures/P_I_mgal_2026_snr.png",
+            "https://arxiv.org/html/2609.14901v1/Figures/violin_plot_clusters_2026_cor.png",
+            "https://arxiv.org/html/2609.14901v1/Figures/feh_vs_mgal_2026_clr.png",
+            "https://arxiv.org/html/2609.14901v1/Figures/spread_plots_2026_corr.png"
+        ]
+    },
+    "2609.15308": {
+        "title": "Deterministic denoising of long-duration gravitational-wave signal candidates with $\u03b1$-(de)blending",
+        "authors": [
+            "Przemys\u0142aw Figura",
+            "Micha\u0142 Bejger"
+        ],
+        "keywords": "",
+        "figures": [
+            "https://arxiv.org/html/2609.15308v1/Pulsar10_Modelled_v2.png",
+            "https://arxiv.org/html/2609.15308v1/O3_CompleteSegment_H1_time_series_new.png",
+            "https://arxiv.org/html/2609.15308v1/Pulsar10_GridUnits_upscaled_new.png",
+            "https://arxiv.org/html/2609.15308v1/Pulsar10_with_noise_GridUnits_upscaled_new.png",
+            "https://arxiv.org/html/2609.15308v1/plots/image_signal_DecM89_iota1_x3.png",
+            "https://arxiv.org/html/2609.15308v1/plots/image_signal_DecM45_iota1_x3.png",
+            "https://arxiv.org/html/2609.15308v1/plots/image_signal_DecM01_iota1_x3.png",
+            "https://arxiv.org/html/2609.15308v1/plots/image_signal_DecP01_iota1_x3.png",
+            "https://arxiv.org/html/2609.15308v1/plots/image_signal_DecP45_iota1_x3.png",
+            "https://arxiv.org/html/2609.15308v1/plots/image_signal_DecP89_iota1_x3.png"
+        ]
+    },
+    "2609.15365": {
+        "title": "PYRA and MYTHRA: new statistical analysis for image reconstruction",
+        "authors": [
+            "Julien Drevon",
+            "Margaux Abello",
+            "Florentin Millour",
+            "Anthony Meilland",
+            "Armando Domiciano de Souza"
+        ],
+        "keywords": "",
+        "figures": [
+            "https://arxiv.org/html/2609.15365v1/images/evolmu_mira.png",
+            "https://arxiv.org/html/2609.15365v1/images/piGru-lcurve-LM.png",
+            "https://arxiv.org/html/2609.15365v1/images/piGru-lcurve-N.png",
+            "https://arxiv.org/html/2609.15365v1/images/piGru_mean_image_Lband.png",
+            "https://arxiv.org/html/2609.15365v1/images/piGru_mean_image_Nband.png",
+            "https://arxiv.org/html/2609.15365v1/images/composite_image_mas_piGru.png",
+            "https://arxiv.org/html/2609.15365v1/images/lPup-lcurve-Lband.png",
+            "https://arxiv.org/html/2609.15365v1/images/lPup-lcurve-Mband.png",
+            "https://arxiv.org/html/2609.15365v1/images/lPup-lcurve-Nband.png",
+            "https://arxiv.org/html/2609.15365v1/images/lpup_mean_image_3.0-3.9.png"
+        ]
+    },
+    "2609.15621": {
+        "title": "Constraining the Delay Time Distribution of the r- and s-Process from Stellar Ages at Solar Metallicity",
+        "authors": [
+            "Meng Zhang",
+            "Hans-Walter Rix"
+        ],
+        "keywords": "",
+        "figures": [
+            "https://arxiv.org/html/2609.15621v1/lmdr9_plot_hr_select_rc.png",
+            "https://arxiv.org/html/2609.15621v1/lmdr9_rc_data.png",
+            "https://arxiv.org/html/2609.15621v1/model_alpha_beta.png",
+            "https://arxiv.org/html/2609.15621v1/lmdr9_fe_mcmc_contour.png",
+            "https://arxiv.org/html/2609.15621v1/solartwins_fe_mcmc_contour.png",
+            "https://arxiv.org/html/2609.15621v1/lmdr9_fe_mcmc_results.png",
+            "https://arxiv.org/html/2609.15621v1/lmdr9_eu_mcmc_contour.png",
+            "https://arxiv.org/html/2609.15621v1/solartwins_eu_mcmc_contour.png",
+            "https://arxiv.org/html/2609.15621v1/lmdr9_eu_mcmc_results.png",
+            "https://arxiv.org/html/2609.15621v1/lmdr9_ba_mcmc_contour.png"
         ]
     }
 }
