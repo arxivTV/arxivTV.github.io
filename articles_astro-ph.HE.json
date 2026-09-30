@@ -1,720 +1,530 @@
 {
-    "2609.31762": {
-        "title": "Radiative properties and optical appearance of a thin accretion disk around a charged-PFDM black hole",
+    "2609.35956": {
+        "title": "Discovery of the Infrared Counterpart of the Rapid Burster with JWST",
         "authors": [
-            "Taiyang Zhang",
-            "Zongyuan Qin",
-            "Qian Feng",
-            "Zheng-Wen Long"
+            "Malina M. Desai",
+            "Kevin B. Burdge",
+            "Cristina Pallanca",
+            "Saul Rappaport",
+            "Francesco R. Ferraro",
+            "Barbara Lanzoni",
+            "Mason Ng",
+            "Paul Draghis",
+            "Emma T. Chickles",
+            "Ilaria Caiazzo",
+            "Deepto Chakrabarty"
         ],
         "keywords": "",
         "figures": [
-            "https://arxiv.org/html/2609.31762v1/12.png",
-            "https://arxiv.org/html/2609.31762v1/111a.png",
-            "https://arxiv.org/html/2609.31762v1/111b.png",
-            "https://arxiv.org/html/2609.31762v1/111c.png",
-            "https://arxiv.org/html/2609.31762v1/115a.png",
-            "https://arxiv.org/html/2609.31762v1/115b.png",
-            "https://arxiv.org/html/2609.31762v1/115c.png",
-            "https://arxiv.org/html/2609.31762v1/115d.png",
-            "https://arxiv.org/html/2609.31762v1/115e.png",
-            "https://arxiv.org/html/2609.31762v1/115f.png"
+            "https://arxiv.org/html/2609.35956v1/liller_fov_duo.png",
+            "https://arxiv.org/html/2609.35956v1/rb_localization_updated.png",
+            "https://arxiv.org/html/2609.35956v1/psfresiduals.png",
+            "https://arxiv.org/html/2609.35956v1/rb_collage_seg3_twoband.png",
+            "https://arxiv.org/html/2609.35956v1/rb_collage_seg4_twoband.png"
         ]
     },
-    "2609.31836": {
-        "title": "Discovery of minute-scale polarization angle rotation in a supermassive black hole jet",
+    "2609.35994": {
+        "title": "Hierarchical Bayesian Inference on the intrinsic event rate of Type I gamma-ray bursts from the {\\it Fermi}/GBM catalogue",
         "authors": [
-            "Aristeidis Polychronakis",
-            "Ioannis Liodakis",
-            "Dmitry Blinov",
-            "Anastasia Glykopoulou",
-            "Sebastian Kiehlmann",
-            "Karan Pal",
-            "Georgios F. Paraschos",
-            "Lena Debbrecht",
-            "Swati Ravi",
-            "Herman L. Marshall"
+            "Cao Tian-Yong",
+            "Yi Shu-Xu",
+            "Du Yun-Fei",
+            "Yorgancioglu S. Emre",
+            "Xiong Shao-Lin"
         ],
         "keywords": "",
         "figures": [
-            "https://arxiv.org/html/2609.31836v1/mag_PD_PA.png",
-            "https://arxiv.org/html/2609.31836v1/1510-089.png",
-            "https://arxiv.org/html/2609.31836v1/pa_curve_v4_within2sigma.png",
-            "https://arxiv.org/html/2609.31836v1/lomb_scargle.png"
+            "https://arxiv.org/html/2609.35994v1/HBI_framework.png",
+            "https://arxiv.org/html/2609.35994v1/pie.png",
+            "https://arxiv.org/html/2609.35994v1/linear_fit_sgrb.png",
+            "https://arxiv.org/html/2609.35994v1/corner_linear_noemf.png",
+            "https://arxiv.org/html/2609.35994v1/merger_rate_linear_noemf.png",
+            "https://arxiv.org/html/2609.35994v1/merger_rate_poly_noemf.png",
+            "https://arxiv.org/html/2609.35994v1/corner_poly_noemf.png",
+            "https://arxiv.org/html/2609.35994v1/merger_rate_linear_withemf.png",
+            "https://arxiv.org/html/2609.35994v1/corner_linear_withemf.png"
         ]
     },
-    "2609.31842": {
-        "title": "Correlated Signatures of Plasma Lensing in Fast Radio Bursts",
+    "2609.35995": {
+        "title": "Bayesian Evidence for Inspiraling Hotspot Motion in the Galactic Center",
         "authors": [
-            "Paz Beniamini",
-            "Pawan Kumar"
+            "Pablo Ruales",
+            "Maciek Wielgus",
+            "Delilah E.A. Gates",
+            "Alejandro Cardenas-Avendano"
         ],
         "keywords": "",
         "figures": [
-            "https://arxiv.org/html/2609.31842v1/fig-schematic_plasma-lens.png",
-            "https://arxiv.org/html/2609.31842v1/imageandmagnification.png",
-            "https://arxiv.org/html/2609.31842v1/sourcesize1D.png",
-            "https://arxiv.org/html/2609.31842v1/spectrumAfull.png",
-            "https://arxiv.org/html/2609.31842v1/spectrumAzoom.png",
-            "https://arxiv.org/html/2609.31842v1/spectrumBfull.png",
-            "https://arxiv.org/html/2609.31842v1/spectrumBzoom.png",
-            "https://arxiv.org/html/2609.31842v1/muratio.png",
-            "https://arxiv.org/html/2609.31842v1/delT.png",
-            "https://arxiv.org/html/2609.31842v1/case1.png"
+            "https://arxiv.org/html/2609.35995v1/full_posterior_bestfit_QUvsT_comparison_with_K2nonkep.png",
+            "https://arxiv.org/html/2609.35995v1/full_posterior_combined_K2_nonkep_ga.png",
+            "https://arxiv.org/html/2609.35995v1/corner_full_nonkep_ga_K2.png",
+            "https://arxiv.org/html/2609.35995v1/full_posterior_combined_K2_nonkep.png",
+            "https://arxiv.org/html/2609.35995v1/corner_full_nonkep_K2.png"
         ]
     },
-    "2609.31879": {
-        "title": "Not all spins of black-hole binaries formed in clusters are isotropic and not all spins of black-hole binaries formed in isolation are aligned",
+    "2609.36042": {
+        "title": "First Detection of the Doppler Shift of X-ray Photons Due to a Telescope's Orbital Motion",
         "authors": [
-            "Sofia Dossena",
-            "Davide Gerosa",
-            "Tristan Bruel"
+            "Stephen DiKerby",
+            "Shuo Zhang"
         ],
         "keywords": "",
         "figures": [
-            "https://arxiv.org/html/2609.31879v1/pi6.png",
-            "https://arxiv.org/html/2609.31879v1/pi5.png",
-            "https://arxiv.org/html/2609.31879v1/pi4.png",
-            "https://arxiv.org/html/2609.31879v1/pi3.png",
-            "https://arxiv.org/html/2609.31879v1/2pi3.png",
-            "https://arxiv.org/html/2609.31879v1/helldist2D.png",
-            "https://arxiv.org/html/2609.31879v1/helldist2D_tides.png",
-            "https://arxiv.org/html/2609.31879v1/pi6+pi6.png",
-            "https://arxiv.org/html/2609.31879v1/pi2+pi2.png"
+            "https://arxiv.org/html/2609.36042v1/OrbitalMotionDiagram.png",
+            "https://arxiv.org/html/2609.36042v1/LightCurveSample_TopOnly.png",
+            "https://arxiv.org/html/2609.36042v1/XMM_Templates.png",
+            "https://arxiv.org/html/2609.36042v1/ContourTest.png"
         ]
     },
-    "2609.32127": {
-        "title": "Polarization Signatures of Sgr A* with Tilted Hybrid Magnetic Fields",
+    "2609.36114": {
+        "title": "Fast Radio Bursts from Induced Upscattering. I. Magnetar Polar Fireballs",
         "authors": [
-            "Yushu Feng",
-            "Hao Yin",
-            "Songbai Chen",
-            "Jiliang Jing"
+            "Rei Nishiura",
+            "Kunihito Ioka",
+            "Bing Zhang"
         ],
         "keywords": "",
         "figures": [
-            "https://arxiv.org/html/2609.32127v1/fig1.png",
-            "https://arxiv.org/html/2609.32127v1/fig2.png",
-            "https://arxiv.org/html/2609.32127v1/fig3.png",
-            "https://arxiv.org/html/2609.32127v1/fig4.png"
+            "https://arxiv.org/html/2609.36114v1/fireball_outflow6.png",
+            "https://arxiv.org/html/2609.36114v1/fireball_outflow_bandwidth4.png"
         ]
     },
-    "2609.32164": {
-        "title": "Spin wandering of an accreting neutron star near torque balance: implications for gravitational wave searches",
+    "2609.36229": {
+        "title": "Assessing the detectability and identification of pulsar halos with H.E.S.S. and CTAO",
         "authors": [
-            "Andrew Melatos"
+            "Karim Sabri",
+            "Yves Gallant",
+            "Justine Devin"
         ],
         "keywords": "",
         "figures": [
-            "https://arxiv.org/html/2609.32164v1/fig1.png"
+            "https://arxiv.org/html/2609.36229v1/model_intensity_maps.png",
+            "https://arxiv.org/html/2609.36229v1/HESS_sig_maps_all.png",
+            "https://arxiv.org/html/2609.36229v1/CTAO_sig_maps_all.png",
+            "https://arxiv.org/html/2609.36229v1/HESS_TSGauss1_Ec100TeV.png",
+            "https://arxiv.org/html/2609.36229v1/HESS_dAIC_Ec100TeV.png",
+            "https://arxiv.org/html/2609.36229v1/CTAO_dAIC_Ec100TeV.png",
+            "https://arxiv.org/html/2609.36229v1/GDE_maps_SB_all_diff.png"
         ]
     },
-    "2609.32306": {
-        "title": "Constraints on Supermassive Black Hole Binaries from the Lack of Resolvable Sources in the NANOGrav 15-yr Dataset",
+    "2609.37088": {
+        "title": "Re-interpreting the GRS 1915+105 observations within the variable TADAF scenario",
         "authors": [
-            "Emiko C. Gardiner",
-            "Kayhan G\u00fcltekin",
-            "Philippe Turgeon",
-            "Bence B\u00e9csy",
-            "Laura Blecha",
-            "Nikita Agarwal",
-            "Gabriella Agazie",
-            "Akash Anumarlapudi",
-            "Anne M. Archibald",
-            "Zaven Arzoumanian",
-            "Anjana Ashok",
-            "Jeremy G. Baier",
-            "Paul T. Baker",
-            "Adam Brazier",
-            "Paul R. Brook",
-            "Sarah Burke-Spolaor",
-            "Rand Burnette",
-            "Robin Case",
-            "J. Andrew Casey-Clyde",
-            "Maria Charisi",
-            "Shami Chatterjee",
-            "Tyler Cohen",
-            "James M. Cordes",
-            "Neil J. Cornish",
-            "Fronefield Crawford",
-            "H. Thankful Cromartie",
-            "Kathryn Crowter",
-            "Megan E. DeCesar",
-            "Paul B. Demorest",
-            "Heling Deng",
-            "Lankeswar Dey",
-            "Timothy Dolch",
-            "Graham M. Doskoch",
-            "Elizabeth C. Ferrara",
-            "William Fiore",
-            "Emmanuel Fonseca",
-            "Gabriel E. Freedman",
-            "Nate Garver-Daniels",
-            "Peter A. Gentile",
-            "Kyle A. Gersbach",
-            "Joseph Glaser",
-            "Deborah C. Good",
-            "Aiden Gundersen",
-            "C. J. Harris",
-            "Jeffrey S. Hazboun",
-            "Ross J. Jennings",
-            "Aaron D. Johnson",
-            "Megan L. Jones",
-            "David L. Kaplan",
-            "Anala Kavumkandathil Sreekumar",
-            "Luke Zoltan Kelley",
-            "Matthew Kerr",
-            "Joey S. Key",
-            "Nima Laal",
-            "Michael T. Lam",
-            "William G. Lamb",
-            "Bjorn Larsen",
-            "T. Joseph W. Lazio",
-            "Natalia Lewandowska",
-            "Tingting Liu",
-            "Duncan R. Lorimer",
-            "Jing Luo",
-            "Ryan S. Lynch",
-            "Chung-Pei Ma",
-            "Dustin R. Madison",
-            "Ashley Martsen",
-            "Cayenne Matt",
-            "Alexander McEwen",
-            "James W. McKee",
-            "Maura A. McLaughlin",
-            "Natasha McMann",
-            "Bradley W. Meyers",
-            "Patrick M. Meyers",
-            "Matthew T. Miles",
-            "Chiara M. F. Mingarelli",
-            "Andrea Mitridate",
-            "Cherry Ng",
-            "David J. Nice",
-            "Shania A. Nichols",
-            "Stella Koch Ocker",
+            "Chun Xu"
+        ],
+        "keywords": "",
+        "figures": [
+            "https://arxiv.org/html/2609.37088v1/ADAF_disk3eta.png"
+        ]
+    },
+    "2609.37224": {
+        "title": "Multi-wavelength polarization degree dependence of Mrk 421 for different particle energy distributions",
+        "authors": [
+            "Hritwik Bora",
+            "Ranjeev Misra",
+            "Rupjyoti Gogoi"
+        ],
+        "keywords": "",
+        "figures": [
+            "https://arxiv.org/html/2609.37224v1/bkn_spec.png",
+            "https://arxiv.org/html/2609.37224v1/bkn_pol.png",
+            "https://arxiv.org/html/2609.37224v1/bkn_spec_alpha_0.21.png",
+            "https://arxiv.org/html/2609.37224v1/bkn_pol_alpha_0.21.png"
+        ]
+    },
+    "2609.37646": {
+        "title": "X-ray measurements of the elemental abundances for the diffuse emission in the nuclear starburst galaxy NGC 3079",
+        "authors": [
+            "Jiejia Liu",
+            "Junjie Mao",
+            "Shuinai Zhang",
+            "Guan-Fu Liu",
+            "Rui Huang",
+            "Wei Cui"
+        ],
+        "keywords": "",
+        "figures": [
+            "https://arxiv.org/html/2609.37646v1/image/rgs_epic_region_wlabel_3.png",
+            "https://arxiv.org/html/2609.37646v1/image/rgs_spectra_bestfit.png",
+            "https://arxiv.org/html/2609.37646v1/image/abund_pattern_obs_model_s13.png",
+            "https://arxiv.org/html/2609.37646v1/image/mup_spectral_m1.png",
+            "https://arxiv.org/html/2609.37646v1/image/mock_hubs_spectrum.png",
+            "https://arxiv.org/html/2609.37646v1/image/mock_3d.png",
+            "https://arxiv.org/html/2609.37646v1/image/compare_model.png",
+            "https://arxiv.org/html/2609.37646v1/image/abund_pattern_obs_model_m345.png",
+            "https://arxiv.org/html/2609.37646v1/image/snia_different_models.png",
+            "https://arxiv.org/html/2609.37646v1/image/abund_pattern_obs_model_othermodels.png"
+        ]
+    },
+    "2609.37719": {
+        "title": "Fast and furious -- High-velocity features of Ca and Si in the spectra of Type Ia supernovae",
+        "authors": [
+            "Zs\u00f3fia Bora",
+            "J\u00f3zsef Vink\u00f3",
+            "J. Craig Wheeler",
+            "R\u00e9ka K\u00f6nyves-T\u00f3th",
+            "G.H. Marion"
+        ],
+        "keywords": "",
+        "figures": [
+            "https://arxiv.org/html/2609.37719v1/12cg_-14_example.png",
+            "https://arxiv.org/html/2609.37719v1/phase_vel_Si.png",
+            "https://arxiv.org/html/2609.37719v1/phase_vel_all.png",
+            "https://arxiv.org/html/2609.37719v1/CaII_vrad_phase_colorbar.png",
+            "https://arxiv.org/html/2609.37719v1/SN2012cg_-13.98_synow_fit_HVFs.png",
+            "https://arxiv.org/html/2609.37719v1/synow_Ca_tau_v.png",
+            "https://arxiv.org/html/2609.37719v1/synow_phase_vel.png",
+            "https://arxiv.org/html/2609.37719v1/gauss_vs_synow.png",
+            "https://arxiv.org/html/2609.37719v1/CaHVF_synow_tau.png",
+            "https://arxiv.org/html/2609.37719v1/CaHVF_synow_v.png"
+        ]
+    },
+    "2609.37770": {
+        "title": "Shaping binary black hole merger efficiency with gravitational wave observations",
+        "authors": [
+            "Michele Bosi",
+            "Lumen Boco",
+            "Stefano Torniamenti",
+            "Stefano Rinaldi",
+            "Cecilia Sgalletta",
+            "Michela Mapelli",
+            "Carlo Baccigalupi",
+            "Andrea Lapi"
+        ],
+        "keywords": "",
+        "figures": [
+            "https://arxiv.org/html/2609.37770v1/drhoSFRdVdZ_Fe_isogc.png",
+            "https://arxiv.org/html/2609.37770v1/Nexp_Bgc_Agc_gwtc5.png"
+        ]
+    },
+    "2609.37928": {
+        "title": "Joint Mass-Radius and Magnetic-Geometry Inference of PSR J0740+6620",
+        "authors": [
+            "Chun Huang",
+            "Tuomo Salmi",
+            "Alexander Y. Chen"
+        ],
+        "keywords": "",
+        "figures": [
+            "https://arxiv.org/html/2609.37928v1/model_vs_data.png",
+            "https://arxiv.org/html/2609.37928v1/temperature_map.png",
+            "https://arxiv.org/html/2609.37928v1/x1.png",
+            "https://arxiv.org/html/2609.37928v1/x3.png",
+            "https://arxiv.org/html/2609.37928v1/x5.png",
+            "https://arxiv.org/html/2609.37928v1/x7.png",
+            "https://arxiv.org/html/2609.37928v1/x8.png"
+        ]
+    },
+    "2609.38039": {
+        "title": "Science Using Single-Pulse Exploration with Combined Telescopes: II. Pulse profile evolution and single-pulse modulation",
+        "authors": [
+            "F. Jankowski",
+            "J.-M. Griessmeier",
+            "T. Roy",
+            "M. Surnis",
+            "G. Theureau",
+            "L. Bondonneau",
+            "P. Noe",
+            "J. Petri",
+            "L. Guillemot",
+            "I. Cognard",
+            "M. Serylak",
+            "I. Kravtsov",
+            "V. Zakharenko",
+            "O. Ulyanov"
+        ],
+        "keywords": "",
+        "figures": [
+            "https://arxiv.org/html/2609.38039v1/B0919+06_nenufar_scatfit.png"
+        ]
+    },
+    "2609.38100": {
+        "title": "Very High-Energy GRB Afterglow Fits with Neural-Network Emulation and Bayesian inference",
+        "authors": [
+            "Edilberto Aguilar-Ruiz",
+            "Jessica Sald\u00edvar Talavera",
+            "Ramandeep Gill",
+            "Sundar Srinivasan"
+        ],
+        "keywords": "",
+        "figures": [
+            "https://arxiv.org/html/2609.38100v1/FIG_CORNER_3T.png",
+            "https://arxiv.org/html/2609.38100v1/FIG_CORNER.png"
+        ]
+    },
+    "2609.35959": {
+        "title": "Discovery of over a thousand variable stars in Terzan 5 and Liller 1 with JWST",
+        "authors": [
+            "Kevin B. Burdge",
+            "Ilaria Caiazzo",
+            "Malina M. Desai",
+            "Cristina Pallanca",
+            "Vera L. Berger",
+            "Kaley Brauer",
+            "Matteo Correnti",
+            "Paul Draghis",
+            "Kareem El-Badry",
+            "Francesco R. Ferraro",
+            "Denis Gonz\u00e1lez-Caniulef",
+            "Kyle Kremer",
+            "Barbara Lanzoni",
+            "Dongzi Li",
+            "Jessica R. Lu",
+            "Geoffrey Mo",
+            "Mason Ng",
+            "Roger W. Romani",
+            "Kaitlyn Shin",
+            "Daniel R. Weisz",
+            "Giorgia Zullo"
+        ],
+        "keywords": "",
+        "figures": [
+            "https://arxiv.org/html/2609.35959v1/twomass_jwst_field.png",
+            "https://arxiv.org/html/2609.35959v1/variable_collage.png",
+            "https://arxiv.org/html/2609.35959v1/liller1_lwcore_3panel_circled.png",
+            "https://arxiv.org/html/2609.35959v1/terzan5_lwcore_3panel_circled.png",
+            "https://arxiv.org/html/2609.35959v1/paper_satcorr_obj0133_sw.png",
+            "https://arxiv.org/html/2609.35959v1/paper_seg1_cleaning_figure.png",
+            "https://arxiv.org/html/2609.35959v1/photerr_calibration.png",
+            "https://arxiv.org/html/2609.35959v1/photerr_fractional.png",
+            "https://arxiv.org/html/2609.35959v1/top12_showcase.png",
+            "https://arxiv.org/html/2609.35959v1/spatial_distribution.png"
+        ]
+    },
+    "2609.35971": {
+        "title": "Black Hole Quasinormal Mode Resonances and Reconnections in Coupled Systems",
+        "authors": [
+            "Leah Jenks",
+            "Hayato Motohashi",
+            "Kazufumi Takahashi",
+            "Takuya Takahashi",
+            "Emanuele Berti"
+        ],
+        "keywords": "",
+        "figures": [
+            "https://arxiv.org/html/2609.35971v1/QNM-eps1-varybeta-v2.png",
+            "https://arxiv.org/html/2609.35971v1/QNMbeta5p05.png",
+            "https://arxiv.org/html/2609.35971v1/qnm-four-panel.png",
+            "https://arxiv.org/html/2609.35971v1/initial_pts.png"
+        ]
+    },
+    "2609.35998": {
+        "title": "An Off-Nuclear Tidal Disruption Event Discovered At Late Times: The Case Of TDE 2023mfm",
+        "authors": [
+            "Itai Sfaradi",
+            "Ryan Chornock",
+            "Yuhan Yao",
+            "Erica Hammerstein",
+            "Jean Somalwar",
+            "Raffaella Margutti",
+            "Huei Sears",
+            "Robert Stein",
+            "Natalie LeBaron",
+            "Adelle J. Goodwin",
+            "Sjoert van Velzen",
+            "Matthew J. Graham",
+            "Kate D. Alexander",
+            "Nayana A. J.",
+            "Edo Berger",
+            "Jonathan Carney",
+            "Yvette Cendes",
+            "Collin T. Christy",
+            "Walter W. Golay",
+            "Wenbin Lu",
+            "James C. A. Miller-Jones",
+            "Charlotte Ward",
+            "Eli Wiston",
+            "Tracy X. Chen",
+            "Mansi M. Kasliwal",
+            "Frank J. Masci",
+            "Jesper Sollerman"
+        ],
+        "keywords": "",
+        "figures": [
+            "https://arxiv.org/html/2609.35998v1/compilation_images_HST_VLA.png",
+            "https://arxiv.org/html/2609.35998v1/galfit_images_F625W.png",
+            "https://arxiv.org/html/2609.35998v1/galfit_images_F336W.png",
+            "https://arxiv.org/html/2609.35998v1/galfit_images_F275W.png",
+            "https://arxiv.org/html/2609.35998v1/galfit_images_F225W.png"
+        ]
+    },
+    "2609.36298": {
+        "title": "What Fraction of Extreme Mass Ratio Inspirals That Merge After the LISA Mission Ends Are Detectable?",
+        "authors": [
             "Daniel J. Oliver",
-            "Ken D. Olum",
-            "Timothy T. Pennucci",
-            "Benetge B. P. Perera",
-            "Polina Petrov",
-            "Nihan S. Pol",
-            "Henri A. Radovan",
-            "Scott M. Ransom",
-            "Paul S. Ray",
-            "Joseph D. Romano",
-            "Jessie C. Runnoe",
-            "Alexander Saffer",
-            "Shashwat C. Sardesai",
-            "Ann Schmiedekamp",
-            "Carl Schmiedekamp",
-            "Kai Schmitz",
-            "Levi Schult",
-            "Brent J. Shapiro-Albert",
-            "Xavier Siemens",
-            "Joseph Simon",
-            "Sophia V. Sosa Fiscella",
-            "Ingrid H. Stairs",
-            "Daniel R. Stinebring",
-            "Kevin Stovall",
-            "Abhimanyu Susobhanan",
-            "Joseph K. Swiggum",
-            "Jacob Taylor",
-            "Stephen R. Taylor",
-            "Mercedes S. Thompson",
-            "Jacob E. Turner",
-            "Michele Vallisneri",
-            "Rutger van Haasteren",
-            "Joris P. W. Verbiest",
-            "Sarah J. Vigeland",
-            "Haley M. Wahl",
-            "Kevin P. Wilson",
-            "Caitlin A. Witt",
-            "David Wright",
-            "Olivia Young",
-            "\n    et al. (19 additional authors not shown)"
+            "Aaron D. Johnson",
+            "Jonathan E. Thompson",
+            "Curt J. Cutler"
         ],
         "keywords": "",
         "figures": [
-            "https://arxiv.org/html/2609.32306v1/fig1_snr_likes_split.png",
-            "https://arxiv.org/html/2609.32306v1/fig2_freespec_violins.png",
-            "https://arxiv.org/html/2609.32306v1/fig3_cw_gwb_corner_prior.png",
-            "https://arxiv.org/html/2609.32306v1/fig4_kl_divergence.png",
-            "https://arxiv.org/html/2609.32306v1/fig5_joint_corner_prior.png",
-            "https://arxiv.org/html/2609.32306v1/fig6_npar_vs_mcsw_median_8nHz_scatter.png",
-            "https://arxiv.org/html/2609.32306v1/fig7_Msw_median_vs_all_params.png",
-            "https://arxiv.org/html/2609.32306v1/fig7_npar_vs_all_params.png",
-            "https://arxiv.org/html/2609.32306v1/fig8_hardcases_contours_8nHz.png",
-            "https://arxiv.org/html/2609.32306v1/fig9_hardcases_grid_sep.png"
+            "https://arxiv.org/html/2609.36298v1/Figure1a.png",
+            "https://arxiv.org/html/2609.36298v1/Figure1b.png",
+            "https://arxiv.org/html/2609.36298v1/Figure1a.png",
+            "https://arxiv.org/html/2609.36298v1/Figure1b.png",
+            "https://arxiv.org/html/2609.36298v1/Figure2.png"
         ]
     },
-    "2609.32324": {
-        "title": "15-Year X-ray Study Links Variable Mass Accretion to Changing Look Behavior in AGN NGC 7582",
+    "2609.36383": {
+        "title": "An Energy-Conserving Unstaggered Electromagnetic-Potential Particle-in-Cell Method, Part II: Fully Relativistic Formulation with an Adapted Higuera--Cary Pusher",
         "authors": [
-            "Santanu Mondal",
-            "V. Jithesh",
-            "Neeraj Kumari",
-            "Tek P. Adhikari"
+            "Andrew Christlieb",
+            "Luis Chacon",
+            "Sining Gong"
         ],
         "keywords": "",
         "figures": [
-            "https://arxiv.org/html/2609.32324v1/x1-jetcaf-r1.png",
-            "https://arxiv.org/html/2609.32324v1/x2-jetcaf-r1.png",
-            "https://arxiv.org/html/2609.32324v1/s1-jetcaf-r1.png",
-            "https://arxiv.org/html/2609.32324v1/s2-jetcaf-r1.png",
-            "https://arxiv.org/html/2609.32324v1/s3-jetcaf-r1.png",
-            "https://arxiv.org/html/2609.32324v1/s4-jetcaf-r2.png",
-            "https://arxiv.org/html/2609.32324v1/n1-jetcaf-ra.png",
-            "https://arxiv.org/html/2609.32324v1/n2-jetcaf-r1.png",
-            "https://arxiv.org/html/2609.32324v1/xn3-fitted-specV2.png",
-            "https://arxiv.org/html/2609.32324v1/Jetcaf-parameters-nhV2.png"
+            "https://arxiv.org/html/2609.36383v1/0924_tsi03_phase.png",
+            "https://arxiv.org/html/2609.36383v1/0924_transverse_comparison.png",
+            "https://arxiv.org/html/2609.36383v1/0924_tsi03_phase.png",
+            "https://arxiv.org/html/2609.36383v1/0924_transverse_comparison.png"
         ]
     },
-    "2609.32649": {
-        "title": "Global Spline Fit: A unified data-driven view of the cosmic-ray spectrum and mass composition from GeV to the highest energies",
+    "2609.36961": {
+        "title": "LISA Double White Dwarfs in Triple Systems",
         "authors": [
-            "Anatoli Fedynitch",
-            "Kozo Fujisue",
-            "Hans Dembinski",
-            "Ralph Engel"
+            "Zhijun Wang",
+            "Guoliang L\u00fc",
+            "Chunhua Zhu",
+            "Xizhen Lu",
+            "Sufen Guo",
+            "Helei Liu",
+            "Renyu Luo",
+            "Tian Huang"
         ],
         "keywords": "",
         "figures": [
-            "https://arxiv.org/html/2609.32649v1/cr_flux_cov.png"
+            "https://arxiv.org/html/2609.36961v1/Figure1_pre_rlof_zlk.png",
+            "https://arxiv.org/html/2609.36961v1/Figure2.png",
+            "https://arxiv.org/html/2609.36961v1/Figure4.png",
+            "https://arxiv.org/html/2609.36961v1/Figure5.png",
+            "https://arxiv.org/html/2609.36961v1/Figure6.png",
+            "https://arxiv.org/html/2609.36961v1/Figure7.png",
+            "https://arxiv.org/html/2609.36961v1/Figure10.png",
+            "https://arxiv.org/html/2609.36961v1/Figure8.png",
+            "https://arxiv.org/html/2609.36961v1/Figure11.png"
         ]
     },
-    "2609.32726": {
-        "title": "Pulse profiles of tall accretion columns in X-ray pulsars",
+    "2609.36988": {
+        "title": "Detecting Extragalactic Exoplanets With Fast Radio Burst Nanolensing",
         "authors": [
-            "Bagration Megrelishvili",
-            "Pavel Abolmasov"
+            "Kenneth F. Olibrice",
+            "Dylan L. Jow"
         ],
         "keywords": "",
         "figures": [
-            "https://arxiv.org/html/2609.32726v1/12ai.png",
-            "https://arxiv.org/html/2609.32726v1/14ai1.png",
-            "https://arxiv.org/html/2609.32726v1/12ai.png",
-            "https://arxiv.org/html/2609.32726v1/14ai1.png",
-            "https://arxiv.org/html/2609.32726v1/11ai.png",
-            "https://arxiv.org/html/2609.32726v1/fig_stub.png",
-            "https://arxiv.org/html/2609.32726v1/images/table/together_a.png",
-            "https://arxiv.org/html/2609.32726v1/images/table/together_a_L_x.png",
-            "https://arxiv.org/html/2609.32726v1/images/phases/80_40_100_20/phase_=_1.00.png",
-            "https://arxiv.org/html/2609.32726v1/images/phases/80_40_100_20/phase_=_0.12.png"
+            "https://arxiv.org/html/2609.36988v1/lens-setup-figure.png",
+            "https://arxiv.org/html/2609.36988v1/cross_section_distance_scaling.png"
         ]
     },
-    "2609.33199": {
-        "title": "Testing Spin Prior Assumptions of Binary Black Hole Parameter Inference and Their Astrophysical Implications",
+    "2609.37234": {
+        "title": "The Irreversible Depletion of Dark Matter Spikes by Extreme-Mass-Ratio Inspirals",
         "authors": [
-            "Chen-He Wu",
-            "Wei-Hua Guo",
-            "Shu-Jin Hou",
-            "Yuan-Zhu Wang",
-            "Ying Qin"
+            "Charlie Sharpe",
+            "Yonadav Barry Ginat",
+            "Thomas F. M. Spieksma",
+            "Alexander Heger",
+            "Bence Kocsis"
         ],
         "keywords": "",
         "figures": [
-            "https://arxiv.org/html/2609.33199v1/data_selection.png",
-            "https://arxiv.org/html/2609.33199v1/plots/Color-coded/chi_eff_vs_lnBF.png",
-            "https://arxiv.org/html/2609.33199v1/plots/Color-coded/q_vs_lnBF.png",
-            "https://arxiv.org/html/2609.33199v1/plots/Color-coded/chirp_vs_lnBF.png",
-            "https://arxiv.org/html/2609.33199v1/plots/Color-coded/chi_combined.png",
-            "https://arxiv.org/html/2609.33199v1/plots/Color-coded/q_violin_plot.png",
-            "https://arxiv.org/html/2609.33199v1/plots/Color-coded/m1_violin_plot.png",
-            "https://arxiv.org/html/2609.33199v1/plots/Color-coded/m2_violin_plot.png"
+            "https://arxiv.org/html/2609.37234v1/DM_Density_Profile_z_3.png"
         ]
     },
-    "2609.33809": {
-        "title": "Observations of Repeating Tidal Disruption Events",
+    "2609.37607": {
+        "title": "Fooled by mass? Recovering the $\u0393-\u03bb_{Edd}$ relation of quasars from their X-ray variability",
         "authors": [
-            "Iair Arcavi",
-            "Thomas Wevers"
+            "Matilde Signorini",
+            "Andrea Sacchi",
+            "Bartolomeo Trefoloni",
+            "Matteo Guainazzi",
+            "Elisabeta Lusso",
+            "Emanuele Nardini",
+            "Chiara Niccolai",
+            "Federica Ricci",
+            "Anastasia Shlentsova",
+            "Mateusz Ra\u0142owski"
         ],
         "keywords": "",
         "figures": [
-            "https://arxiv.org/html/2609.33809v1/asassn-14ko.jpg",
-            "https://arxiv.org/html/2609.33809v1/Guolo_repeatingTDE.png",
-            "https://arxiv.org/html/2609.33809v1/liu_repeatingtde.png"
+            "https://arxiv.org/html/2609.37607v1/gamma_vs_z_wholesample.png",
+            "https://arxiv.org/html/2609.37607v1/lbol_vs_z_wholesample.png",
+            "https://arxiv.org/html/2609.37607v1/fig2_HB_effvar.png",
+            "https://arxiv.org/html/2609.37607v1/fig2_MGII_effvar.png",
+            "https://arxiv.org/html/2609.37607v1/fig2_CIV_effvar.png",
+            "https://arxiv.org/html/2609.37607v1/figures/Hb_wholesample_g18.png",
+            "https://arxiv.org/html/2609.37607v1/figures/mgii_wholesample_g18.png",
+            "https://arxiv.org/html/2609.37607v1/figures/civ_wholesample_g18.png"
         ]
     },
-    "2609.34102": {
-        "title": "Discovery of a 62-min long-period transient with near-orthogonal rotator geometry",
+    "2609.37859": {
+        "title": "An End-to-End Numerical Framework for Tidal Disruption Events with AthenaK",
         "authors": [
-            "Scott D. Hyman",
-            "Natasha Hurley-Walker",
-            "Dale A. Frail",
-            "Emil Polisensky",
-            "W. M. Cotton"
+            "Hong-Xuan Jiang",
+            "Mengqi Yang",
+            "David A. Velasco-Romero",
+            "Fangyuan Yu",
+            "Jing-Ze Xia",
+            "Xinyu Li",
+            "Yosuke Mizuno"
         ],
         "keywords": "",
         "figures": [
-            "https://arxiv.org/html/2609.34102v1/postagestamps2.png",
-            "https://arxiv.org/html/2609.34102v1/mk+emu_lightcurves5.png",
-            "https://arxiv.org/html/2609.34102v1/ASKAP_dynamic_spectra_lcs.png",
-            "https://arxiv.org/html/2609.34102v1/MeerKAT_dynamic_spectra_lcs.png",
-            "https://arxiv.org/html/2609.34102v1/lightcurves_folded.png",
-            "https://arxiv.org/html/2609.34102v1/DECaPS_DR2.png"
+            "https://arxiv.org/html/2609.37859v1/fig_remap_density_sequence.png",
+            "https://arxiv.org/html/2609.37859v1/fig_tde_rt_multiview.png",
+            "https://arxiv.org/html/2609.37859v1/fig_eos_tde_diagnostics.png",
+            "https://arxiv.org/html/2609.37859v1/fig_eos_chabrier2021_t13_helm_union_prad_masked.png",
+            "https://arxiv.org/html/2609.37859v1/fig_dual_energy_pressure_validation.png",
+            "https://arxiv.org/html/2609.37859v1/fig_lat_blast_mesh.png",
+            "https://arxiv.org/html/2609.37859v1/fig_current_tde_lat_benchmark.png",
+            "https://arxiv.org/html/2609.37859v1/fig_nozzle_energy_resolution.png"
         ]
     },
-    "2609.34155": {
-        "title": "Comment on \"Fermi-LAT Galactic Center Excess Morphology of Dark Matter in Simulations of the Milky Way Galaxy\"",
+    "2609.37909": {
+        "title": "Detection of fine-structured radio bursts during a superflare on EQ Peg",
         "authors": [
-            "Kevork N. Abazajian",
-            "Jason Kumar",
-            "Oscar Macias"
+            "Zhanhao Zhao",
+            "Xin Cheng",
+            "Yuankun Kou",
+            "Guoyin Chen",
+            "Hao Ning",
+            "Yao Chen",
+            "Baolin Tan",
+            "Keping Qiu",
+            "Mingde Ding"
         ],
         "keywords": "",
         "figures": [
-            "https://arxiv.org/html/2609.34155v1/fig_sm_6halo.png"
+            "https://arxiv.org/html/2609.37909v1/TESS_lc+FAST_ds.png",
+            "https://arxiv.org/html/2609.37909v1/FAST_ds_exp128chan4_gf1.0sigma.png",
+            "https://arxiv.org/html/2609.37909v1/dipole_3d_snapshots_maintext.png",
+            "https://arxiv.org/html/2609.37909v1/full_FAST_ds_modified.png",
+            "https://arxiv.org/html/2609.37909v1/ds_background_removal_process.png",
+            "https://arxiv.org/html/2609.37909v1/FAST_ds_exp128chan4_gf1.0sigma_lcP41_munotfixed.png",
+            "https://arxiv.org/html/2609.37909v1/dipole_3d_snapshots_appendix_horseshoe.png",
+            "https://arxiv.org/html/2609.37909v1/dipole_3d_snapshots_appendix_loss-cone.png",
+            "https://arxiv.org/html/2609.37909v1/loss-cone_beaming_angle.png",
+            "https://arxiv.org/html/2609.37909v1/figures/Video_S1_0.png"
         ]
     },
-    "2609.34405": {
-        "title": "Gravitational Waves from Core-Collapse Supernovae: Dependence on the Progenitor Star, Rotation Rate and Nuclear Equation of State",
+    "2609.38055": {
+        "title": "Bayesian Constraints on Bosonic Dark Matter in Neutron Stars within a Covariant Density-Functional Equation-of-State Ensemble",
         "authors": [
-            "Jade Powell",
-            "Bailey Sykes",
-            "Bernhard M\u00fcller"
+            "Davood Rafiei Karkevandi",
+            "Alexander Ayriyan",
+            "Armen Sedrakian"
         ],
         "keywords": "",
         "figures": [
-            "https://arxiv.org/html/2609.34405v1/figures_2/CMF_norot_0.5s.png",
-            "https://arxiv.org/html/2609.34405v1/figures_2/CMF_norot_2s.png",
-            "https://arxiv.org/html/2609.34405v1/figures_2/CMF_norot_4s.png",
-            "https://arxiv.org/html/2609.34405v1/figures_2/visit_s24_norot.png",
-            "https://arxiv.org/html/2609.34405v1/figures_2/visit_s24_srot.png",
-            "https://arxiv.org/html/2609.34405v1/figures_2/visit_s24_rot.png",
-            "https://arxiv.org/html/2609.34405v1/figures_2/s15_sfhx_norot_gw.png",
-            "https://arxiv.org/html/2609.34405v1/figures_2/s15_sfho_norot_gw.png",
-            "https://arxiv.org/html/2609.34405v1/figures_2/s15_cmf_norot_gw.png",
-            "https://arxiv.org/html/2609.34405v1/figures_2/s15_sasi_spec.png"
-        ]
-    },
-    "2609.34568": {
-        "title": "Unexpected Gamma-ray Outburst from the CSS Radio Galaxy 3C 216",
-        "authors": [
-            "Stefano Ciprini",
-            "Federica Giacchino"
-        ],
-        "keywords": "",
-        "figures": [
-            "https://arxiv.org/html/2609.34568v1/poster01-ciprini-fig1.png",
-            "https://arxiv.org/html/2609.34568v1/poster01-ciprini-fig2.png"
-        ]
-    },
-    "2609.34940": {
-        "title": "From Choked to Successful: The Role of Black Hole Spin in Collapsar Jet Breakout",
-        "authors": [
-            "Rushikesh Sonawane",
-            "Krishna Kumar",
-            "Shabnam Iyyani"
-        ],
-        "keywords": "",
-        "figures": [
-            "https://arxiv.org/html/2609.34940v1/Ljet_vs_time_colorbar.png",
-            "https://arxiv.org/html/2609.34940v1/combined_chocked.png"
-        ]
-    },
-    "2609.34947": {
-        "title": "Jet Forecast: Timing of Discrete Jet Ejections of Stellar-Mass Black Holes Anticipated via X-ray Properties",
-        "authors": [
-            "Toshihiro Kawaguchi",
-            "Kazutaka Yamaoka"
-        ],
-        "keywords": "",
-        "figures": [
-            "https://arxiv.org/html/2609.34947v1/fig1_revised.png",
-            "https://arxiv.org/html/2609.34947v1/fig2a_revised_rin_rms_fluxlog2_1859_all.jpg",
-            "https://arxiv.org/html/2609.34947v1/fig2b_revised_rin_rms_fluxlog2_1859_initial.jpg",
-            "https://arxiv.org/html/2609.34947v1/fig3a_revised_rin_rms_fluxlog2_1550.jpg",
-            "https://arxiv.org/html/2609.34947v1/fig3b_revised_rin_rms_fluxlog2_339.jpg",
-            "https://arxiv.org/html/2609.34947v1/fig3c_revised_rin_rms_fluxlog2_1820.jpg",
-            "https://arxiv.org/html/2609.34947v1/fig4_rin_rms_all.jpg"
-        ]
-    },
-    "2609.35697": {
-        "title": "JWST unveils a dust-obscured supernova associated with a gamma-ray burst",
-        "authors": [
-            "B. Schneider",
-            "A. J. Levan",
-            "N. Sarin",
-            "N. A. Rakotondrainibe",
-            "B. P. Gompertz",
-            "V. Buat",
-            "J. T. Palmerio",
-            "D. B. Malesani",
-            "A. de Ugarte Postigo",
-            "A. Martin-Carrillo",
-            "A. Rossi",
-            "V. D'Elia",
-            "M. De Pasquale",
-            "D. Hartmann",
-            "P. Jakobsson",
-            "E. Le Floc'h",
-            "P. O'Brien",
-            "E. Pian",
-            "G. Pugliese",
-            "A. Raidani",
-            "R. Salvaterra",
-            "J. Sollerman",
-            "N. R. Tanvir",
-            "S. D. Vergani",
-            "D. Watson"
-        ],
-        "keywords": "",
-        "figures": [
-            "https://arxiv.org/html/2609.35697v1/GRB240825A_slitpos_pixspectrum.png",
-            "https://arxiv.org/html/2609.35697v1/GRB240825A_spectrum_pixels_norm_obs.png",
-            "https://arxiv.org/html/2609.35697v1/figures/GRB240825A_xshooter_spectrum.png"
-        ]
-    },
-    "2609.35720": {
-        "title": "SN 2025qe: A case study of diversity in low-luminosity thermonuclear explosions",
-        "authors": [
-            "Hrishav Das",
-            "Anirban Dutta",
-            "Devendra K. Sahu",
-            "G.C. Anupama",
-            "Prathamesh S. Kadam",
-            "Vishwajeet Swain"
-        ],
-        "keywords": "",
-        "figures": [
-            "https://arxiv.org/html/2609.35720v1/SN_Field.png",
-            "https://arxiv.org/html/2609.35720v1/tardis_density_composition.png",
-            "https://arxiv.org/html/2609.35720v1/tardis_model_feature_comparison.png",
-            "https://arxiv.org/html/2609.35720v1/sdec_phase-2.4d.png",
-            "https://arxiv.org/html/2609.35720v1/sdec_phase2.5d.png",
-            "https://arxiv.org/html/2609.35720v1/sdec_phase5.3d.png",
-            "https://arxiv.org/html/2609.35720v1/sdec_phase8.5d.png",
-            "https://arxiv.org/html/2609.35720v1/Latephase_syn++.png"
-        ]
-    },
-    "2609.35723": {
-        "title": "Empirical determination of the Galactic neutron star--black hole merger rate using StarTrack models",
-        "authors": [
-            "Terrence Pierre Jacques",
-            "D. R. Lorimer",
-            "Nihan Pol",
-            "M. A. McLaughlin",
-            "K. Belczynski"
-        ],
-        "keywords": "",
-        "figures": [
-            "https://arxiv.org/html/2609.35723v1/Fig1.png",
-            "https://arxiv.org/html/2609.35723v1/Fig2.png",
-            "https://arxiv.org/html/2609.35723v1/Fig3.png",
-            "https://arxiv.org/html/2609.35723v1/Fig4.png"
-        ]
-    },
-    "2609.35729": {
-        "title": "Fast radio burst - persistent radio source systems I. A 1.2 GHz search and catalog definition",
-        "authors": [
-            "D. Pelliciari",
-            "L. Bruno",
-            "G. Bernardi",
-            "M. Pilia",
-            "P. Esposito",
-            "L. Beduzzi",
-            "A. Geminardi",
-            "O. Smirnov"
-        ],
-        "keywords": "",
-        "figures": [
-            "https://arxiv.org/html/2609.35729v1/PRS_detections.png",
-            "https://arxiv.org/html/2609.35729v1/M26_sources.png",
-            "https://arxiv.org/html/2609.35729v1/S23_loc.png"
-        ]
-    },
-    "2609.35730": {
-        "title": "Fast radio burst - persistent radio source systems II. A faint PRS associated with the nearby FRB 20181030A?",
-        "authors": [
-            "D. Pelliciari",
-            "G. Bernardi",
-            "B. Margalit",
-            "B. D. Metzger",
-            "C. Nanci",
-            "L. Bruno",
-            "M. Pilia",
-            "L. Beduzzi",
-            "C. Spingola",
-            "C. Stanghellini",
-            "P. Esposito",
-            "A. Geminardi",
-            "M. Giroletti"
-        ],
-        "keywords": "",
-        "figures": [
-            "https://arxiv.org/html/2609.35730v1/PRS_final.png",
-            "https://arxiv.org/html/2609.35730v1/loc_PRS.png",
-            "https://arxiv.org/html/2609.35730v1/model_SEDs.png",
-            "https://arxiv.org/html/2609.35730v1/LoTSS_VLASS_30AS1.png"
-        ]
-    },
-    "2609.35733": {
-        "title": "Fast radio burst - persistent radio source systems III. The relation bewteen PRS luminosity and FRB rotation measure",
-        "authors": [
-            "D. Pelliciari",
-            "G. Bernardi",
-            "M. Pilia",
-            "P. Esposito",
-            "L. Beduzzi",
-            "A. Geminardi",
-            "O. Smirnov"
-        ],
-        "keywords": "",
-        "figures": [
-            "https://arxiv.org/html/2609.35733v1/contour_plot.png",
-            "https://arxiv.org/html/2609.35733v1/RM_Lnu_final.png",
-            "https://arxiv.org/html/2609.35733v1/RMLnu_nobeta_final.png"
-        ]
-    },
-    "2609.28819": {
-        "title": "Heavy Inert Doublet Reconciles LZ and IceCube",
-        "authors": [
-            "Hitoshi Murayama",
-            "Bea Noether"
-        ],
-        "keywords": "",
-        "figures": [
-            "https://arxiv.org/html/2609.28819v1/idm_fig_spectra.png",
-            "https://arxiv.org/html/2609.28819v1/fig8_landau_pole.png"
-        ]
-    },
-    "2609.31850": {
-        "title": "Milky Way White Dwarfs as Inelastic Dark Matter Detectors",
-        "authors": [
-            "Javier F. Acevedo"
-        ],
-        "keywords": "",
-        "figures": [
-            "https://arxiv.org/html/2609.31850v1/schem.png"
-        ]
-    },
-    "2609.32022": {
-        "title": "A Delayed Rejection Reversible Jump Markov Chain Monte Carlo Method for Multi-Resolution Maps of the Stochastic Gravitational Wave Background with Pulsar Timing Array Data",
-        "authors": [
-            "Taha T. Moursy",
-            "Nihan S. Pol"
-        ],
-        "keywords": "",
-        "figures": [
-            "https://arxiv.org/html/2609.32022v1/fig_cc.png",
-            "https://arxiv.org/html/2609.32022v1/fig_diagnostics.png",
-            "https://arxiv.org/html/2609.32022v1/fig_realistic.png",
-            "https://arxiv.org/html/2609.32022v1/fig_ic_meshes.png"
-        ]
-    },
-    "2609.32451": {
-        "title": "AGN hosting jets. II: Deriving fundamental information from semi-analytical models and the LoTSS sample",
-        "authors": [
-            "Pau Beltr\u00e1n-Palau",
-            "Manel Perucho",
-            "Jos\u00e9-Mar\u00eda Mart\u00ed",
-            "Xavier L\u00f3pez-L\u00f3pez"
-        ],
-        "keywords": "",
-        "figures": [
-            "https://arxiv.org/html/2609.32451v1/histMgal.png",
-            "https://arxiv.org/html/2609.32451v1/histMclust.png",
-            "https://arxiv.org/html/2609.32451v1/zquadratic.png",
-            "https://arxiv.org/html/2609.32451v1/zquadratic2.png",
-            "https://arxiv.org/html/2609.32451v1/zquadratic3.png",
-            "https://arxiv.org/html/2609.32451v1/kevolucio.png",
-            "https://arxiv.org/html/2609.32451v1/distpot.png",
-            "https://arxiv.org/html/2609.32451v1/histL.png",
-            "https://arxiv.org/html/2609.32451v1/histz.png",
-            "https://arxiv.org/html/2609.32451v1/histD.png"
-        ]
-    },
-    "2609.33198": {
-        "title": "Probing Solar Chameleons with XENONnT Ionization-Only Data",
-        "authors": [
-            "Guan-Wen Yuan"
-        ],
-        "keywords": "",
-        "figures": [
-            "https://arxiv.org/html/2609.33198v1/response_matrix.png"
-        ]
-    },
-    "2609.33596": {
-        "title": "Stochastic gravitational-wave background from self-interacting superradiant clouds",
-        "authors": [
-            "Yin-Da Guo",
-            "Richard Brito",
-            "Chen Yuan"
-        ],
-        "keywords": "",
-        "figures": [
-            "https://arxiv.org/html/2609.33596v1/SNRLIGO.png",
-            "https://arxiv.org/html/2609.33596v1/SNRET.png",
-            "https://arxiv.org/html/2609.33596v1/SNRCE.png"
-        ]
-    },
-    "2609.33917": {
-        "title": "A Probabilistic Method for Estimating VLBI Jet-Component Ejection Epochs. Application to MOJAVE 15 GHz VLBA Kinematics",
-        "authors": [
-            "Vladislav A. Makeev",
-            "Yuri Y. Kovalev",
-            "Cecilia Degli Agosti",
-            "Daniel C. Homan"
-        ],
-        "keywords": "",
-        "figures": [
-            "https://arxiv.org/html/2609.33917v1/method_illustration_two_components.png",
-            "https://arxiv.org/html/2609.33917v1/lister_comparison_distribution_v1.png"
-        ]
-    },
-    "2609.34338": {
-        "title": "Medium effects on neutron star modified and direct Urca cooling rates",
-        "authors": [
-            "B. X. Zhou",
-            "Jin-Biao Wei",
-            "Z. H. Li",
-            "G. F. Burgio",
-            "H.-J. Schulze"
-        ],
-        "keywords": "",
-        "figures": [
-            "https://arxiv.org/html/2609.34338v1/coolmm3.png",
-            "https://arxiv.org/html/2609.34338v1/coolmm5.png"
-        ]
-    },
-    "2609.34999": {
-        "title": "First results from PADRE/MeDDEA: X-rays from a flare and its CME",
-        "authors": [
-            "Muriel Zo\u00eb Stiefel",
-            "S\u00e4m Krucker",
-            "Olivier Limousin",
-            "Niharika Godbole",
-            "Gwendoline Marc",
-            "Amir Caspi",
-            "Kyle Gregory",
-            "Ace Stratton",
-            "Diana Renaud",
-            "Aline Meuris",
-            "Laura A. Hayes",
-            "Andr\u00e9 Csillaghy",
-            "Pascal Saint-Hilaire",
-            "Juan Camilo Buitrago Casas",
-            "Christopher Smith",
-            "Savannah Sky Perez-Piel",
-            "Anton Tremsin",
-            "Elizabeth Warren",
-            "Bradley Pafchek",
-            "Eliad Peretz",
-            "Carlos Urdiales",
-            "Reynaldo Gonzalez",
-            "Chris M. Moeckel",
-            "Juan Carlos Martinez Oliveros",
-            "Steven Christe"
-        ],
-        "keywords": "",
-        "figures": [
-            "https://arxiv.org/html/2609.34999v1/Spectrograms_HXR.png",
-            "https://arxiv.org/html/2609.34999v1/Lightcurves.png",
-            "https://arxiv.org/html/2609.34999v1/MeDDEA_HXI_GBM_impulsive.png",
-            "https://arxiv.org/html/2609.34999v1/Photon_ratio_plot3.png",
-            "https://arxiv.org/html/2609.34999v1/STIX_MeDDEA_tot.png",
-            "https://arxiv.org/html/2609.34999v1/Time_evolution_images4.png"
+            "https://arxiv.org/html/2609.38055v1/5.png",
+            "https://arxiv.org/html/2609.38055v1/6.png",
+            "https://arxiv.org/html/2609.38055v1/7.png",
+            "https://arxiv.org/html/2609.38055v1/8.png",
+            "https://arxiv.org/html/2609.38055v1/9.png",
+            "https://arxiv.org/html/2609.38055v1/10.png",
+            "https://arxiv.org/html/2609.38055v1/11.png",
+            "https://arxiv.org/html/2609.38055v1/15.png",
+            "https://arxiv.org/html/2609.38055v1/16.png"
         ]
     }
 }
