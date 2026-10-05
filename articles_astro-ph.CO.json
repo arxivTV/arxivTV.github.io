@@ -1,268 +1,224 @@
 {
-    "2610.00674": {
-        "title": "ROBIN-PIP: Robust Bayesian Field-Level Inference with Physics-Informed Priors",
+    "2610.02315": {
+        "title": "Point spread function requirements for dark matter subhalo detection with the Habitable Worlds Observatory",
         "authors": [
-            "Ludvig Doeser",
-            "Simon Ding",
-            "Guilhem Lavaux",
-            "Jens Jasche"
+            "Georgios N. Vassilakis",
+            "Susan F. Redmond",
+            "Jason D. Rhodes",
+            "Richard J. Massey",
+            "Qiuhan He"
         ],
         "keywords": "",
         "figures": [
-            "https://arxiv.org/html/2610.00674v1/0_schematic.png",
-            "https://arxiv.org/html/2610.00674v1/power_spectra_v2.png",
-            "https://arxiv.org/html/2610.00674v1/bias_functions_v2.png",
-            "https://arxiv.org/html/2610.00674v1/likelihood_trace.png",
-            "https://arxiv.org/html/2610.00674v1/trace_bias.png"
+            "https://arxiv.org/html/2610.02315v1/source_lensing_gallery.png",
+            "https://arxiv.org/html/2610.02315v1/psf_reference.png",
+            "https://arxiv.org/html/2610.02315v1/sensitivity_regions.png",
+            "https://arxiv.org/html/2610.02315v1/selection_rank_mass_reach.png",
+            "https://arxiv.org/html/2610.02315v1/psf_mismodeling_regions.png"
         ]
     },
-    "2610.00725": {
-        "title": "Emulation of the Halo Mass Function with Neural Networks",
+    "2610.03447": {
+        "title": "Dark Energy Survey Year 6 Results: fast and interpretable posterior predictive checks for correlated cosmic probes",
         "authors": [
-            "Olive Ross",
-            "Nicholas Battaglia"
+            "C. Doux",
+            "J. Muir",
+            "A. Fert\u00e9",
+            "M. Raveri",
+            "D. Sanchez Cid",
+            "N. Weaverdyck",
+            "E. J. Baxter",
+            "W. d'Assignies",
+            "T. Karwal",
+            "A. Amon",
+            "D. Anbajagane",
+            "F. Andrade-Oliveira",
+            "M. R. Becker",
+            "J. Blazek",
+            "A. Carnero Rosell",
+            "C. Chang",
+            "J. M. Coloma-Nadal",
+            "M. Crocce",
+            "J. DeRose",
+            "S. Dodelson",
+            "G. Giannini",
+            "E. Krause",
+            "E. Legnani",
+            "N. MacCrann",
+            "J. Mena-Fern\u00e1ndez",
+            "A. Porredon",
+            "J. Prat",
+            "C. Preston",
+            "M. Rodriguez-Monroy",
+            "P. Rogozenski",
+            "R. Rosenfeld",
+            "S. Samuroff",
+            "E. Sanchez",
+            "I. Sevilla-Noarbe",
+            "M. Soares-Santos",
+            "C. To",
+            "M. A. Troxel",
+            "M. Yamamoto",
+            "B. Yin",
+            "J. Zuntz",
+            "S. Allam",
+            "M. Aguena",
+            "D. Bacon",
+            "D. Brooks",
+            "R. Camilleri",
+            "R. Cawthon",
+            "L. N. da Costa",
+            "S. Desai",
+            "P. Doel",
+            "K. Glazebrook",
+            "K. Honscheid",
+            "D. Huterer",
+            "K. Kuehn",
+            "J. L. Marshall",
+            "R. Miquel",
+            "M. Paterno",
+            "A. A. Plazas Malag\u00f3n",
+            "M. Smith",
+            "E. Suchyta",
+            "D. L. Tucker",
+            "V. Vikram",
+            "J. Weller"
         ],
         "keywords": "",
         "figures": [
-            "https://arxiv.org/html/2610.00725v1/Figs/example.png",
-            "https://arxiv.org/html/2610.00725v1/Figs/histerr.png",
-            "https://arxiv.org/html/2610.00725v1/Figs/linehists.png",
-            "https://arxiv.org/html/2610.00725v1/Figs/histprederr.png",
-            "https://arxiv.org/html/2610.00725v1/Figs/sim_comparison.png",
-            "https://arxiv.org/html/2610.00725v1/Figs/tinker.png"
+            "figures/2610_03447/ppd_toy_1.png",
+            "figures/2610_03447/ppd_toy_2.png",
+            "figures/2610_03447/ppd_toy_3.png",
+            "figures/2610_03447/ppd_desy3_shear_band.png",
+            "figures/2610_03447/summary_plot.png",
+            "figures/2610_03447/ppd_y6_wtheta_given_shear+gammat_v2.png",
+            "figures/2610_03447/ppd_toy_4_f.png",
+            "figures/2610_03447/ppd_toy_5_f.png",
+            "figures/2610_03447/ppd_toy_4_b.png",
+            "figures/2610_03447/ppd_toy_5_b.png"
         ]
     },
-    "2610.00989": {
-        "title": "Effects of Poisson Isocurvature Perturbations on Induced Gravitational Waves",
+    "2610.03527": {
+        "title": "Probing Early Phases of the Epoch of Reionization with the $\\mathrm{kSZ}^{2}\\times21\\,\\mathrm{cm}^{2}$ Cross-Correlation",
         "authors": [
-            "Zi-An Zhou",
-            "Cheng-Jun Fang",
-            "Zong-Kuan Guo"
+            "Wen-Qing Guo",
+            "Yin-Zhe Ma",
+            "Adam Lidz",
+            "Steven Murray",
+            "Hemanth Potluri"
         ],
         "keywords": "",
         "figures": [
-            "https://arxiv.org/html/2610.00989v1/fig26_equilateral_RRR_RRL_total_abs.png",
-            "https://arxiv.org/html/2610.00989v1/fig26_squeezed_RRR_RRL_total_abs.png",
-            "https://arxiv.org/html/2610.00989v1/fig26_equilateral_RRR_RRL_total_abs.png",
-            "https://arxiv.org/html/2610.00989v1/fig26_squeezed_RRR_RRL_total_abs.png",
-            "https://arxiv.org/html/2610.00989v1/fig27_RRR_total_equilateral_vs_squeezed_perimeter.png"
+            "https://arxiv.org/html/2610.03527v1/kSZmap.png",
+            "https://arxiv.org/html/2610.03527v1/HImap_z10.png",
+            "https://arxiv.org/html/2610.03527v1/IntegrationTime_HERA350_z10.png",
+            "https://arxiv.org/html/2610.03527v1/IntegrationTime_SKAAAStar_z10.png",
+            "https://arxiv.org/html/2610.03527v1/HERA_Filter_z10.png",
+            "https://arxiv.org/html/2610.03527v1/SKAAAstar_Filter_z10.png",
+            "https://arxiv.org/html/2610.03527v1/HI_fiducial_cmbz_Ts_2.5.png",
+            "https://arxiv.org/html/2610.03527v1/HI_early_cmbz_Ts_0.1.png"
         ]
     },
-    "2610.01836": {
-        "title": "Cosmological inference from a joint DESI DR1 full-shape power spectrum and bispectrum analysis",
+    "2610.03544": {
+        "title": "Baryonic Imprints on DM Halos: the concentration-mass relation and its dependence on 28 model parameters in the CAMELS suite",
         "authors": [
-            "Caroline Guandalin",
-            "Prakhar Bansal",
-            "Pedro Carrilho",
-            "Alejandro Aviles",
-            "Mike",
-            "Wang",
-            "Marcos Pellejero-Iba\u00f1ez",
-            "Aaditya Sarma",
-            "Jaide Swanson",
-            "Marco Bonici",
-            "Florian Beutler",
-            "Arnaud de Mattia",
-            "Hee-Jong Seo"
+            "Cami Delgado",
+            "Dhayaa Anbajagane"
         ],
         "keywords": "",
         "figures": [
-            "https://arxiv.org/html/2610.01836v1/figs/data_LRG_QSO.png",
-            "https://arxiv.org/html/2610.01836v1/figs/covariances_LRG1.png",
-            "https://arxiv.org/html/2610.01836v1/figs/covariances_LRG2.png",
-            "https://arxiv.org/html/2610.01836v1/figs/covariances_LRG1.png",
-            "https://arxiv.org/html/2610.01836v1/figs/covariances_LRG2.png",
-            "https://arxiv.org/html/2610.01836v1/figs/LRG_SGC_0.6_z_0.8_FA.png",
-            "https://arxiv.org/html/2610.01836v1/figs/DESI_comp_LRG1_QSO.png",
-            "https://arxiv.org/html/2610.01836v1/figs/Omega_mH0_comp.png",
-            "https://arxiv.org/html/2610.01836v1/figs/f_As.png",
-            "https://arxiv.org/html/2610.01836v1/figs/bispectrum_fits.png"
+            "https://arxiv.org/html/2610.03544v1/redshift_plots_final8.png"
         ]
     },
-    "2610.02104": {
-        "title": "Non-Gaussian Parameter Bias: Formalism and Validation",
+    "2610.02301": {
+        "title": "Optimizing spectral-matching component separation for measuring CMB B-mode polarization with a satellite mission",
         "authors": [
-            "Nikolina \u0160ar\u010devi\u0107",
-            "Matthijs van der Wild",
-            "Elena Sellentin"
+            "Hoang Viet Tran",
+            "Guillaume Patanchon",
+            "Michele Citran",
+            "Benjamin Beringue"
         ],
         "keywords": "",
         "figures": [
-            "https://arxiv.org/html/2610.02104v1/figures/input_figs/amp_vs_shift_nonlinear_benchmark_both_parameter_0.png",
-            "https://arxiv.org/html/2610.02104v1/figures/input_figs/amp_vs_shift_nonlinear_benchmark_both_parameter_1.png",
-            "https://arxiv.org/html/2610.02104v1/figures/input_figs/corner_nonlinear_benchmark_both_A15.png",
-            "https://arxiv.org/html/2610.02104v1/figures/input_figs/nonlinear_benchmark_alpha_posterior_evolution_fisher.png",
-            "https://arxiv.org/html/2610.02104v1/figures/input_figs/nonlinear_benchmark_beta_posterior_evolution_fisher.png",
-            "https://arxiv.org/html/2610.02104v1/figures/input_figs/nonlinear_benchmark_alpha_posterior_evolution_dali.png",
-            "https://arxiv.org/html/2610.02104v1/figures/input_figs/nonlinear_benchmark_beta_posterior_evolution_dali.png",
-            "https://arxiv.org/html/2610.02104v1/figures/input_figs/additivity_geometry_A15.000.png",
-            "https://arxiv.org/html/2610.02104v1/figures/input_figs/nonadditivity_vs_amplitude.png",
-            "https://arxiv.org/html/2610.02104v1/figures/input_figs/amp_vs_shift_nonlinear_benchmark_alpha_parameter_0.png"
+            "https://arxiv.org/html/2610.02301v1/patches_config.png",
+            "https://arxiv.org/html/2610.02301v1/figures/flowchart.png",
+            "https://arxiv.org/html/2610.02301v1/d1s1_comps_resmap.png",
+            "https://arxiv.org/html/2610.02301v1/d10s5_comps_resmap.png",
+            "https://arxiv.org/html/2610.02301v1/d1s1_patches_resmap.png",
+            "https://arxiv.org/html/2610.02301v1/d10s5_patches_resmap.png",
+            "https://arxiv.org/html/2610.02301v1/d1s1_masks.png",
+            "https://arxiv.org/html/2610.02301v1/d1s1_patches_masks.png",
+            "https://arxiv.org/html/2610.02301v1/d10s5_masks.png",
+            "https://arxiv.org/html/2610.02301v1/d10s5_patches_masks.png"
         ]
     },
-    "2610.00457": {
-        "title": "Primordial Black Hole and Gravitational Wave by Peaked Cosmic Perturbations from Axion Curvaton",
+    "2610.02328": {
+        "title": "Inferring magnetic field strengths in high-redshift lensing galaxies from Faraday rotation measure observations",
         "authors": [
-            "Keisuke Harigaya",
-            "Lian-Tao Wang",
-            "Jiangyi Yi"
+            "Stefan Reissl",
+            "Ralf S. Klessen",
+            "Annalisa Pillepich",
+            "Sui Ann Mao",
+            "R\u00fcdiger Pakmor",
+            "Dylan Nelson"
         ],
         "keywords": "",
         "figures": [
-            "https://arxiv.org/html/2610.00457v1/GWlisa.png",
-            "https://arxiv.org/html/2610.00457v1/GWlisab.png",
-            "https://arxiv.org/html/2610.00457v1/GWlisa.png",
-            "https://arxiv.org/html/2610.00457v1/GWlisab.png"
+            "https://arxiv.org/html/2610.02328v1/param_TNG_067_GroupID_1026.png",
+            "https://arxiv.org/html/2610.02328v1/hist_B_both.png",
+            "https://arxiv.org/html/2610.02328v1/hist_dRM_scatter.png",
+            "https://arxiv.org/html/2610.02328v1/TNG_NH_45deg.png",
+            "https://arxiv.org/html/2610.02328v1/TNG_RM_45deg.png"
         ]
     },
-    "2610.00458": {
-        "title": "QCD axion misalignment during reheating",
+    "2610.02389": {
+        "title": "Collapse-accelerated small-scale dynamos in the first stars and galaxies",
         "authors": [
-            "Disha Bandyopadhyay",
-            "Debasish Borah",
-            "Nayan Das"
+            "Muhammed Irshad",
+            "Pallavi Bhat"
         ],
         "keywords": "",
         "figures": [
-            "https://arxiv.org/html/2610.00458v1/n2_vac.png",
-            "https://arxiv.org/html/2610.00458v1/FD2.png",
-            "https://arxiv.org/html/2610.00458v1/n4_vac.png",
-            "https://arxiv.org/html/2610.00458v1/FD4.png",
-            "https://arxiv.org/html/2610.00458v1/n6_vac.png",
-            "https://arxiv.org/html/2610.00458v1/FD6.png",
-            "https://arxiv.org/html/2610.00458v1/n2_vac.png",
-            "https://arxiv.org/html/2610.00458v1/FD2.png",
-            "https://arxiv.org/html/2610.00458v1/n4_vac.png",
-            "https://arxiv.org/html/2610.00458v1/FD4.png"
+            "https://arxiv.org/html/2610.02389v1/Figures/VelocityEvolution/vel_1_main_fiducial_FS.png",
+            "https://arxiv.org/html/2610.02389v1/Figures/VelocityEvolution/vel_23_f_sweeps_FS.png",
+            "https://arxiv.org/html/2610.02389v1/Figures/VelocityEvolution/vel_45_cosmo_sweeps_FS.png",
+            "https://arxiv.org/html/2610.02389v1/Figures/VelocityEvolution/ReRm_fiducial_FS.png",
+            "https://arxiv.org/html/2610.02389v1/Figures/FiducialStudy/fig_combined_Brms_Btilde_FS.png",
+            "https://arxiv.org/html/2610.02389v1/Figures/FiducialStudy/fig_combined_Brms_Btilde_FG.png",
+            "https://arxiv.org/html/2610.02389v1/Figures/SEvsFF/gphase_fV01_gsweep_FG.png",
+            "https://arxiv.org/html/2610.02389v1/Figures/SEvsFF/gphase_fV01_gsweep_FS.png",
+            "https://arxiv.org/html/2610.02389v1/Figures/SEvsFF/Btilde_vs_Bstd_FG.png",
+            "https://arxiv.org/html/2610.02389v1/Figures/SEvsFF/Btilde_vs_Bstd_FS.png"
         ]
     },
-    "2610.00463": {
-        "title": "LIGHTS. Limitations of Far-Infrared Tracers for Galactic Cirrus Mitigation in the Era of Ultra-Deep Imaging",
+    "2610.02590": {
+        "title": "Multi-Band Constraints on Cosmic Strings: Unifying Harmonic and Burst Spectra",
         "authors": [
-            "Ouldouz Kaboud",
-            "Ignacio Trujillo",
-            "Ignacio Ruiz Cejudo",
-            "S. Zahra Hosseini-ShahiSavandi",
-            "Mireia Montes",
-            "Sergio Guerra Arencibia",
-            "Mauro D'Onofrio",
-            "Dennis Zaritsky",
-            "Javier Roman",
-            "Nushkia Chamba",
-            "Giulia Golini",
-            "Chen-Yu Chuang",
-            "Minh Ngoc Le",
-            "Carlos Marrero-de la Rosa",
-            "Zahra Sharbaf",
-            "Richard Donnerstein",
-            "Sepideh Eskandarlou",
-            "Raul Infante-Sainz",
-            "Garreth Martin",
-            "Samane Raji",
-            "Nafise Sedighi"
+            "Hansong Zhang",
+            "Huai-Ke Guo",
+            "Mairi Sakellariadou",
+            "Fengwei Yang",
+            "Yue Zhao"
         ],
         "keywords": "",
         "figures": [
-            "https://arxiv.org/html/2610.00463v1/rgb_scale.png",
-            "https://arxiv.org/html/2610.00463v1/masked_three_panel.png",
-            "https://arxiv.org/html/2610.00463v1/Fig3.png",
-            "https://arxiv.org/html/2610.00463v1/NS_g_r_vs_H_combined.png",
-            "https://arxiv.org/html/2610.00463v1/NS_i_vs_H_scatter_REPLOT_k.png",
-            "https://arxiv.org/html/2610.00463v1/masked_two_panel_cirrus.png",
-            "https://arxiv.org/html/2610.00463v1/cirrus_maps.png",
-            "https://arxiv.org/html/2610.00463v1/cirrus_maps_zoomin.png",
-            "https://arxiv.org/html/2610.00463v1/three_panel_SB_ve.png",
-            "https://arxiv.org/html/2610.00463v1/NS_i_vs_H_scatter_appendix.png"
+            "https://arxiv.org/html/2610.02590v1/omega.png",
+            "https://arxiv.org/html/2610.02590v1/constraint1.png",
+            "https://arxiv.org/html/2610.02590v1/constraint2.png",
+            "https://arxiv.org/html/2610.02590v1/NG.png",
+            "https://arxiv.org/html/2610.02590v1/EPTA.png"
         ]
     },
-    "2610.00466": {
-        "title": "Inferring radio beams from sparse sampling patterns: a case study with the Murchison Widefield Array",
+    "2610.02735": {
+        "title": "Non-Gaussian timing residual skewness in pulsar timing arrays",
         "authors": [
-            "Michael J. Wilensky",
-            "Aman Chokshi"
+            "Reginald Christian Bernardo",
+            "Rituparna Mandal",
+            "Kin-Wang Ng"
         ],
         "keywords": "",
         "figures": [
-            "figures/2610_00466/rfe_gain_new_5hz_S06XX.png",
-            "figures/2610_00466/passes_in_a_pixel.png",
-            "figures/2610_00466/S06XX_data_error_maps.png",
-            "figures/2610_00466/aee_fee_comparison.png",
-            "figures/2610_00466/S06XX_dipole_model_likelihood_slice.png",
-            "figures/2610_00466/FEE_with_knots_True.png",
-            "figures/2610_00466/data_aee_fee_residuals_annotated.png",
-            "figures/2610_00466/S06XX_gain_solutions.png",
-            "figures/2610_00466/S06XX_complex_mode_comparison.png",
-            "figures/2610_00466/S06XX_beam_model_comparison.png"
-        ]
-    },
-    "2610.01136": {
-        "title": "Do Submillimeter Galaxies Trace Megaparsec Large-scale Structures? -- An Overdensity Analysis of 449 Submillimeter Galaxies in COSMOS",
-        "authors": [
-            "Canze Deng",
-            "Daizhong Liu",
-            "Helmut Dannerbauer",
-            "Gianluca Castignani",
-            "Rosa Calvi",
-            "Lauro Moscardini",
-            "Benjamin Magnelli",
-            "Sylvia Adscheid",
-            "Eva Schinnerer",
-            "Hui Li",
-            "Rafael Arango-Toro",
-            "Caitlin Casey",
-            "Jacky S.W. Chan",
-            "Andreas Faisst",
-            "Maximilien Franco",
-            "Zohreh Ghaffari",
-            "Santosh Harish",
-            "Jeyhan Kartaltepe",
-            "Greta Toni",
-            "Jorge Zavala",
-            "Xin Zeng",
-            "Xianzhong Zheng"
-        ],
-        "keywords": "",
-        "figures": [
-            "https://arxiv.org/html/2610.01136v1/Figure1.png",
-            "https://arxiv.org/html/2610.01136v1/Figure2.png",
-            "https://arxiv.org/html/2610.01136v1/Figure3.png",
-            "https://arxiv.org/html/2610.01136v1/Figure4.png",
-            "https://arxiv.org/html/2610.01136v1/Figure5.png",
-            "https://arxiv.org/html/2610.01136v1/Figure6.png",
-            "https://arxiv.org/html/2610.01136v1/Figure7_1.png",
-            "https://arxiv.org/html/2610.01136v1/Figure7_2.png",
-            "https://arxiv.org/html/2610.01136v1/Figure7_3.png",
-            "https://arxiv.org/html/2610.01136v1/Figure8_1.png"
-        ]
-    },
-    "2610.01407": {
-        "title": "Graceful Exit to Radiation Domination in the Starobinsky Model: A Dynamical Realization",
-        "authors": [
-            "Bhargabi Saha",
-            "Malay K. Nandy"
-        ],
-        "keywords": "",
-        "figures": [
-            "https://arxiv.org/html/2610.01407v1/phi1-star1.png",
-            "https://arxiv.org/html/2610.01407v1/phi2-star1.png",
-            "https://arxiv.org/html/2610.01407v1/phi1-star6.png",
-            "https://arxiv.org/html/2610.01407v1/phi2-star6.png",
-            "https://arxiv.org/html/2610.01407v1/eps-N-star1.png",
-            "https://arxiv.org/html/2610.01407v1/eps-N-star6.png",
-            "https://arxiv.org/html/2610.01407v1/hubble1-star1.png",
-            "https://arxiv.org/html/2610.01407v1/hubble2-star1.png",
-            "https://arxiv.org/html/2610.01407v1/hubble1-star6.png",
-            "https://arxiv.org/html/2610.01407v1/hubble2-star6.png"
-        ]
-    },
-    "2610.01865": {
-        "title": "hyprfine: simulating the 21-cm signal from the Dark Ages through to the Epoch of Reionization on a GPU",
-        "authors": [
-            "Harry T. J. Bevins"
-        ],
-        "keywords": "",
-        "figures": [
-            "https://arxiv.org/html/2610.01865v1/bin/benchmark.png"
+            "https://arxiv.org/html/2610.02735v1/Upsilon_f1f2_vs_f3.png",
+            "https://arxiv.org/html/2610.02735v1/Upsilon_f1f3_vs_f2.png"
         ]
     }
 }
