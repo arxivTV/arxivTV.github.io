@@ -1,193 +1,365 @@
 {
-    "2610.02434": {
-        "title": "TOI-1408: the limb darkening models, photometric and Doppler noises, and the exoplanetary system",
+    "2610.03806": {
+        "title": "Pressure-induced desalting of NaCl-bearing ice VII: A compositional filter in water-rich planets",
         "authors": [
-            "Roman V. Baluev"
+            "Alasdair Nicholls",
+            "Tomasz Poreba",
+            "Xi Zhu",
+            "Richard Gaal",
+            "Stefan Klotz",
+            "Gabriel Tobie",
+            "Henrik M. Ronnow",
+            "Razvan Caracas",
+            "Livia Eleonora Bove"
         ],
         "keywords": "",
         "figures": [
-            "https://arxiv.org/html/2610.02434v1/TOI1408-LDlaws-TE.png",
-            "https://arxiv.org/html/2610.02434v1/TOI1408-limb-TE.png",
-            "https://arxiv.org/html/2610.02434v1/TOI1408-TESS_pow.png",
-            "https://arxiv.org/html/2610.02434v1/TOI1408-extra_pows.png",
-            "https://arxiv.org/html/2610.02434v1/TOI1408-rvpow.png",
-            "https://arxiv.org/html/2610.02434v1/TOI1408-ttv_b.png",
-            "https://arxiv.org/html/2610.02434v1/TOI1408-ttv_c.png",
-            "https://arxiv.org/html/2610.02434v1/TOI1408-pars2.png",
-            "https://arxiv.org/html/2610.02434v1/TOI1408-pars3.png",
-            "https://arxiv.org/html/2610.02434v1/TOI1408-pars2_only_rb.png"
+            "https://arxiv.org/html/2610.03806v1/Figures/Phase_Diagram.png",
+            "https://arxiv.org/html/2610.03806v1/Figures/Figure2_250_500Microns.png",
+            "https://arxiv.org/html/2610.03806v1/Figures/19wt_Figure_abc.png",
+            "https://arxiv.org/html/2610.03806v1/Figures/NaCl-iceVII_Desalting.png",
+            "https://arxiv.org/html/2610.03806v1/Figures/EoS_Figure.png",
+            "https://arxiv.org/html/2610.03806v1/Figures/Density_Figure.png",
+            "https://arxiv.org/html/2610.03806v1/Figures/Figure_ConcVsExp.png",
+            "https://arxiv.org/html/2610.03806v1/Fig_structure_interface_exoplanets.png",
+            "https://arxiv.org/html/2610.03806v1/Figures/NaCl-IceVII_Neutron_Am2Crys_Figure.png",
+            "https://arxiv.org/html/2610.03806v1/Figures/NaCl-IceVII_Neutrons.png"
         ]
     },
-    "2610.02629": {
-        "title": "Performance of AutoRegressive Planet Search methodology on simulated PLATO lightcurves",
+    "2610.04050": {
+        "title": "Measuring the Age and Initial Composition of Interstellar Objects",
         "authors": [
-            "Eric D. Feigelson",
-            "Marco Montalto",
-            "Geert Jan Talens",
-            "Suzanne Aigrain",
-            "Luca Malavolta",
-            "Valerio Nascimbeni",
-            "Tiziano Zingales"
+            "Aster G. Barry-Taylor"
         ],
         "keywords": "",
         "figures": [
-            "https://arxiv.org/html/2610.02629v1/input_star_properties.png",
-            "https://arxiv.org/html/2610.02629v1/ARPS_example_good.png",
-            "https://arxiv.org/html/2610.02629v1/OxPad_1Q_sim_hist.png",
-            "https://arxiv.org/html/2610.02629v1/OxPad_1Q_ARPS_hist.png",
-            "https://arxiv.org/html/2610.02629v1/OxPad_1Q_corrections.png",
-            "https://arxiv.org/html/2610.02629v1/OxPad-1Q-Periods.png",
-            "https://arxiv.org/html/2610.02629v1/1OxPad-1Q-goodbad_hist_rev.png",
-            "https://arxiv.org/html/2610.02629v1/2OxPad-1Q-goodbad_hist_rev.png",
-            "https://arxiv.org/html/2610.02629v1/3OxPad-1Q-goodbad_hist_rev.png",
-            "https://arxiv.org/html/2610.02629v1/4OxPad-1Q-goodbad_hist_rev.png"
+            "https://arxiv.org/html/2610.04050v1/ratio_calc.png"
         ]
     },
-    "2610.02783": {
-        "title": "Joint RV-Astrometric Analysis of two-planet system HD 65216: Prospects for Gaia DR4",
+    "2610.04081": {
+        "title": "AEGIS: Differentiable Mars Climate Model with Neural Closures",
         "authors": [
-            "Alexander L. Wallace",
-            "Robert A. Wittenmyer",
-            "Jonathan Horner"
+            "Sameera S Kashyap",
+            "Victor Cruz",
+            "Angel Yepez",
+            "Razvan Marinescu"
         ],
         "keywords": "",
         "figures": [
-            "https://arxiv.org/html/2610.02783v1/HD65216_rv_fit.png",
-            "https://arxiv.org/html/2610.02783v1/HD65216_phase_fold_tot.png",
-            "https://arxiv.org/html/2610.02783v1/HD65216_rv_fit.png",
-            "https://arxiv.org/html/2610.02783v1/HD65216_phase_fold_tot.png",
-            "https://arxiv.org/html/2610.02783v1/HD65216_astro_all.png",
-            "https://arxiv.org/html/2610.02783v1/dr4_detectability.png",
-            "https://arxiv.org/html/2610.02783v1/dpmra_dr34.png",
-            "https://arxiv.org/html/2610.02783v1/dpmdec_dr34.png",
-            "https://arxiv.org/html/2610.02783v1/dpmra_dr34.png",
-            "https://arxiv.org/html/2610.02783v1/dpmdec_dr34.png"
+            "https://arxiv.org/html/2610.04081v1/assets/architecture.png",
+            "https://arxiv.org/html/2610.04081v1/assets/ls135_grid.png",
+            "https://arxiv.org/html/2610.04081v1/assets/ls045_grid.png",
+            "https://arxiv.org/html/2610.04081v1/assets/ls315_grid.png",
+            "https://arxiv.org/html/2610.04081v1/assets/ls135_grid.png"
         ]
     },
-    "2610.03635": {
-        "title": "Temporal Variability of Titan's Middle-Atmospheric Zonal Winds from Southern Fall to Late Winter (2016-2023)",
+    "2610.04114": {
+        "title": "Closing the Gap: A Test of the Streaming Instability Using Simulations and Observations of the Cold-Classical Kuiper Belt Size Distribution",
         "authors": [
-            "Martin A. Cordiner",
-            "Yuan Lian",
-            "Juan M. Lora",
-            "Nicholas A. Lombardo",
-            "Lucy Wright",
-            "Jonathon Nosowitz",
-            "Richard Cosentino",
-            "Nicholas A. Teanby",
-            "Conor A. Nixon",
-            "Alexander E. Thelen",
-            "Claire E. Newman",
-            "Steven B. Charnley",
-            "Eliot F. Young"
+            "Weston Hall",
+            "Jacob B. Simon",
+            "Jeonghoon Lim",
+            "Daniel Carrera",
+            "Matthew Small"
         ],
         "keywords": "",
         "figures": [
-            "https://arxiv.org/html/2610.03635v1/CH3CN_mom0.png",
-            "https://arxiv.org/html/2610.03635v1/CH3CN_vMap_2016-08-19_7lines.png",
-            "https://arxiv.org/html/2610.03635v1/CH3CN_vMap_2017-05-08.png",
-            "https://arxiv.org/html/2610.03635v1/CH3CN_vMap_2022-06-10.png",
-            "https://arxiv.org/html/2610.03635v1/CH3CN_vMap_2022-08-01.png",
-            "https://arxiv.org/html/2610.03635v1/CH3CN_vMap_2022-09-06.png",
-            "https://arxiv.org/html/2610.03635v1/CH3CN_vMap_2023-04-12.png",
-            "https://arxiv.org/html/2610.03635v1/CH3CN_vMap_2023-05-09_natural.png",
-            "https://arxiv.org/html/2610.03635v1/CH3CN_vErrorMap_2016-08-19.png",
-            "https://arxiv.org/html/2610.03635v1/CH3CN_vErrorMap_2017-05-08.png"
+            "https://arxiv.org/html/2610.04114v1/First_comp.png",
+            "https://arxiv.org/html/2610.04114v1/constrained_vtpl.png",
+            "https://arxiv.org/html/2610.04114v1/stochastic.png",
+            "https://arxiv.org/html/2610.04114v1/multiclumpt.png",
+            "https://arxiv.org/html/2610.04114v1/binary_collapse.png",
+            "https://arxiv.org/html/2610.04114v1/resolution.png",
+            "https://arxiv.org/html/2610.04114v1/m_h_scaling.png"
         ]
     },
-    "2610.02245": {
-        "title": "A Missing Latent, Not a Missing Simulator: Radius-Augmented Inference for Real JWST Retrieval",
+    "2610.04358": {
+        "title": "How dust particles orbiting white dwarfs can reveal undetected co-orbiting exoplanets II. Exoplanets on elliptic orbits",
         "authors": [
-            "Angshuman Chakravertty",
-            "P V V Raj"
+            "Kyriaki I. Antoniadou",
+            "Dimitri Veras"
         ],
         "keywords": "",
         "figures": [
-            "https://arxiv.org/html/2610.02245v1/Figures/arch.png",
-            "https://arxiv.org/html/2610.02245v1/Figures/fig6_multitarget.png"
+            "https://arxiv.org/html/2610.04358v1/anorbits.png",
+            "https://arxiv.org/html/2610.04358v1/earth.png",
+            "https://arxiv.org/html/2610.04358v1/aL4.png",
+            "https://arxiv.org/html/2610.04358v1/2DE_B.png",
+            "https://arxiv.org/html/2610.04358v1/bar.png",
+            "https://arxiv.org/html/2610.04358v1/3DE_Di10.png",
+            "https://arxiv.org/html/2610.04358v1/x1.png",
+            "https://arxiv.org/html/2610.04358v1/3DE_Di45.png",
+            "https://arxiv.org/html/2610.04358v1/bar.png",
+            "https://arxiv.org/html/2610.04358v1/sE1a_Bwe.png"
         ]
     },
-    "2610.02511": {
-        "title": "Post-Training Quantization of Autoregressive Weather Models",
+    "2610.04497": {
+        "title": "Stellar magnetic activity and rocky planets in cool dwarf stars",
         "authors": [
-            "Ananyo Bhattacharya",
-            "Swastik Bhattacharya",
-            "Christiane Jablonowski"
+            "A. K. Stefanov"
         ],
         "keywords": "",
         "figures": [
-            "https://arxiv.org/html/2610.02511v1/workflow.png",
-            "https://arxiv.org/html/2610.02511v1/dlwp_rmse_vs_era5.png",
-            "https://arxiv.org/html/2610.02511v1/dlwp_acc.png",
-            "https://arxiv.org/html/2610.02511v1/fcn_rmse_vs_era5.png",
-            "https://arxiv.org/html/2610.02511v1/fcn_acc.png",
-            "https://arxiv.org/html/2610.02511v1/dlwp_t2m_maps.png",
-            "https://arxiv.org/html/2610.02511v1/fcn_t2m_maps.png",
-            "https://arxiv.org/html/2610.02511v1/all_gpus_power.png",
-            "https://arxiv.org/html/2610.02511v1/all_gpus_forecast_time.png",
-            "https://arxiv.org/html/2610.02511v1/dlwp_rmse_vs_fp32.png"
+            "https://arxiv.org/html/2610.04497v1/graph.q.0.a.90.png",
+            "https://arxiv.org/html/2610.04497v1/img/aa47872-23-fig2.png",
+            "https://arxiv.org/html/2610.04497v1/img/aa41471-21-fig2.jpg",
+            "https://arxiv.org/html/2610.04497v1/img/haywood2015.png",
+            "https://arxiv.org/html/2610.04497v1/aa29291-16._fig12.png",
+            "https://arxiv.org/html/2610.04497v1/rolling_pgram.png",
+            "https://arxiv.org/html/2610.04497v1/model_table.png",
+            "https://arxiv.org/html/2610.04497v1/pseudo_planets.png"
         ]
     },
-    "2610.02619": {
-        "title": "The 200-300 GHz Survey for 18 Class II Disks in the Ophiuchus Star-Forming Complex",
+    "2610.04986": {
+        "title": "Candidate O I 7774 \u00c5 Absorption from an Escaping Rock-Vapor Outflow of BD+05 4868 Ab",
         "authors": [
-            "Chia-Ying Chung",
-            "Hauyu Baobab Liu",
-            "Chuan-Yung Lin",
-            "Linjing Feng",
-            "Sean M. Andrews",
-            "Mark A. Gurwell",
-            "Melvyn Wright"
+            "Kody M. Walker",
+            "James C. Wallace II"
         ],
         "keywords": "",
         "figures": [
-            "https://arxiv.org/html/2610.02619v1/WSB_31.300GHz-high.lsb.png",
-            "https://arxiv.org/html/2610.02619v1/GSS_39.300GHz-high.lsb.png",
-            "https://arxiv.org/html/2610.02619v1/DoAr_25.300GHz-high.lsb.png",
-            "https://arxiv.org/html/2610.02619v1/GSS_26.300GHz-high.lsb.png",
-            "https://arxiv.org/html/2610.02619v1/WSB_60.300GHz-high.lsb.png",
-            "https://arxiv.org/html/2610.02619v1/VSSG_1.300GHz-high.lsb.png",
-            "https://arxiv.org/html/2610.02619v1/YLW_8.300GHz-high.lsb.png",
-            "https://arxiv.org/html/2610.02619v1/IRS_51.300GHz-high.lsb.png",
-            "https://arxiv.org/html/2610.02619v1/DoAr_44.300GHz-high.lsb.png",
-            "https://arxiv.org/html/2610.02619v1/AS_206.300GHz-high.lsb.png"
+            "https://arxiv.org/html/2610.04986v1/3SpectraBD+054868Ab.png",
+            "https://arxiv.org/html/2610.04986v1/BD05_4868_IN_Out.png",
+            "https://arxiv.org/html/2610.04986v1/BD05_4868_red_end_zoom.png",
+            "https://arxiv.org/html/2610.04986v1/LightCurveModel.png",
+            "https://arxiv.org/html/2610.04986v1/fig5.png",
+            "https://arxiv.org/html/2610.04986v1/fig6.png"
         ]
     },
-    "2610.02956": {
-        "title": "Plato benchmark stars I. The initial benchmark sample",
+    "2610.05287": {
+        "title": "Irradiated Atmospheres VII. Effect of Mixing Energy Flux on Atmosphere-Interior Coupling}",
         "authors": [
-            "T. Merle",
-            "P. F. L. Maxted",
-            "O. L. Creevey",
-            "U. Heiter",
-            "D. B. Palakkatharappi",
-            "K. G. He\u0142miniak",
-            "C. C. Aguilera G\u00f3mez",
-            "M. Bazot",
-            "S. Cassisi",
-            "N. Ebrahimkutty",
-            "R. E. Giribaldi",
-            "P. Jofr\u00e9",
-            "F. Kiefer",
-            "M. N. Lund",
-            "N. Miller",
-            "T. Morel",
-            "D. Mourard",
-            "N. Nardetto",
-            "J.-D. do Nascimento Jr.",
-            "T. Olander",
-            "G. N. Pawar",
-            "A. Rebassa-Mansergas",
-            "R. Raddi",
-            "B. Rojas-Ayala",
-            "J. Southworth"
+            "Wei Zhong",
+            "Zhen-Tai Zhang",
+            "Mei Ting Mark",
+            "Xiang-Xing Chen",
+            "Bo Ma",
+            "Xian-Yu Tan",
+            "Cong Yu",
+            "Dong-dong Ni"
         ],
         "keywords": "",
         "figures": [
-            "https://arxiv.org/html/2610.02956v1/astero1.png",
-            "https://arxiv.org/html/2610.02956v1/skymap_gal.png",
-            "https://arxiv.org/html/2610.02956v1/hrd_kiel_combined.png",
-            "https://arxiv.org/html/2610.02956v1/mlr_combined.png"
+            "https://arxiv.org/html/2610.05287v1/redrawn_atmosphere_mantle_core_diagram.png",
+            "https://arxiv.org/html/2610.05287v1/fixed_cef_compare_M1.png",
+            "https://arxiv.org/html/2610.05287v1/fixed_cef_compare_M1_Xco080.png",
+            "https://arxiv.org/html/2610.05287v1/fixed_cef_P0_vs_Xco_M79.png",
+            "https://arxiv.org/html/2610.05287v1/fixed_cef_yi_at_0p1Pa_M79.png"
+        ]
+    },
+    "2610.05951": {
+        "title": "SPIRou near-infrared spectropolarimetry of the ultra-hot Jupiter KELT-9b: tentative detection of the planet magnetic field",
+        "authors": [
+            "Alexis Lavail",
+            "Florian Debras",
+            "David Rog\u00e9 Royo",
+            "Arturo L\u00f3pez Ariste",
+            "Nicholas W. Borsato",
+            "Jean-Fran\u00e7ois Donati",
+            "Pascal Petit",
+            "Julian D. Alvarado G\u00f3mez",
+            "Laur\u00e8ne Jouve",
+            "Claire Moutou",
+            "Andres Carmona",
+            "Baptiste Klein",
+            "Julia V. Seidel",
+            "Luc Arnold",
+            "Etienne Artigau",
+            "Cl\u00e9ment Baruteau",
+            "Estelle Chabrol",
+            "Ryan Cloutier",
+            "Neil J. Cook",
+            "Nicolas B. Cowan",
+            "Xavier Delfosse",
+            "Neda Heidari",
+            "Eder Martioli",
+            "Adrien Masson",
+            "Joost P. Wardenier",
+            "Vincent Yariv"
+        ],
+        "keywords": "",
+        "figures": [
+            "https://arxiv.org/html/2610.05951v1/kelt9-V-KPmap.png",
+            "https://arxiv.org/html/2610.05951v1/kelt9-V-KPmap-all.png",
+            "https://arxiv.org/html/2610.05951v1/kelt9-V-KPmap-libre.png",
+            "https://arxiv.org/html/2610.05951v1/kelt9-fwd-bright3D.png",
+            "https://arxiv.org/html/2610.05951v1/kelt9-fwd-bright3D-west.png",
+            "https://arxiv.org/html/2610.05951v1/kelt9-fwd-mag3D.png"
+        ]
+    },
+    "2610.06077": {
+        "title": "Giant impacts preferentially remove low-mass atmospheres: a generalised scaling law for impact-driven atmospheric loss",
+        "authors": [
+            "Matthew J. Roche",
+            "Simon J. Lock",
+            "Philip J. Carter",
+            "Zo\u00eb M. Leinhardt"
+        ],
+        "keywords": "",
+        "figures": [
+            "https://arxiv.org/html/2610.06077v1/impacts_subplot.png",
+            "https://arxiv.org/html/2610.06077v1/N_body_v4.png",
+            "https://arxiv.org/html/2610.06077v1/MFI_X_atm.png"
+        ]
+    },
+    "2610.06082": {
+        "title": "Spins and shapes of asteroids reconstructed from photometry from surveys",
+        "authors": [
+            "Josef \u010eurech",
+            "Josef Hanu\u0161"
+        ],
+        "keywords": "",
+        "figures": [
+            "https://arxiv.org/html/2610.06082v1/figs/diam_per_ell_new.png",
+            "https://arxiv.org/html/2610.06082v1/figs/P_histogram.png",
+            "https://arxiv.org/html/2610.06082v1/NEAs.png",
+            "https://arxiv.org/html/2610.06082v1/Trojans_L4.png",
+            "https://arxiv.org/html/2610.06082v1/Trojans_L5.png",
+            "https://arxiv.org/html/2610.06082v1/figs/P_histogram_Trojans_Hildas.png",
+            "https://arxiv.org/html/2610.06082v1/Hildas.png",
+            "https://arxiv.org/html/2610.06082v1/tumblers.png",
+            "https://arxiv.org/html/2610.06082v1/figs/diam_per_RMS_new.png",
+            "https://arxiv.org/html/2610.06082v1/binaries_LCDB.png"
+        ]
+    },
+    "2610.06332": {
+        "title": "Shadows cast by precessing annuli as evidence for an inclined planet in HD 139614",
+        "authors": [
+            "Katie L. Milsom",
+            "Tim J. Harries",
+            "Evan A. Rich",
+            "John D. Monnier",
+            "Anna S. E. Laws",
+            "Benjamin R. Setterholm"
+        ],
+        "keywords": "",
+        "figures": [
+            "https://arxiv.org/html/2610.06332v1/deprojected_scaled_normalised_530_1000_au.png",
+            "https://arxiv.org/html/2610.06332v1/annotated_labelled_norm_530_1000.png",
+            "https://arxiv.org/html/2610.06332v1/sphere_stacked_norm_530_1000_labelled.png",
+            "https://arxiv.org/html/2610.06332v1/double_gap_diagram_final.png",
+            "https://arxiv.org/html/2610.06332v1/Figures/disc_grid_5x8_beta10_newnorm.png",
+            "https://arxiv.org/html/2610.06332v1/obs_rt_comparison.png",
+            "https://arxiv.org/html/2610.06332v1/uphi_deprojected_scaled_noramlised_au.png",
+            "https://arxiv.org/html/2610.06332v1/Figures/disc_grid_5x8_longer_newnorm.png",
+            "https://arxiv.org/html/2610.06332v1/Figures/disc_grid_5x8_beta5_newnorm.png"
+        ]
+    },
+    "2610.06416": {
+        "title": "Dynamics around non-spherical symmetric bodies - III. The case of a spherical body with a crater",
+        "authors": [
+            "P. V. S. Soares",
+            "G. Madeira",
+            "S. M. Giuliatti Winter",
+            "T. Ribeiro",
+            "O. C. Winter"
+        ],
+        "keywords": "",
+        "figures": [
+            "https://arxiv.org/html/2610.06416v1/poincareCj_1.89000.png",
+            "https://arxiv.org/html/2610.06416v1/poincareCj_2.08500_.png",
+            "https://arxiv.org/html/2610.06416v1/poincareCj_1.89000.png",
+            "https://arxiv.org/html/2610.06416v1/poincareCj_2.08500_.png",
+            "https://arxiv.org/html/2610.06416v1/poincareCj_1.89000_async.png",
+            "https://arxiv.org/html/2610.06416v1/painel_poincare_zoom_horizontal.png",
+            "https://arxiv.org/html/2610.06416v1/painel_trajetorias_velocidade.png",
+            "https://arxiv.org/html/2610.06416v1/_ae_com_delimitacao_sem_caos.png",
+            "https://arxiv.org/html/2610.06416v1/mapa_tf_gradient_mu_-0.0020.png",
+            "https://arxiv.org/html/2610.06416v1/mapa_estado_col_mu_-0.0020.png"
+        ]
+    },
+    "2610.03737": {
+        "title": "Short-term solar eclipse predictions using Euclidean geometry and dynamical systems",
+        "authors": [
+            "Alin-Doru Aluas",
+            "Valerian-Alin Fodor",
+            "Virgilius-Aurelian Minuta"
+        ],
+        "keywords": "",
+        "figures": [
+            "https://arxiv.org/html/2610.03737v1/figures/02_s2f2_int_sphere_double_cone.png",
+            "https://arxiv.org/html/2610.03737v1/figures/03_A_frustum_symmetry_line.png",
+            "https://arxiv.org/html/2610.03737v1/figures/03_B_frustum_interior.png",
+            "https://arxiv.org/html/2610.03737v1/figures/03_C_frustum_exterior.png",
+            "https://arxiv.org/html/2610.03737v1/figures/03_A_frustum_symmetry_line.png",
+            "https://arxiv.org/html/2610.03737v1/figures/03_B_frustum_interior.png",
+            "https://arxiv.org/html/2610.03737v1/figures/03_C_frustum_exterior.png",
+            "https://arxiv.org/html/2610.03737v1/figures/04_A_2d_intersection_of_a_sphere_and_a_cone_initial.png",
+            "https://arxiv.org/html/2610.03737v1/figures/04_B_2d_intersection_of_a_sphere_and_a_cone_symmetry_line.png",
+            "https://arxiv.org/html/2610.03737v1/figures/04_C_2d_intersection_of_a_sphere_and_a_cone_interior.png"
+        ]
+    },
+    "2610.04655": {
+        "title": "Xenia: A Table-Driven Code for Astrophysical Multi-Fluid Hydrodynamics",
+        "authors": [
+            "Lei Xing"
+        ],
+        "keywords": "",
+        "figures": [
+            "https://arxiv.org/html/2610.04655v1/validation_cloud.png"
+        ]
+    },
+    "2610.05358": {
+        "title": "Astronomia Ova: Kepler's Laws, Ptolemy's Equant, and Legendre's Polynomials",
+        "authors": [
+            "Cristopher Moore",
+            "Malcolm Smith",
+            "Stephan Mertens"
+        ],
+        "keywords": "",
+        "figures": [
+            "https://arxiv.org/html/2610.05358v1/ellipse-var.png"
+        ]
+    },
+    "2610.05372": {
+        "title": "What Caused the Orbital Decay of the Twin Van Allen Probes to Diverge?",
+        "authors": [
+            "Ayisha M Ashruf",
+            "Ankush Bhaskar",
+            "C Vineeth",
+            "Tarun Kumar Pant"
+        ],
+        "keywords": "",
+        "figures": [
+            "https://arxiv.org/html/2610.05372v1/DecayProf_SMAnPeri_withGan.jpg",
+            "https://arxiv.org/html/2610.05372v1/DecayRates_VanAandB_withgeomag_new_withGan.jpg",
+            "https://arxiv.org/html/2610.05372v1/DenVar_all_lowres_withGan.jpg",
+            "https://arxiv.org/html/2610.05372v1/Den_SameAlts_VanAvsB.jpg",
+            "https://arxiv.org/html/2610.05372v1/TimeDiffBelowAlt_vanAvsB.jpg",
+            "https://arxiv.org/html/2610.05372v1/DailyTimeBelow.jpg",
+            "https://arxiv.org/html/2610.05372v1/EnergyLossComp_vanAvsB.jpg"
+        ]
+    },
+    "2610.06254": {
+        "title": "Fast and Stable Nonlinear Emulation of TIEGCM Using an Autoregressive SINDy Framework",
+        "authors": [
+            "Daniele Sicoli",
+            "Sriram Narayanan",
+            "Piyush M. Mehta"
+        ],
+        "keywords": "",
+        "figures": [
+            "https://arxiv.org/html/2610.06254v1/figs/leo_population.png",
+            "https://arxiv.org/html/2610.06254v1/figs/framework.png",
+            "https://arxiv.org/html/2610.06254v1/figs/rom_setting.png",
+            "https://arxiv.org/html/2610.06254v1/figs/ap_f107_thresholds_1996_2024.png",
+            "https://arxiv.org/html/2610.06254v1/figs/acf_pacf.png",
+            "https://arxiv.org/html/2610.06254v1/figs/sindy_components_paper.png",
+            "https://arxiv.org/html/2610.06254v1/figs/coae_latent_space.png",
+            "https://arxiv.org/html/2610.06254v1/figs/companion_eigenvalue_overlay_sindy.png",
+            "https://arxiv.org/html/2610.06254v1/figs/companion_eigenvalue_overlay_dmd.png",
+            "https://arxiv.org/html/2610.06254v1/figs/companion_eigenvalue_overlay_sindy.png"
+        ]
+    },
+    "2610.06780": {
+        "title": "Production of White Dwarf Debris Disks from Planetary Collisions and Poynting-Robertson Drag",
+        "authors": [
+            "Fred C. Adams",
+            "Konstantin Batygin"
+        ],
+        "keywords": "",
+        "figures": [
+            "https://arxiv.org/html/2610.06780v1/figclock.png"
         ]
     }
 }
