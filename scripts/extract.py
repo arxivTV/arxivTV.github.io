@@ -212,7 +212,9 @@ def extract_html(id,html_url):
     
     figures = []
 
-    for i,figure in enumerate(article.find_all("figure")):
+    for figure in article.find_all("figure"):
+        if figure.find_all('figure'):
+            continue
         for img in figure.find_all('img'):
             src = img['src']
             if '/' in src and id in src:
@@ -220,8 +222,14 @@ def extract_html(id,html_url):
             if '.' not in src:
                 continue
             fig_url = html_url + '/' + src
+            fig_caption = figure.find('figcaption')
+            if fig_caption:
+                fig_caption = get_caption_text(fig_caption)
+            else:
+                fig_caption = ''
             if requests.get(fig_url).status_code == 200:
-                figures.append(fig_url)
+                figures.append({'url':fig_url,'caption':fig_caption})
+        
         for img in figure.find_all('object'):
             src = img['data']
             if '/' in src and id in src:
@@ -229,8 +237,14 @@ def extract_html(id,html_url):
             if '.' not in src:
                 continue
             fig_url = html_url + '/' + src
+            
+            fig_caption = figure.find('figcaption')
+            if fig_caption:
+                fig_caption = get_caption_text(fig_caption)
+            else:
+                fig_caption = ''
             if requests.get(fig_url).status_code == 200:
-                figures.append(fig_url)
+                figures.append({'url':fig_url,'caption':fig_caption})
 
     if len(figures) == 0:
         return None
@@ -240,6 +254,8 @@ def extract_html(id,html_url):
     authors = []
     for author in abs_soup.find('div',class_='authors').find_all('a'):
         authors.append(author.text)
+
+    abstract = abs_soup.find('blockquote',class_='abstract mathjax').get_text()
 
     title = abs_soup.find('h1',class_='title').text.replace('Title:','')
 
@@ -251,8 +267,18 @@ def extract_html(id,html_url):
         if kw:
             keywords = kw.text
 
-    return {'title':title,'authors':authors,'keywords':keywords,'figures':figures}
-    
+    print(figures)
+
+    return {'title':title,'authors':authors,'keywords':keywords,'figures':figures,'abstract':abstract}
+
+def get_caption_text(caption):
+    plain_text = caption.get_text()
+    for math in caption.find_all('math'):
+        math_latex = math['alttext']
+        math_text = math.get_text()
+        plain_text = plain_text.replace(math_text,'$' + math_latex + '$',1)
+    return plain_text.replace(r'\n','')
+
 def get_html_url(url):
     response = requests.get(url)
     soup = BeautifulSoup(response.text, "html.parser")
@@ -327,7 +353,7 @@ def main(id):
         return metadata | keywords | figures
 
 arxiv_cats = ['GA','EP','CO','HE','IM','SR']
-
+arxiv_cats = ['CO']
 if not os.path.exists('build'):
     os.mkdir('build')
 
@@ -339,7 +365,7 @@ for arxiv_cat in arxiv_cats:
 
     ids = get_new_arxiv_links(arxiv_cat)
 
-    for id in ids:
+    for id in ids[:3]:
         res = main(id)
         if res is not None:
             global_metadata[id] = res
