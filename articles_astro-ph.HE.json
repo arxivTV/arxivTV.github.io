@@ -8,7 +8,15 @@
         "keywords": "",
         "figures": [
             "https://arxiv.org/html/2610.14058v1/Figs/cluster1.png",
-            "https://arxiv.org/html/2610.14058v1/Figs/cluster2.png"
+            "https://arxiv.org/html/2610.14058v1/Figs/cluster2.png",
+            "https://arxiv.org/html/2610.14058v1/scatter.svg",
+            "https://arxiv.org/html/2610.14058v1/indep.svg",
+            "https://arxiv.org/html/2610.14058v1/ann.svg",
+            "https://arxiv.org/html/2610.14058v1/evaporating.svg",
+            "https://arxiv.org/html/2610.14058v1/SM-plot2.svg",
+            "https://arxiv.org/html/2610.14058v1/SM-plot3.svg",
+            "https://arxiv.org/html/2610.14058v1/SM-plot4.svg",
+            "https://arxiv.org/html/2610.14058v1/SM-plot6.svg"
         ]
     },
     "2610.14185": {
@@ -23,10 +31,16 @@
         ],
         "keywords": "",
         "figures": [
+            "https://arxiv.org/html/2610.14185v1/structure_figure.svg",
+            "https://arxiv.org/html/2610.14185v1/pipeline_figure.svg",
+            "https://arxiv.org/html/2610.14185v1/result_036_followup_pd_hr_publication_persource_uplims.svg",
             "https://arxiv.org/html/2610.14185v1/figures/result_040_followup_pd_pipeline_vs_majumder.png",
             "https://arxiv.org/html/2610.14185v1/figures/result_041_followup_pa_pipeline_vs_majumder.png",
             "https://arxiv.org/html/2610.14185v1/figures/result_181_followup_neglog10p_distribution.png",
-            "https://arxiv.org/html/2610.14185v1/figures/result_141_followup_fig2a_state_grouped.png"
+            "https://arxiv.org/html/2610.14185v1/paper_4u1630_01250401_5ks_lightcurve.svg",
+            "https://arxiv.org/html/2610.14185v1/paper_lmcx1_02001901_5ks_lightcurve.svg",
+            "https://arxiv.org/html/2610.14185v1/result_186_followup_chi2_by_rung.svg",
+            "https://arxiv.org/html/2610.14185v1/result_174_followup_fig1_relative.svg"
         ]
     },
     "2610.14353": {
@@ -41,8 +55,14 @@
         ],
         "keywords": "",
         "figures": [
+            "https://arxiv.org/html/2610.14353v1/period_mass.svg",
             "https://arxiv.org/html/2610.14353v1/spin_mergertime.png",
-            "https://arxiv.org/html/2610.14353v1/spin_mergertime_triple_2Msun_300Rsun_new.png"
+            "https://arxiv.org/html/2610.14353v1/triple_sketch_merger_time.svg",
+            "https://arxiv.org/html/2610.14353v1/tmerger_vs_cosi_different_aout.svg",
+            "https://arxiv.org/html/2610.14353v1/merger_fraction_45_90.svg",
+            "https://arxiv.org/html/2610.14353v1/spin_mergertime_triple_2Msun_300Rsun_new.png",
+            "https://arxiv.org/html/2610.14353v1/distributions_iso_vs_triple_low_z.svg",
+            "https://arxiv.org/html/2610.14353v1/merger_fraction_45_90_diff_eout.svg"
         ]
     },
     "2610.14494": {
@@ -55,10 +75,16 @@
         ],
         "keywords": "",
         "figures": [
+            "https://arxiv.org/html/2610.14494v1/bat_maxi_gs1843.svg",
+            "https://arxiv.org/html/2610.14494v1/profiles_broadband.svg",
+            "https://arxiv.org/html/2610.14494v1/profiles_obs1.svg",
+            "https://arxiv.org/html/2610.14494v1/profiles_obs2.svg",
+            "https://arxiv.org/html/2610.14494v1/profiles_obs3.svg",
             "https://arxiv.org/html/2610.14494v1/heatmap_nustar1.png",
             "https://arxiv.org/html/2610.14494v1/heatmap_nustar2.png",
             "https://arxiv.org/html/2610.14494v1/heatmap_nustar3.png",
-            "https://arxiv.org/html/2610.14494v1/GS1843_opt_radio_chandra_coords.png"
+            "https://arxiv.org/html/2610.14494v1/FIGURE_SPEC_obs1.svg",
+            "https://arxiv.org/html/2610.14494v1/spectrum_plot.svg"
         ]
     },
     "2610.14526": {
@@ -74,6 +100,8 @@
             "https://arxiv.org/html/2610.14526v1/ChainsWithColorbar.png",
             "https://arxiv.org/html/2610.14526v1/AbundanceTableMyr.png",
             "https://arxiv.org/html/2610.14526v1/AbundanceTable100Myr.png",
+            "https://arxiv.org/html/2610.14526v1/AbundanceEvolve.svg",
+            "https://arxiv.org/html/2610.14526v1/RatioDistribution.svg",
             "https://arxiv.org/html/2610.14526v1/AgeMapUTh.png",
             "https://arxiv.org/html/2610.14526v1/AgeMapUX.png",
             "https://arxiv.org/html/2610.14526v1/AgeMapThX.png"
@@ -91,7 +119,33 @@
         ],
         "keywords": "",
         "figures": [
-            "https://arxiv.org/html/2610.14581v1/em_proxy_temp_3panels.png"
+            "https://arxiv.org/html/2610.14581v1/mxf_forest_schematic.svg",
+            "https://arxiv.org/html/2610.14581v1/waiting_time_pdf_elpln.svg",
+            "https://arxiv.org/html/2610.14581v1/em_proxy_temp_3panels.png",
+            "https://arxiv.org/html/2610.14581v1/scale_rpln_emcee_corner.svg"
+        ]
+    },
+    "2610.14924": {
+        "title": "A GeV Gamma-Ray Spectral Excess in the Fermi Blazar 4FGL J0136.5+3906",
+        "authors": [
+            "Shi-Ju Kang",
+            "Yue Yin",
+            "Yong-Gang Zheng",
+            "Qingwen Wu",
+            "Junhui Fan"
+        ],
+        "keywords": "",
+        "figures": [
+            "https://arxiv.org/html/2610.14924v1/fig1_35.svg",
+            "https://arxiv.org/html/2610.14924v1/fig1_45.svg",
+            "https://arxiv.org/html/2610.14924v1/fig2_45_17.svg",
+            "https://arxiv.org/html/2610.14924v1/fig2_45_11.svg",
+            "https://arxiv.org/html/2610.14924v1/figA1_1.svg",
+            "https://arxiv.org/html/2610.14924v1/figA1_2.svg",
+            "https://arxiv.org/html/2610.14924v1/figA1_3.svg",
+            "https://arxiv.org/html/2610.14924v1/figA1_4.svg",
+            "https://arxiv.org/html/2610.14924v1/figA1_5.svg",
+            "https://arxiv.org/html/2610.14924v1/figA1_6.svg"
         ]
     },
     "2610.15569": {
@@ -128,6 +182,28 @@
             "https://arxiv.org/html/2610.15569v1/Figure_New_QPO_State_Correlation.png"
         ]
     },
+    "2610.15703": {
+        "title": "Revisiting the Multiwavelength Data of GRB 240825A: Implications for a Two-Stage Central Engine and a Dusty Environment",
+        "authors": [
+            "Ren-Jie Xiong",
+            "Zi-Qi Wang",
+            "Xiao-Li Huang",
+            "En-Wei Liang"
+        ],
+        "keywords": "",
+        "figures": [
+            "https://arxiv.org/html/2610.15703v1/Fig1_disk.svg",
+            "https://arxiv.org/html/2610.15703v1/Fig1_dyn.svg",
+            "https://arxiv.org/html/2610.15703v1/Fig2_Fallback_HR.svg",
+            "https://arxiv.org/html/2610.15703v1/Fig2_Pd.svg",
+            "https://arxiv.org/html/2610.15703v1/Fig2_dot_M_evolution.svg",
+            "https://arxiv.org/html/2610.15703v1/Fig2_B_horizon.svg",
+            "https://arxiv.org/html/2610.15703v1/Fig2_M_evolution.svg",
+            "https://arxiv.org/html/2610.15703v1/Fig2_a_evolution.svg",
+            "https://arxiv.org/html/2610.15703v1/Fig3_Light_Curve_radio_infrared.svg",
+            "https://arxiv.org/html/2610.15703v1/Fig3_Joint-Spectral-Fitting.svg"
+        ]
+    },
     "2610.15713": {
         "title": "Bayesian exploration of weakly interacting models of dark matter admixed neutron stars based on multi-density constraints",
         "authors": [
@@ -140,6 +216,10 @@
             "https://arxiv.org/html/2610.15713v1/corner_Higgs_NMDM_EFT_Bc.png",
             "https://arxiv.org/html/2610.15713v1/corner_Ndecay_NMDM_EFT_Bc.png",
             "https://arxiv.org/html/2610.15713v1/corner_ALP_NMDM_EFT_Bc.png",
+            "https://arxiv.org/html/2610.15713v1/fmode_R_vs_mass_95.svg",
+            "https://arxiv.org/html/2610.15713v1/M_Lambda_3_1f_95.svg",
+            "https://arxiv.org/html/2610.15713v1/fmode_freq_vs_mass_95.svg",
+            "https://arxiv.org/html/2610.15713v1/fmode_damping_vs_mass_95.svg",
             "https://arxiv.org/html/2610.15713v1/Heatmap_Bayes6.png"
         ]
     },
@@ -150,16 +230,32 @@
         ],
         "keywords": "",
         "figures": [
+            "https://arxiv.org/html/2610.15779v1/field_lines_dipole_quadrupole.svg",
+            "https://arxiv.org/html/2610.15779v1/02_OFL_BQ_field_lines.svg",
             "https://arxiv.org/html/2610.15779v1/RVM_cartoon_014_alpha_30_035_nticks_12.png",
             "https://arxiv.org/html/2610.15779v1/02_OFL_BQ_field_lines_two_OFLR_edges.png",
             "https://arxiv.org/html/2610.15779v1/Illustration_field_lines_OFLR_maps.png",
+            "https://arxiv.org/html/2610.15779v1/OFL_size_plot.svg",
             "https://arxiv.org/html/2610.15779v1/skymap_pa_hybrid_rvm_std.png",
             "https://arxiv.org/html/2610.15779v1/caustics_snap_003_alpha_10_fQ_1_5_R_LC_04_77.png",
             "https://arxiv.org/html/2610.15779v1/caustics_snap_055_alpha_80_fQ_3_0_R_LC_04_77.png",
-            "https://arxiv.org/html/2610.15779v1/pa_metric_scatter.png",
-            "https://arxiv.org/html/2610.15779v1/skymap_metric_rows.png",
-            "https://arxiv.org/html/2610.15779v1/thD_meas_scatter_grid_R_LC_04_77.png",
-            "https://arxiv.org/html/2610.15779v1/thD_meas_scatter_grid_R_LC_23_85.png"
+            "https://arxiv.org/html/2610.15779v1/pa_metric_scatter.png"
+        ]
+    },
+    "2610.16097": {
+        "title": "Radiation-Regulated Spherical Accretion with an Inner Accretion Disk",
+        "authors": [
+            "Cheng-Liang Jiao",
+            "Liying Zhu",
+            "Xiang-dong Shi",
+            "Er-gang Zhao"
+        ],
+        "keywords": "",
+        "figures": [
+            "https://arxiv.org/html/2610.16097v1/fig1.svg",
+            "https://arxiv.org/html/2610.16097v1/fig2.svg",
+            "https://arxiv.org/html/2610.16097v1/fig3.svg",
+            "https://arxiv.org/html/2610.16097v1/fig4.svg"
         ]
     },
     "2610.16130": {
@@ -173,7 +269,13 @@
         ],
         "keywords": "",
         "figures": [
+            "https://arxiv.org/html/2610.16130v1/ASDs.svg",
+            "https://arxiv.org/html/2610.16130v1/accuracy_vs_distance.svg",
+            "https://arxiv.org/html/2610.16130v1/accuracy_vs_time.svg",
             "https://arxiv.org/html/2610.16130v1/figures/skymap.png",
+            "https://arxiv.org/html/2610.16130v1/accuracy_coverage.svg",
+            "https://arxiv.org/html/2610.16130v1/3G.svg",
+            "https://arxiv.org/html/2610.16130v1/CNN_train.svg",
             "https://arxiv.org/html/2610.16130v1/CNN_cm.png",
             "https://arxiv.org/html/2610.16130v1/CNN_cm_7EOS.png"
         ]
@@ -189,6 +291,8 @@
         "keywords": "",
         "figures": [
             "https://arxiv.org/html/2610.16296v1/NW_SW_SE_image.png",
+            "https://arxiv.org/html/2610.16296v1/RXJ1713_NW_SW_SE_CTB37A_IC4637_SurfaceDensity_ronbun.svg",
+            "https://arxiv.org/html/2610.16296v1/NW_SW_SE_src_Nh_vs_photon_plot_ver2.svg",
             "https://arxiv.org/html/2610.16296v1/radial_profile.png",
             "https://arxiv.org/html/2610.16296v1/Hotspot_NW_SW_SE_image.png",
             "https://arxiv.org/html/2610.16296v1/timescale_image.png"
@@ -252,7 +356,14 @@
         "figures": [
             "https://arxiv.org/html/2610.16899v1/FIXvsMOV.png",
             "https://arxiv.org/html/2610.16899v1/FDtemp.png",
-            "https://arxiv.org/html/2610.16899v1/FDpanels.png"
+            "https://arxiv.org/html/2610.16899v1/FDpanels.png",
+            "https://arxiv.org/html/2610.16899v1/FD_lc_spec.svg",
+            "https://arxiv.org/html/2610.16899v1/FD_B-V.svg",
+            "https://arxiv.org/html/2610.16899v1/FD_g-r.svg",
+            "https://arxiv.org/html/2610.16899v1/PEAKest.svg",
+            "https://arxiv.org/html/2610.16899v1/PEAKvsSHELL.svg",
+            "https://arxiv.org/html/2610.16899v1/PEAKb4PEAK.svg",
+            "https://arxiv.org/html/2610.16899v1/PEAKbrightness.svg"
         ]
     },
     "2610.17008": {
@@ -337,9 +448,14 @@
         ],
         "keywords": "",
         "figures": [
+            "https://arxiv.org/html/2610.17247v1/J2147_all_profiles_gaussian_UWL_width_inset.svg",
             "https://arxiv.org/html/2610.17247v1/J2147_soar_sdssg_cutout_v2.png",
+            "https://arxiv.org/html/2610.17247v1/J2147-3604_timingsol_new.svg",
+            "https://arxiv.org/html/2610.17247v1/fermi_profile.svg",
+            "https://arxiv.org/html/2610.17247v1/PB_vs_median_companion_mass.svg",
             "https://arxiv.org/html/2610.17247v1/J2147-3604_pub_polarization.png",
-            "https://arxiv.org/html/2610.17247v1/combined_frequency_phase_equal_panels.png"
+            "https://arxiv.org/html/2610.17247v1/combined_frequency_phase_equal_panels.png",
+            "https://arxiv.org/html/2610.17247v1/J2147_snr_histogram.svg"
         ]
     },
     "2610.17248": {
@@ -387,11 +503,16 @@
         ],
         "keywords": "",
         "figures": [
+            "https://arxiv.org/html/2610.17280v1/confirmed_gbncc_pulsar_profiles_page_1.svg",
+            "https://arxiv.org/html/2610.17280v1/confirmed_gbncc_pulsar_profiles_page_2.svg",
             "https://arxiv.org/html/2610.17280v1/gbncc_sky.png",
+            "https://arxiv.org/html/2610.17280v1/gbncc_period_dm_distribution_publication.svg",
+            "https://arxiv.org/html/2610.17280v1/pulsar_DM_model_discrepancies.svg",
             "https://arxiv.org/html/2610.17280v1/nulling_pulsars_plots.png",
+            "https://arxiv.org/html/2610.17280v1/S350_histogram.svg",
             "https://arxiv.org/html/2610.17280v1/gbncc_flux_sensitivity_including_fast.png",
             "https://arxiv.org/html/2610.17280v1/gbncc_cumulative_latitude_dm_tsky.png",
-            "https://arxiv.org/html/2610.17280v1/dm_sn_overlay_plot_5_220.png"
+            "https://arxiv.org/html/2610.17280v1/fft_and_folded_sn_ecdf.svg"
         ]
     },
     "2610.17618": {
@@ -404,7 +525,9 @@
         ],
         "keywords": "",
         "figures": [
-            "https://arxiv.org/html/2610.17618v1/f1.png"
+            "https://arxiv.org/html/2610.17618v1/f1.png",
+            "https://arxiv.org/html/2610.17618v1/f2.svg",
+            "https://arxiv.org/html/2610.17618v1/f3.svg"
         ]
     },
     "2610.17741": {
@@ -420,7 +543,9 @@
             "https://arxiv.org/html/2610.17741v1/img_xray_10arcmin.jpg",
             "https://arxiv.org/html/2610.17741v1/img_opt_4arcmin.jpg",
             "https://arxiv.org/html/2610.17741v1/IC1297-best-optical.png",
-            "https://arxiv.org/html/2610.17741v1/octant_distribution.png"
+            "https://arxiv.org/html/2610.17741v1/tbabs_apec_cstat_8_apjl.svg",
+            "https://arxiv.org/html/2610.17741v1/octant_distribution.png",
+            "https://arxiv.org/html/2610.17741v1/Lx_vs_D_XPNe.svg"
         ]
     },
     "2610.17982": {
@@ -464,8 +589,13 @@
         "figures": [
             "https://arxiv.org/html/2610.18146v1/Finkbeiner_mosaic_clean.png",
             "https://arxiv.org/html/2610.18146v1/MWA_pulsar_profiles_2x3.png",
+            "https://arxiv.org/html/2610.18146v1/MWA_pulsar_spectrum_2x3_revised.svg",
             "https://arxiv.org/html/2610.18146v1/tau_combined.png",
-            "https://arxiv.org/html/2610.18146v1/J0835-4510_result.png"
+            "https://arxiv.org/html/2610.18146v1/J0835-4510_result.png",
+            "https://arxiv.org/html/2610.18146v1/discussion_turnover_summary_abc.svg",
+            "https://arxiv.org/html/2610.18146v1/alpha_sc_comparison_with_literature_pub.svg",
+            "https://arxiv.org/html/2610.18146v1/gedm_ratio_summary_revised.svg",
+            "https://arxiv.org/html/2610.18146v1/empirical_tau150_summary_pub.svg"
         ]
     },
     "2610.18208": {
@@ -483,7 +613,10 @@
             "https://arxiv.org/html/2610.18208v1/fig2-6800-m17-high-res-rot.jpg",
             "https://arxiv.org/html/2610.18208v1/fig3a-m17-FMS-rot.png",
             "https://arxiv.org/html/2610.18208v1/fig3b-m17-reconnection-rot.png",
-            "https://arxiv.org/html/2610.18208v1/fig5a-m17-7000.png"
+            "https://arxiv.org/html/2610.18208v1/fig5a-m17-7000.png",
+            "https://arxiv.org/html/2610.18208v1/fig5b-m17-6000.svg",
+            "https://arxiv.org/html/2610.18208v1/fig5c-m17-6000.svg",
+            "https://arxiv.org/html/2610.18208v1/fig4-model17.svg"
         ]
     },
     "2610.18315": {
@@ -496,7 +629,11 @@
         "keywords": "",
         "figures": [
             "https://arxiv.org/html/2610.18315v1/ApJ25Fig_zndHeC.png",
-            "https://arxiv.org/html/2610.18315v1/ApJ25Fig_zndCO.png"
+            "https://arxiv.org/html/2610.18315v1/ApJ25Fig_quenchHeC.svg",
+            "https://arxiv.org/html/2610.18315v1/ApJ25Fig_initHeC.svg",
+            "https://arxiv.org/html/2610.18315v1/ApJ25Fig_zndCO.png",
+            "https://arxiv.org/html/2610.18315v1/ApJ25Fig_calib.svg",
+            "https://arxiv.org/html/2610.18315v1/ApJ25Fig_initCO.svg"
         ]
     },
     "2610.18322": {
@@ -561,6 +698,34 @@
             "https://arxiv.org/html/2610.18384v1/figures/aps_noise_comparison.png"
         ]
     },
+    "2610.18429": {
+        "title": "Delving into the depths of NGC 3783 with XRISM VI. Evidence for a failed wind based on Fe xxv absorption line variability",
+        "authors": [
+            "Chen Li",
+            "Jelle S. Kaastra",
+            "Liyi Gu",
+            "Missagh Mehdipour",
+            "Keigo Fukumura",
+            "Matteo Guainazzi",
+            "Misaki Mizumoto",
+            "Ehud Behar",
+            "Shoji Ogawa",
+            "Keqin Zhao"
+        ],
+        "keywords": "",
+        "figures": [
+            "https://arxiv.org/html/2610.18429v1/intervals_new.svg",
+            "https://arxiv.org/html/2610.18429v1/Fe25_data_etau.svg",
+            "https://arxiv.org/html/2610.18429v1/EW_obs_4panels.svg",
+            "https://arxiv.org/html/2610.18429v1/xtd_swt_0.3-10keV_scaled.svg",
+            "https://arxiv.org/html/2610.18429v1/ionC_A1_B_C.svg",
+            "https://arxiv.org/html/2610.18429v1/xabs_transm_Missagh_overplot.svg",
+            "https://arxiv.org/html/2610.18429v1/combined_converter.svg",
+            "https://arxiv.org/html/2610.18429v1/model1_denA1_12.0_denB_12.0.svg",
+            "https://arxiv.org/html/2610.18429v1/model1_denA1_16.0_denB_16.0.svg",
+            "https://arxiv.org/html/2610.18429v1/fe25_ionc_xil.svg"
+        ]
+    },
     "2610.18476": {
         "title": "Broadband non-thermal emission predictions based on 3D simulations of supernova explosions within active galactic nuclei jets",
         "authors": [
@@ -573,14 +738,14 @@
         "figures": [
             "https://arxiv.org/html/2610.18476v1/density3d_6snap_HR_v.png",
             "https://arxiv.org/html/2610.18476v1/b_6snap_HR.png",
+            "https://arxiv.org/html/2610.18476v1/E_dist_part.svg",
+            "https://arxiv.org/html/2610.18476v1/sed_hr_0.0035.svg",
+            "https://arxiv.org/html/2610.18476v1/LE_LC.svg",
+            "https://arxiv.org/html/2610.18476v1/HE_LC.svg",
             "https://arxiv.org/html/2610.18476v1/radio_D_16_sm.png",
             "https://arxiv.org/html/2610.18476v1/optic_D_16_sm.png",
             "https://arxiv.org/html/2610.18476v1/3kev_D_16_sm.png",
-            "https://arxiv.org/html/2610.18476v1/100Mev_D_16.png",
-            "https://arxiv.org/html/2610.18476v1/1TeV_D_16.png",
-            "https://arxiv.org/html/2610.18476v1/radio_D_16.png",
-            "https://arxiv.org/html/2610.18476v1/optic_D_16.png",
-            "https://arxiv.org/html/2610.18476v1/3kev_D_16.png"
+            "https://arxiv.org/html/2610.18476v1/100Mev_D_16.png"
         ]
     },
     "2610.18633": {
@@ -613,7 +778,16 @@
         ],
         "keywords": "",
         "figures": [
-            "https://arxiv.org/html/2610.18633v1/sankey_diagram.png"
+            "https://arxiv.org/html/2610.18633v1/sankey_diagram.png",
+            "https://arxiv.org/html/2610.18633v1/classifiers.svg",
+            "https://arxiv.org/html/2610.18633v1/colour_evolution_corr.svg",
+            "https://arxiv.org/html/2610.18633v1/rise_time_vs_colour_corr.svg",
+            "https://arxiv.org/html/2610.18633v1/redshift.svg",
+            "https://arxiv.org/html/2610.18633v1/TDE_lightcurves_grid.svg",
+            "https://arxiv.org/html/2610.18633v1/TDE_spectra_grid.svg",
+            "https://arxiv.org/html/2610.18633v1/rise_time_vs_colour_corr_not_class.svg",
+            "https://arxiv.org/html/2610.18633v1/not_class_colour_evolution_corr_pre.svg",
+            "https://arxiv.org/html/2610.18633v1/rise_time_vs_colour_corr_not_class.svg"
         ]
     },
     "2610.18671": {
@@ -623,10 +797,51 @@
         ],
         "keywords": "",
         "figures": [
+            "https://arxiv.org/html/2610.18671v1/CR_density.svg",
             "https://arxiv.org/html/2610.18671v1/spectra_Solar_Rg30_vary_f_met.png",
             "https://arxiv.org/html/2610.18671v1/parameter_scan_combined_nu_all_3TeV.png",
             "https://arxiv.org/html/2610.18671v1/parameter_scan_combined_nu_all_100TeV.png",
-            "https://arxiv.org/html/2610.18671v1/x1.png"
+            "https://arxiv.org/html/2610.18671v1/rates_p.svg",
+            "https://arxiv.org/html/2610.18671v1/rates_Fe.svg",
+            "https://arxiv.org/html/2610.18671v1/Dpp_Fe_Rg30_f_met0p6_pivot100GV_Lacc4p69088131389e+40_remaining.svg",
+            "https://arxiv.org/html/2610.18671v1/cascade.svg",
+            "https://arxiv.org/html/2610.18671v1/x1.png",
+            "https://arxiv.org/html/2610.18671v1/x2.svg"
+        ]
+    },
+    "2610.18687": {
+        "title": "The compact jets of the black hole X-ray binary Swift J1753.5-0127 during its 2023-2024 outburst",
+        "authors": [
+            "Noa Grollimund",
+            "St\u00e9phane Corbel",
+            "Lauren Rhodes",
+            "David M. Russell",
+            "M. Cristina Baglio",
+            "Francesco Carotenuto",
+            "Tristan Bouchet",
+            "Payaswini Saikia",
+            "Rob P. Fender",
+            "Sara E. Motta",
+            "Piergiorgio Casella",
+            "Kevin Alabarta",
+            "Fraser Lewis",
+            "Andrew K. Hughes",
+            "Fraser J. Cowie",
+            "Justine Crook-Mansour",
+            "Xian Zhang"
+        ],
+        "keywords": "",
+        "figures": [
+            "https://arxiv.org/html/2610.18687v1/SwiftJ1753_mw_lc.svg",
+            "https://arxiv.org/html/2610.18687v1/SwiftJ1753_correlation_alpha.svg",
+            "https://arxiv.org/html/2610.18687v1/SwiftJ1753_correlation.svg",
+            "https://arxiv.org/html/2610.18687v1/SwiftJ1753_SED_MJD60236.svg",
+            "https://arxiv.org/html/2610.18687v1/SwiftJ1753_SEDs.svg",
+            "https://arxiv.org/html/2610.18687v1/SwiftJ1753_correlation_outliers.svg",
+            "https://arxiv.org/html/2610.18687v1/SwiftJ1753_jet_alpha_confinement.svg",
+            "https://arxiv.org/html/2610.18687v1/SwiftJ1753_LrLx_jet_confinement.svg",
+            "https://arxiv.org/html/2610.18687v1/SwiftJ1753_correlation_corrections.svg",
+            "https://arxiv.org/html/2610.18687v1/SwiftJ1753_correlation_distance.svg"
         ]
     },
     "2610.18710": {
@@ -643,6 +858,40 @@
             "https://arxiv.org/html/2610.18710v1/Fig4.png",
             "https://arxiv.org/html/2610.18710v1/Fig5.png",
             "https://arxiv.org/html/2610.18710v1/Fig6.png"
+        ]
+    },
+    "2610.18840": {
+        "title": "Seeing Double: The Theory Defying Twin Flares of TDE 2022dbl",
+        "authors": [
+            "Xinze Guo",
+            "Ryan Chornock",
+            "Raffaella Margutti",
+            "Yuhan Yao",
+            "Erica Hammerstein",
+            "Natalie LeBaron",
+            "S. Bradley Cenko",
+            "Matthew J. Graham",
+            "Dina Ibrahimzade",
+            "Itai Sfaradi",
+            "Jean Somalwar",
+            "Robert Stein",
+            "Eli Wiston",
+            "Joahan Castaneda Jaimes",
+            "Mansi M. Kasliwal",
+            "Russ R. Laher"
+        ],
+        "keywords": "",
+        "figures": [
+            "https://arxiv.org/html/2610.18840v1/prospector1.svg",
+            "https://arxiv.org/html/2610.18840v1/ppxf.svg",
+            "https://arxiv.org/html/2610.18840v1/SwiftZTFATLAS.svg",
+            "https://arxiv.org/html/2610.18840v1/x1.svg",
+            "https://arxiv.org/html/2610.18840v1/blackbody.svg",
+            "https://arxiv.org/html/2610.18840v1/Bolometric_luminosity_broken_axis.svg",
+            "https://arxiv.org/html/2610.18840v1/triseanddecline.svg",
+            "https://arxiv.org/html/2610.18840v1/halphaproof.svg",
+            "https://arxiv.org/html/2610.18840v1/Halpha.svg",
+            "https://arxiv.org/html/2610.18840v1/NIIIratio.svg"
         ]
     },
     "2610.14129": {
@@ -674,6 +923,8 @@
         ],
         "keywords": "",
         "figures": [
+            "https://arxiv.org/html/2610.14172v1/broad.svg",
+            "https://arxiv.org/html/2610.14172v1/Fe_band_transmission.svg",
             "https://arxiv.org/html/2610.14172v1/bar_plot.png"
         ]
     },
@@ -684,7 +935,16 @@
         ],
         "keywords": "",
         "figures": [
-            "https://arxiv.org/html/2610.14188v1/global_scan.png"
+            "https://arxiv.org/html/2610.14188v1/kinematic_plane.svg",
+            "https://arxiv.org/html/2610.14188v1/recoil_spectra.svg",
+            "https://arxiv.org/html/2610.14188v1/recoil_mass_scan.svg",
+            "https://arxiv.org/html/2610.14188v1/recoil_spectra_LZ_regions.svg",
+            "https://arxiv.org/html/2610.14188v1/lz_high_low_coupling_bands_mchi_1000_low0to100.svg",
+            "https://arxiv.org/html/2610.14188v1/relic_branching_all_channels.svg",
+            "https://arxiv.org/html/2610.14188v1/relic_coupling_vs_mchi_fixedbenchmark_unitarity_split.svg",
+            "https://arxiv.org/html/2610.14188v1/run3_fixed_mchi1000_highmass.svg",
+            "https://arxiv.org/html/2610.14188v1/solar_equilibrium_diagnostic_v2.svg",
+            "https://arxiv.org/html/2610.14188v1/delta_band_vs_mchi_MZB1000GeV_newcriteria.svg"
         ]
     },
     "2610.14587": {
@@ -707,7 +967,15 @@
         ],
         "keywords": "",
         "figures": [
-            "https://arxiv.org/html/2610.14587v1/trace.png"
+            "https://arxiv.org/html/2610.14587v1/workflow.svg",
+            "https://arxiv.org/html/2610.14587v1/trace.png",
+            "https://arxiv.org/html/2610.14587v1/inference_time.svg",
+            "https://arxiv.org/html/2610.14587v1/ess_per_sec.svg",
+            "https://arxiv.org/html/2610.14587v1/ess_evolution.svg",
+            "https://arxiv.org/html/2610.14587v1/spec.svg",
+            "https://arxiv.org/html/2610.14587v1/qq_detrend.svg",
+            "https://arxiv.org/html/2610.14587v1/pit_detrend.svg",
+            "https://arxiv.org/html/2610.14587v1/ppc.svg"
         ]
     },
     "2610.16054": {
@@ -718,8 +986,16 @@
         ],
         "keywords": "",
         "figures": [
+            "https://arxiv.org/html/2610.16054v1/fig_spectrum_map_220.svg",
+            "https://arxiv.org/html/2610.16054v1/fig_small_mu_main.svg",
             "https://arxiv.org/html/2610.16054v1/fig_Fisher_forecast.png",
-            "https://arxiv.org/html/2610.16054v1/fig_threshold_phase_space.png"
+            "https://arxiv.org/html/2610.16054v1/fig_threshold_phase_space.png",
+            "https://arxiv.org/html/2610.16054v1/smS1_convergence.svg",
+            "https://arxiv.org/html/2610.16054v1/smS2_numerical_uncertainty.svg",
+            "https://arxiv.org/html/2610.16054v1/smS3_small_mu.svg",
+            "https://arxiv.org/html/2610.16054v1/smS4_cly_comparison.svg",
+            "https://arxiv.org/html/2610.16054v1/smS5_spectrum_map_221.svg",
+            "https://arxiv.org/html/2610.16054v1/smS6_spectrum_map_330.svg"
         ]
     },
     "2610.16269": {
@@ -752,7 +1028,12 @@
         ],
         "keywords": "",
         "figures": [
-            "https://arxiv.org/html/2610.16805v1/summary_graph.png"
+            "https://arxiv.org/html/2610.16805v1/summary_graph.png",
+            "https://arxiv.org/html/2610.16805v1/zeta_interdependence.svg",
+            "https://arxiv.org/html/2610.16805v1/beta_scaling.svg",
+            "https://arxiv.org/html/2610.16805v1/mach_classification_histogram.svg",
+            "https://arxiv.org/html/2610.16805v1/zeta_interdependence_full_sample.svg",
+            "https://arxiv.org/html/2610.16805v1/molecular_cloud_interdependence.svg"
         ]
     },
     "2610.16968": {
@@ -771,9 +1052,16 @@
         ],
         "keywords": "",
         "figures": [
-            "https://arxiv.org/html/2610.16968v1/viable_vd_cross_section_s_wave.png",
-            "https://arxiv.org/html/2610.16968v1/vd_aMC_velocity_dispersion.png",
-            "https://arxiv.org/html/2610.16968v1/vd_aMC_aSIDM_velocity_dispersion.png"
+            "https://arxiv.org/html/2610.16968v1/dark_sector_running_coupling.svg",
+            "https://arxiv.org/html/2610.16968v1/freeze_in_freeze_out_evolution.svg",
+            "https://arxiv.org/html/2610.16968v1/SIDM_production_mechanisms_vector.svg",
+            "https://arxiv.org/html/2610.16968v1/effective_force_vector.svg",
+            "https://arxiv.org/html/2610.16968v1/attractive_force_scalar.svg",
+            "https://arxiv.org/html/2610.16968v1/repulsive_force_ASIDM.svg",
+            "https://arxiv.org/html/2610.16968v1/linear_matter_power_spectra.svg",
+            "https://arxiv.org/html/2610.16968v1/angular_distributions.svg",
+            "https://arxiv.org/html/2610.16968v1/cross_sections.svg",
+            "https://arxiv.org/html/2610.16968v1/viable_vd_cross_section_s_wave.png"
         ]
     },
     "2610.16982": {
@@ -803,7 +1091,16 @@
         ],
         "keywords": "",
         "figures": [
-            "https://arxiv.org/html/2610.17033v1/HeatMap.png"
+            "https://arxiv.org/html/2610.17033v1/CCscheme.svg",
+            "https://arxiv.org/html/2610.17033v1/tauPP.svg",
+            "https://arxiv.org/html/2610.17033v1/HeatMap.png",
+            "https://arxiv.org/html/2610.17033v1/GammaNuSED.svg",
+            "https://arxiv.org/html/2610.17033v1/RateVsS.svg",
+            "https://arxiv.org/html/2610.17033v1/GammaNuLuminosity.svg",
+            "https://arxiv.org/html/2610.17033v1/tcool.svg",
+            "https://arxiv.org/html/2610.17033v1/fchiTau0.svg",
+            "https://arxiv.org/html/2610.17033v1/fchiTau0001.svg",
+            "https://arxiv.org/html/2610.17033v1/fchiTau001.svg"
         ]
     },
     "2610.17217": {
@@ -836,14 +1133,16 @@
         ],
         "keywords": "",
         "figures": [
+            "https://arxiv.org/html/2610.17217v1/fig1.svg",
             "https://arxiv.org/html/2610.17217v1/plots_final/fig02_signal_spectrum.png",
+            "https://arxiv.org/html/2610.17217v1/Z_plot.svg",
+            "https://arxiv.org/html/2610.17217v1/sf_plot.svg",
+            "https://arxiv.org/html/2610.17217v1/axion_lim.svg",
             "https://arxiv.org/html/2610.17217v1/plots_final/cosi_dec.png",
             "https://arxiv.org/html/2610.17217v1/plots_final/background_spectrum_ourfits_components.png",
             "https://arxiv.org/html/2610.17217v1/plots_final/smoothing_marginals_windows.png",
             "https://arxiv.org/html/2610.17217v1/plots_final/smoothing_empty_fraction_15deg.png",
-            "https://arxiv.org/html/2610.17217v1/plots_final/toy_mc_survival_and_limits.png",
-            "https://arxiv.org/html/2610.17217v1/plots_final/cds_gain_over_energy_only.png",
-            "https://arxiv.org/html/2610.17217v1/plots_final/roi_50deg_with_allsky.png"
+            "https://arxiv.org/html/2610.17217v1/plots_final/toy_mc_survival_and_limits.png"
         ]
     },
     "2610.17230": {
@@ -856,10 +1155,86 @@
         ],
         "keywords": "",
         "figures": [
+            "https://arxiv.org/html/2610.17230v1/fig1.svg",
+            "https://arxiv.org/html/2610.17230v1/fig2.svg",
             "https://arxiv.org/html/2610.17230v1/fig3.png",
+            "https://arxiv.org/html/2610.17230v1/fig4.svg",
             "https://arxiv.org/html/2610.17230v1/fig5.png",
             "https://arxiv.org/html/2610.17230v1/fig6.png",
             "https://arxiv.org/html/2610.17230v1/fig7.png"
+        ]
+    },
+    "2610.17253": {
+        "title": "An upper limit on Galactic OB+black hole binaries from SDSS-V",
+        "authors": [
+            "J. M\u00fcller-Horn",
+            "H.-W. Rix",
+            "S. Shahaf",
+            "B. Pennell",
+            "E. Zari",
+            "M.C. Ram\u00edrez-Tannus",
+            "A. Farah",
+            "R. Essick",
+            "J.I. Villase\u00f1or",
+            "M.R. Blanton",
+            "J.G. Fern\u00e1ndez-Trincado",
+            "J.A. Kollmeier",
+            "C. Lam",
+            "K. Maltsev",
+            "A. Roman-Lopes",
+            "D.P. Schneider",
+            "A. Tkachenko"
+        ],
+        "keywords": "",
+        "figures": [
+            "https://arxiv.org/html/2610.17253v1/rv_amplitude_histogram.svg",
+            "https://arxiv.org/html/2610.17253v1/fbh_posterior_default.svg",
+            "https://arxiv.org/html/2610.17253v1/fbh_epsilon_scan.svg",
+            "https://arxiv.org/html/2610.17253v1/stellar_mass_histogram.svg"
+        ]
+    },
+    "2610.17423": {
+        "title": "Internal Nucleon Properties and the Equation of State of Ultra-Dense Matter",
+        "authors": [
+            "Bikram Keshari Pradhan",
+            "J\u00e9r\u00f4me Margueron",
+            "Guy Chanfray",
+            "Hubert Hansen"
+        ],
+        "keywords": "",
+        "figures": [
+            "https://arxiv.org/html/2610.17423v1/fields_vs_r_pi_omega_piomegarho.svg",
+            "https://arxiv.org/html/2610.17423v1/Density_vs_r_pi_omega_piomegarho.svg",
+            "https://arxiv.org/html/2610.17423v1/Energy_density_profiles_pi_omega_and_piomegarho_soliton.svg",
+            "https://arxiv.org/html/2610.17423v1/Pressure_profiles_pi_omega_and_piomegarho_soliton.svg",
+            "https://arxiv.org/html/2610.17423v1/shear_profiles_pi_omega_and_piomegarho_soliton.svg",
+            "https://arxiv.org/html/2610.17423v1/Energy_density_profiles_pi_omega_and_piomegarho_soliton.svg",
+            "https://arxiv.org/html/2610.17423v1/Pressure_profiles_pi_omega_and_piomegarho_soliton.svg",
+            "https://arxiv.org/html/2610.17423v1/shear_profiles_pi_omega_and_piomegarho_soliton.svg",
+            "https://arxiv.org/html/2610.17423v1/mechanical_pressure_profiles.svg",
+            "https://arxiv.org/html/2610.17423v1/Ecan_component_with_distribution.svg"
+        ]
+    },
+    "2610.18103": {
+        "title": "Finite-Temperature Equations of State for Neutron-Star Mergers within the Quark Mean-Field Model",
+        "authors": [
+            "Shuochong Han",
+            "Xiangdong Sun",
+            "Zhenyu Zhu",
+            "Ang Li"
+        ],
+        "keywords": "",
+        "figures": [
+            "https://arxiv.org/html/2610.18103v1/gsig_rho.svg",
+            "https://arxiv.org/html/2610.18103v1/meff_rho.svg",
+            "https://arxiv.org/html/2610.18103v1/beta.svg",
+            "https://arxiv.org/html/2610.18103v1/rho.svg",
+            "https://arxiv.org/html/2610.18103v1/mu.svg",
+            "https://arxiv.org/html/2610.18103v1/FA.svg",
+            "https://arxiv.org/html/2610.18103v1/epsilon.svg",
+            "https://arxiv.org/html/2610.18103v1/P.svg",
+            "https://arxiv.org/html/2610.18103v1/S.svg",
+            "https://arxiv.org/html/2610.18103v1/TS.svg"
         ]
     },
     "2610.18475": {
@@ -873,7 +1248,14 @@
         "keywords": "",
         "figures": [
             "https://arxiv.org/html/2610.18475v1/figure/star_scattering_graphical_abstract.png",
-            "https://arxiv.org/html/2610.18475v1/figure/nia_pia_contours_combined.png"
+            "https://arxiv.org/html/2610.18475v1/star_causal_contour_schematic.svg",
+            "https://arxiv.org/html/2610.18475v1/green_abs_log_120M.svg",
+            "https://arxiv.org/html/2610.18475v1/bilinear_complex_r_contour.svg",
+            "https://arxiv.org/html/2610.18475v1/observer_causal_penrose.svg",
+            "https://arxiv.org/html/2610.18475v1/figure/nia_pia_contours_combined.png",
+            "https://arxiv.org/html/2610.18475v1/chirp_four_panels.svg",
+            "https://arxiv.org/html/2610.18475v1/fmode_amplitude_spa.svg",
+            "https://arxiv.org/html/2610.18475v1/general_cavity_reflection_schematic.svg"
         ]
     },
     "2610.18505": {

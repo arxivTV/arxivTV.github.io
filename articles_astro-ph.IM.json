@@ -40,7 +40,15 @@
         ],
         "keywords": "",
         "figures": [
-            "https://arxiv.org/html/2610.14587v1/trace.png"
+            "https://arxiv.org/html/2610.14587v1/workflow.svg",
+            "https://arxiv.org/html/2610.14587v1/trace.png",
+            "https://arxiv.org/html/2610.14587v1/inference_time.svg",
+            "https://arxiv.org/html/2610.14587v1/ess_per_sec.svg",
+            "https://arxiv.org/html/2610.14587v1/ess_evolution.svg",
+            "https://arxiv.org/html/2610.14587v1/spec.svg",
+            "https://arxiv.org/html/2610.14587v1/qq_detrend.svg",
+            "https://arxiv.org/html/2610.14587v1/pit_detrend.svg",
+            "https://arxiv.org/html/2610.14587v1/ppc.svg"
         ]
     },
     "2610.14801": {
@@ -65,7 +73,10 @@
             "https://arxiv.org/html/2610.14801v1/small1.png",
             "https://arxiv.org/html/2610.14801v1/mediumlarge.png",
             "https://arxiv.org/html/2610.14801v1/feature.png",
-            "https://arxiv.org/html/2610.14801v1/slope_ah_scaled_pwv_with_date.png"
+            "https://arxiv.org/html/2610.14801v1/slope_ah_scaled_pwv_with_date.png",
+            "https://arxiv.org/html/2610.14801v1/RMS_vs_Cn2_scaled_with_fits.svg",
+            "https://arxiv.org/html/2610.14801v1/Config_A0B2D0C1_base_0_psd_vs_effPWV_withFit.svg",
+            "https://arxiv.org/html/2610.14801v1/Combined_RMS_Histogram_CDF_LogNormal.svg"
         ]
     },
     "2610.14819": {
@@ -88,6 +99,7 @@
         ],
         "keywords": "",
         "figures": [
+            "https://arxiv.org/html/2610.14819v1/ILMT_pipeline_flowchart.svg",
             "https://arxiv.org/html/2610.14819v1/20240214-0006_psf_zp.png"
         ]
     },
@@ -121,6 +133,8 @@
         ],
         "keywords": "",
         "figures": [
+            "https://arxiv.org/html/2610.15811v1/fig1.svg",
+            "https://arxiv.org/html/2610.15811v1/fig2.svg",
             "https://arxiv.org/html/2610.15811v1/fig3.png"
         ]
     },
@@ -186,11 +200,11 @@
             "https://arxiv.org/html/2610.15913v1/figures/drone_emission_f_distance.png",
             "https://arxiv.org/html/2610.15913v1/expected_scan_pattern1.png",
             "https://arxiv.org/html/2610.15913v1/expected_scan_pattern2.png",
+            "https://arxiv.org/html/2610.15913v1/measured_scan_pattern1_mid.svg",
+            "https://arxiv.org/html/2610.15913v1/measured_scan_pattern2_mid.svg",
             "https://arxiv.org/html/2610.15913v1/drone_crossing_single.png",
-            "https://arxiv.org/html/2610.15913v1/figures/stacked_map_satp1_93_nolabel.png",
-            "https://arxiv.org/html/2610.15913v1/figures/stacked_map_satp3_93.png",
-            "https://arxiv.org/html/2610.15913v1/figures/example_fit_satp1_and_res.png",
-            "https://arxiv.org/html/2610.15913v1/figures/example_fit_satp3_and_res.png"
+            "https://arxiv.org/html/2610.15913v1/PSD_sum_example.svg",
+            "https://arxiv.org/html/2610.15913v1/figures/stacked_map_satp1_93_nolabel.png"
         ]
     },
     "2610.16269": {
@@ -214,6 +228,20 @@
             "https://arxiv.org/html/2610.16269v1/fig_4.png"
         ]
     },
+    "2610.16633": {
+        "title": "Institutional broadening of the Japanese astronomy and astrophysics research community during 1996-2025",
+        "authors": [
+            "Hideaki Fujiwara"
+        ],
+        "keywords": "",
+        "figures": [
+            "https://arxiv.org/html/2610.16633v1/number_of_publications_by_year.svg",
+            "https://arxiv.org/html/2610.16633v1/unique_japanese_scival_institutions_by_sector.svg",
+            "https://arxiv.org/html/2610.16633v1/top5_top10_top15_top20_share.svg",
+            "https://arxiv.org/html/2610.16633v1/effective_number_from_shannon_entropy.svg",
+            "https://arxiv.org/html/2610.16633v1/higher_education_inst_type_unique_counts.svg"
+        ]
+    },
     "2610.16903": {
         "title": "Initial Performance Tests of MASTA for Wide-Field Narrowband Imaging",
         "authors": [
@@ -226,14 +254,15 @@
         "keywords": "",
         "figures": [
             "https://arxiv.org/html/2610.16903v1/QE_compare.png",
+            "https://arxiv.org/html/2610.16903v1/MASTA_filters_transmission.svg",
+            "https://arxiv.org/html/2610.16903v1/Camera_Compare_SB_Flux.svg",
+            "https://arxiv.org/html/2610.16903v1/Camera_Compare_Source_Mag.svg",
+            "https://arxiv.org/html/2610.16903v1/Camera_Compare_SB_Flux.svg",
+            "https://arxiv.org/html/2610.16903v1/Camera_Compare_Source_Mag.svg",
             "https://arxiv.org/html/2610.16903v1/sb_depth_map_wcs.png",
             "https://arxiv.org/html/2610.16903v1/Halpha_4panel_global_new.png",
             "https://arxiv.org/html/2610.16903v1/Halpha_4panel_zoomin_new.png",
-            "https://arxiv.org/html/2610.16903v1/OIII_4panel_global_new.png",
-            "https://arxiv.org/html/2610.16903v1/OIII_4panel_zoomin_new.png",
-            "https://arxiv.org/html/2610.16903v1/Cygnus_Loop_4panel_global.png",
-            "https://arxiv.org/html/2610.16903v1/Cygnus_Loop_4panel_zoomin.png",
-            "https://arxiv.org/html/2610.16903v1/sitele_vs_masta_zoomin.png"
+            "https://arxiv.org/html/2610.16903v1/OIII_4panel_global_new.png"
         ]
     },
     "2610.17081": {
@@ -273,8 +302,15 @@
         ],
         "keywords": "",
         "figures": [
+            "https://arxiv.org/html/2610.17168v1/fig1_problem_v16.svg",
             "https://arxiv.org/html/2610.17168v1/A2_XPool_ROC.png",
-            "https://arxiv.org/html/2610.17168v1/roc_by_subclass2.png"
+            "https://arxiv.org/html/2610.17168v1/auc_vs_time2.svg",
+            "https://arxiv.org/html/2610.17168v1/roc_by_subclass2.png",
+            "https://arxiv.org/html/2610.17168v1/class_fpr_vs_time2.svg",
+            "https://arxiv.org/html/2610.17168v1/tokenize_v10.svg",
+            "https://arxiv.org/html/2610.17168v1/fig3_classA_v16.svg",
+            "https://arxiv.org/html/2610.17168v1/fig4_classB_v19.svg",
+            "https://arxiv.org/html/2610.17168v1/fig5_readout_v19.svg"
         ]
     },
     "2610.17223": {
@@ -294,12 +330,12 @@
             "https://arxiv.org/html/2610.17223v1/nspec.png",
             "https://arxiv.org/html/2610.17223v1/nchan.png",
             "https://arxiv.org/html/2610.17223v1/hanning_ft_ns10000_nc1000_zoom_floorlambda.png",
+            "https://arxiv.org/html/2610.17223v1/resolution_recovery.svg",
             "https://arxiv.org/html/2610.17223v1/hanning_autocor_ns10000_nc1000_plusZ.png",
             "https://arxiv.org/html/2610.17223v1/hanning_autocor_ns10000_nc1000_minusZ.png",
             "https://arxiv.org/html/2610.17223v1/hanning_ft_ns10000_nc1000_plusZ.png",
             "https://arxiv.org/html/2610.17223v1/hanning_ft_ns10000_nc1000_minusZ.png",
-            "https://arxiv.org/html/2610.17223v1/hanning_kernel_ns10000_nc1000_plusZ.png",
-            "https://arxiv.org/html/2610.17223v1/hanning_kernel_ns10000_nc1000_minusZ.png"
+            "https://arxiv.org/html/2610.17223v1/hanning_kernel_ns10000_nc1000_plusZ.png"
         ]
     },
     "2610.17291": {
@@ -353,6 +389,32 @@
             "https://arxiv.org/html/2610.17414v1/figures/Figure_9.png"
         ]
     },
+    "2610.18107": {
+        "title": "Charge Response Simulation of Liquid Argon Compton Cameras for Precise MeV Gamma-Ray Event Reconstruction",
+        "authors": [
+            "Shota Arai",
+            "Hirokazu Odaka",
+            "Satoshi Takashima",
+            "Masashi Tanaka",
+            "Ryutaro Tatsumi",
+            "Hodaka Kawamura",
+            "Kouichi Hagino",
+            "Aya Bamba"
+        ],
+        "keywords": "",
+        "figures": [
+            "https://arxiv.org/html/2610.18107v1/x1.svg",
+            "https://arxiv.org/html/2610.18107v1/x2.svg",
+            "https://arxiv.org/html/2610.18107v1/x3.svg",
+            "https://arxiv.org/html/2610.18107v1/cmode.svg",
+            "https://arxiv.org/html/2610.18107v1/x4.svg",
+            "https://arxiv.org/html/2610.18107v1/LArTPC_0_angular_difference.svg",
+            "https://arxiv.org/html/2610.18107v1/LArTPC_0_energy_difference.svg",
+            "https://arxiv.org/html/2610.18107v1/LArTPC_0_angular_difference.svg",
+            "https://arxiv.org/html/2610.18107v1/LArTPC_0_energy_difference.svg",
+            "https://arxiv.org/html/2610.18107v1/noiseARM_FWHM.svg"
+        ]
+    },
     "2610.18702": {
         "title": "Establishing baseline model performances for optical turbulence forecasting",
         "authors": [
@@ -387,7 +449,15 @@
         "keywords": "",
         "figures": [
             "https://arxiv.org/html/2610.14058v1/Figs/cluster1.png",
-            "https://arxiv.org/html/2610.14058v1/Figs/cluster2.png"
+            "https://arxiv.org/html/2610.14058v1/Figs/cluster2.png",
+            "https://arxiv.org/html/2610.14058v1/scatter.svg",
+            "https://arxiv.org/html/2610.14058v1/indep.svg",
+            "https://arxiv.org/html/2610.14058v1/ann.svg",
+            "https://arxiv.org/html/2610.14058v1/evaporating.svg",
+            "https://arxiv.org/html/2610.14058v1/SM-plot2.svg",
+            "https://arxiv.org/html/2610.14058v1/SM-plot3.svg",
+            "https://arxiv.org/html/2610.14058v1/SM-plot4.svg",
+            "https://arxiv.org/html/2610.14058v1/SM-plot6.svg"
         ]
     },
     "2610.14179": {
@@ -422,10 +492,31 @@
         ],
         "keywords": "",
         "figures": [
+            "https://arxiv.org/html/2610.14185v1/structure_figure.svg",
+            "https://arxiv.org/html/2610.14185v1/pipeline_figure.svg",
+            "https://arxiv.org/html/2610.14185v1/result_036_followup_pd_hr_publication_persource_uplims.svg",
             "https://arxiv.org/html/2610.14185v1/figures/result_040_followup_pd_pipeline_vs_majumder.png",
             "https://arxiv.org/html/2610.14185v1/figures/result_041_followup_pa_pipeline_vs_majumder.png",
             "https://arxiv.org/html/2610.14185v1/figures/result_181_followup_neglog10p_distribution.png",
-            "https://arxiv.org/html/2610.14185v1/figures/result_141_followup_fig2a_state_grouped.png"
+            "https://arxiv.org/html/2610.14185v1/paper_4u1630_01250401_5ks_lightcurve.svg",
+            "https://arxiv.org/html/2610.14185v1/paper_lmcx1_02001901_5ks_lightcurve.svg",
+            "https://arxiv.org/html/2610.14185v1/result_186_followup_chi2_by_rung.svg",
+            "https://arxiv.org/html/2610.14185v1/result_174_followup_fig1_relative.svg"
+        ]
+    },
+    "2610.14283": {
+        "title": "What does self-supervision add to engineered features for stellar light curves?",
+        "authors": [
+            "Zijun Liu",
+            "Yue Ma",
+            "Christopher A. Theissen"
+        ],
+        "keywords": "",
+        "figures": [
+            "https://arxiv.org/html/2610.14283v1/fig1_deltas_xgb.svg",
+            "https://arxiv.org/html/2610.14283v1/figB_valloss_a.svg",
+            "https://arxiv.org/html/2610.14283v1/figB_valloss_b.svg",
+            "https://arxiv.org/html/2610.14283v1/figD_recon.svg"
         ]
     },
     "2610.14784": {
@@ -445,15 +536,15 @@
         "keywords": "",
         "figures": [
             "https://arxiv.org/html/2610.14784v1/Figures/f2bp_model.png",
+            "https://arxiv.org/html/2610.14784v1/libration_agrusa2020.svg",
+            "https://arxiv.org/html/2610.14784v1/fft_agrusa2020.svg",
             "https://arxiv.org/html/2610.14784v1/Figures/preimpact.png",
             "https://arxiv.org/html/2610.14784v1/Figures/postimpact.png",
             "https://arxiv.org/html/2610.14784v1/Figures/meyer_case9.png",
             "https://arxiv.org/html/2610.14784v1/Figures/meyer_case10.png",
             "https://arxiv.org/html/2610.14784v1/Figures/meyer_case1_AAS.png",
             "https://arxiv.org/html/2610.14784v1/Figures/meyer_dist_case1.png",
-            "https://arxiv.org/html/2610.14784v1/Figures/plot_gravity_nominal_f2bp.png",
-            "https://arxiv.org/html/2610.14784v1/Figures/R_AAS.png",
-            "https://arxiv.org/html/2610.14784v1/Figures/RaDimo.png"
+            "https://arxiv.org/html/2610.14784v1/Figures/plot_gravity_nominal_f2bp.png"
         ]
     },
     "2610.14791": {
@@ -474,11 +565,14 @@
         "figures": [
             "https://arxiv.org/html/2610.14791v1/Figures/juvnavcam.png",
             "https://arxiv.org/html/2610.14791v1/Figures/Immagine2.png",
+            "https://arxiv.org/html/2610.14791v1/juventasphases.svg",
             "https://arxiv.org/html/2610.14791v1/Figures/milani_phases.png",
             "https://arxiv.org/html/2610.14791v1/Figures/milani_navcam.png",
-            "https://arxiv.org/html/2610.14791v1/DidymosLandmarks_LATimprovement.png",
-            "https://arxiv.org/html/2610.14791v1/cov_plot_POSTIMPACT_nominal_chaotic.png",
-            "https://arxiv.org/html/2610.14791v1/cov_plot_POSTIMPACT_CUBESATOPNAVS_chaotic.png"
+            "https://arxiv.org/html/2610.14791v1/sigma_Nonchaotic_JuventaswrtDidymos.svg",
+            "https://arxiv.org/html/2610.14791v1/sigma_Nonchaotic_MilaniwrtDidymos.svg",
+            "https://arxiv.org/html/2610.14791v1/Dimorphos_orbit_improvement_NonChaotic.svg",
+            "https://arxiv.org/html/2610.14791v1/sigma_Chaotic_Improvement_DimorphoswrtDidymos_Secular.svg",
+            "https://arxiv.org/html/2610.14791v1/Dimorphos_frameimprovement.svg"
         ]
     },
     "2610.15657": {
@@ -513,9 +607,12 @@
         "figures": [
             "https://arxiv.org/html/2610.15895v1/alltheimages.png",
             "https://arxiv.org/html/2610.15895v1/percentmap_29dmed.png",
+            "https://arxiv.org/html/2610.15895v1/ringplot_images.svg",
             "https://arxiv.org/html/2610.15895v1/minmaps_20240401.png",
+            "https://arxiv.org/html/2610.15895v1/ring_timeseries.svg",
             "https://arxiv.org/html/2610.15895v1/3dcorona.png",
-            "https://arxiv.org/html/2610.15895v1/backgrounds_20240401.png"
+            "https://arxiv.org/html/2610.15895v1/backgrounds_20240401.png",
+            "https://arxiv.org/html/2610.15895v1/ringplot_backgrounds.svg"
         ]
     },
     "2610.16007": {
@@ -526,8 +623,12 @@
         ],
         "keywords": "",
         "figures": [
+            "https://arxiv.org/html/2610.16007v1/f1.svg",
+            "https://arxiv.org/html/2610.16007v1/f2.svg",
+            "https://arxiv.org/html/2610.16007v1/f3.svg",
             "https://arxiv.org/html/2610.16007v1/f4.png",
-            "https://arxiv.org/html/2610.16007v1/fA1.png"
+            "https://arxiv.org/html/2610.16007v1/fA1.png",
+            "https://arxiv.org/html/2610.16007v1/fB1.svg"
         ]
     },
     "2610.16130": {
@@ -541,7 +642,13 @@
         ],
         "keywords": "",
         "figures": [
+            "https://arxiv.org/html/2610.16130v1/ASDs.svg",
+            "https://arxiv.org/html/2610.16130v1/accuracy_vs_distance.svg",
+            "https://arxiv.org/html/2610.16130v1/accuracy_vs_time.svg",
             "https://arxiv.org/html/2610.16130v1/figures/skymap.png",
+            "https://arxiv.org/html/2610.16130v1/accuracy_coverage.svg",
+            "https://arxiv.org/html/2610.16130v1/3G.svg",
+            "https://arxiv.org/html/2610.16130v1/CNN_train.svg",
             "https://arxiv.org/html/2610.16130v1/CNN_cm.png",
             "https://arxiv.org/html/2610.16130v1/CNN_cm_7EOS.png"
         ]
@@ -647,7 +754,11 @@
         ],
         "keywords": "",
         "figures": [
-            "https://arxiv.org/html/2610.17186v1/peak_joint_gauss.png"
+            "https://arxiv.org/html/2610.17186v1/fpr_vs_threshold.svg",
+            "https://arxiv.org/html/2610.17186v1/log_PQ_peak_analysis.svg",
+            "https://arxiv.org/html/2610.17186v1/peak_kl_grid.svg",
+            "https://arxiv.org/html/2610.17186v1/peak_joint_gauss.png",
+            "https://arxiv.org/html/2610.17186v1/roc_panels.svg"
         ]
     },
     "2610.17254": {
@@ -662,15 +773,16 @@
         ],
         "keywords": "",
         "figures": [
+            "https://arxiv.org/html/2610.17254v1/synthetic_points.svg",
+            "https://arxiv.org/html/2610.17254v1/synthetic_points_kde.svg",
+            "https://arxiv.org/html/2610.17254v1/kde.svg",
             "https://arxiv.org/html/2610.17254v1/example_kde_good.png",
             "https://arxiv.org/html/2610.17254v1/example_kde_bad.png",
             "https://arxiv.org/html/2610.17254v1/Num_an_comparison_Sigma.png",
-            "https://arxiv.org/html/2610.17254v1/Num_an_comparison_Sigma.png",
-            "https://arxiv.org/html/2610.17254v1/Comparison_lodato+17.png",
-            "https://arxiv.org/html/2610.17254v1/Comparison_tabone+22.png",
-            "https://arxiv.org/html/2610.17254v1/mcmc_mhd_4_variables_corr.png",
-            "https://arxiv.org/html/2610.17254v1/mcmc_viscous_4_variables_corr.png",
-            "https://arxiv.org/html/2610.17254v1/mcmc_mhd_comparison_2_3_4_variables.png"
+            "https://arxiv.org/html/2610.17254v1/Num_an_comparison_Sigma_2.svg",
+            "https://arxiv.org/html/2610.17254v1/Num_an_comparison_Mdisc.svg",
+            "https://arxiv.org/html/2610.17254v1/Num_an_comparison_Mdot.svg",
+            "https://arxiv.org/html/2610.17254v1/Num_an_comparison_Sigma.png"
         ]
     },
     "2610.17284": {
@@ -689,12 +801,16 @@
         ],
         "keywords": "",
         "figures": [
+            "https://arxiv.org/html/2610.17284v1/Lupus_data_demographics.svg",
+            "https://arxiv.org/html/2610.17284v1/Fit_viscous.svg",
+            "https://arxiv.org/html/2610.17284v1/Fit_mhd.svg",
+            "https://arxiv.org/html/2610.17284v1/Fit_viscous.svg",
+            "https://arxiv.org/html/2610.17284v1/Fit_mhd.svg",
+            "https://arxiv.org/html/2610.17284v1/initial_conditions_2x2.svg",
             "https://arxiv.org/html/2610.17284v1/Lupus_age_scatter_viscous.png",
             "https://arxiv.org/html/2610.17284v1/Lupus_age_scatter_mhd.png",
             "https://arxiv.org/html/2610.17284v1/Lupus_age_scatter_viscous.png",
-            "https://arxiv.org/html/2610.17284v1/Lupus_age_scatter_mhd.png",
-            "https://arxiv.org/html/2610.17284v1/Viscous_cornerplot.png",
-            "https://arxiv.org/html/2610.17284v1/MHD_cornerplot.png"
+            "https://arxiv.org/html/2610.17284v1/Lupus_age_scatter_mhd.png"
         ]
     },
     "2610.17377": {
@@ -736,13 +852,15 @@
         "keywords": "",
         "figures": [
             "https://arxiv.org/html/2610.17652v1/figure/compare_cm_mm_um.png",
+            "https://arxiv.org/html/2610.17652v1/summary_figure.svg",
             "https://arxiv.org/html/2610.17652v1/figure/fresh_1um.png",
             "https://arxiv.org/html/2610.17652v1/figure/heat_1um_modi.png",
+            "https://arxiv.org/html/2610.17652v1/EDS_result_plot.svg",
             "https://arxiv.org/html/2610.17652v1/before_heating_consol.png",
             "https://arxiv.org/html/2610.17652v1/after_heating_consol.png",
-            "https://arxiv.org/html/2610.17652v1/figure/zoom_in_fresh.png",
-            "https://arxiv.org/html/2610.17652v1/figure/Sintering-like-structure.png",
-            "https://arxiv.org/html/2610.17652v1/figure/mi_heated_medium_5_X1.jpg"
+            "https://arxiv.org/html/2610.17652v1/brightness_vs_temp.svg",
+            "https://arxiv.org/html/2610.17652v1/meteorites_a_panel.svg",
+            "https://arxiv.org/html/2610.17652v1/figure/zoom_in_fresh.png"
         ]
     },
     "2610.18080": {
@@ -784,6 +902,7 @@
         ],
         "keywords": "",
         "figures": [
+            "https://arxiv.org/html/2610.18339v1/principal_component_example.svg",
             "https://arxiv.org/html/2610.18339v1/Saltire_rowplot.png",
             "https://arxiv.org/html/2610.18339v1/x1.png",
             "https://arxiv.org/html/2610.18339v1/x2.png",
@@ -791,9 +910,8 @@
             "https://arxiv.org/html/2610.18339v1/x4.png",
             "https://arxiv.org/html/2610.18339v1/phase_folded_primary_eclipse_plot.png",
             "https://arxiv.org/html/2610.18339v1/phase_folded_secondary_eclipse_plot.png",
-            "https://arxiv.org/html/2610.18339v1/isochrone_simulation_m2_evolution.png",
-            "https://arxiv.org/html/2610.18339v1/isochrone_simulation_mu_evolution.png",
-            "https://arxiv.org/html/2610.18339v1/example_posterior_plots_newR1.png"
+            "https://arxiv.org/html/2610.18339v1/primaries.svg",
+            "https://arxiv.org/html/2610.18339v1/primary_percentdiff.svg"
         ]
     },
     "2610.18384": {
@@ -822,6 +940,7 @@
         "figures": [
             "https://arxiv.org/html/2610.18768v1/fig1_signal_consistency_intro.png",
             "https://arxiv.org/html/2610.18768v1/fig2_signal_consistency_contour.png",
+            "https://arxiv.org/html/2610.18768v1/fig3_eta.svg",
             "https://arxiv.org/html/2610.18768v1/fig4_injections_gstlal_waveoptics_combined.png",
             "https://arxiv.org/html/2610.18768v1/fig5_gw231123.png"
         ]
