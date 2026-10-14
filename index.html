@@ -218,10 +218,15 @@ async function loadPaper(folderPath,prepend=false) {
     title.className = "title";
 
     const pre_title = `(${paper_index+1}/${Object.keys(files).length}) <a href="https://arxiv.org/abs/${id}">${id}</a>:`;
-    var generator = new latexjs.HtmlGenerator({ hyphenate: false });
-    generator = latexjs.parse(data.title, { generator: generator });
-    title.appendChild(generator.domFragment());
-    title.children[0].innerHTML = pre_title + title.children[0].children[0].innerHTML;
+    try{
+        var generator = new latexjs.HtmlGenerator({ hyphenate: false });
+        generator = latexjs.parse(data.title, { generator: generator });
+        title.appendChild(generator.domFragment());
+        title.children[0].innerHTML = pre_title + title.children[0].children[0].innerHTML;
+    }
+    catch (error){
+        title.innerHTML = pre_title + data.title;
+    }
 
     //QR code
     const qr = document.createElement("img");
@@ -263,9 +268,14 @@ async function loadPaper(folderPath,prepend=false) {
         };
 
         const caption = document.createElement('div');
-        var generator = new latexjs.HtmlGenerator({ hyphenate: false });
-        generator = latexjs.parse(fig['caption'], { generator: generator });
-        caption.appendChild(generator.domFragment());
+        try{
+            var generator = new latexjs.HtmlGenerator({ hyphenate: false });
+            generator = latexjs.parse(fig['caption'], { generator: generator });
+            caption.appendChild(generator.domFragment());
+        }
+        catch (error){
+            caption.innerHTML = fig['caption'];
+        }
         caption.className = 'caption';
 
         figures.appendChild(img);
