@@ -243,6 +243,18 @@ async function loadPaper(folderPath,prepend=false) {
     keywords.className = "keywords";
     keywords.textContent = data.keywords;
 
+    //Abstract
+    const abstract = document.createElement('div');
+    abstract.className = 'abstract';
+    try{
+        var generator = new latexjs.HtmlGenerator({ hyphenate: false });
+        generator = latexjs.parse(data.abstract, { generator: generator });
+        abstract.appendChild(generator.domFragment());
+    }
+    catch (error){
+        abstract.innerHTML = data.abstract;
+    }
+
     // Figures
     const figures = document.createElement("div");
     figures.className = "figures";
@@ -350,6 +362,7 @@ async function loadPaper(folderPath,prepend=false) {
     header_infos.appendChild(title);
     header_infos.appendChild(authors);
     header_infos.appendChild(keywords);
+    header_infos.appendChild(abstract);
     
     header.appendChild(header_infos);
 
