@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <title>arXiv TV</title>
     <script src="https://cdn.jsdelivr.net/npm/confetti-js@0.0.18/dist/index.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/latex.js/dist/latex.js"></script>
     <link rel="icon" type="image/png" sizes="32x32" href="https://arxiv.org/static/browse/0.3.4/images/icons/favicon-32x32.png">
     <style>
         html{
@@ -103,6 +106,9 @@
         }
         .adding{
             animation: remove .5s ease-in-out reverse;
+        }
+        span[aria-hidden="true"]{
+            display: none;
         }
     </style>
 </head>
@@ -210,7 +216,12 @@ async function loadPaper(folderPath,prepend=false) {
     // Title
     const title = document.createElement("div");
     title.className = "title";
-    title.innerHTML = `(${paper_index+1}/${Object.keys(files).length}) <a href="https://arxiv.org/abs/${id}">${id}</a>: ${data.title}`;
+
+    const pre_title = `(${paper_index+1}/${Object.keys(files).length}) <a href="https://arxiv.org/abs/${id}">${id}</a>:`;
+    var generator = new latexjs.HtmlGenerator({ hyphenate: false });
+    generator = latexjs.parse(data.title, { generator: generator });
+    title.appendChild(generator.domFragment());
+    title.children[0].innerHTML = pre_title + title.children[0].children[0].innerHTML;
 
     //QR code
     const qr = document.createElement("img");
@@ -233,24 +244,32 @@ async function loadPaper(folderPath,prepend=false) {
 
     const ul = document.createElement("ul");
     data.figures.forEach(fig => {
-        const ext = fig.split('.').pop().toLowerCase();
+        const fig_url = fig['url'];
+        const ext = fig_url.split('.').pop().toLowerCase();
 
-        if (fig.includes('http') == false){
-            fig = folder + fig
+        if (fig_url.includes('http') == false){
+            fig_url = folder + fig_url;
         }
 
         const img = document.createElement("img");
-        img.src = fig;
+        img.src = fig_url;
         img.className = "figures";
 
         img.onload = function(){
             const imgRatio = img.naturalWidth/img.naturalHeight;
             img.style.height = img.width/imgRatio + "px";
             img.src = "";
-            img.style.backgroundImage = "url(" + fig + ")";
+            img.style.backgroundImage = "url(" + fig_url + ")";
         };
 
+        const caption = document.createElement('div');
+        var generator = new latexjs.HtmlGenerator({ hyphenate: false });
+        generator = latexjs.parse(fig['caption'], { generator: generator });
+        caption.appendChild(generator.domFragment());
+        caption.className = 'caption';
+
         figures.appendChild(img);
+        figures.appendChild(caption);
     });
     figures.appendChild(ul);
 
