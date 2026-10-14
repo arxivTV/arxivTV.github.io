@@ -121,13 +121,94 @@
         span[aria-hidden="true"]{
             display: none;
         }
+        #controls{
+            position: absolute;
+            width: 450px;
+            left: calc(50% - 225px);
+            bottom:0%;
+            z-index: 20000;
+            background-color: white;
+            text-align: center;
+            margin: 0 auto;
+            border: 1px solid black;
+            padding: 3px;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            border-bottom: none;
+            display: inline-block;
+        }
+        #controls select, #controls p, #controls input{
+            display: inline-block;
+        }
+        #controls-cat{
+            width: 100px;
+        }
+        #controls p{
+            margin:0 auto;
+        }
     </style>
 </head>
 <body>
 
 <div id="papers-container"></div>
+<div id="controls">
+    <p>Speed:</p>
+    <select name="speed" id="controls-speed" onchange="speed_change()" autocomplete="off">
+        <option value="0">x0</option>
+        <option value="0.5">x0.5</option>
+        <option value="1" selected>x1</option>
+        <option value="2">x2</option>
+    </select>
+    <p>Articles/page:</p>
+    <input type="number" name="articles_per_page" id="controls-articles_per_page"
+        min="1" max="4" onchange="article_per_page_change()" value="2"/>
+    <p>Category:</p>
+    <select name="cat" id="controls-cat" onchange="category_change()">
+        <option value="GA">Astrophysics of Galaxies</option>
+        <option value="CO">Cosmology and Nongalactic Astrophysics</option>
+        <option value="EP">Earth and Planetary Astrophysics</option>
+        <option value="HE">High Energy Astrophysical Phenomena</option>
+        <option value="IM">Instrumentation and Methods for Astrophysics</option>
+        <option value="SR">Solar and Stellar Astrophysics</option>
+    </select>
+</div>
 
 <script>
+
+window.addEventListener('load', function() {
+    document.getElementById('controls-articles_per_page').value = nb_papers_shown;
+    document.getElementById('controls-cat').value = c;
+});
+
+function category_change(){
+    var c = document.getElementById('controls-cat').value;
+    var url = new URL(location.toString());
+    var n = url.searchParams.get("n");
+    if (n == null){
+        window.location.href = '?cat=' + c;
+    }
+    else{
+        window.location.href = '?cat=' + c + '&n=' + n;
+    }
+}
+
+function article_per_page_change(){
+    var n = document.getElementById('controls-articles_per_page').value;
+    var url = new URL(location.toString());
+    var c = url.searchParams.get("cat");
+    if (c == null){
+        window.location.href = '?n=' + n;
+    }
+    else{
+        window.location.href = '?n=' + n + '&cat=' + c;
+    }
+}
+
+function speed_change(){
+    var speed = document.getElementById('controls-speed').value;
+    speedfactor = parseFloat(speed);
+}
+
 function finishPaper(paper,prepend) {
     if (!paper || paper.dataset.finished === "true") {
         return;
@@ -430,7 +511,7 @@ async function load_files(n){
 const d = new Date();
 let day = d.getDay()
 
-const speed = 2;
+const speed = 1;
 var speedfactor = 1;
 
 const minDurationSeconds = 15;
@@ -472,7 +553,7 @@ document.addEventListener('keyup', logAnyKeyUp);
 
 function logAnyKeyUp(e) {
     if (e.code == "ArrowDown" || e.code == "ArrowUp" || e.code == "Space"){
-        speedfactor = 1;
+        speed_change();
     }
 }
 
