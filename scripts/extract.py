@@ -255,7 +255,8 @@ def extract_html(id,html_url):
     for author in abs_soup.find('div',class_='authors').find_all('a'):
         authors.append(author.text)
 
-    abstract = abs_soup.find('blockquote',class_='abstract mathjax').get_text()
+    abstract_el = abs_soup.find('blockquote',class_='abstract mathjax')
+    abstract = get_caption_text(abstract_el)[10:]
 
     title = abs_soup.find('h1',class_='title').text.replace('Title:','')
 
