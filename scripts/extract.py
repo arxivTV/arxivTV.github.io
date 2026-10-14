@@ -222,6 +222,15 @@ def extract_html(id,html_url):
             fig_url = html_url + '/' + src
             if requests.get(fig_url).status_code == 200:
                 figures.append(fig_url)
+        for img in figure.find_all('object'):
+            src = img['data']
+            if '/' in src and id in src:
+                src = '/'.join(src.split('/')[1:])
+            if '.' not in src:
+                continue
+            fig_url = html_url + '/' + src
+            if requests.get(fig_url).status_code == 200:
+                figures.append(fig_url)
 
     if len(figures) == 0:
         return None
