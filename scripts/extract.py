@@ -267,8 +267,6 @@ def extract_html(id,html_url):
         if kw:
             keywords = kw.text
 
-    print(figures)
-
     return {'title':title,'authors':authors,'keywords':keywords,'figures':figures,'abstract':abstract}
 
 def get_caption_text(caption):
@@ -353,7 +351,6 @@ def main(id):
         return metadata | keywords | figures
 
 arxiv_cats = ['GA','EP','CO','HE','IM','SR']
-arxiv_cats = ['CO']
 if not os.path.exists('build'):
     os.mkdir('build')
 
@@ -365,7 +362,7 @@ for arxiv_cat in arxiv_cats:
 
     ids = get_new_arxiv_links(arxiv_cat)
 
-    for id in ids[:3]:
+    for id in ids:
         res = main(id)
         if res is not None:
             global_metadata[id] = res
