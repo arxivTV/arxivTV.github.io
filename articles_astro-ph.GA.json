@@ -822,10 +822,22 @@
         ],
         "keywords": "Astrochemistry -- Molecular processes -- Methods: laboratory: molecular -- Methods: numerical -- Astronomical data bases --\n   ISM: molecules",
         "figures": [
-            "figures/2610_23452/levelsC.png",
-            "figures/2610_23452/f_cop.png",
-            "figures/2610_23452/f_iso.png",
-            "figures/2610_23452/model.png"
+            {
+                "url": "figures/2610_23452/levelsC.png",
+                "caption": "Energy levels and possible reaction pathways leading to \\ce{[H,C,O]+"
+            },
+            {
+                "url": "figures/2610_23452/f_cop.png",
+                "caption": "Time evolution of the trapped ion signal for the study of the \\ce{CO+"
+            },
+            {
+                "url": "figures/2610_23452/f_iso.png",
+                "caption": "Number of ions as a function of trapping time for the experimental determination of the isomerization rate coefficient of \\HOCp\\ to \\HCOp\\ by \\HH. \\HOCp\\ is produced from \\ce{C+"
+            },
+            {
+                "url": "figures/2610_23452/model.png",
+                "caption": "Modeled time evolution of \\HCOp, \\HOCp, and their abundance ratio under typical dense cloud (upper panels) and diffuse cloud (lower panels) conditions. Solid lines: model with KIDA 2024 reaction rate coefficients and branching ratios. Dashed lines: updated branching ratio for \\ce{CO+ + H2"
+            }
         ]
     },
     "2610.23738": {
@@ -965,16 +977,46 @@
         ],
         "keywords": "Lithium, Lithium Dip, Stellar Evolution, Subgiants, Galactic Archaeology",
         "figures": [
-            "figures/2610_22492/three_panel_hr.png",
-            "figures/2610_22492/deltaLum_deltaMass.png",
-            "figures/2610_22492/binary_cuts_panels_solar.png",
-            "figures/2610_22492/binary_flag_hr_feh_mass_diagnostic.png",
-            "figures/2610_22492/li_classes_solar_with_tracks_fehp0_00.png",
-            "figures/2610_22492/mass_vs_dredge3x3.png",
-            "figures/2610_22492/histogram_filtered_dredge_nolowmassbinary_3x3.png",
-            "figures/2610_22492/ngc7789_galah_compare_2x2.png",
-            "figures/2610_22492/detfrac_native_vs_scaled_fehslices.png",
-            "figures/2610_22492/taucz_mass_panels.png"
+            {
+                "url": "figures/2610_22492/three_panel_hr.png",
+                "caption": "Overview of the initial GALAH sample and theoretical tracks. \\textbf{Top"
+            },
+            {
+                "url": "figures/2610_22492/deltaLum_deltaMass.png",
+                "caption": "An overview of the systematic offsets between the GALAH and YREC masses. The two parameters, being largely theoretically interpolated, inherit the systematics of their parent track sets (YREC and PARSEC). The rows represent $\\feh \\mathrm{ -0.3, 0.0, and +0.3"
+            },
+            {
+                "url": "figures/2610_22492/binary_cuts_panels_solar.png",
+                "caption": "GALAH subgiants for $\\feh = 0$ illustrating the different stages of sample decontamination. \\textbf{TOP"
+            },
+            {
+                "url": "figures/2610_22492/binary_flag_hr_feh_mass_diagnostic.png",
+                "caption": "GALAH subgiant\n    sample. All panels exclude red clump stars, sub-turnoff\n    binaries, SGB--MS ambiguous stars, and stars with $T_{\\mathrm{eff"
+            },
+            {
+                "url": "figures/2610_22492/li_classes_solar_with_tracks_fehp0_00.png",
+                "caption": "$\\teff$ vs. $\\ali$ abundance for the solar-metallicity ($\\feh_{\\odot"
+            },
+            {
+                "url": "figures/2610_22492/mass_vs_dredge3x3.png",
+                "caption": "The inferred MS turnoff lithium abundances for our conservative sample. Detections (red) and upper limits (blue) are shown as a function of mass and metallicity. Each sub-panel depicts a bin with a different central $\\feh\\pm0.05$. Dashed and solid lines represent rank-order percentiles of the lithium abundance using 200 star bins. The bottom right shows the entire sample, with a metallicity-dependent mass shift that aligns the lithium dip (see the text for details). The shaded crosshatch represents the region where $\\geq50\\%$ of stars are upper limits."
+            },
+            {
+                "url": "figures/2610_22492/histogram_filtered_dredge_nolowmassbinary_3x3.png",
+                "caption": "Detections (red) are stacked on the upper limits green) By mass to denote where either regime dominates in mass space. The proportion of detections is dominant in the cool plateau, shifting to an upper-limit dominance through the lithium dip and into the hot side of the dip. The bottom right denotes the whole sample, empirically scaled by $\\feh$ to the same quantity $\\mscaled$ (which we elaborate in the following section)."
+            },
+            {
+                "url": "figures/2610_22492/ngc7789_galah_compare_2x2.png",
+                "caption": "Comparison of the lithium dip in NGC~7789 and GALAH field stars at matching metallicity.\n\\textbf{Top Left:"
+            },
+            {
+                "url": "figures/2610_22492/detfrac_native_vs_scaled_fehslices.png",
+                "caption": "\\textbf{TOP:"
+            },
+            {
+                "url": "figures/2610_22492/taucz_mass_panels.png",
+                "caption": "\\textbf{TOP:"
+            }
         ]
     },
     "2610.22587": {
