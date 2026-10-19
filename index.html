@@ -398,7 +398,7 @@ async function loadPaper(folderPath,prepend=false) {
 
     const ul = document.createElement("ul");
     data.figures.forEach(fig => {
-        const fig_url = fig['url'];
+        let fig_url = fig['fig_url'];
         const ext = fig_url.split('.').pop().toLowerCase();
 
         if (fig_url.includes('http') == false){
