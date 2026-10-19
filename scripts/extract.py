@@ -15,13 +15,15 @@ def convert_pdf_figures_to_png(figure_paths, root_dir, article_id, output_base="
 
     updated_paths = []
 
-    for fig in figure_paths:
-        src_path = os.path.join(root_dir, fig)
+    for figure in figure_paths:
+        fig_path = figure['url']
+        src_path = os.path.join(root_dir, fig_path)
 
         if not os.path.isfile(src_path):
             continue
 
-        ext = os.path.splitext(fig)[-1].lower()
+        ext = os.path.splitext(fig_path)[-1].lower()
+        caption = figure['caption']
 
         if ext == ".pdf":
             doc = fitz.open(src_path)
@@ -29,19 +31,25 @@ def convert_pdf_figures_to_png(figure_paths, root_dir, article_id, output_base="
 
             pix = page.get_pixmap(dpi=dpi)
 
-            filename = os.path.splitext(os.path.basename(fig))[0] + ".png"
+            filename = os.path.splitext(os.path.basename(fig_path))[0] + ".png"
             dst_path = os.path.join(output_dir, filename)
 
             pix.save(dst_path)
             doc.close()
 
-            updated_paths.append(dst_path.replace('build/','').replace("\\", "/"))
+            updated_paths.append({
+                'url': dst_path.replace('build/', '').replace("\\", "/"),
+                'caption': caption
+            })
         elif ext == ".png" or ext == ".jpg":
-            filename = os.path.basename(fig)
+            filename = os.path.basename(fig_path)
             dst_path = os.path.join(output_dir, filename)
             shutil.copy2(src_path, dst_path)
 
-            updated_paths.append(dst_path.replace('build/','').replace("\\", "/"))
+            updated_paths.append({
+                'url': dst_path.replace('build/', '').replace("\\", "/"),
+                'caption': caption
+            })
 
     return {'figures':updated_paths}
 
@@ -82,6 +90,27 @@ def extract_figure_paths(tex_file_path, root_dir, max_figures=10):
         content = f.read()
 
     figure_paths = []
+
+    # Associate each graphic reference inside a figure environment with its
+    # caption. References outside a figure are still supported below.
+    captions_by_ref = {}
+    figure_blocks = re.findall(
+        r'\\begin\s*{\s*figure[*]?\s*}(.*?)\\end\s*{\s*figure[*]?\s*}',
+        content,
+        re.DOTALL | re.IGNORECASE
+    )
+    for figure_block in figure_blocks:
+        caption_match = re.search(
+            r'\\caption(?:\[[^\]]*\])?\s*{([^}]*)}',
+            figure_block,
+            re.DOTALL
+        )
+        caption = caption_match.group(1).strip() if caption_match else ''
+        for ref in re.findall(
+            r'\\includegraphics(?:\[[^\]]*\])?\s*{([^}]*)}',
+            figure_block
+        ):
+            captions_by_ref[ref.strip()] = caption
 
     # --- Extract raw references from LaTeX ---
     graphics_matches = re.findall(
@@ -138,7 +167,10 @@ def extract_figure_paths(tex_file_path, root_dir, max_figures=10):
             rel_path = os.path.relpath(found_path, root_dir)
             if rel_path not in seen:
                 seen.add(rel_path)
-                figure_paths.append(rel_path)
+                figure_paths.append({
+                    'url': rel_path,
+                    'caption': captions_by_ref.get(ref, '')
+                })
 
         if len(figure_paths) >= max_figures:
             break
