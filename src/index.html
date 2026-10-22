@@ -514,8 +514,10 @@ async function loadPaper(folderPath,prepend=false) {
     }
 
     paperDiv._autoAdvanceTimeout = window.setTimeout(() => {
-        finishPaper(paperDiv);
-    }, 60000);
+        if (speed*speedfactor > 0){
+            finishPaper(paperDiv);
+        }
+    }, 60_000);
 
     let images = paperDiv.querySelectorAll("img");
     let loaded = 0;

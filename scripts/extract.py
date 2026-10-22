@@ -303,10 +303,20 @@ def extract_html(id,html_url):
     return {'title':title,'authors':authors,'keywords':keywords,'figures':figures,'abstract':abstract}
 
 def get_caption_text(caption):
+    annots = caption.find_all('annotation')
+    for annot in annots:
+        annot.decompose()
     plain_text = caption.get_text()
     for math in caption.find_all('math'):
-        math_latex = math['alttext']
-        math_text = math.get_text()
+        annots = math.find_all('annotation')
+        for annot in annots:
+            annot.decompose()
+        if math.has_attr('alttext'):
+            math_latex = math['alttext']
+            math_text = math.get_text()
+        else:
+            math_text = math.get_text()
+            math_latex = math_text
         plain_text = plain_text.replace(math_text,'$' + math_latex + '$',1)
     return plain_text.replace(r'\n','')
 
