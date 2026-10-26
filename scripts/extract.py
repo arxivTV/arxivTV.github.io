@@ -241,6 +241,8 @@ def extract_html(id,html_url):
     abs_soup = BeautifulSoup(response.text, "html.parser")
 
     article = html_soup.find('article',class_='ltx_document')
+    if article is None:
+        return None
     
     figures = []
 
