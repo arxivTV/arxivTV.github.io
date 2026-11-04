@@ -1,1 +1,938 @@
-{}
+{
+    "2611.03798": {
+        "title": "Surface Nitrogen enrichment from the LMC to the Early Universe: the roles of rotation, overshooting and mass loss",
+        "authors": [
+            "Gautham N. Sabhahit",
+            "Jorick. S Vink"
+        ],
+        "keywords": "",
+        "figures": [
+            {
+                "url": "https://arxiv.org/html/2611.03798v1/max_AN_rot_OV_200_compare.svg",
+                "caption": "Figure 1: Maximum surface nitrogen abundance $A(\\mathrm{N})$ reached by a $200\\,M_{\\odot}$ star as a function of overshooting and rotation, for two metallicities: $Z=4.9\\cdot 10^{-5}$ (left) and $Z=4.8\\cdot 10^{-3}$ (right). Only models hotter than $T_{\\mathrm{eff}}=30\\,\\mathrm{kK}$, corresponding to hot O stars, are considered when finding the maximum. Shading is blue where $A(\\mathrm{N})$ stays below the baseline C abundance $A(\\mathrm{C})_{\\mathrm{baseline}}$ and orange where it exceeds it, with $A(\\mathrm{C})_{\\mathrm{baseline}}=5.75$ (left) and $7.75$ (right). Abundances are given as $A(\\mathrm{el})=12+\\log(n_{\\mathrm{el}}/n_{\\mathrm{H}})$."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.03798v1/max_AN_rot_OV_40_100.svg",
+                "caption": "Figure 2: Maximum surface nitrogen abundance $A(\\mathrm{N})$ of a $100\\,M_{\\odot}$ (left) and a $40\\,M_{\\odot}$ (right) star as a function of overshooting and rotation, at fixed metallicity $Z=4.8\\cdot 10^{-3}$. Symbols and shading are as in Fig. 1."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.03798v1/nitrogen_enriched_fraction.svg",
+                "caption": "Figure 3: Nitrogen enrichment probability as a function of luminosity. Red squares mark the mean observed probability, binned in $\\Delta\\log(L/L_{\\odot})=0.1$\u2009dex, from the LMC sample compiled by Marchant and Shenar (2026), compared against population synthesis results with no rotation (dashed black) and with rotation sampled from the Ram\u00edrez-Agudelo et al. (2013) distribution, which peaks at $100\\,\\mathrm{km\\,s^{-1}}$ (solid blue)."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.03798v1/compare_grids_3x2.svg",
+                "caption": "Figure 4: Nitrogen-enriched probability as a function of luminosity compared with population synthesis predictions (left), and the rotational velocity distribution of our population synthesis models (right). The three rows correspond to different assumptions on the mass-loss rates and on whether the magnetic dynamo is switched on or off. Lines and symbols in the left sub-panels have the same meaning as in Fig. 3. The right sub-panels compare the evolved (solid blue) and initial (dashed red) velocity distributions, showing that the models do not spin up to velocities that are not observed."
+            }
+        ],
+        "abstract": "The strong nitrogen (N) features observed in high-redshift galaxies, such as GN-z11, with JWST point to an efficient source of N production in the early Universe. Very massive stars (VMSs) are promising candidates owing to their strong winds and large convective cores of CNO-processed material. Whether massive-star surfaces in general become N-enriched depends on the interplay of convective-boundary mixing (overshooting), rotation, and mass loss, which remains poorly constrained. Using a grid of MESA evolutionary models, we isolate the overshooting and rotation channels at $40$, $100$, and $200\\,M_\\odot$ and investigate how these channels bring N-rich material to the surface of massive and very massive stars as a function of initial mass and metallicity. We also construct a synthetic Large Magellanic Cloud (LMC) population based on a larger initial mass grid ranging from $20-300\\,M_\\odot$ for comparison with the observed N-enriched fraction. VMS surface enrichment is remarkably robust across cosmic metallicity. At lower metallicities, wind stripping is weaker and the overshooting channel shuts off entirely, yet a modest amount of rotation of $\\sim90\\,\\mathrm{km\\,s^{-1}}$ alone still enriches the surface. At higher metallicity, stronger winds dominate and uncover the core almost independently of the adopted mixing. The two channels operate through physically distinct mechanisms: overshooting enriches the surface only once winds strip the envelope down into the N-rich layers left by the receding core, giving an abrupt jump. Rotation, by contrast, mixes N outward continuously through the layers above the core, producing a gradual rise. Applied to the LMC, a population with modest rotation drawn from the observed velocity distribution and modest overshooting reproduces the observed N-enriched fraction without large core boundary mixing efficiencies otherwise required by non-rotating models.\n    "
+    },
+    "2611.03819": {
+        "title": "Towards Self-consistent Modeling of Quasi-Stars and their NLTE Spectra: Implications for Little Red Dots",
+        "authors": [
+            "Jake B. Hassan",
+            "Rosalba Perna",
+            "Mitchell C. Begelman",
+            "Yan-Fei Jiang",
+            "Matteo Cantiello",
+            "Philip J. Armitage",
+            "Taeho Ryu"
+        ],
+        "keywords": "",
+        "figures": [
+            {
+                "url": "https://arxiv.org/html/2611.03819v1/legacy_new.svg",
+                "caption": "Figure 1: Comparison of several properties between the new MESA model, the older model from Hassan et\u00a0al. [18] and the analytic predictions of CB24. Models are taken to have the same parameters, with $M_{\\star}=10^{5}M_{\\odot}$. The $p_{\\rm gas}/p_{\\rm rad}$ and $\\gamma_{\\rm ad}$ values are obtained at the middle of the envelope. Note that the models have different definitions of the inner radius BC $R_{i}$."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.03819v1/compare_masses_new.svg",
+                "caption": "Figure 2: Comparison of the properties of our new quasi-star models across a range of masses. All models in this figure use $\\alpha_{\\rm MLT}=1$ and atm_T_tau_opacity = fixed."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.03819v1/profiles_new.svg",
+                "caption": "Figure 3: Several structural profiles for our fiducial quasi-star. We show the results at $M_{\\rm BH}=0.5M_{\\star}$, as well as the comparison between our new and old models at $M_{\\rm BH}\\approx 0.17M_{\\star}$."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.03819v1/SR_new.svg",
+                "caption": "Figure 4: Comparison of properties for the fiducial model, both with and without superadiabatic reduction enabled. Both models use $M_{\\star}=10^{6}M_{\\odot}$, $\\alpha_{\\rm MLT}=1$, and a \u201cfixed\u201d opacity."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.03819v1/SRprofiles_new.svg",
+                "caption": "Figure 5: Similar plot to Figure 3, but instead comparing the structures at $M_{\\rm BH}=0.5M_{\\star}$ for our fiducial model with and without SR enabled."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.03819v1/TLUSTY_new.svg",
+                "caption": "Figure 6: The midlife temperature, density and gas pressure profiles of two MESA models, along with TLUSTY profiles based on their surface $(T_{\\rm eff},\\log g)$. The approximate location of the spectrum-forming layers $(\\tau\\sim 2/3-2)$ is shaded in gray. Both MESA models have $M_{\\star}=10^{6}M_{\\odot}$ and $\\alpha_{\\rm MLT}=1$, differing in opacity treatment (blue for \u201cfixed\u201d and red for \u201cvarying\u201d). Below the photosphere, the \u201cvarying\u201d MESA model most closely matches the TLUSTY model derived from the \u201cfixed\u201d MESA model."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.03819v1/LTEvsNLTE_both.svg",
+                "caption": "Figure 7: Left: Spectrum of the fiducial NLTE model, along with an LTE model at its same conditions. Right: zoomed in comparison of their $H\\alpha$ lines."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.03819v1/metals_new.svg",
+                "caption": "Figure 8: The spectra for the same $10^{6}M_{\\odot}$ model with various metallicities."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.03819v1/SR_TLUSTY_new.svg",
+                "caption": "Figure 9: The mid-life profile of our SR MESA model, along with the TLUSTY profile based on its surface conditions. The MESA model uses $\\alpha_{\\rm MLT}=1$, whereas the TLUSTY model uses HMIX0 = 32 for numerical stability."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.03819v1/SRspectrum_new.svg",
+                "caption": "Figure 10: Spectra for the NLTE TLUSTY models based on our SR and non-SR $10^{6}M_{\\odot}$ MESA models. We additionally include a non-SR HMIX0 = 32 model to illustrate the insignificance of the HMIX0 value on our spectra."
+            }
+        ],
+        "abstract": "Quasi-stars, massive envelopes surrounding rapidly accreting black hole (BH) seeds, are promising candidates for explaining the rapid formation of supermassive black holes in the early Universe and may account for some of the JWST-discovered Little Red Dots (LRDs). We present a self-consistent framework combining stellar evolution calculations with non-local thermodynamic equilibrium (NLTE) spectral synthesis to test this connection. Our models drop the polytropic assumptions of previous work: the envelope is described entirely by mixing-length theory, with saturated convection and radiative energy setting the luminosity at an inner boundary a few hundred Schwarzschild radii from the BH. This removes the BH-mass limits of earlier models, and we follow the evolution up to BH-to-total mass ratios approaching unity. We then use TLUSTY to compute the first converged NLTE atmospheric models for the surface conditions and primordial hydrogen-helium composition expected in quasi-stars. Our models produce cool photospheres, prominent Balmer breaks, and Balmer and Paschen absorption features. NLTE effects substantially modify line strengths, increasing Balmer absorption depths by $\\sim 35-55\\%$ relative to LTE models, while having a minor effect on the continuum. Comparison with observed LRD spectral energy distributions shows broad agreement in continuum shape, although our models do not reproduce their commonly observed strong emission lines. Under the quasi-star interpretation, comparisons with individual LRDs suggest characteristic quasi-star masses of approximately $10^5-10^7 M_\\odot$. These results establish a physically motivated connection between quasi-star evolution and observable spectra, providing a framework for testing quasi-stars as progenitors of LRDs while identifying limitations of current atmospheric models.\n    "
+    },
+    "2611.03898": {
+        "title": "Shadowing the Sun I: Testing Synthetic Granulation Spectra with NEID Solar Eclipse Observations",
+        "authors": [
+            "Elizabeth Gonzalez",
+            "Michael L. Palumbo III",
+            "Suvrath Mahadevan",
+            "Eric B. Ford",
+            "Sarah E. Logsdon",
+            "Chad F. Bender",
+            "Andrea S.J. Lin",
+            "Daniel M. Krolikowski",
+            "Ashutosh Joshi",
+            "Joe P. Ninan",
+            "Jason T. Wright",
+            "Ansgar Reiners",
+            "Samuel Halverson",
+            "Michael W. McElwain",
+            "Jayadev Rajagopal",
+            "Paul Robertson",
+            "Arpita Roy",
+            "Christian Schwab",
+            "Gudmundur Stefansson",
+            "Ryan C. Terrien"
+        ],
+        "keywords": "",
+        "figures": [
+            {
+                "url": "https://arxiv.org/html/2611.03898v1/eclipse_plots.png",
+                "caption": "Figure 1: On-sky configuration of solar eclipse as viewed from NEID via simulated Dopplergrams, with colors depicting radial velocities from solar differential rotation only. UTC time is given in the upper left panel corner and the angle between horizon and solar rotation axis is in the upper right panel corner."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.03898v1/LD_laws.svg",
+                "caption": "Figure 2: The simulated limb darkening at SSD (red) and 300 G (blue) from [51] used for Fe I 5434 \u00c5 as a function of $\\mu$. The best fit quadratic (dashed) and four-parameter (dot-dashed) laws are shown in the corresponding magnetic field strength color. The solid black line shows the V-band four-parameter law as determined by [19] for the Sun. For both featured magnetic field strength, the fitted four-parameter law (dot-dashed) matches the simulated limb darkening best."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.03898v1/intensity_new.svg",
+                "caption": "Figure 3: The observed NEID relative intensity (dotted red line) and simulated relative intensity with only the SSD four-parameter limb darkening (solid line) and including extinction (dashed line) for Fe I 5434 \u00c5 as a function of airmass during the October 2023 solar eclipse. Unsurprisingly, including both limb darkening and extinction in our models produces a better fit to the observed data, especially at higher airmass values. "
+            },
+            {
+                "url": "https://arxiv.org/html/2611.03898v1/sunspot.png",
+                "caption": "Figure 4: HMI continuum images taken on 2023 October 14 at 16:35 UTC. All sunspots present are depicted. The largest three sunspots are highlighted in red and included in our RV models."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.03898v1/FeI_5434_new.svg",
+                "caption": "Figure 5: Top panel: black crosses show the NEID line-by-line RVs for the Fe I 5434 \u00c5 line. Dashed blue line shows model I, average projected velocities with no convective blueshift. Dashed yellow line shows model II, CCF RVs from simulated spectra with no granulation signatures. Dashed red line shows model III, GRASS-E CCF RVs. All RVs are mean-subtracted. Residual RMS after binning into 4 exposures (5.4 min) is found in legend. Bottom panel: residuals between the observations and each model in the corresponding color. Model III, which includes granulation signatures, performs better than the models that do not include granulation signatures."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.03898v1/cbs_new.svg",
+                "caption": "Figure 6: GRASS-E convective blueshift measurements as a function of $\\mu$ for Fe I 5434 \u00c5 taken by LARS [56]. Scattered dots depict the convective blueshift at a given $\\mu$ on a specific axes: North-blue, East-green, South-orange, and West-pink. Error bars indicate the mean error of 5 m s-1. LARS observations used by GRASS-E extend only to a minimum $\\mu$ of 0.3 for Fe I 5434 \u00c5. As shown, the convective blueshift measurements used by GRASS-E are non-continuous and do not cover near-limb. Black line shows the mean-subtracted optimized second-order polynomial ($a\\mu^{2}+b\\mu$) for the convective blueshift of Fe I 5434 \u00c5."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.03898v1/FeI_5434_CB_new.svg",
+                "caption": "Figure 7: NEID observations of the solar eclipse RVs together with the models: models I-CB, II-CB and III. Top panel: black crosses show the NEID line-by-line RV for Fe I 5434 \u00c5. Dashed blue line shows model I-CB, average projected velocities with the optimized convective blueshift. Dashed yellow line shows model II-CB, CCF RVs from simulated spectra accounting for the optimized convective blueshift. Dashed red line shows model III, GRASS-E CCF RVs with GRASS-E convective blueshift. All RVs are mean-subtracted. Binned RMS of each models\u2019 residuals is provided in legend. Bottom panel: residuals between the observations and each model in corresponding color. By including an optimized convective blueshift polynomial, models I-CB and II-CB now outperform GRASS-E, model III."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.03898v1/line_comps_new.svg",
+                "caption": "Figure 8: Eclipse RV RMS of each modeled spectral line for three models binned into 4 exposures (5.4 min) for p-modes. Model I-CB (blue): weighted average projected velocity with optimized convective blueshift; model II-CB (yellow): CCF RV from simulated spectra shifted according to optimized convective blueshift; model III (red): CCF RV from simulated GRASS-E granulation-driven spectra with LARS convective blueshift. Black x\u2019s depict average photon noise limit across the solar eclipse. Across all considered spectral lines, model III (GRASS-E) performs the weakest."
+            }
+        ],
+        "abstract": "The subtle Doppler radial velocity (RV) signature of an Earth-mass exoplanet in the Habitable Zone around a nearby Sun-like star is difficult to detect due to stellar variability. While multiple techniques aim to mitigate rotationally-modulated stellar activity, granulation, introducing 0.1-1 m s$^{-1}$ RV shifts, currently sets the floor for detecting Earth-mass RV signals for low-activity stars. Observations of the Rossiter-McLaughlin (RM) effect during a solar eclipse, with a peak-to-trough amplitude of $\\sim$1.4 km s$^{-1}$, are a rigorous test of granulation and convective blueshift in the solar spectrum. Using NEID solar feed data of the October 2023 solar eclipse and GRASS-E (a geometry-modified version of GRASS), we compare the observed RVs for 22 lines with the simulated RVs from the synthetic granulation-driven spectra. Residuals of the GRASS-E Fe I 5434 angstrom model show an RMS of 13.47 m s$^{-1}$ over the RM signal. We find that a model with an optimized convective blueshift polynomial for Fe I 5434 significantly outperforms GRASS-E with an RMS of only 2.90 m s$^{-1}$, suggesting that GRASS-E is currently limited by sparse center-to-limb observations. By combining a set of spectral lines, we achieve a weighted RMS of 5.2 m s$^{-1}$ over the RM signal ($\\sim$0.37\\%), a level of accuracy well beyond the reach of current exoplanet transit observations. In all, we demonstrate that solar eclipse observations allow us to recover the center-to-limb variation of the convective blueshift for individual spectral lines.\n    "
+    },
+    "2611.03919": {
+        "title": "Protostellar evolution of intermediate-mass stars: implications for the survival of fossil magnetic fields",
+        "authors": [
+            "Luis Villarroel Casanova",
+            "Dominik R.G. Schleicher",
+            "Daniele Galli",
+            "Jaime A. Rosales"
+        ],
+        "keywords": "",
+        "figures": [
+            {
+                "url": "https://arxiv.org/html/2611.03919v1/all_kipps/Kipp_radius_1_z0.02.png",
+                "caption": "(a) "
+            },
+            {
+                "url": "https://arxiv.org/html/2611.03919v1/all_kipps/Kipp_radius_4_z0.02.png",
+                "caption": "(b) "
+            },
+            {
+                "url": "https://arxiv.org/html/2611.03919v1/all_kipps/Kipp_radius_9_z0.02.png",
+                "caption": "(c) "
+            },
+            {
+                "url": "https://arxiv.org/html/2611.03919v1/all_kipps/Kipp_radius_12_z0.02.png",
+                "caption": "(d) "
+            },
+            {
+                "url": "https://arxiv.org/html/2611.03919v1/ALL_figura_mcrit_vs_mdot.svg",
+                "caption": "Figure 2: Results for models with constant accretion rate. The transition mass for which at least $50\\%$ of the protostar is radiative is shown as a function of the average accretion rate as defined via Eq. 14, equal here to the constant accretion rate assumed in the model. The results are given for four different metallicities. "
+            },
+            {
+                "url": "https://arxiv.org/html/2611.03919v1/ALL_constant_period.svg",
+                "caption": "Figure 3: Results for the models with oscillating accretion rate as defined in Eq. (13), assuming a fixed period of $50,000$ years. We show here the transition mass for which at least $50\\%$ of the protostar is radiative as a function of the average accretion rate defined via Eq.(14). The results are given for four different metallicities ranging from $0.001$ to $0.03$."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.03919v1/ALL_constant_Z.svg",
+                "caption": "Figure 4: Results for models with oscillating accretion rates as defined in Eq. (13), assuming a constant metallicity of $Z=0.02$. We show here the transition mass for the transition to the radiative state as a function of the average accretion rate defined via Eq.(14). The results are given for three different periods ranging from $10^{4}$  years up to $5\\cdot 10^{4}$  years."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.03919v1/Mcrit_vs_Mdot_LeyendasExternas.svg",
+                "caption": "Figure 5: Comparison of models with different metallicities and models with different periods. Blue corresponds to variations in the metallicity, while purple corresponds to variations in the oscillation period."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.03919v1/Mcrit_vs_Mdot_PowerlawOnly.svg",
+                "caption": "Figure 6: Results for the models with a power-law accretion rate, as defined in Eq. (15), assuming $t_{0}=300,000$ yr and a power-law index of $\\alpha=-1$. Here, we show the transition mass for which at least $50\\%$ of the protostars are radiative as a function of the average accretion rate defined via Eq.(14). The results are given for four different metallicities."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.03919v1/Mcrit_vs_Mdot_t0_alphas.svg",
+                "caption": "Figure 7: Results for the models with a power-law accretion rate, as defined in Eq. (15), assuming $t_{0}=300,000$ years and different power-law indexes, for a solar metallicity. Here, we show the transition mass for which at least $50\\%$ of the protostar has become radiative as a function of the average accretion rate defined via Eq.(14)."
+            }
+        ],
+        "abstract": "The detection of strong magnetic fields in radiative stars, particularly chemically peculiar Ap/Bp stars, has motivated various scenarios regarding their origin, including the fossil field hypothesis. Because field survival depends strongly on stellar internal structure, determining when protostars transition from convective to radiative states is essential to assess whether fossil fields persist. We determine the characteristic mass at which intermediate-mass protostars transition from convective to radiative interiors, exploring how this transition favors magnetic field survival. Using the 1D stellar evolution code MESA, we model the pre-main-sequence evolution of intermediate-mass protostars from convective initial seeds across different metallicities, average accretion rates, and accretion histories. The transition mass from predominantly convective to radiative states depends on both accretion rate and metallicity, occurring between $\\sim 1.3\\,M_\\odot$ and $2.8\\,M_\\odot$ for $1\\,M_\\odot$ reference models (and up to $\\sim 4\\,M_\\odot$ for other initial masses at high accretion rates). Accretion history details play a secondary role compared to the average rate and metallicity. Lower metallicities shift the transition to lower masses. For $Z \\ge 0.01$ and accretion rates above $4 \\times 10^{-6}\\,M_\\odot\\,\\mathrm{yr}^{-1}$, models retain convective envelopes up to the end of accretion, potentially dissipating accreted magnetic flux. Because this transition typically occurs above $\\sim 1.3\\,M_\\odot$, our results help explain the preferential survival of fossil fields in intermediate-mass stars, provided the radiative structure persists post-accretion. We also predict an increased incidence of strongly magnetized radiative stars at metallicities below $Z=0.01$.\n    "
+    },
+    "2611.03954": {
+        "title": "A Wolf-Rayet nebula in its disruption phase: high-resolution radio observations of PCG 11",
+        "authors": [
+            "C.S. Buemi",
+            "P. Leto",
+            "F. Cavallaro",
+            "G. Umana",
+            "C. Bordiu",
+            "F. Bufano",
+            "C. Trigilio",
+            "M.D. Filipovi\u0107",
+            "L. Cerrigone",
+            "R.Z.E. Alsaberi",
+            "A. Ingallinera",
+            "S. Loru",
+            "S. Riggi",
+            "A.C. Bradley",
+            "Z.J. Smeaton"
+        ],
+        "keywords": "",
+        "figures": [
+            {
+                "url": "https://arxiv.org/html/2611.03954v1/fig_s2_s4_ok_green.png",
+                "caption": "Figure 1: MeerKAT S-band images of PCG\u200911 in the S2 (2.625 GHz, left)\nand S4 (3.0625 GHz, right) sub-bands. The knotty structure of the rim,\nwith a characteristic separation matching the H$\\alpha$\nRayleigh\u2013Taylor scalloping of Cohen et al. (2005), is clearly resolved."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.03954v1/fig_c_x_ok_green.png",
+                "caption": "Figure 2: ATCA images of PCG\u200911 in the C band (5.5 GHz, left) and X\nband (9 GHz, right). The synthesized beam is shown in the bottom-left\ncorner. The central star is detected as an unresolved source in both\nbands. Note the diffuse plume extending beyond the rim in the C-band\nimage."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.03954v1/wr75ab_R=s4_G=c_B=resol_native.jpg",
+                "caption": "Figure 3: \nThree colour composite of the PCG 11 rim (red = S4, green = C, blue = X). Top panel, RGB image obtained using the native instrumental resolution. Bottom panel, RGB image obtained convolving the C and X maps with the beam (larger) of the S4 map.\n"
+            },
+            {
+                "url": "https://arxiv.org/html/2611.03954v1/wr75ab_R=s4_G=c_B=equal_beam2.jpg",
+                "caption": "Figure 3: \nThree colour composite of the PCG 11 rim (red = S4, green = C, blue = X). Top panel, RGB image obtained using the native instrumental resolution. Bottom panel, RGB image obtained convolving the C and X maps with the beam (larger) of the S4 map.\n"
+            },
+            {
+                "url": "https://arxiv.org/html/2611.03954v1/WR75ab_spectral_index_map.png",
+                "caption": "Figure 4: Left: spectral-index map of PCG 11 derived from the L, S2 and S4 images. Right:\ncorresponding spectral-index uncertainty map. The maps are in Galactic coordinates, the\nnative grid of the SMGPS image to which the S2 and S4 images were reprojected (Sect. 3.4),\nand are therefore rotated with respect to the equatorial orientation of Figs. 1\u20133."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.03954v1/WR75ab_spectral_index_histogram.svg",
+                "caption": "Figure 5: \nDistribution of pixel-by-pixel spectral index values $\\alpha$ across\nthe nebula, derived from the three frequency (L, S2, S4) fit. The red dashed\nline marks the median of the distribution; the black dotted line marks the\nspectral index obtained from the integrated flux densities at the three\nfrequencies; the green dash-dotted line marks the value expected for\noptically thin thermal freefree emission. The distribution\nis unimodal and centred close to the thermal value, consistent with free-free\nemission from the nebula as a whole.\n"
+            },
+            {
+                "url": "https://arxiv.org/html/2611.03954v1/WR75ab_integrated_radio_spectrum.svg",
+                "caption": "Figure 6: Spectral index from integrated flux, derived from the integrated flux density measured only within the mask containing pixels above the 5$\\sigma$ threshold in all three bands (see text).\n"
+            },
+            {
+                "url": "https://arxiv.org/html/2611.03954v1/figura_fit_S4_i33p1_final.png",
+                "caption": "Figure 7: Azimuthally averaged radial brightness profile of the S4 (3.1 GHz) image (black points with 1$\\sigma$ error bars), with the best-fitting models overlaid (top panel), and residuals of the best-fit torus model (bottom panel; grey dashed lines mark the $\\pm 1\\sigma$ noise level)."
+            }
+        ],
+        "abstract": "(abridged abstract) Wolf-Rayet stars have high mass-loss rates and fast stellar winds. Their interaction with circumstellar material from previous evolutionary phases can produce complex nebular morphologies. Hydrodynamic instabilities can fragment wind-swept material, producing condensations, filaments, and gaps that alter the confinement of stellar wind and ionizing radiation. The role of fragmentation in the late evolution and dispersal of WR nebulae remains poorly constrained. PCG 11, with its fragmented morphology and regular scalloped rim, offers an opportunity to investigate these processes. We aim to characterize the structure of PCG 11 and investigate its ring-like morphology and scalloped rim. We constrain its three-dimensional geometry and determine whether the optical fragmentation pattern is also traced by ionized gas. We obtained high-resolution radio continuum images with MeerKAT at 2.6 and 3.1 GHz and ATCA at 5.5 and 9.0 GHz. The radio emission reveals a hollow, equatorially enhanced structure viewed close to its symmetry axis. The images resolve the rim into condensations, low-brightness gaps, and finger-like protrusions. We quantify the fragmentation scale and relate it to the nebular geometry. We also detect an unresolved source coincident with WR 75ab, whose rising radio spectrum is consistent with thermal wind emission. The nebula processes only a small fraction of the stellar ionizing radiation, indicating substantial photon leakage. PCG 11 captures a poorly observed stage in massive-star bubble evolution: the swept-up shell has developed a coherent instability pattern and become fragmented and porous, while remaining dynamically coupled to the stellar wind. It provides a clear view of how fragmentation and erosion reshape the circumstellar environment during a transitional evolutionary phase.\n    "
+    },
+    "2611.04197": {
+        "title": "Carbon-Reaction Constraints on Stellar Evolution: White-Dwarf Heating, Carbon-Burning Products, and Black-Hole Masses",
+        "authors": [
+            "Akram Mukhamedzhanov"
+        ],
+        "keywords": "",
+        "figures": [
+            {
+                "url": "https://arxiv.org/html/2611.04197v1/Fig1paper.svg",
+                "caption": "Figure 1: Carbon-fusion rates and proton-to-alpha ratios.\nThe Bayesian-median rate is compared with the CF88 rate divided\nbetween channels according to MESA and with the new and\nnew-plus-hindrance rates of Gesu\u00e8 et al.\u00a0[5, 11].\nUpper panel: the sum $R_{\\alpha}+R_{p}$. Middle panel: this sum\nrelative to the calculation using CF88. Lower panel: $R_{p}/R_{\\alpha}$.\nThe Bayesian calculation uses the ratio of Yang et al.\u00a0[9]\nand is shown only through $T_{9}=1.3$. Its thermal integral covers\n$1.0\\leq E\\leq 3.5$ MeV; omitted contributions require assessment\nnear the upper plotted temperature. MESA gives $R_{p}/R_{\\alpha}=1$\nin this interval, differing from the original CF88 proportions.\nNeutron and direct radiative channels are excluded from the sums.\nUncertainty bands are not shown."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.04197v1/Fig2paper.png",
+                "caption": "Figure 2: Mass-fraction profiles of ${}^{20}\\mathrm{Ne}$,\n${}^{23}\\mathrm{Na}$, and ${}^{24}\\mathrm{Mg}$ at the saved\ncentral-carbon-depletion endpoints. Black solid curves show\nthe CF88 total rate with MESA branching. Red dashed curves\nshow the Bayesian-median rate with the digitized Yang\nproton-to-alpha branching\u00a0[9]. Both sequences start\nfrom the same post-helium-burning model of an initially\n$20\\,M_{\\odot}$, $Z=0.0142$ star. The horizontal axes extend to\n$m=14\\,M_{\\odot}$; the complete saved models extend to approximately\n$14.77\\,M_{\\odot}$. The vertical axes are logarithmic. The final\ncentral carbon fractions are $9.8657\\times 10^{-4}$ (CF88+MESA) and\n$8.5030\\times 10^{-4}$ (Bayesian median with Yang branching)."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.04197v1/Fig3paper.svg",
+                "caption": "Figure 3: Percentage change in retained isotope mass for Bayesian\nmedian with Yang branching relative to the calculation using the CF88 rate and MESA branching, using\nEq.\u00a0(18) and\nTable\u00a02. Positive and negative bars\nindicate increased and decreased inventories, respectively.\nThe bars compare two prescriptions for the total rate and\nbranching; they are not Bayesian uncertainty intervals or\nejected yields."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.04197v1/Fig4paper.svg",
+                "caption": "Figure 4: $$M$$aximum black-hole mass below the pair-instability\nmass gap as a function of $S_{\\rm tot}(300\\,\\mathrm{keV})$.\nThe black curve shows the results of\nFarag et al.\u00a0[15] at $Z=10^{-5}$.\nThe red curve shows the largest selected bound stellar mass\nat each reaction-rate factor from the present MESA\ncalculations at $Z=0.00142$.\nThese masses are provisional upper estimates of the final\nblack-hole masses because subsequent collapse was not followed.\nFor every red point of mass M, the upper error bar retains\nthe original assigned uncertainty, $\\delta_{+}=\\delta_{1}$, where\n$\\delta_{1}=1.5\\,M_{\\odot}$ for the leftmost point and\n$1.0\\,M_{\\odot}$ for the others.\nThe lower error bar is\n$\\delta_{-}=\\sqrt{\\delta_{1}^{2}+(0.02M)^{2}}$,\ncombining the original uncertainty with an assumed downward\nallowance of $2\\%$ for possible mass loss during collapse.\nThe two contributions are treated as independent.\nThe central values of M remain unchanged.\nThus, the error bars extend from $M-\\delta_{-}$ to $M+\\delta_{+}$.\nThe $2\\%$ allowance was not calculated from the present models.\nThe blue band marks the adopted $101$\u2013$135\\,\\mathrm{keV\\,b}$\ninterval; the pale-yellow band marks the comparison interval\n$120$\u2013$160\\,\\mathrm{keV\\,b}$."
+            }
+        ],
+        "abstract": "The effects of ${}^{12}\\mathrm{C}+{}^{12}\\mathrm{C}$ fusion and ${}^{12}\\mathrm{C}(\\alpha,\\gamma){}^{16}\\mathrm{O}$ capture on stellar heating, composition, and black-hole masses are examined. Rates from a published Bayesian analysis of carbon fusion are used in calculations with MESA. In an accreting carbon--oxygen white dwarf, the Bayesian rates move the point at which nuclear heating equals combined neutrino and surface photon losses to slightly larger stellar masses and higher central temperatures and densities. At an accretion rate of $10^{-7}\\,M_\\odot\\,\\mathrm{yr}^{-1}$, the Bayesian median gives a central temperature approximately $2.57\\%$ higher and a central density $18.9\\%$ higher than the calculation using the standard CF88 rate. A separate calculation follows carbon burning in an initially $20\\,M_\\odot$, $Z=0.0142$ star. Relative to the CF88 rate with MESA's standard division between proton and alpha channels, the Bayesian-median rate with the proton-to-alpha ratio of Yang et al. increases the neon-20 mass remaining at central carbon depletion by $10.8\\%$ and decreases the sodium-23 mass by $28.7\\%$. For helium capture on carbon, the nuclear constraint $S_{\\rm tot}(300\\,\\mathrm{keV})=118\\pm17\\,\\mathrm{keV\\,b}$ is applied to the published $Z=10^{-5}$ stellar models of Farag et al. Linear interpolation gives a maximum black-hole mass below the pair-instability gap of approximately $61.5$--$77.4\\,M_\\odot$ within the assumptions of those models. New MESA calculations at $Z=0.00142$ give smaller bound masses before collapse. Differences in the stellar assumptions prevent attributing the difference between the two curves to metallicity alone.\n    "
+    },
+    "2611.04557": {
+        "title": "Up in smoke: carbon-destruction in the terrestrial planet-forming region of a young Class I disk",
+        "authors": [
+            "F.J. Ballieux",
+            "M.K. McClure",
+            "E.A. Bergin",
+            "M.L.R. Van 't Hoff",
+            "\u0141. Tychoniec",
+            "L. Francis",
+            "E.F. Van Dishoeck"
+        ],
+        "keywords": "",
+        "figures": [
+            {
+                "url": "https://arxiv.org/html/2611.04557v1/H2O_16mu_carbon_fit.svg",
+                "caption": "Figure 1: Slab model fits for $\\rm{C_{4}H_{2}}$ and $\\rm{CH_{3}}$ in the 15.5 - 17 $\\rm{\\mu m}$ region, fit respectively to the residuals of the $\\rm{H_{2}O}$ slab model from paper A. We also indicate the $\\rm{C_{6}H_{2}}$ absorption band, to which we were unable to fit a slab model due to a lack of spectral data."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.04557v1/C2H_mom0_red_blue_contours.png",
+                "caption": "Figure 2: Integrated flux density of the JWST/MIRI $\\rm{H_{2}\\,S(3)}$ line at 9.6649 $\\rm{\\mu m}$, showing the blue-shifted $\\rm{H_{2}}$ jet, and ALMA band 6 $\\rm{C_{2}H}$ observations, centered at $\\rm{262.065\\,GHz}$, tracing the outflow cavity walls at $6-10\\,\\rm{km\\,s^{-1}}$ (blue contours) and $12-20\\,\\rm{km\\,s^{-1}}$ (red contours). Contours are plotted at 1 $\\sigma$ intervals, starting at 2$\\sigma$.\n"
+            },
+            {
+                "url": "https://arxiv.org/html/2611.04557v1/HOPS68-panelC_carbonpaper.png",
+                "caption": "Figure 3: \nProposed scenario to explain the hydrocarbon-rich spectrum of HOPS-68. Gas-phase carbon-bearing species enrich the gas between the soot line ($\\sim 500\\,\\rm{K}$) and the graphite sublimation rim ($\\sim 1200\\,\\rm{K}$), which we refer to as the \"refractory carbon destruction zone\", and are then entrained and transported out of the disk by the disk wind. In the outflow cavity, $\\rm{C_{2}H_{2}}$ reacts with UV-photons, with $\\rm{C_{2}H}$ as reaction product. $\\rm{C_{2}H}$ can react with $\\rm{C_{2}H_{2}}$ to form carbon-chain species such as $\\rm{C_{4}H_{2}}$ and $\\rm{C_{6}H_{2}}$.\nThe location of the isotherms were estimated using the results from paper A."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.04557v1/hops68_miri.svg",
+                "caption": "Figure 4: The full JWST/MIRI spectrum of HOPS-68, indicating the molecular gas absorption bands studied in this work and in paper A, as well as the most notable ice and silicate absorption features. Not indicated are the detections of $\\rm{{}^{13}CCH_{2}}$, CS, and $\\rm{CH_{4}}$ in the 7.3-7.8 $\\rm{\\mu m}$ region. Some prominent $\\rm{H_{2}}$ emission lines are highlighted with a black arrow. The inset shows a zoom-in to the 13\u201317 $\\rm{\\mu m}$ region, which shows a number of notable hydrocarbon bands. SiO, $\\rm{H_{2}O}$ , and $\\rm{CO_{2}}$ bands are analyzed in detail in paper A."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.04557v1/H2O_6mu_fit_right_carbon.svg",
+                "caption": "Figure 5: Slab model fits for $\\rm{CH_{4}}$, $\\rm{C_{2}H_{2}}$, and $\\rm{CS}$ in the 7.3 - 7.8 $\\rm{\\mu m}$ region, fit simultaneously to the residuals of the $\\rm{H_{2}O}$ slab model from paper A.\nThe hydrocarbons were fit with a fixed $\\Delta V$ and $v_{\\rm{obs}}$. Only the $v_{\\rm{obs}}$ for $\\rm{CH_{4}}$ was left free. We indicate the combined model of all four species in this region in gray."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.04557v1/HCN_C2H2_fit.svg",
+                "caption": "Figure 6: Slab model fits for HCN and $\\rm{C_{2}H_{2}}$. $\\rm{C_{2}H_{2}}$ was fitted to the residuals of the HCN fit."
+            }
+        ],
+        "abstract": "Earth's surface and deep mantle are strongly depleted in carbon compared to the Sun. Sublimation of solid carbonaceous material in the inner midplanes of young disks could cause this depletion. We study such thermal processing in HOPS-68, a Class I protostar with a rich hydrocarbon spectrum. A companion paper has shown that it is recondensing refractory dust from a hot inner disk region, and that oxygen-bearing species are tracing a warm (300-500 K) molecular layer entrained in a disk-wind. In this work, we analyze the carbon species in the JWST spectrum of this source using local thermal equilibrium slab models. We detect warm (~400 K) HCN and C2H2 at the base of a disk wind, as well as colder (~40 K) C4H2, CH3, and CS in the outer disk or outflow cavity wall. Additionally, 13CCH2, CH4, and C6H2 are detected, while ALMA observations reveal C2H tracing the outflow cavity walls. We suggest that in a \"refractory carbon destruction zone\" in the inner disk, carbon-bearing species are released from the grains, possibly contributing to the observed carbon depletion of Earth. The disk wind then redistributes carbon carried by HCN and C2H2 from the inner disk to the colder outer disk, where UV-induced gas-phase reactions with C2H in the outflow cavity walls could produce the aliphatic carbon chains seen. This result implies that the Warm Carbon Chain Chemistry (WCCC, e.g. N. Sakai & S. Yamamoto 2013) might trace outflows rather than infall. The formation of aliphatic chains in the disk wind could promote the abundant aliphatic organics found in meteorites and asteroids.\n    "
+    },
+    "2611.04567": {
+        "title": "A Detailed Polarimetric Imaging Study of Type II Solar Radio Burst with the MWA: Detection of Linear Polarization",
+        "authors": [
+            "Puja Majee",
+            "Devojyoti Kansabanik",
+            "Divya Oberoi"
+        ],
+        "keywords": "",
+        "figures": [
+            {
+                "url": "https://arxiv.org/html/2611.04567v1/HIRAS2_dynamic_spectrum.png",
+                "caption": "Figure 1: Left panel: Dynamic spectrum of the type II harmonic emission captured by the HIRAS2 spectrograph [29], with the color representing the intensity of the type II burst in arbitrary units. The six white rectangles mark the spectral bands, each spanning 2.56 MHz, corresponding to the spectral and temporal coverages of the MWA observation. Right panel: Dynamic spectrum of the type II emission observed by the MWA across the six spectral bands. The color scale represents the peak brightness temperature at the location of the type II burst"
+            },
+            {
+                "url": "https://arxiv.org/html/2611.04567v1/Figures_apj_letter/brightness_tmp_dynamic_spectrum_full_data_from_typeII_source_only_new.png",
+                "caption": "Figure 1: Left panel: Dynamic spectrum of the type II harmonic emission captured by the HIRAS2 spectrograph [29], with the color representing the intensity of the type II burst in arbitrary units. The six white rectangles mark the spectral bands, each spanning 2.56 MHz, corresponding to the spectral and temporal coverages of the MWA observation. Right panel: Dynamic spectrum of the type II emission observed by the MWA across the six spectral bands. The color scale represents the peak brightness temperature at the location of the type II burst"
+            },
+            {
+                "url": "https://arxiv.org/html/2611.04567v1/stokes_IQUV_map_in_hpc_02_47_15.png",
+                "caption": "Figure 2: Two sets of full Stokes maps of the Sun in the helioprojective coordinates at 108.81 MHz are shown \u2013 Stokes I (upper left), Q (upper right), U (lower left), and V (lower right). The left set represents a pre-type II burst time, and the right set represents a timestamp during type II at that frequency. The color scale represents the flux density/beam in units of SFU/beam. The cyan circle marks the optical disk of the Sun, and the yellow-filled ellipse in the lower corner of each panel depicts the PSF. The white contours are at 100, 150, 200, 250 $\\times\\sigma$ for the Stokes I image, and for other Stokes maps, the contours are at $\\pm 9,\\pm 21,\\pm 30$ $\\times\\sigma$, where $\\sigma$ is the rms noise of the corresponding maps. In both sets, positive features are denoted by solid contours and negative features by dashed ones. In the Stokes I map of the pre-burst time (left set), the lower source corresponds to the type II burst, and the upper source corresponds to an active region present during the event."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.04567v1/stokes_IQUV_map_in_hpc_02_49_00.png",
+                "caption": "Figure 2: Two sets of full Stokes maps of the Sun in the helioprojective coordinates at 108.81 MHz are shown \u2013 Stokes I (upper left), Q (upper right), U (lower left), and V (lower right). The left set represents a pre-type II burst time, and the right set represents a timestamp during type II at that frequency. The color scale represents the flux density/beam in units of SFU/beam. The cyan circle marks the optical disk of the Sun, and the yellow-filled ellipse in the lower corner of each panel depicts the PSF. The white contours are at 100, 150, 200, 250 $\\times\\sigma$ for the Stokes I image, and for other Stokes maps, the contours are at $\\pm 9,\\pm 21,\\pm 30$ $\\times\\sigma$, where $\\sigma$ is the rms noise of the corresponding maps. In both sets, positive features are denoted by solid contours and negative features by dashed ones. In the Stokes I map of the pre-burst time (left set), the lower source corresponds to the type II burst, and the upper source corresponds to an active region present during the event."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.04567v1/Figures_apj_letter/linear_pol_dynamic_spectrum.png",
+                "caption": "Figure 3: Spectro-temporal variability of $F_{\\mathrm{P}}$ are shown. Top panel: The dynamic spectra of $F_{\\mathrm{P}}$ across six spectral bands are shown. The white regions indicate where the type II burst is absent, as determined by using a threshold on the brightness temperature of the type II source from the Stokes I images.\nMiddle panel: Three traces representing variability of $F_{\\mathrm{P}}$ over time at three nearby frequencies, 131.435 (red), 132.795 (blue), and 133.135 (green) MHz. The shaded regions around each trace represent the associated uncertainties.\nLower panel: Spectral variability of $F_{\\mathrm{P}}$ at three timestamps 2:48:30 UTC (red), 2:48:30 UTC (blue), 2:49:00 UTC (green), with the associated uncertainties on $F_{\\mathrm{P}}$ shown as error bars. The discontinuous shaded region shows four of the six discrete 2.56 MHz spectral bands in which MWA observed the type-II event at those timestamps."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.04567v1/linear_pol_time_series.svg",
+                "caption": "Figure 3: Spectro-temporal variability of $F_{\\mathrm{P}}$ are shown. Top panel: The dynamic spectra of $F_{\\mathrm{P}}$ across six spectral bands are shown. The white regions indicate where the type II burst is absent, as determined by using a threshold on the brightness temperature of the type II source from the Stokes I images.\nMiddle panel: Three traces representing variability of $F_{\\mathrm{P}}$ over time at three nearby frequencies, 131.435 (red), 132.795 (blue), and 133.135 (green) MHz. The shaded regions around each trace represent the associated uncertainties.\nLower panel: Spectral variability of $F_{\\mathrm{P}}$ at three timestamps 2:48:30 UTC (red), 2:48:30 UTC (blue), 2:49:00 UTC (green), with the associated uncertainties on $F_{\\mathrm{P}}$ shown as error bars. The discontinuous shaded region shows four of the six discrete 2.56 MHz spectral bands in which MWA observed the type-II event at those timestamps."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.04567v1/linear_pol_freq_series.svg",
+                "caption": "Figure 3: Spectro-temporal variability of $F_{\\mathrm{P}}$ are shown. Top panel: The dynamic spectra of $F_{\\mathrm{P}}$ across six spectral bands are shown. The white regions indicate where the type II burst is absent, as determined by using a threshold on the brightness temperature of the type II source from the Stokes I images.\nMiddle panel: Three traces representing variability of $F_{\\mathrm{P}}$ over time at three nearby frequencies, 131.435 (red), 132.795 (blue), and 133.135 (green) MHz. The shaded regions around each trace represent the associated uncertainties.\nLower panel: Spectral variability of $F_{\\mathrm{P}}$ at three timestamps 2:48:30 UTC (red), 2:48:30 UTC (blue), 2:49:00 UTC (green), with the associated uncertainties on $F_{\\mathrm{P}}$ shown as error bars. The discontinuous shaded region shows four of the six discrete 2.56 MHz spectral bands in which MWA observed the type-II event at those timestamps."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.04567v1/Figures_apj_letter/radio_cube_3d_stokes_I_at_79.295MHz.png",
+                "caption": "Figure 4: Each panel illustrates the temporal evolution of Stokes I (first row), Q (second row), U (third row) sources, and the polarization angle, $\\chi$, (fourth row) at three distinct frequencies, represented by the three columns. The colorbars for the first three rows indicate the flux density in SFU/beam units for Stokes I, Q, and U, respectively, while the colorbar for the fourth row represents $\\chi$ in degrees. In each panel, the vertical axis encodes time, and the horizontal plane presents the sky-plane morphology in RA-Dec coordinates in relative units to the origin. The base image in each panel corresponds to the Stokes I image at the onset of the type II burst at the respective frequency, with the white circle denoting the optical solar disk."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.04567v1/Figures_apj_letter/radio_cube_3d_stokes_I_at_108.155MHz.png",
+                "caption": "Figure 4: Each panel illustrates the temporal evolution of Stokes I (first row), Q (second row), U (third row) sources, and the polarization angle, $\\chi$, (fourth row) at three distinct frequencies, represented by the three columns. The colorbars for the first three rows indicate the flux density in SFU/beam units for Stokes I, Q, and U, respectively, while the colorbar for the fourth row represents $\\chi$ in degrees. In each panel, the vertical axis encodes time, and the horizontal plane presents the sky-plane morphology in RA-Dec coordinates in relative units to the origin. The base image in each panel corresponds to the Stokes I image at the onset of the type II burst at the respective frequency, with the white circle denoting the optical solar disk."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.04567v1/Figures_apj_letter/radio_cube_3d_stokes_I_at_131.775MHz.png",
+                "caption": "Figure 4: Each panel illustrates the temporal evolution of Stokes I (first row), Q (second row), U (third row) sources, and the polarization angle, $\\chi$, (fourth row) at three distinct frequencies, represented by the three columns. The colorbars for the first three rows indicate the flux density in SFU/beam units for Stokes I, Q, and U, respectively, while the colorbar for the fourth row represents $\\chi$ in degrees. In each panel, the vertical axis encodes time, and the horizontal plane presents the sky-plane morphology in RA-Dec coordinates in relative units to the origin. The base image in each panel corresponds to the Stokes I image at the onset of the type II burst at the respective frequency, with the white circle denoting the optical solar disk."
+            }
+        ],
+        "abstract": "Type II radio bursts, produced by magnetohydrodynamic shocks propagating through the solar corona and interplanetary medium, serve as powerful diagnostics of shock properties and ambient coronal magnetic fields. While circular polarization in type II bursts has been extensively studied, most investigations rely on dynamic spectra (DS), providing only spatially integrated measurements. DS obscures spatial variations of the polarization sign and magnitude, potentially causing cancellation effects and misrepresenting true polarization levels. We present a full-polarimetric imaging study of a metric type II burst observed with the Murchison Widefield Array at 78--133 MHz. Remarkably, we report the first detection of linear polarization in a metric type II burst, reaching a polarization fraction of $\\sim12\\%$ with significant spectro-temporal variability across observing bands. The spectro-temporal, spatial, and morphological properties found in this study establish linear polarization as a new diagnostic of large-scale coronal and interplanetary magnetic field structure through full-Stokes imaging of metric solar radio bursts -- challenging conventional paradigms predicting negligible linear polarization from coherent plasma emission processes.\n    "
+    },
+    "2611.04650": {
+        "title": "MAGIC's interferometric diameters of $\u03b8$ Ophiuchi and $\u03b2$ CMa and comparison with asteroseismic modelling",
+        "authors": [
+            "K. Abe",
+            "J. Abhir",
+            "A. Abhishek",
+            "V. A. Acciari",
+            "A. Aguasca-Cabot",
+            "I. Agudo",
+            "I. Albanese",
+            "T. Aniello",
+            "C. Arauner",
+            "A. Arbet Engels",
+            "C. Arcaro",
+            "T. T. H. Arnesen",
+            "A. Babi\u0107",
+            "C. Bakshi",
+            "U. Barres de Almeida",
+            "J. A. Barrio",
+            "L. Barrios-Jim\u00e9nez",
+            "I. Batkovi\u0107",
+            "J. Becerra Gonz\u00e1lez",
+            "E. Bernardini",
+            "J. Bernete",
+            "A. Berti",
+            "J. Besenrieder",
+            "C. Bigongiari",
+            "A. Biland",
+            "O. Blanch",
+            "Z . Bo\u0161njak",
+            "E. Bronzini",
+            "I. Burelli",
+            "A. Campoy-Ordaz",
+            "A. Carosi",
+            "R. Carosi",
+            "M. Carretero-Castrillo",
+            "A. J. Castro-Tirado",
+            "D. Cerasole",
+            "G. Ceribella",
+            "A. Cervi\u00f1o",
+            "Y. Chen",
+            "G. Chon",
+            "A. Cifuentes Santos",
+            "J. L. Contreras",
+            "J. Cortina",
+            "S. Covino",
+            "P. Da Vela",
+            "F. Dazzi",
+            "A. De Angelis",
+            "B. De Lotto",
+            "C. Delgado Mendez",
+            "F. Di Pierro",
+            "R. Di Tria",
+            "A. Dinesh",
+            "D. Dominis Prester",
+            "D. Dorner",
+            "M. Doro",
+            "L. Eisenberger",
+            "D. Elsaesser",
+            "L. Foffano",
+            "F. Fr\u00edas Garc\u00eda-Lago",
+            "Y. Fukazawa",
+            "S. Garc\u00eda Soto",
+            "M. Gaug",
+            "J. G. Giesbrecht Paiva",
+            "N. Giglietto",
+            "F. Giordano",
+            "P. Gliwny",
+            "T. Gradetzke",
+            "R. Grau",
+            "J. G. Green",
+            "P. G\u00fcnther",
+            "D. Hadasch",
+            "A. Hahn",
+            "M. Hashizume",
+            "T. Hassan",
+            "J. Herrera Llorente",
+            "D. Hrupec",
+            "D. Israyelyan",
+            "J. Jahanvi",
+            "I. Jim\u00e9nez Mart\u00ednez",
+            "J. Jim\u00e9nez Quiles",
+            "S. Kankkunen",
+            "M. Khachatryan",
+            "J. Konrad",
+            "P. M. Kouch",
+            "G. Koziol",
+            "H. Kubo",
+            "J. Kushida",
+            "M. L\u00e1inez",
+            "A. Lamastra",
+            "E. Lindfors",
+            "S. Lombardi",
+            "F. Longo",
+            "R. L\u00f3pez-Coto",
+            "M. L\u00f3pez-Moya",
+            "A. L\u00f3pez-Oramas",
+            "S. Loporchio",
+            "L. Luli\u0107",
+            "P. Majumdar",
+            "M. Makariev",
+            "G. Maneva",
+            "M. Manganaro",
+            "S. Mangano",
+            "M. Mariotti",
+            "M. Mart\u00ednez",
+            "P. Maru\u0161evec",
+            "D. Mazin",
+            "J. M\u00e9ndez Gallego",
+            "S. Menon",
+            "D. Miceli",
+            "M. Molero Gonz\u00e1lez",
+            "E. Molina",
+            "H. A. Mondal",
+            "A. Moralejo",
+            "C. Nanci",
+            "A. Negro",
+            "V. Neustroev",
+            "M. Nievas Rosillo",
+            "C. Nigro",
+            "L. Nikoli\u0107",
+            "S. Nozaki",
+            "A. Okumura",
+            "J. Otero-Santos",
+            "S. Paiano",
+            "D. Paneque",
+            "J. M. Paredes",
+            "M. Peresano",
+            "M. Persic",
+            "M. Pihet",
+            "G. Pirola",
+            "F. Podobnik",
+            "P. G. Prada Moroni",
+            "E. Prandini",
+            "M. Rib\u00f3",
+            "J. Rico",
+            "A. Roy",
+            "F. G. Saturni",
+            "F. Schiavone",
+            "K. Schmitz",
+            "G. Silvestri",
+            "A. Simongini",
+            "J. Sitarek",
+            "V. Sliusar",
+            "D. Sobczynska",
+            "A. Stamerra",
+            "L. Stanic",
+            "J. Stri\u0161kovi\u0107",
+            "D. Strom",
+            "M. Strzys",
+            "Y. Suda",
+            "R. Takeishi",
+            "J. Tartera Barber\u00e0",
+            "P. Temnikov",
+            "T. Terzi\u0107",
+            "S. Ubach",
+            "M. Vazquez Acosta",
+            "S. Ventura",
+            "G. Verna",
+            "I. Viale",
+            "C. F. Vigorito",
+            "E. Visentin",
+            "V. Vitale",
+            "M. Vorbrugg",
+            "I. Vovk",
+            "R. Walter",
+            "C. Walther",
+            "F. Wersig",
+            "P. K. H. Yeung",
+            "M. Farnir",
+            "S. Salmon",
+            "\n    et al. (68 additional authors not shown)"
+        ],
+        "keywords": "",
+        "figures": [
+            {
+                "url": "https://arxiv.org/html/2611.04650v1/Images/MAGIC_obs_time.png",
+                "caption": "Figure 1: Time of observation for $\\theta$ Oph and $\\beta$ CMa from 2021 to the end of August 2024. $\\theta$ Oph was more observed than $\\beta$ CMa, particularly in the last two years. The vertical span represents the time ranges on which the analyses were performed. The bottom graph shows the maximum altitude per night."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.04650v1/Images/MAGIC_TetOph_72.4.png",
+                "caption": "Figure 2: \n(top): Normalised contrast of $\\theta$ Oph (orange) for a baseline bin of $5$ m centred on $59.10$ m over $$12$.22$ min of observation. Also shown in blue is the Gaussian fit using a 12 MHz high-pass filter.\n(bottom): DC currents for the star signal and NSB, for the two telescopes M1 and M2. Changes are visible in both the star signal and NSB, which are taken into account."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.04650v1/Images/MAGIC_TetOph_VisCurve.png",
+                "caption": "Figure 3: left: Squared visibility curve for $\\theta$ Oph obtained for the 2024 period. No ZBC correlation point was added.\nright: Squared visibility curve for Mirzam for the period from December 2023 to April 2024. The ZBC correlation point is derived from an analysis of Adhara, selecting data from the same period to account for ZBC evolution. Its value is $2.420\\pm 0.071$ /$\\mu$A."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.04650v1/Images/re_flx_study.png",
+                "caption": "Figure 4: Analysis of the effect of the $\\theta$ Oph B (for different relative stellar fluxes) on the measured squared visibility as a function of baseline (top), the impact on the derived angular diameter (centre) and on the amplitude of the squared visibility at zero baseline (bottom), as a function of the relative stellar fluxes.\n"
+            },
+            {
+                "url": "https://arxiv.org/html/2611.04650v1/Images/MAGIC_baseline_time.png",
+                "caption": "Figure 5: Time of observation for $\\theta$ Oph and Mirzam per baseline bin. The integrated signal for the baseline bin with the least exposure was good enough to perform a good fit."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.04650v1/Images/bcma_seismo_v2.png",
+                "caption": "Figure 6: Asteroseismic solution for $\\beta$ CMa in a R- T${}_{\\textrm{${}_{\\textrm{eff}}$}}$ diagram. The radius obtained from interferometry either from VERITAS or MAGIC-SII and Teff from Morel et al. (2006) are given with their error bars. Indicative main-sequence tracks for solar metallicity models between 11 and 14.4 M\u2299 (step of 0.2 M\u2299) are given in blue. The uncertainty on the asteroseismic radius, derived from a sensitivity analysis, is given in Sect. 5.4."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.04650v1/Images/thetaoph_seismo_v2.png",
+                "caption": "Figure 7: Asteroseismic solution for $\\theta$ Oph in a R- T${}_{\\textrm{${}_{\\textrm{eff}}$}}$ diagram. The radius obtained from interferometry in this work and Teff from Handler et al. (2005) are given with their error bars. Indicative main-sequence tracks for solar metallicity models between 6.5 and 9.5 M\u2299 (step of 0.2 M\u2299) are given in blue. The uncertainty on the asteroseismic radius, derived from a sensitivity analysis, is given in Sect. 5.5."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.04650v1/Images/MAGIC_result_comp_gaia.png",
+                "caption": "Figure 8: Full comparison of the different results obtained in this work.\nThe uncertainty on the radius for $\\theta$ Oph is larger than that of $\\beta$ CMa because no ZBC calibration was used.\nThe MAGIC-SII result is compatible with the VERITAS one."
+            }
+        ],
+        "abstract": "$\\beta$ Cephei type stars are massive ($8-25$M$_{\\odot}$) and known to have several pulsation modes with periods typically of a few hours. Despite a better understanding of their physics since 1992, the inner structure of these stars involves key stellar physics processes that are still uncertain. Asteroseismology offers insights into these variable stars by analysing pulsation modes, helping to probe their inner layers and understand their structure and mixing processes. We measure the angular diameter of two $\\beta$ Cephei stars, $\\theta$ Oph and $\\beta$ CMa, using the MAGIC Stellar Intensity Interferometer and compare them, together with the Gaia and Hipparcos parallaxes, to the predictions of the asteroseismic model. The latter are based on Levenberg-Marquardt local minimisation of stellar evolution model parameters to fit observed pulsation modes. In the case of $\\theta$ Oph, the observed angular diameters are compatible with the asteroseismic model. For $\\beta$ CMa, the radius derived from the angular diameter and the Hipparcos parallax is in tension, at the $2.5\\sigma$ level, with the asteroseismic prediction. We show that this tension mirrors a pre-existing conflict between independent spectroscopic determinations of the surface gravity of the star, that percent-level systematics of the stellar models are quantitatively insufficient to explain it, and that it most likely points to a bias of the Hipparcos parallax. In the frame of this paper, the statistical uncertainty on the interferometric results is similar to the systematic uncertainty on the parallaxes. With the already implemented addition in early 2024 of the first Large-Sized Telescope (CTAO-North LST-1) to the setup, the uncertainty in the angular diameter of these stars is expected to decrease by an order of magnitude, allowing to further constrain stellar evolution models and parallaxes.\n    "
+    },
+    "2611.04833": {
+        "title": "Solar extreme-ultraviolet waves and other associated solar activities",
+        "authors": [
+            "Apoorv Dashora",
+            "Ramesh Chandra",
+            "Pooja Devi"
+        ],
+        "keywords": "",
+        "figures": [
+            {
+                "url": "https://arxiv.org/html/2611.04833v1/Fig1.png",
+                "caption": "Figure 1: Year wise occurrence of EUV waves (black bar) and Moreton waves (hatched bar). "
+            },
+            {
+                "url": "https://arxiv.org/html/2611.04833v1/Fig2.png",
+                "caption": "Figure 2: Evolution of an EUV wave on 2021 August 28 (a\u2013c) observed in AIA 193 \u00c5 base difference images. The base time is 05:45 UT. The black arrows indicate the leading edge of EUV wave front."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.04833v1/Fig3.png",
+                "caption": "Figure 3: The Evolution of an EUV wave in AIA 193 \u00c5 (top panel) and associated Moreton wave in H$\\alpha$ (bottom panel) on 2021 May 22. The leading fronts of the EUV wave and Moreton wave are shown by cyan arrows."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.04833v1/Fig4.jpg",
+                "caption": "Figure 4: An EUV wave event on 2022 January 12 associated with a coronal mass ejection (CME). (a) EUV wave observed in the SDO/AIA 193 \u00c5 channel. (b, c) The associated CME observed by SOHO/LASCO C2 and C3, respectively. "
+            },
+            {
+                "url": "https://arxiv.org/html/2611.04833v1/Fig5.png",
+                "caption": "Figure 5: Histograms of angular width, speed and acceleration of the CMEs associated with EUV waves."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.04833v1/Fig6.png",
+                "caption": "Figure 6: Distribution of EUV waves and Moreton waves with GOES flare class."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.04833v1/Fig7.png",
+                "caption": "Figure 7: Partition of speed, time duration, starting frequency and end frequency of the m-type II radio burst associated."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.04833v1/Fig8.png",
+                "caption": "Figure 8:  Panel (a): An example of high intensity SEP event of 09 October 2024., Panel (b): Histogram of Number of SEPs with peak proton flux (pfu).\nPanel (c), (d): Scattered plot of SEPs peak proton flux with X-ray peak flux and CME speed. The values of log-log Pearson correlation coefficients for all events ($r_{\\mathrm{log-log,All}}$) and for western events ($r_{\\mathrm{log-log,West}}$) are shown with sample size (N) at the top left of each panel. Here, $\\rho_{\\mathrm{All}}$ and $\\rho_{\\mathrm{West}}$ represents the Spearman correlation coefficient calculated for all SEPs events and for western events respectively. The blue and red data points indicate events originating from the eastern and western hemispheres, respectively. The overlaid black and blue line show linear fit of all data points and blue points, respectively. "
+            },
+            {
+                "url": "https://arxiv.org/html/2611.04833v1/Fig9.png",
+                "caption": "Figure 9:  Panel (a), (b): Histog$r_{\\mathrm{a}}$m showing the distribution of ICMEs events with the $|Dst|$ index (nT) and ICME speed, respectively. Panel (c), (d): Scatter plots of $|Dst|$ (nT) versus the CME speed (km s-1) , and ICME speed (km s-1), respectively.\nThe linear Pearson correlation coefficients are represented as ra (for all events ) and\n$r_{\\mathrm{b}}$ (for less than 400 nT events) with sample size (N) at the top left of each panel. Here, $\\rho_{\\mathrm{a}}$ and $\\rho_{\\mathrm{b}}$ show the Spearman correlation coefficient calculated for all events and for less than 400 nT events respectively.\nThe overlaid black and blue line represent linear fit of all data points and blue points respectively. The red dot and blue dot represent $|\\mathrm{Dst}|\\geq 400$\u00a0nT events and less than 400 nT events respectively."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.04833v1/Fig10.png",
+                "caption": "Figure 10: Panel (a): Locations of EUV waves sources shown on the solar disk. Panel (b): The latitudinal distribution of EUV waves source locations with time."
+            }
+        ],
+        "abstract": "Extreme ultraviolet (EUV) waves are large-scale, tsunami like disturbances on the solar surface associated with eruptive phenomena such as solar flares, filament eruptions, and coronal mass ejections (CMEs). Because their strong correlation with major solar eruptions, we present here a comprehensive statistical study of EUV waves and their connections to Moreton waves, CMEs, solar flares, type II radio bursts, and solar energetic particle (SEP) events during Solar Cycle 25 (December 2019-December 2025). This study utilizes EUV data from the Atmospheric Imaging Assembly onboard the Solar Dynamics Observatory and coronagraph data from the Large Angle and Spectrometric Coronagraph onboard Solar and Heliospheric Observatory. Our analysis reveals that 12.3% of the observed EUV waves are associated with Moreton waves, 95% with CMEs, 92.7% associated with flares, 44.3% with metric type II radio bursts, and 11.8% with SEPs. While nearly all EUV waves are linked to CMEs, their association with solar flares varies significantly, ranging from weak B-class events to major X-class flares. Furthermore, the majority of Moreton waves correlate with large- or medium-class flares, with only a small fraction associated with weaker C-class flares. Our findings may contribute to a better understanding of space weather events and, potentially, to their forecasting.\n    "
+    },
+    "2611.04966": {
+        "title": "Eigenfrequency sensitivity in nonadiabatic stellar pulsations",
+        "authors": [
+            "Jan Zalewski"
+        ],
+        "keywords": "",
+        "figures": [
+            {
+                "url": "https://arxiv.org/html/2611.04966v1/fig1.png",
+                "caption": ""
+            },
+            {
+                "url": "https://arxiv.org/html/2611.04966v1/fig2.png",
+                "caption": ""
+            },
+            {
+                "url": "https://arxiv.org/html/2611.04966v1/fig3.png",
+                "caption": ""
+            },
+            {
+                "url": "https://arxiv.org/html/2611.04966v1/fig4.png",
+                "caption": ""
+            },
+            {
+                "url": "https://arxiv.org/html/2611.04966v1/fig5.png",
+                "caption": ""
+            },
+            {
+                "url": "https://arxiv.org/html/2611.04966v1/fig6.png",
+                "caption": ""
+            },
+            {
+                "url": "https://arxiv.org/html/2611.04966v1/fig7.png",
+                "caption": ""
+            },
+            {
+                "url": "https://arxiv.org/html/2611.04966v1/fig8.png",
+                "caption": ""
+            }
+        ],
+        "abstract": "We derive an adjoint formulation of eigenfrequency sensitivity for linear nonadiabatic stellar pulsations, including the frequency dependence of the boundary conditions. Local sensitivity kernels and their cumulative integrals describe the responses of the excitation rate and oscillation frequency to prescribed scaling of the pulsation matrix and its acoustic, thermal and coupling blocks. Applications to selected radial modes of post-AGB envelopes reveal distinct spatial and subsystem sensitivity profiles. In the cool model, the ordinary mode has weak sensitivity near both boundaries for the slow branch outer boundary conditions, whereas the strange mode exhibits pronounced sensitivity in the outer layers. Selected modes of the hotter model also show appreciable outer-layer sensitivity. The block decomposition reveals differing contributions and cancellations in the excitation-rate and oscillation-frequency responses.\n    "
+    },
+    "2611.05200": {
+        "title": "The Galah survey and symbiotic stars. II. Discovery, validation, and intensive follow-up of 44 new systems accreting at the lowest detectable levels",
+        "authors": [
+            "U. Munari",
+            "P. Valisa",
+            "N. Masetti",
+            "M. Fiorucci",
+            "M. Perko",
+            "B. Jamnik",
+            "G. Traven",
+            "A. Frigo",
+            "J. Bland-Hawthorn",
+            "S. Buder",
+            "A. R. Casey",
+            "G. M. De Silva",
+            "P. B. Das",
+            "K. C. Freeman",
+            "M. R. Hayden",
+            "J. Kos",
+            "G. F. Lewis",
+            "J. Lin",
+            "S. L. Martell",
+            "K. J. Schlesinger",
+            "S. Sharma",
+            "J. D. Simpson",
+            "D. Stello",
+            "D. B. Zucker",
+            "T. Zwitter"
+        ],
+        "keywords": "",
+        "figures": [
+            {
+                "url": "https://arxiv.org/html/2611.05200v1/aa60724-26_fig01.png",
+                "caption": "Fi$$g$$ure 1: Example of the R$V$s collected with the\nAsiago 1.82m + Echelle and Varese 0.84m + Echelle telescopes for the\nprogram stars and the corresponding orbital solution, in this case for\nGaSS 2-38. Upper left: Solid line shows the Gaia DR3 mean RV, the\nhorizontal gray band marks the time covered by Gaia DR3 observations,\nthe red dot is the RV from the Galah spectrum, and the open and solid\nblack dots mark Varese and Asiago epoch RVs, respectively. Upper\nright: RVs on the left folded onto the spectroscopic orbit given in\nTable 2 (green sinusoidal line). Lower left: V- and\ng-band photometry from ASAS-SN. Lower right: ASAS-SN photometry in\nthe g band folded to the ephemeris of the spectroscopic orbit above."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.05200v1/aa60724-26_fig02.png",
+                "caption": "Figure 2: Example o$f$ the profile evolution of the H$\\alpha$ emission\non the high-resolution spectra from the Galah survey and\nthe Asiago 1.82m + Echelle observations, in this case a\ntotal of 15 epochs for GaSS 2-35 distributed over\n2015\u20132025. For each observing date (marked at the top\nleft) the observed, continuum-normalized spectrum is\nplotted in black and that of the corresponding Galah\ntemplate for the same f-bin is drawn in red. The\nsubtraction of the template from the epoch spectrum\nproduces the H$\\alpha$ profile plotted in blue at right."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.05200v1/aa60724-26_fig03.svg",
+                "caption": "Figure 3: Examples of the results obtained in the search for flickering\nin the $B$ band with the Asiago 67/92 cm Schmidt telescope\n(see Table 5, Sect. 4, and\nAppendix F for details). The\ndispersion $\\sigma$ of the $N$ consecutive measurements of\nduration exp for the GaSS symbiotic star (red symbol)\nis compared to that of the check stars of a similar red color\n(gray band)."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.05200v1/aa60724-26_fig04-eps-converted-to.svg",
+                "caption": "Figure 4: \nExamples of reddening-corrected Gaia XP spectra for well-known\nsymbiotic stars (left panel) and new symbiotic stars discovered in\nthis work (right panel). The best-fit spectral templates (see\nAppendix G) and the applied reddening\ncorrections (Fitzpatrick, 1999, following) are indicated\nfor each object (Schlegel et al., 1998, in parentheses, we show the reddening values from the\nmaps of). The vertical gray band marks the\nposition of H$\\alpha$. The symbiotic stars in the left panel\nillustrate typical XP spectra for H-burning conditions as well as\nfor high, moderate, and low accretion luminosities. Those in the\nright panel illustrate the varying degrees of near-UV excess\n($\\lambda\\leq 4000$ \u00c5) of the program\u2019s new SySts and the\ncorresponding classification (n, y, Y, and Y!) adopted in\nTable 10."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.05200v1/aa60724-26_fig05-eps-converted-to.svg",
+                "caption": "Figure 5: Photospheri$c$ emission of norm$a$l fiel$d$ giants in the Swift M2 and W2 ultraviolet $b$ands (panels a and b), and GALEX NUV\nband (panel c), expressed as magnitude difference with the optical\n$B$ band (data from Table 12; for details and the\nmeaning of blue points, see Sect. 6). For the new SySts,\npanel d plots the W2$-B$ color derived from data in\nTables 10 and 5."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.05200v1/aa60724-26_fig06-eps-converted-to.svg",
+                "caption": "Figure 6: Distribution o$f$ the 44 new symbiotic stars in terms of (a)\nf-bin classification of the red giant (the blue histogram\nrepresents the distribution of the full sample of 32k M-giants\nobserved by Galah); (b) interstellar reddening\n(Schlegel et al., 1998, from); (c) distance (derived from\nabsolute $R_{P}$ and $K_{s}$ magnitudes of the red giant; that from Gaia\nDR3 parallax when the error is $<$20% is shown in gray); and (d)\nmean accretion luminosity (computed from the mean H$\\alpha$ emission\nflux; see Sect. 7 for details). Data from\nTable 8."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.05200v1/aa60724-26_fig07-eps-converted-to.svg",
+                "caption": "Figure 7: Profile and flux variability of the H$\\alpha$ emission line\nin SU Lyn, the prototype of LowAcc symbiotic stars.\nHigh-resolution spectra of SU Lyn are compared to the spectrum of\nHD 284438, an S-type giant of S6,1 spectral type\n(Keenan, 1954, following). All spectra were obtained\nwith the Asiago 1.82m telescope equipped with the Echelle\nspectrograph."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.05200v1/aa60724-26_fig08.svg",
+                "caption": "Figure 8: Variable presence of flickering in GaSS 2-45 for very\nsimilar observations taken one year apart (see\nFig. 3 for explanation of symbols)."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.05200v1/aa60724-26_fig09-eps-converted-to.svg",
+                "caption": "Figure 9: Distribution in orbital period and in semi-amplitude of the\nspectroscopic orbits of the new SySts listed in Table 2.\nFor comparison the distributions for the Fekel\u2009&\u2009Hinkle sample\ndefined in Sect. 7.5 are shown in blue."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.05200v1/aa60724-26_fig10-eps-converted-to.svg",
+                "caption": "Figure 10: Examples o$$f$$ distribution in absolute magnitude and intrinsic\ncolors of the 5,040 M-type red giants selected to calibrate\nthe f-bin sequence in Table 12, highlighting\nGaussian symmetric shapes and lack of outliers. The f-bin\nvalue is plotted in red."
+            }
+        ],
+        "abstract": "We report the discovery, validation, and characterization of 44 new symbiotic stars (SySts) accreting at the lowest detectable levels (Lacc =< 3 Lsun). Candidates were initially selected from the Galah survey among non-pulsating M-type red giants exhibiting Halpha excess. Between 2021 and 2025, these targets were subjected to intensive multi-wavelength campaigns, including ground-based, high-resolution Echelle spectroscopy over 544 nights, multi-epoch flickering searches down to 1 mmag, and UV/X-ray observations with the Swift satellite. Our high-resolution spectra allowed for a detailed investigation of Halpha flux and line-profile variability. Crucially, the radial velocities measured for the M-giant components yielded reliable spectroscopic orbits for 22 objects and preliminary orbits for an additional eight, corroborated by binary-induced modulations in ASAS-SN photometry. Measured accretion levels vary by factors of up to 20X, emphasizing the need for high-sensitivity, long-term monitoring. Swift X-ray data exclude neutron star companions in all targets, consistent with predominance of white-dwarf degenerates in known SySts. Combined with the 33 objects from Paper I, this sample of 77 new SySts significantly exceeds the number of previously known, accreting-only Galactic symbiotic stars, constituting the bulk of the low-accretion (LowAcc) variety discovered to date and representing >10 percent of all known SySts in the Galaxy. As SySts likely spend most of their lifetimes in LowAcc faint states, characterizing this population is essential for estimating the total Galactic SySt population and evaluating the role of SySts as Type Ia supernova progenitors or sources of UV excess in elliptical galaxies.\n    "
+    },
+    "2611.05297": {
+        "title": "Metamorphic novae. I. Gaia22alz -- Violent relaxation starting from static evolution",
+        "authors": [
+            "Mariko Kato",
+            "Izumi Hachisu"
+        ],
+        "keywords": "",
+        "figures": [
+            {
+                "url": "https://arxiv.org/html/2611.05297v1/f1.png",
+                "caption": "Figure 1: \n(a) Comparison of $$$V$$$ light curves among four novae in the\nabsolute V magnitude (see Table 1 for the distance\nmodulus in the V band of each nova).\nV1674 Her: the optical data are taken from R. M. Quimby et al. [70] and the archive\nof the American Association of Variable Star Observers (AAVSO). The\norange line indicates the model light curve for a 1.35 $M_{\\sun}$ WD\nwith the mass accretion rate to the WD of\n$\\dot{M}_{\\rm acc}=1\\times 10^{-11}~M_{\\sun}$\u00a0yr-1 [48].\nKT Eri: the optical data are the same as those in Figure 1 of\nI. Hachisu et al. [29]. V723 Cas: filled circles are taken from D. Chochol & T. Pribulla [10],\nsmall open circles and purple dots are the same as those in Figure 1 of\nM. Kato & I. Hachisu [46].\nPU Vul: the optical data and 0.6 $M_{\\sun}$ WD model\nare the same as those in Figure 6 of M. Kato et al. [47].\n(b) PU Vul: the optical data and 0.6 $M_{\\sun}$ WD model\nare the same as those in Figure 6 of M. Kato et al. [47] and\nFigure 8 of M. Kato et al. [50].\nCN Cha: the optical data taken from L. Lancaster et al. [57] and AAVSO.\nThe red line denotes the 0.57 $M_{\\sun}$ WD for CN Cha taken from\nFigure 2 of M. Kato & I. Hachisu [46].\n"
+            },
+            {
+                "url": "https://arxiv.org/html/2611.05297v1/f2.png",
+                "caption": "Figure 2: \nObservational aspects of metamorphic novae. We categorize the metamorphic\nnovae among other classes of novae, based on the theoretical interpretation\nof metamorphic transition [47].\nA metamorphic nova occurs on a low mass WD in a close binary.\nHere, classical novae involve all the hydrogen shell-flash phenomena on a WD.\nIn massive WDs, a strong optically-thick wind mass-loss [43]\noccurs and makes a rapid optical decline independently of the wide\nor close binary type. Some less massive WDs show a long lasted\nflat peak with\nno indication of massive winds (no P Cygni profiles) in the rising\nphase followed by a very long (longer than a few years) flat peak.\nMetamorphic novae show a hybrid evolution of flat peak novae and\nclassical novae on a massive WD, that is, start a hydrostatic\nevolution (no indication of massive winds)\nin the rising phase and then metamorphose to a wind evolution after\na violent multi-peak episode.\n"
+            },
+            {
+                "url": "https://arxiv.org/html/2611.05297v1/f3.png",
+                "caption": "Fi$g$ure 3: \nComparison of $$$$$V$$$$$ light curves among the four metamorphic novae.\nHR Del: the optical (V and visual) data are the same as those\nin Figure 6 of M. Kato & I. Hachisu [45], and\nfilled circle connected by black lines indicate the continuum-only\nV band magnitudes taken from H. Drechsel et al. [13].\nThe nebular phase started on UT 1968 July 21 [73].\nThese data are shifted up by 5 mag.\nV723 Cas: all the magnitude data are the same as those in Figure 1,\nand are shifted up by 4 mag.\nV5558 Sgr: blue dots (AAVSO visual) and blue filled circles\n(AAVSO V) are left as it is, that is, not shifted.\nGaia22alz (Nova Vel 2022): filled circles (ASAS-SN sky-patrol g)\nand open circles (AAVSO V) are shifted down by 0.45 mag.\n"
+            },
+            {
+                "url": "https://arxiv.org/html/2611.05297v1/f4.png",
+                "caption": "Figure 4: \nSame as those in Figure 3, but in the absolute $$V$$ magnitude.\nEach apparent brightness is converted to absolute brightness\nwith the distance modulus in the V band of $(m-M)_{V}$ tabulated\nin Table 1. The rightward arrows indicate\nepoch B and epoch C of Gaia22alz corresponding to those\nin Figure 5.\n"
+            },
+            {
+                "url": "https://arxiv.org/html/2611.05297v1/f5.png",
+                "caption": "Fi$$g$$ure 5: \nOptical $$$V$$$/g light curves of Gaia22alz. The ASAS-SN g (red circles)\nand upper limits (downward gray arrows) are taken from the\nASAS-SN sky patrol database [82, 55].\nAll the ASAS-SN data are shifted up by 0.45 mag to match the AAVSO\nV data (orange open circles). The three solid model light curves\nin the rising phase indicate the upper three\nmodels of 0.6 $M_{\\sun}$ WDs in Table 2:\nM06.Ne.047 (green), M06.Ne.11 (black), and M06.Ne.25 (orange).\nThe lower two models in Table 2 are\nM06.sol.11 (dashed black line) and M055.Ne.11 (dotted black line).\nThe rightside three solid black lines indicate the free-free emission\nlight curves of 0.55, 0.6, and 0.65 $M_{\\sun}$ WDs with\nthe same chemical composition as that of M06.Ne.11 (Ne2) [22]\nwhereas the rightside dotted black line\nis for a 0.6 $M_{\\sun}$ WD with the solar composition.\nThese model V light curves start from epoch D ($\\log T_{\\rm ph}({\\rm K})=3.9$).\nThe photospheric temperature decreases from point A (the lowest\nblack dot on each model light curve: $\\log T_{\\rm ph}({\\rm K})=5.0$)\nto point B (middle black dot on each model light curve:\n$\\log T_{\\rm ph}({\\rm K})=4.48$), and to point C (upper black dot on\neach model light curve: $\\log T_{\\rm ph}({\\rm K})=4.0$).\n"
+            },
+            {
+                "url": "https://arxiv.org/html/2611.05297v1/f6.png",
+                "caption": "Figure 6: \nSame as in Figure 5, but for selected models, i.e.,\nthe static evolution of M06.sol.11 for the rising phase, and\nsteady wind evolution of a 0.6 $M_{\\sun}$ WD (solar abundance)\nfor the decay phase.\nThe leftward blue arrow indicates the epoch ($t=55$ day)\nwhen the companion is\nengulfed by the expanding envelope for the binary of a 0.6 $M_{\\sun}$ WD\nand 0.2 $M_{\\sun}$ companion with $P_{\\rm orb}=$ 1.437 day.\nA P-Cygni absorption profile of H$\\beta$ appears on day 68.\nA guide line (dashed line) connects the point of\n$\\log T_{\\rm ph}$ (K)$$=3.9$5$\nin the static evolution model and point D ($\\log T_{\\rm ph}$ (K)=3.9)\nin the steady state wind evolution model.\nWe assume that a half of the initial envelope mass is lost\nduring the violent multi-peak phase, so it decreased from\n$1.1\\times 10^{-4}~M_{\\sun}$ at point C to $4.6\\times 10^{-5}~M_{\\sun}$\nat point D.\n"
+            },
+            {
+                "url": "https://arxiv.org/html/2611.05297v1/f7.png",
+                "caption": "Fi$$g$$ure 7: \nComparison of the rising phases among the four novae, $V$723 Cas, PU Vul,\nV1674 Her, and Gaia22alz.\nFor V723 Cas, only the early phase is plotted by red color.\nThe lower two blue rightward arrows\nindicate the brightnesses of the\nirradiated disk and companion calculated for V1674 Her binary model\nwith the inclination angle of $i=67\\arcdeg$ (lower arrow)\nand $45\\arcdeg$ (upper arrow) [26].\nThe data of Gaia22alz are ASAS-SN sky patrol g and AAVSO V.\nThe small gray downward arrows indicate the upper limit\nmagnitudes in the ASAS-SN g database.\n"
+            },
+            {
+                "url": "https://arxiv.org/html/2611.05297v1/f8.png",
+                "caption": "Figure 8:  The H-R diagrams for (a) $L_{\\rm ph}$ (bolometric luminosity), (b) $M_{$$V$$}$,\nand (c) $L_{\\rm X}$ (X-ray: 0.3 - 1.0 keV) light curves\nof our models: M06.sol.11 (black line), M06.Ne.047 (orange line),\nM06.Ne.11 (red line),\nand M06.Ne.25 (blue line).\nThe solid (dotted) line represent a hydrostatic envelope solution where\nhydrogen nuclear burning is stable (unstable). See R. Sienkiewicz [84] or\nK. Nomoto et al. [64] for details. The photospheric temperature reaches\nmaximum at the small dot.\n(a) The green solid lines denote given photospheric radii.\nThe line labeled 4.97 $R_{\\sun}$ corresponds to the companion orbit of\nGaia22alz.\n(b) Evolution of V band magnitude. A, B, and C indicate the\ntemperatures corresponding to point A, B, and C, respectively.\n(c) Evolutions of the bolometric luminosity, supersoft X-ray luminosity\n(0.3 - 1.0 keV), and V band luminosity.\nOnly the stable part of each evolution track is plotted.\nThe X-ray luminosity reaches its maximum at the\nmaximum temperature (dot) throughout the stable/unstable envelope solutions.\n"
+            },
+            {
+                "url": "https://arxiv.org/html/2611.05297v1/f9.png",
+                "caption": "Figure 9: \nThe $d$istance-reddening relations toward Gaia22alz.\nThe black line labeled \u201c$(m-M)_{V}=17.35$\u201d denotes the distance-reddening\nrelation of $(m-M)_{V}=5\\log(d/{\\rm 10~pc})+3.1\\times E(B-V)=17.35$,\nwhere d is the distance and $E(B-V)$ is the reddening.\nOpen red squares, filled green squares, blue asterisks, and open magenta\ncircles with error bars represent the relations of D. J. Marshall et al. [59]\nin the four directions close to Gaia22alz.\nWe add four distance-reddening relations (thick cyan-blue) of\nB.-Q. Chen et al. [8], which correspond to four\nnearby directions toward Gaia22alz.\n"
+            }
+        ],
+        "abstract": "Gaia22alz (nova Vel 2022) shows characteristic properties in its light curves and spectral evolution similar to slow novae HR Del, V723 Cas, and V5558 Sgr. Their outburst begins in a way of hydrostatic expansion with no mass loss, followed by large amplitude ($\\Delta V \\sim 2$ mag) multiple peaks around the mean magnitude of $M_V \\sim -5.5$, and eventually it decays similarly to normal classical novae. We present a light curve model of Gaia22alz based on our metamorphic nova theory: a nova starts from a static expansion and then metamorphoses to an optically thick wind evolution through a large amplitude multiple peak phase as a violent relaxation process. Our theoretical light curve for the rising phase consistently explains the slow rise and early spectral evolution of Gaia22alz. Gaia22als is a close binary as well as other three novae, which is consistent with our metamorphic nova theory that the companion motion in the nova envelope triggers the metamorphic transition. Our results do not support E. Aydi et al.'s explanation that the slow optical rise of Gaia22alz is owing to the irradiation of X-ray/UV flash.\n    "
+    },
+    "2611.03808": {
+        "title": "Galactic-Scale Distribution of 10Be and Its Implications for the Early Solar System 10Be/9Be",
+        "authors": [
+            "Yusuke Fujimoto",
+            "Steven J. Desch",
+            "Jiro Shimoda",
+            "Shu-ichiro Inutsuka"
+        ],
+        "keywords": "",
+        "figures": [
+            {
+                "url": "https://arxiv.org/html/2611.03808v1/time_evolution_SFR_CR.svg",
+                "caption": "Figure 1: \nTime evolution of the total star formation rate (SFR; black solid line) and total CR energy (brown solid line) within the galactic disc ($R\\leq 12$\u00a0kpc, $|z|\\leq 1$\u00a0kpc), covering the low-resolution relaxation phase ($t\\leq 500$\u00a0Myr) and the high-resolution phase ($t>500$\u00a0Myr). The vertical black dashed line marks $t=500$\u00a0Myr, the end of the initial relaxation phase, at which point the resolution is increased from 20\u00a0pc to 10\u00a0pc. During the relaxation phase, a single run is evolved. In the high-resolution phase, the CR energy is shown separately for Model\u00a01 (High\u00a0$\\kappa_{\\rm CR}$; blue solid), Model\u00a02 (Middle\u00a0$\\kappa_{\\rm CR}$; orange dashed), and Model\u00a03 (Low\u00a0$\\kappa_{\\rm CR}$; green dotted). Model\u00a04, which differs from Model\u00a02 only in the GCR production rate of 10Be in dense gas, is not shown as it yields the same SFR and CR energy as Model\u00a02.\n"
+            },
+            {
+                "url": "https://arxiv.org/html/2611.03808v1/disk_evolution.png",
+                "caption": "Figure 2: \nMorphology of the galactic disc during the low-resolution relaxation phase. From left to right, the panels show the stellar mass surface density, gas mass surface density, and CR energy surface density, each integrated over $-0.5<z<0.5$\u00a0kpc. From top to bottom, the disc is shown at $t=200$, 400, and 500\u00a0Myr. The bottom row presents the disc viewed edge-on at 500\u00a0Myr.\n"
+            },
+            {
+                "url": "https://arxiv.org/html/2611.03808v1/disk_model_comparison.png",
+                "caption": "Figure 3: \nMorphology of the galactic disc during the high-resolution phase at $t=600$\u00a0Myr. From left to right, the columns show Model\u00a01 (High\u00a0$\\kappa_{\\rm CR}$), Model\u00a02 (Middle\u00a0$\\kappa_{\\rm CR}$), and Model\u00a03 (Low\u00a0$\\kappa_{\\rm CR}$). The top two rows show the gas mass surface density in the face-on (first row) and edge-on (second row) projections, and the bottom two rows show the CR energy surface density in the face-on (third row) and edge-on (fourth row) projections, integrated as in Figure\u00a02.\n"
+            },
+            {
+                "url": "https://arxiv.org/html/2611.03808v1/zoom_projections.png",
+                "caption": "Figure 4: \nZoom-in views of the galactic disc at $t=600$\u00a0Myr for Model\u00a02, the intermediate-diffusivity case. The panels show the gas density (top left), CR energy density (top middle), 10Be density (top right), GCR-produced 10Be density (bottom left), SNR-produced 10Be density (bottom middle), and the 10Be/9Be abundance ratio (bottom right). All quantities are projected along the line of sight and weighted by the gas density, integrated over $-200<z<200$ pc. The galactic centre is located at the lower-left corner at $(x,y)=(0,0)$ kpc, and the galactic disc rotates clockwise.\n"
+            },
+            {
+                "url": "https://arxiv.org/html/2611.03808v1/radial_profile_model_2_GasMassDensity.svg",
+                "caption": "Figure 5: \nAzimuthally averaged radial profiles of the galactic disc at $t=600$\u00a0Myr for Model\u00a02, the intermediate-diffusivity case. The four panels show the gas number density (top left), CR energy density (top right), 10Be mass density (bottom left), and the fraction of SNR-produced 10Be in the total 10Be (bottom right). Each quantity is shown as a weighted mean, either weighted by the gas mass of each cell (black solid lines) or by the cell volume (brown dashed lines). The radial bin size is 1\u00a0kpc, and only cells within $|z|\\leq 200$\u00a0pc are included.\n"
+            },
+            {
+                "url": "https://arxiv.org/html/2611.03808v1/radial_profile_model_2_CREnergyDensity.svg",
+                "caption": "Figure 5: \nAzimuthally averaged radial profiles of the galactic disc at $t=600$\u00a0Myr for Model\u00a02, the intermediate-diffusivity case. The four panels show the gas number density (top left), CR energy density (top right), 10Be mass density (bottom left), and the fraction of SNR-produced 10Be in the total 10Be (bottom right). Each quantity is shown as a weighted mean, either weighted by the gas mass of each cell (black solid lines) or by the cell volume (brown dashed lines). The radial bin size is 1\u00a0kpc, and only cells within $|z|\\leq 200$\u00a0pc are included.\n"
+            },
+            {
+                "url": "https://arxiv.org/html/2611.03808v1/radial_profile_model_2_10BeMassDensity.svg",
+                "caption": "Figure 5: \nAzimuthally averaged radial profiles of the galactic disc at $t=600$\u00a0Myr for Model\u00a02, the intermediate-diffusivity case. The four panels show the gas number density (top left), CR energy density (top right), 10Be mass density (bottom left), and the fraction of SNR-produced 10Be in the total 10Be (bottom right). Each quantity is shown as a weighted mean, either weighted by the gas mass of each cell (black solid lines) or by the cell volume (brown dashed lines). The radial bin size is 1\u00a0kpc, and only cells within $|z|\\leq 200$\u00a0pc are included.\n"
+            },
+            {
+                "url": "https://arxiv.org/html/2611.03808v1/radial_profile_model_2_Fraction_SNR.svg",
+                "caption": "Figure 5: \nAzimuthally averaged radial profiles of the galactic disc at $t=600$\u00a0Myr for Model\u00a02, the intermediate-diffusivity case. The four panels show the gas number density (top left), CR energy density (top right), 10Be mass density (bottom left), and the fraction of SNR-produced 10Be in the total 10Be (bottom right). Each quantity is shown as a weighted mean, either weighted by the gas mass of each cell (black solid lines) or by the cell volume (brown dashed lines). The radial bin size is 1\u00a0kpc, and only cells within $|z|\\leq 200$\u00a0pc are included.\n"
+            },
+            {
+                "url": "https://arxiv.org/html/2611.03808v1/radial_profile_model_comparison_GasMassDensity.svg",
+                "caption": "Figure 6: \nSame as Figure\u00a05, but comparing the four models at $t=600$\u00a0Myr. The curves represent Model\u00a01 (High\u00a0$\\kappa_{\\rm CR}$; blue circles), Model\u00a02 (Middle\u00a0$\\kappa_{\\rm CR}$; orange triangles), Model\u00a03 (Low\u00a0$\\kappa_{\\rm CR}$; green squares), and Model\u00a04 (Middle\u00a0$\\kappa_{\\rm CR}$, with a reduced GCR production rate of 10Be in dense gas; grey inverted triangles). For each model, the gas mass-weighted mean is shown by solid lines and the volume-weighted mean by dashed lines.\n"
+            },
+            {
+                "url": "https://arxiv.org/html/2611.03808v1/radial_profile_model_comparison_CREnergyDensity.svg",
+                "caption": "Figure 6: \nSame as Figure\u00a05, but comparing the four models at $t=600$\u00a0Myr. The curves represent Model\u00a01 (High\u00a0$\\kappa_{\\rm CR}$; blue circles), Model\u00a02 (Middle\u00a0$\\kappa_{\\rm CR}$; orange triangles), Model\u00a03 (Low\u00a0$\\kappa_{\\rm CR}$; green squares), and Model\u00a04 (Middle\u00a0$\\kappa_{\\rm CR}$, with a reduced GCR production rate of 10Be in dense gas; grey inverted triangles). For each model, the gas mass-weighted mean is shown by solid lines and the volume-weighted mean by dashed lines.\n"
+            }
+        ],
+        "abstract": "Meteoritic inclusions indicate that the early Solar System contained a substantial abundance of the short-lived radionuclide 10Be. Whether it was inherited from the parent molecular cloud or requires local irradiation or late injection remains debated. Here we present the first three-dimensional simulations of a Milky Way-like disc that follow the multi-phase interstellar medium, cosmic rays (CRs), and the production and transport of 10Be by galactic CRs (GCRs) and in supernova remnants (SNRs). Nearly all 10Be is produced by GCR interactions; SNRs contribute at most about ten percent of the 10Be inherited by newly formed stars. The 10Be/9Be ratio traces the CR energy density, declining smoothly with galactocentric radius, and because stars form where supernovae inject CRs, their natal gas is CR-enriched roughly fivefold relative to the mean interstellar medium, which one-zone estimates miss. Accounting for a possibly higher Galactic star formation rate 4.6 Gyr ago, inheritance of GCR-produced 10Be can then explain the early Solar System's 10Be/9Be in our models, without late injection or local irradiation. Even when GCR-induced 10Be production in dense gas is reduced tenfold, the meteoritic value is reached in the innermost disc and missed by only a factor of a few elsewhere, so the main conclusion is robust to uncertain low-energy GCR penetration. The inferred birth radius of the Sun depends strongly on the CR diffusivity, ranging between 3 and 8 kpc, suggesting that improved modelling of low-energy CR transport could sharpen constraints on the birthplace of the Solar System.\n    "
+    },
+    "2611.04168": {
+        "title": "The vertical distribution of molecular gas in the fourth quadrant of the Milky Way",
+        "authors": [
+            "L.-H. Lin",
+            "F. Wyrowski",
+            "S. Neupane",
+            "D. Colombo",
+            "K. M. Menten"
+        ],
+        "keywords": "",
+        "figures": [
+            {
+                "url": "https://arxiv.org/html/2611.04168v1/2tangents_2k.png",
+                "caption": "Figure 1: The region we have covered in this work. Red is the G328 region and blue the G309 region. The green circle shows the tangent region, defined as the loci of the maximum radial velocity. The spiral arm tangents are the crossing of the observed line of sight with the green circle. This plot is reproduced using the Xing-Wu Zheng & Mark Reid (BeSSeL/NJU/CFA) 2019 figure (https://astronomy.nju.edu.cn/xtzl/EN/). "
+            },
+            {
+                "url": "https://arxiv.org/html/2611.04168v1/rms-distribution-logY.svg",
+                "caption": "Figure 2: The distribution of the RMS noise in each spatial pixels of the 12CO $J=3\\to 2$ line for the two regions, in $T_{MB}$ scale. The median values for the two regions are 0.34 K for the G328 region and 0.41 K for the G309 region."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.04168v1/G328-12_vbmap_GL1.png",
+                "caption": "(a) "
+            },
+            {
+                "url": "https://arxiv.org/html/2611.04168v1/G309-12_vbmap_m0_GL1.png",
+                "caption": "(b) "
+            },
+            {
+                "url": "https://arxiv.org/html/2611.04168v1/G328-2gaussian_-120to-100kms.png",
+                "caption": "(a) "
+            },
+            {
+                "url": "https://arxiv.org/html/2611.04168v1/G309-2gaussian_-70to-57kms.png",
+                "caption": "(b) "
+            },
+            {
+                "url": "https://arxiv.org/html/2611.04168v1/G309-Tex_z_multigroup.svg",
+                "caption": "Figure 5: Cumulative distributions of the excitation temperature for clumps in the G309 region, grouped by their height $z$. The distributions are symmetric at about +50 pc. "
+            },
+            {
+                "url": "https://arxiv.org/html/2611.04168v1/All_2-1_dewar_original.svg",
+                "caption": "(a) "
+            },
+            {
+                "url": "https://arxiv.org/html/2611.04168v1/All_3-1_Position_original.svg",
+                "caption": "(b) "
+            },
+            {
+                "url": "https://arxiv.org/html/2611.04168v1/All_3-2_Position_pixel.svg",
+                "caption": "(c) "
+            }
+        ],
+        "abstract": "The vertical distribution of molecular gas in the Milky Way disk is poorly studied, especially in the 4th quadrant and the far side of the Galaxy. While surveys over 20 years ago suffered from coarse beam and non-Nyquist sampling, most of the recent surveys are limited to $|b|<1^\\circ$ and/or focus on the Northern Galactic plane. We examine the molecular gas's vertical distribution and properties in the fourth quadrant to check the impact of Galactic structure on current star formation. We mapped two arm tangent regions ($l=[329^\\circ.0,327^\\circ.0]$ for the Norma-Outer arm, and $l=[310^\\circ.0,308^\\circ.5]$ for the Scutum-Centaurus arm) with the $^{12}$CO 3-2 line using the 7-pixel LASMA receiver of the APEX 12 m telescope, covering up to $b=[-2^\\circ,+2^\\circ]$ (or $|z|\\sim200$ pc near the tangent points). The noise level of the $^{12}$CO 3-2 line is about 0.4 K [$T_{MB}$] in velocity channels of 0.5 km s$^{-1}$. The vertical distribution around the tangent regions of the spiral arm is fitted with two Gaussian components, the narrow one with an FWHM thickness of 25 pc and the wide one of about 100 pc. Two explanations are proposed: they are two sub-components of the thin disk (the narrowest tracing the spiral arm and the other the inter arms components), or they trace both thin and thick disks that show a smaller thickness when observed with CO 3-2 than when observed with CO 1-0. The latter indicates that the density distribution of the interstellar medium exhibits a steeper gradient at larger heights above the plane. Clumps in the two tangent regions are searched and divided into groups by relative height. Compared with the low relative height clumps ($|z|<50$ pc), the median relative height clumps ($50~\\mathrm{pc}<|z|<100~\\mathrm{pc}$) have lower excitation temperature and surface density, with fewer high values in the distribution. A similar tentative trend is found for the mass.\n    "
+    },
+    "2611.04544": {
+        "title": "The Survival Paradox of Close-In Planets Orbiting Red Clump Giants",
+        "authors": [
+            "Wen-Xu Lin",
+            "Sheng-Bang Qian",
+            "Qi-Bin Sun",
+            "Li-Ying Zhu",
+            "Wen-Ping Liao",
+            "Ting Li",
+            "Fu-Xing Li",
+            "Xiang-Dong Shi",
+            "Tao Wang",
+            "Ergang Zhao",
+            "Huiting Zhang",
+            "Ping Li"
+        ],
+        "keywords": "",
+        "figures": [
+            {
+                "url": "https://arxiv.org/html/2611.04544v1/Figure_1.png",
+                "caption": "Figure 1: Asteroseismic diagnostic diagrams for the three planet-host stars. (a) Locations of the three host stars in the asteroseismic parameter spaces defined by the large fre$q$uency separation, $\\Deltau$, the mode-coupling factor, q, and the dipole gravity-mode period spacing, $\\Delta\\Pi_{1}$. The host stars are marked with triangles and labeled by name, with the symbol color indicating the stellar mass. The background points show literature measurements (15) for evolved stars: red-clump stars are color-coded by mass, whereas red-giant-branch stars are shown in gray. The positions of the three host stars are clearly consistent with the red-clump population. (b\u2013d) Observed power spectral densities with the PBjam 2.0 radial ($\\ell=0$), dipole ($\\ell=1$), and quadrupole ($\\ell=2$) mode pattern overlaid for 24 Boo, HD 12648, and TYC 4282-605-1, respectively. (e\u2013g) Corresponding frequency-\u00e9chelle diagrams. The prior screening, sequential mode analysis, and separate $\\ell=0,2$ and $\\ell=1$ joint posterior distributions are documented in Supplementary Methods B and Supplementary Figs. S2\u2013S8."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.04544v1/Figure_2.svg",
+                "caption": "Figure 2: \nRadial-velocity solutions and orbital locations of the three planets.\n(a\u2013c) Phase-folded radial-velocity curves for 24 Boo, HD 12648, and TYC 4282-605-1. Points show the RV measurements from different instruments, and gray curves show the best-fitting Keplerian models.\n(d) Stellar radius versus orbital separation for confirmed planets in the NASA Exoplanet Archive (16, 17) whose hosts have reported radii. The yellow band marks the approximate radius range of red-clump-sized giants, and the pale red region indicates larger giant radii. Diagonal lines show $a=R_{\\star}$, $3R_{\\star}$, and $5R_{\\star}$. The three planets studied here are highlighted with red diamonds. HD 167768 b (18) is shown separately as a gray diamond because its host has an RC-sized radius but could instead be an RGB star; see Supplementary Methods H and Fig. S25.\n"
+            },
+            {
+                "url": "https://arxiv.org/html/2611.04544v1/Figure_3.png",
+                "caption": "Figure 3: Controlled sensitivity of the TRGB radius to the mixing-length parameter. Panels (a\u2013c) compare the measured planetary orbit (black diamond, with asymmetric orbital and mapped initial-mass uncertainties) with the MIST/MESA $R_{\\rm TRGB}(M_{\\rm init})$ curves calculated at the measured metallicity of 24 Boo, HD 12648, and TYC 4282-605-1. Colours denote $\\alpha_{\\rm MLT}=1.5$, 1.7, 1.82, 2.0, and 2.2; the shaded envelopes span each host\u2019s quoted $[\\mathrm{Fe/H}]\\pm 1\\sigma$ interval. Because the orbit and TRGB radius are plotted on the same vertical scale in solar radii, a curve above the diamond has $R_{\\rm TRGB}>a_{\\rm p}$ and corresponds to geometric engulfment. Panel (d) shows the underlying $6\\times 6$ TRGB-radius grids in initial mass and metallicity for the five mixing lengths. The solar-calibrated reference is $\\alpha_{\\rm MLT}=1.82$."
+            }
+        ],
+        "abstract": "Close-in planets orbiting core-helium-burning red-clump (RC) giants directly challenge tidal-engulfment theory, which predicts that planets within about 1 au of Sun-like stars should be engulfed during red-giant-branch (RGB) expansion. The existence of such survivors would imply missing physical processes in the late stages of stellar and planetary evolution. Yet only one such \"forbidden\" planet had been identified to date. Here we report three systems-24 Boo b, HD 12648 b, and TYC 4282-605-1 b-whose host stars are confirmed red-clump giants through asteroseismology, showing that each has already undergone dramatic expansion and contraction following helium ignition. Their planets now reside at orbital separations smaller than the maximum stellar radii attained during the RGB phase, implying that they should not have survived. Among them, 24 Boo b orbits at only 0.183 au with a 30-day period, making it the closest planet known around a red-clump giant. These discoveries demonstrate that this paradox is not an isolated anomaly but signals the emergence of a new class of evolved planetary systems. Their survival defies current models of stellar-planetary coevolution and points to unexplored physics shaping planetary architectures around post-RGB stars.\n    "
+    }
+}

@@ -1,1 +1,946 @@
-{}
+{
+    "2611.03761": {
+        "title": "De-lensing cosmic birefringence with joint reconstruction",
+        "authors": [
+            "Sebastian Belkner",
+            "Julien Carron"
+        ],
+        "keywords": "",
+        "figures": [
+            {
+                "url": "https://arxiv.org/html/2611.03761v1/fig/final/fig1_withlines.png",
+                "caption": "Figure 1: $$B$$-modes generated from a pure-$E$ field by a single, strongly exaggerated localized source at the patch center, with $\\beta=-\\omega$.\nLeft to right: curl-induced $B^{\\omega}$ (display-rotated to align with $B^{\\beta}$); birefringence-induced $B^{\\beta}$; their sum; gradient-lensing $B^{\\phi}$.\nAt the center (squeezed limit) the curl rotation and birefringence cancel, leaving only the parity-odd curl shear, which breaks the degeneracy toward the edges.\nGradient lensing produces no B-modes from magnification, only from its shear, rotated by $45^{\\circ}$ relative to the curl shear."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.03761v1/fig/final/CCC_with_theory_2de56_3uK.png",
+                "caption": "Figure 2: Cross-correlation coefficient between reconstructed and input fields, for QE (dashed) and joint MAP (solid), at $3\\,\\mu$K-arcmin. Black lines are our predictions including $N^{(0)}$ and $N^{(1)}$; bands show the $1\\sigma$ uncertainty on the mean of 32 simulations. MAP improves all fields, most visibly birefringence (green)."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.03761v1/fig/final/CCin_with_theory_2de56_3uK.png",
+                "caption": "Figure 3: Cross-correlation coefficients between reconstructed and input $\\omega$ and $\\beta$ fields at $3\\,\\mu$K-arcmin, for QE (dashed) and joint MAP (solid), with the simulation scatter as bands and our predictions in black. The reconstructed curl correlates with the input birefringence (orange) through the degeneracy; joint MAP strongly reduces this where birefringence is resolved ($L\\lesssim 10$). Full bias hardening would set these curves to zero, at the price of a larger variance."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.03761v1/fig/final/posteriors_signal_mismatch_commonWF_boostinset_empW_nullN_baselinecov.png",
+                "caption": "Figure 4: Example posteriors for the birefringence amplitude at $1\\,\\mu$K-arcmin, for QE (dashed) and joint MAP (solid), with input amplitudes $A_{\\rm CB}=10^{-8}$ (blue), $10^{-7}$ (orange, baseline) and $4\\times 10^{-7}$ (green, inset), marked by dotted lines, using birefringence multipoles down to $L\\sim 100$, reconstructed from CMB modes down to $\\ell\\sim 4500$.\nThick lines show the log-average of the per-simulation posteriors, peak-normalized.\nPoints with error bars show the mean and scatter of the posterior means across simulations.\nAll likelihood ingredients, including the covariance, are taken from the baseline simulations and kept fixed across input amplitudes. The posterior widths are therefore calibrated only at the baseline amplitude, while the error bars give the actual uncertainty at each amplitude.\nNeither estimator shows a significant bias. The MAP gain over QE is largest where the cosmic variance contribution is smallest, at low $A_{\\rm CB}$."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.03761v1/fig/final/WF_thyemp_abs_nlevP1_2de56.png",
+                "caption": "Figure 5: Joint MAP response matrix $\\mathcal{W}^{ab}_{L,\\rm emp}$ (Eq.\u00a0(8)) for the $1\\,\\mu$K-arcmin configuration: empirical estimates (blue points, $1\\sigma$ errors from 32 simulations) and the linearized prediction including the noise-induced mean-field correction (lines). Rows and columns correspond to $\\phi$, $\\omega$ and $\\beta$. Diagonal panels show the Wiener-filter response of each field, off-diagonal panels the cross-responses. Cross-responses between parity-even ($\\phi$) and parity-odd ($\\omega$, $\\beta$) fields vanish."
+            }
+        ],
+        "abstract": "Reconstruction of anisotropic cosmic birefringence from the CMB is limited by lensing $B$-mode sample variance and partially degenerate with the lensing curl. We study the joint reconstruction of lensing (gradient and curl) and birefringence at the maximum-a-posteriori point, whose spectra are near-optimal statistics. We predict the joint response and noise analytically, validate them on simulations, and show unbiased inference of its amplitude. Errors will shrink $5$-fold relative to quadratic estimators at SPT-3G+ depths, promising much tighter constraints on parity-violating new physics, owing to the removal of the lensing $B$-polarization sample variance.\n    "
+    },
+    "2611.03770": {
+        "title": "The formation of the first cosmic structures in hybrid Milgromian cosmology",
+        "authors": [
+            "Tomas Ondro",
+            "Nikolaos Samaras"
+        ],
+        "keywords": "",
+        "figures": [
+            {
+                "url": "https://arxiv.org/html/2611.03770v1/figs/Mstar_z_21Aug2026.png",
+                "caption": "Figure 1: Linear Press-Schechter (Press and Schechter, 1974) estimates of the maximum stellar mass $M_{\\star}$ predicted in three different cosmological models, adapted from Laursen (2023, fig. 6). A rather non-plausible 100% $\\Lambda$CDM star-formation efficiency (SFE) (blue solid line) in the early universe ($7.5<z<22$) could reconcile the recent high-z observations (filled circles with asymmetric errorbars). Instead, a more reasonable 10% SFE (orange line) would be in strong tension with the observational data. The 100% SFE $u$HDM counterparts are shown in red ($u$HDM model) and green (opt-$u$HDM model) lines, in even stronger tension with the early galaxy formation. Nevertheless, the particle mass resolution in our PoR simulations is denoted by the gray horizontal line. Thus, even if the $u$HDM variant model does not predict, according to PS theory, such massive objects ($M_{\\star}<10^{10}M_{\\odot}$) in the early universe, they cannot be resolved anyway in a 200 $h^{-1}$Mpc simulation box with $256^{3}$ number of particles.\nThe cosmic baryon fraction is assumed to be $f^{\\Lambda\\text{CDM}}_{b}=0.157\\equiv f^{u\\text{HDM}}_{b}eq f^{\\text{opt-}u\\text{HDM}}_{b}=0.15$ (Planck Collaboration et al., 2020a) and the unitless Hubble constant today value is taken into account as $h^{\\Lambda\\text{CDM}}=0.678eq h^{u\\text{HDM}}=0.6764eq h^{\\text{opt-}u\\text{HDM}}=0.556$. The cumulative number density is chosen to be $\\Phi=10^{-5}$Mpc-3. For the standard $\\Lambda$CDM model, an Eisenstein-Hu (Eisenstein and Hu, 1998) transfer function is used. The $u$HDM variant models are based on the transfer function derived by Samaras et al. (2025) at $z=199.0$."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.03770v1/mpk_compilation_ratio.svg",
+                "caption": "Figure 2: Inferences of t$h$e 3D linear total matter power spectrum at $z=0$ from\nPlanck (Planck Collaboration et al., 2020a) CMB data on the largest scales, SDSS (Reid et al., 2010) galaxy clustering on intermediate scales, and eBOSS (Abolfathi et al., 2018), SDSS Ly-$\\alpha$ clustering and DES Y1 (Troxel et al., 2018) cosmic shear data on the smallest scales. The solid blue, red and green lines correspond to the total matter power spectra from simulations evolved with ramses and PoR codes for the $\\Lambda$CDM, the $u$HDM and the opt-$u$HDM models, respectively. The solid black line represents the total matter power spectrum as computed by the camb Boltzmann solver. Both hybrid MOND models over-predict the amount of power at small scales $k>10^{-2}$ h Mpc-1, because of the combination of the MONDian gravitational effects and the sterile neutrino clustering. The overabundance of power is similar for both models."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.03770v1/all_PS.svg",
+                "caption": "Figure 3: Matter power spectra from simulation evolved with ramses and PoR codes. We also plotted the matter power spectrum as computed by the camb Boltzmann solver (Lewis et al., 2000)."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.03770v1/PARTICLES_combined.png",
+                "caption": "Figure 4: Comparison of simulations evolved with ramses and PoR codes. From top to bottom the rows correspond to projection of over-densities at different epochs of the cold dark matter (CDM) component (left column) for the standard $\\Lambda$CDM model, as well as for sterile neutrinos in the hybrid models (the $u$HDM model in the middle and the opt-$u$HDM at the right)."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.03770v1/GAS_combined.png",
+                "caption": "Figure 5: Same as Fig. 4 but for projections of gas over-densities for the three studied cosmologies at different epochs."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.03770v1/Trho_combined.png",
+                "caption": "Figure 6: Upper panel: the calculated gas temperature $T$ at $$z=0$$. The color scheme is such that the red and the blue color corresponds to highest temperature and lowest temperature regions, respectively. Slices from a simulation box in the first row have width $\\approx 0.8\\,h^{-1}$ Mpc.\nBottom panel: Distribution of gas cells in the $T-\\Delta$ plane at z=0. The color scheme represents density of points in logarithmic scale. Note that the artifact (horizontal line) around $T\\approx 10^{4}$ K is caused by temperature calculation method, see Eqs. (6) and (7)."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.03770v1/halos.svg",
+                "caption": "Figure 7: Evolution of number of bound structures from simulation evolved with ramses (left column) and PoR (2nd and 3rd column) codes. The results in first and second row correspond to the FoF and HOP halo finding method, respectively."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.03770v1/dens_vel_z2.png",
+                "caption": "Figure 8: Results from simulations at $z=2$ for $\\Lambda$CDM (top), $u$HDM (middle) and opt-$u$HDM (bottom) models. Left-hand, middle and right-hand panels in each row show PDF of over-densities, (snapshot slice) velocity component ($v_{x}$) along x-axis and PDF of (cube) velocities, respectively. Slices from a simulation box in the middle columns have width $\\approx\\,0.8\\,h^{-1}$ Mpc."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.03770v1/PS_3models.svg",
+                "caption": "Figure 9: The redshift evolution of the total matter power spectra for the three studied cosmologies."
+            }
+        ],
+        "abstract": "Tackling cosmology with Milgromian Dynamics (MOND) has been a challenge ever since its theoretical inception. In a hybrid MOND scheme, a hypothesized light sterile neutrino of $\\approx$ 11 eV/$c^2$ rest-mass is able to provide realistic initial conditions, fitting the third peak of the Planck CMB power spectrum as a Hot Dark Matter (HDM) component. At the same time, MOND governs the gravitational dynamics of density perturbations, while the background expansion follows the standard FLRW metric. We conduct and analyze hydrodynamical simulations of the fiducial $\\Lambda$CDM model ($H_0 = 67.8$ km/s/Mpc, $\\Omega_m \\approx 0.31$, $\\Omega_{\\text{CDM}} \\approx 0.26$), the progenitor $u$HDM model ($H_0 = 67.64$ km/s/Mpc, $\\Omega_m = 0.3, \\Omega_{u}\\approx 0.26$), and its optimized version (opt-$u$HDM model, $H_0 \\approx 55.6$ km/s/Mpc, $\\Omega_m \\approx 0.49$, $\\Omega_{u} \\approx 0.42$), utilizing the publicly available codes RAMSES and Phantom of RAMSES. We compare for the first time the total matter power spectrum $P(k)$ of the hydrodynamical simulations at various redshifts, examining the systematic differences of the three investigated cosmologies. The redshift evolution of the power spectrum of the $\\Lambda$CDM model compared to the $u$HDM variants' counterpart offers important insight about the onset of structure formation. The combination of a light sterile neutrino and MOND gravity exceeds the $\\Lambda$CDM model's matter $P(k)$ over all collapsing scales at late times ($z\\lesssim 1$). The density and velocity fields reveal a distinct difference between the underlying laws of gravity. Regardless of the modeled dependence in the jointly estimated data from Planck, DES Y1, SDSS, and eBOSS, the $u$HDM hybrid models seem to produce an excess of power at associated resolution scales due to their cosmological design.\n    "
+    },
+    "2611.03786": {
+        "title": "3D dark matter map of the JWST COSMOS-Web field using diffusion-based generative priors",
+        "authors": [
+            "Diana Scognamiglio",
+            "Brandon Zhao",
+            "Katherine L. Bouman",
+            "Olivier Dor\u00e9",
+            "Caitlin M. Casey",
+            "Maximilien Franco",
+            "Ghassem Gozaliasl",
+            "David Harvey",
+            "Olivier Ilbert",
+            "Jeffrey B. Jewell",
+            "Jeyhan S. Kartaltepe",
+            "Anton M. Koekemoer",
+            "Gavin Leroy",
+            "Richard Massey",
+            "Jason Rhodes",
+            "Brant E. Robertson",
+            "Marko Shuntov",
+            "Sune Toft",
+            "Greta Toni",
+            "Michael A. Troxel"
+        ],
+        "keywords": "",
+        "figures": [
+            {
+                "url": "https://arxiv.org/html/2611.03786v1/posterior_mean_front_v2.png",
+                "caption": "Figure 1: \nThree-dimensional posterior reconstruction of the COSMOS-Web matter distribution.\nThree perspective views of the inferred matter overdensity field, $\\delta$, across the COSMOS-Web footprint and 20 lens planes spanning $z\\simeq 0.13-1.92$. Columns show the same volume from three viewing directions.\na. Posterior mean density field computed from 1,024 posterior realizations, emphasizing structures that remain coherent across the posterior ensemble.\nb. Posterior realization with the highest three-dimensional Pearson\ncorrelation with a template constructed from independently identified galaxy clusters Scognamiglio et al. (2026). This selection is used only for visualization and does not enter the inference or subsequent statistical analyses. c. An unselected posterior realization drawn randomly from the same ensemble, illustrating realization-to-realization variation.\nIndividual realizations retain sharper, higher-contrast structures than the posterior mean, while variations among them reflect posterior uncertainty in the amplitude, morphology and radial localization of the reconstructed matter distribution. Color indicates matter overdensity; separate color ranges are used for the posterior mean and individual realizations.\n"
+            },
+            {
+                "url": "https://arxiv.org/html/2611.03786v1/posterior_mean_right_v2.png",
+                "caption": "Figure 1: \nThree-dimensional posterior reconstruction of the COSMOS-Web matter distribution.\nThree perspective views of the inferred matter overdensity field, $\\delta$, across the COSMOS-Web footprint and 20 lens planes spanning $z\\simeq 0.13-1.92$. Columns show the same volume from three viewing directions.\na. Posterior mean density field computed from 1,024 posterior realizations, emphasizing structures that remain coherent across the posterior ensemble.\nb. Posterior realization with the highest three-dimensional Pearson\ncorrelation with a template constructed from independently identified galaxy clusters Scognamiglio et al. (2026). This selection is used only for visualization and does not enter the inference or subsequent statistical analyses. c. An unselected posterior realization drawn randomly from the same ensemble, illustrating realization-to-realization variation.\nIndividual realizations retain sharper, higher-contrast structures than the posterior mean, while variations among them reflect posterior uncertainty in the amplitude, morphology and radial localization of the reconstructed matter distribution. Color indicates matter overdensity; separate color ranges are used for the posterior mean and individual realizations.\n"
+            },
+            {
+                "url": "https://arxiv.org/html/2611.03786v1/posterior_mean_top_v2.png",
+                "caption": "Figure 1: \nThree-dimensional posterior reconstruction of the COSMOS-Web matter distribution.\nThree perspective views of the inferred matter overdensity field, $\\delta$, across the COSMOS-Web footprint and 20 lens planes spanning $z\\simeq 0.13-1.92$. Columns show the same volume from three viewing directions.\na. Posterior mean density field computed from 1,024 posterior realizations, emphasizing structures that remain coherent across the posterior ensemble.\nb. Posterior realization with the highest three-dimensional Pearson\ncorrelation with a template constructed from independently identified galaxy clusters Scognamiglio et al. (2026). This selection is used only for visualization and does not enter the inference or subsequent statistical analyses. c. An unselected posterior realization drawn randomly from the same ensemble, illustrating realization-to-realization variation.\nIndividual realizations retain sharper, higher-contrast structures than the posterior mean, while variations among them reflect posterior uncertainty in the amplitude, morphology and radial localization of the reconstructed matter distribution. Color indicates matter overdensity; separate color ranges are used for the posterior mean and individual realizations.\n"
+            },
+            {
+                "url": "https://arxiv.org/html/2611.03786v1/best_sample_111_front_v2.png",
+                "caption": "Figure 1: \nThree-dimensional posterior reconstruction of the COSMOS-Web matter distribution.\nThree perspective views of the inferred matter overdensity field, $\\delta$, across the COSMOS-Web footprint and 20 lens planes spanning $z\\simeq 0.13-1.92$. Columns show the same volume from three viewing directions.\na. Posterior mean density field computed from 1,024 posterior realizations, emphasizing structures that remain coherent across the posterior ensemble.\nb. Posterior realization with the highest three-dimensional Pearson\ncorrelation with a template constructed from independently identified galaxy clusters Scognamiglio et al. (2026). This selection is used only for visualization and does not enter the inference or subsequent statistical analyses. c. An unselected posterior realization drawn randomly from the same ensemble, illustrating realization-to-realization variation.\nIndividual realizations retain sharper, higher-contrast structures than the posterior mean, while variations among them reflect posterior uncertainty in the amplitude, morphology and radial localization of the reconstructed matter distribution. Color indicates matter overdensity; separate color ranges are used for the posterior mean and individual realizations.\n"
+            },
+            {
+                "url": "https://arxiv.org/html/2611.03786v1/best_sample_111_right_v2.png",
+                "caption": "Figure 1: \nThree-dimensional posterior reconstruction of the COSMOS-Web matter distribution.\nThree perspective views of the inferred matter overdensity field, $\\delta$, across the COSMOS-Web footprint and 20 lens planes spanning $z\\simeq 0.13-1.92$. Columns show the same volume from three viewing directions.\na. Posterior mean density field computed from 1,024 posterior realizations, emphasizing structures that remain coherent across the posterior ensemble.\nb. Posterior realization with the highest three-dimensional Pearson\ncorrelation with a template constructed from independently identified galaxy clusters Scognamiglio et al. (2026). This selection is used only for visualization and does not enter the inference or subsequent statistical analyses. c. An unselected posterior realization drawn randomly from the same ensemble, illustrating realization-to-realization variation.\nIndividual realizations retain sharper, higher-contrast structures than the posterior mean, while variations among them reflect posterior uncertainty in the amplitude, morphology and radial localization of the reconstructed matter distribution. Color indicates matter overdensity; separate color ranges are used for the posterior mean and individual realizations.\n"
+            },
+            {
+                "url": "https://arxiv.org/html/2611.03786v1/best_sample_111_top_v2.png",
+                "caption": "Figure 1: \nThree-dimensional posterior reconstruction of the COSMOS-Web matter distribution.\nThree perspective views of the inferred matter overdensity field, $\\delta$, across the COSMOS-Web footprint and 20 lens planes spanning $z\\simeq 0.13-1.92$. Columns show the same volume from three viewing directions.\na. Posterior mean density field computed from 1,024 posterior realizations, emphasizing structures that remain coherent across the posterior ensemble.\nb. Posterior realization with the highest three-dimensional Pearson\ncorrelation with a template constructed from independently identified galaxy clusters Scognamiglio et al. (2026). This selection is used only for visualization and does not enter the inference or subsequent statistical analyses. c. An unselected posterior realization drawn randomly from the same ensemble, illustrating realization-to-realization variation.\nIndividual realizations retain sharper, higher-contrast structures than the posterior mean, while variations among them reflect posterior uncertainty in the amplitude, morphology and radial localization of the reconstructed matter distribution. Color indicates matter overdensity; separate color ranges are used for the posterior mean and individual realizations.\n"
+            },
+            {
+                "url": "https://arxiv.org/html/2611.03786v1/random_sample_91_front_v2.png",
+                "caption": "Figure 1: \nThree-dimensional posterior reconstruction of the COSMOS-Web matter distribution.\nThree perspective views of the inferred matter overdensity field, $\\delta$, across the COSMOS-Web footprint and 20 lens planes spanning $z\\simeq 0.13-1.92$. Columns show the same volume from three viewing directions.\na. Posterior mean density field computed from 1,024 posterior realizations, emphasizing structures that remain coherent across the posterior ensemble.\nb. Posterior realization with the highest three-dimensional Pearson\ncorrelation with a template constructed from independently identified galaxy clusters Scognamiglio et al. (2026). This selection is used only for visualization and does not enter the inference or subsequent statistical analyses. c. An unselected posterior realization drawn randomly from the same ensemble, illustrating realization-to-realization variation.\nIndividual realizations retain sharper, higher-contrast structures than the posterior mean, while variations among them reflect posterior uncertainty in the amplitude, morphology and radial localization of the reconstructed matter distribution. Color indicates matter overdensity; separate color ranges are used for the posterior mean and individual realizations.\n"
+            },
+            {
+                "url": "https://arxiv.org/html/2611.03786v1/random_sample_91_right_v2.png",
+                "caption": "Figure 1: \nThree-dimensional posterior reconstruction of the COSMOS-Web matter distribution.\nThree perspective views of the inferred matter overdensity field, $\\delta$, across the COSMOS-Web footprint and 20 lens planes spanning $z\\simeq 0.13-1.92$. Columns show the same volume from three viewing directions.\na. Posterior mean density field computed from 1,024 posterior realizations, emphasizing structures that remain coherent across the posterior ensemble.\nb. Posterior realization with the highest three-dimensional Pearson\ncorrelation with a template constructed from independently identified galaxy clusters Scognamiglio et al. (2026). This selection is used only for visualization and does not enter the inference or subsequent statistical analyses. c. An unselected posterior realization drawn randomly from the same ensemble, illustrating realization-to-realization variation.\nIndividual realizations retain sharper, higher-contrast structures than the posterior mean, while variations among them reflect posterior uncertainty in the amplitude, morphology and radial localization of the reconstructed matter distribution. Color indicates matter overdensity; separate color ranges are used for the posterior mean and individual realizations.\n"
+            },
+            {
+                "url": "https://arxiv.org/html/2611.03786v1/random_sample_91_top_v2.png",
+                "caption": "Figure 1: \nThree-dimensional posterior reconstruction of the COSMOS-Web matter distribution.\nThree perspective views of the inferred matter overdensity field, $\\delta$, across the COSMOS-Web footprint and 20 lens planes spanning $z\\simeq 0.13-1.92$. Columns show the same volume from three viewing directions.\na. Posterior mean density field computed from 1,024 posterior realizations, emphasizing structures that remain coherent across the posterior ensemble.\nb. Posterior realization with the highest three-dimensional Pearson\ncorrelation with a template constructed from independently identified galaxy clusters Scognamiglio et al. (2026). This selection is used only for visualization and does not enter the inference or subsequent statistical analyses. c. An unselected posterior realization drawn randomly from the same ensemble, illustrating realization-to-realization variation.\nIndividual realizations retain sharper, higher-contrast structures than the posterior mean, while variations among them reflect posterior uncertainty in the amplitude, morphology and radial localization of the reconstructed matter distribution. Color indicates matter overdensity; separate color ranges are used for the posterior mean and individual realizations.\n"
+            },
+            {
+                "url": "https://arxiv.org/html/2611.03786v1/posterior_mean_3d_final.png",
+                "caption": "Figure 2: Redshift slices of the reconstructed COSMOS-Web matter distribution. a\u2013e. JWST posterior mean matter overdensity averaged over adjacent lens planes in five redshift intervals ($z=0.13$\u2013$1.25$). Light blue/white and dark brown indicate overdensities and underdensities, respectively. Orange crosses mark galaxy clusters detected in the previous HST weak lensing mass map, whereas green triangles indicate JWST-only detections Scognamiglio et al. (2026). Cluster positions and redshifts are independently determined and are not used in the reconstruction. These slices from a common angular footprint highlight the changing location and persistence of matter structures along the line of sight. All slices are displayed at the same angular resolution, corresponding to an increasing transverse physical scale with redshift. White squares (f$-$h) mark the lines of sight examined below. f\u2013h. Posterior mean overdensity profiles from JWST (blue) and HST (orange) towards three X-ray groups from Gozaliasl et\u00a0al. (2019). Shaded regions show the mean $\\pm 1\\sigma$ of 128 identically smoothed randomized-shape null reconstructions. Dashed lines mark the selected group redshifts; dash-dotted lines indicate other X-ray groups within 2.5 arcmin. The three examples were selected by inspection to illustrate the JWST\u2013HST contrast.\n"
+            }
+        ],
+        "abstract": "Mapping the three-dimensional distribution of dark matter is key to tracing the growth of cosmic structure. Two-dimensional weak lensing mass maps recover its projected distribution, but they blend structures at different distances along the line of sight. We reconstruct the three-dimensional matter distribution in the 0.54 deg$^2$ COSMOS-Web field using deep James Webb Space Telescope imaging, with an effective source density of 121 galaxies arcmin$^{-2}$ We combine a physical weak lensing forward model with a diffusion-based Bayesian generative prior learned from cosmological simulations, yielding a posterior distribution of the matter field across 20 lens planes to $z \\simeq 2$, doubling the redshift reach of previous Hubble Space Telescope-based 3D reconstructions and approaching cosmic noon, an epoch of rapid galaxy growth. The reconstruction separates structures that overlap in projection and recovers non-Gaussian matter structure across a range of spatial scales, including over-densities associated with independently identified galaxy clusters that were not detected in earlier weak lensing maps. Posterior sampling quantifies the range of three-dimensional matter distributions allowed by the data, enabling a probabilistic visualization of the cosmic web while propagating uncertainties in its inferred structure. Null and simulation-based tests show that the recovered structures are supported by the lensing signal and are consistent with expectations from the fiducial $\\Lambda$CDM cosmology. These results extend three-dimensional weak lensing mapping into the high-redshift, non-Gaussian regime and establish a route towards probabilistic mapping of the evolving cosmic web with current wide-field lensing surveys.\n    "
+    },
+    "2611.04316": {
+        "title": "Measuring the ultraviolet background at $z\\simeq3$ from the quasar proximity effect in DESI DR1",
+        "authors": [
+            "Patrick Shaw",
+            "Rupert A. C. Croft"
+        ],
+        "keywords": "",
+        "figures": [
+            {
+                "url": "https://arxiv.org/html/2611.04316v1/fig_theory_profile_family.svg",
+                "caption": "Figure 1: Examples of the halo-model proximity-effect profiles at $$z=3$$. The upper panel varies the radiation equality radius $r_{\\rm eq}$ at fixed $b_{q}=5.6$, approximately the bias adopted for our sample. The lower panel varies $b_{q}$ at fixed $r_{\\rm eq}=1.77\\,h^{-1}\\,\\mathrm{pMpc}$, a representative equality radius for the primary sample. The curves include the mean-opacity evolution described in Section\u00a02.5. The upper and lower horizontal scales show rest-frame wavelength and line-of-sight velocity separation, respectively. At z=3, $10{,}000\\,\\mathrm{km}\\,\\mathrm{s}^{-1}$ corresponds to approximately $22.1\\,h^{-1}\\,\\mathrm{pMpc}$ of Hubble-flow proper separation in the adopted cosmology."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.04316v1/fig01_desi_sample_distributions.svg",
+                "caption": "Figure 2: Properties of the final DESI DR1 proximity-effect sample. The panels show the distributions of quasar redshift (left), photometric $M_{1450}$ (middle), and measured red-side signal-to-noise ratio (right). The sample spans $2.75\\leq z<3.25$. Dashed lines mark the luminosity and signal-to-noise selection thresholds."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.04316v1/fig_continuum_examples.svg",
+                "caption": "Figure 3: \nRepresentative continuum reconstructions using our PCA method. The first row shows HST/COS spectra and leave-one-out PCA predictions with the Ly$\\alpha$ emission-line adjustments described in Section\u00a04.2. The second row shows mock spectra constructed from HST continua and Astrid absorption. The third row shows DESI spectra. The mock and DESI examples are selected near the 20th, 50th, and 80th percentiles of our sample\u2019s red-side signal-to-noise distribution. Thin gray curves show the observed or noisy spectra, and black dashed curves show reference or true continua where available. Solid green curves show the adjusted PCA predictions in the HST row and the final corrected continua in the mock and DESI rows, including the corrections described in Sections\u00a05.1\u20135.3. Pale-green dotted curves show the initial PCA predictions in the mock and DESI rows. Pale-blue shading marks $200$\u2013$9900\\,\\mathrm{km\\,s^{-1}}$ blueward of Ly$\\alpha$, where we fit the proximity effect. The vertical dotted line marks the Ly$\\alpha$ rest wavelength.\n"
+            },
+            {
+                "url": "https://arxiv.org/html/2611.04316v1/fig_continuum_hst_pca_vs_lycan.svg",
+                "caption": "Figure 4: \nContinuum-prediction errors for PCA (green) and LyCAN (orange) on the 48 HST/COS objects. The upper panel shows the median fractional continuum error at each wavelength. The lower panel shows the object-to-object scatter, defined as half the difference between the 84th and 16th percentiles. The PCA predictions exclude each test object and its derived training continua from the training set and omit the Ly$\\alpha$ emission-line adjustments, as described in Section\u00a04.3. The supplied LyCAN estimates do not use an equivalent exclusion procedure. Velocity increases toward shorter wavelengths and the observer; rest-frame wavelength is shown along the upper axis. Pale-blue shading marks the $200$\u2013$9900\\,\\mathrm{km\\,s^{-1}}$ region used to fit the proximity effect.\n"
+            },
+            {
+                "url": "https://arxiv.org/html/2611.04316v1/fig_astrid_shape_comparison_paper.svg",
+                "caption": "Figure 5: Stacked Astrid mock transmission (gray points) after applying the continuum corrections described in Sections\u00a05.1\u20135.3, compared with halo-model predictions at injected rates $\\Gamma_{12}^{\\rm inj}=0.4$, 1, and 2. In each panel, both model curves use the indicated injected rate. Solid blue curves use the clustering-based bias $b_{q}=5.593$ (Section\u00a06.2.2). Dashed purple curves use $b_{q}=3.883$, obtained by fitting the halo model to the mock transmission profile at $\\Gamma_{12}^{\\rm inj}=1$ (Section\u00a06.2.2). Points show the seven fitted radial bins, and lines join the model bin averages. Error bars include the bootstrap covariance and the 0.015 transmission model-error floor."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.04316v1/fig02_astrid_response_validation_horizontal_square.svg",
+                "caption": "Figure 6: Continuum correction and UVBG calibration using the matched Astrid mocks. (a) Overall continuum correction at injected $\\Gamma_{12}=1$, averaged over mock sightlines using the stacking weights and expressed as a percentage change from the PCA continuum. It combines the external-forest correction, common wavelength correction, and final normalization described in Sections\u00a05.1\u20135.3. Shading shows the 16th\u201384th percentile interval from bootstrap realizations. (b) Photoionization rate recovered after applying the complete continuum reconstruction, correction, and halo-model fitting procedure to mock spectra, plotted against the known injected rate. (c) The inverse of this relation, used to convert a fitted photoionization rate into a calibrated UVBG estimate. Blue and purple denote the clustering and profile-fit bias choices. Shaded bands in panels (b) and (c) show bootstrap uncertainty in the response and its inverse. Error bars in panel (b) show the $\\Delta\\chi^{2}=1$ intervals from the mock profile fits, with the continuum corrections and quasar bias held fixed (Section\u00a05). In panel (c), these intervals are converted using the calibration curve derived from the full mock sample, with that curve held fixed. Dotted lines mark one-to-one recovery."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.04316v1/fig03_desi_direct_profiles.svg",
+                "caption": "Figure 7: Stacked DESI transmission profile and best-fitting halo-model predictions. Gray points show the measured transmission in the seven radial bins after continuum correction. Dark inner bars show sightline-bootstrap errors; pale outer bars also include the model-error floor of 0.015 in transmission (Section\u00a08.1). Solid blue and dashed purple curves show fits using the clustering and profile-fit biases, respectively."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.04316v1/fig_final_combined_delta_chi2_charles_calibrated.png",
+                "caption": "Figure 8: Joint constraints on calibrated $\\Gamma_{12}$ and quasar bias $b_{q}($z=3$)$ from the DESI transmission profile. The left panel shows $\\Delta\\chi^{2}$ from fits of the halo model to the DESI transmission profile at different trial UVBG values and quasar biases. The right panel adds the Gaussian clustering-prior term $[(b_{q}-b_{\\rm clust})/\\sigma_{b}]^{2}$ to the transmission-fit $\\chi^{2}$, where $b_{\\rm clust}$ and $\\sigma_{b}$ are the clustering estimate of quasar bias at z=3 and its statistical uncertainty. Contours mark $\\Delta\\chi^{2}=2.30$ and $6.18$ relative to the minimum in each panel, corresponding to nominal 68.3 and 95.4 percent joint confidence regions for two parameters. Blue dashed and purple dotted horizontal lines mark the clustering and profile-fit biases. The horizontal axis shows the photoionization rate after applying the mock calibration for each assumed quasar bias. The hatched region lies outside the supported calibration range. Fits follow Section\u00a05.5 and include the DESI model-error floor of 0.015, but omit uncertainty in the continuum correction and calibration and the additional systematic contributions in Section\u00a08."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.04316v1/fig04_uvb_evolution.svg",
+                "caption": "Figure 9: Hydrogen photoionization rate versus redshift. Blue and purple filled stars show the calibrated estimates using the clustering and profile-fit quasar biases, respectively. Both measurements are for the same sample at $z\\simeq 3$; their horizontal separation is purely cosmetic. Solid inner error bars show statistical uncertainties estimated from the 16th and 84th percentiles of bootstrap resamples of the DESI sightlines. These can be compared with the bootstrap error bars of Dall\u2019Aglio et\u00a0al. (2009). Pale dashed outer error bars combine statistical uncertainty with the systematic uncertainty in Section\u00a08.5, added in quadrature in the logarithmic rate. The pale-blue window marks the sample range $2.75\\leq z<3.25$. Gold open circles show the binned modal estimates of Dall\u2019Aglio et\u00a0al. (2009), with redshifts and bin boundaries from their Table\u00a01 and bootstrap errors digitized from the solid-circle series in their Figure\u00a09. Horizontal bars mark the bin boundaries. The gold dashed line and band show their constant fit and quoted uncertainty over their full redshift sample. Gray triangles show Becker &\nBolton (2013), and the green curve shows the model of Faucher-Gigu\u00e8re (2020)."
+            }
+        ],
+        "abstract": "Ionizing radiation from quasars reduces the abundance of neutral hydrogen in the surrounding intergalactic medium (IGM), suppressing Ly$\\alpha$ absorption. This absorption deficit, known as the quasar proximity effect, can be used to measure the ultraviolet background (UVBG). We measure the hydrogen photoionization rate of the UVBG in Data Release 1 of the Dark Energy Spectroscopic Instrument (DESI). Our sample contains 6,245 quasars over $2.75\\leq z<3.25$, selected with rest-frame absolute magnitudes at 1450 Angstroms of $M_{1450}\\leq-25.5$ and signal-to-noise ratios of at least 3 measured redward of Ly$\\alpha$. We reconstruct quasar continua with principal component analysis trained on Hubble Space Telescope spectra and stack the resulting transmitted-flux profiles. We fit the resulting stacked profile with a halo model that accounts for reduced absorption from quasar radiation and enhanced absorption in the surrounding overdense environment. We constrain the environmental contribution using independent measurements of quasar clustering bias, while the transmission profile constrains the UVBG. To validate our method, we construct mock spectra matched to the luminosity and noise properties of our DESI sample using the Astrid hydrodynamical simulation at $z=3$. We apply the same analysis pipeline to the mock spectra and DESI data, testing the recovery of known input photoionization rates and using the results to calibrate the final UVBG measurement. We obtain $\\Gamma_{\\mathrm{HI}}=(1.376^{+0.095}_{-0.076})\\times10^{-12}\\,\\mathrm{s}^{-1}$ at $z\\simeq3$. The statistical errors are obtained by bootstrap resampling the DESI sightlines. We also estimate a systematic uncertainty of $^{+0.837}_{-0.521}\\times10^{-12}\\,\\mathrm{s}^{-1}$.\n    "
+    },
+    "2611.04419": {
+        "title": "Stress-Testing Small-Scale Cosmological Inference With Empirical Galaxy--Halo Connection Models",
+        "authors": [
+            "Hanyue Wang",
+            "Kate Storey-Fisher",
+            "Philip Mansfield",
+            "Andrew Hearin",
+            "Marcelo Alvarez",
+            "Suchetha Cooray",
+            "Risa H. Wechsler"
+        ],
+        "keywords": "",
+        "figures": [
+            {
+                "url": "https://arxiv.org/html/2611.04419v1/outline.png",
+                "caption": "Figure 1: Schematic overview of the workflow of this paper. Starting from the Aemulus-$\\beta$ simulation suite, we construct a target mock galaxy catalog using UniverseMachine, and build two classes of empirical galaxy\u2013halo connection models, SHAM and HOD, as prediction pipelines. We then fit the empirical models to the clustering of the target catalog via nested sampling, testing their ability to describe the underlying galaxy\u2013halo connection and offer unbiased cosmological constraints."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.04419v1/AB_conc_update.png",
+                "caption": "Figure 2: Probabilit$y$ density of galaxy occupation as a function of the percentile of a secondary halo property at fixed halo mass, $P(<c|M_{\\rm halo})$, measured from the target UniverseMachine catalog. The distribution of galaxies within halos of the same mass is characterized by quantiles of secondary halo properties.\nThe top row shows the dependence on halo concentration, and the bottom row shows the dependence on local environment, defined as the total mass of neighboring halos enclosed within $3\\,h^{-$1$}\\rm Mpc$.\nThe left panels show how the secondary halo property impacts the occupation of central galaxies in the halo mass regime of $M_{\\rm halo}\\lesssim 3\\times 10^{12}M_{\\odot}$, which roughly corresponds to where $\\left\\langle N_{\\rm cen}\\right\\rangle\\lesssim 1$; the right panels show how satellite occupation varies with the secondary property in the halo mass regime of $M_{\\rm halo}\\gtrsim 3\\times 10^{12}M_{\\odot}$.\nThe dashed gray lines at 1 demonstrate the baseline when galaxy occupation has no additional dependence on the chosen secondary property; note that the y-axis limits are different between the left and right panels.\nCentral occupation is positively correlated with both halo concentration and environment, while satellite occupation is negatively correlated with halo concentration only."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.04419v1/AB_env_update.png",
+                "caption": "Figure 2: Probabilit$y$ density of galaxy occupation as a function of the percentile of a secondary halo property at fixed halo mass, $P(<c|M_{\\rm halo})$, measured from the target UniverseMachine catalog. The distribution of galaxies within halos of the same mass is characterized by quantiles of secondary halo properties.\nThe top row shows the dependence on halo concentration, and the bottom row shows the dependence on local environment, defined as the total mass of neighboring halos enclosed within $3\\,h^{-$1$}\\rm Mpc$.\nThe left panels show how the secondary halo property impacts the occupation of central galaxies in the halo mass regime of $M_{\\rm halo}\\lesssim 3\\times 10^{12}M_{\\odot}$, which roughly corresponds to where $\\left\\langle N_{\\rm cen}\\right\\rangle\\lesssim 1$; the right panels show how satellite occupation varies with the secondary property in the halo mass regime of $M_{\\rm halo}\\gtrsim 3\\times 10^{12}M_{\\odot}$.\nThe dashed gray lines at 1 demonstrate the baseline when galaxy occupation has no additional dependence on the chosen secondary property; note that the y-axis limits are different between the left and right panels.\nCentral occupation is positively correlated with both halo concentration and environment, while satellite occupation is negatively correlated with halo concentration only."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.04419v1/fit_new.svg",
+                "caption": "Figure 3: Fit to the UniverseMachine $w_{p}$ from models introduced in Section\u00a0III, including two-parameter SHAM models built on halo catalogs with and without orphans, four HOD models with different implementations of assembly bias, and the vanilla HOD model. The lower panel shows the fractional residuals between the models and the data. All models except the vanilla HOD fit the target clustering well and yield comparable $\\chi^{2}$ values.1\n"
+            },
+            {
+                "url": "https://arxiv.org/html/2611.04419v1/SHAM_CEM_S8_new_test3.svg",
+                "caption": "Figure 4: CEM results for the SHAM model built on halo catalogs with orphans (blue) and without orphans (purple). The lower panel plots the distribution of cosmological evidence from the Aemulus-$\\beta$ cosmologies as a function of $S_{8}$, subtracting $\\ln{\\mathcal{Z}}$ of the correct cosmology as the reference.\n$\\Delta\\ln(Z)$ from the with-orphans model are shown as blue dots, while those from the no-orphans model are plotted as purple squares and shifted down by $10$ for visual clarity, and the solid curves demonstrate the best-fit normal distributions to the evidence values for both models.\nThe upper panel shows the modeled posterior constraints on $S_{8}$, with the red dashed vertical line indicating the truth and the shaded region denoting the $1\\sigma$ posterior interval for the with-orphans model. Both SHAM models yield unbiased constraints on $S_{8}$, while the constraint from the no-orphans model is tighter."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.04419v1/HOD_CEM_final2.svg",
+                "caption": "Figure 5: Comparison of cosmological constraints on $S_{8}$ inferred using HOD models with different assembly bias implementations and SHAM models built on halo catalogs with and without orphans. Extended HOD models incorporating secondary dependence on the same halo property are shown in the same color, and the two linestyles denote the two implementation techniques. The right panel shows the $1\\sigma$ posterior range for each model compared to the truth. All HOD models considered here yield potentially biased and weaker cosmological constraints compared to the SHAM models."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.04419v1/acm_update.svg",
+                "caption": "Figure 6: Higher-order statistics predictions compared to measurements from the UniverseMachine mock (black points), for the CDF of counts-in-cylinders (CiC, left) and multiplet clustering (right).\nFor the left panels, the $x$-axis is linearly spaced between $0$ and $9$ and then logarithmically spaced between $10$ and $100$. The top panels show predictions from the best-fit galaxy\u2013halo connection models at the true cosmology, while the middle panels show their fractional residuals with respect to UniverseMachine. Jackknife error bars are included for visual guidance only.\nThe bottom panels show the fractional difference between the posterior predictive distributions (PPDs) and the UniverseMachine measurements, for the two SHAM models and the concentration-based dHOD model as an example, using samples randomly drawn from the posterior chains. Shaded regions correspond to the $1\\sigma$ ranges of the PPDs, with solid curves showing their means.\nBoth SHAM models predict reasonable higher-order statistics; all HOD models yield predictions that diverge more from the measurements and have wider PPDs."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.04419v1/L17_app1_update.svg",
+                "caption": "Figure 7: Projected correlation functions predicted by SHAM models using different halo proxies at fixed scatter. Left: the model built on the halo catalog without orphans; right: the same model built on halo catalog including orphans. The target UniverseMachine measurement is shown in black.\nThe blue shaded region marks the interpolation range between $M_{\\rm peak}$ and $v_{\\rm peak}$ (reported by L17), and the green shaded region shows the interpolation range between $v_{\\text{vir}}(a_{M_{\\text{peak}}})$ and $v_{\\rm peak}$. The SHAM implementation adopted in this work spans the full interpolation range, combining both shaded regions."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.04419v1/SHAM_CEM_recon_update.svg",
+                "caption": "Figure 8: Co$s$mological constraints on $S_{8}$ from CEM with SHAM, when fiducial $w_{p}$ predicted by the same SHAM model using different parameter values are treated as the target data vector. The left panel demonstrates the recovery when the target SHAM model assumes a fixed scatter of $s=0.2$ and different values for $\\alpha$; the right panel demonstrates the case when s and $\\alpha$ are tuned simultaneously for similar target clustering amplitudes. Cosmological constraints on $S_{8}$ are unbiased for all of the target SHAM-based data vectors investigated here."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.04419v1/SMHM_app3_update.svg",
+                "caption": "Figure 9: The stellar-mass to halo-mass relation for centrals (left) and satellites (right) predicted by the two SHAM models built on halo catalogs with and without orphans, compared to the measurements from UniverseMachine. The solid curves show the mean of the posterior predictive distribution for each model, and the shaded regions are the $1\\sigma$ interval; error bars on the UniverseMachine measurements correspond to the standard error of the mean in each halo mass bin.\nThe with-orphans and no-orphans SHAM models predict distinct stellar-mass to halo-mass relations, suggesting the inherent difference between the models."
+            }
+        ],
+        "abstract": "Small-scale galaxy clustering contains substantial cosmological information, but extracting it reliably requires robust modeling of the galaxy--halo connection. In this work, we compare two widely adopted families of empirical models, subhalo abundance matching (SHAM) and the halo occupation distribution (HOD), testing their predictions for galaxy clustering and their recovery of the input cosmology. Using Aemulus-$\\beta$, a new multi-cosmology simulation suite with substructure merger trees, we fit multiple SHAM and HOD models to the small-scale clustering of a stellar-mass-selected mock galaxy catalog generated with the more physical semi-empirical model UniverseMachine. We then use cosmological evidence modeling to infer the structure growth parameter $S_8$. Our results show that the SHAM model, regardless of the treatment of numerically disrupted subhalos, is able to offer tight, unbiased constraints on $S_8$ with ~2-3% precision, using simulations of relatively small volumes that span a limited number of cosmologies. In contrast, HOD models, even when accounting for assembly bias, yield weaker and potentially biased cosmological constraints that are sensitive to implementation choices: the inferred $S_8$ degrades in precision to ~6-11% and can be offset by ~1$\\sigma$. This suggests that the excessive parametric flexibility and model misspecification of most commonly adopted HOD models can degrade and bias the resulting cosmological constraints. We further evaluate each model's performance in predicting higher-order statistics not used in the fit and find that SHAM generally reproduces them more accurately than the tested HOD models. These results highlight the potential of leveraging predictive subhalo-level information from simulations to enable robust cosmological inference on small scales.\n    "
+    },
+    "2611.04484": {
+        "title": "Structural axes of sources in the SUMSS survey and their alignments",
+        "authors": [
+            "D. Blinov",
+            "T. Bhattarai",
+            "I. Liodakis",
+            "A. Kumar",
+            "P. Bonfini"
+        ],
+        "keywords": "",
+        "figures": [
+            {
+                "url": "https://arxiv.org/html/2611.04484v1/example_result.png",
+                "caption": "Figure 1: Four examples of structural axis position angle detection. The underlying images are $40\\times 40$ pixel subimages of original SUMSS tiles used by the CNN."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.04484v1/dPA_tiles_hist.svg",
+                "caption": "Figure 2: Distribution of the difference between position angles of the same source found in two overlapping tiles."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.04484v1/PAsky_dist.svg",
+                "caption": "Figure 3: Distribution of position angle of among 4087 sample sources.\n"
+            },
+            {
+                "url": "https://arxiv.org/html/2611.04484v1/par_transp.png",
+                "caption": "Figure 4: Illustration of the geometrical effect of the local meridian on jet position angles (PAs). Two jets can have the same numerical PA while their projected directions on the celestial sphere are not aligned, because PAs are measured relative to the local meridian at each source position. Parallel transport to a common reference point is therefore required before comparing PAs measured at different sky positions."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.04484v1/poly_example.svg",
+                "caption": "Figure 5: Directions of jets in the most significant candidate region (shuffling null model, $N_{\\rm side}=16$). Member sources (the 17 enclosed by the polygon) and their structural axis directions are shown in red, other sources in the region \u2013 in gray, and the polygon boundary found by the genetic algorithm \u2013 in blue."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.04484v1/sky_overview.png",
+                "caption": "Figure 6: SUMSS survey area in a south polar stereographic projection. The found jet directions are shown by red line segments. The Galactic plane avoidance zone is intrinsic to the SUMMS extragalactic survey. The 7 candidate regions listed in Table 2 are outlined in blue. The apparent alignment of sources along the meridians near the pole is a projection effect."
+            }
+        ],
+        "abstract": "Coherent orientations of extragalactic radio sources have been reported on large angular scales, but their statistical significance and susceptibility to observational systematics remain debated. Searches based on very long baseline interferometry (VLBI) also leave the far southern sky comparatively sparsely sampled. We test for local alignments of kiloparsec-scale radio source structural axes in the Sydney University Molonglo Sky Survey (SUMSS), providing a complementary probe in the undersampled southern sky. We constructed a catalog of structural position angles for 4087 sources from 629 SUMSS mosaics. A convolutional neural network supplied initial angle estimates, which were corrected for image-to-sky coordinate distortion and visually vetted. We searched for local alignments using a coordinate-invariant parallel transport statistic on HEALPix tessellations, then refined candidate regions with a genetic algorithm. We calibrated the significance of the full search against mock skies that preserve the declination-dependent position angle distribution and undergo the same search procedure. Several regions show apparently strong local alignment, but none remains statistically significant after accounting for the look-elsewhere effect. The candidate signals are consistent with chance fluctuations in the full search. We find no statistically significant evidence for alignment of structural axes of radio sources in SUMSS images. The resulting southern sky position angle catalog provides a useful resource for future studies of radio source morphology and population properties.\n    "
+    },
+    "2611.04830": {
+        "title": "Reconstructing the Large-Scale Velocity Field from DESI DR1 with Bayesian Inference",
+        "authors": [
+            "Raeed Mundow",
+            "Adi Nusser"
+        ],
+        "keywords": "",
+        "figures": [
+            {
+                "url": "https://arxiv.org/html/2611.04830v1/mock_velocity_conditional_probability_3x2_r_100_to_300.png",
+                "caption": "Figure 1: \nConditional distributions of simulated radial velocity at fixed\nreconstructed MAP radial velocity for $20{,}000$ withheld MDPL2 halos within\n$100<r<300\\,h^{-1}\\,\\mathrm{Mpc}$. The left and right columns show the linear\nand Zel\u2019dovich reconstructions, respectively. Rows show the uniformly\nsampled full-sky catalog, the double-cone catalog, and the full-sky\nradial-selection catalog. Velocities are in units of\n$100\\,{\\rm km\\,s^{-1}}$. Sparsely populated tail bins should be\ninterpreted cautiously.\n"
+            },
+            {
+                "url": "https://arxiv.org/html/2611.04830v1/desi_observed_delta_and_nbar_profile.png",
+                "caption": "Figure 2: Observed DESI DR1 BGS density field and radial noise properties. The upper\npanel shows a slice through the observed redshift-space density contrast,\ndisplayed as $\\log_{10}(1+\\delta_{\\rm obs})$, with the survey-mask\nboundary overlaid in black. The lower panel shows the shell-averaged\nexpected tracer number density, $\\langle\\bar{n}\\rangle(r)$, as a solid\nblack curve, and the corresponding shell-averaged shot-noise amplitude\nof the density contrast, $\\langle\\sigma_{n}\\rangle(r)$, as a dashed grey\ncurve. The horizontal dotted grey line marks the global mean shot-noise\namplitude over the observed region."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.04830v1/desi_reconstructions_density_velocity.png",
+                "caption": "Figure 3: \nDESI DR1 BGS MAP density and velocity reconstructions obtained with the\nlinear and Zel\u2019dovich forward models. The density panels show the inferred\nlarge-scale structure relative to the survey footprint. The velocity panels\nare smoothed with a Gaussian kernel of width four grid cells\n($46.8\\,h^{-1}\\mathrm{Mpc}$) for visualization.\n"
+            },
+            {
+                "url": "https://arxiv.org/html/2611.04830v1/desi_boundary_distance_profiles.png",
+                "caption": "Figure 4: \nBoundary profiles of the reconstructed density and velocity fields. The\nupper panel shows the rms density contrast, $\\sigma_{\\delta}$, as a\nfunction of signed distance from the survey mask boundary. The lower panel\nshows the corresponding rms velocity amplitude, $\\sigma_{v}$. Positive\ndistances are inside the survey footprint, while negative distances are\noutside the footprint. Black and blue curves show the linear and\nZel\u2019dovich MAP fields, respectively. The red vertical dashed line marks\nthe mask boundary.\n"
+            },
+            {
+                "url": "https://arxiv.org/html/2611.04830v1/cr01_density_velocity_pdf_article.png",
+                "caption": "Figure 5: \nExample Hoffman\u2013Ribak constrained realization. Left: density contrast\nin the reconstruction box. Middle: the corresponding projected\nvelocity field, shown after Gaussian smoothing with a width of two grid\ncells for visual clarity. Right: one-point density distributions for\ncells inside and outside the observed survey region. The vertical\ndashed line marks $\\delta=-1$, below which the linear density field\ncorresponds formally to a negative matter density.\n"
+            },
+            {
+                "url": "https://arxiv.org/html/2611.04830v1/desi_real_space_density_pdf.png",
+                "caption": "Figure 6: \nOne-point distributions of the reconstructed real-space matter density\nwithin the survey footprint. Black and blue curves correspond to the\nlinear and Zel\u2019dovich MAP fields, respectively. The green curve is the\ninferred Zel\u2019dovich initial density field, normalized to the present epoch.\n"
+            },
+            {
+                "url": "https://arxiv.org/html/2611.04830v1/sgxy_density_desi_2mrs_streamlines_sigma8_article.png",
+                "caption": "Figure 7: \nRedshift-space density reconstruction in the supergalactic plane. The color\nmap shows the reconstructed density contrast in the SGX\u2013SGY plane for the\nlinear MAP reconstruction (left) and the Zel\u2019dovich MAP reconstruction (right).\nBlack points show DESI tracers, while green points show 2MRS galaxies in the\nsame SGZ slab. The overlaid streamlines indicate the projected reconstructed\nvelocity field after Gaussian smoothing with a width of two grid pixels, and are\nincluded to highlight the coherent large-scale flow pattern.\n"
+            },
+            {
+                "url": "https://arxiv.org/html/2611.04830v1/bulk_flow_shell_sigma8_two_panel.png",
+                "caption": "Figure 8: \nMean reflex-dipole amplitude as a function of radius for the linear MAP\n(upper panel) and Zel\u2019dovich MAP (lower panel). The purple, teal, and yellow\ncurves correspond to $\\sigma_{8}/\\sigma_{8}^{\\rm fiducial}=0.5,\\,1$, and\n$1.5$, respectively. Amplitudes are averaged over spheres fully contained\nwithin the survey footprint, using shells whose width increases to\n$25\\,h^{-1}\\,\\mathrm{Mpc}$ at large radii.\nThe black dashed curve and gray band show the mean and $1\\sigma$ scatter\nfrom random linear density and velocity fields generated using the\nfiducial $\\Lambda$CDM power spectrum. In each realization, the\nreflex-dipole amplitude at a given radius is first averaged over the same\nnumber of spheres used for the DESI estimate at that radius. The band\ntherefore describes the uncertainty in this sphere-averaged amplitude,\nnot the dispersion of amplitudes among individual spheres of that radius.\nThe black dotted curve with square\nmarkers in the upper panel shows one linear constrained realization at\nthe fiducial value of $\\sigma_{8}$. No Zel\u2019dovich CR is available.\n"
+            },
+            {
+                "url": "https://arxiv.org/html/2611.04830v1/desi_cf4_positions_xy_slab_double_cone.png",
+                "caption": "Figure 9: \nDESI and CF4 tracer distribution in the local comparison region. DESI\ntracers are shown in red, CF4 groups in dark yellow, and selected CF4\ngroups inside the displayed slab in blue. The black lines show the\nprojected double-cone boundaries used for the velocity comparison. The\nplot shows an $xy$ slab approximately centered at $z=0$, with a\nthickness of $11.7\\,h^{-1}\\,\\mathrm{Mpc}$.\n"
+            },
+            {
+                "url": "https://arxiv.org/html/2611.04830v1/cf4_vs_reconstruction_linear_za_vcf4_double_cone.png",
+                "caption": "Figure 10: \nCF4 velocity comparison in the selected double-cone region. The left\nand right panels show the linear and Zel\u2019dovich MAP reconstructions,\nrespectively. The horizontal axis gives the line-of-sight MAP velocity,\nand the vertical axis the observed CF4 radial peculiar velocity from the\nVpds field. The orange curves show the binned conditional means,\nwith error bars indicating $0.1\\sigma$ of the within-bin scatter among\nthe CF4 groups. The dashed blue lines show the best-fitting regressions,\nwhile the dashed black lines mark the one-to-one relation.\n"
+            }
+        ],
+        "abstract": "Survey boundaries and nonlinear dynamics complicate reconstruction of large-scale matter-density and peculiar-velocity fields from galaxy redshift surveys. We develop and compare two reconstruction methods within a common Bayesian framework, based on linear perturbation theory and the Zel'dovich approximation, and apply them to the DESI Data Release 1 Bright Galaxy Survey. We infer the initial density field using a Gaussian prior and likelihood, with the Zel'dovich model displacing particles from a uniform Lagrangian grid. Both yield maximum a posteriori (MAP) fields; only the linear posterior is sampled. Our main findings are: \\textit{(i)} Both reconstructions yield similar large-scale density structures and coherent velocity patterns in the survey interior, beyond roughly \\(50\\,h^{-1}\\,\\mathrm{Mpc}\\) from the footprint boundaries. \\textit{(ii)} Comparison with Cosmicflows-4 groups, predominantly from the SDSS Fundamental Plane sample in the DESI overlap, shows close agreement between mean observed radial velocities and MAP predictions when binned by the latter, despite substantial individual scatter. \\textit{(iii)} Both yield similar reflex-dipole profiles, defined as mean shell velocities relative to those at randomly sampled centres, out to \\(\\sim225\\,h^{-1}\\,\\mathrm{Mpc}\\). The profiles depend weakly on the prior normalization \\(\\sigma_8\\), but lie below the fiducial linear \\(\\Lambda\\)CDM reference at \\(r<50\\,h^{-1}\\,\\mathrm{Mpc}\\). Sparse sampling limits the largest radii. \\textit{(iv)} In an exploratory BAO test, shifting galaxies and randoms to a target redshift \\(z=8\\) using reconstructed displacements sharpens the acoustic feature in both cases, with a slightly more pronounced peak for Zel'dovich. Survey geometry and galaxy bias remain the principal limitations.\n    "
+    },
+    "2611.05112": {
+        "title": "Linear perturbation theory and structure formation in a Horndeski theory of gravity without dark matter",
+        "authors": [
+            "Lorenzo Gervani",
+            "Antonaldo Diaferio",
+            "Francesco Pace"
+        ],
+        "keywords": "",
+        "figures": [
+            {
+                "url": "https://arxiv.org/html/2611.05112v1/growth_factor_gCRG_QSA.png",
+                "caption": "Figure 1: Evolution of the density contrast $\\displaystyle\\delta$ (top panel), of the $\\displaystyle $\\displaystyle H$$ubble-Lema\u00eetre parameter H (middle panel) and of the boost factor function $\\displaystyle G_{4}$ (bottom panel) as a function of redshift. In the middle panel, the solid points with error bars show the observational estimates from\u00a0Yu et al. (2018). The smaller panel on the right depicts a zoomed-in region of the H plot. Different curves assume different values for the free parameters $\\displaystyle\\varphi_{0}$ and $\\displaystyle G_{4,0}$; the other free parameter, $\\displaystyle\\Omega_{\\Xi 0}$, is fixed to the upper limit of Eq.\u00a0(29), following the results of Gervani et al. (2026) and Sanna et al. (2023). The dashed red line in the top and middle panels represents the $\\displaystyle\\Lambda$CDM prediction."
+            }
+        ],
+        "abstract": "We study the formation and evolution of the cosmic large-scale structure (LSS) in a scalar-tensor Horndeski theory of gravity without dark matter. We impose that this theory reduces to Refracted Gravity (RG) in the weak-field limit. RG is a non-relativistic theory where the gravitational permittivity $\\epsilon(\\rho)$, with $\\rho$ the baryonic matter density, provides the gravitational boost required to describe both the dynamics of galaxies and galaxy clusters without dark matter. We show that $\\epsilon(\\rho)$ equals the function $G_4(\\varphi)$ of the scalar field $\\varphi$ of our Horndeski model. The background evolution of a flat, matter-dominated, homogeneous and isotropic universe shows that $\\varphi$ is also responsible for the accelerated expansion of the universe and that the model is capable of reproducing the observed redshift evolution of the Hubble-Lema\u00eetre parameter. We finally develop the linear perturbation theory and study the growth factor equation. The model fails to correctly describe the LSS by predicting a late onset of the formation of cosmic structure at redshift $z\\lesssim 1$.\n    "
+    },
+    "2611.05190": {
+        "title": "Cosmological evolution and late-time attractors in axion-monopole interacting dark energy",
+        "authors": [
+            "Emmanuel N. Saridakis"
+        ],
+        "keywords": "",
+        "figures": [
+            {
+                "url": "https://arxiv.org/html/2611.05190v1/Fig1phase.svg",
+                "caption": "Figure 1: \nPhase-space trajectories of the axion-monopole\ncosmology in the presence of a positive\ncosmological constant, with\n$\\Omega_{\\Lambda,0}=0.38$, where\n$\\Omega_{\\Lambda,0}\\equiv\\rho_{\\Lambda}/(3M_{\\rm Pl}^{2}H_{0}^{2})$.\nThe horizontal and vertical axes represent\n$u=\\varphi/f_{\\varphi}$ and $\\dot{u}/H_{0}$,\nrespectively.\nThe filled circles denote the de Sitter\ncritical points.\nThe points $\\mathcal{D}_{\\rm min}^{(0)}$\nand $\\mathcal{D}_{\\rm min}^{(1)}$,\nat $u=0$ and $u=2\\pi$, are stable\nlate-time attractors, while\n$\\mathcal{D}_{\\rm max}^{(0)}$, at\n$u=\\pi$, is unstable.\nThe solid black curves represent\nrepresentative cosmological trajectories,\nwith arrows indicating the direction\nof increasing e-fold time $N$.\nThe light-gray arrows illustrate\ninstantaneous projected flow directions\nfor a prescribed choice of the remaining\ndynamical variables.\nThe diagram is a two-dimensional projection\nof the full cosmological system.\n"
+            },
+            {
+                "url": "https://arxiv.org/html/2611.05190v1/Fig2phase.svg",
+                "caption": "Figure 2: \nPhase-space trajectories of the axion-monopole\ncosmology in the absence of an explicit\ncosmological constant,\n$\\Omega_{\\Lambda,0}=0$.\nThe horizontal and vertical axes represent\n$u=\\varphi/f_{\\varphi}$ and $\\dot{u}/H_{0}$,\nrespectively.\nThe filled circle denotes the unstable\nde Sitter critical point\n$\\mathcal{D}_{\\rm max}^{(0)}$ at $u=\\pi$.\nThere is no stable finite-Hubble de Sitter\nattractor in this case.\nThe solid black curves illustrate\nrepresentative cosmological trajectories,\nwith arrows indicating increasing\ne-fold time $N$.\nThe inward spirals correspond to damped\noscillations of the axion around the\npotential minima at $u=0$ and $u=2\\pi$,\nwhich are approached as $H\\to 0$ and\nare not finite-Hubble critical points.\nThe light-gray arrows indicate\ninstantaneous projected flow directions\nfor a prescribed choice of the remaining\ndynamical variables.\nAs in Fig.\u00a01,\nthe diagram represents a two-dimensional\nprojection of the full cosmological system.\n"
+            },
+            {
+                "url": "https://arxiv.org/html/2611.05190v1/Figure3_cosmological_evolution.svg",
+                "caption": "Figure 3: Cosmological evolution of the\naxion-monopole model for the representative\nparameters given in the text.\nUpper panel: evolution of the total matter\n($\\Omega_{m}$), baryonic matter ($\\Omega_{b}$),\nradiation ($\\Omega_{r}$), axion ($\\Omega_{\\varphi}$),\ncosmological-constant ($\\Omega_{\\Lambda}$),\nand total dark-energy ($\\Omega_{\\rm DE}$)\ndensity parameters, with\n$\\Omega_{m}=\\Omega_{\\rm M}+\\Omega_{b}$ and\n$\\Omega_{\\rm DE}=\\Omega_{\\varphi}+\\Omega_{\\Lambda}$.\nLower panel: evolution of the deceleration\nparameter $$q$$ as a function of $N=\\ln a$.\nThe transition from decelerated to accelerated\nexpansion occurs when q crosses zero."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.05190v1/Figure4wDE.svg",
+                "caption": "Figure 4: Evolution of the physical\ndark-energy equation-of-state parameter\n$w_{\\rm DE}$ as a function of $N=\\ln a$\nfor five dyon-charge parameters,\n$n_{e}=1,2,3,5,6$.\nWe adopt $\\alpha_{D}=0.12$, $\\tilde{f}=0.36$,\nand $\\Omega_{\\Lambda,0}=0.3$, adjusting\n$\\mu$ for each charge state to satisfy\nthe present-day Friedmann normalization\n$E(0)=1$. The other parameters and\ninitial conditions are kept fixed.\nThe horizontal dotted line indicates\nthe phantom divide $w=-1$.\nAll trajectories remain in the non-phantom\nregime, as expected for a canonical axion\ncombined with a cosmological constant."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.05190v1/Figure5_effective_wDE.svg",
+                "caption": "Figure 5: Evolution of the\ninteraction-effective dark-energy\nequation-of-state parameter\n$w_{\\rm DE}^{\\rm eff}$ for the same\nparameter choices and initial conditions\nas in Fig.\u00a04.\nThe horizontal dotted line denotes\n$w=-1$. The cases $n_{e}=1,2,3$\nexhibit small excursions into the\neffective phantom regime, whereas\n$n_{e}=5,6$ remain non-phantom over\nthe displayed interval.\nThe inset magnifies the region around\nthe phantom divide, highlighting the\ndependence of the effective crossing\non the dyon-charge parameter."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.05190v1/Figure6BPS.svg",
+                "caption": "Fig$u$re 6: Comparison of the cosmological\nevolution for the quadratic dyon-mass\napproximation with $n_{e}=30$ (solid black\ncurves) and the full BPS mass with $n_{e}=0$\n(dashed red curves).\nThe upper and middle panels show the\ndimensionless axion field u and its\nderivative $u^{\\prime}=du/dN$, respectively,\nwith $N=\\ln a$.\nThe lower panel presents the\ninteraction-effective dark-energy\nequation-of-state parameter\n$w_{\\rm DE}^{\\rm eff}$.\nThe inset magnifies the region around\nthe phantom divide $w=-1$, revealing\neffective phantom behavior for the\nquadratic case and non-phantom behavior\nfor the BPS case.\nBoth solutions have the same initial\naxion configuration but different\ndyon charge states."
+            }
+        ],
+        "abstract": "We investigate the cosmological dynamics of axion-monopole interacting dark energy, examining whether a microscopically motivated dark-sector interaction can sustain stable late-time acceleration. In particular, magnetic monopoles constitute dark matter and an ultralight axion contributes to dark energy, with their interaction arising from the Witten effect through field-dependent dyon masses. We formulate the autonomous system, classify its critical points and stability, and investigate the evolution analytically and numerically. We find that stable de Sitter attractors at finite positive Hubble parameter require a positive cosmological constant and correspond to axion-potential minima, whereas those at maxima are unstable. Nevertheless, transient axion-driven acceleration remains possible without an explicit cosmological constant. Furthermore, the interaction induces matter-era tracking, namely an attracting slow-drift regime rather than an exact critical point. The interaction-effective dark-energy equation of state can cross the phantom divide, although the physical equation of state remains non-phantom. Extending the analysis to the full Bogomol'nyi-Prasad-Sommerfield dyon mass, we find that the main dynamical features persist, while the field evolution and interaction strength depend on the microscopic dyon properties. Our results demonstrate how a microscopically motivated dark-sector interaction can give rise to distinctive cosmological evolution and effective dark-energy behavior.\n    "
+    },
+    "2611.05338": {
+        "title": "Bright Siren Cosmology Beyond Fisher: DALI Forecasts for Third-Generation Gravitational Wave Observatories",
+        "authors": [
+            "Mayara H. Pacheco",
+            "Josiel M. S. de Souza",
+            "Odylio D. Aguiar",
+            "M\u00e1rcio E. S. Alves"
+        ],
+        "keywords": "",
+        "figures": [
+            {
+                "url": "https://arxiv.org/html/2611.05338v1/fig_fisher_doublet_triplet_sobrepostos_v2.svg",
+                "caption": "Figure 1: Two-dimensional constraints in the $(\\Omega_{M},\\omega_{0})$ plane obtained with three supernovae likelihood approximations: Fisher (red), Doublet (blue), and Triplet (green) following\u00a0Sellentin et al. (2014). The dark-gray and gray regions shows the exact posterior density with contours indicating the $68\\%$ and $95\\%$ credible regions ($1\\sigma$ and $2\\sigma$). The comparison highlights how the inclusion of higher-order DALI terms captures non-Gaussian structure and parameter degeneracies beyond the Fisher approximation."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.05338v1/03_iota_distribution.svg",
+                "caption": "Figure 2: \nSource-population distributions adopted in the mock-catalog simulations.\nLeft panel: normalized redshift distribution over\n$z\\in[0.02,1]$. The histogram represents the sampled redshifts, while\nthe continuous curve corresponds to the analytic probability density\nEq.\u00a0(19). Right panel: smooth-cutoff\ninclination distribution defined in\nEq.\u00a0(22). The distribution\nsuppresses nearly edge-on systems and preferentially selects nearly face-on and face-off configurations, approximating the observational\nselection associated with the detection of a GRB counterpart.\n"
+            },
+            {
+                "url": "https://arxiv.org/html/2611.05338v1/fig_detectors.png",
+                "caption": "Figure 3: Detector configurations"
+            },
+            {
+                "url": "https://arxiv.org/html/2611.05338v1/fig_corner_cat0001_src100.svg",
+                "caption": "Figure 4: Joint constraints on GW parameters for several likelihood approximations. For better visualizations we denote $\\Delta M_{c}\\equiv M_{c}-M_{c}^{true}$ and $\\Delta\\eta\\equiv\\eta-\\eta^{true}$ as the displacements from the injection parameters. The Doublet approximation with prior $p(d_{L})$ exhibits a secondary mode at larger $d_{L}$, reflecting the degeneracy between luminosity distance and inclination. In contrast, using the inverse-distance prior $p(1/d_{L})$ re-weights the distance distribution and suppresses this secondary mode, yielding constraints more concentrated around the main posterior region."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.05338v1/fig_multiple_fisher_v2.svg",
+                "caption": "Figure 5: Measurements and uncertainties averaged over 1000 catalogs. Comparisons among different Fisher treatments (left). Comparison between averaged Singlet measurement and a single exact catalog (right)."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.05338v1/fig_dL-z_v2.svg",
+                "caption": "Figure 6: Hubble diagram including average over GW-Singlet and GW-Doublet catalogs."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.05338v1/fig_corner_cat0018.svg",
+                "caption": "Figure 7: Cosmological corner plot from 300 GW sources (of a single catalog) up to $z=1.0$ comparing several approximations."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.05338v1/Figures/Cosmo_GwGaussian/fig_cosmo_GwGaussian.png",
+                "caption": "Figure 8: Cosmological constraints obtained from GW-Fisher Gaussian catalogs as a function of the maximum redshift included in the cumulative analysis. The panels show $H_{0}$, $\\Omega_{m}$, $\\omega_{0}$, and $\\omega_{a}$ for the exact, Doublet, Singlet, and Fisher cosmological likelihoods."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.05338v1/fig_cosmo_GwSinglet.svg",
+                "caption": "Figure 9: Same as Fig.\u00a08, for GW-Singlet catalogs."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.05338v1/fig_cosmo_GwDoublet.svg",
+                "caption": "Figure 10: Same as Fig.\u00a08, for GW-Doublet catalogs."
+            }
+        ],
+        "abstract": "In this work we assess non-Gaussian extensions of Fisher forecasting based on the Derivative Approximation for Likelihoods (DALI). We simulate ensembles of bright siren catalogs for third-generation observatories, adopting a Cosmic Explorer (CE) and a triangular Einstein Telescope (ET) network, frequency-domain inspiral waveforms, and selection-motivated priors for counterpart detection. We reconstruct approximate likelihoods using Fisher and the first DALI correction (Doublet), and propagate the inferred distance information to cosmological inference in a w0waCDM model. We find that the Doublet approximation provides tighter cosmological constraints than the Fisher approximation, reducing the inferred uncertainties by approximately a factor of two in agreement with non-approximate likelihood (called Exact) results. For our GW network onfiguration, 300 bright-siren detections up to z=1 yield an H0 precision of ~2.7% with the Doublet approximation, compared with ~2.5% for the exact likelihood. The adopted non-Gaussian GW priors induce a systematic displacement of the inferred luminosity distances from the fiducial values, which is also present in the exact GW reconstruction and propagates into the cosmological parameters. Compared with the exact cosmological likelihood, the Doublet results differ by only ~10% on average in the parameter uncertainties, compared with ~195% for the traditional Fisher approximation. The Doublet approximation also substantially reduces the computational cost, by a factor of ~55 for the GW analysis and by ~12 for cosmological likelihood evaluations, yielding an estimated reduction of ~55 in the total computational cost of the combined analysis. Our results show the potential of DALI-based approximations to provide accurate and computationally efficient tools for forecasting in bright siren cosmology.\n    "
+    },
+    "2611.05351": {
+        "title": "Mapping large-scale structure without galaxy formation - combining fast radio bursts with CMB lensing",
+        "authors": [
+            "James M. Sullivan",
+            "Kiyoshi Masui",
+            "Ryan Raikman",
+            "Shion Andrew",
+            "Haochen Wang"
+        ],
+        "keywords": "",
+        "figures": [
+            {
+                "url": "https://arxiv.org/html/2611.05351v1/fig1.svg",
+                "caption": "Figure 1: Peak-background-split electron bias: The peak-background-split (PBS) estimate of $b_{e}$ given by eqn.\u00a02 at several levels of complexity against the measured field-level values from the simulation (black curve, gray band indicates variation over feedback models).\nThe blue curve shows the PBS prediction described in the text, substituting an approximate relation for the mass-weighted bias of stellar+neutral gas $b_{n\\star}$ and abundance fractions, propagating uncertainty in these relations (blue band).\nFor comparison, we also show the prediction of including only number-weighted neutral+stellar species (purple dash-dotted), which yields poor agreement with the simulations.\nFinally, we show the same estimate as in blue when fixing the abundance fractions and $b_{n\\star}$ values to those extracted from the FLAMINGO simulations at the field level (orange triangles), which is in comparatively excellent agreement with the simulation values.\n"
+            },
+            {
+                "url": "https://arxiv.org/html/2611.05351v1/fig2.svg",
+                "caption": "Figure 2: \nField-level $b_{1}^{e}$ measurements:\nThe linear-regression method used in this work (blue circle) agrees well with the independent estimate using the field-level bias implementation described in Ref.\u00a0[2] (\u201ctransfer functions\u201d, orange square).\nThis estimate is also consistent with, but slightly tighter than, the estimate that is fit using a \u201c1-loop\u201d model constructed from simulated cross-power spectra of the bias operators, including the leading $k^{2}$ counterterm (green diamond).\nFinally, we find a larger difference, though at a similar significance, with the result of Ref.\u00a0[20] (gray triangle) from the galaxy-electron set of power spectra, but expect this is simply due to the use of different tracers for determining $b_{1}^{e}$.\nAll estimates are made in real space at $z=0.5$.\n"
+            },
+            {
+                "url": "https://arxiv.org/html/2611.05351v1/fig3.svg",
+                "caption": "Figure 3: \nElectrons follow total matter:\nTop: We show the predicted electron-matter (left) and electron-electron (right) power spectra from the best-fit field-level parameters from $$$k$$_{\\mathrm{max}}=0.08~h~\\mathrm{Mpc}^{-1}$.\nRelative contributions of each set of perturbation-theory terms to the total power spectrum in each column. The dominant terms are 2LPT-only matter contribution (thick black) and the leading higher-derivative bias (purple).\nThe electron linear bias (gold) provides a several percent correction.\nAll other non-linear terms are less than approximately 1% - plotted curves show the combination of all operator cross spectra involving fields of that order (green - quadratic, blue -cubic $\\delta^{3}$).\nOpen markers show negative values.\nPredictions of the model in the regime where bias parameters are not fit are shown in the gray shaded area for illustration only, as higher-order expansion will be required to accurately capture this regime in perturbation theory.\nBottom: The error power spectrum $P_{\\mathrm{err}}\\equiv\\langle|\\delta_{e}^{\\mathrm{sim}}-\\delta_{e}^{\\mathrm{EFT}}|^{2}\\rangle^{\\prime}$ for several field-level models of the electron distribution in addition to the overall electron power (gray).\nThe error power of the full perturbation theory field model in its linear regression form (black stars) provides a good fit on large scales, but fails outside of its fit range (white area, $k<0.08~h~\\mathrm{Mpc}^{-1}$).\nWe also show the result for a model that is a free function of k multiplied by the full non-linear matter field (orange crosses), which provides a nearly perfectly flat error power, indicating high correlation between the electrons and matter.\nRestricting this freedom, we also show two additional field-level models for the case of a linear (Eulerian) bias (blue squares) and the same but with a single higher-derivative term (green diamonds).\nRelated field-level models will be further explored in forthcoming work [46].\nThe latter is effectively identical to the free function of k, indicating the tight relation between the matter and electron fields.\nWe also show the effective Poisson expectation for the error power between electrons and matter and the electron Poisson expectation as the orange and gray dotted lines, respectively.\n"
+            },
+            {
+                "url": "https://arxiv.org/html/2611.05351v1/fig4.svg",
+                "caption": "Figure 4: \nRedshift kernels:\nTop: Redshift kernel contributions for various tracers in this work as given by eqn.\u00a019, including CMB lensing (black dash-dotted), the various LSST-Rubin source-galaxy-lensing kernels (dashed colored curves), and the dispersion-measure kernel corresponding to the assumed FRB distribution (blue solid).\nNormalization is arbitrary and simply for visualization purposes.\nBottom: The assumed redshift distributions of source LSST-Rubin source galaxies (dashed curves) and localized FRBs (solid blue curve) provided for visualization.\n"
+            },
+            {
+                "url": "https://arxiv.org/html/2611.05351v1/fig5.svg",
+                "caption": "Figure 5: \nTigher cosmological constraints with more FRBs:\nThe improvement of CMB lensing x FRBs in the 3x2pt combination when compared to the shear combination in $\\sigma(\\sigma_{8})$ (left) is robust to the number of FRBs $N_{\\mathrm{FRB}}$, as is the relatively weaker, yet still comparable, constraint on $\\Omega_{m}$ (right).\nConstraints from FRB $\\mathrm{DM}$ only are shown in orange dashed with constraints from CMB lensing alone $\\kappa\\kappa$ (green dash-dotted) and cosmic shear alone $\\gamma\\gamma$ (purple dash-dotted) shown as horizontal lines.\nThe 3x2pt results are shown for CMB lensing x FRBs ($\\kappa\\kappa+\\kappa D+DD$) in blue solid (circle marker) and for shear x FRBs ($\\gamma\\gamma+\\gamma D+DD$) in purple solid (downward triangle marker) for our fiducial scale cut of $\\ell_{\\mathrm{max}}=1000$.\nWe also show the mild $\\mathcal{O}(10\\%)$ additional gain obtained when extending to\na\nscale cut of $\\ell_{\\mathrm{max}}=3000$ for CMB lensing x FRBs (blue dash-dotted, upward triangle marker).\n"
+            },
+            {
+                "url": "https://arxiv.org/html/2611.05351v1/fig6.svg",
+                "caption": "Figure 6: Impact of $b_{e}:$\nWhen electron bias is free (solid contours) the combination of CMB lensing and FRBs is less constraining than the combination LSST/Rubin shear due to the degeneracy $b_{e}$tween be and $\\sigma_{8}$.\nResults are shown for the DSA ($5\\times 10^{4}$ localized FRBs) FRB survey configuration.\nWhen\nthe default prior (4 X FLAMINGO feedback spread width)\nis applied, the CMB x FRB contour shrinks considerably (dashed blue), while the Rubin/LSST shear x FRB contour (dashed orange) does not change appreciably.\nThis reflects the self-calibration of the electron bias for the case of Rubin/LSST tomography.\n"
+            },
+            {
+                "url": "https://arxiv.org/html/2611.05351v1/fig7.png",
+                "caption": "Figure 7: \nFeedback (in)sensitivity:\nFor the DSA (blue) and HIRAX (orange) configurations, we show the 2D-projected constraints of $\\sigma_{8}$ as well as all of the parameters governing the electron distribution as well as the small-scale total matter contribution for CMB x FRB (solid) and Rubin/LSST x FRB (dashed).\nUnsurprisingly, the small-scale parameters for electrons and total matter (e.g. $A_{e}$, $A_{\\mathrm{fb}}$) are highly correlated, as feedback pushes both dispersive electrons as well as baryons (and so total matter) out of halos.\nThe CMB x FRB constraints on the electron and matter feedback parameters are poor, while those from LSST-Rubin x FRB are much tighter by comparison.\nHowever, this has effectively no impact on the $\\sigma_{8}$ constraint, which comes largely from the knowledge of $b_{e}$.\n"
+            },
+            {
+                "url": "https://arxiv.org/html/2611.05351v1/fig8.svg",
+                "caption": "Figure 8: \nWea$$$k$$$ lensing parameter sensitivity:\nBlack shaded curves show the sensitivity bands for CMB lensing while the colored bands show different LSST/Rubin Y10 redshift distribution bins.\nThe left column of panels show $\\ell=100$ sensitivity while the right column of panels show the $\\ell=1000$ sensitivity ($\\ell_{\\mathrm{max}}$ in our forecasts).\nTop row: shows projected clustering response as a function of redshift (where colors have the same meaning).\nMiddle row: shows the response of the matter power spectrum to $\\sigma_{8}$, while the lower panel shows its response to $\\sigma_{8}$.\nCrucially, CMB lensing pro$b_{e}$s the large-scale matter power spectrum on linear and quasi-linear scales (the flat region at low k in the $\\sigma_{8}$ response), while the cosmic shear combination is sensitive only to the quasi-linear and fully nonlinear regions.\nThis is why the CMB lensing x FRB combination is sensitive to the prior on be, but LSST/Rubin shear x FRB is not.\nThe vertical bands show the k modes contributing to the $\\ell$ of the corresponding column.\nThe vertical lines within the vertical bands show the median k values per band.\nBottom row: Similarly, we plot the response to $\\Omega_{m}$, noticing that the tomographic cosmic shear tomography probes both the region where the response is roughly monotonic in $\\Omega_{m}$ and also where it changes sign (and ordering with redshift; gray shades of solid curves).\n"
+            },
+            {
+                "url": "https://arxiv.org/html/2611.05351v1/fig9.svg",
+                "caption": "Figure 9: \nElectron stochasticity:\nLeft: Stochastic contribution of the electron field for different feedback models (colored points, best-fit quadratic polynomials as solid curves). The contribution is very close to the Poisson value (dotted black), but is slightly larger.\nRight: There is some variation with feedback model used in FLAMINGO, but the scale of the flat part of the noise in a quadratic fit is orders of magnitude lower than for galaxies.\n"
+            },
+            {
+                "url": "https://arxiv.org/html/2611.05351v1/fig10a.svg",
+                "caption": "Figure 10: \nImpact of feedback priors on amplitude of structure:\nAt $\\ell_{\\mathrm{max}}=1000$, we show the constraints of the CMB lensing x FRB combination (Left) and LSST/Rubin shear x FRB combination (Right) for various baryonic feedback response priors.\nHere we use the DSA FRB configuration.\nThe red contours show the case of the priors determine from best-fit Pad\u00e9 parameters at $z=0,0.5,1,1.5,2$ (and their covariances) across all available FLAMINGO feedback models.\nNeither data combination is especially sensitive to a 4x increase in the prior width.\nHowever, removing the prior information altogether does significantly reduce the constraining power on $\\Omega_{m}$, especially for the CMB lensing case, reflecting the limited shape information on $\\Omega_{m}$ from larger scales in this case (see Fig.\u00a08).\nPermitting cross-covariance in the prior from the FLAMINGO simulations has negligible impact on the CMB combination case but slightly improves results for the cosmic shear cross correlation.\n"
+            }
+        ],
+        "abstract": "Fast radio bursts (FRBs) are an emerging precision probe of cosmological fluctuations. The amount and quality of observed FRB data will grow enormously over the next decade. FRB dispersion data directly probe the free electron distribution up to intergalactic scales. Precision models of the free electron distribution are necessary to exploit this exciting new probe of large-scale structure. We show that the free electron distribution almost exactly follows the total matter distribution. We confirm this fact by estimating the electron field-level bias parameters for the first time from the FLAMINGO simulations. With simulation-based knowledge of a handful of electron free parameters, the electron distribution largely acts as a second realization of the matter distribution. Working on large scales, we can leverage this fact to combine FRB correlations with those of Cosmic Microwave Background (CMB) weak lensing to constrain cosmological parameters. Assuming access to localized FRBs with redshifts, we perform cosmological forecasts using these two large-scale matter probes, which have no strong dependence on baryonic feedback models nor on parameters that encode galaxy formation. We show that the parameters $\\sigma_8$ and $\\Omega_m$ are constrained at a level similar to or better than that obtained by combining FRB dispersion with weak lensing of galaxy shapes under conservative assumptions. These results motivate the use of FRB data as a complementary probe of cosmic structure and will be especially compelling as redshifts become available for localized FRB host galaxies.\n    "
+    },
+    "2611.05367": {
+        "title": "SBi3PCF: cosmology with Dark Energy Survey Year 3 cosmic shear",
+        "authors": [
+            "David Gebauer",
+            "Anik Halder",
+            "Zhengyangguang Gong",
+            "Cora Uhlemann"
+        ],
+        "keywords": "",
+        "figures": [
+            {
+                "url": "https://arxiv.org/html/2611.05367v1/corner_Om_S8_w0_unblinded.svg",
+                "caption": "Figure 1: Marginalised posterior distributions of $\\Omega_{m}$, $S_{8}$ and $w_{0}$ from the DES Y3 measurement. The $\\xi_{\\pm}$ analysis is shown in blue, the $\\zeta_{\\pm}$ analysis in orange, and the joint $\\xi_{\\pm}$ + $\\zeta_{\\pm}$ analysis as green unfilled contours. The 1D marginalised posteriors are shown on the diagonal, and the 2D joint posteriors are shown as 68% and 95% credible contours."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.05367v1/literature_comparison_unblinded.svg",
+                "caption": "Figure 2: Marginalised constraints on $\\Omega_{m}$, $S_{8}$ and $$w$_{0}$ from published wCDM analyses compared with the three analyses of this work. Filled markers show the medians with 16th\u201384th percentiles, which we have recomputed from the public chains, and open markers the published values (marginal mean and 68% interval) for results without a public chain. Arrows pointing to the left in the $w_{0}$ panel indicate published 68% upper limits, with the perpendicular line marking the non-phantom prior boundary $w_{0}=-1$ of the respective analysis. The colours indicate the type of statistic: cosmic shear 2-point statistics are shown in blue like our $\\xi_{\\pm}$, second- plus third-order shear statistics in green like our joint analysis, 3$\\times$2pt in yellow, map-based SBI in pink, and the CMB and BAO results (Planck + BAO and DESI) in grey."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.05367v1/tarp_coverage.svg",
+                "caption": "Figure 5: Coverage test with TARP Lemos et al. (2023) on 1250 test simulations for the three main models (left) and the five data-vector variations (right). The upper panels show ECP$(\\alpha)$ as a function of the credibility level $\\alpha$, and the lower panels show the residual ECP$(\\alpha)-\\alpha$. The black dashed line indicates perfect coverage, and the grey bands show the $1\\,(2)\\,\\sigma$ binomial uncertainty."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.05367v1/likelihood_mahalanobis.svg",
+                "caption": "Figure 6: Histograms of the $\\chi^{2}$ (squared Mahalanobis distance) of the 1250 test data vectors with respect to their learned likelihood $p(x\\,|\\,\\theta_{\\rm true})$ for the joint (left), $\\xi_{\\pm}$ (middle) and $\\zeta_{\\pm}$ (right) pipelines. The black dashed line shows the $\\chi^{2}(d=17)$ distribution expected for an accurately learned likelihood."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.05367v1/observation_model_variations_unblinded.svg",
+                "caption": "Figure 7: Posterior median and 68% credible interval of the DES Y3 measurement for all analysis variations. The shaded band marks the joint $\\xi_{\\pm}$ + $\\zeta_{\\pm}$ interval as reference."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.05367v1/map_loglike_check_unblinded.svg",
+                "caption": "Figure 8: Log-posterior at the MAP of the DES Y3 data vector (black dashed) compared to its distribution for the 1250 test simulations, for the joint (left), $\\xi_{\\pm}$ (middle) and $\\zeta_{\\pm}$ (right) pipelines. A few test cases lie below the plotted range."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.05367v1/obs_moped_coefficients_unblinded.svg",
+                "caption": "Figure 9: Top: The nine z-scored MOPED coefficients of the DES Y3 data vector (black crosses), compared to the learned likelihood $p(x\\,|\\,\\theta_{\\rm MAP})$ of the joint analysis (violins). Bottom: The deviation of the measured coefficients from the likelihood mean in units of its standard deviation. The shaded bands mark $\\pm 1\\sigma$ and $\\pm 2\\sigma$."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.05367v1/ppd_consistency_unblinded.svg",
+                "caption": "Figure 10: Calibration of the consistency statistic $T^{\\rm cos}$ for the tests of Table\u00a09. In each panel, the histogram shows the distribution of $T^{\\rm cos}$ for the 800 fiducial noise realisations, and the dashed line marks the DES Y3 measurement."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.05367v1/corner_full_unblinded.png",
+                "caption": "Figure 11: Posterior distributions of all nine sampled parameters and the derived $S_{8}$ from the DES Y3 measurement. Blue shows the constraints from $\\xi_{\\pm}$ and orange those from $\\zeta_{\\pm}$, while the green unfilled contours show the joint analysis. The grey regions are excluded by the prior, and the dotted lines on the diagonal show the 1D prior marginals."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.05367v1/datavector_xipm_unblinded.svg",
+                "caption": "Figure 12: The measured DES Y3 $\\xi_{+}$ (upper block) and $\\xi_{-}$ (lower block) for the ten tomographic bin pairs, scaled by the angular separation $\\alpha$. The error bars show the scatter of the 16,000 fiducial footprints, and the lines show the posterior predictive means of the joint (green, solid) and the $\\xi_{\\pm}$-only (blue, dashed) analysis. The shaded region marks the scales removed in the \u2018no small scales\u2019 variation."
+            }
+        ],
+        "abstract": "We present the first cosmic shear data analysis of the integrated 3-point correlation function (i3PCF), a higher-order weak lensing statistic, and the first simulation-based inference (SBI) analysis of a three-point cosmic shear correlation function on survey data. Using SBi3PCF, our previously developed SBI framework for the i3PCF, we jointly constrain the $w$CDM parameter space with the cosmic shear 2-point correlation functions $\\xi_\\pm$ (2PCFs) and the i3PCFs $\\zeta_\\pm$ from the Dark Energy Survey Year 3 (DES Y3) weak lensing shape catalogue, from which we detect $\\zeta_\\pm$ with a signal-to-noise ratio of 12.8. Our forward model is built on the CosmoGridV1 N-body simulations and includes the survey mask, shape noise, intrinsic alignment, baryonic feedback, photometric redshift uncertainty and shear calibration bias. The analysis was carried out blind, with all choices frozen, and only unblinded once coverage tests, tests of the accuracy of the learned likelihoods, and internal consistency tests had been passed. For the joint $\\xi_\\pm$ + $\\zeta_\\pm$ analysis we obtain $\\Omega_m = 0.272^{+0.038}_{-0.033}$, $S_8 = 0.784^{+0.024}_{-0.021}$ and $w_0 = -1.04^{+0.25}_{-0.19}$. Adding $\\zeta_\\pm$ improves the figure of merit in the $\\Omega_m$-$S_8$-$w_0$ parameter space by a factor of $1.59$ over $\\xi_\\pm$ alone, as predicted by simulated i3PCF analyses. This gain comes from third-order information on angular scales $\\geq 15'$ and aperture radii $\\geq 50'$, a regime where baryonic effects are subdominant. The constraints are consistent with the other DES Y3 analyses of the same catalogue and with independent lensing analyses, and differ by at most $2.4\\sigma$ from CMB and BAO data (Planck 2018 + BAO, in $\\Omega_m$-$S_8$-$w_0$). This shows that $\\zeta_\\pm$ can be analysed on cosmological survey data with a fully simulation-based approach, an important step towards Stage-IV surveys.\n    "
+    },
+    "2611.03785": {
+        "title": "Cosmic-Ray Signals from Dark Matter Annihilation into Scalars with Baryon Number",
+        "authors": [
+            "Mattia Di Mauro",
+            "Caleb Gemmell",
+            "Dan Hooper",
+            "Fabrizio Vassallo"
+        ],
+        "keywords": "",
+        "figures": [
+            {
+                "url": "https://arxiv.org/html/2611.03785v1/BL3_cross_section_limits.svg",
+                "caption": "Figure 1: The 95% confidence level upper limits on the velocity-averaged DM annihilation cross section derived from the AMS-02 antiproton data for annihilation to $B=L=3$ scalars. The white curve illustrates where this limit is equal to the cross section of a conventional thermal relic, $\\langle\\sigma v\\rangle=3\\times 10^{-26}$ cm3/s,\nindicating that the thermal relic cross section is excluded for low $\\phi$ masses, $m_{\\phi}\\lesssim 20$ GeV."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.03785v1/BL3_AMS02_Dbar_events.png",
+                "caption": "Figure 2: \nThe number of antinuclei events predicted in our $B=L=3$ model, for a DM annihilation cross section that saturates the AMS-02 antiproton constraint. The left panel shows our results for $\\overline{\\mathrm{D}}$, while the right panel shows the corresponding results for ${}^{3}\\overline{\\mathrm{He}}$ using the conservative sensitivity prescription. The gold curve in each frame indicates where we find an expected number of one event at AMS-02. The white curve illustrates where the antiproton limit is equal to the cross section of a conventional thermal relic, $\\langle\\sigma v\\rangle=3\\times 10^{-26}$ cm3/s. The  and  symbols denote the points in the $(m_{\\phi},m_{\\rm DM})$ plane that are plotted in Fig.\u00a04.\n"
+            },
+            {
+                "url": "https://arxiv.org/html/2611.03785v1/BL3_AMS02_He3bar_events.png",
+                "caption": "Figure 2: \nThe number of antinuclei events predicted in our $B=L=3$ model, for a DM annihilation cross section that saturates the AMS-02 antiproton constraint. The left panel shows our results for $\\overline{\\mathrm{D}}$, while the right panel shows the corresponding results for ${}^{3}\\overline{\\mathrm{He}}$ using the conservative sensitivity prescription. The gold curve in each frame indicates where we find an expected number of one event at AMS-02. The white curve illustrates where the antiproton limit is equal to the cross section of a conventional thermal relic, $\\langle\\sigma v\\rangle=3\\times 10^{-26}$ cm3/s. The  and  symbols denote the points in the $(m_{\\phi},m_{\\rm DM})$ plane that are plotted in Fig.\u00a04.\n"
+            },
+            {
+                "url": "https://arxiv.org/html/2611.03785v1/benchmark_star.svg",
+                "caption": "Figure 2: \nThe number of antinuclei events predicted in our $B=L=3$ model, for a DM annihilation cross section that saturates the AMS-02 antiproton constraint. The left panel shows our results for $\\overline{\\mathrm{D}}$, while the right panel shows the corresponding results for ${}^{3}\\overline{\\mathrm{He}}$ using the conservative sensitivity prescription. The gold curve in each frame indicates where we find an expected number of one event at AMS-02. The white curve illustrates where the antiproton limit is equal to the cross section of a conventional thermal relic, $\\langle\\sigma v\\rangle=3\\times 10^{-26}$ cm3/s. The  and  symbols denote the points in the $(m_{\\phi},m_{\\rm DM})$ plane that are plotted in Fig.\u00a04.\n"
+            },
+            {
+                "url": "https://arxiv.org/html/2611.03785v1/benchmark_plus.svg",
+                "caption": "Figure 2: \nThe number of antinuclei events predicted in our $B=L=3$ model, for a DM annihilation cross section that saturates the AMS-02 antiproton constraint. The left panel shows our results for $\\overline{\\mathrm{D}}$, while the right panel shows the corresponding results for ${}^{3}\\overline{\\mathrm{He}}$ using the conservative sensitivity prescription. The gold curve in each frame indicates where we find an expected number of one event at AMS-02. The white curve illustrates where the antiproton limit is equal to the cross section of a conventional thermal relic, $\\langle\\sigma v\\rangle=3\\times 10^{-26}$ cm3/s. The  and  symbols denote the points in the $(m_{\\phi},m_{\\rm DM})$ plane that are plotted in Fig.\u00a04.\n"
+            },
+            {
+                "url": "https://arxiv.org/html/2611.03785v1/BL3_GAPS_Dbar_events.png",
+                "caption": "Figure 3: \nAs in Fig.\u00a02, but for the number of antideuteron events predicted at GAPS.\n"
+            },
+            {
+                "url": "https://arxiv.org/html/2611.03785v1/BL3_fluxes.svg",
+                "caption": "Figure 4: \nTop-of-atmosphere $\\overline{\\mathrm{D}}$ (left) and ${}^{3}\\overline{\\mathrm{He}}$ (right) fluxes for two representative $B=L=3$ scenarios. In each frame, the red solid line is the flux predicted for $m_{\\rm DM}=43\\,{\\rm GeV}$, $m_{\\phi}=5\\,{\\rm GeV}$, and $\\langle\\sigma v\\rangle=9.8\\times 10^{-28}~\\mathrm{cm^{3}/s}$, which we labeled with a  in Fig.\u00a02. The dashed line is the flux predicted for $m_{\\rm DM}=66\\,{\\rm GeV}$, $m_{\\phi}=53\\,{\\rm GeV}$, and $\\langle\\sigma v\\rangle=6.3\\times 10^{-26}~\\mathrm{cm^{3}/s}$, which we labeled with a  in the same figure. In both cases, the annihilation cross section was fixed to the 95% confidence-level upper limit consistent with the AMS-02 antiproton data. The gray lines correspond to the fluxes predicted from DM annihilation to $b\\overline{b}$ with $m_{\\rm DM}=50~\\mathrm{GeV}$ and $\\langle\\sigma v\\rangle=3\\times 10^{-26}~\\mathrm{cm^{3}/s}$. The projected sensitivities of AMS-02 and GAPS are included for comparison. Note that the reported sensitivity benchmarks are for two events in each case, except for ${}^{3}\\overline{\\mathrm{He}}$ detection at GAPS, which is reported for a single event\u00a0[13, 3, 67].\n"
+            },
+            {
+                "url": "https://arxiv.org/html/2611.03785v1/benchmark_star.svg",
+                "caption": "Figure 4: \nTop-of-atmosphere $\\overline{\\mathrm{D}}$ (left) and ${}^{3}\\overline{\\mathrm{He}}$ (right) fluxes for two representative $B=L=3$ scenarios. In each frame, the red solid line is the flux predicted for $m_{\\rm DM}=43\\,{\\rm GeV}$, $m_{\\phi}=5\\,{\\rm GeV}$, and $\\langle\\sigma v\\rangle=9.8\\times 10^{-28}~\\mathrm{cm^{3}/s}$, which we labeled with a  in Fig.\u00a02. The dashed line is the flux predicted for $m_{\\rm DM}=66\\,{\\rm GeV}$, $m_{\\phi}=53\\,{\\rm GeV}$, and $\\langle\\sigma v\\rangle=6.3\\times 10^{-26}~\\mathrm{cm^{3}/s}$, which we labeled with a  in the same figure. In both cases, the annihilation cross section was fixed to the 95% confidence-level upper limit consistent with the AMS-02 antiproton data. The gray lines correspond to the fluxes predicted from DM annihilation to $b\\overline{b}$ with $m_{\\rm DM}=50~\\mathrm{GeV}$ and $\\langle\\sigma v\\rangle=3\\times 10^{-26}~\\mathrm{cm^{3}/s}$. The projected sensitivities of AMS-02 and GAPS are included for comparison. Note that the reported sensitivity benchmarks are for two events in each case, except for ${}^{3}\\overline{\\mathrm{He}}$ detection at GAPS, which is reported for a single event\u00a0[13, 3, 67].\n"
+            },
+            {
+                "url": "https://arxiv.org/html/2611.03785v1/benchmark_plus.svg",
+                "caption": "Figure 4: \nTop-of-atmosphere $\\overline{\\mathrm{D}}$ (left) and ${}^{3}\\overline{\\mathrm{He}}$ (right) fluxes for two representative $B=L=3$ scenarios. In each frame, the red solid line is the flux predicted for $m_{\\rm DM}=43\\,{\\rm GeV}$, $m_{\\phi}=5\\,{\\rm GeV}$, and $\\langle\\sigma v\\rangle=9.8\\times 10^{-28}~\\mathrm{cm^{3}/s}$, which we labeled with a  in Fig.\u00a02. The dashed line is the flux predicted for $m_{\\rm DM}=66\\,{\\rm GeV}$, $m_{\\phi}=53\\,{\\rm GeV}$, and $\\langle\\sigma v\\rangle=6.3\\times 10^{-26}~\\mathrm{cm^{3}/s}$, which we labeled with a  in the same figure. In both cases, the annihilation cross section was fixed to the 95% confidence-level upper limit consistent with the AMS-02 antiproton data. The gray lines correspond to the fluxes predicted from DM annihilation to $b\\overline{b}$ with $m_{\\rm DM}=50~\\mathrm{GeV}$ and $\\langle\\sigma v\\rangle=3\\times 10^{-26}~\\mathrm{cm^{3}/s}$. The projected sensitivities of AMS-02 and GAPS are included for comparison. Note that the reported sensitivity benchmarks are for two events in each case, except for ${}^{3}\\overline{\\mathrm{He}}$ detection at GAPS, which is reported for a single event\u00a0[13, 3, 67].\n"
+            },
+            {
+                "url": "https://arxiv.org/html/2611.03785v1/GCE_best_fit_cross_sections.svg",
+                "caption": "Figure 5: The best-fit value of the DM annihilation cross section from fitting the $B=L=3$ model to the Galactic Center excess in the $(m_{\\phi},m_{\\rm DM})$ plane. The blue contours show the best-fit annihilation cross section, while the diamond marks the global best fit, located at approximately $(m_{\\rm DM},m_{\\phi})\\simeq(35,27)~{\\rm GeV}$. The solid white curves show the $1\\sigma$ and $2\\sigma$ regions, corresponding to $\\Delta\\chi^{2}=2.30$ and $6.18$ respectively. At the global minimum, $\\chi^{2}_{\\rm min}\\simeq 3.46$ for 10 degrees of freedom, and for our reference DM halo profile, the preferred normalization is $\\langle\\sigma v\\rangle\\simeq 1.14\\times 10^{-25}~{\\rm cm^{3}/s}$. The uncolored region corresponds to $m_{\\phi}\\geq m_{\\rm DM}$ and is kinematically inaccessible.\n"
+            }
+        ],
+        "abstract": "Cosmic-ray antideuterons and antihelium-3 nuclei are promising probes of dark matter (DM). In light of potential detections of heavy antinuclei at AMS-02, we investigate a recently proposed scenario in which DM annihilates into color-singlet scalars carrying baryon and lepton number, which has been shown to enhance antideuteron and antihelium-3 fluxes relative to antiprotons. Accounting for Galactic propagation and detector sensitivities, we calculate the number of events predicted by our model for parameters that are compatible with the seven-year AMS-02 antiproton data. Broad regions of the DM-mediator mass plane result in observable antideuteron fluxes at AMS-02 and GAPS. While detecting antihelium-3 remains more challenging, potentially detectable fluxes can arise for light mediators and moderately light DM, and in general are enhanced relative to the standard WIMP predictions. Furthermore, we find antihelium-to-antideuteron event ratios of O(0.1), closer to those suggested by the reported AMS-02 candidate events than conventional WIMP predictions.\n    "
+    },
+    "2611.03801": {
+        "title": "Ly$\u03b1$ in Compact Broad-Line Emitters, Including Little Red Dots, Is More Closely Linked to the Host Galaxy than to the Broad-Line Nucleus",
+        "authors": [
+            "Yongda Zhu",
+            "Zheng Ma",
+            "Xiaojing Lin",
+            "Junyu Zhang",
+            "Jianwei Lyu",
+            "Xiaohui Fan",
+            "Eiichi Egami",
+            "Andrew J. Bunker",
+            "Sijia Cai",
+            "Laura C. Keating",
+            "Joseph Shields",
+            "Zhiyuan Ji",
+            "Xiangyu Jin",
+            "Weizhe Liu",
+            "Suprabhas Narisetty",
+            "George H. Rieke",
+            "Marcia J. Rieke",
+            "Pierluigi Rinaldi",
+            "Fengwu Sun"
+        ],
+        "keywords": "",
+        "figures": [
+            {
+                "url": "https://arxiv.org/html/2611.03801v1/fig1_lya_overview.svg",
+                "caption": "Figure 1: \nLy$\\alpha$ spectra of the 12 CBEs, ordered by redshift, in velocity relative to the systemic (H$\\alpha$) redshift. Labels give the adopted spectrum and the rest-frame EWLy$\\alpha$ (2$\\sigma$ limits for nondetections). Pink bands show the $1\\sigma$ uncertainty, and the local continuum is subtracted. G140M panels span $\\pm 4000$\u00a0km\u00a0s-1; second-order panels show the apparent, first-order-calibrated flux density, while the adopted line fluxes include the order-dependent response conversion. For G140M detections, blue curves show a Gaussian with the broad-H$\\alpha$ FWHM at the systemic velocity, scaled to the Ly$\\alpha$ peak. The two PRISM panels span $\\pm 32{,}000$\u00a0km\u00a0s-1, and the gray band marks the rest-frame 1170\u20131270\u00a0\u00c5 integration window. For 1033320, second-order G140M Ly\u03b1 falls in a spectral gap, and we adopt the PRISM constraint.\n"
+            },
+            {
+                "url": "https://arxiv.org/html/2611.03801v1/fig2_decomposition_examples.png",
+                "caption": "Figure 2: \nAGN\u2013host decomposition and host SED for a strong (1020514, top) and a weak (1087388, bottom) Ly$\\alpha$ detection. Left: F115W data, the PS+host model, the S\u00e9rsic host model, the data after PS subtraction, and the residual [66]; each panel has its own display stretch. Right: AGN-subtracted host photometry (orange) and the best-fit host SED model (gray), with the Ly$\\alpha$ wavelength marked; 1087388 has no JADES F150W, F200W, or F277W imaging, so its host photometry has four bands. The annotations compare the Ly$\\alpha$ in the host SED model with the observed Ly$\\alpha$, which is not used in the fit.\n"
+            },
+            {
+                "url": "https://arxiv.org/html/2611.03801v1/fig3_EW_vs_HalphaUV.svg",
+                "caption": "Figure 3: \nLy$\\alpha$ EW versus H$\\alpha$/UV. Both samples use total H$\\alpha$ and the observed total $L_{u,1500}$. Gray circles and open triangles show DIVER non-AGN detections and 3$\\sigma$ upper limits. Blue filled squares show CBE Ly$\\alpha$ detections, and open squares with arrows show 2$\\sigma$ upper limits. Error bars show 1$\\sigma$ EW uncertainties. Open hexagons show Ly$\\alpha$-detected AGN and ULIRGs at $z<0.3$ from W. Liu et\u00a0al. [64], whose UV continuum is measured near 1125\u00a0\u00c5, so their positions are approximate. Two of them, at $\\log(L_{\\rm H\\alpha}/L_{u})=16.2$ and 16.7, are shown at the right edge with arrows.\n"
+            },
+            {
+                "url": "https://arxiv.org/html/2611.03801v1/fig4_hostSED_EW_luminosity.svg",
+                "caption": "Figure 4: \nObserved Ly$\\alpha$ versus the Ly$\\alpha$ emission in the dust-attenuated best-fit host SED model, in (a) EW and (b) luminosity. The host model uses neither the spectroscopic Ly$\\alpha$ nor photometry containing Ly$\\alpha$. Filled squares show the six detections with 1$\\sigma$ error bars, and open squares with arrows show 2$\\sigma$ upper limits. The dashed line marks equality. 1086784 has no coherent host-model Ly$\\alpha$ and is omitted.\n"
+            },
+            {
+                "url": "https://arxiv.org/html/2611.03801v1/fig5_FWHM_Lya_vs_Halpha.svg",
+                "caption": "Figure 5: \nObserved Ly$\\alpha$ FWHM versus broad-H$\\alpha$ FWHM for the six detections, from first-order (squares) and second-order (circles) G140M spectra. The Ly$\\alpha$ widths include instrumental broadening; gray bands mark the nominal instrumental FWHM for each order. The dashed line marks equal widths, and the dotted line marks $y=0.5x$, the approximate apparent width of a BLR-width line whose blue half is absorbed.\n"
+            }
+        ],
+        "abstract": "JWST has found many faint broad-line AGN at $z>4$, but it is unclear whether the Ly$\\alpha$ we see from them comes from the accreting black hole or from its host galaxy. The answer matters for how these sources are interpreted and for how many ionizing photons they release. We use deep JWST/NIRSpec spectroscopy from the DIVER program to measure Ly$\\alpha$ in 12 compact broad-line emitters (CBEs) at $z=4.2$--5.5 in GOODS-N. CBEs include little red dots (LRDs), little blue dots, and other broad-line AGN. Six are detected in Ly$\\alpha$. Every source shows a broad-line region, yet Ly$\\alpha$ does not follow it: the sources with the strongest H$\\alpha$ relative to the UV include weak detections and nondetections, and every detected Ly$\\alpha$ line (FWHM $\\approx300$--1000~km~s$^{-1}$) is narrower than broad H$\\alpha$ (1100--3300~km~s$^{-1}$). Instead, Ly$\\alpha$ appears to track the host galaxy. We model the AGN-subtracted host with a dust-attenuated SED fit. Including the upper limits, the observed Ly$\\alpha$ follows the Ly$\\alpha$ production in this host model more closely than it follows H$\\alpha$/UV, in both equivalent width and luminosity. Every detection exceeds its host-model value by a factor of 1.5--18, leaving room for a nuclear contribution. The black hole is visible in these sources, but the Ly$\\alpha$ we observe is more closely tied to its host. The median effective Ly$\\alpha$ escape fraction of the detections is only 0.09, which suggests that ionizing escape from CBEs is typically modest and varies widely.\n    "
+    },
+    "2611.03802": {
+        "title": "A full chemical network treatment of supermassive black hole seed formation from dark matter annihilation or decay",
+        "authors": [
+            "Han Wu",
+            "Sarah Schon",
+            "Aaron C. Vincent"
+        ],
+        "keywords": "",
+        "figures": [
+            {
+                "url": "https://arxiv.org/html/2611.03802v1/Flowchart.png",
+                "caption": "Figure 1: Flowchart illustrating our method to predict the outcome of gas cloud collapse as affected by UV radiation from dark matter. The corresponding code is available at https://github.com/hanwuqu/OZDM.git"
+            },
+            {
+                "url": "https://arxiv.org/html/2611.03802v1/spectrum.svg",
+                "caption": "Figure 2: Box (solid) and parabola (dashed) spectra of photon flux from DM with $m_{\\chi}=6.65,\\ 12.75,\\ 33.81\\ \\rm eV$. Cerulean curves correspond to photodetachment ($\\sigma_{\\mathrm{$\\rm H$^{-}}}$, dash-dot-dotted), photoionization of H ($\\sigma_{\\mathrm{H}}$ dash-dotted) and $\\rm He$ ionization ($\\sigma_{\\mathrm{He}}$ dotted) cross sections."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.03802v1/Thermal_history.svg",
+                "caption": "Figure 3: Thermal and ionization histories of the gas cloud with $\\rm M_{cloud}=1.29\\times 10^{6}\\ \\rm M_{\\odot}$ showing four distinct final stages with different DM decay parameters. For star formation, SMBH formation and evaporation, $m_{\\chi}=23.55\\ \\rm eV$, $\\tau=7.74\\times 10^{30},10^{30},10^{22}\\ \\rm s$ respectively, for HTC formation, $m_{\\chi}=11.43\\ \\rm eV$ and $\\tau=2.78\\times 10^{26}\\ \\rm s$. Top: Thermal histories of the gas cloud evolution. Middle: Fraction of $\\rm H_{2}$ during the gas cloud evolution. Bottom: Free electron fraction in the gas cloud as a function of redshift. "
+            },
+            {
+                "url": "https://arxiv.org/html/2611.03802v1/Box_ssh_new.svg",
+                "caption": "Figure 4: Phase diagrams of the gas cloud evolution as the parameter space of DM. White dashed lines give the mass range of DM that produces photons with energy in the LW band. The mass of the gas cloud is $1.67\\times 10^{6}\\ \\rm M_{\\odot}$. Top: DM decay with a box spectrum. Middle: DM decay with a parabola-shaped photon spectrum. Bottom Non-thermal Majorana DM annihilation. "
+            },
+            {
+                "url": "https://arxiv.org/html/2611.03802v1/Parabola_ssh_new.svg",
+                "caption": "Figure 4: Phase diagrams of the gas cloud evolution as the parameter space of DM. White dashed lines give the mass range of DM that produces photons with energy in the LW band. The mass of the gas cloud is $1.67\\times 10^{6}\\ \\rm M_{\\odot}$. Top: DM decay with a box spectrum. Middle: DM decay with a parabola-shaped photon spectrum. Bottom Non-thermal Majorana DM annihilation. "
+            },
+            {
+                "url": "https://arxiv.org/html/2611.03802v1/Annihilation_ssh_new.svg",
+                "caption": "Figure 4: Phase diagrams of the gas cloud evolution as the parameter space of DM. White dashed lines give the mass range of DM that produces photons with energy in the LW band. The mass of the gas cloud is $1.67\\times 10^{6}\\ \\rm M_{\\odot}$. Top: DM decay with a box spectrum. Middle: DM decay with a parabola-shaped photon spectrum. Bottom Non-thermal Majorana DM annihilation. "
+            },
+            {
+                "url": "https://arxiv.org/html/2611.03802v1/Star_Formation.png",
+                "caption": "Figure 5: Star formation time in our gas cloud evolution models as a function of the dark matter mass $m_{\\chi}$ and lifetime (top two plots) or annihilation cross section (bottom plot). Black curves represent the boundaries of contours which star formation not later than $5\\%$ of star formation time of SM (no DM) case. Top: DM decay with a box spectrum. Middle: DM decay with a parabola-shaped photon spectrum. Bottom Non-thermal Majorana DM annihilation."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.03802v1/Critical_curves.svg",
+                "caption": "Figure 6: Critical cloud mass curves of the star formation with specific DM mass. Top: DM decay with a box spectrum. Middle: DM decay with a parabola-shaped photon spectrum. Bottom Non-thermal Majorana DM annihilation. "
+            },
+            {
+                "url": "https://arxiv.org/html/2611.03802v1/Accretion.svg",
+                "caption": "Figure 7: Accretion history of the SMBH seeds with mass between $2.5\\times 10^{5}-10^{7}\\ \\rm M_{\\odot}$. The blue band corresponds to the accretion history of SMBH seeds which reach virialization at $$z=20$$ with Eddington accretion efficiency $\\eta_{\\rm acc}=1$ during the whole accretion period, therefore the mass of observational SMBH increases exponentially with the redshift and the mass of SMBH becomes too large at redshift $z_{\\rm obs}\\sim 8$. Red band represents the accretion of SMBH seeds which formed at z=20 with a time-dependent accretion efficiency, where the transition onset $t_{c}=300\\ \\rm Myr$ and transition width $\\tau_{c}=30\\ \\rm Myr$ are chosen to emcompass the largest observed SMBHs. For comparison, we show observational data from telescopes: Lijiang 2.4-m telescope\u00a0[88], Magellan 6.5m Baade telescope, Hubble Space Telescope\u00a0[57] and JWST\u00a0[4, 57, 55, 78, 10, 41, 26, 23, 44, 91]."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.03802v1/BHMF_chis.svg",
+                "caption": "Figure 8: \nBest-fit black hole mass function (BHMF) $\\Phi={dn_{\\rm SMBH}}/{d\\log M_{\\rm SMBH}}$ curves with $1\\sigma$ profile-likelihood intervals. Datasets from SDSS main (SDSS-M) and overlap (SDSS-O), SDSS DR7 quasar catalog, JWST/NIRCam and HSC-SSP. Black curve shows the joint best-fit of all datasets at redshift $z_{\\rm obs}=6.$ Darker shading show the $1\\sigma$-uncertainties of fitting, lighter shading show the error range with intrinsic-scatter $\\sigma_{\\rm int}$ for potential deviations of fitting."
+            }
+        ],
+        "abstract": "The recent discoveries of high-redshift quasars at $z\\sim6-10.1$ present a challenge to conventional supermassive black hole (SMBH) formation scenarios: their central SMBHs are too large to have grown from early stellar remnants, even under efficient super-Eddington accretion. An alternative approach is the direct collapse of primordial, dust- and metal-free gas clouds into black hole seeds as early as $z\\sim20$. To prevent fragmentation from highly efficient molecular hydrogen cooling and allow such a collapse, a strong flux of UV photons is required to photodissociate molecular hydrogen, suppressing star formation. We investigate whether the decay or annihilation of dark matter with masses below $\\sim200$ eV can produce sufficient UV radiation, both from the cosmological background and within early dark matter halos. Using thermal simulations of a one-zone primordial gas cloud model with the Grackle chemistry and cooling library, we map the resulting gas behavior across a range of dark matter lifetimes, cross sections, and masses. From this, we determine regions of parameter space where direct collapse into an SMBH is possible and the corresponding maximum halo mass required.\n    "
+    },
+    "2611.03813": {
+        "title": "Presupernovae Strongly Constrain Electrophilic MeV Bosons",
+        "authors": [
+            "Yu Cheng",
+            "Damiano F. G. Fiorillo",
+            "Chui-Fan Kong",
+            "Edoardo Vitagliano"
+        ],
+        "keywords": "",
+        "figures": [
+            {
+                "url": "https://arxiv.org/html/2611.03813v1/fig1_bounds_IMF.svg",
+                "caption": "Figure 1: The pink region shows the parameter space excluded by the Galactic 511\u00a0keV line, based on DP emission from massive stars before core collapse.\nThe predicted signal is averaged over the IMF from $9M_{\\odot}$ to $60M_{\\odot}$.\nWe adopt the Ferri\u00e8re spiral-arm distribution with smearing length $\\lambda_{\\rm sm}=1$\u00a0kpc.\nAbove the dash-dotted line, $L_{A^{\\prime}}$ exceeds neutrino luminosity at some stage of the stellar evolution, so DP emission cannot necessarily be treated as a perturbation (hatched).\nThe grey regions show the limit reviewed in\u00a0[24],\nand the SN\u00a02023ixf limit\u00a0[30].\n"
+            },
+            {
+                "url": "https://arxiv.org/html/2611.03813v1/fig2_ratet_t_M20.svg",
+                "caption": "Figure 2: DP production rate multiplied by the time to core collapse, $\\Delta t_{\\rm cc}$, normalized by $\\varepsilon^{2}$, as a function of $\\Delta t_{\\rm cc}$ for a star with mass $M_{\\star}=20M_{\\odot}$.\nThe dashed lines mark the onset of\nthe central carbon-, oxygen-, and silicon-burning stages, respectively.\n"
+            },
+            {
+                "url": "https://arxiv.org/html/2611.03813v1/fig_channel_map_M20.png",
+                "caption": "Figure S$$$1$$$: Left: ratio of the DP\nenergy-loss rate to the neutrino energy-loss rate, $Q_{A^{\\prime}}/Q_{u}$, in the\nplane of electron density $\\rho Y_{e}$ and\ntemperature $T$, for $m_{A^{\\prime}}=2$\u00a0MeV and\n$\\varepsilon=10^{-12}$. Right: dominant DP\nproduction channel in the same plane for\n$m_{A^{\\prime}}=2\\,$MeV, colored by the largest of the\ncoalescence, semi-Compton,\nand bremsstrahlung emissivities. The\ndashed lines correspond to the ratio of semi-Compton to pair coalescence emissivities $Q_{\\rm C}/Q_{\\rm pair}=10^{-2}$ and $10^{-1}$, while the\ndotted line corresponds to the onset of degeneracy $\\mu_{e}=m_{e}$.\nIn both panels, the yellow line is the central trajectory of the benchmark $20\\,M_{\\odot}$ star, with markers at $100$\u00a0yr, 1\u00a0yr, 1\u00a0d and 1\u00a0h before core collapse and a star at the onset of infall.\n"
+            },
+            {
+                "url": "https://arxiv.org/html/2611.03813v1/fig_ratio_map_M20.svg",
+                "caption": "Figure S$$$1$$$: Left: ratio of the DP\nenergy-loss rate to the neutrino energy-loss rate, $Q_{A^{\\prime}}/Q_{u}$, in the\nplane of electron density $\\rho Y_{e}$ and\ntemperature $T$, for $m_{A^{\\prime}}=2$\u00a0MeV and\n$\\varepsilon=10^{-12}$. Right: dominant DP\nproduction channel in the same plane for\n$m_{A^{\\prime}}=2\\,$MeV, colored by the largest of the\ncoalescence, semi-Compton,\nand bremsstrahlung emissivities. The\ndashed lines correspond to the ratio of semi-Compton to pair coalescence emissivities $Q_{\\rm C}/Q_{\\rm pair}=10^{-2}$ and $10^{-1}$, while the\ndotted line corresponds to the onset of degeneracy $\\mu_{e}=m_{e}$.\nIn both panels, the yellow line is the central trajectory of the benchmark $20\\,M_{\\odot}$ star, with markers at $100$\u00a0yr, 1\u00a0yr, 1\u00a0d and 1\u00a0h before core collapse and a star at the onset of infall.\n"
+            },
+            {
+                "url": "https://arxiv.org/html/2611.03813v1/fig_rate_M20_compare.svg",
+                "caption": "Figure S$2$: \nDP production rate multiplied by the time to core collapse and normalized by $\\varepsilon^{2}$, $\\dot{N}_{A^{\\prime}}\\Delta t_{\\rm cc}/\\varepsilon^{2}$, for the $20\\,M_{\\odot}$, $Z=0.02$ benchmark with zams_to_cc_80 (solid) and the alternative 20M_pre_ms_to_core_collapse setup (dashed). The three benchmark DP masses $m_{A^{\\prime}}=1.1$, 2, and $3\\,$MeV are shown in different colors.\n"
+            },
+            {
+                "url": "https://arxiv.org/html/2611.03813v1/fig_galaxy_smearing.png",
+                "caption": "Figure S3: Face-on surface density $\\Sigma$ of the Ferri\u00e8re source distribution, normalized to one source, after smearing over $\\lambda_{\\rm sm}=$1$00$\u00a0pc (left) and 1\u00a0kpc (right). The Sun (marked by a star) is at $(x,y)=(0,8.5)\\,$kpc\nand the Galactic center is marked by the cross. The dotted lines correspond to the range of $|l|<20^{\\circ}$.\n"
+            },
+            {
+                "url": "https://arxiv.org/html/2611.03813v1/fig_binbybin.svg",
+                "caption": "Figure S4: SPI latitude (left) and longitude (right) profiles of the 511 keV line\u00a0[90] compared with the IMF-averaged preSN prediction for $m_{A^{\\prime}}=2$\u00a0MeV and $\\langle N_{\\rm loc}\\rangle=2.0\\times 10^{52}$.\nThe data are shown by points with $1\\sigma$ error bars.\nWe take the Ferri\u00e8re 3D (red) and Lorimer 3D (green) source models with $\\lambda_{\\rm sm}=1$\u00a0kpc (solid) and $100$\u00a0pc (dashed). The lower panels zoom in at the disk level. The shaded regions in the right panels correspond to $|l|<20^{\\circ}$.\n"
+            },
+            {
+                "url": "https://arxiv.org/html/2611.03813v1/fig_bounds_models.svg",
+                "caption": "Figure S5: Excluded region for the Ferri\u00e8re 3D model with $\\lambda_{\\rm sm}=1$\u00a0kpc (red solid) and $100$\u00a0pc (red dashed),\nand for the Lorimer 3D model with the same two\nchoices (green). The dash-dotted line is $L_{A^{\\prime}}=L_{u}$,\nabove which the band is hatched, and the gray regions are the SN\u00a01987A $\\gamma$-ray\u00a0[24] and SN\u00a02023ixf\u00a0[30] limits.\n"
+            },
+            {
+                "url": "https://arxiv.org/html/2611.03813v1/fig_channel_map_alp_M20.png",
+                "caption": "Figure S6: Left: same as the right panel of Fig.\u00a0S1 but for the ALP production with coupling $g_{ae}=10^{-13}$.\nRight: region of the $(m_{a},g_{ae})$ plane excluded by the Galactic 511-keV line from ALPs emitted by presupernovae. We take the Ferri\u00e8re 3D source model with $\\lambda_{\\rm sm}=1$\u00a0kpc for illustration.\nThe dash-dotted line is $L_{a}=L_{u}$, above which the region is hatched. The gray regions are the SN bounds of Ref.\u00a0[52] (cold SN model).\n"
+            },
+            {
+                "url": "https://arxiv.org/html/2611.03813v1/fig_bounds_alp.svg",
+                "caption": "Figure S6: Left: same as the right panel of Fig.\u00a0S1 but for the ALP production with coupling $g_{ae}=10^{-13}$.\nRight: region of the $(m_{a},g_{ae})$ plane excluded by the Galactic 511-keV line from ALPs emitted by presupernovae. We take the Ferri\u00e8re 3D source model with $\\lambda_{\\rm sm}=1$\u00a0kpc for illustration.\nThe dash-dotted line is $L_{a}=L_{u}$, above which the region is hatched. The gray regions are the SN bounds of Ref.\u00a0[52] (cold SN model).\n"
+            }
+        ],
+        "abstract": "The years preceding a supernova (SN) can constrain new electrophilic bosons with MeV masses more than the explosion itself. Although cooler than SNe, the massive progenitors maintain consistently high temperatures much longer, injecting more particles whose decays to positrons contribute to the diffuse Galactic 511-keV emission. For dark photons, the increase is exacerbated by the lower plasma frequency compared to SNe, where MeV excitations are screened. We find preSNe bounds on dark photon couplings up to two orders of magnitude stronger than SNe for masses between 1 and 3~MeV, with similar improvements for other electrophilic species such as axion-like particles.\n    "
+    },
+    "2611.03819": {
+        "title": "Towards Self-consistent Modeling of Quasi-Stars and their NLTE Spectra: Implications for Little Red Dots",
+        "authors": [
+            "Jake B. Hassan",
+            "Rosalba Perna",
+            "Mitchell C. Begelman",
+            "Yan-Fei Jiang",
+            "Matteo Cantiello",
+            "Philip J. Armitage",
+            "Taeho Ryu"
+        ],
+        "keywords": "",
+        "figures": [
+            {
+                "url": "https://arxiv.org/html/2611.03819v1/legacy_new.svg",
+                "caption": "Figure 1: Comparison of several properties between the new MESA model, the older model from Hassan et\u00a0al. [18] and the analytic predictions of CB24. Models are taken to have the same parameters, with $M_{\\star}=10^{5}M_{\\odot}$. The $p_{\\rm gas}/p_{\\rm rad}$ and $\\gamma_{\\rm ad}$ values are obtained at the middle of the envelope. Note that the models have different definitions of the inner radius BC $R_{i}$."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.03819v1/compare_masses_new.svg",
+                "caption": "Figure 2: Comparison of the properties of our new quasi-star models across a range of masses. All models in this figure use $\\alpha_{\\rm MLT}=1$ and atm_T_tau_opacity = fixed."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.03819v1/profiles_new.svg",
+                "caption": "Figure 3: Several structural profiles for our fiducial quasi-star. We show the results at $M_{\\rm BH}=0.5M_{\\star}$, as well as the comparison between our new and old models at $M_{\\rm BH}\\approx 0.17M_{\\star}$."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.03819v1/SR_new.svg",
+                "caption": "Figure 4: Comparison of properties for the fiducial model, both with and without superadiabatic reduction enabled. Both models use $M_{\\star}=10^{6}M_{\\odot}$, $\\alpha_{\\rm MLT}=1$, and a \u201cfixed\u201d opacity."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.03819v1/SRprofiles_new.svg",
+                "caption": "Figure 5: Similar plot to Figure 3, but instead comparing the structures at $M_{\\rm BH}=0.5M_{\\star}$ for our fiducial model with and without SR enabled."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.03819v1/TLUSTY_new.svg",
+                "caption": "Figure 6: The midlife temperature, density and gas pressure profiles of two MESA models, along with TLUSTY profiles based on their surface $(T_{\\rm eff},\\log g)$. The approximate location of the spectrum-forming layers $(\\tau\\sim 2/3-2)$ is shaded in gray. Both MESA models have $M_{\\star}=10^{6}M_{\\odot}$ and $\\alpha_{\\rm MLT}=1$, differing in opacity treatment (blue for \u201cfixed\u201d and red for \u201cvarying\u201d). Below the photosphere, the \u201cvarying\u201d MESA model most closely matches the TLUSTY model derived from the \u201cfixed\u201d MESA model."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.03819v1/LTEvsNLTE_both.svg",
+                "caption": "Figure 7: Left: Spectrum of the fiducial NLTE model, along with an LTE model at its same conditions. Right: zoomed in comparison of their $H\\alpha$ lines."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.03819v1/metals_new.svg",
+                "caption": "Figure 8: The spectra for the same $10^{6}M_{\\odot}$ model with various metallicities."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.03819v1/SR_TLUSTY_new.svg",
+                "caption": "Figure 9: The mid-life profile of our SR MESA model, along with the TLUSTY profile based on its surface conditions. The MESA model uses $\\alpha_{\\rm MLT}=1$, whereas the TLUSTY model uses HMIX0 = 32 for numerical stability."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.03819v1/SRspectrum_new.svg",
+                "caption": "Figure 10: Spectra for the NLTE TLUSTY models based on our SR and non-SR $10^{6}M_{\\odot}$ MESA models. We additionally include a non-SR HMIX0 = 32 model to illustrate the insignificance of the HMIX0 value on our spectra."
+            }
+        ],
+        "abstract": "Quasi-stars, massive envelopes surrounding rapidly accreting black hole (BH) seeds, are promising candidates for explaining the rapid formation of supermassive black holes in the early Universe and may account for some of the JWST-discovered Little Red Dots (LRDs). We present a self-consistent framework combining stellar evolution calculations with non-local thermodynamic equilibrium (NLTE) spectral synthesis to test this connection. Our models drop the polytropic assumptions of previous work: the envelope is described entirely by mixing-length theory, with saturated convection and radiative energy setting the luminosity at an inner boundary a few hundred Schwarzschild radii from the BH. This removes the BH-mass limits of earlier models, and we follow the evolution up to BH-to-total mass ratios approaching unity. We then use TLUSTY to compute the first converged NLTE atmospheric models for the surface conditions and primordial hydrogen-helium composition expected in quasi-stars. Our models produce cool photospheres, prominent Balmer breaks, and Balmer and Paschen absorption features. NLTE effects substantially modify line strengths, increasing Balmer absorption depths by $\\sim 35-55\\%$ relative to LTE models, while having a minor effect on the continuum. Comparison with observed LRD spectral energy distributions shows broad agreement in continuum shape, although our models do not reproduce their commonly observed strong emission lines. Under the quasi-star interpretation, comparisons with individual LRDs suggest characteristic quasi-star masses of approximately $10^5-10^7 M_\\odot$. These results establish a physically motivated connection between quasi-star evolution and observable spectra, providing a framework for testing quasi-stars as progenitors of LRDs while identifying limitations of current atmospheric models.\n    "
+    },
+    "2611.04045": {
+        "title": "Latin hypercube sampling to reduce the variance in Monte Carlo integration: a practical guide and an application to gravitational-wave astronomy",
+        "authors": [
+            "Matteo Boschini",
+            "Davide Gerosa"
+        ],
+        "keywords": "",
+        "figures": [
+            {
+                "url": "https://arxiv.org/html/2611.04045v1/lhs_2d.svg",
+                "caption": "Figure 1: The left panel shows an example of a Latin hypercube set LHS$\\left(9,2\\right)$. The right panel shows instead an orthogonal array Latin hypercube set OA-LHS$\\left(9,2\\right)$."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.04045v1/oalhs_2d.svg",
+                "caption": "Figure 1: The left panel shows an example of a Latin hypercube set LHS$\\left(9,2\\right)$. The right panel shows instead an orthogonal array Latin hypercube set OA-LHS$\\left(9,2\\right)$."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.04045v1/LHS_OALHS_discr.svg",
+                "caption": "Figure 2: Average discrepancy of a sample set in $d=8$ dimensions as a function of the number of samples $N$. The orange (red) line shows how well the set generated using the LHS (OA-LHS) sampling technique fills the unit hypercube. Solid lines correspond to the average over 100 realizations, shaded areas are the standard deviation of the sets of samples."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.04045v1/toy_model_1.svg",
+                "caption": "Figure 3: Left panel: Estimate and variance of the integral in Eq.\u00a0(16) with $\\alpha_{j}=[0.5,1,2,3,5,8,12,20]$. Right panel: Estimate and variance of the integral in Eq.\u00a0(18). The top panels show estimators computed via plain Monte Carlo (blue), LHS (orange) and OA-LHS (red) as a function of the number of drawn samples $$$$N$$$$. Sampling the latter is possible only when N is equal to the square of a prime number. The true value is indicated by a dashed black line. Shaded areas and error bars represent the standard deviation computed on the 100 realizations. The inset in the top-left panel highlights the accuracy of the two Latin hypercube-based estimators even at low N. The bottom panels show the (estimated) variance of the three estimators ${\\rm Var}\\bigl[\\hat{I}\\bigr]$ as a function of N. "
+            },
+            {
+                "url": "https://arxiv.org/html/2611.04045v1/toy_model_2.svg",
+                "caption": "Figure 3: Left panel: Estimate and variance of the integral in Eq.\u00a0(16) with $\\alpha_{j}=[0.5,1,2,3,5,8,12,20]$. Right panel: Estimate and variance of the integral in Eq.\u00a0(18). The top panels show estimators computed via plain Monte Carlo (blue), LHS (orange) and OA-LHS (red) as a function of the number of drawn samples $$$$N$$$$. Sampling the latter is possible only when N is equal to the square of a prime number. The true value is indicated by a dashed black line. Shaded areas and error bars represent the standard deviation computed on the 100 realizations. The inset in the top-left panel highlights the accuracy of the two Latin hypercube-based estimators even at low N. The bottom panels show the (estimated) variance of the three estimators ${\\rm Var}\\bigl[\\hat{I}\\bigr]$ as a function of N. "
+            },
+            {
+                "url": "https://arxiv.org/html/2611.04045v1/selection_effects_integral.svg",
+                "caption": "Figure 4: Selection function of GW astronomy estimated with three designs.\nThe top panel shows estimators computed via plain Monte Carlo (blue), LHS (orange) and OA-LHS (red) as a function of the number of drawn samples $$$N$$$. Sampling the latter is possible only when N is equal to the square of a prime number. The top axis shows the average number of detected binaries $\\langle N_{\\rm det}\\rangle$. Shaded areas and error bars represent the standard deviation computed on the 200 realizations. The bottom panel shows the (estimated) variance of the three estimators $\\widehat{\\rm Var}\\Bigl[\\hat{\\xi}\\Bigr]$ as a function of N.\n"
+            }
+        ],
+        "abstract": "In applied statistics, likelihoods involving high-dimensional integrals are often approximated via Monte Carlo summation. Controlling the resulting numerical variance is crucial for reliable inference. We provide a practical introduction to Latin hypercube sampling (LHS) and its extension based on orthogonal arrays (OA-LHS) as strategies to reduce this variance by stratifying the sampling distribution. LHS asymptotically removes variance contributions from individual coordinates, while strength-2 OA-LHS also removes those from pairwise interactions, yielding orders-of-magnitude improvements over plain Monte Carlo estimators for suitable integrands. As a case study, we investigate their application to the selection function entering hierarchical inference of gravitational-wave populations. At approximately one million injections, we find only a marginal reduction in variance, with low statistical significance. Nevertheless, the computational cost of constructing these designs is negligible relative to evaluating gravitational-wave injections, making even marginal gains worth considering for future applications. This practical introduction to LHS and OA-LHS offers a starting point for other applications in physics and astronomy involving computationally expensive Monte Carlo calculations.\n    "
+    },
+    "2611.04304": {
+        "title": "Comment on \"Long-range magnetic fields in the ground state of the Standard Model plasma\"",
+        "authors": [
+            "Jingwei Wang",
+            "Yiming Liu",
+            "Ligong Bian"
+        ],
+        "keywords": "",
+        "figures": [
+            {
+                "url": "https://arxiv.org/html/2611.04304v1/tadpole_diagrams.svg",
+                "caption": "Figure 1: Tadpole diagrams in the two-loop photon polarization."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.04304v1/selected_17_feynman_diagrams.svg",
+                "caption": "Figure 2: Bubble and ladder diagrams in the two-loop photon polarization."
+            }
+        ],
+        "abstract": "We revisit the two-loop parity-odd photon polarization analyzed by Boyarsky, Ruchayskiy, and Shaposhnikov [Phys. Rev. Lett. 109, 111602 (2012)]. The original calculation neglected opposite- fermion-flow partner diagrams for the tadpole and exchange-bubble topologies alike. We quantify the impact of the properly restored exchange-bubble coefficients on the static magnetic response.\n    "
+    },
+    "2611.05152": {
+        "title": "Gravitational-wave lensing beyond the diffraction integral: proper-time methods and the bound lens",
+        "authors": [
+            "Ginevra Braga",
+            "Raul Jimenez"
+        ],
+        "keywords": "",
+        "figures": [
+            {
+                "url": "https://arxiv.org/html/2611.05152v1/figures/fig_Fwy.png",
+                "caption": "$F$igure 1: Point-lens amplification factor. (a) $|F(w,y)|$ from Eq.\u00a0(2.13) (solid) and from geometric\noptics, Eq.\u00a0(2.16) (dashed). For $w\\ll 1$ the exact F tends to 1, while geometric optics keeps\npredicting the full magnification. (b) Error of geometric optics, normalized by $\\sqrt{\\mu_{+}}+\\sqrt{\\mu_{-}}$; the\ndotted lines are $1/(8wy)$. The grey band marks the diffraction regime $0.3\\leq w\\leq 3$. "
+            },
+            {
+                "url": "https://arxiv.org/html/2611.05152v1/figures/fresnel_radius_explained.png",
+                "caption": "Figure 2: The Fresnel radius. (a) Each lens-plane point defines a detour path, whose extra phase is one radian at $\\xi=r_{F}$. (b, c)\nThe lens plane in units of $r_{F}$: colour is the cosine of the phase (detour plus Shapiro) of each point, for a source one Fresnel\nradius off axis (star), with the Fresnel circle (solid) and the Einstein ring (dashed). For $w=0.2$ the lens barely distorts the\ncentral zone; for $w=10$ the zones cancel except near the two images."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.05152v1/figures/fig_DK_vs_Schwinger_clocks.png",
+                "caption": "Figure 3: The same straight path, at impact parameter b, marked at equal intervals of the two clocks. With $d\\tilde{t}^{\\prime}=d\\tau^{\\prime}/r$ the DK ticks crowd near the lens; their positions are $x_{k}=b\\sinh(k\\delta)$. A path that passes closer to the lens collects more DK time, i.e. more Shapiro delay."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.05152v1/figures/azimuth_explained.png",
+                "caption": "Figure 4: The lens plane in worldline variables. (a) The distance from the lens is the DK time $\\chi$, and the clock angle\n$\\varphi=\\theta+\\pi$ is the KS fibre angle; grey lines are contours of $\\mathcal{T}$. (b) $\\mathcal{T}$ along the circles through the two images:\nflat only at $0^{\\circ}$ and $180^{\\circ}$; image 2 is the highest point of its circle, hence a saddle. (c) Exact KS/DK worldlines: the\nstationary points are planar Rutherford rays ($J=0$), while a trial path with $\\theta$ moved by $90^{\\circ}$ has $Jeq 0$ and leaves\nthe plane."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.05152v1/figures/which_angles_contribute.png",
+                "caption": "Figure 5: Which clock angles contribute to $J_{0}(z)$, $z=wxy$. Left: real part of $\\mathrm{e}^{-\\mathrm{i}z\\cos\\varphi}$ against the clock angle\n$\\varphi=\\theta+\\pi$. Right: the contributions added head to tail; blue and orange, within $20^{\\circ}$ of the source side and of the\nopposite side; grey, all other angles. For $z=0.5$ (top) nothing cancels; for $z=30$ (bottom) the grey stretches curl up and\ncancel, and the straight runs at $0^{\\circ}$ and $180^{\\circ}$ are the two rays."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.05152v1/figures/fig_ndmap.png",
+                "caption": "Figure 6: Where the assumptions behind the diffraction integral fail around a point lens, $w=1$. (a) Exact ratio\n$\\varepsilon_{E}$ for the Coulomb wave, averaged over two fringes to remove interference spikes; by reciprocity the map also\ndescribes a source at each point seen by a distant observer to the left. Dashed circle: an orbit of radius $R=100M$; white dot:\nthe lens; black bar: $\\pm\\xi_{E}$ at conjunction. The one-way reduction holds only in the forward cone behind the lens. (b) Along the\norbit, against the angle $\\beta$ of the source from alignment: $\\varepsilon_{E}$ at the source for $R=100M$ and $10^{3}M$, the same\nquantity for the echo alone, the paraxial error and the echo amplitude. "
+            },
+            {
+                "url": "https://arxiv.org/html/2611.05152v1/figures/fig_bound_coords.png",
+                "caption": "Figure 7: Geometry of the bound lens. (a) The orbit on the sky for $$R$=100M$ and $\\cos i=0.1$: an ellipse of semi-axes R and\n$R\\cos i$; at superior conjunction the source passes $R\\cos i=10M$ from the lens, i.e. $y_{\\min}\\simeq 0.5$ Einstein radii. (b) The\nplane of source, lens and line of sight: the angle $\\beta$, the R\u00f8mer advance $R\\cos\\beta$ of the direct wave and the excess path\n$\\eta=R-R\\cos\\beta$ of the route via the lens. (c) The exact offset $y=\\sqrt{\\eta/2M}$ and the paraxial offset along the orbit,\ntogether with $\\beta$. "
+            },
+            {
+                "url": "https://arxiv.org/html/2611.05152v1/figures/fig_retarded.png",
+                "caption": "Figure 8: Each route has its own retarded time (schematic: edge-on orbit, speed exaggerated to $v=0.3$). (a) $T$op view of the orbital\nplane, observer to the right. The signal arriving at T was emitted as the echo at $t_{1}$ and as the direct wave at $t_{0}=t_{1}+\\eta$; in\nbetween the source has moved. The echo leaves towards the lens, perpendicular to the orbital velocity, and is not Doppler shifted.\n(b) Delay between emission and arrival against the emission phase: $R$\u00f8mer delay $\\Delta_{R}=R\\sin i\\cos\\Phi$ for the direct route, R for\nthe route via the lens. A line of slope $-1$ (fixed arrival time) cuts each route at its own emission time, and the slope of each\nroute gives its Doppler factor."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.05152v1/figures/fig_bound.png",
+                "caption": "Figure 9: Exact bound-lens result for $w=1$, $R=100M$ and $\\cos i=0.1$. (a) Static amplification factor $F(w,y)$ along the orbit,\nmodulus (top) and phase (bottom); the inset shows the echo interference on the far side within the envelope $1\\pm 2M/\\eta$. (b) Line\nspectrum of the exact comb\u00a0(6.4), lensed and unlensed. (c) Phase and (d) log-amplitude of the lensing\nmodulation\u00a0(6.5), with the orbit average removed, against the arrival phase; the insets zoom on conjunction. Solid: exact;\ndashed: adiabatic model\u00a0(6.1); dotted: eikonal model. "
+            },
+            {
+                "url": "https://arxiv.org/html/2611.05152v1/figures/fig_models.png",
+                "caption": "Figure 10: Near conjunction: the exact modulation (black) and the five models, for $R=100M$, $\\cos i=0.1$ and $$w=0.3$$, 1 and 3. Top: $\\arg\\mathcal{L}$; bottom: $\\ln|\\mathcal{L}|$; harmonics $|n|\\leq 2$ removed. At w=0.3 the two GO\nmodels predict a phase dip where the exact phase is flat and an amplitude flare three times too large. The eikonal is the\nShapiro delay alone."
+            }
+        ],
+        "abstract": "Gravitational waves (GWs) can have wavelengths comparable to the Schwarzschild radius of their lenses, and detectors record their phase, so lensing requires wave optics. Its standard tool, the diffraction integral, follows from the particle path integral of a scalar wave on a static weak field, under the eikonal (one-way) and paraxial approximations, plus the thin-lens limit. We give a self-contained account of how the proper-time (worldline) representation overcomes these steps. An auxiliary proper time makes the wave equation exactly first order, with frequency as $1/\\hbar$, so geometric optics and, for paraxial thin-lens paths, the diffraction integral follow from stationarity of an exact integral. For a point mass, the Duru-Kleinert (DK) gauge and Kustaanheimo-Stiefel map give the exact propagator; for a distant observer the DK time and fibre angle become the radius and azimuth of a lens plane, the result is the point-lens amplification factor with the offset set by the excess path, and geometric optics requires $w\\gg1$ and $wy\\gg1$. This agreement reflects the Coulomb potential, not the approximations: the exact eikonal condition, $\\varepsilon_E\\simeq\\bar\\lambda/d+GM/c^2d+\\mathcal O(\\sin^2\\theta/2)$, fails near the lens and at large angles, and the one-way step is a non-relativistic limit. We then treat the bound lens, a GW source orbiting its lens, which emits a backscattered echo and moves during the lensing delays. Its exact time-domain signal gives each worldline its own retarded time and Doppler factor, so no single amplification factor describes it. In the diffraction regime the Shapiro phase alone misses all lensing beyond it, geometric optics misses 46-100% of it near conjunction at $w=0.3$, the paraxial geometry fails on the far side, and the static amplification factor along the orbit errs by $\\approx(1-2)\\,wM/R$ near conjunction and by the echo amplitude elsewhere.\n    "
+    },
+    "2611.05157": {
+        "title": "Macrocanonical Generator Networks: Data-Efficient Neural Surrogates for Amortized Physics Simulation",
+        "authors": [
+            "Niall Jeffrey",
+            "Benjamin D. Wandelt"
+        ],
+        "keywords": "",
+        "figures": [
+            {
+                "url": "https://arxiv.org/html/2611.05157v1/summary.png",
+                "caption": "Figure 1: Macrocanonical generator networks (centre) turn a small set of expensive simulator outputs (left; turbulence and cosmology targets, Section\u00a05) into large ensembles of new realizations matching the chosen statistical features (e.g. wavelet phase harmonics) of the targets, unlocking downstream scientific machine-learning tasks (right) that are intractable with the expensive simulator alone."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.05157v1/fair_summary_neurips_inrange_labeled.png",
+                "caption": "Figure 2: Simulation-based inference of the dark-energy fraction $\\Omega_{\\rm DE}$ from 2-D density images (Section\u00a05). (a, b) A validation example before and after the observational effects (i.e. masking). (c) Posterior after fine-tuning on $$N$$ \u201creal\u201d simulations. (d) Validation NLL against N (inc. standard deviation with 3 seeds) using cosmologies in the $\\Omega_{\\rm DE}$ training range. The surrogate-pretrained model improves on the prior before any \u201creal\u201d simulation is used and consistently outperforms the baseline."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.05157v1/ablation_combined_panels.png",
+                "caption": "Figure 3: Inductive-bias ablation on the MHD (top) and cosmic-web (bottom) benchmarks; one target slice and one synthesis from each variant after $100$ optimizer steps. The three failure modes correspond to removing the small step ($\\eta=10^{-2}$), the residual shortcut, and (additionally) the circular-padded convolutions; zero-pad means the U-Net is no longer translation-equivariant, so Corollary\u00a01 no longer guarantees stationarity (producing boundary-correlated structure)."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.05157v1/wph_fluctuations.png",
+                "caption": "Figure 4: Across-sample distributions of four randomly chosen WPH coefficients from $$100$$ macrocanonical generator outputs (blue) and 100 held-out Quijote simulator slices (orange). Microcanonical synthesis\u00a0[4, 35] would instead collapse each panel to a Dirac mass at $\\phi^{\\ast}$."
+            }
+        ],
+        "abstract": "Many scientific simulations are computationally expensive, limiting their use in simulation-based inference, uncertainty quantification, and decision making. We introduce macrocanonical generator networks, a framework for learning fast, data-efficient neural surrogates for amortized simulation of stationary physical processes by matching multiscale statistics of a target process. Inspired by microcanonical maximum-entropy synthesis, which matches feature statistics per sample by inner-loop optimization, our approach instead trains a neural generator to satisfy the same constraints in expectation, preserving physically realistic sample-to-sample fluctuations. We prove that gradient-descent training induces preconditioned gradient-descent dynamics in sample space that inherit the symmetry-preservation properties of the microcanonical gradient descent of Bruna and Mallat, amortizing its per-sample inner-loop optimization into a single training run after which every sample is generated in one forward pass. We further show that residual generator parameterizations initialized near the identity, trained with a small learning rate, preserve entropy locally during early optimization and mitigate mode collapse. Experiments on cosmology and fluid simulations show that macrocanonical generators recover realistic samples from extremely small training sets, in some cases a single training example, while generating new realizations more than $10^6$ times faster per sample than the reference simulator and more than $10^3$ times faster than microcanonical gradient descent. The trained generators can be reused for downstream pretraining, including simulation-based inference, providing a data-efficient route to multi-fidelity scientific machine learning workflows.\n    "
+    }
+}
