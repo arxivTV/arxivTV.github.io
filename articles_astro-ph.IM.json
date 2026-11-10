@@ -1,1 +1,962 @@
-{}
+{
+    "2611.10102": {
+        "title": "What observations are needed to advance our theoretical understanding of galaxy formation at high redshift?",
+        "authors": [
+            "H. Katz",
+            "R. S. Somerville",
+            "R. Schneider",
+            "B. E. Robertson",
+            "F. Pacucci",
+            "Abdurro'uf",
+            "K. Aditya",
+            "J. M. Afonso",
+            "M. Aravena",
+            "G. Barro",
+            "A. Basu",
+            "R. Begley",
+            "S. Bhattacharya",
+            "S. Bose",
+            "M. Brada\u010d",
+            "G. L. Bryan",
+            "C. Cain",
+            "A. J. Cameron",
+            "S. Carniani",
+            "C. M. Cheng",
+            "N. Choustikov",
+            "E. Curtis-Lake",
+            "A. D'Angelo",
+            "R. Dav\u00e9",
+            "R. L. Davies",
+            "F. van Donkelaar",
+            "C. T. Donnan",
+            "N. E. Drakos",
+            "Q. Duan",
+            "Y. Dubois",
+            "A. L. Faisst",
+            "M. Farcy",
+            "S. L. Finkelstein",
+            "A. Fontana",
+            "S. Gillman",
+            "S. C. O. Glover",
+            "L. Graziani",
+            "A. R. Gupta",
+            "T. A. Gutcke",
+            "M. G. Haehnelt",
+            "N. P. Hathi",
+            "K. E. Heintz",
+            "M. Hirschmann",
+            "M. Huertas-Company",
+            "A. Hutter",
+            "L. R. Ivey",
+            "K. Iyer",
+            "J. Jeon",
+            "T. B. Jeong",
+            "C. K. Jespersen",
+            "B. L. Jones",
+            "I. Juod\u017ebalis",
+            "T. Kimm",
+            "A. M. Koekemoer",
+            "D. Langeroodi",
+            "A. Lapi",
+            "M. A. Latif",
+            "Y. Liu",
+            "C. C. Lovell",
+            "T.-Y. Lu",
+            "F. Mannucci",
+            "S. H. Menon",
+            "A. Mesinger",
+            "K. Nagamine",
+            "Y. Nakazato",
+            "P. Natarajan",
+            "O. Nebrin",
+            "R. Pascalau",
+            "B. P\u00e9rez-D\u00edaz",
+            "P. G. P\u00e9rez-Gonz\u00e1lez",
+            "E. Pizzati",
+            "A. Polzin",
+            "E. Regos",
+            "M. Reina-Campos",
+            "M. P. Rey",
+            "P. Rinaldi",
+            "D. Roberts",
+            "F. Rodr\u00edguez Montero",
+            "W. Roper",
+            "E. Rusta",
+            "M. Saggini",
+            "R. L. Sanders",
+            "F. Shankar",
+            "A. E. Shapley",
+            "X. Shen",
+            "T. M. Stanton",
+            "S. D. Stevenson",
+            "G. Sun",
+            "J. C. Turner",
+            "A. Venditti",
+            "A. P. Vijayan",
+            "T. Wang",
+            "S. Wilkins",
+            "J. H. Wise",
+            "J. Witstok",
+            "Z. Wu",
+            "L. Y. A. Yung",
+            "T. Zana",
+            "S. Zhang",
+            "R. J. Zhao",
+            "M.-Y. Zhuang"
+        ],
+        "keywords": "",
+        "figures": [
+            {
+                "url": "https://arxiv.org/html/2611.10102v1/popiii_imf_author.png",
+                "caption": "Figure 1: Predictions for the Pop\u00a0III IMF (left) and Pop\u00a0III star formation rate density as a function of redshift (right) for various semi-analytic models and simulations [91, 64, 38, 77, 33, 34, 9, 80, 81, 50, 39, 62, 92, 69, 37, 72, 47, 87, 84, 82, 86, 14, 32, 68, 67]. These figures were adapted from [85]."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.10102v1/popiii_sfrd_author.png",
+                "caption": "Figure 1: Predictions for the Pop\u00a0III IMF (left) and Pop\u00a0III star formation rate density as a function of redshift (right) for various semi-analytic models and simulations [91, 64, 38, 77, 33, 34, 9, 80, 81, 50, 39, 62, 92, 69, 37, 72, 47, 87, 84, 82, 86, 14, 32, 68, 67]. These figures were adapted from [85]."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.10102v1/uvlf.png",
+                "caption": "Figure 2: (Left) Comparison of 1500\u00a0\u00c5 UVLFs from various models [31, 48, 61, 66, 58, 59, 17, 40, 8, 24, 36, 53, 83, 52, 18, 26, 93] at $z\\sim 7$ to empirical constraints from GLIMPSE [4], which provides the deepest current constraints. While the models converge at the bright end, significant disagreement remains at the faint end. (Right) Comparison of quenched number density predictions from theoretical models [43, 70, 16, 20, 42, 63, 22, 35] to observational constraints from PRIMER and JADES [78]. These figures were adapted from [4] and [78], respectively."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.10102v1/quiescent_author.png",
+                "caption": "Figure 2: (Left) Comparison of 1500\u00a0\u00c5 UVLFs from various models [31, 48, 61, 66, 58, 59, 17, 40, 8, 24, 36, 53, 83, 52, 18, 26, 93] at $z\\sim 7$ to empirical constraints from GLIMPSE [4], which provides the deepest current constraints. While the models converge at the bright end, significant disagreement remains at the faint end. (Right) Comparison of quenched number density predictions from theoretical models [43, 70, 16, 20, 42, 63, 22, 35] to observational constraints from PRIMER and JADES [78]. These figures were adapted from [4] and [78], respectively."
+            }
+        ],
+        "abstract": "Although significant progress has been made over recent decades, a comprehensive and predictive framework for galaxy formation remains elusive. Starting from cosmological initial conditions, current models cannot a priori accurately predict key galaxy properties such as their structure, size, star formation histories, chemical abundance patterns, or supermassive black hole mass. This challenge stems from the vast range of spatial scales involved, as numerical simulations must simultaneously account for sub-AU processes nearby stars and black holes in addition to Mpc-scale cosmological gas inflows/outflows and environmental effects. Consequently, simulations must rely on subgrid models and approximations. As a result, theoretical progress in galaxy formation remains fundamentally driven by observational data and the iterative testing of model predictions against empirical results. Here we highlight five key open problems in theoretical galaxy formation that require dedicated observations of the high-redshift Universe, beyond what can currently be achieved through GO programs.\n    "
+    },
+    "2611.10301": {
+        "title": "Satellite Streaks in HETDEX: Spectra, Orbital Identification, and Survey Impact",
+        "authors": [
+            "Erin Mentuch Cooper",
+            "Karl Gebhardt",
+            "Dustin Davis",
+            "Daniel J. Farrow",
+            "Barbara G. Castanheira",
+            "Gavin Dalton",
+            "Gary J. Hill",
+            "Stephen C. Hummel",
+            "Chenxu Liu",
+            "Shiro Mukae",
+            "Shun Saito",
+            "Donald P. Schneider",
+            "Sarah Tuttle"
+        ],
+        "keywords": "",
+        "figures": [
+            {
+                "url": "https://arxiv.org/html/2611.10301v1/satellite_streak_figure.png",
+                "caption": "Figure 1: Satellite-streak detections in HETDEX overlaid on a Legacy Survey DR9 $grz$ image ($\\approx$22\u2032$\\times$22\u2032; RA$\\,=\\,221.596^{\\circ}$,\nDec$\\,=\\,+49.445^{\\circ}$). IFU footprints are colour-coded by satellite trail: orange (shotid=20230717010), cyan and green (two separate streaks in shotid=20240731006). Zoom panels show four IFUs (20240731006/094, 20240731006/014, 20230717010/039, 20240731006/033) with their spaxels spectrally collapsed onto an image, revealing the characteristic dotted-line pattern of satellite trails sampled by the three-dither exposure fiber grid. Top: summed spectra over all IFUs in an observation for each streak. The spectra are consistent with reflected sunlight from LEO satellites."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.10301v1/contamination.png",
+                "caption": "Figure 2: Satellite contamination in HETDEX PDR1. Left: growth over the survey. Light blue bars show the monthly fraction of observations containing at least one satellite streak and light blue points the bi-monthly average (left axis); the dark blue and red curves give the number of all active payloads and Starlink payloads in orbit, respectively, from GCAT [19] (right axis). The contamination fraction rises from a few percent early in the survey to monthly values above 20% by 2023, broadly tracking the growth of the low-Earth-orbit population. Right: contamination fraction vs. hours after astronomical twilight (when the Sun falls 18 deg below the horizon for HET), split into survey epochs (2017\u20132020, 2021\u20132022, 2023\u20132024; one-hour bins, binomial errors). Latter epochs show the highest contamination values near twilight, but the values remain significant all night."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.10301v1/gmag_trends.png",
+                "caption": "Fi$g$ure 3: \nPhotometric properties of satellite streaks measured from HETDEX spectra.\nPanels (a) and (b) show SDSS g-band magnitude and surface-brightness as a function of year.\nPanels (c) and (d) show the same quantities as a function of time after astronomical twilight.\nPoints show individual satellite streaks, black curves show binned medians, and shaded regions indicate the\n16th\u201384th percentile range.\nPanels (e) and (f) show the corresponding distributions, with dashed lines marking the median values\nof $g_{\\rm AB}=16.4$ and $\\mu_{g}=24.5$ mag arcsec-2.\nThe broad distributions reflect variation in satellite altitude, phase angle, apparent trail length, and observing geometry.\n"
+            },
+            {
+                "url": "https://arxiv.org/html/2611.10301v1/spectral_properties.png",
+                "caption": "Figure 4: Spectral properties of the HETDEX satellite-streak sample. Left: median stacked spectra, normalized to unity at 4500\u2009\u00c5, for the full sample (black), the bright subsample ($g\\leq 17$; dark blue), and the faint subsample ($g>17$; teal). Dashed vertical lines mark the wavelengths of prominent solar Fraunhofer features (Ca,II H&K, the CH G-band, the Balmer series, and Mg\u2009b) for reference; the smooth continua are consistent with reflected sunlight. Right: the per-streak blue index, the ratio of flux near 3600\u2009\u00c5 to that near 4500\u2009\u00c5, versus mean spectral signal-to-noise for the bright (dark blue) and faint (teal) sub-samples.\n"
+            },
+            {
+                "url": "https://arxiv.org/html/2611.10301v1/crossmatch_summary_panel.png",
+                "caption": "Fi$$g$$ure 5: Summary of the 475 identified satellite streaks in the HETDEX PDR1 catalog.\nTop: median-normalised streak spectra stacked by orbit class\n(LEO, MEO, GEO, HEO, and the 52 unidentified streaks). Median measured g and $g_{\\rm inst}$ values are given for each identified class; the Unidentified class has no $g_{\\rm inst}$ value.\nMiddle left: identified streaks per semi-annual bin vs. epoch,\nby orbit class. The contamination fraction (streaks per shot) for LEO and GEO\npopulations is shown with red-dashed and green-dotted lines respectively.\nMiddle right: height above the Earth ellipsoid at crossing, by\norbit class.\nBottom left: streak position angle (folded to\n$0\\arcdeg$\u2013$180\\arcdeg$, east of north), by orbit class. Vertical lines\nmark the ascending/descending azimuths of the Starlink 53\u00b0 (dotted)\nand 70\u00b0 (dashed) shells at the HET latitude ($+30\\fdg 7$); the\ndot-dashed line at $76\\arcdeg$ marks $90\\arcdeg-i$ for the median\ninclination $i=14\\arcdeg$ of the GEO-class identifications.\nBottom right: instantaneous SDSS-g magnitude vs. topocentric\nslant range, by orbit class. The dashed curve is the inverse-square locus\nanchored to the sample median $g(550\\,\\mathrm{km})$.\n"
+            }
+        ],
+        "abstract": "We present a spectroscopic database and analysis of satellite streaks in Public Data Release 1 (PDR1) from the Hobby-Eberly Telescope Dark Energy Experiment (HETDEX), covering 6778 observations and $\\sim$90 deg$^2$ of sky from January 2017 to July 2024. We detect 527 streaks across 492 observations, a contamination fraction of 7.3% that rises to monthly values above 20% by 2023--2024, although the streaks mask only 0.09% of the survey area. Of the 527 streaks, 475 (90.1%) are identified with a cataloged object using archival two-line elements: 258 (54%) lie in low or Earth orbit and 217 (46%) are geostationary or highly elliptical. Only 35% were launched since 2010; the rest are spent rocket bodies, debris, and older spacecraft. This reflects HETDEX's sensitivity to faint objects and its 2017--2024 observing baseline. The Hobby-Eberly Telescope's large 10\\,m aperture and HETDEX's $\\sim$6\\,minute exposures result in similar observed magnitudes for low Earth orbit (LEO) and geostationary Earth orbit (GEO) objects (median $g_{\\rm AB}=16.2\\pm1.1$ for LEO, $16.7\\pm1.1$ for GEO). However, once transit time is corrected for, instantaneous magnitudes differ widely: $g_{\\rm inst}=7.4$ for LEO versus $g_{\\rm inst}=13.0$ for GEO objects, a difference of 5.6\\,mag, while the exposure-averaged magnitudes differ by only 0.5 mag. Normalized to 550 km, the 34 Starlink streaks give $g(550 {\\rm km})=5.95$, consistent with the mean $V(550\\,{\\rm km})=5.92\\pm0.04$ reported for VisorSat-design spacecraft. The spectra are consistent with reflected sunlight, with modest, signal-to-noise-driven differences in slope. The catalog, spectra, and code are archived at this https URL.\n    "
+    },
+    "2611.11159": {
+        "title": "Foreshortening of Polarizer Angles in Wide Field Polarizing Imagers",
+        "authors": [
+            "Ritesh Patel",
+            "J. Marcus Hughes",
+            "C.E. DeForest",
+            "Daniel B. Seaton",
+            "Chris Lowder",
+            "Matthew J. West"
+        ],
+        "keywords": "",
+        "figures": [
+            {
+                "url": "https://arxiv.org/html/2611.11159v1/IMAX_ab_v2.svg",
+                "caption": "Figure 1: We understand polarizer foreshortening effects in the WFI instrument, by\nanalogy to the terrestrial system of wide-field cinema. (a) Image distortion in a wide-screen cinema flat screen when the viewing angle changes by $\\alpha\\degree$ from the center. (b) Analogy to a cinema screen where two orthogonal lines within the circle at point O with dimension r are viewed from point P located at longitude and latitude of $\\lambda$ and $\\theta$ respectively and and appear as ellipse due to foreshortening. The yellow triangular plane shows the angular separation of point P with respect to the reference system in 3D. (c) and (d) represents the distortion of a circle with radius r to an ellipse when viewed from a point at distance $\\to\\infty$ similar to (b) located at $\\lambda$ and $\\theta$."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.11159v1/IMAX_cd_v2.svg",
+                "caption": "Figure 1: We understand polarizer foreshortening effects in the WFI instrument, by\nanalogy to the terrestrial system of wide-field cinema. (a) Image distortion in a wide-screen cinema flat screen when the viewing angle changes by $\\alpha\\degree$ from the center. (b) Analogy to a cinema screen where two orthogonal lines within the circle at point O with dimension r are viewed from point P located at longitude and latitude of $\\lambda$ and $\\theta$ respectively and and appear as ellipse due to foreshortening. The yellow triangular plane shows the angular separation of point P with respect to the reference system in 3D. (c) and (d) represents the distortion of a circle with radius r to an ellipse when viewed from a point at distance $\\to\\infty$ similar to (b) located at $\\lambda$ and $\\theta$."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.11159v1/imax_ef_v2.png",
+                "caption": "Figure 2: Plane-parallel projection versus spherical sky geometry. Left to right: apparent lengths along two orthogonal directions and the resulting effective polarizer angles under a plane-parallel projection at the detector plane, illustrating the foreshortening effect for a wide field of view. The background grid shows the curved celestial sphere projected using the azimuthal\u2013equidistant (ARC) projection adopted for PUNCH data products. For clarity, the distortions are exaggerated in both panels. When applied to the vector components of an optical polarizer, this projection-induced distortion leads to systematic, field-dependent rotations of the inferred polarization direction across the wide field of view."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.11159v1/imax_punch_grid_3.png",
+                "caption": "Figure 3: Effect of sky curvature compared to the detector-plane polarizer orientation. The grid shows the PUNCH FOV in an ARC projection. Left to right: Polarizer orientations in the detector plane are shown as red, green, and blue dashed lines corresponding to polarizer angles of $-60\\degree$, $0\\degree$, and $+60\\degree$ relative to the vertical direction. The corresponding sky-projected orientations exhibit noticeable deviations, illustrating how detector-plane angles distort when mapped onto the curved sky."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.11159v1/imax_wfi_v2.png",
+                "caption": "Figure 4: foreshortening effect on the three polarizer angles of WFI observed in the instrument frame. The WFI latitude and longitude correspond to $\\lambda$ and $\\theta$, described in Section II.1. The panels from left to right correspond to -60$\\degree$, 0$\\degree$, and 60$\\degree$ respectively and the colors represent the deviation angle $\\Delta\\gamma$ measured at a given location in sky. The non-shaded area in the three panels represent the actual useful WFI FOV."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.11159v1/imax_fraction_v2.png",
+                "caption": "Figure 5: Variation in the polarized brightness in WFI FOV due to foreshortening effect when passed through polarizers at angles 0$\\degree$ and $\\pm$60$\\degree$. The colorbar at the top represents the brightness relative to ideal condition. The variation follows the pattern radially outwards as is expected due to curvature in the FOV projection."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.11159v1/pB_gamut_col_v3a.png",
+                "caption": "Figure 6: Effect on the polarization gamut for WFI FOV where MZP states are represented analogously to RGB colors. (a) Reference Cartesian coordinate system for MZP space following Figure 2 of DeForest et al. [12]; the triangular plane shows the ideal polarization gamut with an inscribed circle indicating the reproducible region. (b) Face-on view of the gamut (note the cube orientation), with gray dotted arrows marking $\\pm 60\\degree$ about the Z-axis. Blue and magenta dotted lines show $\\pm 2.5\\degree$ extensions to the larger triangle at M1, M2, P1, and P2 and $\\pm 3.5\\degree$ at Z1 and Z2. Angular deviations are exaggerated here for illustrative purpose. Panels (c)\u2013(e) show gamuts derived from modified MZP combinations, and (f) shows their common overlapping region (see full text of Section\u00a0II.5 for a complete discussion). Shaded areas outside this region indicate non-reproducible polarization measurements produced by the foreshortening effect.\n"
+            },
+            {
+                "url": "https://arxiv.org/html/2611.11159v1/pB_gamut_col_v3e.png",
+                "caption": "Figure 6: Effect on the polarization gamut for WFI FOV where MZP states are represented analogously to RGB colors. (a) Reference Cartesian coordinate system for MZP space following Figure 2 of DeForest et al. [12]; the triangular plane shows the ideal polarization gamut with an inscribed circle indicating the reproducible region. (b) Face-on view of the gamut (note the cube orientation), with gray dotted arrows marking $\\pm 60\\degree$ about the Z-axis. Blue and magenta dotted lines show $\\pm 2.5\\degree$ extensions to the larger triangle at M1, M2, P1, and P2 and $\\pm 3.5\\degree$ at Z1 and Z2. Angular deviations are exaggerated here for illustrative purpose. Panels (c)\u2013(e) show gamuts derived from modified MZP combinations, and (f) shows their common overlapping region (see full text of Section\u00a0II.5 for a complete discussion). Shaded areas outside this region indicate non-reproducible polarization measurements produced by the foreshortening effect.\n"
+            },
+            {
+                "url": "https://arxiv.org/html/2611.11159v1/imax_wfi_distort_v2.png",
+                "caption": "Figure 7: Effect of optical distortion on IMAX maps. (a) The distortion map of magnitude of shift in pixels ($\\sqrt{x^{2}+y^{2}}$). Panels (b)-(d) show the offset in degrees at each pixel for M, Z and P polarizer angles from Figure\u00a04 after an optical distortion has been applied in WFI FOV."
+            }
+        ],
+        "abstract": "The Polarimeter to Unify Corona and Heliosphere (PUNCH) is a very wide field polarizing imager covering a 90 degree diameter region of the sky, stitched together from four individual fields of view (FOVs), three of which are supported by Wide Field Imagers (WFIs) with 40 degree diameter individual FOVs. The science objective requires precise measurement of linear polarization. The WFI FOV is sufficiently wide that polarizer angles are foreshortened by projection effects relative to the line of sight of each pixel in the instrument, deviating from their nominal angular positions of -60, 0, and +60 degree relative to the instrument frame of reference. These angles are foreshortened by the very wide WFI field of view, changing their effective angle across the image plane - an effect that is analogous to similar challenges of polarimetric right/left channel separation in large-format 3D cinema, such as the IMAX format. Using a simple geometrical approach we estimated the perceived polarizer angle in the WFI FOV will vary by +/-2.5 degree for +/-60 degree and +/-3.5 degree for 0 degree polarizer angles. We present the effect of this deviation on the polarized brightness to be recorded by WFI, along with how optical distortion will shift the location of foreshortened angles. We also discuss the implications of this effect on upcoming technologies based on polarimetry across in wide fields.\n    "
+    },
+    "2611.12135": {
+        "title": "Particle Swarm Optimization Strategies for Lensed Gravitational Waves: Parameter Estimation, Source Classification, and Accelerated Sampling",
+        "authors": [
+            "Weiqing Yu",
+            "Meng Zhang",
+            "Xiaobo Zou",
+            "Xiao Guo"
+        ],
+        "keywords": "gravitational waves --- gravitational lensing: strong --- methods: data analysis --- stars: black holes",
+        "figures": [
+            {
+                "url": "figures/2611_12135/fig1.png",
+                "caption": "Schematic diagram of the gravitational lens system. The system consists of a GW source on the source plane, a lensing object on the lens plane, and the observer. Where $D_L$, $D_{LS"
+            },
+            {
+                "url": "figures/2611_12135/fig2.png",
+                "caption": "The histogram of convergence step count. The mean is 320 steps,the median is 324 steps,the maximum is 899 steps."
+            },
+            {
+                "url": "figures/2611_12135/fig3.png",
+                "caption": "Parameter point estimation results of the best PSO run under the restricted 2-PN signal. The horizontal axis represents the true injected parameters, the vertical axis represents the PSO estimated parameters, and the dashed line indicates the ideal recovery case. The blue points and yellow points represent the best PSO estimation results corresponding to the lensed GW data and unlensed GW data, respectively."
+            },
+            {
+                "url": "figures/2611_12135/fig4.png",
+                "caption": "Parameter point estimation results of the best PSO run under the IMRPhenomD signal. These results are used to examine the robustness of the PSO search under the template\u2013signal mismatch condition. The blue points and yellow points represent the best PSO estimation results corresponding to the lensed GW data and unlensed GW data, respectively."
+            },
+            {
+                "url": "figures/2611_12135/fig5.png",
+                "caption": "Residual distribution of PSO parameter estimation under the restricted 2-PN signal. The residual is defined as the difference between the estimated value and the true value."
+            },
+            {
+                "url": "figures/2611_12135/fig6a.png",
+                "caption": "The baseline label confusion matrix obtained from signal classification using the best run result of 12 PSO runs, with a signal-to-noise ratio of 8 and $I = 0.05$ as the classification threshold."
+            },
+            {
+                "url": "figures/2611_12135/fig6b.png",
+                "caption": "The baseline label confusion matrix obtained from signal classification using the best run result of 12 PSO runs, with a signal-to-noise ratio of 8 and $I = 0.05$ as the classification threshold."
+            },
+            {
+                "url": "figures/2611_12135/fig7.png",
+                "caption": "Flowchart of the two-stage majority-voting classification scheme based on 12 independent PSO runs. In the first voting stage, the most frequent label is used to  determines whether the sample is noise. For samples not classified as noise, the runs labeled as non-noise are relabeled using the threshold $I_{\\rm est"
+            },
+            {
+                "url": "figures/2611_12135/fig8.png",
+                "caption": "The impact of SNR on lens signal classification\uff0cThe brown curve in the figure shows the probability of mistaking an unlensed GW for a lensed one, while the blue curve shows the probability of correctly identifying a lensed GW."
+            },
+            {
+                "url": "figures/2611_12135/fig9.png",
+                "caption": "nested sampling posterior distribution plots for uniform and PSO\\_GAUSS\\_MIX. The contours represent the 95\\% and 68\\% credible regions, with the blue contours corresponding to the posterior distribution of uniform and the yellow contours corresponding to the posterior distribution of PSO\\_GAUSS\\_MIX. The brown points denote the results of multiple PSO runs, the red points denote the best run results of the 12 PSO runs, and the black markers indicate the true injected parameters."
+            }
+        ]
+    },
+    "2611.12183": {
+        "title": "Upgrade of the MITHiC testbed for phase and amplitude control in the focal plane",
+        "authors": [
+            "Anton Neisius",
+            "\u00c9lodie Choquet",
+            "Vincent Chambouleyron",
+            "Arthur Vigan"
+        ],
+        "keywords": "",
+        "figures": [
+            {
+                "url": "https://arxiv.org/html/2611.12183v1/fig_bench_layout.png",
+                "caption": "Figure 1: Optical layout of the MITHiC testbed, taken\nfrom [10]. The beam propagates from the single-mode-fiber\nsource through the SLM (pupil plane), the ZELDA wavefront sensor, the Lyot\ncoronagraph, and onto the science camera."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12183v1/fig_initial_opd.png",
+                "caption": "Figure 2: Initial OPD measured by ZELDA before correction ($34.8\\,\\mathrm{nm}$ rms)."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12183v1/fig_rms_ncpa_only.png",
+                "caption": "Figure 3: NCPA convergence: raw OPD rms (blue) and filtered OPD rms (red,\n$75\\,\\mathrm{c/p}$) versus iteration number. The final raw rms is $2.4\\,\\mathrm{nm}$. The\nfiltered OPD rms remains slightly higher than the raw value because of\nhigh-order frequencies that are not corrected, attributable to a small\nresidual misalignment."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12183v1/fig_contrast_75_cpp.png",
+                "caption": "Figure 4: Radial normalized-intensity profiles before (red dashed, it. 0) and\nafter (blue solid, it. 14) NCPA correction at $75\\,\\mathrm{c/p}$. Green dotted:\nphoton-noise $5\\sigma$ limit ($g_{\\mathrm{cam}}=2.01$ e-/ADU,\n$N=50$ frames). Orange dotted: photon $$+$$ read noise $5\\sigma$ limit\n($\\sigma_{\\mathrm{read}}=8$ e-). The vertical dashed line marks\n$r_{\\mathrm{cross}}\\approx 11\\,\\lambda/D$ (left) and $10\\,\\lambda/D$ (right). Left:\nNCPA only. Right: NCPA + co-phasing."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12183v1/fig_basis.png",
+                "caption": "Figure 5: Simulated $10\\times 10$ Gaussian DM with coupling $c=0.20$ spanning\nthe full pupil: actuator grid, central influence function, total pupil\ncoverage, and the eigenvalue spectrum of $\\mathbf{G}^{\\!\\top}\\mathbf{G}$."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12183v1/fig_dm_loop.png",
+                "caption": "Figure 6: Closed-loop correction with the simulated Gaussian DM\n($N=10\\times 10$, $c=0.20$): measured OPD, DM projection, residual\n$(\\mathbf{I}-\\mathbf{P})\\phi$, and reconstructed actuator commands, at the first and last\niterations."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12183v1/fig_convergence_compare.png",
+                "caption": "Figure 7: Closed-loop correction with a fixed Gaussian DM ($N=10\\times 10$,\n$c=0.20$). Raw OPD rms and residual $(\\mathbf{I}-\\mathbf{P})\\phi$ versus iteration\nnumber, for Tikhonov (blue) and TSVD (green). The initial decrease of the\nresidual reflects the vanishing of the ZELDA measurement bias, not a\nreduction of the physical floor."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12183v1/fig_convergence.png",
+                "caption": "Figure 8: Closed-loop convergence for a Gaussian DM grid spanning the full\npupil ($N=20\\times 20$, $c=0.20$): test rms, DM-corrected rms, and\nresidual $(\\mathbf{I}-\\mathbf{P})\\phi$ versus iteration. The full-pupil footprint reaches\nthe lowest floor."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12183v1/fig_convergence2.png",
+                "caption": "Figure 9: Same as Figure 8, but for a grid covering only a\ncentral fraction of the pupil at fixed $(N,c)$. The uncorrected outer\nannulus raises the residual floor relative to the full-pupil case."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12183v1/fig_thermal.png",
+                "caption": "Figure 10: Zernike coefficients $Z2$\u2013$Z4$ versus bench temperature over the\n$12$-h run. Linear fits (dashed lines) give the $\\partial a_{j}/\\partial T$\nvalues quoted in the text. Color encodes elapsed time."
+            }
+        ],
+        "abstract": "High-contrast imaging for the direct detection of exoplanets is limited by stellar brightness and by wavefront errors. Coronagraphy and wavefront control reduce these effects and enable contrast levels compatible with current testbeds and future missions such as the Roman Space Telescope. Within this framework, the MITHiC testbed at the Laboratoire d'Astrophysique de Marseille is being upgraded with a new deformable mirror used to control the wavefront. It complements the existing setup, which includes a classic Lyot coronagraph and a spatial light modulator (SLM) enabling phase and amplitude control to optimize the dark-hole region. We also implement the Zernike wavefront sensor (ZELDA) to correct low-order aberrations. This contribution presents recent progress on the MITHiC upgrade and initial results, highlighting its role as a versatile platform for developing advanced high-contrast imaging techniques.\n    "
+    },
+    "2611.12704": {
+        "title": "\u00c5ngstr\u00f6m Exponent Calculation Using Wide-Field Stellar Photometry",
+        "authors": [
+            "Shefali Negi",
+            "Jan Ebr",
+            "Sergey Karpov",
+            "Ji\u0159\u00ed Eli\u00e1\u0161ek"
+        ],
+        "keywords": "",
+        "figures": [
+            {
+                "url": "https://arxiv.org/html/2611.12704v1/publication_BVR_alt17.png",
+                "caption": "Figure 1: Comparison of detected sources in $$B$$, $$V$$, and $$R$$ filter images\nfrom the same scan shown in Figure\u00a02. All three\nimages were taken consecutively at the same pointing (altitude $27^{\\circ}$)\nwith identical exposure times. The B-filter image (left) shows fewer\ndetected stars due to stronger atmospheric extinction and lower system\nsensitivity at shorter wavelengths, while V (center) and R (right) filter\nimages appear increasingly crowded."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12704v1/B-extinction-plot.png",
+                "caption": "(a) B filter"
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12704v1/V-extinction-plot.png",
+                "caption": "(b) V filter"
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12704v1/R-extinction-plot.png",
+                "caption": "(c) R filter"
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12704v1/vaod_comparison_2catalogs_BVR.png",
+                "caption": "Figure 3: Difference in $V$AOD between the standard Gaia\u00a0D$R$3 star selection\n(airmass and detector area constraints only) and a more restrictive\nselection additionally requiring $\\mathrm{FWHM}<5$\u00a0pixels and\n$$B$-V<0.85$, for all three CTAO sites and all three filters (B, V,\nR)."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12704v1/density-plot_filters_tycho_gaia_B.png",
+                "caption": "Figure 4: Residual between model and instrumental magnitude as a function\nof colour index ($$B$-V$) for the B filter at CTAO-S0, using Tycho-2\n(top) and Gaia\u00a0DR3 (bottom). Points are coloured by local density\n(number of points per bin); the red curve is a cubic polynomial fit to\nthe $3\\sigma$-clipped data. The fitted coefficients are shown in each\npanel."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12704v1/density-plot_filters_gaia_VR.png",
+                "caption": "Figure 5: Same as Figure\u00a04 but for the $V$ filter\n(top, colour index $B-V$) and $R$ filter (bottom, colour index $V-R$)\nusing Gaia\u00a0DR3."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12704v1/magnitude_difference_rms_plot.png",
+                "caption": "Figure 6: Mean RMS of residuals between the measured and\nmodel-predicted magnitudes as a function of aperture radius\n(1\u20139 pixels) for the three sites (rows) and three filters\n(columns), computed from 16 scans at CTAO-N, 26 at CTAO-S0,\nand 28 at CTAO-S1 from the period 2022 February 01 to 2022\nApril 01."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12704v1/delta_vaod_aperture_dependence.png",
+                "caption": "Figure 7: $\\Delta\\mathrm{$$V$$AOD}=\\mathrm{VAOD}(\\mathrm{aperture})-\\mathrm{VAOD}(\\mathrm{ref})$ as a function of aperture number\n(1\u20139\u00a0pixels) for the $$B$$, V, and $$R$$ filters (overlaid, with\nerror bars showing the standard deviation), across the four configurations of increasing complexity listed in the text (left to right). The reference aperture\nfor each filter is the optimum aperture determined in\nSection\u00a0III.1.4 (3, 2, and 2\u00a0pixels for B, V, and\nR respectively). Data are from CTAO-S0 over the period 2021\nSeptember 26 to 2021 October 17, restricted to the 48 observations\ncommon to all apertures and configurations."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12704v1/vaod_comparison_final.png",
+                "caption": "Figure 8: Distributions of the difference in VAOD between Tycho-2 and\nGaia\u00a0DR3 for matched scans at CTAO-N, CTAO-S0, and CTAO-S1 (columns)\nover the period 2021 January 1 to 2022 December 31, for two Gaia\u00a0DR3\nconfigurations: the optimum aperture with the standard Gaia\u00a0DR3 neighbour\nrejection criterion (top row), and the Tycho-2 aperture with a tighter\nneighbour rejection criterion (bottom row). The secondary population\nvisible at CTAO-S1 in the top row defines the outlier scans discussed in\nthe text."
+            }
+        ],
+        "abstract": "The FRAM (F/Photometric Robotic Atmospheric Monitor) telescopes can measure the aerosol extinction at optical wavelengths using wide-field stellar photometry at the Cherenkov Telescope Array Observatory (CTAO) sites. The Angstrom exponent describes the wavelength dependence of aerosol extinction. In this work we extend the FRAM method from a single $B$-filter (440 nm) analysis using the Tycho-2 catalogue to a simultaneous three-filter analysis in $B$, $V$, and $R$ (440, 540, and 620 nm) using Gaia DR3 synthetic photometry, which provides photometry directly in the Johnson--Cousins system without passband transformations. The exponent is derived from the vertical aerosol optical depth (VAOD) for the B--V, V--R, and B--R filter pairs at three sites over 2021--2022. The multi-filter VAOD shows a systematic filter-dependent ordering that is inconsistent with physical expectation and produces negative exponents. It is not currently possible to determine which filter yields the correct VAOD, and none of the four processing configurations we tested resolves the ordering. We introduce an intercept correction as a practical remedy that yields physically plausible exponents. At the two southern Paranal sites (CTAO-S0 and CTAO-S1) the exponent distributions are unimodal, with mean $\\alpha \\approx 0.84$ (B--V) and $0.65$ (B--R) at CTAO-S0 and $0.60$ and $0.41$ at CTAO-S1. At CTAO-N (La Palma) the distributions are bimodal, with $\\alpha \\approx 0.2$ (B--V) during episodic Saharan dust intrusions and $\\alpha \\approx 1.3$ under clean background conditions. AERONET sun-photometer measurements on the dates common to both instruments show the same two populations, providing qualitative support for the FRAM method.\n    "
+    },
+    "2611.10127": {
+        "title": "A DOLPHOT/Euclid Study of the Resolved, Faint Outer Milky Way Globular Cluster AM-1",
+        "authors": [
+            "Daniel R. Weisz",
+            "Alessandro Savino",
+            "Andrew E. Dolphin",
+            "Meredith J. Durbin",
+            "Abigail J. Lee",
+            "Evan D. Skillman"
+        ],
+        "keywords": "",
+        "figures": [
+            {
+                "url": "https://arxiv.org/html/2611.10127v1/fig_am1_color.png",
+                "caption": "Figure 1: Euclid color image of AM-1, constructed from the Q1 VIS and NISP\nmosaics ($I_{E}$ blue, $J_{E}$ green, $H_{E}$ red). The field is $\\sim 1\\arcmin$ on a\nside and is centered on the cluster. The\ncluster is resolved into individual stars across its full extent, illustrating the\nangular resolution and sensitivity that Euclid brings to bear on distant, sparse\nstellar systems.\n"
+            },
+            {
+                "url": "https://arxiv.org/html/2611.10127v1/fig_psf_vis.png",
+                "caption": "Figure 2: An example of one of our empirical Euclid VIS PSFs for a representative detector quadrant\n(DET34E), constructed from the Q1 calibrated frames with the iterative ePSF algorithm\n(\u00a7\u00a0III). We show the central node of the $3\\times 3$ model grid, oversampled\nby a factor of five relative to the native VIS pixel scale ($0.1\\arcsec$), on a logarithmic stretch. The six diffraction spikes arise from Euclid\u2019s three-strut secondary mirror support. The inset shows the central $0.9\\arcsec$ on a compressed logarithmic stretch, which reveals the three-lobed (trefoil) core.\n"
+            },
+            {
+                "url": "https://arxiv.org/html/2611.10127v1/fig_psf_quality.png",
+                "caption": "Figure 3: Illustrative examples of our NISP PSF models and encircled energy (EE) curves. Left: Empirical NISP $H_{E}$ PSFs for all 16 NISP detectors, each the\ncentral node of its $3\\times 3$ model grid, shown on a logarithmic stretch. The\ndetector-to-detector variation of the PSF is modest but clearly present.\nRight: EE of the empirical VIS $I_{E}$ and NISP\n$Y_{E}$, $J_{E}$, $H_{E}$ PSFs, normalized within the $55$-pixel model cutout. The dashed and\ndotted vertical lines mark the NISP ($1.13\\arcsec$) and VIS ($1.3\\arcsec$, i.e., the\n13-pixel aperture to which the VIS zero point is referenced) photometric apertures.\nThe VIS PSF encloses 99% of its energy within $1.3\\arcsec$, while the NISP PSFs\nbroaden with increasing wavelength.\n"
+            },
+            {
+                "url": "https://arxiv.org/html/2611.10127v1/fig_euclid_cmd.png",
+                "caption": "Figure 4: Euclid CMDs of AM-1 from our DOLPHOT\nphotometry, for all stars within a projected radius of $60\\arcsec$ of the cluster center, which is larger than the $\\sim 1\\arcmin$ square field shown in Figure\u00a01. Left: $I_{E}$\nversus $I_{E}-Y_{E}$. Right: $J_{E}$ versus $J_{E}-H_{E}$. Error bars show the\nrepresentative photometric uncertainties measured from our artificial star tests (ASTs).\nThe main sequence (MS) is well populated to roughly a magnitude below the MSTO, and\nthe red giant branch (RGB) and red HB are clearly resolved.\n"
+            },
+            {
+                "url": "https://arxiv.org/html/2611.10127v1/fig_completeness.svg",
+                "caption": "Figure 5: Completeness as a function of input magnitude in each of the four\nEuclid filters, measured from $\\sim 10^{5}$ artificial stars inserted into the images\nand recovered with the same $SNR$ and sharpness cuts applied to our\nscience catalog. The orange dotted line marks 50% completeness. We reach 50%\ncompleteness at $I_{E}=26.6$, roughly 1.5\u00a0mag deeper than in the NIR bands\n($Y_{E}=25.1$, $J_{E}=25.1$, $H_{E}=24.9$). We do not probe to the completeness\nlimit in $I_{E}$, as it is not necessary for the current analysis.\n"
+            },
+            {
+                "url": "https://arxiv.org/html/2611.10127v1/fig_dolphot_vs_mer_cmd.png",
+                "caption": "Figure 6: A comparison of Euclid CMDs of AM-1 from our DOLPHOT photometry (left) and from the\nEuclid Q1 MER catalog (right), over the same $60\\arcsec$-radius field and on identical\naxes. MER photometry is APHOT in all bands as TPHOT is not available for VIS. Our catalog contains a factor of\n$\\sim$9 more sources over the same area and extends\nto roughly a magnitude below the MSTO, whereas the MER catalog is essentially empty in the same region.\n"
+            },
+            {
+                "url": "https://arxiv.org/html/2611.10127v1/fig_wfpc2_cmd_basti.png",
+                "caption": "Figure 7: WFPC2 color\u2013magnitude diagram of AM-1, with the best-fitting isochrone\noverlaid: BaSTI18 in purple (left) and PARSEC in orange (right). We adopt\n$\\log(t/{\\rm yr})=10.025$ (10.6 Gyr), $(m-M)_{0}=20.38$ ($D\\simeq 119$ kpc), and\n$A_{V}=0.022$, with $[{\\rm Fe/H}]=-0.95$ for BaSTI18 and $-1.05$ for PARSEC.\nBoth isochrones provide a good match to the MS, MSTO, and red giant\nbranch.\n"
+            },
+            {
+                "url": "https://arxiv.org/html/2611.10127v1/fig_wfpc2_cmd_parsecYBC.png",
+                "caption": "Figure 7: WFPC2 color\u2013magnitude diagram of AM-1, with the best-fitting isochrone\noverlaid: BaSTI18 in purple (left) and PARSEC in orange (right). We adopt\n$\\log(t/{\\rm yr})=10.025$ (10.6 Gyr), $(m-M)_{0}=20.38$ ($D\\simeq 119$ kpc), and\n$A_{V}=0.022$, with $[{\\rm Fe/H}]=-0.95$ for BaSTI18 and $-1.05$ for PARSEC.\nBoth isochrones provide a good match to the MS, MSTO, and red giant\nbranch.\n"
+            },
+            {
+                "url": "https://arxiv.org/html/2611.10127v1/fig_euclid_cmd_iso_basti.png",
+                "caption": "Figure 8: Same as Figure\u00a04, but with the BaSTI18 isochrone overlaid. We\nadopt the parameters given in Figure 7. The isochrone provides a reasonable match to both CMDs. However, on the $I_{E}-Y_{E}$ CMD it is systematically offset by $\\sim 0.07$\u00a0mag from the RGB, red HB, and MSTO. We discuss this offset\nin \u00a7\u00a0VI.3 and Appendix\u00a0A.2.\n"
+            },
+            {
+                "url": "https://arxiv.org/html/2611.10127v1/fig_euclid_cmd_iso_parsecYBC.png",
+                "caption": "Figure 9: Same as Figure\u00a08, but for the PARSEC\nmodels. The same $I_{E}-Y_{E}$ offset is present, indicating that it does not depend on the\nchoice of model set.\n"
+            }
+        ],
+        "abstract": "We present a resolved star study of AM-1, a distant ($D \\simeq 120$ kpc), faint ($M_V \\sim -5.1$) Milky Way (MW) globular cluster, based on Euclid Quick Data Release 1 (Q1) imaging. To perform photometry of the Euclid VIS and NISP imaging, we develop a Euclid-specific module for the crowded field stellar photometry package DOLPHOT. We construct and present empirical point spread function (PSF) models for VIS and NISP, along with a photometric calibration, entirely from the public Q1 images. Our photometry reaches $5\\sigma$ point source depths of $I_E, Y_E, J_E, H_E = 27.1, 25.3, 25.5, 25.3$, $\\sim$1-1.5 mag deeper than the public Q1 catalog, as expected for dedicated resolved star PSF photometry. We resolve the cluster to $\\sim$1 mag below its main sequence turnoff in all bands. The Euclid photometry agrees with color-magnitude diagram (CMD) modeling of archival HST/WFPC2 imaging and with the 2MASS-anchored VISTA Hemisphere Survey to $\\lesssim0.02$ mag in $I_E$, $J_E$, and $H_E$, with a $\\sim$0.07 mag offset in $Y_E$. We find that AM-1 hosts an old ($\\sim$10.6 Gyr), intermediate-metallicity ([Fe/H] $\\sim -1$) population, with a present-day stellar mass of $\\sim 2\\times10^4\\,M_\\odot$ and $M/L_V \\simeq 2.2$, and has a half-light radius of $\\sim$12-16 pc with a round, low-concentration profile. These affirm earlier studies placing AM-1 among the most extended, diffuse outer-halo clusters, which dynamical work identifies as accreted. We describe and publicly release DOLPHOT v2.1, the Euclid module, and its empirical PSFs, which together enable Euclid resolved star studies ranging from faint MW systems such as AM-1 to more luminous galaxies throughout the Local Volume. We anticipate further refinements, including spatially varying PSFs, with Euclid Data Release 1.\n    "
+    },
+    "2611.10320": {
+        "title": "Relativistic Simulations of Self-Gravitating Radiation Fluids",
+        "authors": [
+            "Bing-Jyun Tsao",
+            "Pablo Laguna",
+            "Octavio Guerrero"
+        ],
+        "keywords": "",
+        "figures": [
+            {
+                "url": "https://arxiv.org/html/2611.10320v1/shock_tube_with_error.svg",
+                "caption": "Figure 1: The shock tube test for the two Riemann solvers. The top plot shows the energy density from HLLE (blue circles) and Marquina (orange triangles) solvers compared to the theoretical solution (black curve), and the bottom plot shows the absolute errors of the two methods. Rarefaction wave from the high density region is shown in green, while the shock between the orange and blue region travels into the low density region."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.10320v1/BHRad_1D.svg",
+                "caption": "Figure 2: The energy density profile for black hole accretion. The plot shows various snapshots of the energy density profile on the $x$-axis from an initial Gaussian shell at $r=8M$ to clustering near the puncture at the origin."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.10320v1/BHRad_mass.svg",
+                "caption": "Figure 3: The mass accretion and total radiation energy for black hole accretion. The orange and blue curves are the irreducible mass of the BH $M_{BH}$ and total energy of the radiation $E_{rad}$, respectively. The green curve is the approximate total mass by summing the two $M_{tot}=M_{BH}+E_{rad}$. Three phases of the evolution can be shown: radiation accretion onto the BH $t\\in[0,35]M$ (gray background), the propagation of the escaped radiation $t\\in[35,80]M$ (orange background), and finally the radiation leaving the computational domain at $t>80M$ (blue background)."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.10320v1/TOVRad.png",
+                "caption": "Figure 4: The radiation star solution and its instability under perturbations are shown. The density evolution of the perturbed cases is displayed in the top two rows, while density slices along the x-axis for all three cases are shown in the bottom row. The first row shows the plus perturbation propagating toward the center of the star and eventually collapsing to a black hole, with the apparent horizon visible at time 512M, indicated by the black circle in the top panels and the blue vertical line in the bottom panels. The second row shows the minus perturbation also reaching the center, where it reflects and subsequently triggers the dispersal of most of the radiation."
+            }
+        ],
+        "abstract": "We present an approach for numerical simulations of pure radiation fluids within the general relativistic hydrodynamics framework. The approach models radiation as a self-gravitating perfect fluid with vanishing rest mass, enabling simulations of radiation fluids in strong-gravity spacetimes. Building on the existing relativistic hydrodynamics code Whisky, within the Einstein Toolkit framework, we introduce modifications to incorporate radiation fluids, including updates to the source terms, recovery scheme, and Riemann solvers. Modifications are validated using standard shock tube tests. We present results for radiation accretion onto a single black hole, as well as a photon star solution for radiation in unstable hydrostatic equilibrium, demonstrating both collapse and dispersion under perturbations.\n    "
+    },
+    "2611.10342": {
+        "title": "From Exo-Earth Detection to Atmospheric Characterization: Enabling Phase-Dependent Molecular Detection SNR in EXOSIMS",
+        "authors": [
+            "Searra Foote",
+            "Tyler D. Robinson",
+            "Rhonda Morgan",
+            "Dmitry Savransky",
+            "Mario Damiano",
+            "Armen Tokadjian"
+        ],
+        "keywords": "",
+        "figures": [
+            {
+                "url": "https://arxiv.org/html/2611.10342v1/feature_evolution.svg",
+                "caption": "Figure 1: Phase dependence of the H2O (left) and O2 (right) molecular absorption features used to determine the molecular detection requirements. Curves show the relative spectral difference between the molecule-present and molecule-removed rfast spectra at representative planetary phase angles. H2O is shown over $0.8$\u2013$1.0~\\mu$m and O2 over $0.6$\u2013$0.8~\\mu$m, both at $R=140$. The magnitude of the molecular absorption features generally increases toward larger phase angles, demonstrating that the relative molecular spectral signal varies with observing geometry."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.10342v1/snr_vs_phase_label__1000seeds_v3.png",
+                "caption": "Figure 2: Required molecular detection SNR, SNRreq, as a function of planetary phase angle for H2O and O2. Values are derived from paired molecule-present and molecule-removed rfast spectra using a $5\\sigma$ molecular detection criterion. The required SNR decreases with increasing phase angle for both species. Lines connect the discrete rfast calculations used to construct the phase-dependent lookup tables incorporated into EXOSIMS."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.10342v1/V2_detection_phase_counts_1000seeds.svg",
+                "caption": "Figure 3: Phase distribution of successful H2O and O2 molecular detections across 1000 simulated five-year missions. Successful detections are shown in $10^{\\circ}$ bins of planetary phase angle. The ensembles contain 12,868 successful H2O detections and 12,548 successful O2 detections. For both species, successful detections are concentrated at intermediate phase angles rather than at the largest phase angles, where the rfast-derived molecular detection requirements are lowest."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.10342v1/detection_success_vs_phase_with_uncertainty_1000seedsv3.png",
+                "caption": "Figure 4: Molecular detection fraction as a function of planetary phase angle for H2O and O2 across 1000 simulated missions. The detection fraction is defined as the number of successful molecular detections divided by the number of molecular characterization attempts within each $10^{\\circ}$ phase bin. Error bars show 68.3% binomial confidence intervals. Detection success for both species reaches a maximum at intermediate phase angles before declining through quadrature and toward increasingly crescent phases."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.10342v1/iwa_failures_vs_phase_O2CORRECTED_1000seeds_v3.png",
+                "caption": "Figure 5: Association between the coronagraph inner working angle (IWA) and zero-SNR molecular non-detections as a function of planetary phase angle for H2O (left) and O2 (right). For molecular non-detections with an achieved characterization SNR of zero, the plotted fraction indicates the proportion for which the stored planet working angle (WA) falls interior to the coronagraph IWA ($WA<IWA$), where the planet is inaccessible to the coronagraph. The increasing association with the IWA toward larger phase angles indicates the growing importance of coronagraph accessibility in limiting molecular characterization at increasingly crescent geometries. This effect is more pronounced for H2O, which is characterized at longer wavelengths, resulting in a larger IWA due to its dependence on $\\lambda/D$."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.10342v1/V3_molecular_yield_histogram_1000seeds.svg",
+                "caption": "Figure 6: Distribution of molecular detection yield across 1000 simulated five-year missions using the phase-dependent molecular detection requirements. Molecular detection yield is defined as the number of successful detections of the specified species within an individual simulated mission. The mean yields are 12.9 H2O detections and 12.6 O2 detections per mission."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.10342v1/V4_Violin.svg",
+                "caption": "Figure 7: Distribution of molecular detection yields for H2O and O2 under phase-dependent and fixed-SNR treatments. The phase-dependent treatment uses the molecular detection thresholds derived from the rfast phase-dependent SNR calculations, while the fixed-SNR control adopts constant molecular SNR thresholds of 5 for H2O and 8.5 for O2, following the values used by Morgan et al. [7], within the same EXOSIMS observing configuration. Violin widths indicate the relative density of simulated mission yields, with the internal markers showing the central tendency and spread of each distribution. Relative to the fixed-SNR treatment, the phase-dependent treatment increases the mean molecular detection yield by 76.8 percent for H2O and 29.7 percent for O2."
+            }
+        ],
+        "abstract": "Detection and characterization of Earth-like worlds is a primary science goal for the upcoming NASA flagship Habitable Worlds Observatory (HWO). The HWO mission will be the first of its kind to specifically search for Earth-like worlds around Sun-like stars and characterize their atmospheres to identify potential biosignatures. A mission with such ambitious science goals thus requires equally robust and physically realistic simulation tools. In this work, we extend the realism of the EXOSIMS framework by incorporating phase-dependent biosignature detectability. We use the spectral retrieval tool rfast to determine the signal-to-noise ratio (SNR) required to detect atmospheric O2 and H2O as a function of planetary phase and incorporate these requirements directly into EXOSIMS characterization integration-time calculations. Although the required molecular detection SNR decreases toward increasingly crescent phases, successful molecular detections are concentrated at intermediate phase angles, demonstrating the competing effects of molecular information content and direct-imaging observability. Relative to fixed characterization thresholds of SNR = 5 for H2O and SNR = 8.5 for O2, the phase-dependent treatment increases mean molecular detection yield by 76.8 percent for H2O and 29.7 percent for O2. Ultimately, we provide a framework that improves simulation fidelity, increases the realism of EXOSIMS as we expand to assess additional biosignatures in future work, and marries detection and characterization in yield modeling as we look to the future with HWO.\n    "
+    },
+    "2611.10456": {
+        "title": "HINSPHERES: Spherically Symmetric Radiative Transfer Modeling of HINSA and the Radial HI-to-H$_2$ Transition in Molecular Clouds",
+        "authors": [
+            "Yuchen Xing",
+            "Di Li",
+            "Xin Lyu",
+            "Pei Zuo",
+            "Yulian Guo",
+            "Silu Xu",
+            "Zhijun Zhang",
+            "Jinru Li",
+            "Yan Duan",
+            "Rouyu Li",
+            "Jiawei Liu",
+            "Jifeng Xia",
+            "Jinjin Xie"
+        ],
+        "keywords": "",
+        "figures": [
+            {
+                "url": "https://arxiv.org/html/2611.10456v1/fig1.png",
+                "caption": "Figure 1: Profiles and $N_{\\rm H}$ map of our synthetic core in\nSection\u00a0IV.1. (a) Density profile for the synthetic core.\n(b) Temperature profile. (c) $N_{\\rm H}$ map generated from the\ndensity profile, convolved to a Planck-like resolution of\n$5\\arcmin$ with a pixel scale of $1.72\\arcmin$. Gaussian noise of\n$\\sim 4\\times 10^{20}$\u00a0cm-2\u00a0pixel-1 is added to mimic the\nPlanck $\\tau_{353}$ uncertainty.\n(d) HI abundance $f_{\\mathrm{HI}}$ profiles at four chemical ages\ncalculated from the time-dependent model of Goldsmith et al. [12]."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.10456v1/corner_part1.png",
+                "caption": "Figure 2: Corner plot for the $5\\times 10^{6}$\u2009yr synthetic core. During the MCMC fitting, the density parameters are fixed to their true value. For clarity, only layers 1, 4, and 7 of the seven-layer HI abundance are shown."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.10456v1/fig2.png",
+                "caption": "Figure 3: HINSA spectra and averaged absorption maps of the four synthetic cores.\n(a) HINSA spectra at the center (solid) and at $\\frac{2}{3}\\,R_{\\mathrm{out}}$ on the eastern side (dashed) of the simulated cores. The corresponding HINSA-free background spectra at these two positions are shown as dotted lines.\n(b) Averaged absorption over $\\pm 2$ km/s for each synthetic core. White \u2018+\u2019 symbols mark the center and the $\\frac{2}{3}\\,R_{\\mathrm{out}}$ positions."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.10456v1/fig_resolution_noise_all.png",
+                "caption": "Figure 4: Median relative recovery error $\\langle\\delta_{\\rm all}\\rangle$ averaged over all 15 fitted parameters, as a function of beam FWHM and noise RMS.\nThe result is obtained from the $5\\times 10^{6}$\u2009yr synthetic core with the density profile fixed to the\n$N_{\\mathrm{H}}$-map derived values. 20 random noise realizations are used in the calculation."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.10456v1/fig_resolution_noise_grouped.png",
+                "caption": "Figure 5: Same as Figure\u00a04 but grouped by\nparameter family: (a) temperature structure ($T_{0}$, $T_{1}$,\n$r_{\\rm T}$), (b) HI abundance (seven shells), (c) kinematic\nparameters ($\\sigma_{\\mathrm{turb}}$, $\\delta v$, $f_{\\mathrm{ff}}$,\n$v_{\\mathrm{rot}}$, PA)."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.10456v1/rout_profiles_2panel.png",
+                "caption": "Figure 6: Temperature and HI abundance profiles\nrecovered under different $R_{\\mathrm{est}}$ assumptions, compared to the true profiles (dashed black curves). Each profile is the median across 10 noise realizations."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.10456v1/fig_center_spec_maps.png",
+                "caption": "Figure 7: Central-beam spectra (left) and line-center channel-averaged maps (middle and right) for L1574 (top) and L1544 (bottom). Left: observed, best-fit model, and polynomial background spectra extracted as the Gaussian-weighted mean over the synthesized beam centered on the core ($3.83\\arcmin$ for L1574 and $2.9\\arcmin$ for L1544). Middle and right: observed and model cubes averaged over $\\pm 2$\u2009km/s around the fitted line-center velocity. Each map is centered on the adopted core center. The white dashed circle marks $R_{\\rm out}$. "
+            },
+            {
+                "url": "https://arxiv.org/html/2611.10456v1/part7.svg",
+                "caption": "Figure 8: Radial density, temperature, and HI abundance profiles recovered for L1574 and L1544."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.10456v1/fig6.svg",
+                "caption": "Figure 9: Deviation of the HINSA absorption profile from a single\nGaussian as a function of chemical age. The normalized RMS residual\nbetween the central-beam $\\Delta T(v)$ spectrum and its best-fitting\nsingle Gaussian is used as a measure of this deviation, computed for\nages from $10^{5}$ to $5\\times 10^{8}$\u00a0yr. Vertical dashed lines mark\nthe ages of our synthetic cores."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.10456v1/fig5.svg",
+                "caption": "Figure 10: True and fitted radial abundance profiles for the four synthetic cores. Here the 3D volume abundance is $f_{\\mathrm{HI}}(r)=n_{\\mathrm{HI}}(r)/n_{\\mathrm{H}}(r)$ and the 2D projected column abundance is $f_{\\mathrm{HI,2D}}(b)=N_{\\mathrm{HI}}(b)/N_{\\mathrm{H}}(b)$, where $n_{\\mathrm{H}}=n_{\\mathrm{HI}}+2n_{\\mathrm{H_{2}}}$ and $N_{\\mathrm{H}}=N_{\\mathrm{HI}}+2N_{\\mathrm{H_{2}}}$ are the total hydrogen-nucleus volume and column densities."
+            }
+        ],
+        "abstract": "The transition from atomic hydrogen (HI) to molecular hydrogen (H$_2$) is the first step in the evolution from diffuse interstellar gas to dense star-forming cores. HI narrow self-absorption (HINSA), produced by cold atomic gas mixed with molecular material, provides a direct tracer of the HI-to-H$_2$ transition in molecular clouds. Existing HINSA analyses typically model HINSA as a single Gaussian component with a uniform spin temperature. This approach cannot recover the radial HI distribution and yields large errors for young cores whose profiles deviate from a Gaussian shape. Here we present hinspheres, an open-source framework that models the core as onion-like spherically symmetric concentric shells, solves radiative transfer along the line of sight and jointly fits the HI abundance, temperature, and kinematic parameters. The framework recovers all parameters with a mean relative error of 4.6-6.8% on our synthetic data with different ages. A combined resolution-noise grid shows that the median recovery error remains below 16% for cores within 1 kpc observed at FAST resolution with noise levels below 0.2 K. Applying it to the dark cores L1574 and L1544, we reveal radial HI abundance profiles that span about three orders of magnitude, which were missed by the single-Gaussian method. The derived chemical ages are $6.5\\times10^6$ and $8.7\\times10^6$ yr, respectively. Compared with the commonly used single-Gaussian method, hinspheres characterizes the radial profile of HINSA structures more accurately, making it well suited to identifying and analyzing young cores undergoing the HI-to-H$_2$ transition.\n    "
+    },
+    "2611.11075": {
+        "title": "Season by season causal analysis of the continuum and velocity-resolved H$\u03b2$ emission of NGC 5548",
+        "authors": [
+            "Ayan Mitra",
+            "Vasilios Zarikas"
+        ],
+        "keywords": "",
+        "figures": [
+            {
+                "url": "https://arxiv.org/html/2611.11075v1/common_1989_F5100_core.svg",
+                "caption": "Figure 1: $C$ampaign 1989, F5100 set $($F,B,C,R$)$, core target C, with common predictor lags. The 26 components are divided by the joint mutual information, $f_{a}=I_{a}/I(Y;\\mathbf{X})$, in the U, R and S panels; the bottom panel shows normalized leakage $\\ell=H(Y\\mid\\mathbf{X})/H(Y)$. Solid curves use two flux bins and dotted curves three bins. The daily grid supplies 134\u2013192 tuples per lag. F,B,C,R denote the continuum, blue wing, core and red wing. Source: common-lag atlas, page 3."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.11075v1/common_1992_F5100_red.svg",
+                "caption": "Figure 2: Campaign 1992, F5100 set $(F,B,C,$R$)$, red-wing target R, with common predictor lags. The U, R and S panels show all 26 fractions $f_{a}=I_{a}/I(Y;\\mathbf{X})$; the bottom panel shows $\\ell=H(Y\\mid\\mathbf{X})/H(Y)$. Solid curves use two flux bins and dotted curves three bins; the daily grid supplies 211\u2013243 tuples per lag. Symbols are as in Fig.\u00a01. Source: common-lag atlas, page 28."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.11075v1/common_1993_total_core.svg",
+                "caption": "Figure 3: $C$ampaign 1993, total set $($H$,$B,C,R$)$, core target C, with common predictor lags. The U, R and S panels show all 26 fractions $f_{a}=I_{a}/I(Y;\\mathbf{X})$; the bottom panel shows $\\ell=H(Y\\mid\\mathbf{X})/H(Y)$. Solid curves use two flux bins and dotted curves three bins; the daily grid supplies 232\u2013261 tuples per lag. H denotes total H$\\beta$, and B,C,R its blue wing, core and red wing. Source: common-lag atlas, page 38."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.11075v1/blue_leading_1992_F5100_core.svg",
+                "caption": "Figure 4: $C$ampaign 1992, F5100 set $(F,B,C,R)$, core target C, with the blue-wing predictor sampled five days further back: $X_{B}=B(t-L-5~\\mathrm{d})$, while the other predictors are sampled at $t-L$. The U, R and S panels show all 26 fractions $f_{a}=I_{a}/I(Y;\\mathbf{X})$; the bottom panel shows $\\ell=H(Y\\mid\\mathbf{X})/H(Y)$. Solid curves use two flux bins and dotted curves three bins; the daily grid supplies 205\u2013233 tuples per base lag. This imposed offset is a sensitivity configuration. Source: blue-leading atlas, page 27."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.11075v1/specific_components.svg",
+                "caption": "$F$igure 5: Named SU$R$D components and target-specific leakage for common predictor\nlags. The columns compare two and three flux states.\nPanels (a,b) show four individual contributions to the 1991 core target in the\nF5100 set: $R(F,$B$,$C$,R)$, $S(F,B)$, $S(F,R)$ and $U(F)$, together with that target\u2019s\nleakage $\\ell_{C}$ (black dashed). The joint and shared terms remain nonzero when\nthe two-state unique continuum term vanishes.\nPanels (c,d) compare the individual unique terms $U(R)\\to B$ and $U(B)\\to R$ in\nboth variable sets. Filled markers identify the maxima of the nonzero curves;\nalternating open markers distinguish the two reverse-direction curves, which\nare identically zero throughout these scans.\nPanels (e,f) supply the corresponding leakage for the blue target (solid) and\nred target (dashed); colours distinguish the F5100 and total sets.\nEvery component ordinate is its fraction of target entropy,\n$g_{a}=(1-\\ell)f_{a}$; leakage is evaluated for the same target, variable set, bin\nchoice and lag. Here F is the optical continuum, B the blue wing, C the\ncore and R the red wing. The individual components and their simultaneous leakage identify the resolved pathways discussed in the text."
+            }
+        ],
+        "abstract": "We investigate possible causal influences in five historical seasons (1989-1993) of NGC 5548 using a version of the Synergistic-Unique-Redundant Decomposition (SURD) method adapted for this analysis, an information-theoretic causal discovery method for time series. Two four-variable sets contain the blue wing (B), core (C) and red wing (R) of H-beta together with either total H-beta (H) or the 5100 Angstrom continuum (F). We examine 7200 decompositions with common and unequal lags, two or three seasonal flux states, and base delays of 1-30 d. We rank the individual named components within each information family, reporting their amplitudes and simultaneous leakage. In 1989, unique continuum information about the core reaches 0.799 and 0.387 of target entropy for two and three states, with leakage 0.047 and 0.276. In 1992, the red-wing history supplies unique information about the future blue wing in both variable sets and both state counts, with peak target-entropy fractions 0.106-0.166. Distinct joint influences also emerge: for the 1991 core, the two-state S(F,B) and S(F,R) components contribute 0.187 and 0.125 at 20 d with leakage 0.087, although the unique continuum term vanishes. Strong core-wing redundancy identifies candidate inputs for simpler predictive models. Large late-lag leakage, reaching approximately 0.97 in the total set, identifies targets for additional driver measurements and richer temporal histories. The resulting seasonal map of individual, shared and joint influences complements the response delays and velocity structure measured by reverberation mapping, and provides specific causal hypotheses for the evolving broad-line region.\n    "
+    },
+    "2611.11922": {
+        "title": "Deep-Learning-Assisted Bayesian Inference for Extreme-Mass-Ratio Inspirals",
+        "authors": [
+            "Jian-Jun Song",
+            "Zhong-Wu Xia",
+            "Wen-Hong Ruan",
+            "Zu-Cheng Chen",
+            "Hongwei Yu",
+            "Puxun Wu"
+        ],
+        "keywords": "",
+        "figures": [
+            {
+                "url": "https://arxiv.org/html/2611.11922v1/fig1.png",
+                "caption": "Figure 1: \nComparison of the posteriors for Signal\u00a01 using\n$6$ months of data, with a signal-to-noise ratio (SNR) of $95.94$.\nBlue shows the posterior obtained through MCMC analyses with\nprogressively longer data segments, with the chains in the first stage\ninitialized near the parameter values identified by the PSO search assisted by the\nneural network.\nOrange shows the posterior obtained by initializing MCMC chains\nnear the true parameter values.\nThe contours show the $68.27\\%$, $95.45\\%$, and $99.73\\%$\ncredible regions.\nBlack lines and markers indicate the true values.\nBoth analyses use the same priors and MCMC settings and yield\nposteriors in close agreement.\n"
+            },
+            {
+                "url": "https://arxiv.org/html/2611.11922v1/figS1.png",
+                "caption": "Figure S1: \nDistributions of the range retention ratio $r_{ij}$ for the test\ndatasets with fixed and random initial phases.\nThe upper panel shows the results for fixed initial phases,\nand the lower panel shows those for random initial phases.\nEach panel includes all $11$ source parameters.\nBlue violins show the full distributions, and open circles mark\nthe medians.\nOne fixed-phase signal has repeated neural-network samples,\nproducing zero widths for some parameter search regions and a zero search\nvolume; it is excluded from the $C_{V,j}$ statistics but retained\nin the coverage calculation.\n"
+            },
+            {
+                "url": "https://arxiv.org/html/2611.11922v1/figS2.png",
+                "caption": "Figure S2: \nCorner plot of the network-generated parameter distributions for\nSignal\u00a01, using $50{,}000$ samples.\nThe medians and central $68.27\\%$ credible intervals are given\nabove the diagonal.\nThe contours show the $68.27\\%$, $95.45\\%$, and $99.73\\%$\ncredible regions.\nBlack lines and squares indicate the true values.\n"
+            },
+            {
+                "url": "https://arxiv.org/html/2611.11922v1/figS3.png",
+                "caption": "Figure S3: \nCorner plot of the network-generated parameter distributions for\nSignal\u00a02, using $50{,}000$ samples.\nThe medians and central $68.27\\%$ credible intervals are given\nabove the diagonal.\nThe contours show the $68.27\\%$, $95.45\\%$, and $99.73\\%$\ncredible regions.\nBlack lines and squares indicate the true parameter values.\nCompared with Signal\u00a01, several marginal distributions are broader,\nand additional modes appear in the\nsky location parameters."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.11922v1/figS4.svg",
+                "caption": "Figure S4: \nPlot of the best joint $A/E$ overlap during PSO for Signal\u00a01\n(green triangles) and Signal\u00a02 (purple diamonds).\nFor clarity, $1-\\mathcal{O}_{AE}^{\\max}$ is shown on a logarithmic\nvertical axis.\nThe dashed line at $2\\times 10^{-4}$ corresponds to the stopping threshold\n$\\mathcal{O}_{AE}=0.999$8$$.\nThe stopping criterion is satisfied after 8 and $11$ rounds,\nrespectively, and each curve ends at that round.\n"
+            },
+            {
+                "url": "https://arxiv.org/html/2611.11922v1/figS5.png",
+                "caption": "Figure S5: \nPosterior comparison plot for Signal\u00a02 using $6$ months of\ndata, with an SNR of $17.75$.\nPosteriors obtained through MCMC analyses with\nprogressively longer data segments are shown in blue, with the\nchains in the first stage initialized near the parameter values identified by the PSO search\nassisted by the neural network.\nThe posterior obtained with MCMC chains initialized near\nthe true parameter values is shown in orange.\nThe contours show the $68.27\\%$, $95.45\\%$, and $99.73\\%$\ncredible regions.\nIdentical priors and MCMC settings are used in both analyses.\nTrue values are marked by black lines and squares.\n"
+            }
+        ],
+        "abstract": "Extreme-mass-ratio inspirals (EMRIs) pose a major challenge to Bayesian parameter inference because of their complex, highly multimodal likelihood surfaces. Locating narrow high-likelihood regions is particularly difficult without knowledge of the true source parameters, which is unavailable in real observations. We develop a deep-learning-assisted Bayesian inference framework that combines neural-network-guided parameter-space localization, particle swarm optimization, and Markov chain Monte Carlo (MCMC) sampling. Applied to simulated six-month EMRI signals, the framework recovers posterior distributions in close agreement with reference MCMC analyses initialized near the true parameter values, without requiring such knowledge for initialization. Once the neural network has been trained, the complete inference pipeline takes approximately 10 hours per signal.\n    "
+    },
+    "2611.12158": {
+        "title": "Detecting space objects with Earth-observation radar satellites",
+        "authors": [
+            "Juha Vierinen",
+            "Laura-Kristin Scholtz",
+            "Ulrik Noer",
+            "Theresa Rexer",
+            "Daniel Kastinen",
+            "P\u00e5l Gunnar Ellingsen"
+        ],
+        "keywords": "",
+        "figures": [
+            {
+                "url": "https://arxiv.org/html/2611.12158v1/sentinel-debris.svg",
+                "caption": "Figure 1: A space object crosses Sentinel-1\u2019s Earth-looking radar beam, providing measurements of range $R$, radial velocity $\\dot{R}$ and beam-passage time $t_{b}$. The line-of-sight vector $\\mathbf{r}=R\\hat{\\mathbf{r}}$ points from radar to object; $\\mathbf{v}_{s}$ and $\\mathbf{v}_{o}$ are their instantaneous velocities. Relative velocity $\\mathbf{u}=\\mathbf{v}_{o}-\\mathbf{v}_{s}$ gives $\\dot{R}=\\hat{\\mathbf{r}}\\cdot\\mathbf{u}$. The long C-band SAR axis follows the flight direction and the observing face points Earthward and to the right of flight. The spacecraft outline follows the Thales Alenia Space Italia engineering view reproduced by the European Space Agency (ESA)\u00a0[15], with body axes from\u00a0[17]. The beam shows one instantaneous look. Object sizes, orbital altitudes and beamwidth are exaggerated for clarity."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12158v1/assisted-comparison.png",
+                "caption": "Figure 2: Catalogue-assisted detections of two debris fragments and an operational satellite. Columns show DELTA 1 DEB, FENGYUN 1C DEB and STARLINK-5265. The upper panels show measured range minus catalogue-predicted range; the lower panels show the corresponding Doppler difference, wrapped into the pulse-sampling interval. Compact patches show the object echoes, and colours indicate power relative to local background in dB. Horizontal dashed lines mark zero residual; vertical dashed lines mark the predicted half-power beam boundaries. Time is relative to each echo peak. Each estimate integrates 16 pulses coherently."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12158v1/beam-examples.png",
+                "caption": "Figure 3: Echo strength during eight object passages through the antenna beam. Points show measured power relative to background, using coherent integrations of 16 pulses; curves show the fitted beam-crossing envelopes. Colours distinguish the recorded polarizations. Zero dB corresponds to the background level, and time zero marks the fitted beam-centre crossing. Annotations give range $R$, radial velocity $\\dot{R}$, estimated RCS $\\hat{\\sigma}$ for each polarization, and the historical NORAD RCS class. RCS estimates use the portion of each fitted echo within 6 dB of its peak and the calibration assumptions in Section\u00a03.4."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12158v1/human-validated-rcs.png",
+                "caption": "Figure 4: Estimated radar cross sections for the 76 catalogue objects, grouped by historical NORAD RCS class and polarization. Each point represents one encounter in one polarization; horizontal offsets separate the polarization channels. The histograms at right summarize the same estimates in 5 dB bins, and legend counts give the number of estimates per channel. NORAD classes correspond to areas below 0.1 m2 (SMALL), 0.1\u20131 m2 (MEDIUM) and above 1 m2 (LARGE). These classes provide a broad comparison with the RCS measured at the observing frequency, polarization and viewing geometry. Each object contributes up to two polarization-specific estimates."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12158v1/blind-comparison.png",
+                "caption": "Figure 5: Blind recovery of DELTA 1 DEB (left) and FENGYUN 1C DEB (right), without using their ephemerides during the search. Panels (a,b) show the strongest responses across trial motions and Doppler frequencies, using 16-pulse integrations. Panels (c,d) show the echoes after applying the recovered motion corrections; their nearly horizontal tracks indicate successful range-migration compensation. Colours show power relative to background, measured before the search for (a,b) and after filtering for (c,d). Panels (e,f) show recovered power versus trial radial velocity, normalized to its maximum. Broad peaks indicate limited velocity precision. Dashed lines mark catalogue velocities, added for comparison after the search. Time is relative to each blind-fit epoch."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12158v1/debris-orbit-refinement.png",
+                "caption": "Figure 6: DELTA 1 DEB orbit refinement assuming known TOPS pointing. (a,b) Range residuals before (left) and after (right) the joint orbit refinement, using the same five measurement windows and separate vertical scales. Error bars show waveform-derived $1\\sigma$ range uncertainties; time is measured from the first window. (c) Echo power and beam-pattern fit, relative to the echo peak. (d) Sampled positions at the encounter. (e,f) Positions half an orbit later in radial\u2013along-track and radial\u2013cross-track coordinates relative to the catalogue position. Grey shows the prior, blue the range\u2013Doppler update and orange the joint update including the beam passage."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12158v1/receiver-sensitivity.svg",
+                "caption": "Figure 7: Receiver-noise-equivalent conducting-sphere diameter versus range for the radars in Table\u00a02. Curves assume unit SNR, central crossings at 10 km/s and coherent integration limited by beam dwell or 10 ms, with the recording, gain and loss assumptions in Methods. Discontinuities arise from sphere resonances."
+            }
+        ],
+        "abstract": "Millimetre-to-centimetre orbital debris poses a hazard to spacecraft, but its abundance remains difficult to measure. Spaceborne radars offer a substantial sensitivity advantage at close range: received echo power decreases with the fourth power of distance, so an otherwise identical object ten times closer produces a 10,000 times stronger echo. We investigate this opportunity using openly available Sentinel-1 radar voltages recorded on six calendar days. Catalogue-assisted processing identifies a manually validated sample of 76 objects at ranges of 41.7--492.9 km, including satellites, rocket bodies and debris fragments. A blind search recovers two selected debris transits without using their orbital predictions during detection. A short debris encounter also demonstrates how precise range and Doppler measurements can refine a catalogue orbit. Ground scatter increases the effective background and is the principal sensitivity limitation in Earth-looking observations. An ideal receiver-noise sensitivity comparison predicts detectable conducting-sphere diameters of approximately 3.4 mm for Sentinel-1 and 0.6 mm for EarthCARE at 10 km range, assuming coherent integration limited by beam transit time and a 10 ms cap. These results establish the feasibility of space-object detection using existing Earth-observation radars and motivate statistical debris surveys and targeted orbit refinement following collision warnings. Observations directed away from Earth and receive windows adapted to nearby objects could improve sensitivity to small debris.\n    "
+    },
+    "2611.12179": {
+        "title": "Investigating the Viability of Dedicated Microhertz Gravitational Wave Pulsar Timing",
+        "authors": [
+            "C. F. Sheridan",
+            "E. F. Keane"
+        ],
+        "keywords": "",
+        "figures": [
+            {
+                "url": "https://arxiv.org/html/2611.12179v1/gw_plsc_mingarelli.svg",
+                "caption": "Figure 1: The sensitivity curves of various current (EPTA DR2, aLIGO), upcoming (LISA, IPTA DR3, Einstein Telescope/ET) and proposed (Cosmic Explorer/CE, Big Bang Observer/BBO, \u00b5Ares) GW detectors to a stochastic GWB in units of energy density. Note the current gap in the frequency coverage at the \u00b5Hz regime. Figure generated from an online tool created by Mingarelli (2026), see here."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12179v1/mupta_plsc_omega_twin-campaign.svg",
+                "caption": "Figure 2: The theoretical minimum energy density sensitivity to a 5-SNR GW background signal of the \u00b5Hz-tuned PTA, using both WSRT-like and FAST-like observatories (top: Campaign A; bottom: Campaign B). This is compared to simulated GWB signals generated by a QCD ($T_{*}\\sim 200~\\text{MeV}$) phase transition, a cosmic string network with tension $G\\mu\\sim 10^{-10}$ and domain walls with annihilation temperature of $T_{\\text{ann}}\\sim 1$ GeV. Also included as a benchmark is an idealised sensitivity of EPTA DR2, computed using the same method with the following parameters: 25 pulsars observed with 20\u00a0$\\text{yr}^{-1}$ cadence over 24 years with a uniform $\\sigma_{\\text{rad}}=1~\\upmu$s."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12179v1/mupta_skymap_omega_twin-campaign.png",
+                "caption": "Figure 3: Top: Sky map of t$h$e ecliptic sphere from the hypothetical four-pulsar timing array using a WSRT-like telescope for the two different campaigns; Campaign A ($T_{\\text{obs}}=$1~$$ yr, 2 ToAs/day) on the left and Campaign B ($T_{\\text{obs}}=2$ yr, 4 ToAs/day) on the right. Bottom: The same as above but using a FAST-like telescope instead. All four sky maps display the faintest detectable strain amplitude h of a 5-SNR signal at a GW frequency of 1\u00b5Hz, for a given campaign. The optimal-direction value, $h_{\\text{min}}$, is also presented. The four pulsars are denoted by white stars."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12179v1/dsa-ska_plcurve-skymap.png",
+                "caption": ""
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12179v1/x1.png",
+                "caption": ""
+            }
+        ],
+        "abstract": "The microhertz gravitational wave (GW) frequency regime remains one of the least explored regions of the GW spectrum. This is due to the physical limitations of our current and upcoming GW observatories such as LIGO and LISA, which are tuned to dHz and mHz respectively. Proposed experiments targeting the $\\mu$Hz regime are ambitious, expensive and unlikely to be operational within the next 20 years. Pulsar Timing Arrays (PTAs), with their Galaxy-sized baselines, occupy the other end of the spectrum; the frequencies they are sensitive to are a function of the observing cadence and total dataset timespan. Existing PTA campaigns have cadences and timespans corresponding to the nanohertz regime, however the possibility exists that they can be 'pushed' to detect higher frequencies. This paper investigates the viability of a custom microhertz-sensitive PTA, observing a small number of millisecond pulsars with a daily cadence, over the course of 1 and 2 years respectively. We assume the use of both 100-m and 500-m class radio telescopes for these observations, and an idealised noise model with negligible systematics to determine the most optimistic detection threshold. We compute the sensitivity of our proposed high-cadence PTA configurations to power-law signals and individual GW sources. We find that a 500-m class telescope would likely be able to set new upper limits on individual sources and GW background signals in the $0.1-1~\\mu$Hz range; while a 100-m class telescope would, in the best case, only match that of the performance of the EPTA second data release in the same range. Finally we consider a possible $\\mu$Hz PTA consisting of SKA-Mid and DSA observing 24 pulsars; we find this performs on par with the 500-m class while using far less telescope time, presenting a more feasible solution to microhertz-GW pulsar timing.\n    "
+    },
+    "2611.12808": {
+        "title": "First demonstration of long-distance electron drift in liquid xenon with the Xenoscope time projection chamber",
+        "authors": [
+            "N. Angelides",
+            "M. Babicz",
+            "E. E. Barillier",
+            "L. Baudis",
+            "H. Birch",
+            "C. Capelli",
+            "J. J. Cuenca-Garc\u00eda",
+            "S. George",
+            "R. N. Hampp",
+            "M. A. Hernandez",
+            "L. H\u00f6tzsch",
+            "F. J\u00f6rg",
+            "K. Mor\u00e5",
+            "M. Noia",
+            "S. Ouahada",
+            "B. Penning",
+            "F. Piastra"
+        ],
+        "keywords": "",
+        "figures": [
+            {
+                "url": "https://arxiv.org/html/2611.12808v1/figures/sipm/gain_evolution_exposure.png",
+                "caption": "Figure 1: Stability of the SiPM tile gains throughout the run. The gain of each tile is extracted from a fit to the SPE charge spectra of daily LED calibrations taken at low light intensity. The cumulative exposure of regular muon measurement is shown in brown."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12808v1/figures/analysis/DriftTimeSelection.png",
+                "caption": "Figure 2: Top: Influence of the final selection on the pulse drift time distribution in the muon coincidence and external trigger dataset. Both datasets show a clear peak around zero due to vertical muon showers. A single negative bin is also visible, corresponding to reconstructed pulses that precede the trigger. Bottom: Fraction of events passing each selection step for both datasets. The selections clearly enhance the signal in the expected drift time interval. The acceptance of the externally triggered dataset is drift time independent."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12808v1/figures/results/dt_fit_run6.png",
+                "caption": "Figure 3: Distribution of drift times for the selected muon-coincidence events, in bins of $10\\text{\\,}\\mathrm{\\SIUnitSymbolMicro s}$. The peak is fitted with a Gaussian plus a constant background. The lower panel shows the residuals for the bins in the fit range; the green and yellow bands indicate the $\\pm 1\\sigma$ and $\\pm 2\\sigma$ intervals respectively."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12808v1/figures/results/average_waveform_selected.png",
+                "caption": "Figure 4: Average summed waveform of the selected muon-coincidence events. The inset shows the drop in the waveform, fitted with an error function, and yielding $t_{0}=$1804.7\\pm\\pm 1.6\\text{\\,}\\mathrm{\\SIUnitSymbolMicro s}$$. The peak around $1600\\text{\\,}\\mathrm{\\SIUnitSymbolMicro s}$, corresponding to the muon-coincidence peak fitted in Fig. 3, is also clearly visible."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12808v1/figures/results/Efield_vs_Velocity.png",
+                "caption": "Figure 5: Drift velocity as a function of the electric drift field. The result is compared to the literature values from Gushchin (165K) Gushchin et al. (1981), EXO-200 (167K) Albert et al. (2017), Xurich (2018, 184K) Baudis et al. (2018), Xurich (2021, 177K) Thieme (2022), HeXe (174 K) J\u00f6rg et al. (2022), XeBRA (173K) Baur and others (2023) and Xenoscope (178K) Baudis and others (2023). The second number after the year is the drift length of each measurement."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12808v1/figures/run5/dt_fit_Run5_position2.png",
+                "caption": "(a) Distribution of the pulse drift time for $82.5\\pm\\pm 2.57\\text{\\,}\\mathrm{cm}$ drift."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12808v1/figures/run5/dt_fit_Run5_position3.png",
+                "caption": "(b) Distribution of the pulse drift time for $132.5\\pm\\pm 2.51\\text{\\,}\\mathrm{cm}$ drift."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12808v1/figures/sipm/spectrum_fit_tile_E_51V_2.95V.png",
+                "caption": "Figure 7: Charge spectrum of tile E at a bias voltage of $51.0\\text{\\,}\\mathrm{V}$ and LED voltage of $2.95\\text{\\,}\\mathrm{V}$, taken during the SiPM tile characterization campaign. The pedestal and SPE peaks are shown with their respective Gaussian fits."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12808v1/figures/peak_reconstruction/20260518_180750_event_58_dog_ex_sigma150_750.png",
+                "caption": "Figure 8: Example of the DoG filtering procedure applied to the summed top-array waveform of a single-S2-like event, with the nominal smoothing scales."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12808v1/figures/peak_reconstruction/peak_finding_robustness.png",
+                "caption": "Figure 9: Drift time distribution of all pulses found in the triggered datasets, for different choices of the smoothing scales $(\\sigma_{1},\\sigma_{2})$, showing that the results are not strongly sensitive to the exact choice of smoothing parameters."
+            }
+        ],
+        "abstract": "Xenoscope is a dual-phase xenon time projection chamber operated at the University of Zurich to investigate electron transport over distances relevant to the next-generation XLZD (XENON-LUX-ZEPLIN-DARWIN) observatory. We demonstrate electron drift over $2.6$ m in liquid xenon using cosmic-muon-induced ionization signals. External muon tagging provides a timing reference for charge produced at known depths, while the endpoint of the average electroluminescence waveform probes transport over the full drift length. We measure electron drift velocities of $(1.320 \\pm 0.006)$ mm/$\\mu$s at $(80.92 \\pm 0.36)$ V/cm and $(1.436 \\pm 0.001)$ mm/$\\mu$s at $(96.00 \\pm 0.42)$ V/cm. These results establish detectable charge transport over meter-scale distances and provide an experimental benchmark for the development of future large liquid-xenon time projection chambers.\n    "
+    },
+    "2611.12841": {
+        "title": "Joint Gaia-Hipparcos astrometry, RV, and Imaging posteriors from the G23H Hipparcos sample",
+        "authors": [
+            "William Thompson",
+            "Dori Blakely",
+            "Alexandre Bouchard-C\u00f4t\u00e9",
+            "Trevor Campbell",
+            "Jerry Xuan",
+            "Jingwen Zhang",
+            "Kyle Franson",
+            "Jessica Speedie",
+            "Clarissa Do \u00d3",
+            "Doug Johnstone",
+            "Eric Nielsen",
+            "Brendan Bowler",
+            "Simon Blouin",
+            "Jean-Baptiste Ruffio",
+            "Ryan Cloutier",
+            "Andre Fogal",
+            "Kaitlyn Hessel",
+            "Christian Marois",
+            "Alexandra Rochon",
+            "William Roberson"
+        ],
+        "keywords": "",
+        "figures": [
+            {
+                "url": "https://arxiv.org/html/2611.12841v1/detection_limits_examples.svg",
+                "caption": "Figure 1: Illustrative detection-limit curves for three example systems spanning the distance range of the sample. Each curve shows the mass ratio above which each data source would detect a companion on a circular orbit at an SNR of 3 as a function of the companion\u2019s 3D separation at epoch 2015.4 (top axis: orbital period for $q\\to 0$) averaged over orbital phase and orientation. The curves are computed on each star\u2019s actual Gaia scan law; the thin bands show the 16\u201384% spread over the latent choice of Gaia transits that the model marginalizes over. The astrometric constraints fall off linearly with distance to the system, while the RVS variability constraint does not. The ability to resolve a companion as an independent Gaia DR3 source depends on both the distance and brightness of the primary."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12841v1/fig_contrast_curves.png",
+                "caption": "Figure 2: Our $G$aia DR3 contrast calibration for primary stars in different magnitude bins (panels (a)-(c)). The heatmap plots the DR3 neighbour surface density per separation $\\rho$ and $\\Delta G$, normalized by the cell with maximum density in that row. This deficit reveals the catalog incompleteness due to the bright primary.\nThe 50% (solid) and 10%-90% range (dashed) of Equation\u00a01 are plotted in orange. For comparison, the 50% separation derived for DR2 by Brandeker and Cataldi [8] is plotted as a bright red dotted curve (their fit is not separated by primary magnitude).\nTowards the bottom of each panel, the sources are primarily background objects, whereas towards lower $\\Delta G$ the pairs are more often bound. The DR3 faint limit is applied separately as a roll-off in the companion\u2019s predicted apparent G."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12841v1/fig_rv_error_scaling.svg",
+                "caption": "Figure 3: Factor by which the Gaia DR3 radial_velocity_error must be inflated for the residuals against APOGEE DR17 (filled squares) and CARMENES (open circles) to have unit variance, as a function of effective temperature after iterative $5\\sigma$ clipping of binaries. The dashed line is the global factor of 2.5 adopted for the prior on the systemic radial velocity, which enters the model only through perspective acceleration."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12841v1/cmd_recommended.png",
+                "caption": "Figure 4: Gaia colour-magnitude diagram of the 96,915 stars of the recommended sample (Table\u00a02). This figure is not corrected for extinction."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12841v1/sensitivity_tongue_q_all_p95.svg",
+                "caption": "Figure 5: \nA summary of the catalogs companion sensitivity for all 96,915 sources of the recommended sample defined in Section III.3.2 and Table\u00a02. The counts are of total companions across all stars whose 95th percentile upper limit is below each contour. The vertical axis is the mass-ratio $q=m/M_{\\star}$, which is comparable across stellar masses. The curve labelled $$$N$$$ is the N-th smallest 95th percentile, so N stars exclude a companion above the curve at that period.\nThe sensitivity is largely a function of distance and the astrometric uncertainty for each star\u2019s colour, apparent magnitude, and sky position."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12841v1/HIP88414_mass_period.png",
+                "caption": "Figure 6: The posterior for HD\u00a0164604 (HIP\u00a088414), illustrating marginalization over the number of companions (0\u2013$3$). Left to right: draws with one, two, and three companions. For the panels with more than one companion, we have coloured the draws blue, red, then green according to the astrometric and RV S$N$R of the companion. We emphasize, however, that this ordering is not inherent to the posterior itself, and no ordering prior is applied during sampling. Bottom left: the marginal posterior over the number of companions, $P(N)$, i.e. the fraction of draws falling in each of the three top panels. The purple outline is the categorical prior on the integer-valued parameter N, $(0.500,0.278,0.144,0.078)$ for $N=0$\u20133 (Section\u00a0II.6). In this case, one or more companions are adopted by all draws in the posterior. Bottom right: the inferred companion rate binned over all draws, which is invariant to the companion ordering.\nWe draw the reader\u2019s eye to how the 2 and 3 companion draws loosen the constraints on the \u201cfirst\u201d companion; something that would not captured by subtracting off a best-fit solution and re-fitting."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12841v1/HIP88414_mass_period-1.png",
+                "caption": "Figure 6: The posterior for HD\u00a0164604 (HIP\u00a088414), illustrating marginalization over the number of companions (0\u2013$3$). Left to right: draws with one, two, and three companions. For the panels with more than one companion, we have coloured the draws blue, red, then green according to the astrometric and RV S$N$R of the companion. We emphasize, however, that this ordering is not inherent to the posterior itself, and no ordering prior is applied during sampling. Bottom left: the marginal posterior over the number of companions, $P(N)$, i.e. the fraction of draws falling in each of the three top panels. The purple outline is the categorical prior on the integer-valued parameter N, $(0.500,0.278,0.144,0.078)$ for $N=0$\u20133 (Section\u00a0II.6). In this case, one or more companions are adopted by all draws in the posterior. Bottom right: the inferred companion rate binned over all draws, which is invariant to the companion ordering.\nWe draw the reader\u2019s eye to how the 2 and 3 companion draws loosen the constraints on the \u201cfirst\u201d companion; something that would not captured by subtracting off a best-fit solution and re-fitting."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12841v1/HIP88414_mass_period-2.png",
+                "caption": "Figure 6: The posterior for HD\u00a0164604 (HIP\u00a088414), illustrating marginalization over the number of companions (0\u2013$3$). Left to right: draws with one, two, and three companions. For the panels with more than one companion, we have coloured the draws blue, red, then green according to the astrometric and RV S$N$R of the companion. We emphasize, however, that this ordering is not inherent to the posterior itself, and no ordering prior is applied during sampling. Bottom left: the marginal posterior over the number of companions, $P(N)$, i.e. the fraction of draws falling in each of the three top panels. The purple outline is the categorical prior on the integer-valued parameter N, $(0.500,0.278,0.144,0.078)$ for $N=0$\u20133 (Section\u00a0II.6). In this case, one or more companions are adopted by all draws in the posterior. Bottom right: the inferred companion rate binned over all draws, which is invariant to the companion ordering.\nWe draw the reader\u2019s eye to how the 2 and 3 companion draws loosen the constraints on the \u201cfirst\u201d companion; something that would not captured by subtracting off a best-fit solution and re-fitting."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12841v1/figures/hd164604_pn.png",
+                "caption": "Figure 6: The posterior for HD\u00a0164604 (HIP\u00a088414), illustrating marginalization over the number of companions (0\u2013$3$). Left to right: draws with one, two, and three companions. For the panels with more than one companion, we have coloured the draws blue, red, then green according to the astrometric and RV S$N$R of the companion. We emphasize, however, that this ordering is not inherent to the posterior itself, and no ordering prior is applied during sampling. Bottom left: the marginal posterior over the number of companions, $P(N)$, i.e. the fraction of draws falling in each of the three top panels. The purple outline is the categorical prior on the integer-valued parameter N, $(0.500,0.278,0.144,0.078)$ for $N=0$\u20133 (Section\u00a0II.6). In this case, one or more companions are adopted by all draws in the posterior. Bottom right: the inferred companion rate binned over all draws, which is invariant to the companion ordering.\nWe draw the reader\u2019s eye to how the 2 and 3 companion draws loosen the constraints on the \u201cfirst\u201d companion; something that would not captured by subtracting off a best-fit solution and re-fitting."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12841v1/HIP88414_mass_period_intensity.png",
+                "caption": "Figure 6: The posterior for HD\u00a0164604 (HIP\u00a088414), illustrating marginalization over the number of companions (0\u2013$3$). Left to right: draws with one, two, and three companions. For the panels with more than one companion, we have coloured the draws blue, red, then green according to the astrometric and RV S$N$R of the companion. We emphasize, however, that this ordering is not inherent to the posterior itself, and no ordering prior is applied during sampling. Bottom left: the marginal posterior over the number of companions, $P(N)$, i.e. the fraction of draws falling in each of the three top panels. The purple outline is the categorical prior on the integer-valued parameter N, $(0.500,0.278,0.144,0.078)$ for $N=0$\u20133 (Section\u00a0II.6). In this case, one or more companions are adopted by all draws in the posterior. Bottom right: the inferred companion rate binned over all draws, which is invariant to the companion ordering.\nWe draw the reader\u2019s eye to how the 2 and 3 companion draws loosen the constraints on the \u201cfirst\u201d companion; something that would not captured by subtracting off a best-fit solution and re-fitting."
+            }
+        ],
+        "abstract": "We present uniform posteriors indicating the presence or absence of stellar and planetary companions over a sample of $10^5$ stars in Hipparcos and Gaia. We use the \"G23H\" catalog to fit a model that incorporates absolute astrometry constraints from Hipparcos, Gaia DR2, and Gaia DR3, as well as Gaia DR3 photometry, excess RV variability, and includes information from the presence or absence of common-proper motion companions. The resulting posteriors can be used directly to detect new companions, to target RV and imaging follow-up observations, and for downstream demographics studies. We highlight example detections of known and new candidate companions and the companion detection rate across the HR diagram. The modelling approach we present is directly applicable to Gaia DR4 epoch astrometry and RVs. All posteriors are provided as a machine-readable catalog and user-accessible website this http URL.\n    "
+    },
+    "2611.12846": {
+        "title": "Forward modeling linear variable filter data: High resolution PAH and Paschen-$\u03b1$ maps from SPHEREx",
+        "authors": [
+            "Andrew K. Saydjari",
+            "Connor Hainje",
+            "Benjamin Dodge",
+            "Philipp Frank",
+            "David W. Hogg",
+            "Susan E. Clark"
+        ],
+        "keywords": "",
+        "figures": [
+            {
+                "url": "https://arxiv.org/html/2611.12846v1/figures/rosette_methodcompare_full.png",
+                "caption": "Figure 1: A demonstration of our forward-modeling approach applied to the Rosette nebula: (top right) surface brightness of our continuum model at 3.29\u2009\u00b5m and (bottom) the 3.3\u2009\u00b5m polycyclic aromatic hydrocarbon (PAH) line surface brightness. For comparison, a straightforward band average of observations near 3.3\u2009\u00b5m minus continuum bands straddling the line is shown in the top left."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12846v1/figures/rosette_methodcompare_small.png",
+                "caption": "Figure 2: Same as Figure\u00a01, but zoomed in to the middle left."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12846v1/figures/pixel_schematic_rosette.png",
+                "caption": "Figure 3: The LVFit model of one map pixel in the Rosette nebula (Index 5832529105, HEALPix $N_{\\rm side}=2^{15}$, NESTED). Left: The pixel of interest (black) and its neighbors (gray), with the $2\\sigma$ limit circle used to decide on including measurements. Every SPHEREx measurement within the field of view that passes our wavelength cut for the PAH model is shown, colored by its central wavelength. Measurements inside the circle that enter the fit are drawn as circles, with areas that scale with their spatial weight. Measurements not included in the fit are drawn as squares of one size. Right: The same 80 measurements in spectral space with their effective uncertainties. We show the total model (black) and its components as the LVF would see them. Open circles mark the model evaluated with the response of each individual measurement. The positions of the PAH features and of the three strongest hydrogen recombination lines in the window are marked above the panel. Pf$\\delta$ falls on the 3.3\u2009\u00b5m feature. The lower panel shows the normalized residuals. For only two of the 80 measurements do the effective uncertainties include a down-weighting due to the iteratively reweighted least squares procedure of Section\u00a0III.1.1."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12846v1/figures/moon_edge.png",
+                "caption": "Figure 4: Identifying the effect of scattered moonlight on the right edge of the long-wavelength detectors. Left, top: Definition of the angle $\\theta$ of the Moon from the boresight and the Moon\u2019s position angle $\\varphi$ on the sky relative to the outward normal of the right detector edge. Left, bottom: Excess of a block of pixels at a given distance from the right edge over a linear trend fit to the interior pixels of the same wavelength (more than 128 pixels from either edge), for detectors 4, 5, and 6, as the median over the exposures in the core of the Moon lobe (dotted outlines: bins with a median excess above 0.05 MJy sr-1 and at least 20 exposures) minus the median over 4,000 random exposures outside the geometric flag. Each point sits at the center of its block, and the blocks widen with distance from the edge, from 8 to 128 pixels wide. Right: The excess for the outermost 8 pixels of detector 6, for all 248,000 detector 6 exposures, binned by $\\varphi$ ($2\\fdg 5$ bins) and $\\theta$ ($5\\arcdeg$ bins) (gray indicates bins with $<5$ exposures). We use a logarithmic color stretch above 0.02 MJy sr-1. The dashed rectangle is the geometric flag used in this work ($\\theta<60\\arcdeg$, $\\varphi$ from $-20\\arcdeg$ to $+70\\arcdeg$)."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12846v1/figures/rosette_chi2dist.png",
+                "caption": "Figure 5: Goodness of fit of our linear forward PAH model for the Rosette nebula. Top: Map of $\\chi^{2}/{\\rm dof}$ of each pixel, using the pipeline uncertainties without a model-error floor. Here the dof is the number of measurements contributing to a pixel minus the six model parameters, which has a median of 75, and $\\chi^{2}$ is simply summed over all of the measurements contributing to the pixel. Pixels masked for any reason (Section\u00a0III.5) are gray. Bottom: Histogram of $\\chi^{2}/{\\rm dof}$ for all pixels (blue) and for unmasked pixels (magenta). The\ndashed curves show the histograms expected if the $\\chi^{2}$ of every pixel followed a $\\chi^{2}$ distribution given its own number of dof. The dotted line marks the unmasked median of $0.89$ and the dashed line marks $\\chi^{2}/{\\rm dof}=1$."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12846v1/figures/rosette_multipanelw_pah.png",
+                "caption": "Figure 6: Overview of a few regions of interest in the Rosette nebula indicating their location on our full Rosette image and providing zoom-in subpanels for each region: the northern shell (top right), the western shell (middle right), and, along the bottom row from left to right, the central core of the Rosette molecular cloud [15, RMC;], and the embedded clusters PL02 and PL01 [84, 93]. Each subpanel has an independent log color scale from the 0.1\u201399.9th percentile, with brighter colors representing more emission."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12846v1/figures/rosette_pa_halpha.png",
+                "caption": "Figure 7: The LVFit Pa$\\alpha$ SPHEREx map (left) compared with H$\\alpha$ from the star-removed MDW H$\\alpha$ Sky Survey DR1 mosaic [3] (center), and their ratio $\\log_{10}[(I_{{\\rm Pa}\\alpha}/I_{{\\rm H}\\alpha})/0.254]$ (right), where 0.254 is the median ratio over the displayed region. The H$\\alpha$ surface brightness uses the nominal MDW conversion of 86.7\u2009R per MJy\u2009sr-1 and includes [N\u00a0II] and continuum contributions, so its absolute level is uncertain at the $\\sim 10$% level. Red regions toward the Rosette molecular cloud and along dark globules indicate enhanced extinction of H$\\alpha$. The MDW stacks have a PSF FWHM of $\\sim 6.4$\u2013$8\\farcs 2$ (median over stars in the four fields used), comparable to the $8\\farcs 5$ FWHM angular resolution of our map."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12846v1/figures/rosette_4_3_ratio.png",
+                "caption": "Figure 8: PAH 3.3\u2009\u00b5m (top left) and 3.4\u2009\u00b5m (bottom left) line maps for the Rosette nebula. The aliphatic-to-aromatic ratio $\\log_{10}[(I_{3.4}/I_{3.3})/0.434]$ is shown in the top right, where 0.434 is the median ratio over the displayed region. Red regions indicate locations with enhanced 3.4\u2009\u00b5m compared to the average. Bottom right is an RGB composite (R: Pa$\\alpha$, G: 3.3\u2009\u00b5m, B: 3.4\u2009\u00b5m, each normalized by its median and asinh-stretched) which shows how the ionized shell traced by Pa$\\alpha$ lies inside the PAH-emitting photodissociation region."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12846v1/figures/CorAus.png",
+                "caption": "Figure 9: A portion of the Corona Australis dust cloud used to compare (left) the 3.3\u2009\u00b5m PAH map from LVFit and (right) the WISE 12\u2009\u00b5m PAH map [74]. To facilitate comparison, we smooth the LVFit map to match the $15\\arcsec$ FWHM angular resolution of Meisner and Finkbeiner [74]."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12846v1/figures/cygX_pah.jpg",
+                "caption": "Figure 10: An LVFit map of Cygnus X in Galactic coordinates showing the sum of the 3.3 and 3.4\u2009\u00b5m PAH emission, $I_{3.3}+I_{3.4}$, on a log color scale spanning the 2nd\u201399.9th percentiles. This field was studied by Hora et al. [51]. About a third of the pixels in this crowded field are masked (mostly faint stars) and infilled."
+            }
+        ],
+        "abstract": "Polycyclic aromatic hydrocarbon (PAH) emission is a powerful tool for the study of the interstellar medium (ISM) in both Galactic and extragalactic contexts. It can reveal ionization state, radiation field, metallicity, composition, and ISM structure as sculpted by processes like turbulence and stellar feedback. Here we use NASA's SPHEREx to produce clean, high-resolution PAH maps at spectral resolution R $\\sim$ 35 (compared to WISE at R $\\sim$ 2). Prior treatments of the SPHEREx linear variable filter data seek to convert them to more conventional band-averaged maps that can leave striping artifacts associated with spatially variable wavelength sampling, especially at emission lines. In contrast, we deliver a scalable forward-modeling method capable of generating high-quality all-sky SPHEREx emission-line maps at 8.5 arcsec FWHM angular resolution (on 6.4 arcsec pixels), while naturally producing maps without visible striping. We reformat the data into a pixel-level database, mask stellar contamination, and infill missing pixels with a conditional, data-driven, anisotropic Gaussian process. We apply our method to produce 3.3 $\\mu$m and 3.4 $\\mu$m PAH and Paschen-$\\alpha$ emission maps of a set of fields spanning a range of Galactic and extragalactic conditions including the Rosette nebula, the Corona Australis molecular cloud, M33, and M31. We demonstrate the quality and synergies of our SPHEREx 3.3 $\\mu$m PAH maps by comparisons with other available gas and dust tracer maps and achieve sensitivities up to $\\sigma(I_{3.3}) = 2.7 \\times 10^{-8}$ erg s$^{-1}$ cm$^{-2}$ sr$^{-1}$. We estimate that a two-year extension of the SPHEREx survey, with modest modifications to the scanning strategy, would match or exceed the PAH sensitivity of WISE over the whole sky.\n    "
+    },
+    "2611.12849": {
+        "title": "The Tierras Observatory: Ultra-Precise Photometry for Characterizing Exoplanets and Their Host Stars",
+        "authors": [
+            "Juliana Garc\u00eda-Mej\u00eda",
+            "Patrick Tamburo",
+            "David Charbonneau",
+            "Daniel Fabricant",
+            "Jonathan M. Irwin",
+            "Robert Fata",
+            "Joseph M. Zajac",
+            "Peter E. Doherty",
+            "Brian McLeod",
+            "Pascal Fortin",
+            "Michael L. Calkins",
+            "Gilbert A. Esquerdo"
+        ],
+        "keywords": "",
+        "figures": [
+            {
+                "url": "https://arxiv.org/html/2611.12849v1/scope_and_ridge.png",
+                "caption": "Figure 1:  Left: The 1.3-m telescope pictured inside its dome with the fully installed Tierras instrument, ca. 2024; compare to 39 where the telescope is shown prior to instrument installation. Right: The FLWO ridge. From left to right: the Tillinghast 1.5-m telescope (hosting the TRES and FAST spectrographs, Szentgyorgyi & Fur\u00e9sz 82, Fabricant et\u00a0al. 36), the 1.2-m telescope (hosting KeplerCam, Szentgyorgyi et\u00a0al. 83), and the 1.3-m Tierras Observatory. MINERVA [92], HAT-5 [8], and MEarth [49] are also located on the ridge but are not shown in the frame."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12849v1/filter_mosaic_v2.png",
+                "caption": "Figure 2: Left: Transmission of the Tierras custom bandpass filter as a function of wavelength, plotted on a logarithmic scale. The as-built filter response (solid pink), measured by Asahi Spectra Co. at the center of the filter substrate, is shown alongside the for-fabrication design model (dashed pink). The filter is centered at $\\lambda_{C}\\approx 863.5$\u00a0nm with a FWHM of $40.2$\u00a0nm, and achieves out-of-band attenuation of $T\\leq 0.1\\%$ for $300$\u2013$834$\u00a0nm and $893$\u2013$1100$\u00a0nm (dotted line). The telluric H2O spectrum (gray) is shown for reference, scaled to a precipitable water vapor level of $9.592$\u00a0mm. Right: The Tierras bandpass filter ($180.3$\u00a0mm, fused silica) installed in its aluminum flexure mount ($228$\u00a0mm outer diameter). The three axial flexures and one radial flexure that kinematically support the filter substrate are labeled, along with the two radial hard points that constrain lateral motion. The scale bar indicates the outer diameter of the bezel."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12849v1/CAD_model_install_v2.png",
+                "caption": "Figure 3: Graphical overview of the Tierras instrument and its installation. Left: CAD cross-section of the full Tierras instrument installed on the 1.3-m telescope. From top to bottom, the telescope\u2019s native $f/13.5$ beam (not shown) crosses the primary mirror hole (white), passes through the Tierras filter (pink) and lenses 1\u20134 (purple), producing an $f/5.6$ beam. The beam is imaged at the CCD chip (yellow), which is housed in a vacuum chamber inside the dewar (black). Components of the 1.3-m telescope are shown with reduced opacity, whereas opto-mechanical components of our instrument are shown in white. The instrument interface plate is shown in silver. Top right: The focal reducer and field flattener fully integrated with the CCD dewar, resting atop our custom installation cradle and positioned underneath the primary mirror of the telescope (not visible in this view), immediately prior to installation. Bottom right: The Tierras instrument following installation on the 1.3-m telescope. Only the bottom of the CCD dewar is visible from this vantage point, as the rest of the instrument is nested immediately underneath the primary mirror."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12849v1/ccd_mosaic_v2.png",
+                "caption": "Figure 4: Left: QE of the Tierras deep-depletion CCD231-84 model curve provided by Teledyne (yellow), together with their acceptance measurements of our own device, serial 13061-03-01 (open squares). For comparison we show the back-illuminated, midband-coated\ne2v CCD42-40 used by MEarth (solid grey; Nutzman & Charbonneau 63, Irwin et\u00a0al. 49) and a thinned midband variant of the CCD231-84 itself (dotted grey). Averaged across the Tierras bandpass (shaded pink), the deep-depletion device delivers 1.7 to 2.2 times the QE of the two comparison devices. Right: The Tierras CCD photographed during integration at\nSpectral Instruments in 2021 October, prior to installation in the dewar. The silicon masks that cover the two storage regions flank the central imaging area and are held via Invar mounts. They are aligned to within one pixel. The masks appear bright because the photograph predates their Aeroglaze Z306 coating; coated they are better than $99.999\\%$ opaque."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12849v1/baffle_composite.png",
+                "caption": "Figure 5: The Tierras baffle system and its impact on sky background. Top panel: the upper (M2) baffle pictured from its side. Middle panel: the lower (M1) baffle with cable assemblies visible, and the primary mirror underneath it. Bottom panel: median sky background rate as a function of lunar illumination for the three baffle configurations: no baffles (blue circles, 6 nights, 4303 exposures), telescope baffles only (orange squares, 18 nights, 6042 exposures), and telescope plus lens-edge baffles (green triangles, 19 nights, 8762 exposures). Light gray markers show individual exposures, while the bold curves show medians computed within 12 equal-width lunar-illumination bins from 0 to 1. We omit bins containing fewer than 10 exposures. The shaded bands indicate the 16th\u201384th percentile range of sky values within each bin."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12849v1/software_architecture_v7.svg",
+                "caption": "Figure 6: The Tierras computing and control software architecture, laid out following the C4 model convention [23]. Our two main computers (the Observatory Control Server and the TCSGalil Control PC) are delimited by dashed boxes. Hardware sub-systems are shown in light gray, software processes in white, data stores as cylinders, and the on-disk catalog as a folder icon. The Observatory Control Server hosts two daemon processes called teld (telescope and dome control plus weather monitoring) and sicamd (camera control). Both processes publish status updates to /telrun, which is a shared RAM filesystem used for inter-process communication. Our nightly observations are orchestrated by the do_observing script, which reads status from /telrun and sends commands to both daemons via JSON-RPC over Unix sockets. do_observing coordinates nightly observations via its sub-modules autoflat, autoobserve, autofocus, and imastrom. Three auxiliary processes monitor /telrun for changes: telemd (telemetry logging), wsd (live web status server), and statusmonitor (operator GUI). Finally, do_observing writes logs and telemetry data to the local SSD drives, whereas raw FITS images are written directly by sicamd to the local storage. A daily cron job is used to transfer data from our local storage to the CfA network storage."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12849v1/inner_baffle_mosaic.png",
+                "caption": "Figure 7: Diagnosis and correction of intra-instrument scattered light affecting Tierras images taken between commissioning and 2025 August. (a) A Tierras image taken prior to the installation of lens-edge baffles interior to the focal reducer and field flattener. This field lies near a bright star ($\\beta$\u00a0Cas, $V=2.3$\u00a0mag) and exhibits two compounding scattered light artifacts: a radial decrease in background flux away from the image center (present in all Tierras images prior to the optics upgrade), and a bright glint caused by proximity to the bright field star. (b) Ray trace of the Tierras corrector optics illustrating the source of the scattered light. We trace rays at semi-field angles of $0.302^{\\circ}$ (blue), $0.330^{\\circ}$ (red), and $-0.357^{\\circ}$ (green), all of which exceed Tierras\u2019s maximum design semi-field angle of $u_{\\mathrm{pr}}=0.28^{\\circ}$ (\u00a7II.2.4). These rays cut on and off at the leading edge of Lens\u00a03, where we model the surface as a $45^{\\circ}$ chamfer (odd asphere) to approximate the as-built edge geometry, which we found to be rounded and polished rather than a sharp bevel. Inset: the chamfer of Lens\u00a03 as inspected during the optical upgrade. (c) The same field as panel\u00a0(a) following installation of the lens-edge baffles. Both the radial scattered light gradient and the glint artifact are effectively removed. (d) A lens-edge baffle coated in IR flocking installed above Lens\u00a03, pictured during the 2025 upgrade."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12849v1/figures/seeing.png",
+                "caption": "Figure 8: Top: The distribution of major-axis seeing FWHM values for images taken since 2023. The median seeing is 2.2\u2033. Bottom: The distribution of the ratio between the major and minor FWHM axes. The median ratio is 1.2, and is attributable to tracking errors."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12849v1/figures/flux_calibration.png",
+                "caption": "Figure 9: Calibration of average Tierras fluxes for sources in the Kepler-1658 field versus their Gaia $G_{\\text{RP}}$ magnitudes. The blue line shows a fitted function of the form $9.7e8\\cdot 10^{-G_{\\text{RP}}/2.5}$ in units of e-s-1."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12849v1/figures/intranight_precision.png",
+                "caption": "Figure 10: Standard deviation of sources in the Kepler-1658 field across a single night of continuous observations at different degrees of binning. Black points show measured light curve standard deviations in ppt, while the magenta line shows $\\overline{\\sigma}_{\\mathrm{rel}}$ (Equation\u00a020). In the top-left panel, the individual components that contribute to $\\overline{\\sigma}_{\\mathrm{rel}}$ are shown; they are omitted in the following panels for clarity. In each panel, an error bar in the lower right indicates the median fractional uncertainty on the light curve standard deviation across all sources as determined through a bootstrap simulation as described in the text. The stars indicate significantly variable sources whose light curves we show in Figure\u00a011. Top left: native cadence light curves. Top right: 5-minute bins. Bottom left: 10-minute bins. Bottom right: 20-minute bins."
+            }
+        ],
+        "abstract": "The Tierras Observatory is a fully robotic 1.3-m telescope at the Fred Lawrence Whipple Observatory in southern Arizona. Tierras achieves sub-part-per-thousand (ppt) photometric precision on two timescales: intra-night, to detect and characterize transits of planets around nearby mid-to-late M dwarfs, and night-to-night across an observing season, to characterize the long-term variability of their host stars. We describe the facility and instrument design, our photometric pipeline, and our on-sky performance. We present the first ground-based light curves with sub-ppt precision over timescales of months. This precision enables a range of exoplanet-related science, including the measurement of host star rotation periods, the detection of long-period transits, and the discovery of additional terrestrial planets in known M dwarf systems.\n    "
+    }
+}

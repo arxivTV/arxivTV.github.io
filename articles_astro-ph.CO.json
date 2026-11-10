@@ -1,1 +1,1101 @@
-{}
+{
+    "2611.10084": {
+        "title": "Optimal summary statistics to constrain w0waCDM with the DESI BGS",
+        "authors": [
+            "Simon Bouchard"
+        ],
+        "keywords": "",
+        "figures": [
+            {
+                "url": "https://arxiv.org/html/2611.10084v1/fig1.svg",
+                "caption": "Figure 1: \nCo$n_{s}$traint on the Cosmological parameters (resp. $\\omega_{cdm}$, $\\sigma_{8}$ and ns), marginalized over the astrophysical parameters. The blue contour shows the DESI DR-1 baseline with only the 2PCF constraint and a magnitude cut at $Mr<-21.35$; the red contour shows the constraint of the 2PCF with the small scales accessed trough the emulator with a magnitude cut at $Mr<-20$; the green contour shows the final constraint, adding the density-split model.\n"
+            }
+        ],
+        "abstract": "The Dark Energy Spectroscopic Instrument (DESI) is the first stage-4 spectroscopic instrument installed on the 4-m Mayall Telescope at Kitt Peak National Observatory in Arizona. It contains 5000 robotically positioned fibers, allowing the measurement of as many galaxy spectra in one observation (~20 minutes). The data acquisition (2021--2028) aims at constraining the cosmological parameters, and especially the parameters describing the evolution of the dark energy with time. However, standard clustering analysis based on 2-point statistics only capture the Gaussian information of the matter density field, while the analytical models used to match these statistical probe are limited to quasi-linear scales, as they are based on perturbation theory. Therefore, the non-Gaussian and non-linear information of the density field is not exploited. To go beyond these limitations, several alternative clustering methods have been developed that rely on a simulation-based pipeline. In this presentation, we focus on the DESI Bright Galaxy Survey, a magnitude-limited sample of bright galaxies in the redshift range of 0.1 < z < 0.4. We present how accessing the non-linear and non-Gaussian information of the density field allows around 40% improvement on the constraints of some $\\Lambda$CDM parameters. We are also extending the method to constrain w0waCDM in order to improve DESI's sensibility at low redshift where the Universe is dominated by dark energy.\n    "
+    },
+    "2611.10090": {
+        "title": "Gravitational Production of Non-minimally Coupled Vector Dark Matter in Warm Inflation",
+        "authors": [
+            "Phongsakorn Sereewat"
+        ],
+        "keywords": "",
+        "figures": [
+            {
+                "url": "https://arxiv.org/html/2611.10090v1/wi_cmb_constraints.svg",
+                "caption": "Figure 1: CMB co$n_{s}$traints on warm inflation with $V=\\lambda\\phi^{4}$ and $\\Upsilon=C_{T}T$.\nPhysical models lie on the yellow line $\\Delta_{\\mathcal{R}}^{2}=A_{s}$. Shaded regions are excluded\nby ns (Planck $2\\sigma$), $r>0.036$, and $T_{*}<H_{*}$. The outlined segment is allowed;\nA\u2013D mark the benchmark models."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.10090v1/wifi.svg",
+                "caption": "Figure 2: Background evolution in warm inflation with $V=\\lambda\\phi^{4}$ and $\\Upsilon=C_{T}T$, for $Q_{0}=10^{-2}$, $\\lambda=1.13\\times 10^{-15}$ (solid; $n_{s}=0.966$, $r=7.5\\times 10^{-3}$) and $Q_{0}=1$, $\\lambda=7.29\\times 10^{-16}$ (dashed; $n_{s}=0.968$, $r=3.2\\times 10^{-4}$). Inflation ends when $\\epsilon_{H}=1$, 60 e-folds after the pivot scale exits the horizon, and radiation domination begins when $\\epsilon_{H}\\simeq 2$."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.10090v1/feynman_xi.svg",
+                "caption": "F$i$gure 3: Graviton-mediated production of vector dark matter from the SM thermal bath,\n$i\\,\\bar{i}\\to XX$, where i denote$s$ an SM scalar, fermion or gauge boson.\n(a)\u00a0s-channel graviton exchange: the graviton $h_{\\muu}$ couples to the\nenergy-momentum tensors $T_{i}^{\\muu}$ and $T_{X}^{\\alpha\\beta}$ with strength $1/M_{P}$.\n(b)\u00a0Contact interaction induced by the non-minimal coupling\n$\\xi G_{\\muu}X^{\\mu}X^{u}$; since $G_{\\muu}=T^{i}_{\\muu}/M_{P}^{2}$ on the graviton\nsourced by the bath, the graviton pole cancels, leaving the local vertex\n$(\\xi/M_{P}^{2})\\,T^{i}_{\\muu}X^{\\mu}X^{u}$."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.10090v1/yield_xi_vectorDM.svg",
+                "caption": "Figure 4: Gravitational freeze-in of vector DM from the SM bath for $\\xi=0$ (thick) and\n$\\xi=1/6$ (faint), in warm inflation with $Q_{0}=1$, $T_{e}=9.1\\times 10^{-6}M_{P}$ (red) and\ncold Starobinsky inflation with $T_{\\max}=T_{e}$ (blue). Solid, dash-dotted and dashed lines\ncorrespond to $m_{$X$}=0.1,\\,1,\\,5\\,T_{e}$. Top: yield $Y_{X}$. Middle: normalized comoving number\n$\\hat{\\mathcal{N}}_{X}$. Bottom: normalized production rate per e-fold $\\hat{\\mathcal{I}}_{X}$.\nDotted lines mark the end of inflation ($N=0$) and $\\rho_{r}=\\rho_{\\phi}$ in cold inflation.\nFor $m_{X}=0.1\\,T_{e}$ and $\\xi=1/6$, X has a transient gradient instability in cold\ninflation at $0.16\\lesssim N\\lesssim 0.63$."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.10090v1/ratio_xi.svg",
+                "caption": "Figure 5: Ratio of the freeze-in rate from the SM bath with non-minimal coupling $\\xi$ to\nthe minimal one, $\\mathcal{R}_{\\xi}/\\mathcal{R}_{0}$, as a function of $\\xi$.\n(a)\u00a0Light dark matter, $m_{$$X$$}=0.1\\,T$; (b)\u00a0heavy dark matter, $m_{X}=20\\,T$.\nSolid lines show the analytic limits of Eq.\u00a0(48) and dashed lines the exact\nthermal integral. For light X the longitudinal mode enhances the rate as\n$\\propto\\xi^{2}T^{4}/m_{X}^{4}$, while for heavy X destructive interference between graviton\nexchange and the contact term suppresses it near $\\xi\\simeq 0.5$."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.10090v1/relic_freezein.svg",
+                "caption": "Figure 6: Relic abundance of $X$ from gravitational freeze-in, $\\Omega_{X}h^{2}/0.12$, as a function of\n$m_{X}/T_{e}$ for the CMB-allowed warm-inflation models, $\\xi=0$. Colored curves show the benchmarks\n$Q_{0}=10^{-4},10^{-2},10^{-1},1$, and the shaded band spans all models with\n$10^{-4}\\leq Q_{0}\\leq 1$. Open circles mark $\\Omega_{X}h^{2}=0.12$; the inset enlarges the heavy-mass\nbranch, $m_{X}\\gtrsim T_{e}$."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.10090v1/relic_freezein_xi.svg",
+                "caption": "Figure 7: Relic abundance of vector DM from freeze-in from the SM bath in warm inflation\nwith non-minimal coupling $\\xi$, for $Q_{0}=10^{-2}$ (orange, $T_{e}=9.8\\times 10^{-5}M_{P}$) and\n$Q_{0}=1$ (blue, $T_{e}=9.1\\times 10^{-6}M_{P}$). Dotted, solid, dash-dotted and dashed lines\ncorrespond to $\\xi=10^{-16},\\,10^{-12},\\,10^{-6}$ and $0.5$. Open circles mark\n$\\Omega_{X}h^{2}=0.12$, and the vertical dotted line marks $m_{X}=T_{e}$."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.10090v1/scan_mX_xi_allQ.svg",
+                "caption": "Figure 8: Allowed region in the $(m_{X},\\xi)$ plane for vector DM produced by gravitational\nfreeze-in from the SM bath in warm inflation. Thin colored lines mark\n$\\Omega_{X}h^{2}=0.$1$2$ for the CMB-compatible models $Q_{0}=10^{-4}$, $10^{-2}$, $10^{-1}$ and\n1. The red region is excluded by overproduction for at least one $Q_{0}$, and the thick\nblack line bounds the region allowed for all $Q_{0}$ (white). The $\\xi$ axis is logarithmic\nfor $|\\xi|>10^{-20}$ and linear below."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.10090v1/figB_cgpp_WI_vs_CI.svg",
+                "caption": "Figure 9: Gravitational production spectra $\\tilde{$$k$$}^{3}n_{k}$ of a minimally coupled ($\\xi=0$) Proca field for (a) warm inflation with $Q_{0}=1$ and (b) Starobinsky cold inflation with $T_{\\max}=T_{e}$, in units $a_{e}=H_{e}=1$. Colors label $\\tilde{m}=m_{X}/H_{e}$; solid (dashed) lines show the longitudinal (transverse) modes. Dotted lines indicate the asymptotic slopes. The longitudinal spectrum is suppressed at low k, and in warm inflation it is cut off exponentially at high k."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.10090v1/cgpp_WI_vs_CI.svg",
+                "caption": "Figure 10: CGPP of a minimally coupled Proca field in warm inflation ($Q_{0}=1$, red) and\nStarobinsky cold inflation with $T_{\\max}=T_{e}$ (blue). (a) Comoving number in units\n$a_{e}=H_{e}=1$; dashed lines show Eq.\u00a0(74). (b) Relic abundance versus $m_{X}$,\neach model with its CMB-normalized $H_{e}$; open circles mark $\\Omega_{X}h^{2}=0.12$. In cold\ninflation the oscillation-averaged reheating background is used, so production by the\noscillating inflaton is not included."
+            }
+        ],
+        "abstract": "We study the purely gravitational production of a massive vector dark matter with a non-minimal coupling to the Einstein tensor, $\\xi G_{\\muu}X^\\mu X^u$, in warm inflation. The background, $V=\\lambda\\phi^4$ with a dissipation coefficient linear in temperature, is constrained by CMB observations and parametrized by the dissipation ratio $10^{-4}\\le Q_0\\le1$. We consider both unavoidable production channels: freeze-in from the Standard Model bath through graviton exchange, and cosmological gravitational particle production (CGPP). For freeze-in, we compute the scattering amplitudes including the contact interaction induced by $\\xi$, which enhances the production of light dark matter through the longitudinal mode and suppresses that of heavy dark matter through destructive interference. For CGPP, the slow-roll parameter is not small during warm inflation, which enhances the production of light dark matter by up to three orders of magnitude relative to cold inflation. Combining both channels, CGPP excludes most of the light freeze-in branch, leaving $m_X\\lesssim2.4\\times10^{-5}$ GeV, a narrow window around $10^{10}$ GeV for strong dissipation, and $m_X\\gtrsim10^{14}$--$10^{15}$ GeV. Only the heavy branch remains viable for all $|\\xi|\\lesssim1$.\n    "
+    },
+    "2611.10228": {
+        "title": "FAIR Universe Weak Lensing ML Uncertainty Challenge: Dataset and Cosmological Inference Competition",
+        "authors": [
+            "Biwei Dai",
+            "Po-Wen Chang",
+            "Erwan Allys",
+            "Wahid Bhimji",
+            "Boris Bolliet",
+            "Thomas Borrett",
+            "Paolo Calafiura",
+            "Ragansu Chakkappai",
+            "Yuan-Tang Chou",
+            "No\u00e9 Dia",
+            "Sascha Diefenbacher",
+            "Ibrahim Elsharkawy",
+            "Steven Farrell",
+            "Sacha Guerrini",
+            "Isabelle Guyon",
+            "Chris Harris",
+            "Shih-Chieh Hsu",
+            "Wassim Kablan",
+            "Fran\u00e7ois Lanusse",
+            "Celia Lecat",
+            "Julia Linhart",
+            "Yuezhou Ma",
+            "Benjamin Nachman",
+            "Shubhojit Naskar",
+            "Andy Nilipour",
+            "Laurence Perreault-Levasseur",
+            "S\u00e9bastien Pierre",
+            "Benjamin Remy",
+            "David Rousseau",
+            "Uro\u0161 Seljak",
+            "Haonan Shangguan",
+            "Sammy Nasser Sharief",
+            "Yuanxu Sun",
+            "Andreas Tersenov",
+            "Ihsan Ullah",
+            "Huikun Weng",
+            "Licong Xu",
+            "Justine Zeghal",
+            "Yulei Zhang",
+            "Hang Zhou"
+        ],
+        "keywords": "",
+        "figures": [
+            {
+                "url": "https://arxiv.org/html/2611.10228v1/ps_comparison_ot_ln_chall.svg",
+                "caption": "(a) Convergence power spectra from the challenge, LogNormal, and OT-emulated datasets at the same cosmology."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.10228v1/patch_ot_chall_map.png",
+                "caption": "(b) Convergence map comparison: LogNormal (left), OT-emulated (middle), and challenge (right). A $128\\times 128$ patch is shown."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.10228v1/fig_data_shift.png",
+                "caption": "Figure 3: Example noiseless and noisy weak lensing convergence maps. The top panel and bottom panel show two different maps generated with different parameters of systematic effects and random seed, assuming the same cosmological parameters."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.10228v1/cosmology.svg",
+                "caption": "Figure 4: The $101$ cosmological parameters ($\\Omega_{m},S_{8}$) in our suite of weak lensing simulations."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.10228v1/fig_baseline_comp.png",
+                "caption": "Figure 5: A comparison between the posterior distributions inferred by our baseline methods. The neural network-based approaches can estimate the parameters more accurately."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.10228v1/methodology_distribution.svg",
+                "caption": "Figure 6: A summary of the number of submissions for the final evaluation in methodology categories."
+            }
+        ],
+        "abstract": "Weak gravitational lensing is a powerful cosmological probe that enables direct mapping of the matter distribution and precise constraints on the fundamental parameters governing structure formation in the universe. In recent years, machine learning has shown strong potential for extracting cosmological information from weak-lensing data beyond traditional summary statistics. However, progress has been limited by the lack of standardized benchmarks that capture the complexity of the dataset, simulator imperfections, and various systematic biases encountered in realistic analyses. To address this gap, we present the FAIR Universe Weak Lensing Machine Learning Uncertainty Challenge, one of the NeurIPS 2025 competitions, as a benchmark dataset and evaluation study. Our dataset reflects realistic weak-lensing observations, incorporating multiple systematic biases, and thereby providing a controlled testbed for robust cosmological inference under uncertainties. We summarize the main methodological advances developed by the winners of our challenge, including data augmentation with conditional optimal transport, an AI-agent-driven approach for parameter inference, ensemble learning, Vision Transformer-based architectures, and physics-informed feature integration. By unifying the benchmark dataset and the winning solutions, this work provides a community resource for developing and evaluating machine learning methods for weak lensing cosmology and, more broadly, for scientific inference under systematic uncertainties.\n    "
+    },
+    "2611.10596": {
+        "title": "Constraining Cosmic Deceleration using the Solar System",
+        "authors": [
+            "Paridhi Jain",
+            "Oem Trivedi",
+            "Maxim Khlopov",
+            "Jackson Levi Said",
+            "Maxim Krasnov"
+        ],
+        "keywords": "",
+        "figures": [
+            {
+                "url": "https://arxiv.org/html/2611.10596v1/stat_analysis.png",
+                "caption": "Figur$e$ 1: \nStatistical constraints and sensitivity analysis for the cosmological coupling parameter $K_{0}$ and deceleration parameter $q_{0}$.\n(a) Monte Carlo distributions of $|K_{0}|$ and $|q_{0}|$ for the Saturn perihelion, Mars perihelion, Sedna perihelion, Mars dark matter density, and cosmological constant routes. Red dashed lines indicate the median values, while black dotted lines indicate the 95% upper bounds.\n(b) Sensitivity of the 95% upper bound on $|q_{0}|$ to the assumed perihelion-precession precision for Saturn, Mars, and Sedna.\n(c) Joint dependence of the $|q_{0}|$ bound on orbital eccentricity e and the adopted precession sensitivity $|\\Delta\\dot{\\varpi}|$ for the Saturn, Mars, and Sedna perihelion routes. Stars indicate the fiducial parameter choices.\n"
+            },
+            {
+                "url": "https://arxiv.org/html/2611.10596v1/q0_whisker_plot.png",
+                "caption": "Figure 2: Whisker plot showing selected literature estimates of the present day cosmological deceleration parameter $q_{0}$, with reported $1\\sigma$ uncertainty intervals and our derived Solar System constraints. The displayed estimates are subject to different modeling assumptions and some share observational dataset."
+            }
+        ],
+        "abstract": "We investigate whether Solar System dynamics can provide independent constraints on the present day cosmological deceleration parameter $q_0$, offering a complementary approach to conventional cosmological probes. By relating cosmic acceleration to a weak Hooke type radial perturbation, we derive bounds using planetary perihelion precession, trans-Neptunian objects, and Oort cloud dynamics. We obtain relatively robust planetary bounds of $|q_0|\\lesssim 10^9$, while the outer Solar System yields potentially stronger, albeit more model dependent, constraints approaching $10^5$. Through Monte Carlo uncertainty propagation and sensitivity analyses, we explore the statistical robustness of these estimates and their dependence on orbital measurements. Finally, we demonstrate how future precision astrometry and outer planet missions could improve these limits by several orders of magnitude, establishing Solar System dynamics as a complementary laboratory for probing cosmological acceleration.\n    "
+    },
+    "2611.11094": {
+        "title": "Is Dark Energy Inhomogeneous?",
+        "authors": [
+            "Oem Trivedi",
+            "Abraham Loeb"
+        ],
+        "keywords": "",
+        "figures": [
+            {
+                "url": "https://arxiv.org/html/2611.11094v1/dedefh01.png",
+                "caption": "Figure 1: Joint illustration of dark energy deficiency tests, its possible impact on the apparent $H_{0}$ monopole and the additional isotropy constraint arising for an off center observer."
+            }
+        ],
+        "abstract": "The discovery of dark matter deficient galaxies motivates a fundamental question: Could sufficiently large regions of the Universe be deficient in dark energy as well? We investigate this possibility by developing a phenomenological framework that distinguishes genuine dark energy deficiencies from ordinary matter voids through nonlinear expansion, coherent peculiar velocities and density-momentum correlations. We show that a $10\\%$ dark energy deficiency can suppress the expansion of a representative nonlinear void by approximately $2.7\\%$, generating peculiar velocity residuals of order $60$-$100\\,\\mathrm{km\\,s^{-1}}$ across scales of $30$-$50\\, Mpc$. Intriguingly, we find that deficiencies of order $20\\%$ extending over several hundred megaparsecs could also influence the locally inferred Hubble constant, potentially contributing to the $H_0$ tension, subject to stringent isotropy and dynamical consistency constraints. We identify observational strategies involving DESI, Rubin, peculiar velocity surveys, and cosmic void catalogues, opening a new avenue for testing whether the dark energy driving cosmic acceleration is truly homogeneous.\n    "
+    },
+    "2611.11587": {
+        "title": "Detecting Baryon Acoustic Oscillations from Galaxy Clusters: Distance Constraints",
+        "authors": [
+            "Xiaoyun Shao",
+            "Paula S. Ferreira",
+            "Carlos A. P. Bengaly",
+            "Rodrigo S. Gon\u00e7alves",
+            "Diego Garcia Lambas",
+            "Jailson Alcaniz"
+        ],
+        "keywords": "",
+        "figures": [
+            {
+                "url": "https://arxiv.org/html/2611.11587v1/sky.png",
+                "caption": "Figure 1: \nSky distribution and redshift distribution of the cluster sample.\nThe left panel shows the distribution of clusters in right ascension\nand declination, while the right panel shows the corresponding\nredshift distribution. The redshift range is restricted to\n$0.17<z<0.50$.\n"
+            },
+            {
+                "url": "https://arxiv.org/html/2611.11587v1/nz.svg",
+                "caption": "Figure 1: \nSky distribution and redshift distribution of the cluster sample.\nThe left panel shows the distribution of clusters in right ascension\nand declination, while the right panel shows the corresponding\nredshift distribution. The redshift range is restricted to\n$0.17<z<0.50$.\n"
+            },
+            {
+                "url": "https://arxiv.org/html/2611.11587v1/wp0.25.svg",
+                "caption": "Figure 2: Projected two-point correlation functions of the two cluster samples at $z_{\\rm eff}=0.25$ (left) and $z_{\\rm eff}=0.43$ (right). Black points with error bars show the measurements, while the blue solid curves represent the corresponding best-fitting models."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.11587v1/wp0.43.svg",
+                "caption": "Figure 2: Projected two-point correlation functions of the two cluster samples at $z_{\\rm eff}=0.25$ (left) and $z_{\\rm eff}=0.43$ (right). Black points with error bars show the measurements, while the blue solid curves represent the corresponding best-fitting models."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.11587v1/z0.25_binsep_5mpch.svg",
+                "caption": "Figure 3: \nRedshift-space 2PCF for the cluster samples at $z=0.25$ (left) and $z=0.43$ (right). The black data points show the measured correlation functions, with uncertainties estimated from lognormal mock catalogues. The solid blue lines indicate the best-fit BAO templates, while the dashed blue lines show the corresponding no-wiggle templates. The shaded regions represent the 68% posterior credible intervals.\n"
+            },
+            {
+                "url": "https://arxiv.org/html/2611.11587v1/z0.43_binsep_5mpch.svg",
+                "caption": "Figure 3: \nRedshift-space 2PCF for the cluster samples at $z=0.25$ (left) and $z=0.43$ (right). The black data points show the measured correlation functions, with uncertainties estimated from lognormal mock catalogues. The solid blue lines indicate the best-fit BAO templates, while the dashed blue lines show the corresponding no-wiggle templates. The shaded regions represent the 68% posterior credible intervals.\n"
+            },
+            {
+                "url": "https://arxiv.org/html/2611.11587v1/cov0.25_binsep_5mpch.png",
+                "caption": "F$i$gure 4: \nCorrelation matrices of the redshift-space two-point correlation function, $\\xi(s)$, for the cluster samples at $z_{\\rm eff}=0.25$ (left) and $z_{\\rm eff}=0.43$ (right). The correlation coefficients are defined as $r_{i$j$}=C_{ij}/\\sqrt{C_{ii}C_{jj}}$, where $C_{ij}$ is the covariance between the ith and jth separation bins. The covariance matrices are estimated from the lognormal mock catalogues.\n"
+            },
+            {
+                "url": "https://arxiv.org/html/2611.11587v1/cov0.43_binsep_5mpch.png",
+                "caption": "F$i$gure 4: \nCorrelation matrices of the redshift-space two-point correlation function, $\\xi(s)$, for the cluster samples at $z_{\\rm eff}=0.25$ (left) and $z_{\\rm eff}=0.43$ (right). The correlation coefficients are defined as $r_{i$j$}=C_{ij}/\\sqrt{C_{ii}C_{jj}}$, where $C_{ij}$ is the covariance between the ith and jth separation bins. The covariance matrices are estimated from the lognormal mock catalogues.\n"
+            },
+            {
+                "url": "https://arxiv.org/html/2611.11587v1/sigma_nl_binsep_5mpch.svg",
+                "caption": "Figure 5: \nValues of $\\Delta\\chi^{2}$ as a function of the nonlinear damping scale $\\Sigma_{\\rm NL}$ for the two cluster samples at $z=0.25$ (blue circles) and $z=0.43$ (red squares). The $\\Delta\\chi^{2}$ values are measured relative to the minimum $\\chi^{2}$ for each sample and span from the linear-power-spectrum limit, $\\Sigma_{\\rm NL}=0\\penalty\\ h^{-1}\\mathrm{Mpc}$, toward increasingly damped BAO models at large $\\Sigma_{\\rm NL}$. The horizontal dashed lines indicate significance levels."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.11587v1/dv_rd_binsep_5mpch.svg",
+                "caption": "Figure 6: \nIsotropic BAO distance measurements, $D_{V}/r_{d}$, as a function of redshift. The red points show the cluster BAO measurements obtained in this work, while the orange and green points represent previous cluster BAO measurements from Hong et al. (2015) Hong et al., 2015 and Veropalumbo et al. (2016) Veropalumbo et al., 2016, respectively. The blue points correspond to the DESI DR2 measurements Abdul Karim et al., 2025a, shown only up to $z=0.7$ to focus on the redshift range relevant to cluster BAO measurements. The DESI DR2 point near $z=0.3$ is shifted horizontally by $\\Delta z=-0.008$ for visual clarity. The solid black line shows the prediction of the fiducial cosmological model, while the dashed and dotted lines correspond to $(\\Omega_{m},\\Omega_{\\Lambda})=(1,0)$ and $(0,1)$, respectively.\n"
+            }
+        ],
+        "abstract": "We present a measurement of the baryon acoustic oscillation (BAO) feature using the largest galaxy cluster sample with spectroscopic redshift information to date, comprising 169,679 clusters selected from the WH24 catalogue based on the DESI Legacy Imaging Surveys. We measure the two-point correlation function in two redshift bins, $0.17\\leq z<0.35$ and $0.35\\leq z<0.5$, corresponding to effective redshifts of $z_{\\rm eff}=0.25$ and $0.43$, with the BAO feature detected at approximately the $4\\sigma$ level or above in both bins. By fitting the measured correlation functions, we obtain dilation parameters of $\\alpha=0.97\\pm0.07$ and $\\alpha=1.01\\pm0.04$, corresponding to volume-averaged distance measurements of $D_V/r_d=6.70\\pm0.48$ and $D_V/r_d=11.25\\pm0.47$, respectively. Using the Planck 2018 sound horizon calibration, we obtain $H_0=66.6 \\pm 4.9 \\,\\mathrm{km\\,s^{-1}\\,Mpc^{-1}}$ within the flat $\\Lambda$CDM framework. We further combine our cluster BAO measurements with cosmic microwave background and Pantheon+ Type Ia supernova observations to constrain dynamical dark energy within the Chevallier--Polarski--Linder parametrization. The resulting constraints are consistent with $\\Lambda$CDM, which lies within the $68\\%$ joint credible region in the $w_0$--$w_a$ plane. Our results demonstrate the potential of galaxy clusters as complementary tracers for BAO measurements and cosmological constraints.\n    "
+    },
+    "2611.11835": {
+        "title": "Vacuum energy interacting with dark matter and dark radiation: alleviating the $H_0$-$S_8$ seesaw",
+        "authors": [
+            "Li-Yang Gao",
+            "She-Sheng Xue",
+            "Xin Zhang"
+        ],
+        "keywords": "",
+        "figures": [
+            {
+                "url": "https://arxiv.org/html/2611.11835v1/mbar_scan.svg",
+                "caption": "Figure 1: Time dependence of t$h$e exchange and its effect on the background and on the growth of structure.\n(a)\u00a0Coupling rate per Hubble time, eq.\u00a0(7), normalised to its present value, for\u00a0$\\alpha=0$, $-2$ and\u00a0$-10$; in the limit of weak coupling its shape does not depend on\u00a0$\\bar{m}$.\n(b) and\u00a0(c) vary\u00a0$\\bar{m}$ for\u00a0$\\alpha=-2$, with\u00a0$\\omega_{b}$, the early-time CDM de$n_{s}$ity\u00a0$\\omega_{\\rm cdm}F(a_{*})$, the early-time\u00a0$\\Delta N_{\\rm eff}=0.3$, $100\\theta_{s}$, $A_{s}$, ns and\u00a0$\\tau_{\\rm reio}$ held fixed.\n(b)\u00a0Physical matter density\u00a0$\\Omega_{m}^{\\rm eff}h^{2}$, eq.\u00a0(9).\n(c)\u00a0rms of the linear density field in spheres of fixed comoving radius\u00a0$R=11.4$\u00a0Mpc ($8\\,h^{-1}$Mpc for\u00a0$\\bar{m}=0$), divided by its value for\u00a0$\\bar{m}=0$; the fixed radius in Mpc removes the change of\u00a0h with\u00a0$\\bar{m}$\u00a0[64].\nNegative\u00a0$\\bar{m}$ (blue) corresponds to energy flowing from the vacuum into CDM."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.11835v1/H0_S8.svg",
+                "caption": "Figure 2: Marginalised\u00a0$68\\%$ and\u00a0$95\\%$ contours in the $H_{0}$\u2013$S_{8}$ plane for CBS (left) and CBSH (right).\nTop: ${\\Lambda}$CDM, ${\\Lambda}$CDM+DR and $\\bar{m}{\\tilde{\\Lambda}}$CDM ($\\alpha=-2$); bottom: ${\\Lambda}$CDM, EDE and $\\bar{m}$EDE ($\\alpha=-2$ and\u00a0$-10$).\nThe points mark the posterior means, and the arrows connect each model without exchange to the corresponding model with exchange.\nThe vertical and horizontal bands show the\u00a0$1\\sigma$ and\u00a0$2\\sigma$ ranges of SH0ES\u00a0[9] and KiDS-Legacy\u00a0[16]."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.11835v1/whisker_H0_S8_sigma8_Om.svg",
+                "caption": "Figure 3: Posterior means and\u00a0$68\\%$ intervals of\u00a0$H_{0}$, $S_{8}$, $\\sigma_{8}$ and\u00a0$\\Omega_{m}$ for CBS (open circles) and CBSH (filled squares).\nThe dotted lines mark ${\\Lambda}$CDM for CBSH, and the bands show the\u00a0$1\\sigma$ and\u00a0$2\\sigma$ ranges of SH0ES and KiDS-Legacy."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.11835v1/mbar_correlations.svg",
+                "caption": "Figure 4: Posterior of\u00a0$\\bar{m}/H_{0}$ (first column) and its correlations with\u00a0$S_{8}$, $H_{0}$ and\u00a0$N_{\\rm dr}$ or\u00a0$f_{\\rm EDE}$, for $\\bar{m}{\\tilde{\\Lambda}}$CDM (top) and $\\bar{m}$EDE with\u00a0$\\alpha=-2$ (middle) and\u00a0$\\alpha=-10$ (bottom), for CBS (dashed) and CBSH (solid lines and filled contours).\nThe vertical dotted lines mark\u00a0$\\bar{m}=0$, and the bands show the\u00a0$1\\sigma$ and\u00a0$2\\sigma$ ranges of SH0ES and KiDS-Legacy."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.11835v1/sigma8_Om.svg",
+                "caption": "Figure 5: Marginalised\u00a0$68\\%$ and\u00a0$95\\%$ contours in the $\\sigma_{8}$\u2013$\\Omega_{m}$ plane, with the same layout as figure\u00a02.\nThe grey lines are lines of constant\u00a0$S_{8}$."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.11835v1/alpha_dependence_CBSH.svg",
+                "caption": "Figure 6: $\\bar{m}{\\tilde{\\Lambda}}$CDM for CBSH with different power-law indices and directions of the energy flow.\n(a)\u00a0$68\\%$ (dark) and\u00a0$95\\%$ (light) contours in the $H_{0}$\u2013$S_{8}$ plane for\u00a0$\\alpha=0$, $-1$, $-2$, and\u00a0$\\alpha=-2$ with\u00a0$\\bar{m}\\geq 0$, compared with ${\\Lambda}$CDM+DR (dashed).\n(b)\u2013(e)\u00a0The corresponding posteriors of\u00a0$\\bar{m}/H_{0}$.\nThe bands show the\u00a0$1\\sigma$ and\u00a0$2\\sigma$ ranges of SH0ES and KiDS-Legacy."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.11835v1/late_time_evolution.svg",
+                "caption": "Figure 7: Late-time evolution for CBS (top) and CBSH (bottom).\nLeft: coupling rate per Hubble time\u00a0$\\Gamma/H$ for the models with exchange, on a symmetric logarithmic scale.\nMiddle: $\\sigma_{8}(z)$ relative to the median of ${\\Lambda}$CDM.\nRight: $f\\sigma_{8}(z)$, with\u00a0$f=f_{v}$ of eq.\u00a0(13) for the models with exchange, compared with the RSD measurements from 6dFGS, SDSS MGS, BOSS DR12 and eBOSS DR16\u00a0[83, 84, 85].\nLines and bands show the median and the\u00a0$68\\%$ range of\u00a0$80$ posterior samples; for ${\\Lambda}$CDM and the models without exchange only the median is shown."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.11835v1/lensing_amplitude.svg",
+                "caption": "Figure 8: Effective lensing amplitude\u00a0$Y(z)$, eq.\u00a0(14) (top), and\u00a0$\\Omega_{m}^{\\rm eff}(z)$ (bottom), relative to the median of ${\\Lambda}$CDM for the same data, for CBS (left) and CBSH (right).\nPoints and error bars show the median and the\u00a0$68\\%$ range of\u00a0$60$ posterior samples; the points are slightly offset in redshift for clarity.\nThe models without exchange are shown with dashed lines.\nThe grey band marks the range in which the lensing kernels of the KiDS-Legacy source bins peak."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.11835v1/CBSH_legacy_shear.svg",
+                "caption": "Figure 9: KiDS-Legacy correlation functions\u00a0$\\xi_{+}$ (upper two rows) and\u00a0$\\xi_{-}$ (lower two rows) for the auto-correlations of the six tomographic bins, relative to the median prediction of ${\\Lambda}$CDM for CBSH.\nLines and bands show the median and the\u00a0$68\\%$ range of the predictions of\u00a0$60$ posterior samples for CBSH; the models without exchange are shown with dashed lines.\nThe points show the data with the square root of the diagonal of the covariance matrix; points outside the scale cuts are not shown.\nThe corresponding figure for CBS is shown in appendix\u00a0B."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.11835v1/CBS_legacy_shear.svg",
+                "caption": "Figure 10: As figure\u00a09, for CBS."
+            }
+        ],
+        "abstract": "Extensions of $\\Lambda$CDM that raise $H_0$ with additional energy before recombination, such as dark radiation and early dark energy (EDE), also raise $S_8$. We study whether a late-time energy exchange between the vacuum and the dark sector can offset this increase. The coupling rate scales as $\\bar m H^{\\alpha}$ and is negligible before recombination for $\\alpha \\le -2$; the energy is transferred along the four-velocity of geodesic cold dark matter, so the dark matter produced by the vacuum carries no density perturbation and slows the growth of structure. We add the exchange to dark radiation ($\\bar m\\tilde\\Lambda$CDM) and to a one-parameter EDE model ($\\bar m$EDE), and constrain the models with Planck 2018, DESI DR2 BAO and Pantheon+ data (CBS), and with the SH0ES calibration added (CBSH) to test the exchange when $H_0$ is held at a high value. For CBS the posteriors favour an energy flow from the vacuum into dark matter at 1.8-2.7$\\sigma$, and the exchange lowers $S_8$ by 0.02-0.08 but does not raise $H_0$: $\\bar m\\tilde\\Lambda$CDM gives $H_0 = 68.83 \\pm 0.91$ km s$^{-1}$ Mpc$^{-1}$, 3.1$\\sigma$ below SH0ES. For CBSH the exchange removes the increase of $S_8$ caused by dark radiation, giving $S_8 = 0.800 \\pm 0.016$ at $H_0 = 71.34 \\pm 0.70$ km s$^{-1}$ Mpc$^{-1}$, and about a third of that caused by EDE for $\\alpha = -2$, with the coupling at 1.1-2.0$\\sigma$. The reduction of $S_8$ is concentrated at $z \\lesssim 0.3$: at the redshifts probed by KiDS-Legacy the lensing amplitude decreases by only 1-2%, the shear $\\chi^2$ of the dark-radiation models changes by less than 3, and the exchange reduces but does not remove the excess shear $\\chi^2$ of EDE. A late-time exchange can therefore offset part of the $S_8$ increase of early-time solutions, but it does not ease the Hubble tension, and current data do not require it.\n    "
+    },
+    "2611.12123": {
+        "title": "CMB Bounds on Primordial Black Holes via Radiation Capture: Linear Perturbations",
+        "authors": [
+            "M. Farhang",
+            "S. M. S. Movahed"
+        ],
+        "keywords": "",
+        "figures": [
+            {
+                "url": "https://arxiv.org/html/2611.12123v1/dClTTdf.svg",
+                "caption": "Figure 1: The response of CMB temperature and $E$-mode polarization power spectra to variations in PBH abundance, with the fiducial $f_{\\rm pbh}=0$, and for various PBH mass."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12123v1/dClEEdf.svg",
+                "caption": "Figure 1: The response of CMB temperature and $E$-mode polarization power spectra to variations in PBH abundance, with the fiducial $f_{\\rm pbh}=0$, and for various PBH mass."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12123v1/p18-ideallmax7000-cosmomc-constraints-compared2bkgnd.svg",
+                "caption": "Figure 2: $3\\sigma$ upper bounds on PBH abundance from $Planck$ data (solid dark pink), and a cosmic-variance-limited (CVL) CMB experiment with $\\ell_{\\rm max}=7000$ (dashed light pink), imprinted by PBH-radiation interaction. The analysis extends the background results of [1] (in blue) to the level of linear perturbations. Constraints from other surveys are included for comparison (adopted from [23]), partially based on [24]."
+            }
+        ],
+        "abstract": "We investigate the gravitational interaction between primordial radiation, consisting of photons and ultra-relativistic neutrinos, and primordial black holes (PBHs), and study its imprint on the anisotropies of the cosmic microwave background (CMB). Assuming that PBHs are immersed in the cosmic radiation background, we introduce a covariant energy-momentum transfer four-vector to describe the gravitational capture of radiation by PBHs. We extend the background-level framework of M. Farhang and S. M. S. Movahed [Phys. Rev. D 114, 083533 (2026)] to an inhomogeneous Universe at linear order by consistently modifying the perturbed continuity and Euler equations to account for both energy and momentum transfer. We use the imprint of this interaction on the CMB to place novel constraints on the PBH abundance, $f_{\\rm pbh}$. We show that these constraints are up to two orders of magnitude tighter than those obtained from background-only analyses and exhibit a strong dependence on the PBH mass. Using Planck temperature and polarization data, we constrain the PBH fraction to $f_{\\rm pbh} \\lesssim 0.05-0.002$ for $M$ in the range $10^{15}-10^{17} M_\\odot$. Furthermore, sensitivity forecasts for a cosmic-variance-limited survey with $\\ell_{\\rm max}=7000$, assuming a fiducial $f_{\\rm pbh}=0$, yield projected bounds of $f_{\\rm pbh} \\lesssim 10^{-2}-2\\times 10^{-4}$ over the mass range $10^{13}-10^{17} M_\\odot$.\n    "
+    },
+    "2611.12179": {
+        "title": "Investigating the Viability of Dedicated Microhertz Gravitational Wave Pulsar Timing",
+        "authors": [
+            "C. F. Sheridan",
+            "E. F. Keane"
+        ],
+        "keywords": "",
+        "figures": [
+            {
+                "url": "https://arxiv.org/html/2611.12179v1/gw_plsc_mingarelli.svg",
+                "caption": "Figure 1: The sensitivity curves of various current (EPTA DR2, aLIGO), upcoming (LISA, IPTA DR3, Einstein Telescope/ET) and proposed (Cosmic Explorer/CE, Big Bang Observer/BBO, \u00b5Ares) GW detectors to a stochastic GWB in units of energy density. Note the current gap in the frequency coverage at the \u00b5Hz regime. Figure generated from an online tool created by Mingarelli (2026), see here."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12179v1/mupta_plsc_omega_twin-campaign.svg",
+                "caption": "Figure 2: The theoretical minimum energy density sensitivity to a 5-SNR GW background signal of the \u00b5Hz-tuned PTA, using both WSRT-like and FAST-like observatories (top: Campaign A; bottom: Campaign B). This is compared to simulated GWB signals generated by a QCD ($T_{*}\\sim 200~\\text{MeV}$) phase transition, a cosmic string network with tension $G\\mu\\sim 10^{-10}$ and domain walls with annihilation temperature of $T_{\\text{ann}}\\sim 1$ GeV. Also included as a benchmark is an idealised sensitivity of EPTA DR2, computed using the same method with the following parameters: 25 pulsars observed with 20\u00a0$\\text{yr}^{-1}$ cadence over 24 years with a uniform $\\sigma_{\\text{rad}}=1~\\upmu$s."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12179v1/mupta_skymap_omega_twin-campaign.png",
+                "caption": "Figure 3: Top: Sky map of t$h$e ecliptic sphere from the hypothetical four-pulsar timing array using a WSRT-like telescope for the two different campaigns; Campaign A ($T_{\\text{obs}}=$1~$$ yr, 2 ToAs/day) on the left and Campaign B ($T_{\\text{obs}}=2$ yr, 4 ToAs/day) on the right. Bottom: The same as above but using a FAST-like telescope instead. All four sky maps display the faintest detectable strain amplitude h of a 5-SNR signal at a GW frequency of 1\u00b5Hz, for a given campaign. The optimal-direction value, $h_{\\text{min}}$, is also presented. The four pulsars are denoted by white stars."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12179v1/dsa-ska_plcurve-skymap.png",
+                "caption": ""
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12179v1/x1.png",
+                "caption": ""
+            }
+        ],
+        "abstract": "The microhertz gravitational wave (GW) frequency regime remains one of the least explored regions of the GW spectrum. This is due to the physical limitations of our current and upcoming GW observatories such as LIGO and LISA, which are tuned to dHz and mHz respectively. Proposed experiments targeting the $\\mu$Hz regime are ambitious, expensive and unlikely to be operational within the next 20 years. Pulsar Timing Arrays (PTAs), with their Galaxy-sized baselines, occupy the other end of the spectrum; the frequencies they are sensitive to are a function of the observing cadence and total dataset timespan. Existing PTA campaigns have cadences and timespans corresponding to the nanohertz regime, however the possibility exists that they can be 'pushed' to detect higher frequencies. This paper investigates the viability of a custom microhertz-sensitive PTA, observing a small number of millisecond pulsars with a daily cadence, over the course of 1 and 2 years respectively. We assume the use of both 100-m and 500-m class radio telescopes for these observations, and an idealised noise model with negligible systematics to determine the most optimistic detection threshold. We compute the sensitivity of our proposed high-cadence PTA configurations to power-law signals and individual GW sources. We find that a 500-m class telescope would likely be able to set new upper limits on individual sources and GW background signals in the $0.1-1~\\mu$Hz range; while a 100-m class telescope would, in the best case, only match that of the performance of the EPTA second data release in the same range. Finally we consider a possible $\\mu$Hz PTA consisting of SKA-Mid and DSA observing 24 pulsars; we find this performs on par with the 500-m class while using far less telescope time, presenting a more feasible solution to microhertz-GW pulsar timing.\n    "
+    },
+    "2611.12372": {
+        "title": "Ultralight scalar field domain walls and Galileo GNSS atomic clocks",
+        "authors": [
+            "Alessandro Di Marco",
+            "Feliciana Sapio",
+            "Massimo Visco",
+            "David Lucchesi",
+            "Marco Cinelli",
+            "Emiliano Fiorenza",
+            "Carlo Lefevre",
+            "Pasqualino Loffredo",
+            "Marco Lucente",
+            "Carmelo Magnafico",
+            "Roberto Peron",
+            "Francesco Santoli",
+            "Francesco Vespe"
+        ],
+        "keywords": "",
+        "figures": [
+            {
+                "url": "https://arxiv.org/html/2611.12372v1/Figures/Figure1.png",
+                "caption": "Figure 1: Left panel: DW fiel$d$ space profile for three different sizes.\nThe normalized field space solution gets steeper and steeper as the mass of the scalar field becomes larger.\nRight panel: DW energy density space profile for the same sizes and $v^{2}\\sim 10^{3}$ eV/km.\nThe energy density sharpens with decreasing d, increasing the tension and approximating a single-particle behavior.\nThe plot is shown SI standard units."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12372v1/Figures/Figure2.png",
+                "caption": "Figure 1: Left panel: DW fiel$d$ space profile for three different sizes.\nThe normalized field space solution gets steeper and steeper as the mass of the scalar field becomes larger.\nRight panel: DW energy density space profile for the same sizes and $v^{2}\\sim 10^{3}$ eV/km.\nThe energy density sharpens with decreasing d, increasing the tension and approximating a single-particle behavior.\nThe plot is shown SI standard units."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12372v1/Figures/Figure3.png",
+                "caption": "Figure 3: Normalized electron mass variations for three DW sizes in SI units.\nThe negative, nearly gaussian variation arises from the dark scalar-electron portal. The spike\u2019s features depend on DW size and the vev-to-(operator) energy scale ratio."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12372v1/Figures/Figure4.png",
+                "caption": "Figure 4: Left panel: Normalized clock bias solution for three different DW sizes and with interaction epochs with the DW center\n$t_{\\text{sat}}=20$s and $t_{\\text{sat}}=80$s.\nThe clock bias shows an almost boxcar behavior.\nThe first drop in the bias describes the DW-satellite clock interaction and the related misalignment of the satellite clock\nwith respect to the reference one.\nAs the DW moves toward the reference clock the bias is set to a new (negative) value.\nFinally, as the DW reaches the reference clock the bias shows an increase that indicates the realignment.\nThe features of the signal are controlled both by the fundamental physics of the DW-electron interaction\nand by the DW velocity, or equivalently the average time $\\tau_{\\text{avg}}$.\nIn principle, larger sizes naturally induce larger bias excursions.\nRight panel: Normalized RFF evolution for the same DW sizes and interaction epochs.\nThe function shows two spike-like signals at the interaction epochs.\nThe amplitude of the signal depends on the clock type and the scalar coupling while the shape depends on the DW size."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12372v1/Figures/Figure5.png",
+                "caption": "Figure 5: Left panel: Normalized clock-bias pattern induced by a DW crossing in a very minimal network of three satellite clocks,\nwith different satellite interaction epochs $t_{\\rm sat},i$ and a common reference-clock epoch.\nThe signals share the same amplitude but show different time extensions related to the DW propagation-time across the network.\nRight panel: Corresponding normalized RFF pattern, showing the satellite signals at different $t_{\\rm sat},i$\nand the common one associated with the reference clock.\n"
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12372v1/Figures/Figure6.png",
+                "caption": "Figure 6: Idealized effect of a DW crossing on the sampled clock bias $S(t_{k})$ and on the corresponding discrete derivative (RFF)\n$S^{(1)}(t_{k})$, with a standard sampling window of $t_{k+1}-t_{k}=30$ seconds.\nThe RFF converts the two clock-interaction epochs into a pair of localized spikes.\nIn the ideal case, the trigger and satellite spikes easily emerge from the background noise.\n"
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12372v1/Figures/Figure7.png",
+                "caption": "Figure 7: Left panel: Sampled normalized clock-bias pattern for three satellite clocks interacting with the DW at different epochs.\nThe sampling turns the smooth boxcar-like profiles into hat-like reconstructed signals.\nRight panel: Corresponding normalized RFF, where the satellite-spike amplitudes depend on the relative distance\nbetween the sampling epochs and the DW-clock interaction times, while the trigger spike is the same.\n"
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12372v1/Figures/Figure8.png",
+                "caption": "Figure 8: Left panel: time series of the bias differences for the selected eleven Galileo satellites over the common analysis period, after the cleaning procedure. The independent variable t is in this case in the Modified Julian Date (MJD). The time series exhibit strong oscillations around the expected value\nwith particularly noisy periods.\nData gaps are due to the discontinuous coverage of the overall observation period. Local spikes with amplitudes larger than a nanosecond are also present, likely caused by various effects such as ground-station operations. The type of onboard master clock used by each satellite, Rb or PHM, over a given period also affects the local properties of the time series.\nRight panel: histograms of the bias-difference time series.\nThe bias-difference values are generally distributed around zero, although with satellite-dependent distributions."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12372v1/Figures/Figure9.png",
+                "caption": "Figure 9: Left panel: overlapping Allan deviation analysis for the eleven time series of the normalized bias difference. The resulting Allan deviation curves differ from satellite to satellite and are affected by the onboard clock switching\nand GNSS operations. Right panel: power spectral density analysis of the normalized time series.\nThe PSD curves are globally consistent with the time stability results\nand outline the distinctive features of the RFF time series."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12372v1/Figures/Figure10.png",
+                "caption": "Figure 10: Experimental and theoretical false-alarm analysis conducted for positive spurious spike signals over the entire period.\nThe experimental curves were computed using $N_{\\rm cross}=10^{3}$ local circular shifts\nspanning over $10^{3}$ thresholds. "
+            }
+        ],
+        "abstract": "In this article, we study the impact of an Earth-sized ultralight scalar field domain wall (DW) on the European Galileo Global Navigation Satellite System constellation and the feasibility of a related detection. In particular, a set of statistical procedures is developed and implemented to characterize the statistical properties of the background noise for a subnetwork of $N$ Galileo satellite clocks, including a false-alarm rate estimation and a detection efficiency analysis. These methods allow to implement a coincidence analysis and establish a preliminary statistical framework for a robust and controlled search for domain-wall crossings in clock data, and for deriving constraints on the associated fundamental particle physics parameters. The activity is addressed from the point of view of the scientific objectives of the Galileo for Science (G4S$\\_2.0$) project.\n    "
+    },
+    "2611.12772": {
+        "title": "Gravitational waves and the exit from de Sitter in Inflation without an Inflaton",
+        "authors": [
+            "Daniele Bertacca",
+            "Raul Jimenez",
+            "Sabino Matarrese",
+            "Mariam Abdelaziz",
+            "Marisol Traforetti"
+        ],
+        "keywords": "",
+        "figures": [
+            {
+                "url": "https://arxiv.org/html/2611.12772v1/fig1_kernels.svg",
+                "caption": "Figure 1: We plot $g_{X}(x)$, which is the helicit$y$-summed, y-integrated squared kernel of Eq.\u00a0(7), as a function $x=p_{1}/k$. For the zero-shear curvature $\\zeta_{\\rm P}$, $g_{\\zeta}$ tends to a constant (solid blue line), so its power grows with the number of contributing graviton pairs. The constant tensor mode $S^{FF}/k^{2}$ behaves the same way, so $g_{T}$ tends to a constant value (dashed orange line). On the other hand, the retarded Bunch-Davies tensor decays as $g_{T}\\to\\tfrac{49}{15}x^{-4}$ (solid green line), and its loop converges."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12772v1/fig2_schematic.svg",
+                "caption": "Figure 2: We show the picture of the mechanism by plotting the comoving scale as a function of the number of e-folds $N$. A comoving scale $1/k$ (solid orange line) leaves the Hubble radius (solid black line) and remains synchronised on zero-shear time within the synchronisation reach $e^{N_{w}}/aH$ (dashed blue line), where $N_{w}$ is the window\u2019s number of e-folds. The moment of horizon crossing is shown with circles, while the release happens $N_{w}$ e-folds later and it is shown with a square. Internal modes $1/p$ that freeze before this release are recorded in the clock offset (solid green line). Internal modes that freeze later contribute only a bounded local term (solid gray lines). The dotted gray line shows the end of the de Sitter phase."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12772v1/fig3_window_kernel.svg",
+                "caption": "Fig$u$re 3: Left: Curvature $|\\zeta|$ after the exit for one pair ($y=x+0.4$, positive helicities), with windows $x_{c}=e^{N_{w}}=10$, $30$ and $100$ released over $\\Delta N_{\\rm r}=2$ e-folds. Each curve tracks the never-released zero-shear value (solid black line) up to its window $x\\simeq x_{c}$ (dotted lines) and falls steeply beyond. The gray dashed line is a clock released inside the horizon. Right: Ratio $|\\zeta|/|\\zeta_{\\rm P}|$ against $u=x/x_{c}=p/(ke^{N_{w}})$, for three release widths. Curves with different $x_{c}$ at the same u agree to better than half a per cent. The dashed black line is the schematic classical-pair limit, in which only pairs frozen before the release are recorded."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12772v1/fig4_conservation.svg",
+                "caption": "Figure 4: Relative change of $\\zeta$ after the exit, $10^{4}(|\\zeta|/|\\zeta_{\\rm exit}|-1)$, against $k/aH$ in the radiation era, for four pairs inside ($u=0.1,0.3,1$) and outside ($u=10$) the window. Dotted vertical lines mark the re-entry of the internal modes, $p=aH$. On super-horizon scales, the curvature $\\zeta$ is conserved to better than $10^{-4}$."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12772v1/fig5_spectrum_r.svg",
+                "caption": "Figu$r$e 5: Left: Scalar spectrum $\\Delta^{2}_{\\zeta}(k)/A_{s}$ for $N_{w}=30,40,45,50$. The spectrum is flat, with $n_{s}-1=-4\\epsilon$, through the CMB and large-scale-structure range (gray band), and steepens to $k^{-1}$ beyond $k_{\\rm b}$. The orange band marks the $\\mu$-distortion scales. Right: Tensor-to-scalar ratio r against $N_{w}$ for $c_{w}=1.17$ (solid line) and $c_{w}=7.8$ (dashed line). The upper shaded region is excluded because $r>0.036$, while the right-hand one is excluded because the window would reach the end of de Sitter for $k<1\\,$Mpc-1. The dotted line is the LiteBIRD/CMB-S4 reach. Circles are the scrambling-time windows of Eq.\u00a0(25). The top axis gives $\\mu$-distortion for $c_{w}=1.17$."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12772v1/fig6_gw.svg",
+                "caption": "Figu$r$e 6: Gravitational-wave background today, $\\Omega_{\\rm GW}h^{2}$, against $f$requency f, across the allowed window (solid lines, labelled by $N_{w}$ and r), with the scalar-induced background for $N_{w}=30.5$ (dotted red line). Black curves are approximate power-law-integrated sensitivities (SNR $=10$, four years) for LISA, BBO and DECIGO. Bars mark representative levels for an ultimate DECIGO and for ET/CE. The dotted gray line is the integrated $\\Delta N_{\\rm eff}<0.3$ bound and the gray band the CMB scales. Each spectrum ends at $f_{\\rm end}$, while the steps are the changes in $g_{*}$."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12772v1/fig7_density.svg",
+                "caption": "Figure 7: Left: We show the density contribution $|\\delta\\rho/3(\\rho+p)|/|\\zeta_{\\rm P}|$ in quasi-de Sitter ($\\epsilon=0.0088$) against $\\ln(aH/p)$, the e-folds since the internal pair froze, for four pairs (solid lines overlapping). Dashed lines show the estimate $|\\psi|/2\\epsilon$ that dropping $\\phi^{\\prime}$ in Eq.\u00a0(27) would give. The dotted line shows $0.42\\,p/aH$. Right: We show the $x=30$ pair through a zero-shear exit and into the radiation era, against $N-N_{\\rm exit}$. The split between $\\zeta_{\\rm P}/\\zeta$ (blue) and the density term $[\\delta\\rho/3(\\rho+p)]/\\zeta$ (red) changes when the internal modes re-enter ($p=aH$, orange line), while the uniform-density $\\zeta/\\zeta_{\\rm exit}$ (black dashed) stays constant. The lapse $\\psi/\\zeta$ (green) goes from $\\simeq 0$ while the modes are frozen to the adiabatic value as they re-enter. Dotted horizontal lines mark $2/3$, $1/3$ and $-4/3$, i.e. the adiabatic-mode values the curves relax to."
+            }
+        ],
+        "abstract": "In Inflation without an Inflaton (IWI), second-order de Sitter (dS) gravitons generate primordial curvature as the Coulomb-type potential of their gradient stress. Each pair contributes $(p/k)^2$, yielding exponential enhancement over the contributing e-folds. With exact Bunch-Davies evolution, this solution satisfies all four scalar second-order Einstein equations in pure dS. The retarded transverse-traceless solution instead has a UV kernel of order unity, $(k/p)^2$ below the scalar kernel, and a one-loop correction $\\Delta^2_{h,2}/\\Delta^2_h\\simeq0.04\\,\\Delta^2_h$. Its source acts before internal freeze-out, but oscillatory cancellations prevent tensor enhancement.\nWe evolve the curvature through a smooth exit into radiation domination. Conserved curvature resides on the vacuum-decay hypersurface. A global depletion clock holds each scale on zero-shear time for $N_{\\rm w}$ e-folds after horizon exit before local release, giving all scales equal enhancement. Energy-momentum conservation feeds the depleted vacuum energy into a non-vacuum sector, modeled as radiation. Deep in radiation domination, $\\Delta^2_\\zeta=c_w\\Delta_h^4e^{N_{\\rm w}}/20$, with clock-dependent $c_w$, $n_s-1=-4\\epsilon$, and $n_T=-2\\epsilon$. The spectrum is adiabatic and Gaussian; super-horizon $\\zeta$ is conserved to better than $10^{-4}$, and changing the adiabatic exit fluid alters it by less than $0.2\\%$. A direct radiation exit requires $31\\lesssim N_{\\rm w}\\lesssim50$, or $3\\times10^{-6}\\lesssim r\\lesssim0.036$.\nAt interferometer frequencies, $\\Omega_{\\rm GW}h^2\\simeq2\\times10^{-21}$--$3\\times10^{-17}$, accessible to BBO for $r\\gtrsim0.01$ and ultimate DECIGO for $r\\gtrsim10^{-5}$; CMB B-mode searches probe $r\\gtrsim10^{-3}$. Above $k_{\\rm end}e^{-N_{\\rm w}}$, the scalar spectrum steepens to $k^{-1}$, suppressing $\\mu$-distortions for sharp release when $N_{\\rm w}\\gtrsim45$.\n    "
+    },
+    "2611.12792": {
+        "title": "Coupled dark energy and apparent phantom crossing: a potential-independent lower bound",
+        "authors": [
+            "Domenico Sapone",
+            "Esteban Arratia"
+        ],
+        "keywords": "",
+        "figures": [
+            {
+                "url": "https://arxiv.org/html/2611.12792v1/fig_background.svg",
+                "caption": "Figure 1: DESI DR2 best-fit $w_{0}w_{a}$ backgrounds. (a) Apparent dark-energy equation of state. (b) Minimum mass loss $\\Delta_{\\min}$ (thick; shaded: forbidden region) and mass loss on the minimal-coupling trajectory (thin), which touches $\\Delta_{\\min}$ at its maximum. (c) Field speed on the same trajectory; it vanishes at $z_{\\rm turn}\\simeq 0.8$, where $\\Delta_{\\min}$ is largest, and not at the crossing $w_{\\rm eff}=-1$, where $\\Delta_{\\min}=0$."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12792v1/fig_plane.png",
+                "caption": "Figure 2: (a) Minimum coupling $\\beta_{\\rm min}$ in the $w_{0}$\u2013$w_{a}$ plane for the baseline history (colour and solid contours), at fixed $\\Omega_{m}=0.315$ and $h=0.675$, with the 68% and 95% contours of the DESI DR2 posteriors; the star marks $\\Lambda$CDM. (b) Same plane, with $\\beta_{\\rm min}$ for the baseline (solid) and late-potential (dashed, $z_{d}=2.5$) histories compared with the CMB upper limits on a constant coupling. Dark shading: $\\beta_{\\rm min}$ exceeds the upper limit $0.073$ for the baseline history; light shading: only for the late-potential history."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12792v1/fig_depth_3.svg",
+                "caption": "Figure 3: Deepest apparent crossing that a coupling $|\\beta|$ can produce, from the $w_{0}w_{a}$ histories of Fig.\u00a02. Dark grey: forbidden for any potential; light grey: forbidden for potentials acting only at $z<2.5$. Band and circles: DESI DR2 best fits (filled: baseline; open: late potential). Diamonds: published fits; small points: forward models; dotted lines: CMB upper limits."
+            }
+        ],
+        "abstract": "Baryon acoustic oscillation measurements from the Dark Energy Spectroscopic Instrument (DESI), combined with the cosmic microwave background (CMB) and type Ia supernovae, prefer a dark energy whose equation of state was below $-1$ in the past and is above $-1$ today. A canonical scalar field cannot cross this line, but it can appear to do so if it is coupled to dark matter, and we ask how strong this coupling must be, for any potential. We show that the apparent crossing requires the dark matter to lose a minimum fraction of its mass after recombination, fixed by the expansion history $H(z)$. For a constant coupling $\\beta=d\\ln m/d\\phi$, the mass can change only as fast as the field moves, and the speed of the field is itself set by $H(z)$, so that the coupling must be larger than a minimum value $\\beta_{\\rm min}[H(z)]$. This bound holds for any potential, applies to the largest value of the coupling when the coupling depends on the field, and is reached exactly when the field comes to rest within the observed range. For the DESI DR2 best fits, the dark matter must lose about 5-7% of its mass by $z\\simeq 0.8$, which requires $\\beta_{\\rm min}=0.047$-$0.058$; including the uncertainties of the data, the public DESI DR2 chains give the 95% lower limit $|\\beta|>0.025$-$0.038$. We also apply the bound to published fits of coupled quintessence: all of them respect it, and those with a constant coupling reproduce only a shallow version of the crossing. Since the coupling cannot be smaller than $\\beta_{\\rm min}$, two known effects of the coupling have a minimum size: an extra attraction between dark matter particles of at least a few tenths of a per cent of gravity, and a lensing signal at least a few per cent weaker than the clustering of dark matter would suggest.\n    "
+    },
+    "2611.12861": {
+        "title": "Little Red Dots from Primordial Black Holes: Non-Gaussianity and Accretion Evade $\u03bc$-Distortion Constraints",
+        "authors": [
+            "Shyam Balaji",
+            "Bryce Cyr",
+            "Sarah R. Geller",
+            "David I. Kaiser",
+            "Dario L. Lorenzoni",
+            "Evan McDonough",
+            "Wenzer Qin"
+        ],
+        "keywords": "",
+        "figures": [
+            {
+                "url": "https://arxiv.org/html/2611.12861v1/prk_excl-ln-cpl-cplfd01.svg",
+                "caption": "Figure 1: Curvature power spectra ${\\cal P}_{\\cal R}(k)$ for the lognormal and cut-power-law templates (Eqs. (18) and (19)) that satisf$y$ current $\\mu$-distortion co$n_{s}$traints and seed JWST LRDs.\nWe superimpose our spectrum templates onto the baseline $\\Lambda$CDM power spectrum, ${\\cal P}_{\\cal R}^{\\Lambda\\rm CDM}=A_{s}(k/k_{\\star})^{n_{s}-1}$ [1] with the Planck best-fit values for $A_{s}$ and ns [2].\nFor our power spectrum templates, we consider the best-fit parameters given in the right-hand columns of Tables 1 and 3, and in the left-hand column of Tab. 4; the navy, green, and red curves have $f_{\\rm NL}=\\{-13.2,\\,9.3,\\,14.0\\}$, respectively.\nThe current COBE/FIRAS [54, 13] $\\mu$- (and y-) distortion constraints are shown in blue, with the forecast sensitivity of FOSSIL [3, 40] shown in purple. We also show the constraints from CMB anisotropies [5] and the Lyman-$\\alpha$ forest [14] in gray, and the expected sensitivity of the gravitational wave experiments SKA [49, 59] and LISA [9, 59] in black.\nWe highlight in orange the SMBH mass range corresponding to the JWST LRDs (the upper horizontal axis indicates the typical PBH mass at formation, Eq. (3)).\nWe point out that, without accretion or non-Gaussianity, models that could directly produce the JWST LRDs (dashed orange curve) are ruled out by $\\mu$-distortion constraints. For sufficiently efficient accretion ($f_{\\rm duty}\\simeq 1$), Gaussian fluctuations may satisfy both constraints, whereas reduced accretion efficiency increasingly favors non-Gaussian statistics.\n"
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12861v1/fnl-nlrd_ln-v-cpl.svg",
+                "caption": "Figure 2: \nPredicted comoving LRD number density as a function of local non-Gaussianity $f_{\\rm NL}$, with the remaining power-spectrum parameters held fixed at $\\log_{10}{A}=-2.3$ and $\\log_{10}(k_{p}/{\\rm Mpc}^{-1})=5.5$. For the lognormal template we take $\\Delta=0.5$, while the cut-power-law template has $n_{*}=4$. The horizontal band denotes the observed LRD abundance, $\\log_{10}(n_{\\rm LRD}/{\\rm Mpc}^{-3})=-4.0\\pm 0.1$. The two intersections illustrate that both positive- and negative-$f_{\\rm NL}$ are capable of reproducing the observed abundance."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12861v1/main_ln_pp_mu-v-lrd.png",
+                "caption": "Figure 3: Constraints on the lognormal (LN) power spectrum profile from $\\mu$-only (red) and $\\mu$+LRD (navy) likelihoods. We adopt a perturbative non-Gaussianity prior and assume continuous Eddington accretion (i.e. $f_{\\rm duty}=1$). We impose an upper limit $$A$<10^{-1.5}$ to parametrize bounds on PBHs reviewed in Ref. [25].\nThe $1\\sigma$ ($2\\sigma$) constraints on $\\mu$ and $n_{\\rm LRD}$ are indicated by the light (dark) gray and light (dark) red shaded bands, respectively, with the red line representing the mean of the observed LRD abundance, $\\log_{10}(n_{\\rm LRD}/{\\rm Mpc}^{-1})=-4.0$. The gray line highlights the Gaussian case ($\\tilde{f}_{\\rm NL}=0$).\nThe bottom left panels show how the main observables ($\\mu$ and $n_{\\rm LRD}$) depend on the reduced model parameter $\\tilde{f}_{\\rm NL}\\sqrt{A}$, and that they correctly fit observational constraints.\nThe top right panels show the posteriors for the model parameters A, $\\Delta$, $k_{p}$, and $\\tilde{f}_{\\rm NL}$.\n"
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12861v1/fnl_ln_pp_lrd.svg",
+                "caption": "Figure 4: Bimodal structure of $\\tilde{f}_{\\rm NL}$: the posterior distribution of $\\tilde{f}_{\\rm NL}$ splits neatly into two lobes with distinct peaks for positive and negative $\\tilde{f}_{\\rm NL}$. Shown here is the $\\tilde{f}_{\\rm NL}$ posterior of the lognormal power spectrum profile with perturbative priors and $\\mu$+LRD likelihood.\nThe $1\\sigma$ ($2\\sigma$) constraints on $\\mu$ and $n_{\\rm LRD}$ are indicated by the light (dark) gray and light (dark) red shaded bands, respectively, with the red line representing the mean of the observed LRD abundance, $\\log_{10}(n_{\\rm LRD}/{\\rm Mpc}^{-1})=-4.0$.\nWe note that the support for crossing the boundary at $\\tilde{f}_{\\rm NL}=0$ (indicated by the gray line) is an artifact of smoothing.\n"
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12861v1/mu-single_ln_pp_lrd.svg",
+                "caption": "Figure 5: Loop correction to $\\mu$: Joint posterior distribution for the total $\\mu$ distortion and relative contribution from the loop correction, $\\mu_{\\rm loop}/\\mu$, for the lognormal power spectrum profile with perturbative priors and $\\mu$+LRD likelihood.\nThe $1\\sigma$ ($2\\sigma$) constraints on $\\mu$ are indicated by the light (dark) gray shaded bands.\nFor small $\\mu$, far from the COBE/FIRAS bound, $\\mu_{loop}$ can be an ${\\cal O}(1)$ contribution to the total $\\mu$-distortion, while for large $\\mu$, close the bound, the ratio $\\mu_{\\rm loop}/\\mu$ is at most ${\\cal O}(0.1)$. See also Fig. 11 in Appendix B.\n"
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12861v1/main-column_cpl_pp_mu-v-lrd.svg",
+                "caption": "Figure 6: Cut-power-law (CPL) model: Constraints on the cut-power-law power spectrum from $\\mu$ (yellow) and $\\mu$+LRD (green) likelihoods. We adopt a perturbative non-Gaussianity prior and assume continuous Eddington accretion ($f_{\\rm duty}=1$).\nThe $1\\sigma$ ($2\\sigma$) constraints on $\\mu$ and $n_{\\rm LRD}$ are indicated by the light (dark) gray and light (dark) red shaded bands, respectively, with the red line representing the mean of the observed LRD abundance, $\\log_{10}(n_{\\rm LRD}/{\\rm Mpc}^{-1})=-4.0$.\nWe note that posterior support at $\\tilde{f}_{\\rm NL}=0$ (indicated by the gray line) reflects that continuous Eddington accretion ($f_{\\rm duty}=1$) can satisfy both $\\mu$ and LRD targets even for $\\tilde{f}_{\\rm NL}=0$. Full parameter constraints are described in Tab. 3 and also shown in Appendix B, see Fig. 8."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12861v1/fduty_cpl_pp_lrd.png",
+                "caption": "Figure 7: Varying duty cycles: Constraints from $\\mu$ and LRD for varying accretion duty cycle parameter $f_{\\rm duty}$. We consider a cut-power-law power spectrum with perturbative priors and $\\mu$+LRD likelihoods, for varying values of $f_{\\rm duty}$.\nThe $1\\sigma$ ($2\\sigma$) constraints on $\\mu$ and $n_{\\rm LRD}$ are indicated by the light (dark) gray and light (dark) red shaded bands, respectively, with the red line representing the mean of the observed LRD abundance, $\\log_{10}(n_{\\rm LRD}/{\\rm Mpc}^{-1})=-4.0$. The gray line highlights the Gaussian case ($\\tilde{f}_{\\rm NL}=0$).\nThe bottom corner plot shows how the main observables ($\\mu$ and $n_{\\rm LRD}$) depend on the reduced model parameter $\\tilde{f}_{\\rm NL}\\sqrt{$A$}$, and that they correctly fit observational constraints. The top corner plot shows the posteriors for the model parameters A, $k_{p}$, and $\\tilde{f}_{\\rm NL}$."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12861v1/main_cpl_pp_mu-v-lrd.png",
+                "caption": "Figure 8: Cut-power-law model: Constraints on the cut-power-law power spectrum with perturbative priors and $\\mu$+LRD likelihoods.\nThe $1\\sigma$ ($2\\sigma$) constraints on $\\mu$ and $n_{\\rm LRD}$ are indicated by the light (dark) gray and light (dark) red shaded bands, respectively, with the red line representing the mean of the observed LRD abundance, $\\log_{10}(n_{\\rm LRD}/{\\rm Mpc}^{-1})=-4.0$. The gray line highlights the Gaussian case ($\\tilde{f}_{\\rm NL}=0$).\nThe bottom corner plot shows how the main observables ($\\mu$ and $n_{\\rm LRD}$) depend on the reduced model parameter $\\tilde{f}_{\\rm NL}\\sqrt{$A$}$, and that they correctly fit observational constraints. The top corner plot shows the posteriors for the model parameters A, $k_{p}$, and $\\tilde{f}_{\\rm NL}$."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12861v1/models_ln-v-cpl_pp_lrd.png",
+                "caption": "Figure 9: Model Comparison: Comparison of the posterior distributions from the MCMC for the lognormal versus cut-power-law power spectrum profiles with perturbative priors and $\\mu$+LRD likelihoods.\nThe $1\\sigma$ ($2\\sigma$) constraints on $\\mu$ and $n_{\\rm LRD}$ are indicated by the light (dark) gray and light (dark) red shaded bands, respectively, with the red line representing the mean of the observed LRD abundance, $\\log_{10}(n_{\\rm LRD}/{\\rm Mpc}^{-1})=-4.0$. The gray line highlights the Gaussian case ($\\tilde{f}_{\\rm NL}=0$).\nThe bottom corner plot shows how the main observables ($\\mu$ and $n_{\\rm LRD}$) depend on the reduced model parameter $\\tilde{f}_{\\rm NL}\\sqrt{$A$}$, and that they correctly fit observational constraints. The top corner plot shows the posteriors for the model parameters A, $\\Delta$, $k_{p}$, and $\\tilde{f}_{\\rm NL}$."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12861v1/priors_ln_flat-v-pp_lrd.png",
+                "caption": "Figure 10: Prior Comparison: Comparison of the posterior distributions from the MCMC for the lognormal power spectrum profile with flat versus perturbative priors, with $\\mu$+LRD likelihoods.\nThe $1\\sigma$ ($2\\sigma$) constraints on $\\mu$ and $n_{\\rm LRD}$ are indicated by the light (dark) gray and light (dark) red shaded bands, respectively, with the red line representing the mean of the observed LRD abundance, $\\log_{10}(n_{\\rm LRD}/{\\rm Mpc}^{-1})=-4.0$. The gray line highlights the Gaussian case ($\\tilde{f}_{\\rm NL}=0$).\nThe bottom corner plot shows how the main observables ($\\mu$ and $n_{\\rm LRD}$) depend on the reduced model parameter $\\tilde{f}_{\\rm NL}\\sqrt{$A$}$, and that they correctly fit observational constraints. The top corner plot shows the posteriors for the model parameters A, $\\Delta$, $k_{p}$, and $\\tilde{f}_{\\rm NL}$."
+            }
+        ],
+        "abstract": "Recent JWST observations of \"Little Red Dots\" (LRDs) at $z \\gtrsim 4$ suggest the existence of early supermassive black holes (SMBHs) with masses $\\gtrsim 10^6\\,M_\\odot$. Their rapid emergence challenges conventional seeding and growth scenarios based on accretion and mergers of Population III stellar remnants, motivating renewed interest in primordial black holes (PBHs) formed from primordial perturbations. Explaining such massive seeds requires power spectrum enhancements that are constrained by cosmic microwave background (CMB) spectral distortions. In this work we perform the first comprehensive Bayesian exploration of non-Gaussian primordial perturbations capable of producing SMBH seeds while remaining consistent with CMB spectral distortion constraints, and examine the role of accretion history in constraining these models. We perform a suite of Markov chain Monte Carlo analyses of power spectrum enhancements (lognormal and cut-power-law) with varying local non-Gaussianity and accretion histories, satisfying the COBE/FIRAS $\\mu$-distortion constraint with and without the requirement that the model produces SMBH seeds. We find that both models can seed LRDs and evade $\\mu$-distortion bounds for $|f_{\\rm NL}|= O(1)$ and peak amplitude $A= O(10^{-3})$, when standard Eddington-limited accretion is also incorporated. Interestingly, the results exhibit a preference for both positive and negative values of $f_{\\rm NL}$. The preference for negative $f_{\\rm NL}$ is strongly dependent on the accretion history, and is removed if the black holes have a small duty cycle, $f_{\\rm duty}\\lesssim 0.1$. These results demonstrate that the JWST high-$z$ LRD population can be seeded by primordial perturbations while remaining compatible with CMB data, and highlight the importance of next-generation CMB spectral distortion missions to test this hypothesis.\n    "
+    },
+    "2611.09988": {
+        "title": "Cosmic Corpses: Dead stars as Factories of the most Extreme Objects in the Universe",
+        "authors": [
+            "Ankit C. Khunt",
+            "Swagat S. Mishra"
+        ],
+        "keywords": "",
+        "figures": [
+            {
+                "url": "https://arxiv.org/html/2611.09988v1/Figures_arXiv/Fig_1_New.png",
+                "caption": "Figure 1: Schematic illustration of stellar evolution through low-mass and intermediate-mass and massive-star pathways, leading to white dwarfs, neutron stars, and stellar mass black holes through envelope loss, core-collapse supernovae, fallback, or direct gravitational collapse. [Author-assisted AI illustration]."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.09988v1/Figures_arXiv/pne_lg.jpg",
+                "caption": "Figure 2: Examples of four planetary nebulae, namely, NGC 6543 (Cat\u2019s Eye Nebula), NGC 7662, NGC 7009 and NGC 6826, formed as dying stars expelled their outer layers and exposed their hot central remnant. The ultraviolet radiation from the central star illuminates the surrounding shells of gas, offering a glimpse of the evolutionary path that eventually leaves behind a white dwarf. [Source: NASA, ESA, HEIC, and The Hubble Heritage Team (STScI/AURA); Chandra X-ray Observatory]."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.09988v1/Figures_arXiv/Fig_3_New.png",
+                "caption": "Figure 3: Schematic illustration of neutron-star formation through iron-core instability, gravitational collapse and core bounce, followed by shock revival and the formation of a neutron-star remnant [Author-assisted AI illustration]."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.09988v1/Figures_arXiv/Fig_4_New.png",
+                "caption": "Figure 4: Illustration of neutron star compactness and extreme density, highlighting pulsars, magnetars, and neutron star mergers as sources of gravitational waves and electromagnetic signals. [Author-assisted AI illustration]."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.09988v1/Figures_arXiv/Fig_5_New.png",
+                "caption": "Figure 5: Schematic representation of the binary black-hole inspiral, merger, and ringdown phases, accompanied by the gravitational-wave strain and time\u2013frequency evolution associated with GW150914. [Author-generated illustration. Waveform adapted from the LIGO Scientific Collaboration and Virgo Collaboration [16].]"
+            },
+            {
+                "url": "https://arxiv.org/html/2611.09988v1/Figures_arXiv/Fig_6_New.png",
+                "caption": "Figure 6: Illustration of the global Event Horizon Telescope network, data processing, and the reconstructed 2019 image of M87*, highlighting its characteristic emission ring and black-hole shadow. [Author-assisted AI illustration; black-hole image credit: Event Horizon Telescope Collaboration (2019)]."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.09988v1/Figures_arXiv/Fig_7.png",
+                "caption": "Figure 7: Schematic mass\u2013radius relations of black holes (black), neutron stars (green), and white dwarfs (purple), illustrating the Schwarzschild horizon relation and characteristic stellar equilibrium sequences. Representative masses and radii highlight the compactness of neutron stars and the inverse mass\u2013radius relationship of white dwarfs. [Author-generated illustration]."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.09988v1/Figures_arXiv/Fig_8_New.png",
+                "caption": "Figure 8: Schematic illustration of primordial black-hole formation from early-Universe density perturbations, contrasting subcritical overdensities that disperse after horizon re-entry with sufficiently large overdensities that undergo gravitational collapse. [Author-assisted AI illustration.]"
+            },
+            {
+                "url": "https://arxiv.org/html/2611.09988v1/Figures_arXiv/PBH2.png",
+                "caption": "Figure 9: Schematic illustration of the enhancement of primordial fluctuations during inflation. (a) A small local feature in the form of a speed-breaker\nin the inflaton potential can temporarily alter the\ninflaton dynamics. (b) Under suitable conditions,\nthis can produce a pronounced enhancement in the\nprimordial curvature power spectrum on selected scales,\nincreasing the probability of PBH formation. Inspired by the inflationary mechanism for PBH formation\ndiscussed in Ref. [33]. [Author-generated illustration.]"
+            }
+        ],
+        "abstract": "The apparent serenity of the night sky conceals a long history of stellar evolution, in which gravity and the properties of matter determine the remarkable fates of stars. In this pedagogical account, we discuss white dwarfs, neutron stars, and black holes, explaining how quantum mechanics, nuclear interactions, and General Relativity govern their formation and distinctive properties. We also highlight the possibility of primordial black holes, which may have formed from rare large density fluctuations in the early Universe, and briefly discuss their potential role as constituents of dark matter.\n    "
+    },
+    "2611.10114": {
+        "title": "Collider-observable curvaton",
+        "authors": [
+            "David Cyncynates",
+            "Takuya Okawa"
+        ],
+        "keywords": "",
+        "figures": [
+            {
+                "url": "https://arxiv.org/html/2611.10114v1/results.png",
+                "caption": "Figure 1: The parameter space of the superrenormalizable Higgs-portal curvaton. The dark-gray shaded region labeled \u201cLab\u201d shows current laboratory exclusions from rare meson decays, proton beam-dump experiments, and neutrino beam experiments\u00a0[32, 105, 43, 42, 41, 45, 44, 5, 6, 19, 73, 67, 4, 3, 8, 86] at low masses, Higgs-property measurements by ATLAS\u00a0[1] and CMS\u00a0[101] at intermediate masses, and collider constraints obtained using HiggsTools\u00a0[24] at higher masses. The light-gray region labeled \u201cSN\u201d shows constraints from SN1987A\u00a0[25, 75, 80, 106]. The blue-gray regions show cosmological constraints on the thermal curvaton population from the effective number of relativistic species, \u201c$N_{\\rm eff}$,\u201d and primordial light-element abundances (\u201cBBN\u201d), assuming a high reheating temperature\u00a0[69, 68]. The purple shading shows the projected sensitivities of future laboratory searches\u00a0[46, 94, 79, 83, 11, 17, 65, 12, 13, 14, 22, 33, 48, 64, 103, 38, 70, 58, 52] (see also Refs.\u00a0[18, 28]). The green curves show the upper boundaries consistent with the observed scalar power-spectrum amplitude and the bound on $f_{\\rm NL}$\u00a0[15] for $H_{\\rm inf}=4.7\\times 10^{13}\\,{\\rm GeV}$ (upper) and $H_{\\rm inf}=1.2\\times 10^{13}\\,{\\rm GeV}$ (lower, dashed). The green shaded region that extends upwards is excluded by the non-observation of tensor perturbations in the CMB. The dot-dashed segment of the upper curve is additionally limited by the perturbativity criterion $\\epsilon_{H}\\leq 1$; this criterion does not further restrict the lower curve. The shaded green bands show the variation obtained for $\\Gamma_{\\rm th}/T=0.01$\u2013$0.05$. The orange curve labeled \u201cBBN\u201d gives the lower boundary obtained by requiring the temperature of the Universe after energy transfer from the curvaton to the SM to exceed $4\\mathinner{\\mathrm{MeV}}$. The black dotted line corresponds to $T_{\\rm damp}=T_{\\rm ew}$, and the gray dot-dashed lines indicate constant ratios $\\mu/m_{\\sigma}=10^{-3},10^{-2},10^{-1}$."
+            }
+        ],
+        "abstract": "We study a technically natural realization of the curvaton mechanism, in which decay is mediated through the superrenormalizable interaction with the Higgs. We compute the quantum and thermal corrections to the curvaton potential and show that they remain under control throughout its cosmological evolution. For high inflationary scales, the curvaton dissipates through off-shell processes in the Standard Model plasma. The viable parameter space is broad, and the region in which the curvaton mass and dimensionful Higgs-portal coupling are closest in scale lies within the discovery reach of proposed searches for light Higgs-mixed scalars.\n    "
+    },
+    "2611.11211": {
+        "title": "The first-order phase transitions and gravitational waves from an effective theory inspired by four-stack intersecting D6-brane models",
+        "authors": [
+            "Haotian Huangfu",
+            "Tianjun Li",
+            "Qi Sun",
+            "Rui Sun",
+            "Wenxing Zhang"
+        ],
+        "keywords": "",
+        "figures": [
+            {
+                "url": "https://arxiv.org/html/2611.11211v1/model1-twoloop-XG3XW3.svg",
+                "caption": "Figure 1: The evolution of two-loop gauge couplings in Model 1 Huangfu et al. (2025) with vector-like 3($X_{G}$+$X_{W}$).\nThe masses are set as $M_{X_{G}}=1.87\\times 10^{13}$ GeV and $M_{X_{W}}=6.31\\times 10^{11}$ GeV.\nFor this model, $k_{2}=1$ and $k_{Y}=2$.\nGauge coupling unification is achieved at $5\\times 10^{17}$ GeV.\nThe dashed line on the left indicates the SUSY-breaking scale, while the dashed line on the right indicates the unification scale."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.11211v1/A0_dilepton_exclusion.svg",
+                "caption": "Figure 2: ATLAS Run 3 constraints ATLAS Collaboration (2026) on\n$pp\\to A^{0}\\to\\ell^{+}\\ell^{-}$, with $\\ell=e$ or $\\mu$, at\n$\\sqrt{s}=13.6\\,\\mathrm{TeV}$ and $165\\,\\mathrm{fb}^{-1}$.\nRed and blue curves show\n$\\sigma_{\\rm fid}(pp\\to A^{0})\\,\\mathrm{BR}(A^{0}\\to\\ell^{+}\\ell^{-})$\nfor $m_{N_{i}}>M_{A_{0}}/2$ and $m_{N_{i}}\\ll M_{A_{0}}/2$ ($i=1,2,3$), respectively.\nBlack solid and grey dashed curves give the observed and expected 95% CL\nupper limits for the former spectrum; the thin blue curve gives the observed\nupper limit for the latter. Vertical lines indicate the observed mass limits.\nThe lower panel shows the predicted rate divided by its observed upper limit;\nvalues above unity are excluded."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.11211v1/model1_singlefield_678_potential_slices.svg",
+                "caption": "Figure 3: Finite-temperature effective potential relative to the symmetric phase, $V_{\\rm eff}(\\phi,T)-V_{\\rm eff}(0,T)$, at three temperatures around the critical temperature.\nAt $T_{c}$, the symmetric and broken minima are degenerate.\nBelow $T_{c}$, the broken minimum has lower free-energy density,\nwhile the barrier between the two minima persists and makes the transition proceed through bubble nucleation."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.11211v1/model1_singlefield_678_phase_history.svg",
+                "caption": "Figure 4: Temperature evolution of the false-phase and true-phase minima (upper panel) and the free-energy density difference defined in (76) (lower panel).\nThe vertical line marks $T_{c}$.\nThe sign change of $\\Delta\\mathcal{F}$ identifies the interchange of the thermodynamically preferred phase; $\\Delta\\mathcal{F}>0$ below $T_{c}$.\nThe dynamical temperatures at which bubbles nucleate, percolate, and complete the transition are determined in the following subsections."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.11211v1/model1_singlefield_678_nucleation_action.svg",
+                "caption": "Figure 5: Thermal bounce action as a function of temperature. The horizontal line marks $S_{3}/T=140$, a commonly adopted rule-of-thumb value for the onset of nucleation.\nThe red line marks the nucleation temperature obtained instead from $\\Gamma/H^{4}=1$.\nThe small difference between the two crossings illustrates why a fixed value of $S_{3}/T$ is used only as a rule of thumb."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.11211v1/model1_singlefield_678_nucleation_rate.svg",
+                "caption": "Figure 6: Temperature dependence of the dimensionless nucleation rate.\nWe plot $\\ln(\\Gamma/H^{4})$ because $\\Gamma/H^{4}$ changes exponentially during cooling.\nThe horizontal line at zero is equivalent to $\\Gamma/H^{4}=1$; its intersection with the curve defines $T_{n}$."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.11211v1/model1_singlefield_678_gw_reference.svg",
+                "caption": "Figure 7: Gravitational-wave spectrum in the $v_{w}\\to 1$ limit.\nThe sound wave component includes the finite-lifetime suppression in (122).\nTurbulence is sub-leading near the peak but gives a broader high-frequency tail.\nThe black line represents the sum of the two contributions."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.11211v1/model1_singlefield_678_gw_vw_dependence.svg",
+                "caption": "Figure 8: Conditional dependence of the sound wave peak on the wall velocity.\nThe efficiency factors in this scan are taken from hydrodynamic fits for the indicated flow regimes.\nSince the microscopic wall friction has not been calculated, the curves show the range of possible signals rather than a fitted value of $v_{w}$."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.11211v1/model1_singlefield_678_pli_forecast.svg",
+                "caption": "Figure 9: Comparison of the predicted gravitational-wave spectrum with noise-only PLI sensitivities for future detector concepts.\nThe black line shows the total spectrum in the $v_{w}\\to 1$ limit, and the blue band covers the spectra calculated for $0.3\\leq v_{w}\\leq 0.99$.\nThe dashed detector curves follow the common four-year, $\\rho_{\\rm thr}=10$ convention described in the text.\nThey are not point-by-point exclusion limits and do not include foreground residuals or ground-network geometry.\nThe comparison shows that the predicted peak lies in the deci-Hz band targeted by AEDGE, DO, DECIGO, and BBO, rather than in the primary frequency range of ET or CE."
+            }
+        ],
+        "abstract": "First-order phase transitions in the early Universe can generate stochastic gravitational-wave backgrounds in frequency bands targeted by proposed deci-Hz observatories. We study the gravitational-wave consequences of the right-handed gauge symmetry breaking $SU(2)_{R_1}\\times SU(2)_{R_2}\\to SU(2)_R$ in a Pati-Salam effective theory inspired by four-stack intersecting D6-brane models. The ultraviolet construction fixes the gauge structure and particle multiplicities, while the scalar masses and quartic couplings are treated as renormalized inputs below the supersymmetry-breaking scale. Using a one-loop finite-temperature potential with ring resummation, we follow a strongly supercooled transition at the few-TeV scale through nucleation, percolation, completion, and reheating. The leading-order friction diagnostic does not support a runaway wall, so sound waves dominate the gravitational-wave signal, with turbulence as a sub-leading contribution; the finite acoustic lifetime suppresses the peak. For the fast-wall reference case, the spectrum peaks at $f_{\\rm peak}=0.611$ Hz with $h^2\\Omega_{\\rm GW,peak}=1.232\\times10^{-11}$, in the deci-Hz band targeted by DECIGO and BBO. We present its dependence on the wall speed, renormalization scale, and thermal screening, together with a noise-only comparison for several proposed detector configurations.\n    "
+    },
+    "2611.11367": {
+        "title": "Probing Exotic Electron-Electron Interactions via Adiabatic Spin Inversion in MRFM",
+        "authors": [
+            "Chunlong Li",
+            "Shien Yang",
+            "Yiwei Huang",
+            "Yu Zhang",
+            "Fei Xue"
+        ],
+        "keywords": "",
+        "figures": [
+            {
+                "url": "https://arxiv.org/html/2611.11367v1/setup.png",
+                "caption": "Figure 1: Schematic of the MRFM configurations considered in this work. (a) Generic setup consisting of a ferromagnetic tip, a spin sample, a static bias field $\\displaystyle\\vec{B}_{0}$, and a microwave field $\\displaystyle B_{1}\\cos(\\omega_{0}t)$. The inhomogeneous tip field defines a resonant slice in the sample. (b) Longitudinal geometry, where the tip oscillates along the tip\u2013sample separation direction about an equilibrium separation $\\displaystyle z_{0}$, and the resonant slice sweeps through a finite sample depth. (c) Transverse geometry, where the tip motion is transverse to the tip\u2013sample separation, with equilibrium offsets $\\displaystyle y_{0}$ and $\\displaystyle z_{0}$. (d) Adiabatic spin inversion in the rotating frame: cantilever motion modulates the detuning $\\displaystyle\\Delta B$, causing $\\displaystyle\\vec{B}_{\\rm eff}$ to reverse its longitudinal component and the sample spin to adiabatically follow."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.11367v1/protocal.png",
+                "caption": "Figure 2: Measurement protocol for background suppression and sensitivity estimation. The microwave field is applied for a synchroni$\\displaystyle z$ation interval $\\displaystyle\\tau_{m}$, during which the sample-spin z component follows the cantilever motion and produces a coherent magnetic-resonance force, followed by a repolarization interval $\\displaystyle T_{1}$. The lower panel enlarges the iOSCAR sequence within $\\displaystyle\\tau_{m}$: periodic interruptions of the microwave excitation reverse the phase of the spin-dependent force, modulating the cantilever frequency shift between $\\displaystyle+\\delta f_{c}$ and $\\displaystyle-\\delta f_{c}$, while spin-independent backgrounds remain unmodulated."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.11367v1/gAegAe_V2.png",
+                "caption": "Figure 3: Projected MRFM constraints on $\\displaystyle g_{A}^{e}g_{A}^{e}$ from (a) $\\displaystyle V_{2}^{AA}$, (b) $\\displaystyle V_{3}^{AA}$, and (c) $\\displaystyle V_{8}^{AA}$.\nDotted, dashed, and dash-dotted curves denote the single-spin, ensemble, and optimized configurations, respectively.\nThe ensemble case corresponds to approximately $\\displaystyle 500$ polarized electron spins, while the \u201cOptimized\u201d curve assumes $\\displaystyle T=30~\\mathrm{mK}$ and a cantilever oscillation amplitude $\\displaystyle z_{a}=100~\\mathrm{nm}$. Existing experimental bounds are shown for comparison [14, 24, 26, 36, 35, 17, 1, 20, 45, 21, 19]."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.11367v1/gAegAe_V3.png",
+                "caption": "Figure 3: Projected MRFM constraints on $\\displaystyle g_{A}^{e}g_{A}^{e}$ from (a) $\\displaystyle V_{2}^{AA}$, (b) $\\displaystyle V_{3}^{AA}$, and (c) $\\displaystyle V_{8}^{AA}$.\nDotted, dashed, and dash-dotted curves denote the single-spin, ensemble, and optimized configurations, respectively.\nThe ensemble case corresponds to approximately $\\displaystyle 500$ polarized electron spins, while the \u201cOptimized\u201d curve assumes $\\displaystyle T=30~\\mathrm{mK}$ and a cantilever oscillation amplitude $\\displaystyle z_{a}=100~\\mathrm{nm}$. Existing experimental bounds are shown for comparison [14, 24, 26, 36, 35, 17, 1, 20, 45, 21, 19]."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.11367v1/gAegAe_V8.png",
+                "caption": "Figure 3: Projected MRFM constraints on $\\displaystyle g_{A}^{e}g_{A}^{e}$ from (a) $\\displaystyle V_{2}^{AA}$, (b) $\\displaystyle V_{3}^{AA}$, and (c) $\\displaystyle V_{8}^{AA}$.\nDotted, dashed, and dash-dotted curves denote the single-spin, ensemble, and optimized configurations, respectively.\nThe ensemble case corresponds to approximately $\\displaystyle 500$ polarized electron spins, while the \u201cOptimized\u201d curve assumes $\\displaystyle T=30~\\mathrm{mK}$ and a cantilever oscillation amplitude $\\displaystyle z_{a}=100~\\mathrm{nm}$. Existing experimental bounds are shown for comparison [14, 24, 26, 36, 35, 17, 1, 20, 45, 21, 19]."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.11367v1/gVegVe.png",
+                "caption": "Figure 4: Projected MRFM constraints on (a) $\\displaystyle g_{V}^{e}g_{V}^{e}$ from $\\displaystyle V_{2}^{VV}$ and $\\displaystyle V_{3}^{VV}$, and (b) $\\displaystyle g_{p}^{e}g_{p}^{e}$ from $\\displaystyle V_{3}^{pp}$, obtained from the axial\u2013axial results through Eq.\u00a0(5). Dotted, dashed, and dash-dotted curves denote the single-spin, ensemble, and optimized configurations, respectively; existing bounds are shown for comparison [13, 45]."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.11367v1/gpegpe.png",
+                "caption": "Figure 4: Projected MRFM constraints on (a) $\\displaystyle g_{V}^{e}g_{V}^{e}$ from $\\displaystyle V_{2}^{VV}$ and $\\displaystyle V_{3}^{VV}$, and (b) $\\displaystyle g_{p}^{e}g_{p}^{e}$ from $\\displaystyle V_{3}^{pp}$, obtained from the axial\u2013axial results through Eq.\u00a0(5). Dotted, dashed, and dash-dotted curves denote the single-spin, ensemble, and optimized configurations, respectively; existing bounds are shown for comparison [13, 45]."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.11367v1/general.png",
+                "caption": "Figure S1: General geometry used in the analytical derivation. The ferromagnetic tip carries a magnetic moment $\\displaystyle\\vec{\\mu}_{t}$ aligned with the static magnetic field $\\displaystyle\\vec{B}_{0}$ and undergoes relative motion with respect to the sample spin along an arbitrary direction $\\displaystyle\\hat{u}$, with relative velocity $\\displaystyle\\vec{v}=\\dot{q}\\,\\hat{u}$. The electron spin $\\displaystyle\\vec{\\mu}_{s}$ is polarized by $\\displaystyle\\vec{B}_{0}$."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.11367v1/dBz_dz_yz.png",
+                "caption": "Figure S2: Spatial distributions of the magnetic-field gradients generated by a uniformly magnetized spherical ferromagnetic tip ($\\displaystyle r_{t}=1~\\mu\\mathrm{m}$, $\\displaystyle\\mu_{t}=1.5\\times 10^{-12}~\\mathrm{J/T}$). Left: longitudinal gradient $\\displaystyle\\partial B_{t}^{z}/\\partial z$, relevant to the longitudinal geometry of Fig.\u00a01(b). Right: transverse gradient $\\displaystyle\\partial B_{t}^{z}/\\partial y$, relevant to the transverse geometry of Fig.\u00a01(c). The color maps and contours indicate the magnitude and sign of the corresponding gradients."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.11367v1/dBz_dy_yz.png",
+                "caption": "Figure S2: Spatial distributions of the magnetic-field gradients generated by a uniformly magnetized spherical ferromagnetic tip ($\\displaystyle r_{t}=1~\\mu\\mathrm{m}$, $\\displaystyle\\mu_{t}=1.5\\times 10^{-12}~\\mathrm{J/T}$). Left: longitudinal gradient $\\displaystyle\\partial B_{t}^{z}/\\partial z$, relevant to the longitudinal geometry of Fig.\u00a01(b). Right: transverse gradient $\\displaystyle\\partial B_{t}^{z}/\\partial y$, relevant to the transverse geometry of Fig.\u00a01(c). The color maps and contours indicate the magnitude and sign of the corresponding gradients."
+            }
+        ],
+        "abstract": "Light bosons beyond the Standard Model can mediate exotic spin-dependent interactions between electrons, motivating sensitive searches at short distances. We propose a magnetic resonance force microscopy (MRFM) scheme that exploits oscillating-cantilever-driven adiabatic reversals (OSCAR) of electron spins to convert these interactions into measurable mechanical signals. The ferromagnetic tip serves as both a dense polarized-spin source and a source of magnetic-field gradients, enabling force detection without magnetic shielding between the source and sensor. Within a linearized treatment of the coupled spin-mechanical dynamics, we derive resonance-frequency shifts associated with the $V_2$ and $V_3$ interactions and a second-harmonic force signal arising from the velocity-dependent $V_8$ interaction. We further investigate interrupted-OSCAR differential detection and distance-dependent measurements to discriminate exotic signals from conventional magnetic backgrounds. Using representative parameters from ensemble and single-spin MRFM experiments, we estimate the projected sensitivity under specified noise and statistical assumptions. The results suggest that the proposed scheme could provide complementary sensitivity to short-range spin-dependent interactions, with the potential to improve existing constraints on $V_2$ over selected submicrometer interaction ranges. Our study establishes adiabatic spin-inversion MRFM as a promising approach to probing exotic electron-electron forces.\n    "
+    },
+    "2611.11775": {
+        "title": "Horizon-penetrating rotating black-hole configurations in VCDM",
+        "authors": [
+            "Antonio De Felice"
+        ],
+        "keywords": "",
+        "figures": [
+            {
+                "url": "https://arxiv.org/html/2611.11775v1/lapse_exterior_bound.svg",
+                "caption": "Figure 1: Squared lapse of the rotating benchmark $a=0.6$, $q=0.4$,\n$\\kappa=0.1$, $C=2$ at $z=0.5$, and the analytic lower bound\n(52), in units $M=1$. The bound is shown only where\n$\\Delta_{r}>0$: outside $r_{+}$ in AF and between $r_{+}$ and $r_{c}$ in dS.\nNumerical curves start at $r_{\\rm in}=1.5$; dotted vertical lines mark\nthe black-hole horizons. No interior lapse-zero extrapolation is drawn."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.11775v1/spherical_lapse_zero_locus.svg",
+                "caption": "Figure 2: Exact spherical reference, $M=1$, $q=0.4$, $\\kappa=0.1$.\nThe outer lapse zero moves inward in areal radius as $C$ is\nincreased. Open endpoints have zero horizon lapse and are excluded\nfrom regular crossing. Filled endpoints are double-root trumpets,\nat infinite proper spatial distance despite their finite areal\ndepth. No rotating endpoint is inferred."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.11775v1/preferred_foliation_2d.png",
+                "caption": "Figure 3: Meridional maps of the preferred foliation for the two rotating,\ncharged benchmarks with $M=1$, $a=0.6$, $q=0.4$, $\\kappa=0.1$, and $C=2$.\nColumns: Kerr\u2013$N$ewman ($\\Lambda_{\\mathrm{eff}}=0$) and Kerr\u2013Newman\u2013de Sitter\n($\\Lambda_{\\mathrm{eff}}=0.03$). Rows: the lapse N in the numerical time\nnormalization; the angular height difference\n$\\Delta h=h(r,z)-h(r,0)$ in the chosen reference chart; and the\npreferred-foliation scalar $\\log_{10}(M^{2}\\sigma_{ij}\\sigma^{ij})$.\nEach pair uses a common color scale; solid contours in the middle\nrow mark $\\Delta h/M=0.01,0.03,0.06$. Dashed lines mark the future\nblack-hole horizons $r_{+}$, not lapse zeros. The maps cover\n$1.5\\leq r/M\\leq 5$ and $0\\leq z\\leq 0.995$; the polar-coordinate\ndegeneracy excludes the exact axis $z=1$ from the Christoffel\nreconstruction. The cosmological horizon $r_{c}\\simeq 8.809M$ lies\noutside this near-hole view. No extrapolation below the\nexcision surface or isometric embedding is implied."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.11775v1/horizon_lapse_margins.svg",
+                "caption": "Figure 4: Minimum lapse on a 129-point angular grid at the black-hole horizon for all seventeen archived solutions; the cosmological-horizon minima are also shown for the eight dS cases. Labels refer to Table\u00a05. Every point lies strictly above zero, and the exact horizon relation (53) independently ties these margins to nonzero normal flux; its future orientation is checked separately. These minima are sampled diagnostics, not rigorous all-angle bounds."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.11775v1/shear_C_values.svg",
+                "caption": "Figure 5: Dependence of the preferred-foliation shear on $c=C/M^{2}$,\nwith $a/M=0.6$, $q/M=0.4$, $\\kappa M=0.1$, $r_{\\rm in}/M=1.5$, and\n$g=0$. Each branch keeps its own four-geometry fixed. (a) $s=M^{2}\\sigma_{ij}\\sigma^{ij}$\nat $(r/M,z)=(3,0.5)$; markers denote the five computed configurations,\nconnecting segments are guides over the measured interval, and the\ndotted reference is the exact spherical result. (b) Fractional excess\nabove that reference. Connecting segments in (b) are guides only.\nNo continuation to $C=0$ or beyond the displayed interval is implied."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.11775v1/shear_C_excess.svg",
+                "caption": "Figure 5: Dependence of the preferred-foliation shear on $c=C/M^{2}$,\nwith $a/M=0.6$, $q/M=0.4$, $\\kappa M=0.1$, $r_{\\rm in}/M=1.5$, and\n$g=0$. Each branch keeps its own four-geometry fixed. (a) $s=M^{2}\\sigma_{ij}\\sigma^{ij}$\nat $(r/M,z)=(3,0.5)$; markers denote the five computed configurations,\nconnecting segments are guides over the measured interval, and the\ndotted reference is the exact spherical result. (b) Fractional excess\nabove that reference. Connecting segments in (b) are guides only.\nNo continuation to $C=0$ or beyond the displayed interval is implied."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.11775v1/shear_vs_spin.svg",
+                "caption": "Figure 6: Preferred-slice squared shear at $r=3M$, $z=0.5$, for fixed $q/M=0.3$, $\\kappa M=0.1$, and $C/M^{2}=2$. Each marker is a separately solved nonlinear boundary-value problem. The higher-spin case uses $r_{\\rm in}=1.3M$ rather than $1.5M$; the curve therefore describes the selected family, not a derivative at completely fixed inner boundary data."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.11775v1/smallk_lapse.svg",
+                "caption": "Figure 7: Paired AF/dS local comparison for equal $\\kappa$ within each pair\nand the fixed data specified in Sec.\u00a0VII.6. (a) Squared-lapse\ndifference $d_{N}$ in the numerical time normalization. (b) Difference\n$d_{\\sigma}$ of the preferred shear scalars. Lines in (a,b) are descriptive\npower-law fits restricted to $0.01\\leq\\kappa M\\leq 0.10$.\n(c) $\\mathcal{R}_{N}=d_{N}/(\\kappa^{2}r^{2})$, with the exact spherical reference\n$\\mathcal{R}_{N}=1$; the segments joining measured points are guides.\nNo curve is extrapolated to zero. The ratio in (c) is not a\nclock-normalization-independent rotational observable. Input precision\nis stated in Table\u00a03."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.11775v1/smallk_shear.svg",
+                "caption": "Figure 7: Paired AF/dS local comparison for equal $\\kappa$ within each pair\nand the fixed data specified in Sec.\u00a0VII.6. (a) Squared-lapse\ndifference $d_{N}$ in the numerical time normalization. (b) Difference\n$d_{\\sigma}$ of the preferred shear scalars. Lines in (a,b) are descriptive\npower-law fits restricted to $0.01\\leq\\kappa M\\leq 0.10$.\n(c) $\\mathcal{R}_{N}=d_{N}/(\\kappa^{2}r^{2})$, with the exact spherical reference\n$\\mathcal{R}_{N}=1$; the segments joining measured points are guides.\nNo curve is extrapolated to zero. The ratio in (c) is not a\nclock-normalization-independent rotational observable. Input precision\nis stated in Table\u00a03."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.11775v1/smallk_ratio.svg",
+                "caption": "Figure 7: Paired AF/dS local comparison for equal $\\kappa$ within each pair\nand the fixed data specified in Sec.\u00a0VII.6. (a) Squared-lapse\ndifference $d_{N}$ in the numerical time normalization. (b) Difference\n$d_{\\sigma}$ of the preferred shear scalars. Lines in (a,b) are descriptive\npower-law fits restricted to $0.01\\leq\\kappa M\\leq 0.10$.\n(c) $\\mathcal{R}_{N}=d_{N}/(\\kappa^{2}r^{2})$, with the exact spherical reference\n$\\mathcal{R}_{N}=1$; the segments joining measured points are guides.\nNo curve is extrapolated to zero. The ratio in (c) is not a\nclock-normalization-independent rotational observable. Input precision\nis stated in Table\u00a03."
+            }
+        ],
+        "abstract": "A regular black-hole metric need not define a regular configuration of VCDM, whose preferred foliation is part of the gravitational solution. We construct stationary rotating, possibly charged configurations on the constant-auxiliary Einstein-Maxwell branch. Their Kerr-Newman and Kerr-Newman-de Sitter geometries carry nonzero constant-mean-curvature foliations that cross the future black-hole horizon and, in the de Sitter case, the future cosmological horizon. A horizon-regular flux formulation specifies the inner data and the distinct hyperboloidal and expanding asymptotic ends. Seventeen survey configurations are supplemented by a mean-flux scan at fixed four-geometry and paired flat/de Sitter comparisons down to $\\kappa M = 0.01$, where $K_0 = 3\\kappa$. Varying the flux changes the preferred-foliation shear without changing the background seen by standard test matter. The paired local lapse and shear differences have effective powers close to two over the computed range, with the lapse comparison requiring a fixed time normalization. Continuous residuals, geometric reconstructions, and selected grid comparisons test the numerical solutions. An exact lapse bound excludes zeros in the regular stationary exterior block with $\\Delta_r > 0$. We distinguish singular finite-proper-distance endpoints from asymptotic trumpet ends and give conditional bounds on a stationary spacelike inner limit. A local cosmological interpretation requires additional matching assumptions; dynamical selection and the rotating interior endpoint are not determined by the stationary construction.\n    "
+    },
+    "2611.11895": {
+        "title": "Quasinormal Modes of Black holes in the generalized Schwarzschild-de Sitter solution of $f(R)$ gravity",
+        "authors": [
+            "Dhruba Jyoti Gogoi",
+            "Himanshu Chaudhary",
+            "Tiberiu Harko"
+        ],
+        "keywords": "",
+        "figures": [
+            {
+                "url": "https://arxiv.org/html/2611.11895v1/met01.svg",
+                "caption": "Figu$r$e 1: Variation of the metric function with respect to the radial coordinate r. "
+            },
+            {
+                "url": "https://arxiv.org/html/2611.11895v1/met02.svg",
+                "caption": "Figu$r$e 1: Variation of the metric function with respect to the radial coordinate r. "
+            },
+            {
+                "url": "https://arxiv.org/html/2611.11895v1/Vs_lvary.svg",
+                "caption": "Figu$r$e 2: Variation of the scalar potential $V_{s}(r)$ as a function of the radial coordinate r. "
+            },
+            {
+                "url": "https://arxiv.org/html/2611.11895v1/Vscalar_Avary.svg",
+                "caption": "Figu$r$e 2: Variation of the scalar potential $V_{s}(r)$ as a function of the radial coordinate r. "
+            },
+            {
+                "url": "https://arxiv.org/html/2611.11895v1/Vscalar_etavary.svg",
+                "caption": "Figu$r$e 2: Variation of the scalar potential $V_{s}(r)$ as a function of the radial coordinate r. "
+            },
+            {
+                "url": "https://arxiv.org/html/2611.11895v1/Ve_lvary.svg",
+                "caption": "Figu$r$e 3: Variation of electromagnetic potential $V_{e}(r)$ with respect to the radial coordinate r. "
+            },
+            {
+                "url": "https://arxiv.org/html/2611.11895v1/Ve_Avary.svg",
+                "caption": "Figu$r$e 3: Variation of electromagnetic potential $V_{e}(r)$ with respect to the radial coordinate r. "
+            },
+            {
+                "url": "https://arxiv.org/html/2611.11895v1/Ve_etavary.svg",
+                "caption": "Figu$r$e 3: Variation of electromagnetic potential $V_{e}(r)$ with respect to the radial coordinate r. "
+            },
+            {
+                "url": "https://arxiv.org/html/2611.11895v1/Vg_lvary.svg",
+                "caption": "Figu$r$e 4: Variation of gravitational potential $V_{g}(r)$ w.r.t. r. "
+            },
+            {
+                "url": "https://arxiv.org/html/2611.11895v1/Vg_Avary.svg",
+                "caption": "Figu$r$e 4: Variation of gravitational potential $V_{g}(r)$ w.r.t. r. "
+            }
+        ],
+        "abstract": "We analyze scalar, vector, and {axial} tensor perturbations in a Schwarzschild-type static spherically symmetric solution of modified $f(R)$ gravity. This solution differs from the Schwarzschild metric of general relativity through the presence of a linearly growing term and a logarithmic correction, and it depends on four integration constants. Using the higher-order Wentzel-Kramers-Brillouin (WKB) approximation and an analytical method, we calculate the quasinormal modes (QNMs) for all three types of perturbations. Our results show that, for appropriately chosen parameter values, the QNMs closely match those of the Schwarzschild black hole. In particular, the model parameter $A$ produces a nonlinear increase in both the oscillation frequency and damping rate of ringdown gravitational waves. A similar effect arises for the parameter $\\eta$ when $A$ is small, while for larger $A$ values the effects are opposite, where the scalar perturbations display a distinct deviation compared to the vector and {axial} tensor cases. Contour plots of QNMs in the parameter space support these findings. Finally, time-domain profiles are obtained to illustrate the dynamical evolution of the gravitational wave signal.\n    "
+    },
+    "2611.12148": {
+        "title": "SuperWIMPs in the Kination Era: Imprints on $N_{\\rm eff}$ and CMB Spectral Distortions",
+        "authors": [
+            "Genevi\u00e8ve B\u00e9langer",
+            "Abhishek Roy"
+        ],
+        "keywords": "",
+        "figures": [
+            {
+                "url": "https://arxiv.org/html/2611.12148v1/Plots/BP_1a.png",
+                "caption": ""
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12148v1/Plots/BP_1d.png",
+                "caption": ""
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12148v1/Plots/BP_1b.png",
+                "caption": ""
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12148v1/Plots/Neff_Trh_BP1.png",
+                "caption": ""
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12148v1/Plots/Neff_tau_BP1.png",
+                "caption": ""
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12148v1/Plots/mu_Trh_BP1.png",
+                "caption": ""
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12148v1/Plots/mu_tau_BP1.png",
+                "caption": ""
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12148v1/Plots/lamBar_BP.png",
+                "caption": ""
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12148v1/Plots/lamBar_Neff_mu_BP.png",
+                "caption": ""
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12148v1/Plots/BP5_1a.png",
+                "caption": ""
+            }
+        ],
+        "abstract": "We investigate how the late-time decays of unstable particles into dark matter and neutrinos can leave measurable imprints on both cosmological observables and collider experiments. We study this mechanism within the scotogenic model, where the lightest singlet fermion $N_1$ serves as the dark matter candidate and is produced via the late decay of the lightest inert doublet scalar via the superWIMP mechanism. By incorporating a kination-dominated era in the early Universe, the altered expansion rate allows to match the observed $N_1$ relic density in parameter regions that would be underabundant in standard cosmology. The energy exchange between the injected neutrinos and photons resulting from the late-time decay can produce CMB spectral $\\mu$-distortions, detectable shifts in the effective number of relativistic species $N_{\\rm eff}$, or both simultaneously. Concentrating on the lightest component of inert doublet scalars with masses between $200$ and $500~\\text{GeV}$, we find that these cosmological signals are accompanied by complementary signatures accessible at the LHC. Although our analysis is derived within the scotogenic framework, our findings apply more broadly to scenarios in which the unstable particle undergoes late-time out-of-equilibrium decay to produce dark matter and non-thermal neutrinos, offering how future CMB measurements and collider searches can jointly probe dark matter production and the early Universe's thermal history.\n    "
+    },
+    "2611.12282": {
+        "title": "A Self-Interacting Dark-Matter Route to Supermassive Kerr Black Holes via Super-Eddington Bondi Accretion: Mass-Spin Evolution",
+        "authors": [
+            "Chian-Shu Chen",
+            "Feng-Li Lin"
+        ],
+        "keywords": "",
+        "figures": [
+            {
+                "url": "https://arxiv.org/html/2611.12282v1/generic_critical_map.png",
+                "caption": "Figure 1: Generic critical Kerr flows. Left: the universal rate factor $\\Psi(\\chi,\\ell)$ defined in Eq.\u00a0(40). Right: the critical sonic radius $x_{c}$, obtained as the physical outer root of the quartic equation\u00a0(32) subject to the physical conditions\u00a0(33). Dashed curves are the prograde and retrograde marginally bound angular-momentum boundaries\u00a0(35); the dotted line is the analytic $\\ell=\\chi$ family discussed below."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12282v1/generic_mass_ratio_comparison.png",
+                "caption": "Figure 2: Mass-scale diagnostics across the generic critical Kerr domain. Left: the normalized scalar-mass ratio $m_{\\rm sonic}(\\chi,\\ell)/m_{\\rm sonic}(0,0)$ from Eq.\u00a0(55), which gives the mass shift required to hold the local sonic displacement $y_{s}-y_{c}$ fixed at fixed halo density. Right: the ratio of the right-hand sides of Eqs.\u00a0(55) and (56), $\\mathcal{R}_{m}=[\\mathcal{B}_{00}\\Psi(\\chi,\\ell)/\\mathcal{B}_{\\chi\\ell}]^{2/5}$, comparing the fixed-sonic-displacement mass estimate with the fixed-growth estimate. Values near unity indicate comparable Kerr corrections in the two criteria. Dashed curves show the prograde and retrograde marginally bound angular-momentum boundaries, and the dotted line denotes the analytic $\\ell=\\chi$ family. Both panels are restricted to the physical outer critical branch."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12282v1/scalar_mass_spin_factors.svg",
+                "caption": "Figure 3: Analytic diagnostics on the special $L=J/M$ ($\\ell=\\chi$) slice of the generic critical domain. Shown are the critical-rate factor $\\mathcal{F}$, the scalar-mass shift required to keep the Bondi growth coefficient fixed, and the normalized local sonic-response coefficient $\\mathcal{B}_{\\chi}/\\mathcal{B}_{0}$. The last quantity characterizes the local approach to the critical sonic point and does not modify the angular-momentum-independent outer relation $\\zeta(m)$ in Eq.\u00a0(46). This figure is a one-dimensional benchmark; the generic Kerr problem is governed by $\\Psi(\\chi,\\ell)$ in Fig.\u00a01."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12282v1/r_B.png",
+                "caption": "Figure 4: Bondi-radius evolution using the revised ambient-density normalization with $\\delta_{\\rm env}=300$, for $m=10^{-2},10^{-4},10^{-6}\\,\\mathrm{eV}$ (top to bottom). In each panel the three curves correspond to $\\ell=0.5,1,1.5$, with distinct line styles and markers; the dash-dotted curve is the illustrative core scale $r_{\\rm core}=0.05R_{\\rm vir}$. The mass history is recomputed self-consistently for each scalar mass using $K_{0}(m)\\propto m^{5/2}$. For $m=10^{-2}\\,\\mathrm{eV}$ the Bondi radius reaches the core scale near $z\\simeq 20.8$. For $m=10^{-4}\\,\\mathrm{eV}$ the crossing is delayed to $z\\simeq 11.0$, whereas for $m=10^{-6}\\,\\mathrm{eV}$ one has $r_{B}<r_{\\rm core}$ throughout $7\\leq z\\leq 30$. The three $\\ell$ curves remain almost coincident except near the rapid-growth transition because the angular-momentum dependence enters mainly through the small differences in the mass histories. The lowest panel is a formal extrapolation of the radius scaling below the approximate criticality bound and should not be interpreted as a fully self-consistent critical-flow benchmark."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12282v1/generic_spinup_evolution.svg",
+                "caption": "Figure 5: Coupled mass\u2013spin evolution of an initially Schwarzschild $10M_{\\odot}$ PBH at $z_{i}=30$, for fixed inflow angular momenta $\\ell=0.5,1,1.5$ and fiducial SIDM particle mass $m=10^{-2}\\,\\mathrm{eV}$. The evolution includes both Eddington growth and critical Kerr SIDM Bondi accretion, subject to the finite-halo supply prescription. The upper, middle, and lower panels show the black-hole mass, angular momentum, and dimensionless spin, respectively. The dotted lines indicate the Bondi-dominated limiting spins $\\chi=\\ell/2$. The inset resolves the rapid-growth interval and illustrates how the mass-growth history depends on the inflow angular momentum.\n"
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12282v1/special_branch_evolution.svg",
+                "caption": "Figure 6: Self-consistent evolution on the special $L=$J/M$$ branch for three initial spins. The ratio J/M stays constant, so $J\\propto M$ and $\\chi=J/M^{2}\\propto M^{-1}$. The $\\chi_{i}=0$ curve remains exactly nonrotating. The spin dependence of the mass history is too small to be resolved on the logarithmic upper panel: relative to the $\\chi_{i}=0$ trajectory, $|\\Delta M|/M$ is about $1.3\\times 10^{-7}$ ($4.3\\times 10^{-7}$) for $\\chi_{i}=0.5$ ($0.9$) at $z\\simeq 12$, and grows to only $8.3\\times 10^{-6}$ ($2.8\\times 10^{-5}$) just before the common supply cap at $z\\simeq 11.39$. Once the same finite SIDM supply cap is reached, all three mass trajectories coincide."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12282v1/final_mass_spin_distributions.png",
+                "caption": "Figure 7: Illustrative black-hole populations at $z=7$ from three initially nonspinning stellar-mass PBH seed profiles evolved through the critical Kerr SIDM Bondi channel for $m=10^{-2}\\,\\mathrm{eV}$ and fixed $\\ell=0.5,1,1.5$. Left panels: final mass distributions; the insets show the corresponding normalized initial PBH seed profiles, common to all three $\\ell$ values in each row. Right panels: probability densities for the fixed-point deviation $\\delta\\chi_{f}\\equiv\\ell/2-\\chi_{f}$ on a logarithmic horizontal axis. The rows correspond to log-normal, power-law, and critical-collapse-like seed profiles."
+            }
+        ],
+        "abstract": "Recent JWST observations motivate mechanisms for rapid black-hole growth in the early Universe. Extending our previous Schwarzschild study, we show that critical relativistic Bondi accretion of repulsively self-interacting dark matter remains an efficient super-Eddington channel for Kerr black holes with rotating inflow. Within a stationary equatorial quasi-spherical framework, smooth critical solutions exist over a finite range of inflow angular momentum set by the Kerr marginally bound capture values. Rotation changes the sonic structure and accretion efficiency, while the critical density cancellation and dark-sector/halo matching retain their Schwarzschild form. The resulting rapid growth persists until the finite halo supply becomes limiting. Because the inflow also carries angular momentum, stellar-mass seeds can grow and spin up simultaneously; illustrative population evolutions therefore provide a joint mass--spin route to early supermassive Kerr black holes.\n    "
+    },
+    "2611.12363": {
+        "title": "Naturalness in the Past from a Time-Dependent Supersymmetry Scale",
+        "authors": [
+            "Tony Gherghetta",
+            "Kunio Kaneta",
+            "Wenqi Ke"
+        ],
+        "keywords": "",
+        "figures": [
+            {
+                "url": "https://arxiv.org/html/2611.12363v1/m32sigma.png",
+                "caption": "Figure 1: The evolutions of $m_{3/2}$ and $\\sigma$ with e-fold $N$ for\n$m_{3/2,0}=100\\penalty\\ {\\rm TeV}$. The insets depict the evolutions near $N=0$.\nGray lines mark the standard-cosmology epochs for\nmatter\u2013radiation equality, the QCD transition, and the electroweak\ntransition at $N\\simeq-8,-28,-35$, respectively and the band marks BBN\n($-22<N<-18$)."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12363v1/womega.png",
+                "caption": "Figure 2: The evolutions of the total equation of state $w\\equiv p_{tot}/\\rho_{tot}$, as well as the matter (green solid), radiation (dashed) and scalar (dot-dashed) energy-density fractions as a function of the e-folds $N$."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12363v1/voverm32.svg",
+                "caption": "Figure 3: The zero-temperature evolution of the matched weak-scale\n$v/m_{3/2}$ from the one-loop MSSM hybrid potential\nwith selected SM RG improvement, assuming $n_{H_{u}}=9/8$, $n_{H_{d}}=-1/2$,\n$n_{\\mu}\\simeq-3.62$ ($\\Delta\\simeq 3.93$),\n$\\tan\\beta_{0}\\simeq 4.55$, $m_{3/2,0}=100\\penalty\\ {\\rm TeV}$,\n$C_{ud,0}\\simeq 0.07$, and\n$\\mu_{0}/m_{3/2,0}\\simeq 0.16$.\nThe dashed line shows today\u2019s ratio,\n$v_{0}/m_{3/2,0}\\simeq 2.47\\times 10^{-3}$."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12363v1/mssm_thermal_spectrum_levels.svg",
+                "caption": "Figure 4: Present-day MSSM spectrum for the parameters of\nFig. 3 and Appendix C,\nevaluated at $Q=m_{3/2}$, except for the light Higgs\nshown at its approximate pole mass.\n"
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12363v1/nmssm_nonthermal_spectrum_levels.svg",
+                "caption": "Figure 5: Present-day NMSSM spectrum for\nEqs. (38)\u2013(41), with Yukawa\nexponents from Appendix C, evaluated at\n$Q=m_{3/2}$, except for the light Higgs shown at its\napproximate pole mass.\n"
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12363v1/voverm32nmssm.svg",
+                "caption": "Figure 6: The evolution of $v/m_{3/2}$ with e-folds $N$ for the NMSSM solution,\nusing the stationary Higgs VEV at $Q=m_{3/2}$.\n"
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12363v1/sigma_m32_reference_style.png",
+                "caption": "Figure 7: The evolution of $m_{3/2}$ (blue) and $\\sigma/M_{P}$\n(orange), including thermal and baryonic forces, for\nthe MSSM (solid) and NMSSM (dashed), with boundary conditions\n(44) and (45), respectively."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12363v1/vev_over_m32_reference_style.png",
+                "caption": "Figure 8: The evolution of $v/m_{3/2}$ with e-fold number $N$ for the thermal MSSM and\nNMSSM solutions, evaluated at the approximate interpolated thermal Higgs\nminimum at $Q=m_{3/2}$. Intervals with $v=0$ are omitted."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12363v1/mssm_yukawa_reference_style.png",
+                "caption": "Figure 9: The evolution of the canonically normalized Yukawa couplings\nat $Q=m_{3/2}(\\sigma(N))$ for the MSSM solution along the thermal trajectory.\n"
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12363v1/nmssm_yukawa_reference_style.png",
+                "caption": "Figure 10: The evolution of the canonically normalized Yukawa couplings\nat $Q=m_{3/2}(\\sigma(N))$ for the NMSSM solution along the thermal trajectory."
+            }
+        ],
+        "abstract": "We consider the possibility that electroweak naturalness may be epoch dependent. In no-scale supergravity, a rolling quintessence modulus can control the supersymmetry-breaking scale, allowing superpartners to be much lighter in the early universe while remaining heavy today. Fifth-force and varying-constant effects can be suppressed via correlated modular weights in the visible-sector K\u00e4hler metric and modulus-dependent superpotential Yukawa couplings, while radiative stability of the quintessence potential requires additional tuning of the field-dependent vacuum energy. The resulting effective theory has distinctive implications for early-universe phase transitions, relic abundances, and gravitational waves.\n    "
+    },
+    "2611.12470": {
+        "title": "The Connection between Halo Assembly History and the Stellar Distribution II: A Radially Stratified Fossil Record of Past Halo Mass",
+        "authors": [
+            "Shuo Xu",
+            "Song Huang",
+            "Conghao Zhou",
+            "Alexie Leauthaud",
+            "Benedikt Diemer"
+        ],
+        "keywords": "",
+        "figures": [
+            {
+                "url": "https://arxiv.org/html/2611.12470v1/Fig1.svg",
+                "caption": "Figure 1: \nSchematic illustration using mock data of the two diagnostics used in this work.\nTop row: the fossil correlation $\\tilde{\\rho}($$z$$)$: the correlation, across halos, between a present-day observable $$$$$$X$$$$$$ and the mass of each halo\u2019s main progenitor at an earlier epoch z.\nLeft: main-progenitor mass histories of halos selected today ($\\log M_{\\rm halo}>13$ at $z=0.4$), colored by a present-day observable X (e.g., the stellar mass of the central galaxy).\nMiddle: X versus present-day halo mass.\nRight: X versus the main-progenitor mass at an earlier epoch $z^{*}=1.5$.\nThe correlation of this cloud defines $\\tilde{\\rho}(z^{*})$.\nBottom row: the rank retention fraction $f_{\\rm ret}(z)$: the fraction of the Top-$$$$N$$$$ halos selected by X today whose main progenitors are among the Top-N most massive halos at z.\nMiddle: the Top-N halos by X are selected today (orange).\nLeft: their mass histories. Circles mark their progenitor masses at $z^{*}$ and the dashed segment marks the Top-N mass threshold at that epoch. Filled circles lie above the threshold, open circles below.\nRight: progenitor masses at $z^{*}$ for the selected halos (orange) and for the full halo population (gray, from the halo mass function).\n$f_{\\rm ret}(z^{*})$ is the fraction of the orange sample above the dashed line."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12470v1/Fig2.svg",
+                "caption": "Figure 2: \nLeft panel: Fossil correlation between present-day central stellar mass in different radial regions (color-coded) and past halo mass $M_{\\rm halo}(z)$. The blue line shows richness $\\lambda_{10,R_{200}}$, and the gray line shows $M_{\\rm halo}$ at $z=0.4$. All radial components exhibit a characteristic non-monotonic evolution with a peak at intermediate redshift, but the peak shifts to later epochs for larger radii. Middle panel: Partial fossil correlation between present-day stellar mass and the forward accretion rate $\\Gamma_{\\rm dyn+}(z)$ at fixed halo mass at the same redshift (\u00a7III.4). Stars mark the fossil correlation peaks from the left panel. The curves end at $z\\approx 0.55$ because $\\Gamma_{\\rm dyn+}$ requires the following half dynamical time. The radial dependence mirrors the left panel: outer regions retain positive partial correlations to later times, while the partial correlation for richness rises toward low redshift.\nRight panel: Rank retention fraction for the same radial selections (Top-$N=900$, selected from the full sample). The innermost stellar mass ($M_{\\star,10~{\\rm kpc}}$) exhibits the highest rank retention at $z\\gtrsim 2$, staying nearly constant at low redshift and declining at $z\\gtrsim 1.1$, whereas outer components exhibit the same two-phase behavior, but the transition into the declining phase shifts to progressively lower redshifts (later epochs) for larger radii. Stars mark the fossil correlation peaks from the left panel. Collectively, these panels demonstrate that the stellar mass profile preserves a radially stratified memory of halo assembly: the inner regions best encode the halo mass at earlier epochs, and the outer regions at later epochs. The shaded regions indicate the error bars, estimated from bootstrapping in the left and middle panels and from jackknife resampling in the right panel.\n"
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12470v1/Fig3.svg",
+                "caption": "Figure 3: \nFossil correlation between the past halo mass $M_{\\rm halo}(z)$ and various stellar mass measurements for the massive-halo sample with $\\log[M_{\\rm halo}/M_{\\odot}]\\geq 13.5$ at $$z=0.4$$. Colored curves show the fossil correlation for the stellar mass within different regions; the black curve shows the fossil correlation for $M_{\\rm halo}$ at z=0.4. Shaded bands indicate the $1\\sigma$ error from bootstrapping. Panel (a): Fossil correlation for the central stellar mass measured in 2D elliptical apertures, using the same aperture definition as Fig.\u00a02 but with a coarser radial binning (innermost aperture of $30\\,$kpc). Panel (b): Same as panel (a), but with the stellar mass measured in 3D shells; the resulting curves are consistent with those in panel (a). Panel (c): Fossil correlation for the ex situ stellar mass in 2D apertures; the curves are also stratified by aperture radius, with outer apertures showing stronger correlations. Panel (d): Fossil correlation for the in situ stellar mass in 2D apertures; outer apertures show weaker, broader peaks that shift to later epochs with radius, while the innermost aperture rises monotonically toward higher redshifts.\n"
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12470v1/Fig4.svg",
+                "caption": "Figure 4: \nFossil correlation between present-day galaxy properties and past satellite richness ($\\lambda_{9,R_{200}}$) as a function of cosmic age. All radial components peak near $z\\approx 1$, with a smaller shift with radius than in Fig.\u00a02, while the halo mass and richness correlations increase monotonically toward the present. Importantly, the correlation is stronger in the outer regions than in the inner regions. Furthermore, stellar mass in the innermost region ($10\\text{ kpc}$) shows a notably weaker correlation than its correlation with past halo mass shown in Fig. 2, suggesting that inner-region stellar mass growth is insensitive to richness evolution.\n"
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12470v1/FigA.svg",
+                "caption": "Figure A1: \nHalo mass dependence of present-day galaxy property correlation with past halo mass across cosmic time. From left to right, panels show the correlation $\\rho$ for richness $\\lambda_{10,R_{200}}$, outer stellar mass $M_{\\star,[50,100]\\text{ kpc}}$, and inner stellar mass $M_{\\star,10\\text{ kpc}}$, categorized by different minimum halo mass thresholds. Colors indicate different minimum halo mass thresholds. For richness, all mass scales increase monotonically, but more massive halos show a stronger correlation with their past mass at low redshift ($z\\lesssim 0.7$) than lower-mass systems. For outer and inner stellar mass, the peaks for different thresholds occur at similar redshifts (except the two highest halo mass samples for innermost region). Lower-mass halos show higher peaks but decline more rapidly toward high redshift, while massive halos maintain more persistent but weaker correlations."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12470v1/FigA2.svg",
+                "caption": "Figure A2: \nPeak redshifts of the fossil correlation\n$\\tilde{\\rho}_{M_{\\rm halo}}$ as a function of the minimum present-day halo mass.\nDifferent colors show the five central stellar components used in Fig.\u00a02.\nWe measure peak positions with local quadratic fits within $\\pm 0.5$ Gyr of the maximum correlation. Error bars show the 16th\u201384th percentile ranges from 500 bootstrap realizations. We apply small horizontal offsets to the different components for clarity.\nUpward-pointing triangles at the upper plotting boundary denote $M_{\\star,10}$ measurements whose fitted peaks lie above $z=1.2$. We omit their error bars because the corresponding correlation curves are broad and the peaks are poorly constrained.\nThe outer components show weak variation with the mass threshold and preserve their radial ordering.\n"
+            }
+        ],
+        "abstract": "The spatial stellar distribution in massive central galaxies preserves a stratified fossil record of their host halos' assembly history. Using a halo-mass-complete sample from the IllustrisTNG-300 hydrodynamical simulation at $z=0.4$, we quantify this connection with two diagnostics. The fossil correlation $\\tilde{\\rho}(z)$ measures how strongly a present-day galaxy property retains information about the progenitor halo mass at each redshift. The rank retention fraction $f_{\\rm ret}(z)$ measures how many halos selected by that property today were among the most massive halos at each epoch. The central stellar mass at different galactocentric radii exhibits non-monotonic fossil correlations with past halo mass, peaking at intermediate redshifts that systematically shift from $z\\sim1$ in the inner regions to $z\\sim0.7$ in the outer stellar halos. These peak redshifts are robust from group to cluster scales. Partial correlations with halo accretion rate show that each peak marks the end of the epoch when that component's buildup was sensitive to halo accretion. The rank retention fraction shows that the annular stellar masses of the central galaxy beyond 10 kpc are less biased tracers of the most massive halos at intermediate redshifts than richness. This stratified fossil record originates mainly from the ex-situ phase of galaxy assembly. The outer stellar halo also traces the satellite population at intermediate redshift better than present-day richness. These results establish that the stellar profile of massive central galaxies encodes a radially stratified fossil record of halo assembly history.\n    "
+    },
+    "2611.12845": {
+        "title": "AGN Feedback Turbulence in Cool-core Clusters: Evidence from XRISM",
+        "authors": [
+            "Congyao Zhang",
+            "Eugene Churazov",
+            "Irina Zhuravleva",
+            "Hannah McCall",
+            "Annie Heinrich",
+            "William R. Forman",
+            "Ildar Khabibullin",
+            "Michal Zaja\u010dek",
+            "Norbert Werner"
+        ],
+        "keywords": "",
+        "figures": [
+            {
+                "url": "https://arxiv.org/html/2611.12845v1/figures/perseus_model.png",
+                "caption": "Figure 1: Radial profile of the velocity dispersion (red points) in Perseus along the NW direction, measured from the XRISM Performance Verification (PV) observations. The measurements indicate the presence of two dominant kinematic drivers (XRISM Collaboration, 2026a): one powered by AGN feedback and the other associated with mergers. The corresponding theoretical models are shown by the light-orange and grey lines, respectively. The AGN feedback component is modeled as a uniform Gaussian random velocity field with $\\sigma_{\\rm agn}=150{\\rm\\,km\\,s^{-1}}$, $\\ell_{\\rm inj}=20{\\rm\\,kpc}$ and $r_{\\rm agn}=55{\\rm\\,kpc}$ (see Section 2 for more details). The shaded region indicates the standard deviation of the velocity dispersion in each radial bin from the turbulent simulation. The thick black line shows the total model, obtained by adding the two components in quadrature, which provides a good description of the XRISM measurements. "
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12845v1/figures/perseus_agn_model.png",
+                "caption": "Figure 2: Predicted radial profiles of the velocity dispersion in Perseus for different extents of the AGN feedback region, $r_{\\rm agn}=55{\\rm\\,kpc}$ (black, same as in Fig. 1) and $r_{\\rm agn}=90{\\rm\\,kpc}$ (blue). The dashed and solid lines show the feedback component and the total model, respectively. The red points reproduce the Perseus data points shown in Fig. 1. The double-driver scenario can produce a relatively flat velocity dispersion radial profile (see Section 2). "
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12845v1/figures/a1795_params.png",
+                "caption": "Figure 3: Bulk velocity (top) and velocity dispersion (bottom) measured across the four quadrant subregions of the central XRISM/Resolve pointing of A1795 (red points). The bulk velocities are measured relative to the BCG ($z_{\\rm BCG}=0.06300$). For comparison, the blue points show measurements from the two outermost annuli in the off-axis pointing reported by Sarkar et al. (2026). No significant bulk motions are detected in the observed regions, suggesting that AGN feedback on small scales makes a substantial contribution to the velocity field in the cluster core (see Section 3.1). "
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12845v1/figures/a1795_model.png",
+                "caption": "Figure 4: Same as Fig. 1 but for A1795. The red points show the XRISM measurements (Sarkar et al., 2026). The AGN feedback component (light-orange) is modeled with $\\sigma_{\\rm agn}=120{\\rm\\,km\\,s^{-1}}$, $\\ell_{\\rm inj}=20{\\rm\\,kpc}$, and $r_{\\rm agn}=105{\\rm\\,kpc}$. The merger component (grey; baseline model) is modeled using the same turbulent simulation as for Perseus. The profile extracted from an earlier snapshot of the simulation (blue) is shown to illustrate the potential systematic uncertainty in the merger contribution (see also Fig. 13). In either case, AGN feedback dominates the velocity dispersion in the core of A1795 (see Section 3.1). "
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12845v1/figures/merger_mock_a2029.png",
+                "caption": "Figure 5: Left panel: Simulated X-ray surface brightness distribution at $t\\simeq 1.6{\\rm\\,Gyr}$, which resembles the relative positions of A2029 (the main cluster) and a southern infalling group (Sohn et al., 2019; Mirakhor et al., 2022, see). The white dashed line indicates the group\u2019s infalling trajectory. The group is approaching its primary apocenter. Right panels: Zoomed-in maps of the X-ray surface brightness, X-ray-weighted temperature, X-ray-weighted LOS bulk velocity, and velocity dispersion in the region indicated by the black box in the left panel. The white circle approximately indicates the region covered by the XRISM central PV pointing. Our simulation broadly captures key X-ray features in A2029 (see Section 3.2). "
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12845v1/figures/merger_a2029_scan.png",
+                "caption": "Figure 6: X-ray-weighted velocity dispersions (solid points) measured within a radius of $\\simeq 135{\\rm\\,kpc}$, approximately the XRISM/Resolve\u2019s FOV at A2029\u2019s redshift, along $500$ different sightlines in the $t=1.6$ and $2.6{\\rm\\,Gyr}$ snapshots, respectively. The sightlines are uniformly sampled over $4\\pi$ steradians, with the inclination angle defined as the angle between the sightline and the normal to the merger plane. The horizontal yellow band indicates the XRISM measurement and its $1\\sigma$ uncertainty. Open points show the velocity dispersion at $t=1.6{\\rm\\,Gyr}$ after excluding the bulk velocity contribution (see Section 3.2 for details). The sloshing-driven bulk rotation of the gas is the major source of uncertainty in our model of $\\sigma_{\\rm los}$. "
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12845v1/figures/a2029_model.png",
+                "caption": "Figure 7: Same as Fig. 1 but for A2029. The AGN feedback component is modeled with $\\sigma_{\\rm agn}=100{\\rm\\,km\\,s^{-1}}$, $\\ell_{\\rm inj}=20{\\rm\\,kpc}$, and $r_{\\rm agn}=120{\\rm\\,kpc}$. The large-scale component (grey solid line and shaded region) is derived from the tailored merger simulation for A2029 at $t=1.6{\\rm\\,Gyr}$. The overlaid dashed line shows the predicted merger component with the bulk-motion contribution excluded, providing a better comparison with the measurements beyond $\\simeq 150{\\rm\\,kpc}$ along the NE arm (XRISM Collaboration, 2025d). Accounting for systematic uncertainties in the modeling, we can only place an upper limit on $\\sigma_{\\rm agn}$, which nevertheless indicates that the AGN contribution is subdominant to that of the merger (see Section 3.2). "
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12845v1/figures/merger_a2029_prof.png",
+                "caption": "Figure 8: Evolution of the radial profile of the LOS velocity dispersion for the A2029 merger simulation, viewed along the direction adopted in the best-match model. The grey band shows the same data as in Fig. 7, but binned logarithmically in radius. The elevated $\\sigma_{\\rm los}$ within $\\simeq 40{\\rm\\,kpc}$ at $t=1.6{\\rm\\,Gyr}$ reflects the early stage of sloshing spiral development (see Section 3.2)."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12845v1/figures/merger_a2029_slice.png",
+                "caption": "Figure 9: Gas entropy slices across the merger plane, illustrating the early evolution of atmospheric sloshing in our A2029 simulation. The low-entropy gas core ($\\lesssim 50{\\rm\\,keV}{\\rm\\,cm}^{2}$) is significantly displaced from the gravitational potential center (white cross) for $\\sim 0.8{\\rm\\,Gyr}$, increasing the central cooling time $t_{\\rm cool}$ and the ratio of $t_{\\rm cool}/t_{\\rm ff}$. Our best-matching snapshot for A2029 is at $t\\simeq 1.6{\\rm\\,Gyr}$ (as shown in Fig. 5), approximately $0.2{\\rm\\,Gyr}$ after the low-entropy gas returns to the central region. This is broadly consistent with the lack of cold gas but the presence of newly launched radio jets in the system (see Section 4.1). "
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12845v1/sketch.svg",
+                "caption": "Figure 10: A schematic illustrating the relative contributions of merger-driven and AGN feedback-driven turbulence to the velocity dispersion measured by XRISM in cluster central regions. Mergers inject substantial kinetic energy during core passage, which gradually dissipates (blue curve). The characteristic timescale over which a cluster is affected by a significant merger is a few Gyr, depending on its merger history. The red curve indicates the AGN feedback contribution, which may be quenched or significantly suppressed by the violent redistribution of the gas during the merger, but is eventually restored as the atmosphere resettles and cools. $\\Delta t_{\\rm q}$ and $\\Delta t_{\\rm r}$ denote the quenching and turbulence-refilling timescales, respectively. The sketch is not drawn to scale. A quasi-steady state of AGN feedback is likely established in relaxed clusters. The zig-zags are intended to illustrate the spatial and temporal variations in AGN feedback. We mark six galaxy clusters with deep XRISM observations in the sketch, including the two clusters analyzed in detail in this paper as well as Perseus (XRISM Collaboration, 2026a; Zhang et al., 2026a), A3571 (Aihara et al., 2026; McCall et al., 2026), Centaurus (XRISM Collaboration, 2025a), and Coma (XRISM Collaboration, 2025b; Gatuzz et al., 2026). "
+            }
+        ],
+        "abstract": "The XRISM X-ray Observatory has revealed evidence for a \"double-cascade\" scenario in the Perseus cluster, in which active galactic nucleus (AGN) feedback and mergers drive turbulence over distinct radial ranges and spatial scales. Whether this gas kinematic feature is common among cool-core clusters remains unclear. Here, we revisit XRISM observations of A1795 and A2029 to investigate the signatures of AGN feedback and their contribution to the gas velocity fields. In A1795, AGN feedback dominates the velocity dispersion in the core, similar to Perseus, and may provide turbulent heating at a rate comparable to radiative cooling. In contrast, we obtain only an upper limit on the AGN feedback contribution in A2029, where merger-driven motions dominate. Tailored simulations indicate that an off-axis minor merger $\\simeq1.6$ Gyr ago displaced the central low-entropy gas in A2029, potentially suppressing AGN activity. This gas is now returning to the center, possibly facilitating the re-establishment of AGN feedback. We propose an evolutionary view of the double-cascade scenario, in which merger-driven motions dominate during and shortly after significant mergers, while feedback-driven turbulence re-emerges in cluster cores as systems relax. This framework provides a basis for interpreting XRISM kinematic measurements of (weak) cool-core clusters. Our findings highlight the importance of spatially resolved gas kinematics and detailed modeling for identifying double-cascade features and disentangling the contributions of AGN feedback and mergers.\n    "
+    },
+    "2611.12860": {
+        "title": "Search for a Dispersion Measure Excess Toward Nearby Galaxy Halos Using Fast Radio Bursts from the Second CHIME/FRB Baseband Catalog",
+        "authors": [
+            "Affan Khadir",
+            "Ayush Pandhi",
+            "Jason Hessels",
+            "Calvin Leung",
+            "B. M. Gaensler",
+            "Ludwig M. B\u00f6ss",
+            "Amanda M. Cook",
+            "Alice P. Curtin",
+            "Klaus Dolag",
+            "Naman Jain",
+            "Victoria Kaspi",
+            "Afrokk Khan",
+            "Adam E. Lanman",
+            "Kiyoshi W. Masui",
+            "Daniele Michilli",
+            "Mason Ng",
+            "Aaron B. Pearlman",
+            "Sachin Pradeep E. T.",
+            "Aniket Prasad",
+            "Mawson Sammons",
+            "Paul Scholz",
+            "Kaitlyn Shin",
+            "Kendrick M. Smith",
+            "Jenny G. Sorce",
+            "Haochen Wang",
+            "Michele Woodland"
+        ],
+        "keywords": "",
+        "figures": [
+            {
+                "url": "https://arxiv.org/html/2611.12860v1/berrvDL.svg",
+                "caption": "Figure 1: The median uncertainty on foreground galaxy impact parameter for the different types of localizations that can be obtained from the CHIME/FRB instrument, as a function of luminosity distance to the foreground galaxy. The localization uncertainties for the intensity ($\\theta_{\\mathrm{err}}^{\\mathrm{med}}=0.19^{\\circ}$), baseband ($\\theta_{\\mathrm{err}}^{\\mathrm{med}}=32^{\\prime\\prime}$), and full Outrigger array ($\\theta_{\\mathrm{err}}^{\\mathrm{med}}=100$\u2009 mas) localizations are presented in orange, blue and green, respectively. The dotted line represents the 10% error threshold for typical MW-like galaxies."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12860v1/gal_mass_hist_fid.png",
+                "caption": "Figure 2: The stellar mass distributions of the galaxies in the 50MGC catalog displayed as the red outline, along with Galaxy Sample A highlighted in gray, with which we cross-match FRB sightlines to search for a signature of the DM contribution from intervening galaxy CGMs."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12860v1/gal_mass_hist_map.png",
+                "caption": "Figure 3: Stellar mass distribution for the galaxy sample obtained from supplementing 50MGC galaxies with REGALADE galaxies at a distance beyond 50\u2009Mpc, up to a maximum distance of 150\u2009Mpc. The highlighted Bins 0, 1, 2 and 3 correspond to stellar mass bins with widths of 0.5 dex, in the mass range $9.5\\leq\\log(M_{*}/M_{\\odot})\\leq 11.5$, in ascending order."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12860v1/gals_reg_near.svg",
+                "caption": ""
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12860v1/gals_reg.svg",
+                "caption": ""
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12860v1/frb_pierced_reg_near.svg",
+                "caption": ""
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12860v1/frb_pierced_reg.svg",
+                "caption": ""
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12860v1/cdf.svg",
+                "caption": "Figure 6: Cumulative distribution functions of the extragalactic DMs of BaseCat2 FRBs piercing galaxies (in red) and ones that do not (in blue)."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12860v1/dmvb_binned.svg",
+                "caption": "Figure 7: The background-corrected mean DM profile for FRBs that intersect CGMs within $2r_{\\mathrm{CGM}}$ as a function of the fractional minimal impact parameter, indicated as blue dots. The error bars indicate standard error in the mean, with the red dotted line displaying the 0 $\\mathrm{DM_{egal}}$ threshold. The bottom panel displays the effective number of data points per radial bin."
+            },
+            {
+                "url": "https://arxiv.org/html/2611.12860v1/dmvb_binned_min=9.5_max=10.0.svg",
+                "caption": "Figure 8: The background-corrected mean DM profiles (indicated with scatter points) as a function of fractional minimal impact parameter for the different mass bins, with the error bars representing the standard error on the mean, with the red dotted line displaying the 0 $\\mathrm{DM_{egal}}$ threshold. The bottom panel displays the effective number of data points per radial bin."
+            }
+        ],
+        "abstract": "Fast radio bursts (FRBs) probe foreground ionized baryons via their dispersion measures (DM). Using 1748 sub-arcminute-localized sources from the Second CHIME/FRB Baseband Catalog, we conduct a statistical stacking study of the circumgalactic media (CGM) of nearby galaxies by analyzing the DMs of FRBs whose sightlines intersect foreground halos. For galaxy halos within 50 Mpc, we measure a mean DM excess of $119\\pm44$ pc~cm$^{-3}$ $(p = 0.0053; \\sim 2.6\\sigma)$ within one virial radius. Expanding to 150 Mpc (628 intersections), we find a tentative decline in the mean DM as a function of impact parameter $(p = 0.0046; \\sim 2.6\\sigma)$, which is predominantly driven by typical Milky Way (MW)-like galaxies $(10 \\leq \\log(M_*/M_\\odot)\\leq 11)$. We use this DM profile to constrain parameters of the CGM electron density distribution, $n_e^\\mathrm{CGM}(r) \\propto r^{-3\\beta}$, finding an extrapolated central electron density in the range of $(1.7-21.1) \\times 10^{-3}\\mathrm{\\,cm}^{-3}$, with a radial power-law index of $\\beta = 0.68^{+0.15}_{-0.16}$, consistent with constraints from X-ray stacking studies of MW-like galaxies. At very low impact parameters, we detect a significant DM deficit likely due to cross-matching FRBs that originate from galaxies within our galaxy sample. By deriving the DM-galaxy cross-correlation function, we show that this deficit matches theoretical predictions if 20 FRBs originate from galaxies within 150 Mpc, indicating that CHIME/FRB detects a higher fraction of low-$z$ FRBs than previously thought. We forecast that $10^4$ FRBs with similar localization errors will provide a 5-$\\sigma$ detection of the CGM, and that FRBs at intermediate redshifts ($0.4\\lesssim z_\\mathrm{FRB}\\lesssim 0.75$) are ideal for studying intervening CGMs.\n    "
+    }
+}
