@@ -123,7 +123,7 @@
         }
         #controls{
             position: absolute;
-            width: 450px;
+            width: 550px;
             left: calc(50% - 225px);
             bottom:0%;
             z-index: 20000;
@@ -141,7 +141,7 @@
             display: inline-block;
         }
         #controls-cat{
-            width: 100px;
+            width: 200px;
         }
         #controls p{
             margin:0 auto;
@@ -551,6 +551,16 @@ async function load_files(n){
 
     const indexResponse = await fetch(folderPath);
     files = await indexResponse.json();
+
+    if (Object.keys(files).length == 0){
+        const div = document.getElementById("papers-container");
+        div.innerHTML = "<h1>No papers found, check arxiv.</h1>";
+        document.body.appendChild(div);
+        window.setTimeout(function(){
+            location.reload();
+        },600_000);
+        return;
+    }
 
     for (var i=0;i<n;i++){
         loadPaper(articles_url);
