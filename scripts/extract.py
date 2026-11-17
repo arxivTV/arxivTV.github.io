@@ -1,5 +1,4 @@
-import requests,tarfile,os,re,tempfile,json
-import shutil
+import requests,tarfile,os,re,tempfile,json,datetime,shutil,time
 from bs4 import BeautifulSoup
 import fitz
 import xml.etree.ElementTree as ET
@@ -395,7 +394,25 @@ def main(id):
 
         return metadata | keywords | figures
 
+def already_ran_successfully():
+    #Checks if json files exist for any category, and if at least one of them is not empty
+    today = datetime.datetime.today().date()
+
+    for arxiv_cat in arxiv_cats:
+        file = f'build/articles_astro-ph.{arxiv_cat}.json'
+        if os.path.isfile(file):
+            modified_date = datetime.datetime.fromtimestamp(os.path.getmtime(file)).date()
+            if modified_date == today:
+                with open(file) as f:
+                    papers = json.load(f)
+                    if len(papers) > 0:
+                        return True
+    return False
+
 arxiv_cats = ['GA','EP','CO','HE','IM','SR']
+if already_ran_successfully() == True:
+    quit()
+
 if not os.path.exists('build'):
     os.mkdir('build')
 
