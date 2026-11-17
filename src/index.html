@@ -186,6 +186,15 @@
                 rgba(0,0,0,0.5)
             );
         }
+        #papers-container.no_paper{
+            flex-direction: column;
+            text-align: center;
+        }
+        .no_paper_desc{
+            font-style: italic;
+            max-width: 500px;
+            margin: 0 auto;
+        }
     </style>
 </head>
 <body>
@@ -548,13 +557,24 @@ async function loadPaper(folderPath,prepend=false) {
 
 async function load_files(n){
     folderPath = articles_url + "?v=" + Math.floor(Math.random() * 100000);
+    const cat = articles_url.split('.')[1];
 
     const indexResponse = await fetch(folderPath);
     files = await indexResponse.json();
 
     if (Object.keys(files).length == 0){
         const div = document.getElementById("papers-container");
-        div.innerHTML = "<h1>No papers found, check arxiv.</h1>";
+        div.className = 'no_paper';
+        div.innerHTML = 
+            "<h1 class='no_paper_title'>No papers found, this can happen for 2 reasons:</h1>" +
+            "<p class='no_paper_desc'>1) Today's papers just appeared recently on arXiv. Checks for new papers are made between 8AM and 11AM every 15min.</p>" +
+            "<p class='no_paper_desc'><b>In that case, brew coffee and be patient!</b></p>" +
+            "<p></p>" +
+            "<p class='no_paper_desc'>2) ArXiv did not publish new papers today and tomorrow will have twice as many papers as usual.</p>" +
+            "<p class='no_paper_desc'><b>In that case, brew coffee and be patient!</b></p>" +
+            "<p></p>" +
+            "<p class='no_paper_desc'>You can check new papers <a href='https://arxiv.org/list/astro-ph." + cat + "/recent'>at this link</a>.</p>"
+        ;
         document.body.appendChild(div);
         window.setTimeout(function(){
             location.reload();
